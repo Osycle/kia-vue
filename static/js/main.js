@@ -1,21 +1,9 @@
-"use strict";
-
-
 
 (function() {
 	$(function() {
 
 
-		/*AOS*/
-		if( "AOS" in window ){
-			AOS.init({
-				offset: 100,
-				once: true,
-				duration: 1100,
-				delay: 150
-			});
-			setTimeout(function() { AOS.refresh(); }, 1);
-		}
+
 
 		/* bootstrap tooltip*/		
 		$('[data-toggle="tooltip"]').tooltip({
