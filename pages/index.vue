@@ -62,7 +62,17 @@
 
 
 <script>
-export default {}
+//import owlCarousel from '@/static/js/plugins/owl.carousel.min.js';
+export default {
+  head: {
+    script: [
+      {src: '/js/plugins/owl.carousel.min.js'},
+    ]
+  },
+  components: {
+    
+  }
+}
 </script>
 
 <style>
