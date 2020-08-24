@@ -29,6 +29,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/static/fonts/Kia/stylesheet.css',
     '@/static/scss/plugins.scss',
     '@/static/scss/main.scss'
   ],
@@ -37,7 +38,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    //'~/assets/js/plugins/jquery.min.js'
+    
   ],
   /*
   ** Auto import components
@@ -55,7 +56,11 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxt/http',
   ],
+  serverMiddleware: {
+    '/api': '~/api'
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

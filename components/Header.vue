@@ -9,7 +9,7 @@
               <ul class="menu-list">
                 <!-- <li><a href="about.html">Модели</a></li> -->
                 <li><nuxt-link to="/models">Модели</nuxt-link></li>
-                <li><a href="services.html">Выбор и покупка</a></li>
+                <li><nuxt-link to="/testdata">Выбор и покупка</nuxt-link></li>
                 <li><a href="projects.html">Конфигуратор</a></li>
                 <li><a href="news.html">Авто в наличии</a></li>
               </ul>
