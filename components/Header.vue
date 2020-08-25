@@ -1,5 +1,7 @@
 <template>
-  <header id="header" class="header header-scroll">
+<div>
+  <div class="header-hidden block"></div>
+  <header id="header" class="header header-scroll white-style">
     <!-- HEADER TOP -->
     <div class="header-top">
       <div class="container-p relative">
@@ -8,14 +10,14 @@
             <div class="menu p-h-15">
               <ul class="menu-list">
                 <!-- <li><a href="about.html">Модели</a></li> -->
-                <li><nuxt-link to="/models">Модели</nuxt-link></li>
-                <li><nuxt-link to="/testdata">Выбор и покупка</nuxt-link></li>
-                <li><a href="projects.html">Конфигуратор</a></li>
-                <li><a href="news.html">Авто в наличии</a></li>
+                <li><nuxt-link active-class="active" to="/models">Модели</nuxt-link></li>
+                <li><nuxt-link active-class="active" to="/testdata">Выбор и покупка</nuxt-link></li>
+                <li><nuxt-link active-class="active" to="/users">Конфигуратор</nuxt-link></li>
+                <li><nuxt-link active-class="active" to="/login">Login</nuxt-link></li>
               </ul>
             </div>
             <div class="header-logo col-md-2 p-h-15">
-              <nuxt-link to="/">
+              <nuxt-link exact to="/">
                 <svg viewBox="0 0 80 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M52.339 10.05v.78h.434c.366 0 .631.25.631.585 0 .118-.03.225-.059.309l-6.066 18.21a.194.194 0 00.033.174.158.158 0 00.13.064h4.728c.14 0 .295-.123.35-.271l4.032-12.756c.034-.132.16-.348.417-.348s.38.216.413.34l4.07 12.75c.064.162.219.285.358.285h4.728c.06 0 .097-.017.127-.06.042-.055.05-.14.037-.17L60.13 10.194c-.033-.072-.096-.144-.362-.144h-7.428zM38.572 29.98a.2.2 0 01-.201-.204v-18.5c0-.355-.28-.639-.628-.639h-.477v-.78h6.089c.112 0 .2.093.2.208v19.711a.2.2 0 01-.2.203h-4.783z" fill="currentColor"></path>
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M.667 19.998C.667 8.955 18.279 0 40.002 0c21.723 0 39.331 8.955 39.331 19.998C79.333 31.045 61.725 40 40.003 40 18.278 40 .666 31.045.666 19.998zm39.33-17.906c-19.408 0-35.14 8.015-35.14 17.906 0 9.895 15.732 17.91 35.14 17.91 19.413 0 35.147-8.015 35.147-17.91 0-9.891-15.734-17.906-35.146-17.906z" fill="currentColor"></path>
@@ -35,4 +37,6 @@
       </div>
     </div>
   </header>
+</div>
+
 </template>
