@@ -58,65 +58,33 @@
         </figure>
       </div>
     </div>
-    <div class="container">
-      <div>
-        <h1 class="title">
-          nuxt-express
-        </h1>
-        <div>
-          {{ test }}
-          <div class="links">
-            <a
-              href="/users"
-              class="button--green"
-            >
-              Users List
-            </a>
-          </div>
-        </div>
-        <div class="links">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--green"
-          >
-            Documentation
-          </a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button--grey"
-          >
-            GitHub
-          </a>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
 
 
 <script>
-//import owlCarousel from '@/static/js/plugins/owl.carousel.min.js';
+
+
+
 export default {
-  async asyncData ({ $http }) {
-    const test = await $http.$get('/api/test')
-    return {
-      test
-    }
-  },
   head: {
-    script: [
-      {src: '/js/plugins/owl.carousel.min.js'},
-    ]
+    // script: [
+    //   {src: '/js/plugins/jquery.min.js'},
+    //   {src: '/js/plugins/bootstrap.min.js'},
+    //   {src: '/js/plugins/jquery.fancybox.js'},
+    //   {src: '/js/plugins/select2.min.js'},
+    //   {src: '/js/plugins/jquery.mmenu.all.js'},
+    //   {src: '/js/plugins/smooth-scroll-link.min.js'},
+    //   {src: '/js/plugins/owl.carousel.min.js'},
+    //   {src: '/js/main.js'},
+    // ]
   },
   components: {
     
   }
 }
+
 </script>
 
 <style>

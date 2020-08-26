@@ -30,8 +30,6 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 
-
-
 export default {
   head: {
       script: [
@@ -43,10 +41,6 @@ export default {
         {src: '/js/plugins/smooth-scroll-link.min.js'},
         {src: '/js/plugins/owl.carousel.min.js'},
         {src: '/js/main.js'},
-        {
-          //src:'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
-        },
-
       ],
   },
   components: {

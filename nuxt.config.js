@@ -58,9 +58,6 @@ export default {
     '@nuxtjs/axios',
     '@nuxt/http',
   ],
-  serverMiddleware: {
-    '/api': '~/api'
-  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
