@@ -36,6 +36,8 @@ export default {
         {src: '/js/plugins/jquery.min.js'},
         {src: '/js/plugins/bootstrap.min.js'},
         {src: '/js/plugins/jquery.fancybox.js'},
+        {src: '/js/plugins/ion.rangeSlider.min.js'},
+        {src: '/js/plugins/theia-sticky-sidebar.min.js'},
         {src: '/js/plugins/select2.min.js'},
         {src: '/js/plugins/jquery.mmenu.all.js'},
         {src: '/js/plugins/smooth-scroll-link.min.js'},
