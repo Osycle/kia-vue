@@ -34,6 +34,14 @@
         </div>
       </div>
     </div>
+    <form @submit.prevent="fetchTest">
+      <div class="container">
+        <h3>Acasss</h3>
+        <input type="text" name="email" v-model="form.email">
+        <input type="password" name="password" v-model="form.password">
+        <button>SUBMIT</button>
+      </div>
+    </form>
     <div class="short-motext">
       <div class="container-p p-v-md">
         <div class="row">
@@ -61,7 +69,21 @@ export default {
     Bnr,
   },
   methods: {
-    ...mapActions(['loadModelsIndex'])
+    async fetchTest(){
+      console.log("asd");
+      const res = await fetch('http://localhost:3000/auth/fetchTest', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        credentials: 'include',
+        body: JSON.stringify({
+          email: this.form.email,
+          password: this.form.password
+        })
+      });
+      console.log(res);
+    }
   },
   computed: {
     loadModelsIndex(){
@@ -75,6 +97,12 @@ export default {
   },
   data(){
     return {
+      mode: "APOM",
+      form: {
+        email: '',
+        password: '',
+      },
+      errors: [],
       motext: {
         textH3: "Качество, проверенное временем",
         description: "KIA Motors — старейший корейский автопроизводитель, бренд основан в 1944 году. Завоевав лидирующие позиции в Южной Корее, марка KIA вышла на международный рынок и за несколько десятилетий завоевала репутацию динамично развивающегося бренда, производителя надёжных и практичных автомобилей. Современная история KIA – это стильный и узнаваемый дизайн, инновационные технологии и безупречное качество, широкий модельный ряд, рациональная ценовая политика и максимальная ориентированность на клиента. Девиз компании – «The Power to Surprise» («Искусство удивлять»). Компания не перестает удивлять поклонников новинками, которые восхищают передовыми технологиями и техническим совершенством. Каждая последующая модель опережает запросы клиентов, задает новые тренды в автомобильной индустрии.",
@@ -89,9 +117,6 @@ export default {
   },
   components: {
     
-  },
-  methods: {
-
   },
 
 
