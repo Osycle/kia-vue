@@ -70,8 +70,7 @@ export default {
   },
   methods: {
     async fetchTest(){
-      console.log("asd");
-      const res = await fetch('http://localhost:3000/auth/fetchTest', {
+      const res = await fetch('https://jsonplaceholder.typicode.com/users', { //http://hia-vue/handler.php
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -82,7 +81,9 @@ export default {
           password: this.form.password
         })
       });
-      console.log(res);
+      const data = await res.json();
+      //this.cars = res.json();
+      console.log(data);
     }
   },
   computed: {
@@ -91,13 +92,12 @@ export default {
     }
   },
   created(){
-    //console.log(this);
-    //this.loadModelsIndex(1000);
-    this.$store.dispatch('loadModelsIndex', 1000);
+    //this.$store.dispatch('loadModelsIndex', 1000);
   },
   data(){
     return {
       mode: "APOM",
+      cars: [],
       form: {
         email: '',
         password: '',

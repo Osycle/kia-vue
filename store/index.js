@@ -10,7 +10,7 @@ const loadModelsIndex = (time) => {
   return new Promise((resolve) => {
     setTimeout(()=>{
       resolve(reactions)
-    }, time)
+    }, 1000)
   })
 }
 

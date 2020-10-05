@@ -50,11 +50,11 @@ export default {
             textH1 : 'Новый KIA K5',
             description: 'Спортивный силуэт •  Дорожный просвет 155 мм • Объём багажника 510 л • Комплекс систем Drive Wise',
             bg:{
-              video: 'https://cdn.kia.ru/media-data/banner/video/a6efa924-3fd4-4eb2-8b48-b5eda29be47b.mp4',
+              video: 'video/bnr-k5.mp4',
             },
             img: {
-              xs: 'https://cdn.kia.ru/resize/375x188/media-data/banners/main_header/k5/K5_front.png',
-              md: 'https://cdn.kia.ru/resize/1440x720/media-data/banners/main_header/k5/K5_side.png',
+              xs: 'img/other/bnr-k5-xs.png',
+              md: 'img/other/bnr-k5.png',
             },
           },
         },
@@ -68,8 +68,8 @@ export default {
               video: 'img/slider/video-1.mp4',
             },
             img: {
-              xs: 'https://cdn.kia.ru/media-data/banners/models/seltos/options/seltos_options_mobile.png',
-              md: 'img/slider/1-2.png',
+              xs: 'img/other/bnr-seltos-xs.png',
+              md: 'img/other/bnr-seltos.png',
             }
           },
         }
