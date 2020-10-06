@@ -25,6 +25,13 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  server:{
+    port: 8000,
+    host: "localhost"
+  },
+  loading: {
+    color: '#bb162b'
+  },
   /*
   ** Global CSS
   */
