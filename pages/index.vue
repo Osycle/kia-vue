@@ -54,57 +54,34 @@
 <script>
 
 import Bnr from '@/components/Bnr'
-//import { mapActions } from 'vuex'
 
 export default {
   components:{
     Bnr,
   },
-  methods: {
-  },
-  computed: {
-
-  },
+  methods: {},
+  computed: {},
   async asyncData({store, error}){
     try{
-      const models = await store.dispatch("models/fetchModels", {
-        car: "nexia"
-      })
-      return {models}
+      const models = await store.dispatch("models/fetchModels", {path: "index"})
+      console.log(JSON.parse(models));
+      //return {models}
     }catch(e){
       error(e);
     }
-    // try{
-    //   return $axios.$post('http://sola/handler.php')
-    //     .then(models => {
-    //       //console.log(models);
-    //       return {models}
-    //     })
-    //     .catch(err => {error(err)})
-    // }catch(error){
-    //   console.log(error);
-    // }
-
   },
-  async created(){
-      // try{
-      //   const data = (await this.$api.models.getModels({
-      //     email: this.form.email,
-      //     password: this.form.password
-      //   })).data
-      //   this.models = data;
-      //   console.log(data);
-      // }catch(error){
-      //   console.log(error.response.data);
-      // }
+  async created(){  
+    
   },
   data(){
     return {
+      pageTitle: "Главная",
       models:[],
       errors: [],
     }
   },
   head: {
+    title: "Главная - KIA",
     script: [
       {src: '/js/plugins/owl.carousel.min.js'},
       {src: '/js/main.js'},

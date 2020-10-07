@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Breadcrump />
+    <Breadcrump :pageTitle="pageTitle"/>
     <div class="models">
       <div class="container-p">
         <div class="entry-header m-b-30">
@@ -45,12 +45,25 @@
 
 <script>
 import Breadcrump from '@/components/Breadcrump'
-export default {
+export default {  
+  head: {
+    title: "Модели",
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'my website description'
+      }
+    ]
+  },
   components: {
     Breadcrump
   },
   data(){
     return {
+      pageTitle: "Модели",
       types:[
         {
           name: 'Бизнес-класс и представительский класс',
@@ -75,6 +88,7 @@ export default {
       ]
     }
   },
+  
   filters: {
     spaceBetweenNum (price) {
       var pattern = /(-?\d+)(\d{3})/;

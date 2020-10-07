@@ -1,11 +1,10 @@
 
 export const actions = {
   async fetchModels(context, params){
+    console.log(params);
     try{
       const models = await this.$axios.$post('http://sola/handler.php', {
-        headers: {
-          "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
-        }
+        path: params.path
       })
       console.log(context,  models)
       return models
