@@ -136,14 +136,13 @@ export default {
   async asyncData({store, error}){
     try{
       const pageData = await store.dispatch("models/fetchModels", {path: "index"})
-      //console.log(pageData);
       return {pageData}
     }catch(e){
       error(e);
     }
   },
   async created(){  
-    //console.log(pageData);
+    
   },
   data(){
     return {
@@ -214,12 +213,6 @@ export default {
 			navText : owlBtn,
 			margin: 30
 		});
-  },
-  filters: {
-    dateFilter(date){
-      date = new Date(date*1000)
-      return date.getFullYear()
-    }
   }
 }
 

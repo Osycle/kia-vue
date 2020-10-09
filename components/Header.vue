@@ -9,7 +9,6 @@
           <div class="header-top-content">
             <div class="menu p-h-15">
               <ul class="menu-list">
-                <!-- <li><a href="about.html">Модели</a></li> -->
                 <li><nuxt-link active-class="active" to="/models">Модели</nuxt-link></li>
                 <li><nuxt-link active-class="active" to="/testdata">Выбор и покупка</nuxt-link></li>
                 <li><nuxt-link active-class="active" to="/users">Конфигуратор</nuxt-link></li>
