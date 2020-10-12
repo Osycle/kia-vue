@@ -48,17 +48,19 @@
 <script>
 import Breadcrump from '@/components/Breadcrump'
 export default {
-  head: {
-    title: "Модели",
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'my website description'
-      }
-    ]
+  head() {
+    return {
+      title: this.pageData.content.seo.title,
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.pageData.content.seo.description
+        }
+      ]
+    }
   },
   components: {
     Breadcrump
@@ -66,7 +68,6 @@ export default {
   async asyncData({store, error}){
     try{
       const pageData = await store.dispatch("models/fetchModels", {path: "models"})
-      console.log(pageData);
       return {pageData}
     }catch(e){
       error(e);

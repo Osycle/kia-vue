@@ -21,7 +21,7 @@
                   <p>{{model.description}}</p>
                   <div class="btn-content">
                     <span class="btn-def">
-                      <a href="/k5">Подробнее</a>
+                      <a :href="model.link.url">{{model.link.title}}</a>
                     </span>
                   </div>
                 </div>
@@ -128,6 +128,24 @@
 
 
 export default {
+  head() {
+    return {
+      title: this.pageData.content.seo.title,
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.pageData.content.seo.description
+        }
+      ],
+      script: [
+        {src: '/js/plugins/owl.carousel.min.js'},
+        {src: '/js/main.js'},
+      ]
+    }
+  },
   components:{
     
   },
@@ -136,6 +154,7 @@ export default {
   async asyncData({store, error}){
     try{
       const pageData = await store.dispatch("models/fetchModels", {path: "index"})
+      console.log(pageData);
       return {pageData}
     }catch(e){
       error(e);
@@ -151,13 +170,6 @@ export default {
       models:[],
       errors: [],
     }
-  },
-  head: {
-    title: "Главная - KIA",
-    script: [
-      {src: '/js/plugins/owl.carousel.min.js'},
-      {src: '/js/main.js'},
-    ]
   },
   components: {
     
