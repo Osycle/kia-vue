@@ -55,7 +55,7 @@
         <div class="short-models-content">
           <div class="tab-content">
 
-            <div :id="'smodels-'+[key+1]" v-for="(model, key) in pageData.content.model_list_info.models" :key="key" :class="{active: key == 0, 'tab-pane in': true}">
+            <div class="tab-pane" :id="'smodels-'+[key+1]" v-for="(model, key) in pageData.content.model_list_info.models" :key="key" :class="{'active in': key == 0}">
               <div class="tab-content imgs-main">
                 <div class="img-content" :style="'background-image: url('+model.bg_images.desktop+');'">
                   <a href="/k5">

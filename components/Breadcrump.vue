@@ -6,7 +6,7 @@
           <nuxt-link active-class="active" :to="'/'">Главная</nuxt-link>
         </li>
         <li>
-          <nuxt-link active-class="active" :to="$route.path">{{pageTitle}}</nuxt-link>
+          <nuxt-link active-class="active" :to="$route.path">{{breadcrumpTitle}}</nuxt-link>
         </li>
 
       </ol>
@@ -22,7 +22,7 @@
    'models': 'Модели' 
   }
   export default {
-    props: ['pageTitle'],
+    props: ['breadcrumpTitle'],
     computed: {
       crumbs () {
         let crumbs = []

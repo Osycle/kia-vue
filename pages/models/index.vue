@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Breadcrump :pageTitle="pageTitle"/>
+    <Breadcrump :breadcrumpTitle="breadcrumpTitle"/>
     <div class="models">
       <div class="container-p">
         <div class="entry-header m-b-30">
@@ -75,7 +75,7 @@ export default {
   },
   data(){
     return {
-      pageTitle: "Модели"
+      breadcrumpTitle: "Модели"
     }
   },
   filters: {

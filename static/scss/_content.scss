@@ -1242,7 +1242,9 @@ $heightSlider: auto;
 }
 .card-media-intro{
 	.flex-adaptive{
-		justify-content: center;
+		@media (min-width: 991px){
+			justify-content: space-between;
+		}
 	}
 	@media (min-width: 992px){
 		.desc-content{
