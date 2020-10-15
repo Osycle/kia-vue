@@ -74,7 +74,7 @@
 export default {
   async asyncData({store, error}){
     try{
-      const pageData = await store.dispatch("models/fetchModels", {path: "index"})
+      const pageData = await store.dispatch("models/fetchPageData", {path: "index"})
       return {pageData}
     }catch(e){
       error(e);
