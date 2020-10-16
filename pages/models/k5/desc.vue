@@ -288,164 +288,26 @@
           <h2>Видео о модели</h2>
           <div class="short-models-nav m-v-30">
             <ul class="list flex-adaptive justify-c-center li-m-v-15">
-              <li class="active"><a href="../#card-video-1-1" data-toggle="tab">Промо-ролики (5)</a></li>
-              <li><a href="../#card-video-1-2" data-toggle="tab">Мнения (5)</a></li>
+              <li v-for="(title, key) in videoGroup.content.video_bank.groups" :key="key" :class="{'active': key == 0}">
+                <a :href="'#'+title.id" data-toggle="tab">{{title.name}} ({{videoGroup.content.video_bank.list[title.id].length}})</a>
+              </li>
             </ul>
           </div>
         </div>
         <div class="tab-content">
-          <div class="tab-pane fade in active" id="card-video-1-1">
+          <div :id="key" v-for="(videoList, key) in videoGroup.content.video_bank.list" :key="key"  class="tab-pane fade" :class="{'active in': videoGroup.content.video_bank.groups[0].id == key}">
             <div class="card-video-items boxes-4 owl-carousel owl-btn-2">
-              <figure>
-                <a href="https://youtu.be/sDwqwFJts38" data-fancybox="card-video-1-1">
+              <figure v-for="(videoItem, keyItem) in videoList" :key="keyItem">
+                <a :href="videoItem.video_link" :data-fancybox="key">
                   <div class="fig-wrapper">
                     <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-1.jpeg');"></div>
+                      <div class="img" :style="'background-image: url('+videoItem.preview_image+');'"></div>
                       <div class="btn-play">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
                       </div>
                     </div>
                     <div class="desc-content m-t-10">
-                      <p><b>Новый Kia K5 | Сверхчеловеческие возможности</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/pSUC_debwtI" data-fancybox="card-video-1-1">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-2.jpeg');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Kia K5: Испытания в России</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/Ee2cYiq8ib0" data-fancybox="card-video-1-1">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-3.jpeg');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Kia K5: Красота</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/qKO4eGDGFjs" data-fancybox="card-video-1-1">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-4.jpeg');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Kia K5: Качество</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/Ibd4oiDDrvY" data-fancybox="card-video-1-1">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-5.jpeg');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Kia K5: Комфорт</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="card-video-1-2">
-            <div class="card-video-items boxes-4 owl-carousel owl-btn-2">
-              <figure>
-                <a href="https://youtu.be/ge5uzcI2Y60" data-fancybox="card-video-1-2">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-6.png');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Clickoncar</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/fZuAL_61wSM" data-fancybox="card-video-1-2">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-7.png');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Лиса Рулит</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/3caA2Qs6yqg" data-fancybox="card-video-1-2">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-8.png');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Игорь Бурцев</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/Yzct5epKsH0" data-fancybox="card-video-1-2">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-9.png');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Autonews</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/yLgRftDqKSA" data-fancybox="card-video-1-2">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('../img/other/k5-card-video-10.jpeg');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Kia K5: Онлайн-премьера с Wylsacom</b></p>
+                      <p><b>{{videoItem.name}}</b></p>
                     </div>
                   </div>
                 </a>
@@ -455,6 +317,94 @@
         </div>
       </div>
     </div>
+    <div class="card-showroom car-showroom">
+      <div class="container-p p-v-30">
+        <div class="showroom">
+          <div class="showroom-header">
+            <div class="entry-header">
+              <h4 class="color-2 text-n1">ПРОСМОТР 360°</h4>
+              <h2>K5</h2>
+            </div>
+            <div class="showroom-typeselect">
+              <ul class="list">
+                <li class="active">
+                  <a href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
+                  <span>Экстерьер</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="showroom-main m-v-30">
+            <div
+                class="cloudimage-360"
+                data-folder="https://www.kia.ru/static/master-data/overviews//EXS4/20202020/D641/DU3/"
+                data-filename="{index}.png"
+                data-spin-reverse
+                data-amount="72"
+            ></div>
+          </div>
+          <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.5.0/js-cloudimage-360-view.min.js"></script>
+          <div class="showroom-bottom justify-c-between align-center">
+            <div class="showroom-colorselect">
+              <div class="title-content">
+                <span class="color-gray">Цвет:</span> <b>Yacht Blue (DU3)</b>
+              </div>
+              <ul class="list m-t-10">
+                <li>
+                  <a href="javascript:;">
+                    <img src="https://www.kia.ru/static/master-data/colors/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg" class="color-img">
+                    <img src="https://www.kia.ru/_nuxt/assets/check-colour.ace89650.svg" class="check-img active">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <span class="btn-def">
+              <a href="../" class="p-v-20">Конфигуратор</a>	
+            </span>
+          </div>
+          <br><br>
+        </div>
+      </div>
+    </div>
+    <div class="card-sets bg-color-gray-1">
+      <div class="container-p p-v-45">
+        <div class="entry-header text-center m-v-30">
+          <h4 class="color-2 text-n1">КОМПЛЕКТАЦИИ</h4>
+          <h2>Варианты K5</h2>
+          <p>5 доступных комплектаций</p>
+        </div>
+        <div class="card-sets-items owl-carousel boxes-3 m-v-30 owl-nav-style-2-xs">
+          <figure v-for="(set, key) in pageData.content.complectations.complectations" :key="key">
+            <div class="fig-wrapper">
+              <div class="cap-content">
+                <h3>{{set.name}}</h3>
+                <h4>от 249 900 000 сум</h4>
+              </div>
+              <div class="desc-content">
+                <div>
+                  <p><b>Двигатель и трансмиссия</b></p>
+                  <p>2.0 MPI, 150 л. с., Бензин | Автомат | Передний привод{{set.modifications | setEngine}}</p>
+                  <br>
+                  <p><b>Основные опции</b></p>
+                  <p>Боковые зеркала заднего вида с электроприводом и подогревом</p>
+                  <p>Легкосплавные диски 16" с шинами 215/60 R16</p>
+                  <p>Рулевое колесо и ручка селектора трансмиссии с отделкой кожей</p>
+                  <p>Отделка передней панели и дверей вставками под металл (Metal Paint)</p>
+                  <p>2 USB разъема для зарядки мобильных устройств для пассажиров второго ряда</p>
+                  <p>Дефлекторы обдува для пассажиров второго ряда</p>
+                </div>
+                <div class="link-content m-t-20">
+                  <div class="align-center font-w-6">
+                    <a href="../models-options.html" class="hover-aunderline"><b>Комплектации и цены</b></a>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>	
   </div>
 </template>
 
@@ -474,6 +424,7 @@ export default {
       console.log(pageData, videoGroup);
       return {
         pageData,
+        videoGroup,
         infographics: pageData.content.infographics
       }
     }catch(e){
@@ -487,8 +438,40 @@ export default {
     }
   },
   mounted() {
-
-      
+		window.owlBtn = [
+			'<span class="owl-btn previous">'+
+				'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
+					'<path d="M6 3L2 7l4 4M2.333 7h12.334" stroke="currentColor" stroke-width="1.5"></path>'+
+				'</svg>'+
+			'</span>', 
+			'<span class="owl-btn next">'+
+				'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
+    			'<path d="M9 11l4-4-4-4M12.667 7H.333" stroke="currentColor" stroke-width="1.5"></path>'+
+				'</svg>'+
+			'</span>'
+		]
+		$(".card-video-items.owl-carousel").map(function(i, el){
+			el = $(el);
+			var figLen = (el.find("figure").length <= 3);
+			el.owlCarousel({
+				nav: true,
+				loop: false,
+				//items: 3,
+				dots: false,
+				dotsEach: true,
+				//slideBy: 5,
+				autoplay: false,
+				autoplayTimeout: 5400,
+				touchDrag: checkSm(),
+				//center: figLen,
+				responsive:{
+					0:{items:1},
+					991:{items:4}
+				},
+				navText : owlBtn,
+				margin: 30
+			});
+		});
     
   },
   filters: {
@@ -498,6 +481,9 @@ export default {
       while (pattern.test(price))
         price = price.replace(pattern, "$1 $2");
       return price;
+    },
+    setEngine (id){
+      console.log(id);
     },
   },
   head() {
@@ -511,7 +497,7 @@ export default {
           name: 'description',
           content: this.pageData.content.seo.description
         }
-      ]
+      ],
     }
   },
 }
