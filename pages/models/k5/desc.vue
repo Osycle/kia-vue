@@ -373,25 +373,38 @@
           <h2>Варианты K5</h2>
           <p>5 доступных комплектаций</p>
         </div>
+        <blockquote></blockquote>
         <div class="card-sets-items owl-carousel boxes-3 m-v-30 owl-nav-style-2-xs">
           <figure v-for="(set, key) in pageData.content.complectations.complectations" :key="key">
             <div class="fig-wrapper">
               <div class="cap-content">
                 <h3>{{set.name}}</h3>
-                <h4>от 249 900 000 сум</h4>
+                <h4>от {{set.min_price | spaceBetweenNum}} сум</h4>
               </div>
               <div class="desc-content">
                 <div>
                   <p><b>Двигатель и трансмиссия</b></p>
-                  <p>2.0 MPI, 150 л. с., Бензин | Автомат | Передний привод{{set.modifications | setEngine}}</p>
+                  <p v-for="(modification, key) in set.modifications" :key="key">
+                    <template v-for="(engine) in pageData.content.complectations.engines">
+                      <template v-if="engine.id == modification.engine_id">
+                        {{engine.name+" / "+engine.power_hp+" л. с. / "+engine.fuel_type_name+" / "}}
+                      </template>
+                    </template>
+                    <template v-for="(transmission) in pageData.content.complectations.transmissions">
+                      <template v-if="transmission.id == modification.transmission_id">
+                        {{transmission.gearbox_name+" / "+transmission.drive_name}}
+                      </template>
+                    </template>
+                  </p>
                   <br>
                   <p><b>Основные опции</b></p>
-                  <p>Боковые зеркала заднего вида с электроприводом и подогревом</p>
-                  <p>Легкосплавные диски 16" с шинами 215/60 R16</p>
-                  <p>Рулевое колесо и ручка селектора трансмиссии с отделкой кожей</p>
-                  <p>Отделка передней панели и дверей вставками под металл (Metal Paint)</p>
-                  <p>2 USB разъема для зарядки мобильных устройств для пассажиров второго ряда</p>
-                  <p>Дефлекторы обдува для пассажиров второго ряда</p>
+                  <p v-for="(optionId, key) in set.options" :key="'A'+key">
+                    <template v-for="(option) in pageData.content.complectations.options">
+                      <template v-if="option.id == optionId">
+                        {{option.name}}
+                      </template>
+                    </template>
+                  </p>
                 </div>
                 <div class="link-content m-t-20">
                   <div class="align-center font-w-6">
@@ -416,12 +429,15 @@ export default {
     Breadcrump
   },
   async asyncData({store, error}){
+
     try{
-      const pageData = await store.dispatch("models/fetchPageData", {path: "model"})
+      const pageData = await store.dispatch("models/fetchPageData", {
+        pathname: "/models/k5/desc"
+      })
       const videoGroup = await store.dispatch("models/fetchVideo", {
         model: pageData.content.model.model_line_id,
       })
-      console.log(pageData, videoGroup);
+      console.log(pageData, "424", store);
       return {
         pageData,
         videoGroup,
@@ -434,8 +450,11 @@ export default {
   data(){
     return {
       breadcrumpTitle: "K5",
-      infographics: []
+      infographics: [],
     }
+  },
+  methods:{
+
   },
   mounted() {
 		window.owlBtn = [
@@ -449,7 +468,27 @@ export default {
     			'<path d="M9 11l4-4-4-4M12.667 7H.333" stroke="currentColor" stroke-width="1.5"></path>'+
 				'</svg>'+
 			'</span>'
-		]
+    ]
+		$(".card-sets-items.owl-carousel").owlCarousel({
+				nav: !checkSm(),
+				loop: false,
+				//items: 3,
+				dots: checkSm(),
+				dotsEach: false,
+				//slideBy: 2,
+				autoplay: false,
+				autoplayTimeout: 5400,
+				touchDrag: true,
+				center: false,
+				autoheight: true,
+				responsive:{
+					0:{items:1},
+					991:{items:3},
+					1600:{items:3}
+				},
+				navText : owlBtn,
+				margin: 30
+		});
 		$(".card-video-items.owl-carousel").map(function(i, el){
 			el = $(el);
 			var figLen = (el.find("figure").length <= 3);
@@ -471,8 +510,9 @@ export default {
 				navText : owlBtn,
 				margin: 30
 			});
-		});
+    });
     
+
   },
   filters: {
     spaceBetweenNum (price) {
@@ -481,9 +521,6 @@ export default {
       while (pattern.test(price))
         price = price.replace(pattern, "$1 $2");
       return price;
-    },
-    setEngine (id){
-      console.log(id);
     },
   },
   head() {

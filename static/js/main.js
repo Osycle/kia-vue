@@ -199,26 +199,6 @@
 				margin: 30
 			});
 		});
-		$(".card-sets-items.owl-carousel").owlCarousel({
-				nav: !checkSm(),
-				loop: false,
-				//items: 3,
-				dots: checkSm(),
-				dotsEach: false,
-				//slideBy: 2,
-				autoplay: false,
-				autoplayTimeout: 5400,
-				touchDrag: true,
-				center: false,
-				autoheight: true,
-				responsive:{
-					0:{items:1},
-					991:{items:3},
-					1600:{items:3}
-				},
-				navText : owlBtn,
-				margin: 30
-		});
 		$(".kiaworld-other-items.owl-carousel").owlCarousel({
 				nav: true,
 				loop: false,

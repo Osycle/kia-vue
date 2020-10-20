@@ -3,7 +3,6 @@ export const actions = {
   async fetchPageData(context, params){
     try{
       const models = await this.$axios.$post('http://sola/handler.php', params)
-      console.log(context,  models)
       return models
     }catch(e){
       throw e
@@ -11,9 +10,8 @@ export const actions = {
   },
   async fetchVideo(context, params){
     try{
-      const models = await this.$axios.$post('http://sola/video_bank.php', params)
-      console.log(context,  models)
-      return models
+      const modelVideo = await this.$axios.$post('http://sola/video_bank.php', params)
+      return modelVideo
     }catch(e){
       throw e
     }

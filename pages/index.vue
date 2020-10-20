@@ -153,8 +153,7 @@ export default {
   computed: {},
   async asyncData({store, error}){
     try{
-      const pageData = await store.dispatch("models/fetchPageData", {path: "index"})
-      console.log(pageData);
+      const pageData = await store.dispatch("models/fetchPageData", {pathname: location.pathname})
       return {pageData}
     }catch(e){
       error(e);
