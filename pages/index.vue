@@ -13,7 +13,7 @@
                 </div>
                 <div class="carimgs">
                   <picture>
-                    <source :data-srcset="model.images.mobile">
+                    <source :srcset="model.images.mobile" media="(max-width: 500px)" sizes="272px">
                     <img :src="model.images.desktop" sizes="272px">
                   </picture>
                 </div>
@@ -21,7 +21,7 @@
                   <p>{{model.description}}</p>
                   <div class="btn-content">
                     <span class="btn-def">
-                      <a :href="model.link.url">{{model.link.title}}</a>
+                      <nuxt-link :to="model.link.url">{{model.link.title}}</nuxt-link>
                     </span>
                   </div>
                 </div>
@@ -54,13 +54,12 @@
         </div>
         <div class="short-models-content">
           <div class="tab-content">
-
             <div class="tab-pane" :id="'smodels-'+[key+1]" v-for="(model, key) in pageData.content.model_list_info.models" :key="key" :class="{'active in': key == 0}">
               <div class="tab-content imgs-main">
                 <div class="img-content" :style="'background-image: url('+model.bg_images.desktop+');'">
-                  <a href="/k5">
+                  <nuxt-link :to="model.landing_link">
                     <img :src="model.image">
-                  </a>
+                  </nuxt-link>
                 </div>
               </div>
             </div>
@@ -153,7 +152,9 @@ export default {
   computed: {},
   async asyncData({store, error}){
     try{
-      const pageData = await store.dispatch("models/fetchPageData", {pathname: location.pathname})
+      const pageData = await store.dispatch("models/fetchPageData", {
+        pathname: "/"
+      })
       return {pageData}
     }catch(e){
       error(e);
