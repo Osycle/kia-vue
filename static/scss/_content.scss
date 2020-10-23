@@ -1168,7 +1168,7 @@ $heightSlider: auto;
 	}
 }
 .card-bnr-advantages{
-	//display: none !important;
+	display: none !important;
 	.img-content{
 		height: 50px;
 		margin-bottom: 10px;
@@ -1241,7 +1241,7 @@ $heightSlider: auto;
 	}
 }
 .card-media-intro{
-	.flex-adaptive{
+	.container-p-2>.flex-adaptive{
 		@media (min-width: 991px){
 			justify-content: space-between;
 		}
@@ -3043,3 +3043,27 @@ ymaps .map-cluster{
 		}
 	}
  }
+
+.theme-dark{
+	background-color: #1f1f1f;
+	color: white;
+}
+.theme-black{
+	background-color: black;
+	color: white;
+}
+.theme-white{
+	background-color: white;
+	color: black;
+}
+.theme-pale_beige{
+	background-color: $color-gray-1;
+	color: black;
+}
+.accordion_left .card-media-desc{
+	order: 1;
+}
+
+.accordion_right .card-media-desc{
+	order: 0;
+}

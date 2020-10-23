@@ -1,9 +1,10 @@
 <template>
   <div>
-    <div class="card-bnr relative">
+
+    <div class="card-bnr relative" v-for="(bnr, key) in pageData.content.banners" :key="key" v-if="bnr.type_code == 'model'">
       <div class="bg-video-content cover">
-        <video :src="pageData.content.banners[1].video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-        <div class="img-xs absolute" style="background-image: url('img/other/k5-card-bnr-xs.jpg');"></div>
+        <video :src="bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+        <div class="img-xs absolute" :style="'background-image: url('+bnr.images.mobile+');'"></div>
       </div>
       <div class="container-p relative">
         <Breadcrump :breadcrumpTitle="breadcrumpTitle"/>
@@ -16,16 +17,16 @@
           <div class="card-bnr-bottom">
             <div class="flex-adaptive align-center justify-c-between">
               <div class="card-bnr-name">
-                <div class="text-n1 m-b-15">{{pageData.content.banners[1].logo.label}}</div>
-                <img :src="pageData.content.banners[1].logo.image">
-                <div class="font-size-nm m-t-10">{{pageData.content.banners[1].logo.signature}}</div>
+                <div class="text-n1 m-b-15">{{bnr.logo.label}}</div>
+                <img :src="bnr.logo.image">
+                <div class="font-size-nm m-t-10">{{bnr.logo.signature}}</div>
               </div>
               <div class="desc-content hidden-md hidden-lg">
                 <span class="text align-center"><span>от {{pageData.content.model.min_price | spaceBetweenNum}} сум</span><a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
                 <div class="btn-opacity"><a href="feedback.html">Связаться с нами</a></div>
               </div>
               <div class="card-bnr-advantages box-md-5 flex row">
-                <div class="item p-h-15" v-for="(teaser, key) in pageData.content.banners[1].teasers" :key="key">
+                <div class="item p-h-15" v-for="(teaser, key) in bnr.teasers" :key="key">
                   <div class="img-content">
                     <img :src="teaser.icon">
                   </div>
@@ -38,334 +39,102 @@
         </div>
       </div>
     </div>
+
     <div class="card-media">
-      <div class="card-media-intro card-media-v" :class="infographics[0].theme | themeBlock">
-        <div class="container-p-2 relative">
-          <div class="row-15 flex-adaptive justify-c-between">
-            <div class="col-md-6 p-h-15">
-              <h4 class="color-2 text-n1">{{infographics[0].title}}</h4>
-              <div class="h1 text-x5">{{infographics[0].name}}</div>
-            </div>
-            <div class="col-md-offset-1 p-h-15 col-md-4 m-t-50 opacity-5">
-              <p>{{infographics[0].description}}</p>
-            </div>
-          </div>
-          <br class="hidden-sm hidden-xs">
-          <div class="video-content m-t-30 relative">
-            <div class="bg-video-content-2">
-              <a :href="infographics[0].video.link" data-fancybox>
-                <div class="btn-play">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+      <div class="card-media-intro card-media-v" :class="'theme-'+info.theme" v-for="(info, keyParent) in pageData.content.infographics" :key="keyParent">
+        <template v-if="info.type == 'inherit'">
+          <div class="container-p-2 relative" :class="info.preview_block.type">
+            <template v-if="(info.preview_block.type == 'accordion_left') || (info.preview_block.type == 'accordion_right')">
+              <div class="flex-adaptive">
+                <div class="card-media-desc">
+                  <h4 class="color-2 text-n1">{{info.title}}</h4>
+                  <div class="h1 text-x5">{{info.name}}</div>
+                  <br>
+                  <p class="opacity-5">{{info.description}}</p>
+                  <br>
+                  <hr>
+                  <div class="card-media-list m-t-40">
+                    <ul class="list">
+                      <li v-for="(preview, key) in info.preview_block.contents" :key="key" :class="{active: key == 0}">
+                        <a :href="'#card-media-list-'+keyParent+'-'+key" data-toggle="tab">{{preview.name}}</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </a>
-              <video :src="infographics[0].video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-media-intro card-media-v" :class="infographics[1].theme | themeBlock">
-        <div class="container-p-2">
-          <div class="flex-adaptive">
-            <div class="card-media-desc">
-              <h4 class="color-2 text-n1">{{infographics[1].title}}</h4>
-              <div class="h1 text-x5">{{infographics[1].name}}</div>
-              <br>
-              <p class="opacity-5">{{infographics[1].description}}</p>
-              <br>
-              <hr>
-              <div class="card-media-list m-t-40">
-                <ul class="list">
-                  <li v-for="(preview, key) in infographics[1].preview_block.contents" :key="key" :class="{active: key == 0}"><a :href="'#card-media-list-1-'+[key+1]" data-toggle="tab">{{preview.name}}</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-media-imgs tab-content owl-img-4-3">
-              <div class="tab-pane fade" :id="'card-media-list-1-'+[key+1]" v-for="(preview, key) in infographics[1].preview_block.contents" :key="key" :class="{'active in': key == 0}">
-                <div class="img-content">
-                  <img :src="preview.file">
-                </div>
-                <div class="desc-content m-auto box-md-9 m-t-25">
-                  <p>{{preview.description}}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-media-intro card-media-v" :class="infographics[2].theme | themeBlock">
-        <div class="container-p-2 relative">
-          <div class="row-15 flex-adaptive justify-c-between">
-            <div class="col-md-6 p-h-15">
-              <h4 class="color-2 text-n1">{{infographics[2].title}}</h4>
-              <div class="h1 text-x5">{{infographics[2].name}}</div>
-            </div>
-            <div class="col-md-offset-1 p-h-15 col-md-4 m-t-50 opacity-5">
-              <p>{{infographics[2].description}}</p>
-            </div>
-          </div>
-          <br class="hidden-sm hidden-xs">
-          <div class="video-content m-t-30 relative">
-            <div class="bg-video-content-2">
-              <a :href="infographics[2].video.link" data-fancybox>
-                <div class="btn-play">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                </div>
-              </a>
-              <video :src="infographics[2].video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-media-intro card-media-v" :class="infographics[3].theme | themeBlock">
-        <div class="container-p-2">
-          <div class="flex-adaptive">
-            <div class="card-media-desc">
-              <h4 class="color-2 text-n1">{{infographics[3].title}}</h4>
-              <div class="h1 text-x5">{{infographics[3].name}}</div>
-              <br>
-              <p class="opacity-5">{{infographics[3].description}}</p>
-              <br>
-              <hr>
-              <div class="card-media-list m-t-40">
-                <ul class="list">
-                  <li v-for="(preview, key) in infographics[3].preview_block.contents" :key="key" :class="{active: key == 0}"><a :href="'#card-media-list-4-'+[key+1]" data-toggle="tab">{{preview.name}}</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-media-imgs tab-content owl-img-4-3">
-              <div class="tab-pane fade" :id="'card-media-list-4-'+[key+1]" v-for="(preview, key) in infographics[3].preview_block.contents" :key="key" :class="{'active in': key == 0}">
-                <div class="img-content">
-                  <img :src="preview.file">
-                </div>
-                <div class="desc-content m-auto box-md-9 m-t-25">
-                  <p>{{preview.description}}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-media-intro card-media-v" :class="infographics[5].theme | themeBlock">
-        <div class="container-p-2 relative">
-          <div class="row-15 flex-adaptive justify-c-between">
-            <div class="col-md-6 p-h-15">
-              <h4 class="color-2 text-n1">{{infographics[5].title}}</h4>
-              <div class="h1 text-x5">{{infographics[5].name}}</div>
-            </div>
-            <div class="col-md-offset-1 p-h-15 col-md-4 m-t-50 opacity-5">
-              <p>{{infographics[5].description}}</p>
-            </div>
-          </div>
-          <br class="hidden-sm hidden-xs">
-          <div class="video-content m-t-30 relative">
-            <div class="bg-video-content-2">
-              <a :href="infographics[5].video.link" data-fancybox>
-                <div class="btn-play">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                </div>
-              </a>
-              <video :src="infographics[5].video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-media-intro card-media-v" :class="infographics[6].theme | themeBlock">
-        <div class="container-p-2">
-          <div class="flex-adaptive">
-            <div class="card-media-desc">
-              <h4 class="color-2 text-n1">{{infographics[6].title}}</h4>
-              <div class="h1 text-x5">{{infographics[6].name}}</div>
-              <br>
-              <p class="opacity-5">{{infographics[6].description}}</p>
-              <br>
-              <hr>
-              <div class="card-media-list m-t-40">
-                <ul class="list">
-                  <li v-for="(preview, key) in infographics[6].preview_block.contents" :key="key" :class="{active: key == 0}"><a :href="'#card-media-list-6-'+[key+1]" data-toggle="tab">{{preview.name}}</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-media-imgs tab-content owl-img-4-3">
-              <div class="tab-pane fade" :id="'card-media-list-6-'+[key+1]" v-for="(preview, key) in infographics[6].preview_block.contents" :key="key" :class="{'active in': key == 0}">
-                <div class="img-content">
-                  <img :src="preview.file">
-                </div>
-                <div class="desc-content m-auto box-md-9 m-t-25">
-                  <p>{{preview.description}}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-media-intro card-media-v" :class="infographics[7].theme | themeBlock">
-        <div class="container-p-2">
-          <div class="flex-adaptive r-reverse">
-            <div class="card-media-desc">
-              <h4 class="color-2 text-n1">{{infographics[7].title}}</h4>
-              <div class="h1 text-x5">{{infographics[7].name}}</div>
-              <br>
-              <p class="opacity-5">{{infographics[7].description}}</p>
-              <br>
-              <hr>
-              <div class="card-media-list m-t-40">
-                <ul class="list">
-                  <li v-for="(preview, key) in infographics[7].preview_block.contents" :key="key" :class="{active: key == 0}"><a :href="'#card-media-list-7-'+[key+1]" data-toggle="tab">{{preview.name}}</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-media-imgs tab-content owl-img-4-3">
-              <div class="tab-pane fade" :id="'card-media-list-7-'+[key+1]" v-for="(preview, key) in infographics[7].preview_block.contents" :key="key" :class="{'active in': key == 0}">
-                <div class="img-content">
-                  <img :src="preview.file">
-                </div>
-                <div class="desc-content m-auto box-md-9 m-t-25">
-                  <p>{{preview.description}}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-media-intro card-media-v" :class="infographics[8].theme | themeBlock">
-        <div class="container-p-2 relative">
-          <div class="row-15 flex-adaptive justify-c-between">
-            <div class="col-md-6 p-h-15">
-              <h4 class="color-2 text-n1">{{infographics[8].title}}</h4>
-              <div class="h1 text-x5">{{infographics[8].name}}</div>
-            </div>
-            <div class="col-md-offset-1 p-h-15 col-md-4 m-t-50 opacity-5">
-              <p>{{infographics[8].description}}</p>
-            </div>
-          </div>
-          <br class="hidden-sm hidden-xs">
-          <div class="video-content m-t-30 relative">
-            <div class="bg-video-content-2">
-              <a :href="infographics[8].video.link" data-fancybox>
-                <div class="btn-play">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                </div>
-              </a>
-              <video :src="infographics[8].video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-media-intro card-media-v" :class="infographics[9].theme | themeBlock">
-        <div class="container-p-2">
-          <div class="flex-adaptive">
-            <div class="card-media-desc">
-              <h4 class="color-2 text-n1">{{infographics[9].title}}</h4>
-              <div class="h1 text-x5">{{infographics[9].name}}</div>
-              <br>
-              <p class="opacity-5">{{infographics[9].description}}</p>
-              <br>
-              <hr>
-              <div class="card-media-list m-t-40">
-                <ul class="list">
-                  <li v-for="(preview, key) in infographics[9].preview_block.contents" :key="key" :class="{active: key == 0}"><a :href="'#card-media-list-9-'+[key+1]" data-toggle="tab">{{preview.name}}</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="card-media-imgs tab-content owl-img-4-3">
-              <div class="tab-pane fade" :id="'card-media-list-9-'+[key+1]" v-for="(preview, key) in infographics[9].preview_block.contents" :key="key" :class="{'active in': key == 0}">
-                <div class="img-content">
-                  <img :src="preview.file">
-                </div>
-                <div class="desc-content m-auto box-md-9 m-t-25">
-                  <p>{{preview.description}}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card-video">
-      <div class="container-p p-v-80">
-        <div class="entry-header text-center">
-          <h4 class="color-2 text-n1">ОБЗОРЫ</h4>
-          <h2>Видео о модели</h2>
-          <div class="short-models-nav m-v-30">
-            <ul class="list flex-adaptive justify-c-center li-m-v-15">
-              <li v-for="(title, key) in videoGroup.content.video_bank.groups" :key="key" :class="{'active': key == 0}">
-                <a :href="'#'+title.id" data-toggle="tab">{{title.name}} ({{videoGroup.content.video_bank.list[title.id].length}})</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="tab-content">
-          <div :id="key" v-for="(videoList, key) in videoGroup.content.video_bank.list" :key="key"  class="tab-pane fade" :class="{'active in': videoGroup.content.video_bank.groups[0].id == key}">
-            <div class="card-video-items boxes-4 owl-carousel owl-btn-2">
-              <figure v-for="(videoItem, keyItem) in videoList" :key="keyItem">
-                <a :href="videoItem.video_link" :data-fancybox="key">
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" :style="'background-image: url('+videoItem.preview_image+');'"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                <div class="card-media-imgs tab-content owl-img-4-3">
+                  <div class="tab-pane fade" :id="'card-media-list-'+keyParent+'-'+key" v-for="(preview, key) in info.preview_block.contents" :key="key" :class="{'active in': key == 0}">
+                    <template v-if="preview.teasers.length > 0">
+                      <ul class="card-list-engine">
+                        <li v-for="(teaser, key) in preview.teasers" :key="key">
+                          <div class="cnt-content"><big>{{teaser.title}}</big> <span>{{teaser.title_desc}}</span></div>
+                          <div class="text-content">
+                            <span>{{teaser.description}}</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </template>
+                    <template v-else>
+                      <div class="img-content">
+                        <img :src="preview.file">
                       </div>
+                      <div class="desc-content m-auto box-md-9 m-t-25">
+                        <p>{{preview.description}}</p>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+              </div>
+            </template>
+            <template v-if="info.preview_block.type == 'tabs'">
+              <div class="entry-header box-md-4">
+                <h4 class="color-1 text-n1">{{info.title}}</h4>
+                <h2>{{info.name}}</h2>
+              </div>
+              <div class="entry-content">
+                <div class="short-models-nav m-v-30">
+                  <ul class="list flex-adaptive li-m-v-15">
+                    <li v-for="(preview, key) in info.preview_block.contents" :key="key" :class="{'active in': key == 0}">
+                      <a :href="'#card-tech-'+keyParent+'-'+key" data-toggle="tab">{{preview.name}}</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-content">
+                  <div class="tab-pane fade" :id="'card-tech-'+keyParent+'-'+key" v-for="(preview, key) in info.preview_block.contents" :key="key" :class="{'active in': key == 0}">
+                    <div class="img-content text-center m-v-30">
+                      <img :src="preview.file">
                     </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>{{videoItem.name}}</b></p>
+                    <div class="desc-content box-lg-6">
+                      <p>{{preview.description}}</p>
                     </div>
                   </div>
-                </a>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card-showroom car-showroom">
-      <div class="container-p p-v-30">
-        <div class="showroom">
-          <div class="showroom-header">
-            <div class="entry-header">
-              <h4 class="color-2 text-n1">ПРОСМОТР 360°</h4>
-              <h2>K5</h2>
-            </div>
-            <div class="showroom-typeselect">
-              <ul class="list">
-                <li class="active">
-                  <a href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
-                  <span>Экстерьер</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="showroom-main m-v-30">
-            <div
-                class="cloudimage-360"
-                data-folder="https://www.kia.ru/static/master-data/overviews//EXS4/20202020/D641/DU3/"
-                data-filename="{index}.png"
-                data-spin-reverse
-                data-amount="72"
-            ></div>
-          </div>
-          <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.5.0/js-cloudimage-360-view.min.js"></script>
-          <div class="showroom-bottom justify-c-between align-center">
-            <div class="showroom-colorselect">
-              <div class="title-content">
-                <span class="color-gray">Цвет:</span> <b>Yacht Blue (DU3)</b>
+                </div>
               </div>
-              <ul class="list m-t-10">
-                <li>
-                  <a href="javascript:;">
-                    <img src="https://www.kia.ru/static/master-data/colors/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg" class="color-img">
-                    <img src="https://www.kia.ru/_nuxt/assets/check-colour.ace89650.svg" class="check-img active">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <span class="btn-def">
-              <a href="../" class="p-v-20">Конфигуратор</a>	
-            </span>
+            </template>
           </div>
-          <br><br>
-        </div>
+        </template>
+        <template v-if="info.type == 'base'">
+          <div class="container-p-2 relative">
+            <div class="row-15 flex-adaptive justify-c-between">
+              <div class="col-md-6 p-h-15">
+                <h4 class="color-2 text-n1">{{info.title}}</h4>
+                <div class="h1 text-x5">{{info.name}}</div>
+              </div>
+              <div class="col-md-offset-1 p-h-15 col-md-4 m-t-50 opacity-5">
+                <p>{{info.description}}</p>
+              </div>
+            </div>
+            <br class="hidden-sm hidden-xs">
+            <div class="video-content m-t-30 relative">
+              <div class="bg-video-content-2">
+                <a :href="info.video.link" data-fancybox><div class="btn-play"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg></div></a>
+                <video :src="info.video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+              </div>
+            </div>
+          </div>
+        </template>
       </div>
     </div>
+
     <div class="card-sets bg-color-gray-1">
       <div class="container-p p-v-45">
         <div class="entry-header text-center m-v-30">
@@ -416,42 +185,45 @@
           </figure>
         </div>
       </div>
-    </div>	
-    <div class="card-gar bg-color-gray-1">
+    </div>
+
+    <div class="card-gar bg-color-gray-1" v-for="(info, key) in pageData.content.infographics" :key="key" v-if="info.type == 'img_left'">
       <div class="container-p p-v-45">
         <div class="entry-content flex-adaptive align-center justify-c-between">
           <div class="img-content m-v-30 flex-s-0">
-            <img :src="infographics[10].image">
+            <img :src="info.image">
           </div>
           <div class="entry-header m-v-30 box-md-4">
-            <h4 class="color-2 text-n1">{{infographics[10].title}}</h4>
-            <h2>{{infographics[10].name}}</h2>
-            <p>{{infographics[10].description}}</p>
+            <h4 class="color-2 text-n1">{{info.title}}</h4>
+            <h2>{{info.name}}</h2>
+            <p>{{info.description}}</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="card-fb" :style="'background-image: url('+pageData.content.banners[0].bg_images.desktop+');'">
+
+    <div class="card-fb" v-for="(bnr, key) in pageData.content.banners" :key="key" v-if="bnr.type_code == 'center'" :style="'background-image: url('+bnr.bg_images.desktop+');'">
       <div class="container-p text-center">
         <div class="entry-content">
           <div class="entry-header color-white p-v-30">
-            <h4 class="text-n1">{{pageData.content.banners[0].title}}</h4>
-            <h2>{{pageData.content.banners[0].name}}</h2>
+            <h4 class="text-n1">{{bnr.title}}</h4>
+            <h2>{{bnr.name}}</h2>
             <span class="btn-def style-1 m-v-20">
-              <nuxt-link :to="pageData.content.banners[0].link.url" class="p-v-20 p-h-25">
-                {{pageData.content.banners[0].link.title}}
+              <nuxt-link :to="bnr.link.url" class="p-v-20 p-h-25">
+                {{bnr.link.title}}
               </nuxt-link>
             </span>
           </div>
           <div class="img-content">
             <picture>
-              <source :srcset="pageData.content.banners[0].images.mobile" media="(max-width: 768px)">
-              <img :src="pageData.content.banners[0].images.desktop">
+              <source :srcset="bnr.images.mobile" media="(max-width: 768px)">
+              <img :src="bnr.images.desktop">
             </picture>
           </div>
         </div>
       </div>
     </div>
+ 
   </div>
 </template>
 
@@ -465,7 +237,7 @@ export default {
   async asyncData({store, error}){
     try{
       const pageData = await store.dispatch("models/fetchPageData", {
-        pathname: "/models/k5/desc"
+        pathname: "/models/seltos/desc"
       })
       const videoGroup = await store.dispatch("models/fetchVideo", {
         model: pageData.content.model.model_line_id,
@@ -475,7 +247,6 @@ export default {
       return {
         pageData,
         videoGroup,
-        infographics: pageData.content.infographics
       }
     }catch(e){
       error(e);
@@ -553,18 +324,6 @@ export default {
         price = price.replace(pattern, "$1 $2");
       return price;
     },
-    themeBlock (theme){
-      let cls = "";
-      console.log(theme);
-      switch(theme){
-        case 'dark':
-          cls += 'bg-color-gray-6 color-white';break;
-        case 'black':
-          cls += 'bg-color-black color-white';break;
-        
-      }
-      return cls
-    },
   },
   head() {
     return {
@@ -583,7 +342,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .card-bnr{
     .breadcrumb-container{
       .container-p{
