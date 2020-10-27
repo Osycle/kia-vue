@@ -30,10 +30,19 @@ Vue.use(ApiPlugin);
 
 
 
-		
+// GLOBAL FILTRES
+
+Vue.filter('spaceBetweenNum', function (price) { 
+	price += "";
+	var pattern = /(-?\d+)(\d{3})/;
+	while (pattern.test(price))
+		price = price.replace(pattern, "$1 $2");
+	return price; 
+})
+
+
+
 // COMMON FUNCTION
-
-
 function checkSm() {
 	return $(document).width() <= 991;
 }

@@ -1,6 +1,5 @@
 <template>
-  <div>
-
+  <div >
     <div class="card-bnr relative" v-for="(bnr, key) in pageData.content.banners" :key="key" v-if="bnr.type_code == 'model'">
       <div class="bg-video-content cover">
         <video :src="bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
@@ -135,12 +134,101 @@
       </div>
     </div>
 
+    <div class="card-video">
+      <div class="container-p p-v-80">
+        <div class="entry-header text-center">
+          <h4 class="color-2 text-n1">ОБЗОРЫ</h4>
+          <h2>Видео о модели</h2>
+          <div class="short-models-nav m-v-30">
+            <ul class="list flex-adaptive justify-c-center li-m-v-15">
+              <li v-for="(title, key) in videoGroup.content.video_bank.groups" :key="key" :class="{'active': key == 0}">
+                <a :href="'#'+title.id" data-toggle="tab">{{title.name}} ({{videoGroup.content.video_bank.list[title.id].length}})</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-content">
+          <div :id="key" v-for="(videoList, key) in videoGroup.content.video_bank.list" :key="key"  class="tab-pane fade" :class="{'active in': videoGroup.content.video_bank.groups[0].id == key}">
+            <div class="card-video-items boxes-4 owl-carousel owl-btn-2">
+              <figure v-for="(videoItem, keyItem) in videoList" :key="keyItem">
+                <a :href="videoItem.video_link" :data-fancybox="key">
+                  <div class="fig-wrapper">
+                    <div class="img-content">
+                      <div class="img" :style="'background-image: url('+videoItem.preview_image+');'"></div>
+                      <div class="btn-play">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                      </div>
+                    </div>
+                    <div class="desc-content m-t-10">
+                      <p><b>{{videoItem.name}}</b></p>
+                    </div>
+                  </div>
+                </a>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-showroom car-showroom">
+      <div class="container-p p-v-30">
+        <div class="showroom">
+          <div class="showroom-header">
+            <div class="entry-header">
+              <h4 class="color-2 text-n1">ПРОСМОТР 360°</h4>
+              <h2>{{pageData.content.model.name}}</h2>
+            </div>
+            <div class="showroom-typeselect">
+              <ul class="list">
+                <li class="active">
+                  <a href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
+                  <span>Экстерьер</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="showroom-main m-v-30">
+            <div
+                class="cloudimage-360"
+                data-folder=""
+                data-filename="{index}.png"
+                data-spin-reverse
+                data-amount=""
+            ></div>
+          </div>
+
+          <script>window.CI360 = { notInitOnLoad: true };</script>
+          <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.5.0/js-cloudimage-360-view.min.js"></script>
+
+          <div class="showroom-bottom justify-c-between align-center">
+            <div class="showroom-colorselect">
+              <div class="title-content">
+                <span class="color-gray">Цвет:</span> <b >{{showroom.colorName}}</b>
+              </div>
+              <ul class="list m-t-10">
+                <li v-for="(color, key) in pageData.content.overviews.colors" :key="key">
+                  <a :href="'colorcar-'+key" @click="(event)=>{showroom.changer(color, pageData.content.overviews.complectations, event)}" data-toggle="tab">
+                    <div class="color-select" :style="'background-image: url('+color.image+')'"></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <span class="btn-def">
+              <a href="../" class="p-v-20">Конфигуратор</a>	
+            </span>
+          </div>
+          <br><br>
+        </div>
+      </div>
+    </div>
+
     <div class="card-sets bg-color-gray-1">
       <div class="container-p p-v-45">
         <div class="entry-header text-center m-v-30">
           <h4 class="color-2 text-n1">КОМПЛЕКТАЦИИ</h4>
-          <h2>Варианты K5</h2>
-          <p>5 доступных комплектаций</p>
+          <h2>Варианты {{pageData.content.model.name}}</h2>
+          <p>{{pageData.content.complectations.complectations.length}} доступных комплектаций</p>
         </div>
         <div class="card-sets-items owl-carousel boxes-3 m-v-30 owl-nav-style-2-xs">
           <figure v-for="(set, key) in pageData.content.complectations.complectations" :key="key">
@@ -186,7 +274,7 @@
         </div>
       </div>
     </div>
-
+    
     <div class="card-gar bg-color-gray-1" v-for="(info, key) in pageData.content.infographics" :key="key" v-if="info.type == 'img_left'">
       <div class="container-p p-v-45">
         <div class="entry-content flex-adaptive align-center justify-c-between">
@@ -223,7 +311,7 @@
         </div>
       </div>
     </div>
- 
+
   </div>
 </template>
 
@@ -234,16 +322,18 @@ export default {
   components: {
     Breadcrump
   },
-  async asyncData({store, error}){
+  async asyncData(state){
     try{
-      const pageData = await store.dispatch("models/fetchPageData", {
-        pathname: "/models/seltos/desc"
+      //console.log(state);
+      const pageData = await state.store.dispatch("models/fetchPageData", {
+        pathname: "/models/"+state.params.id+"/desc",
       })
-      const videoGroup = await store.dispatch("models/fetchVideo", {
+      const videoGroup = await state.store.dispatch("models/fetchVideo", {
         model: pageData.content.model.model_line_id,
       })
+      //pageData.content.model.name
       //console.log($nuxt.$route.fullPath, store)
-      console.log(pageData, "424", store);
+      //console.log(pageData, "424", store);
       return {
         pageData,
         videoGroup,
@@ -253,9 +343,28 @@ export default {
     }
   },
   data(){
-    return {
-      breadcrumpTitle: "K5",
-      infographics: [],
+    return{
+      breadcrumpTitle: '',
+      showroom: {
+        colorName: '',
+        path: '',
+        amount: '',
+        async changer(color, complectations, event){
+          console.log(event.target, this);
+          this.colorName = (color.name+" ("+color.code+")");
+          for (let i = 0; i < complectations.length; i++) {
+            complectations[i].overviews.map((el, i)=>{
+              if( color.id == el.color_id ){
+                window.CI360.destroy();
+                $(".showroom-main [data-folder]").attr('data-folder', el.path)
+                $(".showroom-main [data-amount]").attr('data-amount', el.amount)
+                window.CI360.init();
+                console.log(el.path, i);
+              }
+            }) 
+          }
+        }
+      }
     }
   },
   methods:{
@@ -313,8 +422,9 @@ export default {
 				margin: 30
 			});
     });
-    
-
+    setTimeout(()=>{
+      $(".showroom-colorselect li:nth-child(1)")[0].click()
+    }, 1)
   },
   filters: {
     spaceBetweenNum (price) {
@@ -342,7 +452,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .card-bnr{
     .breadcrumb-container{
       .container-p{

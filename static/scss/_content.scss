@@ -1466,20 +1466,49 @@ $heightSlider: auto;
 	}
 }
 .showroom-colorselect{
-	li{
-		display: inline-block;
-	}
 	a{
 		position: relative;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
+	.list{
+		display: flex;
+		li{
+			display: inline-block;
+			margin-right: 5px;
+			position: relative;
+			&:before{
+				@extend .clafclear;
+				display: none;
+				background-image: url('https://www.kia.ru/_nuxt/assets/check-colour.ace89650.svg');
+				background-position: center;
+				background-repeat: no-repeat;
+				top: 0;
+				left: 0;
+				pointer-events: none;
+				z-index: 1;
+			}
+			&.active{
+				&:before{
+					display: block;
+				}
+			}
+		}
+	}
 	.color-img{
 		width: 35px;
 		height: 35px;
 		border: 1px solid rgba(#9a9a9a, 0.6);
 		border-radius: 50%;
+	}
+	.color-select{
+		width: 35px;
+		height: 35px;
+		border: 1px solid rgba(#9a9a9a, 0.6);
+		border-radius: 50%;
+		background-position: center;
+		background-size: cover;
 	}
 	.check-img{
 		position: absolute;

@@ -142,14 +142,14 @@
           <h2>Видео о модели</h2>
           <div class="short-models-nav m-v-30">
             <ul class="list flex-adaptive justify-c-center li-m-v-15">
-              <li v-for="(title, key) in videoGroup.content.video_bank.groups" :key="key" :class="{'active': key == 0}">
-                <a :href="'#'+title.id" data-toggle="tab">{{title.name}} ({{videoGroup.content.video_bank.list[title.id].length}})</a>
+              <li v-for="(title, key) in videoGroup.content.video_bank.groups" :key="key" :class="{'active': key == 0}" v-if="title.meta.total > 0">
+                <a :href="'#'+title.id" data-toggle="tab">{{title.name}} ({{title.meta.total}})</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="tab-content">
-          <div :id="key" v-for="(videoList, key) in videoGroup.content.video_bank.list" :key="key"  class="tab-pane fade" :class="{'active in': videoGroup.content.video_bank.groups[0].id == key}">
+          <div :id="key" v-for="(videoList, key) in videoGroup.content.video_bank.list" :key="key"  class="tab-pane fade" :class="{'active in': videoGroup.content.video_bank.groups[0].id == key}" v-if="videoList.length">
             <div class="card-video-items boxes-4 owl-carousel owl-btn-2">
               <figure v-for="(videoItem, keyItem) in videoList" :key="keyItem">
                 <a :href="videoItem.video_link" :data-fancybox="key">
@@ -222,58 +222,8 @@
       </div>
     </div>
 
-    <div class="card-sets bg-color-gray-1">
-      <div class="container-p p-v-45">
-        <div class="entry-header text-center m-v-30">
-          <h4 class="color-2 text-n1">КОМПЛЕКТАЦИИ</h4>
-          <h2>Варианты K5</h2>
-          <p>5 доступных комплектаций</p>
-        </div>
-        <div class="card-sets-items owl-carousel boxes-3 m-v-30 owl-nav-style-2-xs">
-          <figure v-for="(set, key) in pageData.content.complectations.complectations" :key="key">
-            <div class="fig-wrapper">
-              <div class="cap-content">
-                <h3>{{set.name}}</h3>
-                <h4>от {{set.min_price | spaceBetweenNum}} сум</h4>
-              </div>
-              <div class="desc-content">
-                <div>
-                  <p><b>Двигатель и трансмиссия</b></p>
-                  <p v-for="(modification, key) in set.modifications" :key="key">
-                    <template v-for="(engine) in pageData.content.complectations.engines">
-                      <template v-if="engine.id == modification.engine_id">
-                        {{engine.name+" / "+engine.power_hp+" л. с. / "+engine.fuel_type_name+" / "}}
-                      </template>
-                    </template>
-                    <template v-for="(transmission) in pageData.content.complectations.transmissions">
-                      <template v-if="transmission.id == modification.transmission_id">
-                        {{transmission.gearbox_name+" / "+transmission.drive_name}}
-                      </template>
-                    </template>
-                  </p>
-                  <br>
-                  <p><b>Основные опции</b></p>
-                  <p v-for="(optionId, key) in set.options" :key="'A'+key">
-                    <template v-for="(option) in pageData.content.complectations.options">
-                      <template v-if="option.id == optionId">
-                        {{option.name}}
-                      </template>
-                    </template>
-                  </p>
-                </div>
-                <div class="link-content m-t-20">
-                  <div class="align-center font-w-6">
-                    <a href="../models-options.html" class="hover-aunderline"><b>Комплектации и цены</b></a>
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </figure>
-        </div>
-      </div>
-    </div>
-    
+    <CardSets :complectations="pageData.content.complectations" :modelName="pageData.content.model.name"/>
+
     <div class="card-gar bg-color-gray-1" v-for="(info, key) in pageData.content.infographics" :key="key" v-if="info.type == 'img_left'">
       <div class="container-p p-v-45">
         <div class="entry-content flex-adaptive align-center justify-c-between">
@@ -310,21 +260,23 @@
         </div>
       </div>
     </div>
-
+ 
   </div>
 </template>
 
 
 <script>
 import Breadcrump from '@/components/Breadcrump'
+import CardSets from '@/components/models/CardSets'
 export default {
   components: {
-    Breadcrump
+    Breadcrump,
+    CardSets
   },
   async asyncData({store, error}){
     try{
       const pageData = await store.dispatch("models/fetchPageData", {
-        pathname: "/models/k5/desc"
+        pathname: "/models/seltos/desc"
       })
       const videoGroup = await store.dispatch("models/fetchVideo", {
         model: pageData.content.model.model_line_id,
@@ -342,6 +294,7 @@ export default {
   data(){
     return {
       breadcrumpTitle: "K5",
+      infographics: [],
     }
   },
   methods:{
@@ -403,13 +356,7 @@ export default {
 
   },
   filters: {
-    spaceBetweenNum (price) {
-      price += "";
-      var pattern = /(-?\d+)(\d{3})/;
-      while (pattern.test(price))
-        price = price.replace(pattern, "$1 $2");
-      return price;
-    },
+
   },
   head() {
     return {
@@ -428,7 +375,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .card-bnr{
     .breadcrumb-container{
       .container-p{
