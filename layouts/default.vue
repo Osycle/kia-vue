@@ -29,9 +29,9 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
-
 export default {
-  head: {
+  head() {
+    return {
       script: [
         {src: '/js/plugins/jquery.min.js'},
         {src: '/js/plugins/bootstrap.min.js'},
@@ -42,8 +42,10 @@ export default {
         {src: '/js/plugins/jquery.mmenu.all.js'},
         {src: '/js/plugins/smooth-scroll-link.min.js'},
         {src: '/js/plugins/owl.carousel.min.js'},
-        {src: '/js/main.js'},
+        {src: '/js/plugins/js-cloudimage-360-view.min.js'},
+        //{src: '/js/main.js'},
       ],
+    }
   },
   components: {
     Header,

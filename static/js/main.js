@@ -1,22 +1,71 @@
-"use strict";
+
+export default function(){
 
 
 
-(function() {
-	$(function() {
-		//$("img").attr("src", "img/other/short-news-5.jpg");
-		//$("[style*='background-image']").attr("style", "background-image: url('img/other/short-news-5.jpg')");
+	var isWebkit = /Webkit/i.test(navigator.userAgent),
+			isChrome = /Chrome/i.test(navigator.userAgent),
+			isMac = /Mac/i.test(navigator.userAgent),
+			isMobile = !!("ontouchstart" in window),
+			isAndroid = /Android/i.test(navigator.userAgent),
+			isEdge = /Edge/i.test(navigator.userAgent);
 
-		/*AOS*/
-		if( "AOS" in window ){
-			AOS.init({
-				offset: 100,
-				once: true,
-				duration: 1100,
-				delay: 150
-			});
-			setTimeout(function() { AOS.refresh(); }, 1);
+
+	// COMMON FUNCTION
+
+	function checkSm() {
+		return $(document).width() <= 991;
+	}
+
+	function checkMd() {
+		return $(document).width() < 1199 && !checkSm();
+	}
+
+	function getRandomInt(min, max) {
+		return Math.floor(Math.random() * (max - min)) + min;
+	}
+
+	function getRandomIntFloat(min, max) {
+		return Math.random() * (max - min) + min;
+	}
+
+	function onResized(f) {
+		if (typeof f === "function") f();
+		$(window).on("resize", function(e) {
+			if (typeof f === "function") f();
+		});
+		return this;
+	}
+
+	function scrolledDiv(el) {
+		try {
+			var docViewTop = $(window).scrollTop(),
+				docViewBottom = docViewTop + $(window).height(),
+				elTop = $(el).offset().top + 100,
+				elBottom = elTop + $(el).height() / 1.8;
+		} catch (err) {
+			console.error();
 		}
+
+		return elBottom <= docViewBottom && elTop >= docViewTop;
+	}
+
+	function roundFix( num, cnt ){
+		num = num+""
+		cnt = cnt + (/./.test(num) || null ? 1 : 0);
+		return num.substring( 0,  cnt)*1
+	}
+
+
+	function spaceBetweenNum(str, char) {
+		str = str+"";
+		char = char || ","
+		var pattern = /(-?\d+)(\d{3})/;
+		while (pattern.test(str))
+			str = str.replace(pattern, "$1"+char+"$2");
+		return str;
+	}
+
 
 		/* bootstrap tooltip*/		
 		$('[data-toggle="tooltip"]').tooltip({
@@ -58,14 +107,14 @@
 
 
 		$(".bnr-carousel-items.owl-carousel").owlCarousel({
-			nav: !checkSm(),
+			nav: true,
 			loop: true,
 			//items: 3,
 			dots: true,
 			dotsEach: false,
 			//autoplay: true,
 			//autoplayTimeout: 7000,
-			autoHeight: true,
+			autoheight: true,
 			touchDrag: true,
 			mouseDrag: true,
 			//smartSpeed: 0,
@@ -75,7 +124,7 @@
 			},
 			navText : owlBtn,
 			margin: 0
-		});
+    });
 		//card Carousel
 		if(checkSm()){
 
@@ -552,71 +601,5 @@
 
 
 
-	});
-})(jQuery);
-
-var isWebkit = /Webkit/i.test(navigator.userAgent),
-		isChrome = /Chrome/i.test(navigator.userAgent),
-		isMac = /Mac/i.test(navigator.userAgent),
-		isMobile = !!("ontouchstart" in window),
-		isAndroid = /Android/i.test(navigator.userAgent),
-		isEdge = /Edge/i.test(navigator.userAgent);
-
-
-// COMMON FUNCTION
-
-
-
-
-function checkSm() {
-	return $(document).width() <= 991;
-}
-
-function checkMd() {
-	return $(document).width() < 1199 && !checkSm();
-}
-
-function getRandomInt(min, max) {
-	return Math.floor(Math.random() * (max - min)) + min;
-}
-
-function getRandomIntFloat(min, max) {
-	return Math.random() * (max - min) + min;
-}
-
-function onResized(f) {
-	if (typeof f === "function") f();
-	$(window).on("resize", function(e) {
-		if (typeof f === "function") f();
-	});
-	return this;
-}
-
-function scrolledDiv(el) {
-	try {
-		var docViewTop = $(window).scrollTop(),
-			docViewBottom = docViewTop + $(window).height(),
-			elTop = $(el).offset().top + 100,
-			elBottom = elTop + $(el).height() / 1.8;
-	} catch (err) {
-		console.error();
-	}
-
-	return elBottom <= docViewBottom && elTop >= docViewTop;
-}
-
-function roundFix( num, cnt ){
-	num = num+""
-	cnt = cnt + (/./.test(num) || null ? 1 : 0);
-	return num.substring( 0,  cnt)*1
-}
-
-
-function spaceBetweenNum(str, char) {
-	str = str+"";
-	char = char || ","
-	var pattern = /(-?\d+)(\d{3})/;
-	while (pattern.test(str))
-		str = str.replace(pattern, "$1"+char+"$2");
-	return str;
+	
 }

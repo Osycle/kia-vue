@@ -3,7 +3,7 @@
     <div class="bnr-carousel">
       <div class="bnr-carousel-items owl-carousel owl-btn-2">
 
-        <figure v-for="(model, key) in pageData.content.banners" :key="key">
+        <figure v-for="(model, key) in page.banners" :key="key">
           <div class="container-p">
             <div class="desc-content">
               <div class="box-xs-10 box-md-9 m-auto">
@@ -46,7 +46,7 @@
         <div class="container">
           <div class="short-models-nav m-v-20 text-center">
             <ul class="list flex-adaptive justify-c-center li-m-v-15">
-              <li v-for="(model, key) in pageData.content.model_list_info.model_lines" :key="key" :class="{active: key == 0}">
+              <li v-for="(model, key) in page.model_list_info.model_lines" :key="key" :class="{active: key == 0}">
                 <a :href="'#smodels-'+[key+1]" data-toggle="tab">{{model.name}}</a>
               </li>
             </ul>
@@ -54,7 +54,7 @@
         </div>
         <div class="short-models-content">
           <div class="tab-content">
-            <div class="tab-pane" :id="'smodels-'+[key+1]" v-for="(model, key) in pageData.content.model_list_info.models" :key="key" :class="{'active in': key == 0}">
+            <div class="tab-pane" :id="'smodels-'+[key+1]" v-for="(model, key) in page.model_list_info.models" :key="key" :class="{'active in': key == 0}">
               <div class="tab-content imgs-main">
                 <div class="img-content" :style="'background-image: url('+model.bg_images.desktop+');'">
                   <nuxt-link :to="model.landing_link">
@@ -75,15 +75,15 @@
         </div>
         <div class="short-models-nav m-v-20 text-center">
           <ul class="list flex-adaptive justify-c-center li-m-v-15">
-            <li v-for="(groupName, key) in pageData.content.video_bank.groups" :class="{active: key == 0}" :key="key">
+            <li v-for="(groupName, key) in page.video_bank.groups" :class="{active: key == 0}" :key="key">
               <a :href="'#short-news-'+[key]" data-toggle="tab">{{groupName.name}}</a>
             </li>
           </ul>
         </div>
         <div class="tab-content m-v-30">
-          <div class="tab-pane fade in active" :id="'short-news-'+[key]" v-for="(groupName, key) in pageData.content.video_bank.groups" :key="key" :class="{active: key == 0, 'tab-pane in': true}">
+          <div class="tab-pane fade in active" :id="'short-news-'+[key]" v-for="(groupName, key) in page.video_bank.groups" :key="key" :class="{active: key == 0, 'tab-pane in': true}">
             <div class="short-news-items boxes-4 owl-carousel owl-btn-2">
-              <figure v-for="(overview, key) in pageData.content.video_bank.list" :key="key">
+              <figure v-for="(overview, key) in page.video_bank.list" :key="key">
                 <div class="fig-wrapper">
                   <div class="img-content">
                     <a :href="[overview.video_link]" data-fancybox>
@@ -125,43 +125,32 @@
 <script>
 
 
+import mainjs from '@/static/js/main'
 
 export default {
   head() {
     return {
-      title: this.pageData.content.seo.title,
+      title: this.page.seo.title,
       meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
-          hid: 'description',
-          name: 'description',
-          content: this.pageData.content.seo.description
+          content: this.page.seo.description
         }
       ],
       script: [
         {src: '/js/plugins/owl.carousel.min.js'},
-        {src: '/js/main.js'},
       ]
     }
   },
-  components:{
-    
-  },
-  methods: {},
-  computed: {},
-  async asyncData({store, error}){
+  async asyncData(context){
     try{
-      const pageData = await store.dispatch("models/fetchPageData", {
-        pathname: "/"
+      const path = context.route.path
+      const page = await context.store.dispatch("models/fetchPageData", {
+        path
       })
-      return {pageData}
+      return {page: page.content}
     }catch(e){
-      error(e);
+      context.error(e);
     }
-  },
-  async created(){  
-    
   },
   data(){
     return {
@@ -171,61 +160,9 @@ export default {
       errors: [],
     }
   },
-  components: {
-    
-  },
   mounted(){
-		/*Owl carousel*/
-		window.owlBtn = [
-			'<span class="owl-btn previous">'+
-				'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
-					'<path d="M6 3L2 7l4 4M2.333 7h12.334" stroke="currentColor" stroke-width="1.5"></path>'+
-				'</svg>'+
-			'</span>', 
-			'<span class="owl-btn next">'+
-				'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
-    			'<path d="M9 11l4-4-4-4M12.667 7H.333" stroke="currentColor" stroke-width="1.5"></path>'+
-				'</svg>'+
-			'</span>'
-		]
-		$(".bnr-carousel-items.owl-carousel").owlCarousel({
-			nav: true,
-			loop: true,
-			//items: 3,
-			dots: true,
-			dotsEach: false,
-			//autoplay: true,
-			//autoplayTimeout: 7000,
-			autoheight: true,
-			touchDrag: true,
-			mouseDrag: true,
-			//smartSpeed: 0,
-			responsive:{
-				0:{items:1},
-				991:{items:1}
-			},
-			navText : owlBtn,
-			margin: 0
-    });
-		$(".short-news .short-news-items.owl-carousel").owlCarousel({
-			nav: !checkSm(),
-			loop: false,
-			//items: 3,
-			dots: false,
-			dotsEach: false,
-			slideBy: 2,
-			autoplay: false,
-			autoplayTimeout: 5400,
-			touchDrag: checkSm(),
-			//center: true,
-			responsive:{
-				0:{items:1},
-				991:{items:4}
-			},
-			navText : owlBtn,
-			margin: 30
-		});
-  }
+    mainjs();
+  },
 }
 
 </script>

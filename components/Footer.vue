@@ -9,7 +9,7 @@
       <br>
       <div class="footer-content m-v-30">
         <div class="footer-logo">
-          <img src="img/logo-white.png">
+          <img src="/img/logo-white.png">
         </div>
         <div class="flex-adaptive footer-main">
           <div class="footer-menu">
