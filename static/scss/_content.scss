@@ -1100,7 +1100,7 @@ $heightSlider: auto;
 }
 .card-bnr{
 	overflow: hidden;
-	margin-top: 60px;
+	color: white;
 	.wrapper-content{
 		display: flex;
 		justify-content: space-between;
@@ -1210,9 +1210,6 @@ $heightSlider: auto;
 				padding: 20px 20px;
 			}
 		}
-	}
-	@media (max-width: 991px){
-		margin-top: 40px;	
 	}
 }
 
@@ -2318,6 +2315,18 @@ $heightSlider: auto;
 		pointer-events: auto;
 	}
 }
+.card-top{
+	margin-top: 60px;
+	@media (max-width: 991px){
+		margin-top: 50px;
+	}
+	.breadcrumb-container{
+    .container-p{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
 .options-bnr{
 	.link-content{
 		li{
@@ -2576,6 +2585,11 @@ $heightSlider: auto;
 	padding-bottom: 20px;
 	position: relative;
 	border-top: 1px solid $color-gray-3;
+	.op-enable{
+		& ~ div{
+			display: none;
+		}
+	}
 	&:nth-child(1){
 		border-top: none;
 	}

@@ -296,21 +296,23 @@
 
     </header>
 		<!-- MIN MENU -->
-		<div id="min-menu">
-			<ul>
-				<li><a href="../k5">K5</a></li>
-				<li><a href="../seltos">Seltos</a></li>
-				<li><a href="javascript:;">Мир KIA</a>
-					<ul>
-						<li><a href="../kiaworld-1.html">Бренд</a></li>
-						<li><a href="../kiaworld-history.html">История</a></li>
-						<li><a href="../desing.html">Дизайн</a></li>
-						<li><a href="../concept.html">Концепт</a></li>
-						<li><a href="../kiaworld-sponsorship.html">Спонсорство</a></li>
-					</ul>
-				</li>
-				<li><a href="../dealers.html">Дилеры</a></li>
-			</ul>
+    <div class="hide">
+      <div id="min-menu">
+        <ul>
+          <li><a href="../k5">K5</a></li>
+          <li><a href="../seltos">Seltos</a></li>
+          <li><a href="javascript:;">Мир KIA</a>
+            <ul>
+              <li><a href="../kiaworld-1.html">Бренд</a></li>
+              <li><a href="../kiaworld-history.html">История</a></li>
+              <li><a href="../desing.html">Дизайн</a></li>
+              <li><a href="../concept.html">Концепт</a></li>
+              <li><a href="../kiaworld-sponsorship.html">Спонсорство</a></li>
+            </ul>
+          </li>
+          <li><a href="../dealers.html">Дилеры</a></li>
+        </ul>
+      </div>
 		</div>
 		<!-- MIN MENU HEADER -->
 		<div class="min-menu-header hidden-md hidden-lg header-scroll scrolled-up white-style">

@@ -31,13 +31,14 @@
         </div>
       </div>
     </div>
-    <div class="card-bnr relative" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'model'">
+
+    <div class="card-bnr card-top relative" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'model'">
       <div class="bg-video-content cover">
         <video :src="bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
         <div class="img-xs absolute" :style="'background-image: url('+bnr.images.mobile+');'"></div>
       </div>
       <div class="container-p relative">
-        <Breadcrump :breadcrumpTitle="breadcrumpTitle"/>
+        <Breadcrump :breadcrumpItems="breadcrumpItems"/>
         <div class="wrapper-content">
           <div class="desc-content justify-c-end hidden-xs hidden-sm">
             <span class="text align-center"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span> <a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
@@ -389,7 +390,11 @@ export default {
   },
   data(){
     return{
-      breadcrumpTitle: '',
+      breadcrumpItems: [
+        {title: 'Главная',link: '/'},
+        {title: 'Модели',link: '/models'},
+        {title: 'K5',link: '/models/k5'},
+      ],
       showroom: {
         colorName: '',
         path: '',
@@ -411,19 +416,5 @@ export default {
   mounted() {
     mainjs();
   },
-  methods:{
-
-  },
 }
 </script>
-
-<style lang="scss">
-  .card-bnr{
-    .breadcrumb-container{
-      .container-p{
-        padding-left: 0;
-        padding-right: 0;
-      }
-    }
-  }
-</style>
