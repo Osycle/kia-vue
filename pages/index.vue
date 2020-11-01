@@ -154,19 +154,19 @@ export default {
   },
   data(){
     return {
-      pageTitle: "Главная",
-      pageData:{},
-      models:[],
-      errors: [],
+      
     }
   },
   mounted(){
     mainjs();
+    $(".header-hidden, header").removeClass("block white-style");
   },
 }
 
 </script>
 
-<style>
+
+
+<style lang="scss" scoped>
 
 </style>
