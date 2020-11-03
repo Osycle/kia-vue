@@ -65,6 +65,14 @@ export default function(){
 			str = str.replace(pattern, "$1"+char+"$2");
 		return str;
 	}
+	
+	if( $('[header-opacity]').length ){
+		$(".header-parent").addClass("header-op")
+		$(".header").removeClass("white-style")
+	}else{
+		$(".header-parent").removeClass("header-op")
+		$(".header").addClass("white-style")
+	}
 
 
 		/* bootstrap tooltip*/		
@@ -527,29 +535,6 @@ export default function(){
 
 
 
-		//subdown
-		$("[subdown-click]").on("click", function(){
-			var that = $(this)
-			var num = that.attr("subdown-click");
-			($("[subdown]")).removeClass("subdown-active");
-			if(that.hasClass("bg-shadow")){
-				console.log(that);
-				$("a[subdown-click='"+num+"']").trigger("click");
-				return;
-			}
-			if(!that.hasClass("subdown-active")){
-				$("a[subdown-click]").removeClass("subdown-active");
-				that.add($("[subdown="+num+"]")).addClass("subdown-active");
-				$("body").addClass("subdown-active");
-			}else{
-				that.add($("[subdown="+num+"]")).removeClass("subdown-active");
-				$("body").removeClass("subdown-active");
-			}
-		})
-		$(".subdown-wrapper").on("click", function(e){
-			if($(e.target).hasClass("subdown-wrapper"))
-				$("[subdown-click].subdown-active").trigger("click");
-		})
 
 
 		if ($(".carousel-article").length >= 0) {

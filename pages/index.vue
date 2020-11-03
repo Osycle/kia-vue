@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div header-opacity>
     <div class="bnr-carousel">
       <div class="bnr-carousel-items owl-carousel owl-btn-2">
 
@@ -136,9 +136,6 @@ export default {
           content: this.page.seo.description
         }
       ],
-      script: [
-        {src: '/js/plugins/owl.carousel.min.js'},
-      ]
     }
   },
   async asyncData(context){
@@ -154,13 +151,13 @@ export default {
   },
   data(){
     return {
-      
+      //
     }
   },
   mounted(){
     mainjs();
-    $(".header-hidden, header").removeClass("block white-style");
   },
+  methods: {}
 }
 
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Breadcrump :breadcrumpTitle="breadcrumpTitle"/>
+    <Breadcrump :breadcrumpItems="breadcrumpItems"/>
     <div class="models">
       <div class="container-p">
         <div class="entry-header m-b-30">
@@ -75,7 +75,10 @@ export default {
   },
   data(){
     return {
-      breadcrumpTitle: "Модели"
+      breadcrumpItems: [
+        {title: 'Главная',link: '/'},
+        {title: 'Модели',link: '/models'},
+      ],
     }
   },
   mounted(){

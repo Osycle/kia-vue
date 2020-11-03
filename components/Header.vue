@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="header-parent">
     <div class="header-hidden block"></div>
     <header id="header" class="header header-scroll white-style">
       <!-- HEADER TOP -->
@@ -223,10 +223,10 @@
                     <div class="item">
                       <div class="color-gray-4 title-content">Бренд KIA</div>
                       <ul>
-                        <li><a href="../kiaworld-1.html">Компания KIA Motors</a></li>
-                        <li><a href="../kiaworld-history.html">История</a></li>
-                        <li><a href="../kiaworld-reward.html">Награды</a></li>
-                        <li><a href="../kiaworld-sponsorship.html">Спонсорство</a></li>
+                        <li><nuxt-link active-class="active" to="/about/brand/">Компания KIA Motors</nuxt-link></li>
+                        <li><nuxt-link active-class="active" to="/about/history/">История</nuxt-link></li>
+                        <li><nuxt-link active-class="active" to="/about/awards/">Награды</nuxt-link></li>
+                        <li><nuxt-link active-class="active" to="/about/sponsorship/">Спонсорство</nuxt-link></li>
                         <li><a href="https://www.kia.com/worldwide/main.do">Kia Worldwide</a></li>
                       </ul>
                     </div>
@@ -343,3 +343,38 @@
 		</div>
   </div>
 </template>
+
+
+<script>
+export default {
+  mounted(){
+   $(".header a:not([subdown-click])").on("click", function(){
+      if($("[subdown-click].subdown-active").length)
+        $("[subdown-click].subdown-active").trigger("click");
+    })
+		$("[subdown-click]").on("click", function(){
+			var that = $(this)
+			var num = that.attr("subdown-click");
+      ($("[subdown]")).removeClass("subdown-active");
+			if(that.hasClass("bg-shadow")){
+				console.log(that);
+				$("a[subdown-click='"+num+"']").trigger("click");
+				return;
+			}
+			if(!that.hasClass("subdown-active")){
+				$("a[subdown-click]").removeClass("subdown-active");
+				that.add($("[subdown="+num+"]")).addClass("subdown-active");
+				$("body").addClass("subdown-active");
+			}else{
+				that.add($("[subdown="+num+"]")).removeClass("subdown-active");
+				$("body").removeClass("subdown-active");
+			}
+		})
+		$(".subdown-wrapper").on("click", function(e){
+			if($(e.target).hasClass("subdown-wrapper"))
+				$("[subdown-click].subdown-active").trigger("click");
+    })
+
+  }
+}
+</script>

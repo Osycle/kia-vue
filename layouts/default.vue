@@ -50,7 +50,8 @@ export default {
   components: {
     Header,
     Footer
-  }
+  },
+  methods: {}
 }
 
 
@@ -69,6 +70,11 @@ export default {
 
 </script>
 
-<style>
-
+<style lang="scss">
+  .accordion_left{
+    .card-media-desc{
+      padding-left: 10%;
+      padding-right: 0;
+    }
+  }
 </style>
