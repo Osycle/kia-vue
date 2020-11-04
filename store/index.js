@@ -1,7 +1,10 @@
+// import exp from '@/api/index.js'
+// Vue.use(exp)
+
 
 import Vue from 'vue'
-
 import Vuex from 'vuex'
+
 Vue.use(Vuex)
 
 import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
@@ -24,8 +27,8 @@ Vue.use(VueFilterDateFormat, {
   timezone: 5
 });
 
-import ApiPlugin from '@/plugins/api'
-Vue.use(ApiPlugin);
+// import ApiPlugin from '@/plugins/api'
+// Vue.use(ApiPlugin);
 
 
 
@@ -95,3 +98,6 @@ function spaceBetweenNum(str, char) {
 		str = str.replace(pattern, "$1"+char+"$2");
 	return str;
 }
+
+
+

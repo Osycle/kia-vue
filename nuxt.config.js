@@ -25,9 +25,12 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  server:{
-    port: 8000,
-    host: "localhost"
+  // server:{
+  //   port: 8000,
+  //   host: "localhost"
+  // },
+  serverMiddleware: {
+    '/api': '~/api'
   },
   loading: {
     color: '#bb162b'
@@ -75,5 +78,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+
   }
 }
