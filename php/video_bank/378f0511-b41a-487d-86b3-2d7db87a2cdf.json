@@ -1,0 +1,320 @@
+{
+	"error": 0,
+	"content":
+	{
+		"video_bank":
+		{
+			"groups": [
+			{
+				"code": "promo",
+				"id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+				"name": "Промо-ролики",
+				"meta":
+				{
+					"current_page": 1,
+					"from": 1,
+					"last_page": 1,
+					"per_page": -1,
+					"to": 5,
+					"total": 5
+				}
+			},
+			{
+				"code": "features",
+				"id": "7d424e73-d617-49a2-a3ed-55f434258358",
+				"name": "Особенности",
+				"meta":
+				{
+					"current_page": 1,
+					"from": 1,
+					"last_page": 1,
+					"per_page": -1,
+					"to": 6,
+					"total": 6
+				}
+			},
+			{
+				"code": "opinions",
+				"id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"name": "Мнения",
+				"meta":
+				{
+					"current_page": 1,
+					"from": 1,
+					"last_page": 1,
+					"per_page": -1,
+					"to": 5,
+					"total": 5
+				}
+			},
+			{
+				"code": "education",
+				"id": "807d378a-3f1b-4e46-b0f2-6c5bd84a13cd",
+				"name": "Обучающие видео",
+				"meta":
+				{
+					"current_page": 1,
+					"from": 1,
+					"last_page": 1,
+					"per_page": -1,
+					"to": 6,
+					"total": 6
+				}
+			}],
+			"list":
+			{
+				"6e00847d-3a84-4a74-affe-6e81e4cee4d0": [
+				{
+					"author": "Kia Motors Russia",
+					"date": 1598897471,
+					"group_id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+					"id": "01fc0e7c-6fcc-4a28-96df-b214fc0889ac",
+					"name": "Новый Kia K5 | Сверхчеловеческие возможности",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/a14240d9-aec1-4f80-91c6-dec47836461c.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/sDwqwFJts38?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:30"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1595588487,
+					"group_id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+					"id": "9a6190ed-0aee-4815-9071-28bb4fba96d2",
+					"name": "Kia K5: Испытания в России",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/4b607b19-c689-4d2e-97f9-da21120ec1a4.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/pSUC_debwtI?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "1:00"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1595588487,
+					"group_id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+					"id": "173a81d5-c569-4590-8cc8-4baed1a4f39b",
+					"name": "Kia K5: Красота",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/88e56efc-764f-47ec-bef0-0f6c8a6460a8.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/Ee2cYiq8ib0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:18"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1595588487,
+					"group_id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+					"id": "c98c720b-5a5f-4ea6-8b1f-d5d39f393565",
+					"name": "Kia K5: Качество",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/6c7e0052-a076-4fef-b96a-29f94b99ed06.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/qKO4eGDGFjs?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:26"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1595588487,
+					"group_id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+					"id": "f2f35ae5-ba0b-4319-9f20-97df2e689616",
+					"name": "Kia K5: Комфорт",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/9bf8ebe9-7ef7-47d7-91cb-11691f995182.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/Ibd4oiDDrvY?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:18"
+				}],
+				"7d424e73-d617-49a2-a3ed-55f434258358": [
+				{
+					"author": "Kia Motors Russia",
+					"date": 1598904671,
+					"group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+					"id": "d7b67889-32a9-42a1-8fee-49261f96720a",
+					"name": "Монитор для контроля слепых зон",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/dc831529-ba68-46fe-997d-c3422154ddb3.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/4BJuEwgOexY?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:15"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1598904671,
+					"group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+					"id": "3f9f463c-fe49-4198-b08a-d3b18b60e019",
+					"name": "Комфортные технологии",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/818c3ada-2b89-4c05-b3a7-e1a5afaa259d.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/6tzPdSMXO0A?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:20"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1598904671,
+					"group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+					"id": "f71109cd-898b-46b1-9d95-c9eb631628d8",
+					"name": "Удовольствие от вождения",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/4e1f6a9a-e0dc-450a-b565-b1c808fe2faf.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/voVvPE2xWXs?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:18"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1598904671,
+					"group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+					"id": "7623cd7c-5511-40fb-9cc9-83b201b3be23",
+					"name": "Интеллектуальный круиз-контроль",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/08635e2b-1e2a-4226-8b82-09ab0a4599d9.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/ro8UBYoIX6M?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:16"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1598897471,
+					"group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+					"id": "ec2d9943-2f86-4664-be90-4d281718928d",
+					"name": "Система предотвращения фронтального столкновения",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/7d920d2b-f8e0-46d9-ac9e-ada84c425d63.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/YeCTgikN88I?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:16"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1598897471,
+					"group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+					"id": "abb5320a-c482-4e25-b532-7d2b6d60e859",
+					"name": "Система кругового обзора",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/79470ffd-6844-4bf8-a594-9eb62a821d43.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/2U4IL-Wtr0g?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "0:17"
+				}],
+				"99881c64-8137-44f8-91a5-d533bfab51c9": [
+				{
+					"author": "Kia Motors Russia",
+					"date": 1597227613,
+					"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+					"id": "d7d50914-edac-4fd8-a971-0c5e0f4473ee",
+					"name": "Kia K5: Онлайн-премьера с Wylsacom",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/8ec2483e-dc9b-461f-a673-d77be4c4f774.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/yLgRftDqKSA?start=930",
+					"video_time": "1:43:32"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1599070221,
+					"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+					"id": "1829862d-b5a0-47a0-acbe-e424d4329654",
+					"name": "Clickoncar",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/07fb5a4c-44a1-4f8f-808a-a05511165585.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/ge5uzcI2Y60?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "38:40"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1599070041,
+					"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+					"id": "369b625a-28f2-4609-8ca5-125266a36cc6",
+					"name": "Лиса Рулит",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/6127f6b7-5567-4c88-894c-773832562494.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/fZuAL_61wSM?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "31:07"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1599069621,
+					"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+					"id": "18a88c57-63fd-48f6-9f90-48a0527610d0",
+					"name": "Игорь Бурцев",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/2306e23c-3504-44c8-8149-a6c88e1f377a.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/3caA2Qs6yqg?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "28:26"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1599069260,
+					"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+					"id": "fbd342f4-08dd-46f7-a3bc-07bb03309763",
+					"name": "Autonews",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/fc1dac87-15bc-4194-972e-2d145fb836b3.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/Yzct5epKsH0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "17:02"
+				}],
+				"807d378a-3f1b-4e46-b0f2-6c5bd84a13cd": [
+				{
+					"author": "Kia Motors Russia",
+					"date": -59543565546,
+					"group_id": "807d378a-3f1b-4e46-b0f2-6c5bd84a13cd",
+					"id": "039b2a1f-3e7b-4db8-86ab-78ff68fbcf7d",
+					"name": "К5 – как поменять батарею в Smart Key",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/7a646e00-ffd2-4662-9920-adf47edb0302.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/e3_9EJdayU4?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "1:19"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": -59543565546,
+					"group_id": "807d378a-3f1b-4e46-b0f2-6c5bd84a13cd",
+					"id": "7f67527d-c5ad-4458-b57d-51c8f6038ad9",
+					"name": "К5 – система кругового обзора (SVM)",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/7488baca-2af6-4165-8afa-f505ec3fd53b.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/azch8dffjW0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "1:14"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": -59543565546,
+					"group_id": "807d378a-3f1b-4e46-b0f2-6c5bd84a13cd",
+					"id": "eee7ca01-2b29-4ff0-9269-482e98d7750a",
+					"name": "К5 – интеллектуальный круиз-контроль с функцией Stop&Go",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/e3f2ced9-d41e-4ef3-bc7a-3d27ef3a3cc4.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/16EDsQTL728?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "1:49"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": -59543565546,
+					"group_id": "807d378a-3f1b-4e46-b0f2-6c5bd84a13cd",
+					"id": "2e0fde4a-2122-45fe-b0f0-0784282f019a",
+					"name": "К5 – система предотвращения столкновения при выезде с парковки задним ходом",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/014c7c8f-5c7c-4196-8190-2b1b8c7555f4.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/OMbDGDqg-3E?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "1:19"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": -59890746517,
+					"group_id": "807d378a-3f1b-4e46-b0f2-6c5bd84a13cd",
+					"id": "593d4df3-13d9-488e-a257-54c5cc0b1209",
+					"name": "К5 – как заменить фильтр в системе климат-контроля",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/7bec496a-3917-4c64-8f39-66f59b761e10.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/DT0L1WvEQsM?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "1:18"
+				},
+				{
+					"author": "Kia Motors Russia",
+					"date": 1598861471,
+					"group_id": "807d378a-3f1b-4e46-b0f2-6c5bd84a13cd",
+					"id": "c285caac-05e5-4937-bde8-372e957774a8",
+					"name": "К5 – функции безопасности ребенка",
+					"preview_image": "https://cdn.kia.ru/resize/410x277/media-data/video_bank/preview/19de7827-92c7-4841-95cd-94c2fbf0bdc3.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/O566FjbuGUQ?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "1:25"
+				}]
+			}
+		},
+		"seo":
+		{
+			"title": "Видео компании KIA Motors",
+			"description": "Видео тест-драйвы, радиопередачи о компании КИА."
+		}
+	}
+}

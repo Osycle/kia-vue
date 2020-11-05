@@ -18,8 +18,8 @@ module.exports = app
 
 // Start standalone server if directly running
 console.log((require.main === module), "22222222Я тут")
-if (require.main != module) {
-  const port = 8000 || 3001
+if (require.main === module) {
+  const port = 3001 || 3001
   app.listen(port, () => {
     console.log(`API server listening on port ${port}`)
   })

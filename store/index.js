@@ -1,6 +1,3 @@
-// import exp from '@/api/index.js'
-// Vue.use(exp)
-
 
 import Vue from 'vue'
 import Vuex from 'vuex'

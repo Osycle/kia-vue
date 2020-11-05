@@ -2,7 +2,8 @@
 export const actions = {
   async fetchPageData(context, params){
     try{
-      const models = await this.$axios.$post('http://kia-api/handler.php', params)
+      console.log(params);
+      const models = await this.$axios.$get('http://kia-api-php/handler.php', {params})
       return models
     }catch(e){
       throw e
@@ -10,7 +11,7 @@ export const actions = {
   },
   async fetchVideo(context, params){
     try{
-      const modelVideo = await this.$axios.$post('http://kia-api/video_bank.php', params)
+      const modelVideo = await this.$axios.$get('http://kia-api-php/video_bank.php', {params})
       return modelVideo
     }catch(e){
       throw e

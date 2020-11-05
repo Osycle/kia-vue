@@ -28,7 +28,7 @@
                 <ul class="menu-list justify-c-end">
                   <li><a href="javascript:;" subdown-click="2">Владельцам</a></li>
                   <li><a href="javascript:;" subdown-click="3">Мир KIA</a></li>
-                  <li><a href="projects.html">Дилеры</a></li>
+                  <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
                 </ul>
               </div>
             </div>

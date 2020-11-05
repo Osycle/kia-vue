@@ -1,0 +1,320 @@
+{
+    "error": 0,
+    "content":
+    {
+        "video_bank":
+        {
+            "groups": [
+            {
+                "code": "promo",
+                "id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+                "name": "\u041f\u0440\u043e\u043c\u043e-\u0440\u043e\u043b\u0438\u043a\u0438",
+                "meta":
+                {
+                    "current_page": 1,
+                    "from": 1,
+                    "last_page": 1,
+                    "per_page": -1,
+                    "to": 3,
+                    "total": 3
+                }
+            },
+            {
+                "code": "features",
+                "id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                "name": "\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438",
+                "meta":
+                {
+                    "current_page": 1,
+                    "from": 1,
+                    "last_page": 1,
+                    "per_page": -1,
+                    "to": 11,
+                    "total": 11
+                }
+            },
+            {
+                "code": "opinions",
+                "id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+                "name": "\u041c\u043d\u0435\u043d\u0438\u044f",
+                "meta":
+                {
+                    "current_page": 1,
+                    "from": 1,
+                    "last_page": 1,
+                    "per_page": -1,
+                    "to": 8,
+                    "total": 8
+                }
+            },
+            {
+                "code": "education",
+                "id": "807d378a-3f1b-4e46-b0f2-6c5bd84a13cd",
+                "name": "\u041e\u0431\u0443\u0447\u0430\u044e\u0449\u0438\u0435 \u0432\u0438\u0434\u0435\u043e",
+                "meta":
+                {
+                    "current_page": 1,
+                    "from": null,
+                    "last_page": 1,
+                    "per_page": -1,
+                    "to": null,
+                    "total": 0
+                }
+            }],
+            "list":
+            {
+                "6e00847d-3a84-4a74-affe-6e81e4cee4d0": [
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+                    "id": "930e321f-8cd2-4187-b089-f3e12d28c9fb",
+                    "name": "\u0421\u043c\u0435\u043b\u0435\u0439!",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/promo\/seltos\/1_Smelej.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/8KC-mNDC0-M?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+                    "video_time": "00:30"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1581368400,
+                    "group_id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+                    "id": "c36a4a32-6ca3-43d8-819b-aa4c969b9398",
+                    "name": "\u0421\u0434\u0435\u043b\u0430\u0439 \u043f\u0435\u0440\u0432\u044b\u0439 \u0440\u0435\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0448\u0430\u0433!",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/promo\/seltos\/2_Sdelaj_pervyj_reshitelnyj_shag.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/5A-j6b9YadU?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=5A-j6b9YadU",
+                    "video_time": "02:02"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1578862800,
+                    "group_id": "6e00847d-3a84-4a74-affe-6e81e4cee4d0",
+                    "id": "52bcb1d5-cb89-4ec3-841c-c2f24953e732",
+                    "name": "\u0410\u0431\u0441\u043e\u043b\u044e\u0442\u043d\u043e \u043d\u043e\u0432\u044b\u0439 Kia Seltos",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/promo\/seltos\/3_Absoljutno_novyj_Kia_Seltos.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/6Tc5XFR7xz4?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=6Tc5XFR7xz4",
+                    "video_time": "00:37"
+                }],
+                "7d424e73-d617-49a2-a3ed-55f434258358": [
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "2f6c3178-6cff-4f44-bc8b-e7e93c0a2af0",
+                    "name": "\u041f\u043e\u043b\u043d\u044b\u0439 \u043f\u0430\u043a\u0435\u0442 \u0442\u0435\u043f\u043b\u044b\u0445 \u043e\u043f\u0446\u0438\u0439",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/1_Polnyj_paket-teplyh_opcij.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/iVGYNG-cScQ?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=iVGYNG-cScQ",
+                    "video_time": "00:17"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "4204bc16-66c7-4ce5-890f-a402adfa2149",
+                    "name": "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d \u0438 \u0441\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u0430\u044f \u043e\u043f\u0442\u0438\u043a\u0430",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/2_Sovremennyj_dizajn_i_svetodiodnaja_optika.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/H5NirM-3Ex4?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=H5NirM-3Ex4",
+                    "video_time": "00:16"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "37005859-718c-4d67-b21c-5729c8dc5591",
+                    "name": "\u041f\u0440\u043e\u0441\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0430\u043b\u043e\u043d \u0438 \u0432\u043c\u0435\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0431\u0430\u0433\u0430\u0436\u043d\u0438\u043a",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/3_Prostornyj_salon_i_vmestitelnyj_bagazhnik.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/6QxT8CRFrl8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=6QxT8CRFrl8",
+                    "video_time": "00:16"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "6311a684-d7ae-4118-b86c-0674412110a1",
+                    "name": "\u042d\u043a\u0440\u0430\u043d 10,25 \u0434\u044e\u0439\u043c\u043e\u0432 \u0438 \u0430\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430 Bose",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/4_Jekran_10_25_djujmov_i_audiosistema_Bose.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/N3X3hMwikck?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=N3X3hMwikck",
+                    "video_time": "00:15"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "8c9066ec-1a66-4682-bf1a-ef31896144c6",
+                    "name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0443\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f \u0432 \u043f\u043e\u043b\u043e\u0441\u0435",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/5_Sistema_uderzhanija_v_polose.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/LHRg_4zLJJc?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=LHRg_4zLJJc",
+                    "video_time": "00:16"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "2f2cfadc-0f45-4629-a335-6b0da8c5a729",
+                    "name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0444\u0440\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u0445 \u0441\u0442\u043e\u043b\u043a\u043d\u043e\u0432\u0435\u043d\u0438\u0439",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/6_Sistema_predotvrashhenija_frontalnyh_stolknovenij.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/_uGq2zZesZ8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=_uGq2zZesZ8",
+                    "video_time": "00:14"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "adcd9708-d26e-4a32-aba5-c3c0ca7808a8",
+                    "name": "\u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0443\u0438\u0437-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/7_Intellektualnyj_kruiz-kontrol.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/mQGO6K1Hg2c?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=mQGO6K1Hg2c",
+                    "video_time": "00:16"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "5c624649-002e-4a00-9d0c-8106f40710c1",
+                    "name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0441\u043b\u0435\u043f\u044b\u0445 \u0437\u043e\u043d",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/8_Sistema_kontrolja_slepyh_zon.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/LrcwN-MVxaY?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=LrcwN-MVxaY",
+                    "video_time": "00:16"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1583010000,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "cf4b0391-7f7d-41b2-8145-6f29068dcded",
+                    "name": "\u041f\u043e\u043b\u043d\u044b\u0439 \u043f\u0440\u0438\u0432\u043e\u0434 \u0438 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u043a\u043b\u0438\u0440\u0435\u043d\u0441",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/9_Polnyj_privod_i_bolshoj_klirens.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/fhxYTCZwM7c?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=fhxYTCZwM7c",
+                    "video_time": "00:16"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1581022800,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "2b016da9-975a-41ca-8a76-159b5b617f56",
+                    "name": "\u0412\u0430\u0440\u0438\u0430\u0442\u043e\u0440: \u0440\u0435\u0441\u0443\u0440\u0441\u043d\u044b\u0435 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u044f \u0432 \u0420\u043e\u0441\u0441\u0438\u0438",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/10_Variator_resursnye_ispytanija_v_Rossii.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/3Pfs1DIsCzQ?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=3Pfs1DIsCzQ",
+                    "video_time": "02:51"
+                },
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1577739600,
+                    "group_id": "7d424e73-d617-49a2-a3ed-55f434258358",
+                    "id": "2e9f014c-b9d5-48d3-9ca8-4b9c373f1563",
+                    "name": "\u0418\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u044f \u0432 \u0420\u043e\u0441\u0441\u0438\u0438",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/features\/seltos\/11_Ispytanija_v_Rossii.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/GooS7lTCzXU?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=GooS7lTCzXU",
+                    "video_time": "02:42"
+                }],
+                "99881c64-8137-44f8-91a5-d533bfab51c9": [
+                {
+                    "author": "Kia Motors Russia",
+                    "date": 1582146000,
+                    "group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+                    "id": "27b888d0-3e9a-426b-b024-4a96059b5d38",
+                    "name": "\u041e\u0431\u0437\u043e\u0440: \u0441\u0430\u043c\u043e\u0435 \u0433\u043b\u0430\u0432\u043d\u043e\u0435 \u0437\u0430 9 \u043c\u0438\u043d\u0443\u0442",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/opinions\/seltos\/1_Obzor_samoe_glavnoe_za_9_minut.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/MlCzI2F7YA8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=MlCzI2F7YA8",
+                    "video_time": "09:20"
+                },
+                {
+                    "author": "AUTONEWS",
+                    "date": 1581022800,
+                    "group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+                    "id": "d27c7efe-8ea0-4618-ac97-5fe77ff1b84d",
+                    "name": "AUTONEWS",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/opinions\/seltos\/2_AUTONEWS.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/zHK3oPUipA8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=zHK3oPUipA8",
+                    "video_time": "12:08"
+                },
+                {
+                    "author": "\u041f\u0435\u0442\u0440 \u041c\u0435\u043d\u044c\u0448\u0438\u0445",
+                    "date": 1581109200,
+                    "group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+                    "id": "3af3c9c2-dbf0-41cf-93c5-2ce0e20f5857",
+                    "name": "AutoMPS",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/opinions\/seltos\/3_AutoMPS.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/CrNCemhyoLw?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=CrNCemhyoLw",
+                    "video_time": "17:23"
+                },
+                {
+                    "author": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0435\u0441\u0442-\u0434\u0440\u0430\u0439\u0432",
+                    "date": 1581195600,
+                    "group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+                    "id": "4869a334-9866-4883-8c6a-66b33282296c",
+                    "name": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0435\u0441\u0442-\u0434\u0440\u0430\u0439\u0432",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/opinions\/seltos\/4_Bolshoj_test-drajv.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/Bhw4SA8JXCo?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=Bhw4SA8JXCo",
+                    "video_time": "26:24"
+                },
+                {
+                    "author": "\u0410\u043d\u0442\u043e\u043d \u0412\u043e\u0440\u043e\u0442\u043d\u0438\u043a\u043e\u0432",
+                    "date": 1581282000,
+                    "group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+                    "id": "50519b09-7547-4bb0-9a86-6bae22226040",
+                    "name": "\u0410\u043d\u0442\u043e\u043d \u0412\u043e\u0440\u043e\u0442\u043d\u0438\u043a\u043e\u0432",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/opinions\/seltos\/5_Anton_Vorotnikov.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/rXbhPoT_wiY?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=rXbhPoT_wiY",
+                    "video_time": "29:40"
+                },
+                {
+                    "author": "\u0410\u0432\u0442\u043e.\u0440\u0443",
+                    "date": 1582146000,
+                    "group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+                    "id": "ff9be610-a297-408d-869f-e2e68e064b66",
+                    "name": "\u0410\u0432\u0442\u043e.\u0440\u0443",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/opinions\/seltos\/6_Auto.ru.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/X309pPVoZm0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=X309pPVoZm0",
+                    "video_time": "10:36"
+                },
+                {
+                    "author": "MOTOR.ru",
+                    "date": 1583096400,
+                    "group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+                    "id": "f197c797-26ca-4d9b-ba36-e659f1264c42",
+                    "name": "MOTOR.ru",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/opinions\/seltos\/7_MOTOR.ru.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/ZBrLRyYN0Tc?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=ZBrLRyYN0Tc",
+                    "video_time": "18:40"
+                },
+                {
+                    "author": "AUTONEWS",
+                    "date": 1584306000,
+                    "group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+                    "id": "af737a42-26fb-4cb1-98ec-df1e3ba0605a",
+                    "name": "Autonews",
+                    "preview_image": "https://cdn.kia.ru/resize/410x277\/media-data\/video_bank\/opinions\/seltos\/8_Autonews.jpg",
+                    "source": "",
+                    "video_link": "https:\/\/www.youtube.com\/embed\/WQtCOokv7U8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=WQtCOokv7U8",
+                    "video_time": "29:55"
+                }],
+                "807d378a-3f1b-4e46-b0f2-6c5bd84a13cd": []
+            }
+        },
+        "seo":
+        {
+            "title": "\u0412\u0438\u0434\u0435\u043e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 KIA Motors",
+            "description": "\u0412\u0438\u0434\u0435\u043e \u0442\u0435\u0441\u0442-\u0434\u0440\u0430\u0439\u0432\u044b, \u0440\u0430\u0434\u0438\u043e\u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u043e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u041a\u0418\u0410."
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+	"error": 0,
+	"content":
+	{
+		"cities": [
+		{
+			"code": "almetyevsk",
+			"id": "c737dfb6-68b5-420c-8110-5e2f2d28c030",
+			"name": "Альметьевск",
+			"name_en": "Almetyevsk"
+		},
+		{
+			"code": "yaroslavl",
+			"id": "29168c8f-7928-4e80-9d97-3e52fb8a70a8",
+			"name": "Ярославль",
+			"name_en": "Yaroslavl"
+		}],
+		"dealerships": [
+		{
+			"address": "г. Таганрог, Ростовское шоссе, 10",
+			"best_bronze_this_year": false,
+			"best_silver_this_year": false,
+			"best_this_year": true,
+			"city_id": "ff4a7ad3-64d9-4628-8265-bc1dbdcb7618",
+			"code": "147",
+			"dealer":
+			{
+				"external_id": "C40VR61010"
+			},
+			"excellence": false,
+			"external_id": "C40VR61010",
+			"id": "e549d8b8-5d35-4c10-8c4c-ac10f5c5f7df",
+			"lat": 47.2775165731,
+			"lng": 38.9384623883,
+			"name": "АвтоПорт-Т",
+			"name_en": "AutoPort-T",
+			"phone": "+7 (863) 460-99-60",
+			"platinum": false,
+			"rating": 3,
+			"services_id": ["23f2a6e4-762e-4eaa-a42f-94727cb9f842", "4eefc06c-476e-4a13-b977-308bf0cedecd", "61a3a3d8-1ee3-4f2e-8928-c5a148fc1260", "6806c44e-fe0f-4325-96e9-35cb6bc0f78a", "bfc46bca-146d-11ea-8d71-362b9e155667", "c20166e5-34e3-4663-bbe4-d3a58a24da5a", "c47bd1cb-07c0-4086-81bc-2289d8086d3e", "c6924346-4b3f-4a71-abc7-3b187a41c6c5", "dfdaf036-d32c-4436-b237-fa7d96a1d7a4"],
+			"site": "http:\/\/www.kia-taganrog.ru\/",
+			"top_platinum": false,
+			"work_time": "Салон: 08:00–20:00; Техцентр: 08:00–20:00 Без выходных"
+		},
+		{
+			"address": "г. Ноябрьск, Юго - Восточный промузел Панель 9В",
+			"best_bronze_this_year": false,
+			"best_silver_this_year": false,
+			"best_this_year": false,
+			"city_id": "2fc6d7a5-f761-4889-8e2d-28cad23c1dd9",
+			"code": "33",
+			"dealer":
+			{
+				"external_id": "C40VR89008"
+			},
+			"excellence": false,
+			"external_id": "C40VR89008",
+			"id": "d9a47aef-645c-4de6-a999-3c64d699dac4",
+			"lat": 63.1773695879,
+			"lng": 75.4699078202,
+			"name": "ЯМАЛ МОТОРС",
+			"name_en": "YAMAL MOTORS",
+			"phone": "+7 (3496) 39-44-44",
+			"platinum": false,
+			"rating": 3,
+			"services_id": ["23f2a6e4-762e-4eaa-a42f-94727cb9f842", "4eefc06c-476e-4a13-b977-308bf0cedecd", "61a3a3d8-1ee3-4f2e-8928-c5a148fc1260", "6806c44e-fe0f-4325-96e9-35cb6bc0f78a", "bfc46bca-146d-11ea-8d71-362b9e155667", "c20166e5-34e3-4663-bbe4-d3a58a24da5a", "c47bd1cb-07c0-4086-81bc-2289d8086d3e", "c6924346-4b3f-4a71-abc7-3b187a41c6c5", "c8eafea8-5123-48e3-97dc-b6c626e460f3", "dfdaf036-d32c-4436-b237-fa7d96a1d7a4"],
+			"site": "http:\/\/yamal-motors.ru",
+			"top_platinum": false,
+			"work_time": "Пн - Вс с 09:00 до 19:00"
+		}],
+		"services": [
+		{
+			"id": "c20166e5-34e3-4663-bbe4-d3a58a24da5a",
+			"name": "Аксессуары",
+			"name_en": "Accessories"
+		},
+		{
+			"id": "6806c44e-fe0f-4325-96e9-35cb6bc0f78a",
+			"name": "Тест-драйв",
+			"name_en": "Test Drive"
+		},
+		{
+			"id": "c6924346-4b3f-4a71-abc7-3b187a41c6c5",
+			"name": "Сервис",
+			"name_en": "Service"
+		},
+		{
+			"id": "4eefc06c-476e-4a13-b977-308bf0cedecd",
+			"name": "Сервис для корпоративных клиентов",
+			"name_en": "Service for corporate clients"
+		},
+		{
+			"id": "23f2a6e4-762e-4eaa-a42f-94727cb9f842",
+			"name": "Корпоративные продажи",
+			"name_en": "Corporate sales"
+		},
+		{
+			"id": "c47bd1cb-07c0-4086-81bc-2289d8086d3e",
+			"name": "Сертифицированные автомобили «КИА Уверен»",
+			"name_en": "Certified cars \"KIA Uverin\""
+		},
+		{
+			"id": "bfc46bca-146d-11ea-8d71-362b9e155667",
+			"name": "Новые автомобили",
+			"name_en": "New cars"
+		},
+		{
+			"id": "dfdaf036-d32c-4436-b237-fa7d96a1d7a4",
+			"name": "Программа лояльности",
+			"name_en": "Loyalty program"
+		},
+		{
+			"id": "61a3a3d8-1ee3-4f2e-8928-c5a148fc1260",
+			"name": "Трейд-ин",
+			"name_en": "Trade-in"
+		},
+		{
+			"id": "c8eafea8-5123-48e3-97dc-b6c626e460f3",
+			"name": "Продажа масла TOTAL",
+			"name_en": "Sale of oil TOTAL"
+		},
+		{
+			"id": "6656a69a-dde4-46d8-8862-032b331bacc9",
+			"name": "Автомобили по подписке",
+			"name_en": "KiaMobility"
+		}],
+		"current_city": null,
+		"disclaimers": [],
+		"seo":
+		{
+			"title": "KIA в г. #city_name# - официальные дилеры",
+			"description": "Все официальные дилеры KIA. Найдите ближайший салон и сервисный центр КИА на карте или в списке."
+		}
+	}
+}

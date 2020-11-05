@@ -1,0 +1,2138 @@
+{
+	"error": 0,
+	"content":
+	{
+		"model":
+		{
+			"brochure": "\/master-data\/brochures\/Kia_Seltos.pdf",
+			"code": "seltos",
+			"external_id": "TH",
+			"id": "3515cd01-a834-4112-89b1-604fcfb6c71e",
+			"image": "\/master-data\/models\/seltos.png",
+			"image_side_view": "\/master-data\/models\/image_side\/seltos.png",
+			"is_coming_soon": 0,
+			"logo_black": "\/master-data\/models\/logo\/seltos-logo-black.svg",
+			"logo_white": "\/master-data\/models\/logo\/seltos-logo-white.svg",
+			"max_benefit": 45000,
+			"min_credit_price": 5960,
+			"min_price": 1104900,
+			"model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+			"name": "Seltos",
+			"price": 1149900,
+			"price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
+			"overview_default_color_id": "96e40eb5-9bea-49a6-9273-38fdd8f1a398"
+		},
+		"banners": [
+		{
+			"bg_color": null,
+			"bg_images":
+			{
+				"desktop": null,
+				"mobile": null,
+				"retina": null
+			},
+			"description": null,
+			"group_code": "models_seltos_main_header",
+			"images":
+			{
+				"desktop": "\/media-data\/banners\/models\/seltos\/main\/model-hero.jpg",
+				"mobile": "\/media-data\/banners\/models\/seltos\/main\/model-hero-small.jpg",
+				"retina": "\/media-data\/banners\/models\/seltos\/main\/model-hero.jpg"
+			},
+			"link":
+			{
+				"title": "\u0410\u0432\u0442\u043e \u0432 \u043d\u0430\u043b\u0438\u0447\u0438\u0438",
+				"url": "\/models\/seltos\/cars\/"
+			},
+			"logo":
+			{
+				"image": "https://www.kia.ru/static/media-data/banners/models/seltos/main/seltos-logo.svg",
+				"label": "\u041d\u043e\u0432\u044b\u0439 KIA",
+				"signature": "\u0421\u043c\u0435\u043b\u0435\u0439!"
+			},
+			"name": "\u0411\u0430\u043d\u043d\u0435\u0440 \u043d\u0430 \u043e\u0431\u0437\u043e\u0440\u043d\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 Seltos",
+			"teasers": [
+			{
+				"description": "\u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u043c\u043e\u0449\u0438 \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044e",
+				"icon": "https://cdn.kia.ru/media-data/banners/models/seltos/main/DriveWise.svg",
+				"title": null,
+				"title_desc": null
+			},
+			{
+				"description": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0430\u0435\u043c\u043e\u0433\u043e \u043f\u043e\u043b\u043d\u043e\u0433\u043e \u043f\u0440\u0438\u0432\u043e\u0434\u0430 ",
+				"icon": "https://cdn.kia.ru/media-data/banners/models/seltos/main/Privod.svg",
+				"title": null,
+				"title_desc": null
+			},
+			{
+				"description": "\u041c\u0443\u043b\u044c\u0442\u0438\u043c\u0435\u0434\u0438\u0430 10,25\u201d \u0441 \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0435\u0439 \u0438 \u043a\u0430\u043c\u0435\u0440\u043e\u0439 \u0437\u0430\u0434\u043d\u0435\u0433\u043e \u0432\u0438\u0434\u0430 ",
+				"icon": "https://cdn.kia.ru/media-data/banners/models/seltos/main/Multi.svg",
+				"title": null,
+				"title_desc": null
+			}],
+			"title": null,
+			"type_code": "model",
+			"video": "/video/seltos.mp4"
+		},
+		{
+			"bg_color": null,
+			"bg_images":
+			{
+				"desktop": "/img/other/seltos-fb-bg.png",
+				"mobile": "/img/other/seltos-fb-bg.png",
+				"retina": "/img/other/seltos-fb-bg.png"
+			},
+			"description": null,
+			"group_code": "models_seltos_main_footer",
+			"images":
+			{
+				"desktop": "https://www.kia.ru/static/resize/1020x480/media-data/banners/models/seltos/main_footer/desktop.png",
+				"mobile": "https://www.kia.ru/static/resize/375x188/media-data/banners/models/seltos/main_footer/mobile.png",
+				"retina": "https://www.kia.ru/static/resize/1020x480/media-data/banners/models/seltos/main_footer/desktop.png"
+			},
+			"link":
+			{
+				"title": "\u0417\u0430\u043a\u0430\u0437\u0430\u0442\u044c \u0437\u0432\u043e\u043d\u043e\u043a \u0434\u0438\u043b\u0435\u0440\u0430",
+				"url": "\/models\/seltos\/callback\/"
+			},
+			"logo":
+			{
+				"image": null,
+				"label": null,
+				"signature": null
+			},
+			"name": "\u0423\u0437\u043d\u0430\u0439\u0442\u0435 \u0431\u043e\u043b\u044c\u0448\u0435 \u043e KIA Seltos",
+			"teasers": [],
+			"title": "\u041a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0430\u0446\u0438\u044f",
+			"type_code": "center",
+			"video": null
+		}],
+		"infographics": [
+		{
+			"description": "\u0417\u0430 \u0434\u0438\u043d\u0430\u043c\u0438\u0447\u043d\u044b\u043c \u0441\u0438\u043b\u0443\u044d\u0442\u043e\u043c \u043a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u043e\u0433\u043e \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u0435\u0440\u0430 \u0441 \u0432\u044b\u0440\u0430\u0437\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438 \u043c\u0443\u0441\u043a\u0443\u043b\u0438\u0441\u0442\u044b\u043c\u0438 \u0444\u043e\u0440\u043c\u0430\u043c\u0438 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u044b\u0439 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440, \u0432 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u043a\u043e\u043c\u0444\u043e\u0440\u0442 \u0438 \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043e\u0441\u043d\u0430\u0449\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u0441\u043e\u0441\u0435\u0434\u0441\u0442\u0432\u0443\u044e\u0442 \u0441 \u0430\u0437\u0430\u0440\u0442\u043e\u043c \u0438  \u0434\u0440\u0430\u0439\u0432\u043e\u043c. \u041d\u043e\u0432\u044b\u0439 KIA Seltos \u0433\u043e\u0442\u043e\u0432 \u043e\u0442\u0432\u0435\u0442\u0438\u0442\u044c \u043d\u0430 \u043b\u044e\u0431\u043e\u0439 \u0432\u044b\u0437\u043e\u0432.",
+			"detail_link_title": null,
+			"id": "0fea0922-9ae8-48fb-b047-c87f47030bfd",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "\u041f\u0440\u0438\u0442\u044f\u0433\u0438\u0432\u0430\u044e\u0449\u0438\u0439 \u0432\u0437\u0433\u043b\u044f\u0434\u044b",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "\u042f\u0440\u043a\u0438\u0435 \u044d\u043d\u0435\u0440\u0433\u043e\u0441\u0431\u0435\u0440\u0435\u0433\u0430\u044e\u0449\u0438\u0435 \u0441\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 \u0444\u0430\u0440\u044b \u0434\u043e\u043b\u0433\u043e\u0432\u0435\u0447\u043d\u044b \u0438 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u044e\u0442 \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435 \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u0435 \u0432 \u0442\u0435\u043c\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0441\u0443\u0442\u043e\u043a.",
+					"file": "/img/other/seltos-1-1.jpg",
+					"name": "\u0421\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 \u0444\u0430\u0440\u044b",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0421\u0442\u0438\u043b\u044c\u043d\u044b\u0435 \u044d\u043d\u0435\u0440\u0433\u043e\u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u0441\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u044b \u0432 \u0437\u0430\u0434\u043d\u0438\u0445 \u0444\u043e\u043d\u0430\u0440\u044f\u0445 \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u0443\u044e\u0442 \u0431\u044b\u0441\u0442\u0440\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0438 \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u043e \u0432\u044b\u0441\u043e\u043a\u0443\u044e \u044f\u0440\u043a\u043e\u0441\u0442\u044c, \u043e\u0431\u043b\u0430\u0434\u0430\u044f \u043f\u0440\u0438 \u044d\u0442\u043e\u043c \u0437\u0430\u0432\u0438\u0434\u043d\u043e\u0439 \u0434\u043e\u043b\u0433\u043e\u0432\u0435\u0447\u043d\u043e\u0441\u0442\u044c\u044e.",
+					"file": "/img/other/seltos-1-2.jpg",
+					"name": "C\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 \u0437\u0430\u0434\u043d\u0438\u0435 \u0444\u043e\u043d\u0430\u0440\u0438",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0418\u0437\u044f\u0449\u043d\u0430\u044f \u0440\u0435\u0448\u0435\u0442\u043a\u0430 \u0440\u0430\u0434\u0438\u0430\u0442\u043e\u0440\u0430 \u0432 \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0446\u0438\u0438 \u0441 \u043c\u0430\u0441\u0441\u0438\u0432\u043d\u044b\u043c \u043d\u0438\u0436\u043d\u0438\u043c \u0432\u043e\u0437\u0434\u0443\u0445\u043e\u0437\u0430\u0431\u043e\u0440\u043d\u0438\u043a\u043e\u043c \u043f\u043e\u0434\u0447\u0435\u0440\u043a\u0438\u0432\u0430\u0435\u0442 \u0443\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u0439 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440 \u043d\u043e\u0432\u043e\u0433\u043e KIA Seltos.",
+					"file": "/img/other/seltos-1-3.jpg",
+					"name": "\u0420\u0435\u0448\u0435\u0442\u043a\u0430 \u0440\u0430\u0434\u0438\u0430\u0442\u043e\u0440\u0430",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u041e\u043a\u0430\u043d\u0442\u043e\u0432\u043a\u0430 \u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u0444\u043e\u0440\u043c\u044b \u2014 \u044f\u0440\u043a\u0438\u0439 \u0434\u0438\u0437\u0430\u0439\u043d\u0435\u0440\u0441\u043a\u0438\u0439 \u0448\u0442\u0440\u0438\u0445, \u043f\u0440\u0438\u0434\u0430\u044e\u0449\u0438\u0439 \u0437\u0430\u0434\u043d\u0435\u043c\u0443 \u0431\u0430\u043c\u043f\u0435\u0440\u0443 \u043f\u0440\u0438\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u0441\u0438\u043c\u043c\u0435\u0442\u0440\u0438\u044e.",
+					"file": "/img/other/seltos-1-4.jpg",
+					"name": "\u041e\u043a\u0430\u043d\u0442\u043e\u0432\u043a\u0430 \u0437\u0430\u0434\u043d\u0435\u0433\u043e \u0431\u0430\u043c\u043f\u0435\u0440\u0430",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0420\u0435\u0439\u043b\u0438\u043d\u0433\u0438 \u0441 \u043e\u043f\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u043c\u0438  \u043f\u043e\u043f\u0435\u0440\u0435\u0447\u043d\u044b\u043c\u0438 \u0434\u0443\u0433\u0430\u043c\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0442 \u0440\u0430\u0437\u043c\u0435\u0441\u0442\u0438\u0442\u044c \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0431\u0430\u0433\u0430\u0436 \u043d\u0430 \u043a\u0440\u044b\u0448\u0435.",
+					"file": "/img/other/seltos-1-5.jpg",
+					"name": "\u0420\u0435\u0439\u043b\u0438\u043d\u0433\u0438 \u043d\u0430 \u043a\u0440\u044b\u0448\u0435",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": null,
+					"file": "/img/other/seltos-1-6.jpg",
+					"name": "\u0417\u0430\u0434\u043d\u0438\u0439 \u0441\u043f\u043e\u0439\u043b\u0435\u0440",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "7a830bda-ee2c-4b68-b0a2-54c407f93d22",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "accordion_right"
+			},
+			"sort": 100,
+			"teasers": [],
+			"theme": "white",
+			"title": "\u0414\u0438\u0437\u0430\u0439\u043d",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "\u0414\u0438\u0441\u043f\u043b\u0435\u0438 \u043f\u0440\u0438\u0431\u043e\u0440\u043d\u043e\u0439 \u043f\u0430\u043d\u0435\u043b\u0438 \u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u044b \u043f\u043e\u0434 \u043d\u0435\u0431\u043e\u043b\u044c\u0448\u0438\u043c \u0443\u0433\u043b\u043e\u043c, \u0447\u0442\u043e\u0431\u044b \u0431\u044b\u0442\u044c \u0432 \u043f\u043e\u043b\u0435 \u0412\u0430\u0448\u0435\u0433\u043e \u0437\u0440\u0435\u043d\u0438\u044f. \u041d\u043e Seltos \u0437\u0430\u0431\u043e\u0442\u0438\u0442\u0441\u044f \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u043e \u0412\u0430\u0441. \u0418\u043d\u0442\u0435\u0440\u044c\u0435\u0440  \u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u0442\u0449\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u043f\u0440\u043e\u0434\u0443\u043c\u0430\u043d\u044b, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0435\u0437\u0434\u043a\u0430 \u043e\u043a\u0430\u0437\u0430\u043b\u0430\u0441\u044c \u0434\u043b\u044f \u0412\u0430\u0448\u0438\u0445 \u0441\u043f\u0443\u0442\u043d\u0438\u043a\u043e\u0432 \u0442\u0430\u043a\u0436\u0435 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u043e\u0439 \u0438 \u0443\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0439.",
+			"detail_link_title": null,
+			"id": "440bc1a7-eb98-476f-b8c6-4b51d1723ef8",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "\u041c\u0438\u0440 \u0432\u044b\u0433\u043b\u044f\u0434\u0438\u0442 \u044f\u0440\u0447\u0435, \u043a\u043e\u0433\u0434\u0430 \u0432\u044b \u0437\u0430 \u0440\u0443\u043b\u0435\u043c KIA Seltos",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "\u0421 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0431\u043e\u043b\u044c\u0448\u043e\u0433\u043e \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u0434\u0438\u0441\u043f\u043b\u0435\u044f \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0438 \u0430\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0412\u044b \u043b\u0435\u0433\u043a\u043e \u0441\u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u0443\u0435\u0442\u0435\u0441\u044c \u0432 \u043d\u0435\u0437\u043d\u0430\u043a\u043e\u043c\u043e\u043c \u043c\u0435\u0441\u0442\u0435, \u043d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u0435 \u043c\u0443\u0437\u044b\u043a\u0443 \u0441 \u0432\u043d\u0435\u0448\u043d\u0438\u0445 \u043d\u043e\u0441\u0438\u0442\u0435\u043b\u0435\u0439,  \u0430 \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u043c\u043d\u043e\u0433\u043e \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u0434\u043e\u0440\u043e\u0433\u0435.",
+					"file": "/img/other/seltos-2-1.jpg",
+					"name": "\u041c\u0443\u043b\u044c\u0442\u0438\u043c\u0435\u0434\u0438\u0430 \u0441 \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c 10.25`` \u0438 \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0435\u0439",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435, \u0440\u0430\u0437\u043c\u0435\u0440\u043e\u043c \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0435 8-\u0434\u044e\u0439\u043c\u043e\u0432\u043e\u043c\u0443 \u0434\u0438\u0441\u043f\u043b\u0435\u044e, \u043f\u0440\u043e\u0435\u0446\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u043d\u0430 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d \u043f\u0435\u0440\u0435\u0434 \u043b\u043e\u0431\u043e\u0432\u044b\u043c \u0441\u0442\u0435\u043a\u043b\u043e\u043c, \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044f \u0412\u0430\u043c \u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c, \u0437\u0430\u043f\u0430\u0441 \u0445\u043e\u0434\u0430, \u0434\u0430\u043d\u043d\u044b\u0435 \u043a\u0440\u0443\u0438\u0437-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0438 \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043d\u0442\u043e\u0432 Drive Wise, \u043d\u0435 \u043e\u0442\u0432\u043b\u0435\u043a\u0430\u044f\u0441\u044c \u043e\u0442 \u0434\u043e\u0440\u043e\u0433\u0438.",
+					"file": "/img/other/seltos-2-2.jpg",
+					"name": "\u041f\u0440\u043e\u0435\u043a\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d (HUD)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0412\u0430\u043c \u043d\u0435 \u043f\u043e\u043d\u0430\u0434\u043e\u0431\u0438\u0442\u0441\u044f \u043f\u0440\u043e\u0432\u043e\u0434, \u0447\u0442\u043e\u0431\u044b \u0437\u0430\u0440\u044f\u0434\u0438\u0442\u044c \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u0438\u043c\u044b\u0439 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0439 \u0442\u0435\u043b\u0435\u0444\u043e\u043d, \u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0438\u0432  \u0435\u0433\u043e \u043d\u0430 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0439 \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0435 \u043f\u0435\u0440\u0435\u0434 \u0441\u0435\u043b\u0435\u043a\u0442\u043e\u0440\u043e\u043c \u0442\u0440\u0430\u043d\u0441\u043c\u0438\u0441\u0441\u0438\u0438.",
+					"file": "/img/other/seltos-2-3.jpg",
+					"name": "\u0411\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u0430\u044f \u0437\u0430\u0440\u044f\u0434\u043a\u0430 \u0434\u043b\u044f \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0427\u0435\u0442\u044b\u0440\u0435 \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0430 \u0432 \u0434\u0432\u0435\u0440\u044f\u0445, \u0446\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0434\u0438\u043d\u0430\u043c\u0438\u043a, \u0434\u0432\u0430 \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u0445 \u0432 \u0434\u0432\u0435\u0440\u0438 \u0432\u044b\u0441\u043e\u043a\u043e\u0447\u0430\u0441\u0442\u043e\u0442\u043d\u044b\u0445 \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0430, \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0439 \u0441\u0430\u0431\u0432\u0443\u0444\u0435\u0440 \u0438 \u0432\u043d\u0435\u0448\u043d\u0438\u0439 \u0443\u0441\u0438\u043b\u0438\u0442\u0435\u043b\u044c \u2014  \u0432\u0441\u0435 \u0432\u043c\u0435\u0441\u0442\u0435 \u044d\u0442\u043e \u0437\u0430\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0430\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430 Bose, \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u0430\u044f \u043d\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u044c \u0441\u0430\u043b\u043e\u043d \u0431\u043e\u0433\u0430\u0442\u044b\u043c, \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u0437\u0432\u0443\u043a\u043e\u043c, \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u044b\u043c \u0432 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438 \u0441 \u043e\u0431\u0449\u0438\u043c \u043e\u0449\u0443\u0449\u0435\u043d\u0438\u0435\u043c \u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0430.",
+					"file": "/img/other/seltos-2-4.jpg",
+					"name": "\u041f\u0440\u0435\u043c\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0430\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430 Bose ",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u041f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u0438 \u0434\u0432\u0435\u0440\u0435\u0439 \u043f\u043e\u0434\u0441\u0432\u0435\u0447\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u0443\u0441\u043f\u043e\u043a\u0430\u0438\u0432\u0430\u044e\u0449\u0438\u043c\u0438 \u0446\u0432\u0435\u0442\u0430\u043c\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u043b\u0430\u0432\u043d\u043e \u043c\u0435\u043d\u044f\u044e\u0442\u0441\u044f \u0447\u0435\u0440\u0435\u0437 \u0440\u0430\u0432\u043d\u044b\u0435 \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043a\u0438 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0438\u043b\u0438 \u043f\u0443\u043b\u044c\u0441\u0438\u0440\u0443\u044e\u0442 \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e \u0441 \u0412\u0430\u0448\u0435\u0439 \u043c\u0443\u0437\u044b\u043a\u043e\u0439.",
+					"file": "/img/other/seltos-2-5.jpg",
+					"name": "\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u0430 \u0441\u0430\u043b\u043e\u043d\u0430",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "ee72370c-b8e6-4f92-9b87-7bcc1c3b68bf",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "accordion_left"
+			},
+			"sort": 110,
+			"teasers": [],
+			"theme": "pale_beige",
+			"title": "\u0418\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "\u041f\u0440\u043e\u0441\u0442\u043e\u0440\u043d\u044b\u0439 \u0438 \u043a\u0440\u0430\u0441\u0438\u0432\u044b\u0439 \u0441\u0430\u043b\u043e\u043d \u0441\u043e\u0447\u0435\u0442\u0430\u0435\u0442 \u0432 \u0441\u0435\u0431\u0435 \u044d\u0440\u0433\u043e\u043d\u043e\u043c\u0438\u043a\u0443 \u0438 \u043f\u0440\u043e\u0434\u0443\u043c\u0430\u043d\u043d\u043e\u0435 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u0432\u0441\u0435\u0445, \u043a\u043e\u0433\u043e \u0412\u044b \u0432\u043e\u0437\u044c\u043c\u0451\u0442\u0435 \u0441 \u0441\u043e\u0431\u043e\u0439 \u0432 \u0434\u043e\u0440\u043e\u0433\u0443. \u0410 \u0445\u043e\u0440\u043e\u0448\u043e \u0441\u0431\u0430\u043b\u0430\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043f\u043e\u0434\u0432\u0435\u0441\u043a\u0430 \u0443\u0434\u0438\u0432\u0438\u0442 \u0432\u0430\u0441 \u0441\u043e\u0447\u0435\u0442\u0430\u043d\u0438\u0435\u043c \u044d\u043d\u0435\u0440\u0433\u043e\u0451\u043c\u043a\u043e\u0441\u0442\u0438 \u0438 \u043f\u043b\u0430\u0432\u043d\u043e\u0441\u0442\u0438 \u0445\u043e\u0434\u0430.",
+			"detail_link_title": null,
+			"id": "c6c53522-83b9-419c-b1fb-9cff71abb9ba",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "\u042d\u043b\u0435\u0433\u0430\u043d\u0442\u043d\u044b\u0439, \u0443\u0434\u043e\u0431\u043d\u044b\u0439, \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u043d\u044b\u0439",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": null,
+					"file": "/img/other/seltos-3-1.jpg",
+					"name": "\u041f\u0440\u043e\u0441\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0430\u043b\u043e\u043d",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0412 \u0443\u0431\u0440\u0430\u043d\u043d\u043e\u043c \u0432\u0438\u0434\u0435 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043f\u043e\u0434\u0441\u0442\u0430\u043a\u0430\u043d\u043d\u0438\u043a, \u0430 \u0432 \u0440\u0430\u0437\u043b\u043e\u0436\u0435\u043d\u043d\u043e\u043c \u2014 \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0441\u044f \u0443\u0434\u043e\u0431\u043d\u043e\u0439 \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u043e\u0439, \u043d\u0430 \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u043c\u043e\u0436\u043d\u043e \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u044c \u0440\u0443\u043a\u0443 \u0438 \u0441\u043d\u044f\u0442\u044c \u0443\u0441\u0442\u0430\u043b\u043e\u0441\u0442\u044c. \u0412\u043d\u0443\u0442\u0440\u0438 \u043f\u043e\u0434\u043b\u043e\u043a\u043e\u0442\u043d\u0438\u043a \u0438\u043c\u0435\u0435\u0442 \u0432\u043c\u0435\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0431\u043e\u043a\u0441 \u0434\u043b\u044f \u0441\u0430\u043c\u043e\u0433\u043e \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0433\u043e.",
+					"file": "/img/other/seltos-3-2.jpg",
+					"name": "\u042d\u0440\u0433\u043e\u043d\u043e\u043c\u0438\u0447\u043d\u044b\u0439 \u043f\u043e\u0434\u043b\u043e\u043a\u043e\u0442\u043d\u0438\u043a",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b (\u043a\u043b\u0438\u043c\u0430\u0442-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c) \u043f\u043e\u0437\u0432\u043e\u043b\u0438\u0442 \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044e \u0438 \u043f\u0435\u0440\u0435\u0434\u043d\u0435\u043c\u0443 \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u0443 \u0432\u044b\u0431\u0440\u0430\u0442\u044c \u0436\u0435\u043b\u0430\u0435\u043c\u0443\u044e \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0443 \u0438 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u043f\u043e\u0434\u0430\u0447\u0438 \u0432\u043e\u0437\u0434\u0443\u0445\u0430, \u0430 \u0437\u0430\u0442\u0435\u043c \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u044d\u0442\u0438 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0432 \u0442\u0440\u0435\u0445 \u0440\u0435\u0436\u0438\u043c\u0430\u0445.",
+					"file": "/img/other/seltos-3-3.jpg",
+					"name": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u043b\u0438\u043c\u0430\u0442-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0435\u043c",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0423\u0434\u043e\u0431\u0441\u0442\u0432\u043e \u043f\u0443\u0441\u043a\u0430 \u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c: \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043d\u0443\u0436\u043d\u043e \u0434\u043e\u0441\u0442\u0430\u0432\u0430\u0442\u044c \u043a\u043b\u044e\u0447, \u0447\u0442\u043e\u0431\u044b \u043e\u0442\u043a\u0440\u044b\u0442\u044c \u0434\u0432\u0435\u0440\u044c \u0438 \u0437\u0430\u0432\u0435\u0441\u0442\u0438 \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044c.",
+					"file": "/img/other/seltos-3-4.jpg",
+					"name": "\u041f\u0443\u0441\u043a \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044f \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0431\u0435\u0441\u043a\u043b\u044e\u0447\u0435\u0432\u043e\u0433\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u041a\u0430\u043c\u0435\u0440\u0430 \u0437\u0430\u0434\u043d\u0435\u0433\u043e \u0432\u0438\u0434\u0430 \u0441 \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043d\u0442\u043e\u043c \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u0438\u0442 \u0412\u0430\u043c \u0443\u0432\u0438\u0434\u0435\u0442\u044c \u043d\u0430 \u044d\u043a\u0440\u0430\u043d\u0435 \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u043e \u043f\u043e\u0437\u0430\u0434\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f. \u0421 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043d\u0430\u043b\u043e\u0436\u0435\u043d\u043d\u044b\u0445 \u043d\u0430 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c\u043d\u044b\u0445 \u043b\u0438\u043d\u0438\u0439 \u0412\u044b \u0441\u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u0438\u043f\u0430\u0440\u043a\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0431\u043e\u043b\u0435\u0435 \u0442\u043e\u0447\u043d\u043e.",
+					"file": "/img/other/seltos-3-5.jpg",
+					"name": "\u041a\u0430\u043c\u0435\u0440\u0430 \u0437\u0430\u0434\u043d\u0435\u0433\u043e \u0432\u0438\u0434\u0430 \u0441 \u0434\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u043b\u0438\u043d\u0438\u044f\u043c\u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0414\u0432\u0443\u0445\u0443\u0440\u043e\u0432\u043d\u0435\u0432\u044b\u0439 \u043f\u043e\u043b \u0432\u043c\u0435\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0433\u0440\u0443\u0437\u043e\u0432\u043e\u0433\u043e \u043e\u0442\u0441\u0435\u043a\u0430 \u043e\u0431\u044a\u0451\u043c\u043e\u043c 468\u043b (\u0441 \u043c\u0430\u043b\u043e\u0440\u0430\u0437\u043c\u0435\u0440\u043d\u044b\u043c \u0437\u0430\u043f\u0430\u0441\u043d\u044b\u043c \u043a\u043e\u043b\u0435\u0441\u043e\u043c) \u0438 \u043d\u0438\u0437\u043a\u043e\u0439 \u043f\u043e\u0433\u0440\u0443\u0437\u043e\u0447\u043d\u043e\u0439 \u0432\u044b\u0441\u043e\u0442\u043e\u0439 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d \u0432 \u0432\u0435\u0440\u0445\u043d\u0435\u043c \u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0438, \u0447\u0442\u043e\u0431\u044b \u0441\u043a\u0440\u044b\u0442\u044c \u043c\u0435\u043b\u043a\u0438\u0439 \u0431\u0430\u0433\u0430\u0436 \u043e\u0442 \u0447\u0443\u0436\u0438\u0445 \u0433\u043b\u0430\u0437, \u0438\u043b\u0438 \u0432 \u043d\u0438\u0436\u043d\u0435\u043c, \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043e\u0431\u044a\u0435\u043c\u043d\u043e\u0433\u043e \u0433\u0440\u0443\u0437\u0430. \u0421\u043f\u0438\u043d\u043a\u0438 \u0437\u0430\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u0432\u043f\u0435\u0440\u0435\u0434, \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u044f \u043e\u0431\u044a\u0435\u043c \u0433\u0440\u0443\u0437\u043e\u0432\u043e\u0433\u043e \u043e\u0442\u0441\u0435\u043a\u0430.",
+					"file": "/img/other/seltos-3-6.jpg",
+					"name": "\u0412\u043c\u0435\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0431\u0430\u0433\u0430\u0436\u043d\u0438\u043a (468 \u043b)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "c9822927-7e47-4c5e-9b27-83a526f9650c",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "accordion_right"
+			},
+			"sort": 120,
+			"teasers": [],
+			"theme": "white",
+			"title": "\u041a\u043e\u043c\u0444\u043e\u0440\u0442",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "\u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0432\u044b\u0441\u043e\u043a\u043e\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044f\u043c Kia Seltos \u0412\u044b \u0441\u043c\u043e\u0436\u0435\u0442\u0435 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0442\u044c \u0442\u043e\u043f\u043b\u0438\u0432\u043e, \u043d\u0435 \u043e\u0442\u043a\u0430\u0437\u044b\u0432\u0430\u044f \u0441\u0435\u0431\u0435 \u0432 \u043d\u0430\u0441\u043b\u0430\u0436\u0434\u0435\u043d\u0438\u0438 \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u043e\u0439 \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c\u043e\u0441\u0442\u044c\u044e.",
+			"detail_link_title": null,
+			"id": "3b5e562e-3237-45a4-abf8-47782b51f1b7",
+			"image": null,
+			"link":
+			{
+				"title": "\u0425\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438",
+				"url": "\/models\/seltos\/properties\/"
+			},
+			"name": "\u0423\u0432\u0435\u0440\u0435\u043d\u043d\u0430\u044f \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0430",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": null,
+					"file": null,
+					"name": "1.6 MPI \/ \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0439 \u043f\u0440\u0438\u0432\u043e\u0434*",
+					"sort": null,
+					"teasers": [
+					{
+						"description": "\u041c\u043e\u0449\u043d\u043e\u0441\u0442\u044c",
+						"icon": null,
+						"title": "123",
+						"title_desc": "\u043b.\u0441."
+					},
+					{
+						"description": "\u041a\u0440\u0443\u0442\u044f\u0449\u0438\u0438\u0306 \u043c\u043e\u043c\u0435\u043d\u0442",
+						"icon": null,
+						"title": "151",
+						"title_desc": "\u041d\u00b7\u043c "
+					},
+					{
+						"description": "\u0420\u0430\u0437\u0433\u043e\u043d \u043e\u0442 0 \u0434\u043e 100 \u043a\u043c\/\u0447 (\u0441 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u043c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435\u043c \u0434\u043b\u044f \u0434\u0430\u043d\u043d\u043e\u0433\u043e \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044f)",
+						"icon": null,
+						"title": "12,2",
+						"title_desc": "\u0441"
+					}],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": null,
+					"file": null,
+					"name": "1.6 MPI \/ \u043f\u043e\u043b\u043d\u044b\u0439 \u043f\u0440\u0438\u0432\u043e\u0434*",
+					"sort": null,
+					"teasers": [
+					{
+						"description": "\u041c\u043e\u0449\u043d\u043e\u0441\u0442\u044c",
+						"icon": null,
+						"title": "121",
+						"title_desc": "\u043b.\u0441."
+					},
+					{
+						"description": "\u041a\u0440\u0443\u0442\u044f\u0449\u0438\u0438\u0306 \u043c\u043e\u043c\u0435\u043d\u0442",
+						"icon": null,
+						"title": "148",
+						"title_desc": "\u041d\u00b7\u043c "
+					},
+					{
+						"description": "\u0420\u0430\u0437\u0433\u043e\u043d \u043e\u0442 0 \u0434\u043e 100 \u043a\u043c\/\u0447 (\u0441 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u043c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435\u043c \u0434\u043b\u044f \u0434\u0430\u043d\u043d\u043e\u0433\u043e \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044f)",
+						"icon": null,
+						"title": "12,6",
+						"title_desc": "\u0441"
+					}],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": null,
+					"file": null,
+					"name": "2.0 MPI ",
+					"sort": null,
+					"teasers": [
+					{
+						"description": "\u041c\u043e\u0449\u043d\u043e\u0441\u0442\u044c",
+						"icon": null,
+						"title": "149",
+						"title_desc": "\u043b.\u0441."
+					},
+					{
+						"description": "\u041a\u0440\u0443\u0442\u044f\u0449\u0438\u0438\u0306 \u043c\u043e\u043c\u0435\u043d\u0442",
+						"icon": null,
+						"title": "180",
+						"title_desc": "\u041d\u00b7\u043c "
+					},
+					{
+						"description": "\u0420\u0430\u0437\u0433\u043e\u043d \u043e\u0442 0 \u0434\u043e 100 \u043a\u043c\/\u0447 (\u0441 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u043c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435\u043c \u0434\u043b\u044f \u0434\u0430\u043d\u043d\u043e\u0433\u043e \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044f)",
+						"icon": null,
+						"title": "9,6",
+						"title_desc": "\u0441"
+					}],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": null,
+					"file": null,
+					"name": "1.6 T-GDI ",
+					"sort": null,
+					"teasers": [
+					{
+						"description": "\u041c\u043e\u0449\u043d\u043e\u0441\u0442\u044c",
+						"icon": null,
+						"title": "177",
+						"title_desc": "\u043b.\u0441."
+					},
+					{
+						"description": "\u041a\u0440\u0443\u0442\u044f\u0449\u0438\u0438\u0306 \u043c\u043e\u043c\u0435\u043d\u0442",
+						"icon": null,
+						"title": "265",
+						"title_desc": "\u041d\u00b7\u043c "
+					},
+					{
+						"description": "\u0420\u0430\u0437\u0433\u043e\u043d \u043e\u0442 0 \u0434\u043e 100 \u043a\u043c\/\u0447 (\u0441 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u043c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435\u043c \u0434\u043b\u044f \u0434\u0430\u043d\u043d\u043e\u0433\u043e \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044f)",
+						"icon": null,
+						"title": "8,4",
+						"title_desc": "\u0441"
+					}],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "c535c7ff-8c87-424c-b4db-e0c97676648c",
+				"is_not_slider_in_mobile": true,
+				"name": null,
+				"type": "accordion_left"
+			},
+			"sort": 140,
+			"teasers": [],
+			"theme": "white",
+			"title": "\u0414\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044c",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "\u0418\u043d\u043e\u0433\u0434\u0430 \u0441\u0430\u043c\u043e\u0435 \u0443\u043c\u043d\u043e\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u2014 \u043d\u0430\u0438\u0431\u043e\u043b\u0435\u0435 \u043e\u0447\u0435\u0432\u0438\u0434\u043d\u043e\u0435. Seltos \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043e\u043c \u0441\u0438\u0441\u0442\u0435\u043c \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u043c\u043e\u0449\u0438 \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044e KIA Drive Wise, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0434\u0435\u043b\u0430\u0435\u0442 \u0432\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u0431\u043e\u043b\u0435\u0435 \u0443\u0432\u0435\u0440\u0435\u043d\u043d\u044b\u043c \u0438 \u043e\u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c. \u0421\u0438\u0441\u0442\u0435\u043c\u044b \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0442\u0441\u044f, \u043a\u043e\u0433\u0434\u0430 \u0412\u044b \u043c\u0435\u043d\u044f\u0435\u0442\u0435 \u043f\u043e\u043b\u043e\u0441\u0443 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f \u043d\u0430 \u0434\u043e\u0440\u043e\u0433\u0435, \u043c\u0430\u043d\u0435\u0432\u0440\u0438\u0440\u0443\u0435\u0442\u0435 \u043d\u0430 \u0443\u0437\u043a\u043e\u0439 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0435 \u0438\u043b\u0438 \u0432\u044b\u0435\u0437\u0436\u0430\u0435\u0442\u0435 \u043d\u0430 \u0443\u043b\u0438\u0446\u0443. Drive Wise \u043f\u043e\u0437\u0432\u043e\u043b\u0438\u0442 \u0412\u0430\u043c \u0438\u0437\u0431\u0435\u0436\u0430\u0442\u044c \u0443\u0441\u0442\u0430\u043b\u043e\u0441\u0442\u0438 \u0434\u0430\u0436\u0435 \u0432 \u0441\u0430\u043c\u044b\u0445 \u0441\u0442\u0440\u0435\u0441\u0441\u043e\u0432\u044b\u0445 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445. ",
+			"detail_link_title": null,
+			"id": "90ae3c3c-5dbb-4ea5-902e-49bd32617068",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0434\u0435\u043b\u0430\u044e\u0442 \u0436\u0438\u0437\u043d\u044c \u043f\u0440\u043e\u0449\u0435",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u0438\u0440\u0443\u0435\u0442 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044e \u043f\u043e \u0431\u043e\u043a\u0430\u043c \u0438 \u0441\u0437\u0430\u0434\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u0438 \u043f\u0440\u0435\u0434\u0443\u043f\u0440\u0435\u0436\u0434\u0430\u0435\u0442 \u0412\u0430\u0441 \u043f\u0440\u0438 \u043e\u0431\u043d\u0430\u0440\u0443\u0436\u0435\u043d\u0438\u0438 \u043f\u0440\u0438\u0431\u043b\u0438\u0436\u0430\u044e\u0449\u0435\u0433\u043e\u0441\u044f \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430 \u0432 \u0412\u0430\u0448\u0435\u0438\u0306 \u0441\u043b\u0435\u043f\u043e\u0438\u0306 \u0437\u043e\u043d\u0435. \u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u043e\u0434\u0430\u0435\u0442 \u0432\u0438\u0437\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u0438\u0433\u043d\u0430\u043b\u044b \u043d\u0430 \u0431\u043e\u043a\u043e\u0432\u043e\u043c \u0437\u0435\u0440\u043a\u0430\u043b\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0437\u0432\u0443\u043a\u043e\u0432\u044b\u0435 \u043e\u043f\u043e\u0432\u0435\u0449\u0435\u043d\u0438\u044f, \u0432 \u0441\u043b\u0443\u0447\u0430\u0435 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0442\u0438\u0442 \u0441\u0442\u043e\u043b\u043a\u043d\u043e\u0432\u0435\u043d\u0438\u0435.",
+					"file": "/img/other/seltos-4-1.jpg",
+					"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0441\u043b\u0435\u043f\u044b\u0445 \u0437\u043e\u043d (BCA)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u041d\u0435 \u0431\u043e\u0439\u0442\u0435\u0441\u044c \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e \u0432\u044b\u0435\u0445\u0430\u0442\u044c \u0438\u0437 \u0441\u0432\u043e\u0435\u0433\u043e \u0440\u044f\u0434\u0430 \u2014 \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0443\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u0432 \u043f\u043e\u043b\u043e\u0441\u0435 \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u043e \u0441\u043b\u0435\u0434\u0438\u0442 \u0437\u0430 \u0434\u043e\u0440\u043e\u0436\u043d\u043e\u0439 \u0440\u0430\u0437\u043c\u0435\u0442\u043a\u043e\u0439 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043a\u0430\u043c\u0435\u0440\u044b \u0432 \u0432\u0435\u0440\u0445\u043d\u0435\u0439 \u0447\u0430\u0441\u0442\u0438 \u043b\u043e\u0431\u043e\u0432\u043e\u0433\u043e \u0441\u0442\u0435\u043a\u043b\u0430. \u0412 \u0441\u043b\u0443\u0447\u0430\u0435, \u0435\u0441\u043b\u0438 \u0412\u044b \u043d\u0435\u0447\u0430\u044f\u043d\u043d\u043e \u0432\u044b\u0439\u0434\u0435\u0442\u0435 \u0437\u0430 \u0433\u0440\u0430\u043d\u0438\u0446\u0443 \u043f\u043e\u043b\u043e\u0441\u044b, \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u043e\u0434\u0430\u0441\u0442 \u0441\u0438\u0433\u043d\u0430\u043b, \u0430 \u043f\u0440\u0438 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0438 \u2014 \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u0412\u0430\u043c \u0432\u0435\u0440\u043d\u0443\u0442\u044c  \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c \u0432 \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u043c\u044b\u0439 \u0440\u044f\u0434.",
+					"file": "/img/other/seltos-4-2.jpg",
+					"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0443\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u0432 \u043f\u043e\u043b\u043e\u0441\u0435 (LKA)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0427\u0442\u043e\u0431\u044b \u043f\u043e\u043c\u043e\u0447\u044c \u0412\u0430\u043c \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e \u0438 \u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e \u043f\u0430\u0440\u043a\u043e\u0432\u0430\u0442\u044c\u0441\u044f, PDW \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044b\u0435  \u043d\u0430 \u0431\u0430\u043c\u043f\u0435\u0440\u0430\u0445 \u0443\u043b\u044c\u0442\u0440\u0430\u0437\u0432\u0443\u043a\u043e\u0432\u044b\u0435 \u0434\u0430\u0442\u0447\u0438\u043a\u0438, \u043e\u043f\u043e\u0432\u0435\u0449\u0430\u044f \u0412\u0430\u0441 \u0437\u0432\u0443\u043a\u043e\u043c, \u0435\u0441\u043b\u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u044b\u0435 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430 \u0438\u043b\u0438 \u043f\u0440\u0435\u043f\u044f\u0442\u0441\u0442\u0432\u0438\u044f \u043e\u043a\u0430\u0436\u0443\u0442\u0441\u044f \u043d\u0430 \u043e\u043f\u0430\u0441\u043d\u043e \u0431\u043b\u0438\u0437\u043a\u043e\u043c \u0440\u0430\u0441\u0441\u0442\u043e\u044f\u043d\u0438\u0438.",
+					"file": "/img/other/seltos-4-3.jpg",
+					"name": "\u0421\u0438\u0433\u043d\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0430\u0432\u0430\u0440\u0438\u0439\u043d\u043e\u0433\u043e \u0441\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f \u043f\u0440\u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0435 (PDW)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u041a\u0440\u0443\u0438\u0437-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0432\u044b\u0431\u0440\u0430\u0442\u044c \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u0443\u044e \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c, \u0447\u0442\u043e\u0431\u044b \u0434\u0430\u0442\u044c \u043d\u043e\u0433\u0435 \u043e\u0442\u0434\u043e\u0445\u043d\u0443\u0442\u044c \u043d\u0430 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0439 \u0434\u043e\u0440\u043e\u0433\u0435. \u041b\u0435\u0433\u043a\u043e\u0435 \u043d\u0430\u0436\u0430\u0442\u0438\u0435 \u043d\u0430 \u0442\u043e\u0440\u043c\u043e\u0437 \u0438\u043b\u0438 \u043a\u043d\u043e\u043f\u043a\u0443 \u043e\u0442\u043c\u0435\u043d\u044b \u0432\u0435\u0440\u043d\u0435\u0442 Seltos  \u0432 \u043e\u0431\u044b\u0447\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c.",
+					"file": "/img/other/seltos-4-4.png",
+					"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043a\u0440\u0443\u0438\u0437-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f (SCC)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "645f9210-8bdf-444b-85e5-a8b2f2b0f8ba",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "tabs"
+			},
+			"sort": 150,
+			"teasers": [],
+			"theme": "pale_beige",
+			"title": "Drive Wise",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": null,
+			"detail_link_title": null,
+			"id": "fc30290e-cc48-4fc4-a061-5f86b9785a29",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "\u041f\u0440\u0438\u0440\u043e\u0436\u0434\u0435\u043d\u043d\u044b\u0439 \u0437\u0430\u0449\u0438\u0442\u043d\u0438\u043a",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "\u041a\u0443\u0437\u043e\u0432 Seltos, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0448\u0430\u0441\u0441\u0438 \u0443\u0441\u0438\u043b\u0435\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u0438\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u044b \u0441 \u0448\u0438\u0440\u043e\u043a\u0438\u043c \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435\u043c \u0432\u044b\u0441\u043e\u043a\u043e\u043f\u0440\u043e\u0447\u043d\u043e\u0439 \u0441\u0442\u0430\u043b\u0438 AHSS, \u0447\u0442\u043e \u0443\u0441\u0438\u043b\u0438\u0432\u0430\u0435\u0442 \u043e\u0449\u0443\u0449\u0435\u043d\u0438\u044f \u043e\u0442\u0442\u043e\u0447\u0435\u043d\u043d\u043e\u0439 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c\u043e\u0441\u0442\u0438 \u0438 \u043f\u0440\u0438\u044f\u0442\u043d\u043e\u0439 \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0438,  \u0432 \u0442\u043e \u0432\u0440\u0435\u043c\u044f \u043a\u0430\u043a \u0412\u044b \u0438 \u0412\u0430\u0448\u0438 \u0441\u043f\u0443\u0442\u043d\u0438\u043a\u0438 \u043d\u0430\u0434\u0435\u0436\u043d\u043e \u0437\u0430\u0449\u0438\u0449\u0435\u043d\u044b.",
+					"file": "/img/other/seltos-security-1.png",
+					"name": "\u041a\u0443\u0437\u043e\u0432 \u0438\u0437 \u0432\u044b\u0441\u043e\u043a\u043e\u043f\u0440\u043e\u0447\u043d\u043e\u0439 \u0441\u0442\u0430\u043b\u0438",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u0414\u043b\u044f \u0437\u0430\u0449\u0438\u0442\u044b \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u043e\u0432 \u0438 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u044f \u0440\u0438\u0441\u043a\u0430 \u0442\u0440\u0430\u0432\u043c \u0432 \u0441\u043b\u0443\u0447\u0430\u0435 \u0441\u0442\u043e\u043b\u043a\u043d\u043e\u0432\u0435\u043d\u0438\u044f Seltos \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d \u0434\u0432\u0443\u043c\u044f \u0444\u0440\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u043c\u0438  \u0438 \u0434\u0432\u0443\u043c\u044f \u0431\u043e\u043a\u043e\u0432\u044b\u043c\u0438 \u043f\u043e\u0434\u0443\u0448\u043a\u0430\u043c\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0434\u043b\u044f \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f \u0438 \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u0430, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0434\u0432\u0443\u043c\u044f \u0448\u0442\u043e\u0440\u043a\u0430\u043c\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438  \u043f\u043e \u0432\u0441\u0435\u0439 \u0434\u043b\u0438\u043d\u0435 \u0441\u0430\u043b\u043e\u043d\u0430 \u0441 \u043e\u0431\u0435\u0438\u0445 \u0441\u0442\u043e\u0440\u043e\u043d.",
+					"file": "/img/other/seltos-security-2.png",
+					"name": "6 \u043f\u043e\u0434\u0443\u0448\u0435\u043a \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "68f53f8f-9942-488e-ad54-f88470789797",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "tabs"
+			},
+			"sort": 160,
+			"teasers": [],
+			"theme": "white",
+			"title": "\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "\u0412 \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u043d\u044b\u0439 \u043f\u0430\u043a\u0435\u0442 \u00ab\u0422\u0435\u043f\u043b\u044b\u0435 \u043e\u043f\u0446\u0438\u0438\u00bb \u0432\u0445\u043e\u0434\u044f\u0442: \u043f\u043e\u0434\u043e\u0433\u0440\u0435\u0432 \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0445 \u0438 \u0437\u0430\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439, \u043e\u0431\u043e\u0433\u0440\u0435\u0432 \u0444\u043e\u0440\u0441\u0443\u043d\u043e\u043a \u043f\u0435\u0440\u0435\u0434\u043d\u0435\u0433\u043e \u0441\u0442\u0435\u043a\u043b\u043e\u043e\u043c\u044b\u0432\u0430\u0442\u0435\u043b\u044f, \u043e\u0431\u043e\u0433\u0440\u0435\u0432 \u0440\u0443\u043b\u044f \u0438 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043e\u0431\u043e\u0433\u0440\u0435\u0432 \u043b\u043e\u0431\u043e\u0432\u043e\u0433\u043e \u0441\u0442\u0435\u043a\u043b\u0430, \u043e\u0431\u043e\u0433\u0440\u0435\u0432 \u0431\u043e\u043a\u043e\u0432\u044b\u0445 \u0437\u0435\u0440\u043a\u0430\u043b.",
+			"detail_link_title": null,
+			"id": "fee0884a-b8fa-4690-a84d-9baa8ce7a0fb",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "\u0412 \u0442\u0435\u043f\u043b\u0435 \u0438 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u0435 \u0432 \u043b\u044e\u0431\u0443\u044e \u043f\u043e\u0433\u043e\u0434\u0443",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "\u041d\u043e\u0432\u044b\u0439 KIA Seltos \u043e\u0441\u043d\u0430\u0449\u0430\u0435\u0442\u0441\u044f \u043f\u043e\u0434\u043e\u0433\u0440\u0435\u0432\u043e\u043c \u0440\u0443\u043b\u0435\u0432\u043e\u0433\u043e \u043a\u043e\u043b\u0435\u0441\u0430",
+					"file": "https://kia-motors.uz/img/other/seltos-5-1.jpg",
+					"name": "\u041e\u0431\u043e\u0433\u0440\u0435\u0432 \u0440\u0443\u043b\u044f",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u041f\u0435\u0440\u0435\u0434\u043d\u0438\u0435 \u0441\u0438\u0434\u0435\u043d\u0438\u044f \u0441 \u0444\u0443\u043d\u043a\u0446\u0438\u0435\u0439 \u043e\u0431\u043e\u0433\u0440\u0435\u0432\u0430, \u043e\u043a\u0430\u0436\u0443\u0442\u0441\u044f \u043e\u0447\u0435\u043d\u044c \u043a\u0441\u0442\u0430\u0442\u0438 \u0432 \u0445\u043e\u043b\u043e\u0434\u043d\u0443\u044e \u043f\u043e\u0433\u043e\u0434\u0443",
+					"file": "https://kia-motors.uz/img/other/seltos-5-2.jpg",
+					"name": "\u041e\u0431\u043e\u0433\u0440\u0435\u0432 \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439 ",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u041a\u0440\u0435\u0441\u043b\u0430 \u0441 \u0442\u0440\u0435\u043c\u044f \u0441\u0442\u0435\u043f\u0435\u043d\u044f\u043c\u0438 \u043e\u0431\u043e\u0433\u0440\u0435\u0432\u0430 \u0431\u044b\u0441\u0442\u0440\u043e \u043d\u0430\u0431\u0438\u0440\u0430\u044e\u0442 \u043d\u0443\u0436\u043d\u0443\u044e \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0443 \u0438 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0442 \u0435\u0451 \u043d\u0430 \u0437\u0430\u0434\u0430\u043d\u043d\u043e\u043c \u0443\u0440\u043e\u0432\u043d\u0435. ",
+					"file": "https://kia-motors.uz/img/other/seltos-5-3.jpg",
+					"name": "\u041e\u0431\u043e\u0433\u0440\u0435\u0432 \u0437\u0430\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": null,
+					"file": "https://kia-motors.uz/img/other/seltos-5-4.jpg",
+					"name": "\u041e\u0431\u043e\u0433\u0440\u0435\u0432 \u0431\u043e\u043a\u043e\u0432\u044b\u0445 \u0437\u0435\u0440\u043a\u0430\u043b",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "\u041d\u043e\u0432\u044b\u0439 KIA Seltos \u043e\u0441\u043d\u0430\u0449\u0430\u0435\u0442\u0441\u044f \u043e\u0431\u043e\u0433\u0440\u0435\u0432\u0430\u0435\u043c\u044b\u043c \u043b\u043e\u0431\u043e\u0432\u044b\u043c \u0441\u0442\u0435\u043a\u043b\u043e\u043c \u0441 \u0431\u0443\u043a\u0432\u0430\u043b\u044c\u043d\u043e \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u044b\u043c\u0438 \u043d\u0438\u0442\u044f\u043c\u0438, \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u044b\u043c\u0438 \u0431\u044b\u0441\u0442\u0440\u043e \u0440\u0430\u0441\u0442\u043e\u043f\u0438\u0442\u044c \u043b\u0451\u0434.",
+					"file": "https://kia-motors.uz/img/other/seltos-5-5.jpg",
+					"name": "\u041e\u0431\u043e\u0433\u0440\u0435\u0432 \u043b\u043e\u0431\u043e\u0432\u043e\u0433\u043e \u0441\u0442\u0435\u043a\u043b\u0430 ",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "a197f80a-b282-4ef3-af5b-7bda50db76bc",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "accordion_right"
+			},
+			"sort": 170,
+			"teasers": [],
+			"theme": "pale_beige",
+			"title": "\u0422\u0435\u043f\u043b\u044b\u0435 \u043e\u043f\u0446\u0438\u0438",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "\u0410\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0438 KIA \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u044b \u043f\u043e \u0441\u0430\u043c\u044b\u043c \u0432\u044b\u0441\u043e\u043a\u0438\u043c \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0430\u043c \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0439 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u0438. \u0418\u043c\u0435\u043d\u043d\u043e \u044d\u0442\u043e \u0438\u0441\u043a\u043b\u044e\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 KIA \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0438\u0442\u044c \u0443\u043d\u0438\u043a\u0430\u043b\u044c\u043d\u044b\u0435 \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0438",
+			"detail_link_title": null,
+			"id": "7b43c045-dc33-45ac-be38-b1b1163089ce",
+			"image": "/img/other/k5-warranty.png",
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "\u0413\u0430\u0440\u0430\u043d\u0442\u0438\u044f \u0438 \u0441\u0435\u0440\u0432\u0438\u0441",
+			"preview_block": null,
+			"sort": 999,
+			"teasers": [],
+			"theme": "pale_beige",
+			"title": "\u041e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+			"type": "img_left",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		}],
+		"overviews":
+		{
+			"colors": [
+			{
+				"code": "UD",
+				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"name": "Clear White",
+				"name_en": "Clear White",
+				"price": null,
+				"sort": 6200
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": 10000,
+				"sort": 6100
+			},
+			{
+				"code": "KDG",
+				"id": "209938ed-171f-404c-8e74-75f76907225f",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/f0193540-687d-4474-8db2-43c0801bb0c3.svg",
+				"name": "Gravity Gray",
+				"name_en": "Gravity Gray",
+				"price": 10000,
+				"sort": 3700
+			},
+			{
+				"code": "KLG",
+				"id": "b137d001-169e-42c9-ba72-797e8262c82d",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
+				"name": "Steel Gray",
+				"name_en": "Steel Gray",
+				"price": 10000,
+				"sort": 3600
+			},
+			{
+				"code": "B4Y",
+				"id": "0d2e2289-e975-4b5a-a7e2-7876ad2edf56",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/B4Y.svg",
+				"name": "Stargright Yellow",
+				"name_en": "Stargright Yellow",
+				"price": 10000,
+				"sort": 3550
+			},
+			{
+				"code": "B3A",
+				"id": "d014cc71-0410-49c7-806e-ef940eea2ffc",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/d850fd73-31fb-4508-b26b-5cd100939e74.svg",
+				"name": "Neptune Blue",
+				"name_en": "Neptune Blue",
+				"price": 10000,
+				"sort": 3500
+			},
+			{
+				"code": "M3R",
+				"id": "96e40eb5-9bea-49a6-9273-38fdd8f1a398",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/e24a69f7-32a0-432c-a848-c01d023281cd.svg",
+				"name": "Mars Orange",
+				"name_en": "Mars Orange",
+				"price": 10000,
+				"sort": 3300
+			},
+			{
+				"code": "BU3",
+				"id": "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/BU3.svg",
+				"name": "Dark Ocean Blue",
+				"name_en": "Dark Ocean Blue",
+				"price": 10000,
+				"sort": 2450
+			},
+			{
+				"code": "9H",
+				"id": "27b380f5-62bd-4c46-ae58-c0b8f528c40a",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/bc555e24-fa5d-45a8-8020-2a6225e76fc0.svg",
+				"name": "Cherry Black",
+				"name_en": "Cherry Black",
+				"price": 10000,
+				"sort": 900
+			},
+			{
+				"code": "GA6",
+				"id": "c2884aab-45bf-4576-b9ba-22e23da17129",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/3ebff914-a151-4f63-9f9b-d5f422692fc0.svg",
+				"name": "Starbright Yellow \/ Clear White",
+				"name_en": "Starbright Yellow \/ Clear White",
+				"price": 20000,
+				"sort": 600
+			},
+			{
+				"code": "GA7",
+				"id": "03531178-ae44-4318-a4e6-32aeb415cd4f",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/6a094b2e-993a-415f-bc14-c4fa7b4bc132.svg",
+				"name": "Starbright Yellow \/ Cherry Black",
+				"name_en": "Starbright Yellow \/ Cherry Black",
+				"price": 20000,
+				"sort": 550
+			},
+			{
+				"code": "SE1",
+				"id": "e5094c34-9d95-4e67-b78a-ec53588fb01f",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/afe82e9b-eca9-4b02-acb7-d50f44b959b2.svg",
+				"name": "Gravity Gray \/ Platinum Gold",
+				"name_en": "Gravity Gray \/ Platinum Gold",
+				"price": 20000,
+				"sort": 525
+			},
+			{
+				"code": "GA4",
+				"id": "f2703162-c445-4812-9506-64972a2604b7",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/3fe5fffa-3bd8-4301-8f23-e710f02540a2.svg",
+				"name": "Dark Ocean Blue \/ Clear White",
+				"name_en": "Dark Ocean Blue \/ Clear White",
+				"price": 20000,
+				"sort": 500
+			},
+			{
+				"code": "GA5",
+				"id": "6eb4524d-05a2-46ca-ac6f-993a4600a51b",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/361992a7-8b6b-4200-92db-ed167a3a2eb6.svg",
+				"name": "Dark Ocean Blue \/ Cherry Black",
+				"name_en": "Dark Ocean Blue \/ Cherry Black",
+				"price": 20000,
+				"sort": 450
+			},
+			{
+				"code": "GA3",
+				"id": "0bf9f742-677b-4db9-86a5-a30bab9e2829",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/8798dc64-afab-4afe-9207-720ce7651053.svg",
+				"name": "Mars Orange \/ Clear White",
+				"name_en": "Mars Orange \/ Clear White",
+				"price": 20000,
+				"sort": 150
+			}],
+			"complectations": [
+			{
+				"id": "3411d0ee-a003-4efd-bcb0-d1b63acba6ac",
+				"name": "Style",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a",
+					"color_price": 10000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/BU3\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "b137d001-169e-42c9-ba72-797e8262c82d",
+					"color_price": 10000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/KLG\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": 10000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/SWP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "209938ed-171f-404c-8e74-75f76907225f",
+					"color_price": 10000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/KDG\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "e5094c34-9d95-4e67-b78a-ec53588fb01f",
+					"color_price": 20000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/SE1\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "6eb4524d-05a2-46ca-ac6f-993a4600a51b",
+					"color_price": 20000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/GA5\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "0bf9f742-677b-4db9-86a5-a30bab9e2829",
+					"color_price": 20000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/GA3\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "27b380f5-62bd-4c46-ae58-c0b8f528c40a",
+					"color_price": 10000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/9H\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "03531178-ae44-4318-a4e6-32aeb415cd4f",
+					"color_price": 20000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/GA7\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "96e40eb5-9bea-49a6-9273-38fdd8f1a398",
+					"color_price": 10000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/M3R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "0d2e2289-e975-4b5a-a7e2-7876ad2edf56",
+					"color_price": 10000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/B4Y\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d014cc71-0410-49c7-806e-ef940eea2ffc",
+					"color_price": 10000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/B3A\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "c2884aab-45bf-4576-b9ba-22e23da17129",
+					"color_price": 20000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/GA6\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "f2703162-c445-4812-9506-64972a2604b7",
+					"color_price": 20000,
+					"is_color_metallic": 1,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20202020\/G195\/GA4\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
+					"color_price": null,
+					"is_color_metallic": 0,
+					"path": "https://cdn.kia.ru\/master-data\/overviews\/\/THW5\/20192019\/G194\/UD\/"
+				}]
+			}]
+		},
+		"panoramas":
+		{
+			"colors": [
+			{
+				"code": "WK",
+				"id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "\u0427\u0435\u0440\u043d\u044b\u0439, \u0422\u043a\u0430\u043d\u0435\u0432\u0430\u044f \u043e\u0442\u0434\u0435\u043b\u043a\u0430",
+				"name_en": "Black, Fabric finish",
+				"price": null,
+				"sort": 14000
+			},
+			{
+				"code": "WK",
+				"id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/dfab6f76-5f73-49c5-a1d1-88bce428b937.svg",
+				"name": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0441 \u0441\u0435\u0440\u044b\u043c\u0438 \u0432\u0441\u0442\u0430\u0432\u043a\u0430\u043c\u0438, \u0422\u043a\u0430\u043d\u0435\u0432\u0430\u044f \u043e\u0442\u0434\u0435\u043b\u043a\u0430",
+				"name_en": "Black with gray accents, Fabric finish",
+				"price": null,
+				"sort": 13700
+			},
+			{
+				"code": "WK",
+				"id": "d69acc7e-c755-4fa0-94e3-5eca4020fd8a",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "\u0427\u0435\u0440\u043d\u044b\u0439, \u041a\u043e\u043c\u0431\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043e\u0442\u0434\u0435\u043b\u043a\u0430 \u0442\u043a\u0430\u043d\u044c \u0438 \u044d\u043a\u043e\u043a\u043e\u0436\u0430",
+				"name_en": "Black, Fabric and faux leather combo",
+				"price": null,
+				"sort": 13600
+			},
+			{
+				"code": "WK",
+				"id": "82edc531-8701-44bd-9f4b-55dda4095bb9",
+				"image": "https://www.kia.ru/static\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "\u0427\u0435\u0440\u043d\u044b\u0439, \u042d\u043a\u043e\u043a\u043e\u0436\u0430",
+				"name_en": "Black, Eco leather",
+				"price": null,
+				"sort": 13100
+			}],
+			"complectations": [
+			{
+				"id": "949372a9-7227-450f-a9ee-dbc894d62567",
+				"name": "Premium+",
+				"panoramas": [
+				{
+					"color_id": "82edc531-8701-44bd-9f4b-55dda4095bb9",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "d93dbbd2-5093-49ac-a931-6ec63cc53b3f",
+				"name": "Premium",
+				"panoramas": [
+				{
+					"color_id": "82edc531-8701-44bd-9f4b-55dda4095bb9",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "4f0d42cc-98f8-4b21-9a9d-0887b81e4295",
+				"name": "Premium",
+				"panoramas": [
+				{
+					"color_id": "82edc531-8701-44bd-9f4b-55dda4095bb9",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "1a14e464-0531-4bdf-80ba-ced0daedae07",
+				"name": "Prestige",
+				"panoramas": [
+				{
+					"color_id": "d69acc7e-c755-4fa0-94e3-5eca4020fd8a",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "92a97455-ad9b-4ce7-a9a4-64e8cd971413",
+				"name": "Prestige",
+				"panoramas": [
+				{
+					"color_id": "d69acc7e-c755-4fa0-94e3-5eca4020fd8a",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "6e985191-1656-4d73-87ac-8fc49a319a61",
+				"name": "Prestige",
+				"panoramas": [
+				{
+					"color_id": "d69acc7e-c755-4fa0-94e3-5eca4020fd8a",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "5e39a2d0-5bd0-4a76-86a3-30d186bef99d",
+				"name": "Prestige",
+				"panoramas": [
+				{
+					"color_id": "d69acc7e-c755-4fa0-94e3-5eca4020fd8a",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "108ca427-10bd-4d0e-aeb2-af1d80bbbefe",
+				"name": "Style",
+				"panoramas": [
+				{
+					"color_id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "d5cc7d64-5db7-488d-9399-0ea628507aa8",
+				"name": "Style",
+				"panoramas": [
+				{
+					"color_id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "5a14f255-6b88-49f6-884b-d26aa27afeeb",
+				"name": "Luxe",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "3411d0ee-a003-4efd-bcb0-d1b63acba6ac",
+				"name": "Style",
+				"panoramas": [
+				{
+					"color_id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "54ff7d06-ab5c-495c-81ed-76011f97dd2c",
+				"name": "Luxe",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "439dcce5-4118-4393-a0bf-4140e7a75cbb",
+				"name": "Luxe",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "2c5dccb3-f15e-4c05-acd4-a3c2134629e3",
+				"name": "Style",
+				"panoramas": [
+				{
+					"color_id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "3648b119-7ea0-4566-81b2-2c40b1e20aef",
+				"name": "Luxe",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "875db28a-ee52-4bb7-aba2-81b91ea02984",
+				"name": "Comfort",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "814dfd78-6389-4f59-aec7-3d9a1a77e3bc",
+				"name": "Comfort",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "008296be-519c-4f64-a205-3c75a79f23a7",
+				"name": "Comfort",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "3acca6ca-0db3-4149-a95b-0f5031b6a905",
+				"name": "Comfort",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "4f3f63ce-7721-4075-9c1f-da1a01c995fb",
+				"name": "Classic",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			},
+			{
+				"id": "9ea73aaa-b670-4db4-ae46-bd005e0a693b",
+				"name": "Classic",
+				"panoramas": [
+				{
+					"color_id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+					"path": "\/master-data\/panorama\/THW5\/2020\/G422\/1K\/"
+				}]
+			}]
+		},
+		"complectations":
+		{
+			"complectations": [
+			{
+				"gallery": null,
+				"id": "9ea73aaa-b670-4db4-ae46-bd005e0a693b",
+				"label": null,
+				"min_price": 1104900,
+				"modifications": [
+				{
+					"acceleration_to_100": 12.2,
+					"consumption_per_100": 6.9,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"transmission_id": "f7c81bad-f6e6-474b-9b18-0426325946a1"
+				},
+				{
+					"acceleration_to_100": 12.3,
+					"consumption_per_100": 7.4,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
+				}],
+				"name": "Classic",
+				"name_en": "Classic",
+				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "44c98cc0-3417-4f2e-933a-fc4db09d0f98", "44140984-8606-4aeb-a60f-9928abb52779", "8801a8be-dd81-4dcf-b4f3-ada1b8433b1e"],
+				"price": 1149900
+			},
+			{
+				"gallery": null,
+				"id": "3acca6ca-0db3-4149-a95b-0f5031b6a905",
+				"label": null,
+				"min_price": 1174900,
+				"modifications": [
+				{
+					"acceleration_to_100": 12.2,
+					"consumption_per_100": 6.9,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"transmission_id": "f7c81bad-f6e6-474b-9b18-0426325946a1"
+				},
+				{
+					"acceleration_to_100": 12.3,
+					"consumption_per_100": 7.4,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
+				},
+				{
+					"acceleration_to_100": 12.9,
+					"consumption_per_100": 7.8,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"transmission_id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3"
+				},
+				{
+					"acceleration_to_100": 12.6,
+					"consumption_per_100": 8,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5"
+				}],
+				"name": "Comfort",
+				"name_en": "Comfort",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "76a7a316-195b-4de1-9f89-d15bcea7a340", "3af93114-6d35-4623-b114-d1890c062014", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7"],
+				"price": 1219900
+			},
+			{
+				"gallery": null,
+				"id": "3648b119-7ea0-4566-81b2-2c40b1e20aef",
+				"label": null,
+				"min_price": 1324900,
+				"modifications": [
+				{
+					"acceleration_to_100": 12.3,
+					"consumption_per_100": 7.4,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
+				},
+				{
+					"acceleration_to_100": 12.9,
+					"consumption_per_100": 7.8,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"transmission_id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3"
+				},
+				{
+					"acceleration_to_100": 12.6,
+					"consumption_per_100": 8,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5"
+				},
+				{
+					"acceleration_to_100": 9.6,
+					"consumption_per_100": 6.8,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831"
+				}],
+				"name": "Luxe",
+				"name_en": "Luxe",
+				"options": ["a742c73a-6059-4e56-9a65-d17ae402dfb7", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "90596dad-b569-4f34-b59d-57a20baa90d7", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"],
+				"price": 1369900
+			},
+			{
+				"gallery": null,
+				"id": "2c5dccb3-f15e-4c05-acd4-a3c2134629e3",
+				"label": null,
+				"min_price": 1364900,
+				"modifications": [
+				{
+					"acceleration_to_100": 12.3,
+					"consumption_per_100": 7.4,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
+				},
+				{
+					"acceleration_to_100": 12.6,
+					"consumption_per_100": 8,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5"
+				},
+				{
+					"acceleration_to_100": 9.6,
+					"consumption_per_100": 6.8,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831"
+				},
+				{
+					"acceleration_to_100": 10.4,
+					"consumption_per_100": 7.3,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257"
+				}],
+				"name": "Style",
+				"name_en": "Style",
+				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "90596dad-b569-4f34-b59d-57a20baa90d7"],
+				"price": 1409900
+			},
+			{
+				"gallery": null,
+				"id": "6e985191-1656-4d73-87ac-8fc49a319a61",
+				"label": null,
+				"min_price": 1534900,
+				"modifications": [
+				{
+					"acceleration_to_100": 12.6,
+					"consumption_per_100": 8,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5"
+				},
+				{
+					"acceleration_to_100": 9.6,
+					"consumption_per_100": 6.8,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831"
+				},
+				{
+					"acceleration_to_100": 10.4,
+					"consumption_per_100": 7.3,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257"
+				},
+				{
+					"acceleration_to_100": 8.4,
+					"consumption_per_100": 7.6,
+					"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+					"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69"
+				}],
+				"name": "Prestige",
+				"name_en": "Prestige",
+				"options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
+				"price": 1619900
+			},
+			{
+				"gallery": null,
+				"id": "4f0d42cc-98f8-4b21-9a9d-0887b81e4295",
+				"label": null,
+				"min_price": 1824900,
+				"modifications": [
+				{
+					"acceleration_to_100": 10.4,
+					"consumption_per_100": 7.3,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257"
+				},
+				{
+					"acceleration_to_100": 8.4,
+					"consumption_per_100": 7.6,
+					"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+					"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69"
+				}],
+				"name": "Premium",
+				"name_en": "Premium",
+				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1"],
+				"price": 1869900
+			},
+			{
+				"gallery": null,
+				"id": "949372a9-7227-450f-a9ee-dbc894d62567",
+				"label": null,
+				"min_price": 2004900,
+				"modifications": [
+				{
+					"acceleration_to_100": 8.4,
+					"consumption_per_100": 7.6,
+					"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+					"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69"
+				}],
+				"name": "Premium+",
+				"name_en": "Premium+",
+				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1", "2814d7c0-ade7-4b0e-86a4-26509dc65c63"],
+				"price": 2049900
+			}],
+			"engines": [
+			{
+				"engine_type_name": "MPI",
+				"fuel_type_name": "\u0411\u0435\u043d\u0437\u0438\u043d",
+				"fuel_type_name_en": "Petrol",
+				"id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+				"name": "1.6 MPI",
+				"name_en": null,
+				"power_hp": "123",
+				"volume": "1.6"
+			},
+			{
+				"engine_type_name": "MPI",
+				"fuel_type_name": "\u0411\u0435\u043d\u0437\u0438\u043d",
+				"fuel_type_name_en": "Petrol",
+				"id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+				"name": "2.0 MPI",
+				"name_en": null,
+				"power_hp": "149",
+				"volume": "2.0"
+			},
+			{
+				"engine_type_name": "T-GDI",
+				"fuel_type_name": "\u0411\u0435\u043d\u0437\u0438\u043d",
+				"fuel_type_name_en": "Petrol",
+				"id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+				"name": "1.6 T-GDI",
+				"name_en": null,
+				"power_hp": "177",
+				"volume": "1.6"
+			},
+			{
+				"engine_type_name": "MPI",
+				"fuel_type_name": "\u0411\u0435\u043d\u0437\u0438\u043d",
+				"fuel_type_name_en": "Petrol",
+				"id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+				"name": "1.6 MPI",
+				"name_en": null,
+				"power_hp": "121",
+				"volume": "1.6"
+			}],
+			"options": [
+			{
+				"id": "20edd792-c345-46e5-aa94-c3582e0d519d",
+				"name": "\u041f\u043e\u0434\u043e\u0433\u0440\u0435\u0432 \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439"
+			},
+			{
+				"id": "ecc3f7a5-db63-4198-98d8-ed74a6402047",
+				"name": "\u041f\u043e\u0434\u043e\u0433\u0440\u0435\u0432 \u0437\u0430\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439"
+			},
+			{
+				"id": "8e287a59-a6c8-4a46-bb83-b956869e2b90",
+				"name": "\u041f\u043e\u0434\u043e\u0433\u0440\u0435\u0432 \u0440\u0443\u043b\u0435\u0432\u043e\u0433\u043e \u043a\u043e\u043b\u0435\u0441\u0430"
+			},
+			{
+				"id": "df0a6ec9-18d7-4481-9d61-5abf89db70f0",
+				"name": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043e\u0431\u043e\u0433\u0440\u0435\u0432 \u0432\u0435\u0442\u0440\u043e\u0432\u043e\u0433\u043e \u0441\u0442\u0435\u043a\u043b\u0430"
+			},
+			{
+				"id": "d129184e-c14b-4658-89e7-bb79aaa4bc9c",
+				"name": "\u041f\u043e\u0434\u043e\u0433\u0440\u0435\u0432 \u0444\u043e\u0440\u0441\u0443\u043d\u043e\u043a \u0441\u0442\u0435\u043a\u043b\u043e\u043e\u043c\u044b\u0432\u0430\u0442\u0435\u043b\u044f"
+			},
+			{
+				"id": "c8170134-afd7-4067-b8e2-f014933629eb",
+				"name": "\u0411\u043e\u043a\u043e\u0432\u044b\u0435 \u0437\u0435\u0440\u043a\u0430\u043b\u0430 \u0437\u0430\u0434\u043d\u0435\u0433\u043e \u0432\u0438\u0434\u0430 \u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043f\u0440\u0438\u0432\u043e\u0434\u043e\u043c \u0438 \u043f\u043e\u0434\u043e\u0433\u0440\u0435\u0432\u043e\u043c"
+			},
+			{
+				"id": "76a7a316-195b-4de1-9f89-d15bcea7a340",
+				"name": "\u0421\u0442\u0430\u043b\u044c\u043d\u044b\u0435 \u0434\u0438\u0441\u043a\u0438 16\"\u0441 \u0448\u0438\u043d\u0430\u043c\u0438 205\/60 R16"
+			},
+			{
+				"id": "a742c73a-6059-4e56-9a65-d17ae402dfb7",
+				"name": "\u041b\u0435\u0433\u043a\u043e\u0441\u043f\u043b\u0430\u0432\u043d\u044b\u0435 \u0434\u0438\u0441\u043a\u0438 16\" \u0441 \u0448\u0438\u043d\u0430\u043c\u0438 205\/60 R16"
+			},
+			{
+				"id": "b913fb68-795a-4e24-845e-a518cbd82a54",
+				"name": "\u041b\u0435\u0433\u043a\u043e\u0441\u043f\u043b\u0430\u0432\u043d\u044b\u0435 \u0434\u0438\u0441\u043a\u0438 17\" \u0441 \u0448\u0438\u043d\u0430\u043c\u0438 215\/55 R17"
+			},
+			{
+				"id": "72002f02-268a-4b30-a0f3-9b119089344c",
+				"name": "\u041b\u0435\u0433\u043a\u043e\u0441\u043f\u043b\u0430\u0432\u043d\u044b\u0435 \u0434\u0438\u0441\u043a\u0438 18\" \u0441 \u0448\u0438\u043d\u0430\u043c\u0438 235\/45 R18"
+			},
+			{
+				"id": "83df224d-d805-4eba-a8ee-8e0ac96f2b94",
+				"name": "\u0421\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 \u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u0445\u043e\u0434\u043e\u0432\u044b\u0435 \u043e\u0433\u043d\u0438 (LED DRL)"
+			},
+			{
+				"id": "2ddbf2d6-81c9-498f-8898-060a73dadd8e",
+				"name": "\u0421\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 (LED) \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0442\u0443\u043c\u0430\u043d\u043d\u044b\u0435 \u0444\u0430\u0440\u044b"
+			},
+			{
+				"id": "dda59a4f-7499-4c0b-a655-fee7f755e2cd",
+				"name": "\u0421\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 (LED) \u0437\u0430\u0434\u043d\u0438\u0435 \u0444\u043e\u043d\u0430\u0440\u0438"
+			},
+			{
+				"id": "21d64663-7ab0-4587-a593-055f9fbf2494",
+				"name": "\u0421\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 (LED) \u0433\u0430\u0431\u0430\u0440\u0438\u0442\u043d\u044b\u0435 \u043e\u0433\u043d\u0438"
+			},
+			{
+				"id": "3af93114-6d35-4623-b114-d1890c062014",
+				"name": "\u0420\u0443\u043b\u0435\u0432\u043e\u0435 \u043a\u043e\u043b\u0435\u0441\u043e \u0438 \u0440\u0443\u0447\u043a\u0430 \u0441\u0435\u043b\u0435\u043a\u0442\u043e\u0440\u0430 \u0442\u0440\u0430\u043d\u0441\u043c\u0438\u0441\u0441\u0438\u0438 \u0441 \u043e\u0442\u0434\u0435\u043b\u043a\u043e\u0439 \u043a\u043e\u0436\u0435\u0439"
+			},
+			{
+				"id": "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9",
+				"name": "\u0421\u0438\u0434\u0435\u043d\u044c\u044f \u0441 \u043a\u043e\u043c\u0431\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u043e\u0442\u0434\u0435\u043b\u043a\u043e\u0439 \u0442\u043a\u0430\u043d\u044c + \u044d\u043a\u043e \u043a\u043e\u0436\u0430"
+			},
+			{
+				"id": "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d",
+				"name": "\u0412\u0435\u043d\u0442\u0438\u043b\u044f\u0446\u0438\u044f \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439"
+			},
+			{
+				"id": "cf530c4e-801b-4b6d-b8c1-e24d34463871",
+				"name": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043f\u0440\u0438\u0432\u043e\u0434 \u0440\u0435\u0433\u0443\u043b\u0438\u0440\u043e\u0432\u043e\u043a \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439"
+			},
+			{
+				"id": "bbe4cdd1-b23e-4473-ab19-8758807b9d87",
+				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0431\u0435\u0441\u043a\u043b\u044e\u0447\u0435\u0432\u043e\u0433\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430 Smart Key \u0438 \u0437\u0430\u043f\u0443\u0441\u043a\u0430 \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044f \u043a\u043d\u043e\u043f\u043a\u043e\u0439"
+			},
+			{
+				"id": "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b",
+				"name": "\u041a\u043b\u0438\u043c\u0430\u0442-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c"
+			},
+			{
+				"id": "46b241ea-492d-46d6-ab8b-2fb847121587",
+				"name": "\u0417\u0430\u0434\u043d\u0438\u0435 \u0434\u0430\u0442\u0447\u0438\u043a\u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438"
+			},
+			{
+				"id": "0587d09e-7d5a-4f9d-b0b1-278c407a4252",
+				"name": "\u041f\u0435\u0440\u0435\u0434\u043d\u0438\u0435 \u0434\u0430\u0442\u0447\u0438\u043a\u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438"
+			},
+			{
+				"id": "dddd9087-ab14-4d0c-8261-4cb28af99dc6",
+				"name": "\u041a\u0430\u043c\u0435\u0440\u0430 \u0437\u0430\u0434\u043d\u0435\u0433\u043e \u0432\u0438\u0434\u0430 \u0441 \u0434\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u043b\u0438\u043d\u0438\u044f\u043c\u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438"
+			},
+			{
+				"id": "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c",
+				"name": "\u041f\u0440\u0438\u0431\u043e\u0440\u043d\u0430\u044f \u043f\u0430\u043d\u0435\u043b\u044c \u0441 \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c 7\" Supervision"
+			},
+			{
+				"id": "2f1258e6-1ba8-4c8d-8af5-372f123d30db",
+				"name": "\u041f\u0440\u043e\u0435\u043a\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d (HUD)"
+			},
+			{
+				"id": "f760de13-d7b3-456f-a679-7d7d3d7faa29",
+				"name": "\u041a\u0440\u0443\u0438\u0437-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c"
+			},
+			{
+				"id": "98e7502e-a301-4fa1-941e-b8dbbf9746f4",
+				"name": "\u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0443\u0438\u0437-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c (SCC) \u0441 \u0444\u0443\u043d\u043a\u0446\u0438\u0435\u0439 Stop&Go"
+			},
+			{
+				"id": "71cbfc91-a55b-4cb6-8d17-fbbdbe368543",
+				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0441\u0442\u043e\u043b\u043a\u043d\u043e\u0432\u0435\u043d\u0438\u044f \u0441 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u043c \u0432 \u0441\u043b\u0435\u043f\u043e\u0439 \u0437\u043e\u043d\u0435 (BCA)"
+			},
+			{
+				"id": "14881c3f-121b-4b8c-ae6c-1d7a37c754c2",
+				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0431\u043e\u043a\u043e\u0432\u043e\u0433\u043e \u0441\u0442\u043e\u043b\u043a\u043d\u043e\u0432\u0435\u043d\u0438\u044f \u043f\u0440\u0438 \u0432\u044b\u0435\u0437\u0434\u0435 \u0441 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 \u0437\u0430\u0434\u043d\u0438\u043c \u0445\u043e\u0434\u043e\u043c (RCCA)"
+			},
+			{
+				"id": "5ad85803-503b-4a51-9b80-fc7a2eaa14e1",
+				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u044f \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f (DAW)"
+			},
+			{
+				"id": "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9",
+				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0440\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u044f \u0443\u0441\u0442\u0430\u043b\u043e\u0441\u0442\u0438 \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f (DAW)"
+			},
+			{
+				"id": "a6758985-e2f1-402c-b50f-16f93bf7e41c",
+				"name": "\u0410\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441 3.8\" \u043c\u043e\u043d\u043e\u0445\u0440\u043e\u043c\u043d\u044b\u043c \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c"
+			},
+			{
+				"id": "44c98cc0-3417-4f2e-933a-fc4db09d0f98",
+				"name": "\u0417\u0430\u0434\u043d\u0438\u0435 \u0441\u0438\u0434\u0435\u043d\u044c\u044f \u0441 \u0440\u0435\u0433\u0443\u043b\u0438\u0440\u043e\u0432\u043a\u043e\u0439 \u0443\u0433\u043b\u0430 \u043d\u0430\u043a\u043b\u043e\u043d\u0430"
+			},
+			{
+				"id": "90596dad-b569-4f34-b59d-57a20baa90d7",
+				"name": "\u041c\u0443\u043b\u044c\u0442\u0438\u043c\u0435\u0434\u0438\u0430 \u0441 8\" \u0446\u0432\u0435\u0442\u043d\u044b\u043c \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c, \u0441 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043e\u0439 Android Auto \u0438 Apple Carplay"
+			},
+			{
+				"id": "2814d7c0-ade7-4b0e-86a4-26509dc65c63",
+				"name": "\u041d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441 10.25\" \u0446\u0432\u0435\u0442\u043d\u044b\u043c \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c, \u0441 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043e\u0439 Android Auto \u0438 Apple Carplay"
+			},
+			{
+				"id": "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14",
+				"name": "\u0410\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430 Bose"
+			},
+			{
+				"id": "44140984-8606-4aeb-a60f-9928abb52779",
+				"name": "\u041c\u0443\u043b\u044c\u0442\u0438\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u0440\u0443\u043b\u0435\u0432\u043e\u0435 \u043a\u043e\u043b\u0435\u0441\u043e"
+			},
+			{
+				"id": "ae93d9b6-045a-4664-87d2-9845ba6b44b7",
+				"name": "Bluetooth \u0434\u043b\u044f \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432"
+			},
+			{
+				"id": "8801a8be-dd81-4dcf-b4f3-ada1b8433b1e",
+				"name": "6 \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u043e\u0432"
+			},
+			{
+				"id": "e1265686-4ca6-4132-b7e9-62f6b3d2bf34",
+				"name": "\u0411\u043e\u043a\u043e\u0432\u044b\u0435 \u043f\u043e\u0434\u0443\u0448\u043a\u0438 \u0438 \u0448\u0442\u043e\u0440\u043a\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438"
+			}],
+			"transmissions": [
+			{
+				"drive_name": "\u041f\u0435\u0440\u0435\u0434\u043d\u0438\u0439",
+				"drive_name_en": "Front-wheel drive",
+				"gearbox_code": "MT",
+				"gearbox_name": "\u041c\u0435\u0445\u0430\u043d\u0438\u043a\u0430",
+				"gearbox_name_en": "Mechanics",
+				"gears_number": 6,
+				"id": "f7c81bad-f6e6-474b-9b18-0426325946a1",
+				"name": "FWD 6MT"
+			},
+			{
+				"drive_name": "\u041f\u0435\u0440\u0435\u0434\u043d\u0438\u0439",
+				"drive_name_en": "Front-wheel drive",
+				"gearbox_code": "AT",
+				"gearbox_name": "\u0410\u0432\u0442\u043e\u043c\u0430\u0442",
+				"gearbox_name_en": "Automatic",
+				"gears_number": 6,
+				"id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+				"name": "FWD 6AT"
+			},
+			{
+				"drive_name": "\u041f\u043e\u043b\u043d\u044b\u0439",
+				"drive_name_en": "All-wheel drive",
+				"gearbox_code": "MT",
+				"gearbox_name": "\u041c\u0435\u0445\u0430\u043d\u0438\u043a\u0430",
+				"gearbox_name_en": "Mechanics",
+				"gears_number": 6,
+				"id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3",
+				"name": "4WD 6MT"
+			},
+			{
+				"drive_name": "\u041f\u043e\u043b\u043d\u044b\u0439",
+				"drive_name_en": "All-wheel drive",
+				"gearbox_code": "DCT",
+				"gearbox_name": "\u0420\u043e\u0431\u043e\u0442",
+				"gearbox_name_en": "Robot",
+				"gears_number": 7,
+				"id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69",
+				"name": "4WD 7DCT"
+			},
+			{
+				"drive_name": "\u041f\u043e\u043b\u043d\u044b\u0439",
+				"drive_name_en": "All-wheel drive",
+				"gearbox_code": "AT",
+				"gearbox_name": "\u0410\u0432\u0442\u043e\u043c\u0430\u0442",
+				"gearbox_name_en": "Automatic",
+				"gears_number": 6,
+				"id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"name": "4WD 6AT"
+			},
+			{
+				"drive_name": "\u041f\u043e\u043b\u043d\u044b\u0439",
+				"drive_name_en": "All-wheel drive",
+				"gearbox_code": "IVT",
+				"gearbox_name": "\u0412\u0430\u0440\u0438\u0430\u0442\u043e\u0440",
+				"gearbox_name_en": "Variator",
+				"gears_number": 0,
+				"id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257",
+				"name": "4WD IVT"
+			},
+			{
+				"drive_name": "\u041f\u0435\u0440\u0435\u0434\u043d\u0438\u0439",
+				"drive_name_en": "Front-wheel drive",
+				"gearbox_code": "IVT",
+				"gearbox_name": "\u0412\u0430\u0440\u0438\u0430\u0442\u043e\u0440",
+				"gearbox_name_en": "Variator",
+				"gears_number": 0,
+				"id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+				"name": "FWD IVT"
+			}]
+		},
+		"model_videos":
+		{
+			"reviews": [
+			{
+				"author": "AUTONEWS",
+				"date": 1584711000,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "e6e2b2ad-1996-4ffd-bbe8-45d9f26f5bdf",
+				"name": "KIA Seltos 2020",
+				"preview_image": "\/media-data\/review\/seltos_8.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/WQtCOokv7U8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=WQtCOokv7U8",
+				"video_time": "29:55"
+			},
+			{
+				"author": "MOTOR.ru",
+				"date": 1583926200,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "217cb492-c0a2-4b17-86da-28afef7ad313",
+				"name": "KIA Seltos 2020",
+				"preview_image": "\/media-data\/review\/seltos_7.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/ZBrLRyYN0Tc?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=ZBrLRyYN0Tc",
+				"video_time": "18:40"
+			},
+			{
+				"author": "\u0410\u0432\u0442\u043e.\u0440\u0443",
+				"date": 1582185217,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "faaa85c4-1505-40bf-89da-b7a256c0c0dd",
+				"name": "KIA Seltos 2020",
+				"preview_image": "\/media-data\/review\/seltos_6.png",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/X309pPVoZm0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=X309pPVoZm0",
+				"video_time": "10:36"
+			},
+			{
+				"author": "\u0410\u043d\u0442\u043e\u043d \u0412\u043e\u0440\u043e\u0442\u043d\u0438\u043a\u043e\u0432",
+				"date": 1581349207,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "cf647a31-2145-484f-97bb-7aa6d328d10f",
+				"name": "KIA Seltos 2020",
+				"preview_image": "\/media-data\/review\/seltos_4.png",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/rXbhPoT_wiY?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=rXbhPoT_wiY",
+				"video_time": "29:40"
+			},
+			{
+				"author": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0435\u0441\u0442-\u0434\u0440\u0430\u0439\u0432",
+				"date": 1581262807,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "e54aa18f-4330-4f48-b490-c44e12a74211",
+				"name": "KIA Seltos 2020",
+				"preview_image": "\/media-data\/review\/seltos_2.png",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/Bhw4SA8JXCo?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=Bhw4SA8JXCo",
+				"video_time": "26:24"
+			},
+			{
+				"author": "AutoMPS",
+				"date": 1581176407,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "ccdb8242-9d1b-4adb-a969-99e0f9bed07b",
+				"name": "KIA Seltos 2020",
+				"preview_image": "\/media-data\/review\/seltos_3.png",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/CrNCemhyoLw?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=CrNCemhyoLw",
+				"video_time": "17:23"
+			},
+			{
+				"author": "Autonews",
+				"date": 1581090007,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "35296c33-254b-4890-be70-b8111d1704ae",
+				"name": "KIA Seltos 2020",
+				"preview_image": "\/media-data\/review\/seltos_1.png",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/zHK3oPUipA8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=zHK3oPUipA8",
+				"video_time": "12:08"
+			}],
+			"opinions": [
+			{
+				"author": "Kia Motors Russia",
+				"date": 1582146000,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "27b888d0-3e9a-426b-b024-4a96059b5d38",
+				"name": "\u041e\u0431\u0437\u043e\u0440: \u0441\u0430\u043c\u043e\u0435 \u0433\u043b\u0430\u0432\u043d\u043e\u0435 \u0437\u0430 9 \u043c\u0438\u043d\u0443\u0442",
+				"preview_image": "\/media-data\/video_bank\/opinions\/seltos\/1_Obzor_samoe_glavnoe_za_9_minut.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/MlCzI2F7YA8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=MlCzI2F7YA8",
+				"video_time": "09:20"
+			},
+			{
+				"author": "AUTONEWS",
+				"date": 1581022800,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "d27c7efe-8ea0-4618-ac97-5fe77ff1b84d",
+				"name": "AUTONEWS",
+				"preview_image": "\/media-data\/video_bank\/opinions\/seltos\/2_AUTONEWS.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/zHK3oPUipA8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=zHK3oPUipA8",
+				"video_time": "12:08"
+			},
+			{
+				"author": "\u041f\u0435\u0442\u0440 \u041c\u0435\u043d\u044c\u0448\u0438\u0445",
+				"date": 1581109200,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "3af3c9c2-dbf0-41cf-93c5-2ce0e20f5857",
+				"name": "AutoMPS",
+				"preview_image": "\/media-data\/video_bank\/opinions\/seltos\/3_AutoMPS.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/CrNCemhyoLw?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=CrNCemhyoLw",
+				"video_time": "17:23"
+			},
+			{
+				"author": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0435\u0441\u0442-\u0434\u0440\u0430\u0439\u0432",
+				"date": 1581195600,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "4869a334-9866-4883-8c6a-66b33282296c",
+				"name": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0435\u0441\u0442-\u0434\u0440\u0430\u0439\u0432",
+				"preview_image": "\/media-data\/video_bank\/opinions\/seltos\/4_Bolshoj_test-drajv.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/Bhw4SA8JXCo?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=Bhw4SA8JXCo",
+				"video_time": "26:24"
+			},
+			{
+				"author": "\u0410\u043d\u0442\u043e\u043d \u0412\u043e\u0440\u043e\u0442\u043d\u0438\u043a\u043e\u0432",
+				"date": 1581282000,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "50519b09-7547-4bb0-9a86-6bae22226040",
+				"name": "\u0410\u043d\u0442\u043e\u043d \u0412\u043e\u0440\u043e\u0442\u043d\u0438\u043a\u043e\u0432",
+				"preview_image": "\/media-data\/video_bank\/opinions\/seltos\/5_Anton_Vorotnikov.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/rXbhPoT_wiY?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=rXbhPoT_wiY",
+				"video_time": "29:40"
+			},
+			{
+				"author": "\u0410\u0432\u0442\u043e.\u0440\u0443",
+				"date": 1582146000,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "ff9be610-a297-408d-869f-e2e68e064b66",
+				"name": "\u0410\u0432\u0442\u043e.\u0440\u0443",
+				"preview_image": "\/media-data\/video_bank\/opinions\/seltos\/6_Auto.ru.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/X309pPVoZm0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=X309pPVoZm0",
+				"video_time": "10:36"
+			},
+			{
+				"author": "MOTOR.ru",
+				"date": 1583096400,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "f197c797-26ca-4d9b-ba36-e659f1264c42",
+				"name": "MOTOR.ru",
+				"preview_image": "\/media-data\/video_bank\/opinions\/seltos\/7_MOTOR.ru.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/ZBrLRyYN0Tc?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=ZBrLRyYN0Tc",
+				"video_time": "18:40"
+			},
+			{
+				"author": "AUTONEWS",
+				"date": 1584306000,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "af737a42-26fb-4cb1-98ec-df1e3ba0605a",
+				"name": "Autonews",
+				"preview_image": "\/media-data\/video_bank\/opinions\/seltos\/8_Autonews.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/WQtCOokv7U8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=WQtCOokv7U8",
+				"video_time": "29:55"
+			}]
+		},
+		"disclaimers":
+		{
+			"footer":
+			{
+				"name": "Footer Seltos Desc",
+				"text": "        *KIA Seltos \u0441 \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u0435\u043c 1.6 MPI \u0431\u0443\u0434\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d \u0434\u043b\u044f \u043f\u0440\u043e\u0434\u0430\u0436\u0438 \u0432 \u0434\u0438\u043b\u0435\u0440\u0441\u043a\u043e\u0439 \u0441\u0435\u0442\u0438 KIA \u0432 \u0420\u043e\u0441\u0441\u0438\u0438, \u043d\u0430\u0447\u0438\u043d\u0430\u044f \u0441 \u0438\u044e\u043d\u044f 2020 \u0433\u043e\u0434\u0430.\n    <br\/><br\/>\n        **\u041d\u0430\u0446\u0435\u043d\u043a\u0430 \u0437\u0430 \u0434\u0432\u0443\u0445\u0446\u0432\u0435\u0442\u043d\u0443\u044e \u043e\u043a\u0440\u0430\u0441\u043a\u0443 \u043a\u0443\u0437\u043e\u0432\u0430 \u0443\u043a\u0430\u0437\u0430\u043d\u0430 \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0446\u0435\u043d\u044b \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u0441 \u0446\u0432\u0435\u0442\u043e\u043c \u043d\u0435\u043c\u0435\u0442\u0430\u043b\u043b\u0438\u043a.\n    <br\/><br\/>\n                \u0421\u0432\u0435\u0434\u0435\u043d\u0438\u044f \u043e \u0446\u0435\u043d\u0430\u0445 \u043d\u0430 \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u044e \u0431\u0440\u0435\u043d\u0434\u0430 KIA, \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u0435\u0441\u044f \u043d\u0430 \u0441\u0430\u0439\u0442\u0435, \u043d\u043e\u0441\u044f\u0442 \u0438\u0441\u043a\u043b\u044e\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440. \n        \u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0435 \u0446\u0435\u043d\u044b \u043c\u043e\u0433\u0443\u0442 \u043e\u0442\u043b\u0438\u0447\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0446\u0435\u043d \u0434\u0438\u043b\u0435\u0440\u043e\u0432 KIA. \u0414\u043b\u044f \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e\u0431 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0445 \n        \u0446\u0435\u043d\u0430\u0445 \u043d\u0430 \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u044e KIA \u043e\u0431\u0440\u0430\u0449\u0430\u0439\u0442\u0435\u0441\u044c \u043a \u0434\u0438\u043b\u0435\u0440\u0430\u043c KIA. \u041f\u0440\u0438\u043e\u0431\u0440\u0435\u0442\u0435\u043d\u0438\u0435 \u043b\u044e\u0431\u043e\u0439 \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u0438 \u0431\u0440\u0435\u043d\u0434\u0430 KIA \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0432 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438 \n        \u0441 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u043c\u0438 \u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0430 \u043a\u0443\u043f\u043b\u0438-\u043f\u0440\u043e\u0434\u0430\u0436\u0438. \u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u043e\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u043c\u043e\u0436\u0435\u0442 \u043e\u0442\u043b\u0438\u0447\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0440\u0435\u0430\u043b\u0438\u0437\u0443\u0435\u043c\u043e\u0433\u043e. \n    <br\/><br\/>\n        \u041d\u0430 \u0434\u0430\u043d\u043d\u043e\u043c \u0441\u0430\u0439\u0442\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442\u0441\u044f \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0442\u043e\u0432\u0430\u0440\u043d\u044b\u0435 \u0437\u043d\u0430\u043a\u0438, \u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u043d\u044b\u0435 \u0432 \u0440\u0430\u0437\u0434\u0435\u043b\u0435 \u041f\u0440\u0430\u0432\u043e\u0432\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f  <a href=\"https:\/\/www.kia.ru\/info\/trademarks\/\">https:\/\/www.kia.ru\/info\/trademarks\/<\/a>\n    <br\/><br\/>\n                \u0414\u0430\u043d\u043d\u044b\u0435 \u043f\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0440\u0430\u0437\u0433\u043e\u043d\u0430 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u044b \u0432 \u044d\u0442\u0430\u043b\u043e\u043d\u043d\u044b\u0445 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u0441 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u0435\u043c \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0438\u0437\u043c\u0435\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f, \n        \u043f\u0440\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u044d\u0442\u0430\u043b\u043e\u043d\u043d\u043e\u0433\u043e \u0442\u043e\u043f\u043b\u0438\u0432\u0430. \u0420\u0435\u0430\u043b\u044c\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0440\u0430\u0437\u0433\u043e\u043d\u0430 \u043c\u043e\u0436\u0435\u0442 \u043e\u0442\u043b\u0438\u0447\u0430\u0442\u044c\u0441\u044f \u0432 \u0441\u0438\u043b\u0443 \u0432\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 \n        \u043e\u0431\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u0438 \u0441\u0443\u0431\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u0444\u0430\u043a\u0442\u043e\u0440\u043e\u0432: \u0432\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u0438, \u0434\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b \u043e\u043a\u0440\u0443\u0436\u0430\u044e\u0449\u0435\u0433\u043e \u0432\u043e\u0437\u0434\u0443\u0445\u0430, \u0444\u0440\u0430\u043a\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u0441\u043e\u0441\u0442\u0430\u0432\u0430 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u043e\u0433\u043e \u0442\u043e\u043f\u043b\u0438\u0432\u0430, \n        \u0440\u0435\u043b\u044c\u0435\u0444\u0430 \u043c\u0435\u0441\u0442\u043d\u043e\u0441\u0442\u0438, \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a \u0434\u043e\u0440\u043e\u0436\u043d\u043e\u0433\u043e \u043f\u043e\u043a\u0440\u044b\u0442\u0438\u044f, \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0438 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u0438 \u0432\u0435\u0442\u0440\u0430, \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u043d\u044b\u0445 \u043e\u0441\u0430\u0434\u043a\u043e\u0432, \n        \u0434\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0432 \u0448\u0438\u043d\u0430\u0445 \u0430 \u0442\u0430\u043a\u0436\u0435 \u0438\u0445 \u0440\u0430\u0437\u043c\u0435\u0440\u043d\u043e\u0441\u0442\u0438, \u043c\u0430\u0440\u043a\u0438 \u0438 \u043c\u043e\u0434\u0435\u043b\u0438, \u043c\u0430\u0441\u0441\u044b \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u0438\u043c\u043e\u0433\u043e \u0433\u0440\u0443\u0437\u0430 (\u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f \u0438 \u043f\u0430\u0441\u0441\u0430\u0436\u0438\u0440\u043e\u0432) \u0438 \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0432\u043e\u0436\u0434\u0435\u043d\u0438\u044f. \n        \u0418\u0437-\u0437\u0430 \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u0439 \u0432 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u044f\u0445 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439 \u0438 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f\u0445 \u043d\u0430 \u0440\u0430\u0437\u043d\u044b\u0445 \u0440\u044b\u043d\u043a\u0430\u0445, \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u043c\u043e\u0434\u0435\u043b\u0435\u0439 \u043c\u043e\u0433\u0443\u0442 \u043e\u0442\u043b\u0438\u0447\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0445 \u0432\u044b\u0448\u0435. \n        \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Kia \u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0437\u0430 \u0441\u043e\u0431\u043e\u0439 \u043f\u0440\u0430\u0432\u043e \u043d\u0430 \u0432\u043d\u0435\u0441\u0435\u043d\u0438\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0432 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044e \u0438 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u044e \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439 \u0431\u0435\u0437 \u043f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f.\n    <br\/><br\/>\n        Seltos - \u0421\u044d\u043b\u0442\u043e\u0441, Classic - \u041a\u043b\u0430\u0441\u0441\u0438\u043a, Comfort - \u041a\u043e\u043c\u0444\u043e\u0440\u0442, Luxe - \u041b\u044e\u043a\u0441, Style - \u0421\u0442\u0430\u0439\u043b, Prestige - \u041f\u0440\u0435\u0441\u0442\u0438\u0436, Premium - \u041f\u0440\u0435\u043c\u0438\u0443\u043c, Premium+ - \u041f\u0440\u0435\u043c\u0438\u0443\u043c \u041f\u043b\u044e\u0441.\n    <br\/><br\/>\n        MPI (Multi Point Injection) - \u0431\u0435\u043d\u0437\u0438\u043d\u043e\u0432\u044b\u0439 \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044c \u0441 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u043c \u0432\u043f\u0440\u044b\u0441\u043a\u043e\u043c \u0442\u043e\u043f\u043b\u0438\u0432\u0430.\n    <br\/><br\/>\n        T-GDi (Turbo Gasoline Direct Injection) - c\u0438\u0441\u0442\u0435\u043c\u0430 \u043d\u0435\u043f\u043e\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0432\u043f\u0440\u044b\u0441\u043a\u0430 \u0442\u043e\u043f\u043b\u0438\u0432\u0430 \u0432 \u0431\u0435\u043d\u0437\u0438\u043d\u043e\u0432\u044b\u0445 \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044f\u0445.\n    <br\/><br\/>\n        Auto - \u0410\u0432\u0442\u043e,\n\t\tTFT (Thin Film Transistor) - \u0422\u0438\u044d\u0444\u0442\u0438,    \n        Engine (Start-Stop) - \u0414\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044c (\u0421\u0442\u0430\u0440\u0442-\u0421\u0442\u043e\u043f), \n        LCD (Liquid Crystal Display) - \u0416\u0438\u0434\u043a\u043e\u043a\u0440\u0438\u0441\u0442\u0430\u043b\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0434\u0438\u0441\u043f\u043b\u0435\u0439, \n        Supervision - \u0421\u0443\u043f\u0435\u0440\u0432\u0438\u0436\u043d,\n        USB (Universal Serial Bus) - \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u0434\u043b\u044f \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f,  \n        AUX (auxiliary) -  \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441 \u0434\u043b\u044f \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f, \n        SD (Secure Digital) - \u0444\u043e\u0440\u043c\u0430\u0442 \u043a\u0430\u0440\u0442 \u043f\u0430\u043c\u044f\u0442\u0438, \n        Bluetooth (\u0411\u043b\u044e\u0442\u0443\u0441) - \u0441\u043f\u0435\u0446\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0445 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0441\u0435\u0442\u0435\u0439, \n        Apple Carplay - \u042d\u043f\u043f\u043b \u041a\u0430\u0440\u043f\u043b\u0435\u0439, \n        Android Auto - \u0410\u043d\u0434\u0440\u043e\u0439\u0434 \u0410\u0432\u0442\u043e, \n        Smart Key - \u0421\u043c\u0430\u0440\u0442 \u041a\u0435\u0439, \n        AHSS(Advanced-high-strength steel) - \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043d\u0430\u044f \u0432\u044b\u0441\u043e\u043a\u043e\u043f\u0440\u043e\u0447\u043d\u0430\u044f \u0441\u0442\u0430\u043b\u044c,\n        ABS (Anti-lock braking system) -  \u0410\u043d\u0442\u0438\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0442\u043e\u0440\u043c\u043e\u0436\u0435\u043d\u0438\u044f,\n        DRL (Daytime running lights) - \u0414\u043d\u0435\u0432\u043d\u044b\u0435 \u0445\u043e\u0434\u043e\u0432\u044b\u0435 \u043e\u0433\u043d\u0438.\n    <br\/><br\/>\n        \u0422\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u0443\u0442\u043e\u0447\u043d\u044f\u0439\u0442\u0435 \u0443 \u0434\u0438\u043b\u0435\u0440\u043e\u0432 KIA."
+			},
+			"credit":
+			{
+				"name": "Credit Seltos",
+				"text": "\u0415\u0436\u0435\u043c\u0435\u0441\u044f\u0447\u043d\u044b\u0439 \u043f\u043b\u0430\u0442\u0435\u0436 \u2013  5 960 \u0440. \u043d\u0430 \u041a\u0418\u0410 \u0421\u044d\u043b\u0442\u043e\u0441. \u041a\u0440\u0435\u0434\u0438\u0442 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u041f\u0410\u041e \u00ab\u0421\u043e\u0432\u043a\u043e\u043c\u0431\u0430\u043d\u043a\u00bb (\u0434\u0430\u043b\u0435\u0435 \u00ab\u0411\u0430\u043d\u043a\u00bb) \u0413\u0435\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0430\u044f \u043b\u0438\u0446\u0435\u043d\u0437\u0438\u044f \u0426\u0411 \u0420\u0424 \u2116 963 \u043e\u0442 05.12.2014 \u0433., \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u043d \u043f\u043e \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u043c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \u041a\u0418\u0410 \u041b\u0435\u0433\u043a\u043e! (\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f: https:\/\/kia.ru\/buy\/special\/credit-legko\/) \u043f\u043e \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u043e\u043c\u0443 \u0442\u0430\u0440\u0438\u0444\u0443 KIA Finance Indirect \u0438\u0441\u0445\u043e\u0434\u044f \u0438\u0437 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u043e\u0432: \u0446\u0435\u043d\u0430 \u041a\u0418\u0410 \u0421\u044d\u043b\u0442\u043e\u0441 1.6 \u041c\u0422 \u041a\u043b\u0430\u0441\u0441\u0438\u043a 2020 \u0433\u043e\u0434\u0430 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430, \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c\u044e 1 149 900 \u0440\u0443\u0431., \u0441\u0440\u043e\u043a \u043a\u0440\u0435\u0434\u0438\u0442\u0430 36 \u043c\u0435\u0441., \u043f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0437\u043d\u043e\u0441\u0430 632 445 \u0440., \u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u0439 \u043f\u043b\u0430\u0442\u0435\u0436 45% \u043e\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f, \u043f\u0440\u043e\u0446\u0435\u043d\u0442\u043d\u043e\u0439 \u0441\u0442\u0430\u0432\u043a\u0438 13.8% \u0433\u043e\u0434\u043e\u0432\u044b\u0445.\n\n\u0413\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u0430\u044f \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f (\u0447\u0430\u0441\u0442\u044c \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f, \u043f\u043e\u0434\u043b\u0435\u0436\u0430\u0449\u0430\u044f \u043e\u043f\u043b\u0430\u0442\u0435 \u0432 \u043a\u043e\u043d\u0446\u0435 \u0441\u0440\u043e\u043a\u0430 \u043a\u0440\u0435\u0434\u0438\u0442\u0430, \u043d\u043e \u043d\u0435 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0437\u0430 \u0441\u0447\u0435\u0442 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u0438\u043b\u0438 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432, \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u0437\u0430 \u0441\u0447\u0435\u0442 \u043f\u0440\u043e\u0434\u0430\u0436\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u0434\u0438\u043b\u0435\u0440\u0443) \u043e\u0442 45% \u043e\u0442 \u0446\u0435\u043d\u044b \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u043d\u0430 \u043c\u043e\u043c\u0435\u043d\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438. \u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u0435 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f (\u043f\u043e\u043b\u0438\u0441 \u041a\u0410\u0421\u041a\u041e) \u043f\u043e \u0440\u0438\u0441\u043a\u0430\u043c \u00ab\u0443\u0433\u043e\u043d\u00bb, \u00ab\u043f\u043e\u043b\u043d\u0430\u044f \u0433\u0438\u0431\u0435\u043b\u044c\u00bb, \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0439 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f\u043c \u0411\u0430\u043d\u043a\u0430 \u043a \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u044b\u043c \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f\u043c \u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u043c \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f. \u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0438 \u0442\u0430\u0440\u0438\u0444\u044b \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u044b \u0411\u0430\u043d\u043a\u043e\u043c \u0432 \u043e\u0434\u043d\u043e\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0435\u043c \u043f\u043e\u0440\u044f\u0434\u043a\u0435. \n\n\u041f\u043e\u043b\u0438\u0441 \u041a\u0410\u0421\u041a\u041e \u043e\u0444\u043e\u0440\u043c\u043b\u044f\u0435\u0442\u0441\u044f \u0432 \u0421\u0410\u041e \u00ab\u0412\u0421\u041a\u00bb (\u041b\u0438\u0446\u0435\u043d\u0437\u0438\u0438 \u0426\u0411 \u0420\u0424 - \u0421\u041b \u2116 0621, \u0421\u0418 \u2116 0621 \u043e\u0442 11.09.2015 www.vsk.ru) \u043d\u0430 3 \u0433\u043e\u0434\u0430 \u0438 \u043f\u0440\u0435\u0434\u0443\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442 \u0432\u044b\u043f\u043b\u0430\u0442\u0443 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u043e\u0433\u043e \u0432\u043e\u0437\u043c\u0435\u0449\u0435\u043d\u0438\u044f \u0437\u0430 \u0432\u044b\u0447\u0435\u0442\u043e\u043c \u0431\u0435\u0437\u0443\u0441\u043b\u043e\u0432\u043d\u043e\u0439 \u0444\u0440\u0430\u043d\u0448\u0438\u0437\u044b \u0432 \u0440\u0430\u0437\u043c\u0435\u0440\u0435 18 000 \u0440. \u043f\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u044b\u043c \u0441\u043b\u0443\u0447\u0430\u044f\u043c, \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u043c \u0432 \u043f\u043e\u043b\u0438\u0441\u0435 \u0438 \u0441 \u0443\u0447\u0435\u0442\u043e\u043c \u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u041f\u0440\u0430\u0432\u0438\u043b \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f, \u0438 \u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u043c \u0441 \u0443\u0442\u0440\u0430\u0442\u043e\u0439, \u0433\u0438\u0431\u0435\u043b\u044c\u044e, \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435\u043c \u043f\u0440\u0438\u043e\u0431\u0440\u0435\u0442\u0435\u043d\u043d\u043e\u0433\u043e \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f. \u0423\u0441\u043b\u043e\u0432\u0438\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u044b \u0432 \u043e\u0434\u043d\u043e\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0435\u043c \u043f\u043e\u0440\u044f\u0434\u043a\u0435 \u0421\u0410\u041e \u00ab\u0412\u0421\u041a\u00bb.\n\n\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043e, \u043d\u043e\u0441\u0438\u0442 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440, \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0439 \u043e\u0444\u0435\u0440\u0442\u043e\u0439 (\u0441\u0442. 437 \u0413\u041a \u0420\u0424), \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u0441  01.10.2020 \u043f\u043e 31.10.2020. \u0422\u043e\u0432\u0430\u0440 \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d. \u0414\u043b\u044f \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e\u0431\u0440\u0430\u0449\u0430\u0439\u0442\u0435\u0441\u044c \u043a \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u043c \u0434\u0438\u043b\u0435\u0440\u0430\u043c KIA."
+			},
+			"max_benefit":
+			{
+				"name": "Max Benefit Seltos",
+				"text": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u0432\u044b\u0433\u043e\u0434\u044b \u0432 \u0440\u0430\u0437\u043c\u0435\u0440\u0435 45 000 \u0440\u0443\u0431\u043b\u0435\u0439 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043f\u0440\u0438 \u043f\u043e\u043a\u0443\u043f\u043a\u0435 \u043d\u043e\u0432\u043e\u0433\u043e KIA Seltos 2020 \u0433. \u0432\u044b\u043f\u0443\u0441\u043a\u0430. \u0412\u044b\u0433\u043e\u0434\u0430 \u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0438\u0437: \n1) \u0432\u044b\u0433\u043e\u0434\u044b 45 000 \u0440\u0443\u0431\u043b\u0435\u0439 \u043f\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0435 \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f \"KIA \u041b\u0435\u0433\u043a\u043e Plus\" [1] (\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\n\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043e, \u043d\u043e\u0441\u0438\u0442 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440, \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0439 \u043e\u0444\u0435\u0440\u0442\u043e\u0439 (\u0441\u0442. 437 \u0413\u041a \u0420\u0424), \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u0441 01.10.2020 \u043f\u043e 31.10.2020. \u0422\u043e\u0432\u0430\u0440 \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d. \u0414\u043b\u044f \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e\u0431\u0440\u0430\u0449\u0430\u0439\u0442\u0435\u0441\u044c \u043a \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u043c \u0434\u0438\u043b\u0435\u0440\u0430\u043c KIA.\n\n[1]\u0411\u0430\u043d\u043a\u0438-\u043f\u0430\u0440\u0442\u043d\u0435\u0440\u044b KIA Finance: \u00ab\u0421\u0435\u0442\u0435\u043b\u0435\u043c \u0411\u0430\u043d\u043a\u00bb \u041e\u041e\u041e (\u043b\u0438\u0446. \u0426\u0411 \u0420\u0424 \u21162168 \u043e\u0442 27.06.2013\u0433.), \u00ab\u0420\u0443\u0441\u0444\u0438\u043d\u0430\u043d\u0441 \u0411\u0430\u043d\u043a\u00bb \u041e\u041e\u041e (\u043b\u0438\u0446. \u0426\u0411 \u0420\u0424 \u2116 1792 \u043e\u0442 13.02.2013\u0433.), \u041f\u0410\u041e \u00ab\u0421\u043e\u0432\u043a\u043e\u043c\u0431\u0430\u043d\u043a (\u043b\u0438\u0446. \u0426\u0411\n \u0420\u0424 \u2116 963 \u043e\u0442 05.12.2014 \u0433.). \u041e\u0431\u0449\u0438\u0435 \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f: \u0432\u0430\u043b\u044e\u0442\u0430 \u043a\u0440\u0435\u0434\u0438\u0442\u0430 \u0440\u0443\u0431\u043b\u0438 \u0420\u0424, \u043f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441 \u043e\u0442 0% \u0434\u043e 55% \u043e\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f; \u0441\u0440\u043e\u043a \u043a\u0440\u0435\u0434\u0438\u0442\u0430: \u043e\u0442 24 \u0434\u043e 36 \u043c\u0435\u0441.; \u041e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u043a\u0440\u0435\u0434\u0438\u0442\u0430 \u2013 \u0437\u0430\u043b\u043e\u0433 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f. \u041f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432 \u0441\u0443\u043c\u043c\u0443 \u043a\u0440\u0435\u0434\u0438\u0442\u0430 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u044b\u0445 \u043f\u0440\u0435\u043c\u0438\u0439 \u043f\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044e \u0436\u0438\u0437\u043d\u0438 \u0438 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0437\u0430\u0435\u043c\u0449\u0438\u043a\u0430.\n\u0413\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u0430\u044f \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f (\u0447\u0430\u0441\u0442\u044c \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f, \u043f\u043e\u0434\u043b\u0435\u0436\u0430\u0449\u0430\u044f \u043e\u043f\u043b\u0430\u0442\u0435 \u0432 \u043a\u043e\u043d\u0446\u0435 \u0441\u0440\u043e\u043a\u0430 \u043a\u0440\u0435\u0434\u0438\u0442\u0430, \u043d\u043e \u043d\u0435 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0437\u0430 \u0441\u0447\u0435\u0442 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u0438\u043b\u0438 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432, \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u0437\u0430 \u0441\u0447\u0435\u0442 \u043f\u0440\u043e\u0434\u0430\u0436\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u0434\u0438\u043b\u0435\u0440\u0443) \u043e\u0442 45% \u043e\u0442 \u0446\u0435\u043d\u044b \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u043d\u0430 \u043c\u043e\u043c\u0435\u043d\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438. \u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0438 \u0442\u0430\u0440\u0438\u0444\u044b \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u044b \u0411\u0430\u043d\u043a\u043e\u043c \u0432 \u043e\u0434\u043d\u043e\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0435\u043c \u043f\u043e\u0440\u044f\u0434\u043a\u0435. \u0412 \u043a\u0440\u0435\u0434\u0438\u0442 \u0442\u0430\u043a\u0436\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d \u043f\u043e\u043b\u0438\u0441 \u041a\u0410\u0421\u041a\u041e, \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0449\u0435\u0439 \u0432 \u0441\u0435\u0431\u044f \u0440\u0438\u0441\u043a\u0438: \u00ab\u0423\u0449\u0435\u0440\u0431\u00bb (\u0430 \u0438\u043c\u0435\u043d\u043d\u043e: \u0414\u043e\u0440\u043e\u0436\u043d\u043e\u0435 \u043f\u0440\u043e\u0438\u0441\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0432\u0438\u043d\u0435 \u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044f, \u0414\u043e\u043f\u0443\u0449\u0435\u043d\u043d\u043e\u0433\u043e \u043b\u0438\u0446\u0430 \u0438\u043b\u0438 \u043d\u0435\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044b\u0445 \u0442\u0440\u0435\u0442\u044c\u0438\u0445 \u043b\u0438\u0446, \u0414\u043e\u0440\u043e\u0436\u043d\u043e\u0435 \u043f\u0440\u043e\u0438\u0441\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0432\u0438\u043d\u0435 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044b\u0445 \u0442\u0440\u0435\u0442\u044c\u0438\u0445 \u043b\u0438\u0446, \u041f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u0435 \u0438 \u0442\u0435\u0445\u043d\u043e\u0433\u0435\u043d\u043d\u044b\u0435 \u0444\u0430\u043a\u0442\u043e\u0440\u044b, \u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0442\u0440\u0435\u0442\u044c\u0438\u0445 \u043b\u0438\u0446), \u00ab\u041f\u043e\u043b\u043d\u0430\u044f \u0433\u0438\u0431\u0435\u043b\u044c\u00bb, \u00ab\u0425\u0438\u0449\u0435\u043d\u0438\u0435\u00bb, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043f\u0440\u043e\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e\u0433\u043e \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0443 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0434\u0438\u043b\u0435\u0440\u0430 \u041a\u0418\u0410 1 \u0440\u0430\u0437 \u0432 \u0433\u043e\u0434 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u0441\u0440\u043e\u043a\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u043a\u0440\u0435\u0434\u0438\u0442\u0430. \u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043d\u043e\u0441\u0438\u0442 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440, \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0439 \u043e\u0444\u0435\u0440\u0442\u043e\u0439 (\u0441\u0442. 437 \u0413\u041a \u0420\u0424), \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u0441 01.10.2020 \u043f\u043e 31.10.2020. \u041f\u043e\u0434\u0440\u043e\u0431\u043d\u044b\u0435 \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f, \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u043c \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0437\u0430\u0435\u043c\u0449\u0438\u043a\u0430\u043c \u0443\u0442\u043e\u0447\u043d\u044f\u0439\u0442\u0435 \u0443 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0438\u043b\u0435\u0440\u043e\u0432 KIA."
+			},
+			"min_price":
+			{
+				"name": "Min Price Seltos",
+				"text": "\u0426\u0435\u043d\u0430 1 104 900 \u0440\u0443\u0431. \u0443\u043a\u0430\u0437\u0430\u043d\u0430 \u043d\u0430 \u043d\u043e\u0432\u044b\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c KIA Seltos 2020 \u0433. \u0432\u044b\u043f\u0443\u0441\u043a\u0430 \u0432 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u0438 1.6 MT Classic c \u0443\u0447\u0435\u0442\u043e\u043c \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u0432\u044b\u0433\u043e\u0434\u044b 45 000 \u0440\u0443\u0431. \u0412\u044b\u0433\u043e\u0434\u0430 \u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0438\u0437: \n1) \u0432\u044b\u0433\u043e\u0434\u044b 45 000 \u0440\u0443\u0431\u043b\u0435\u0439 \u043f\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0435 \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f \"KIA \u041b\u0435\u0433\u043a\u043e Plus\" [1] (\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\n\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043e, \u043d\u043e\u0441\u0438\u0442 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440, \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0439 \u043e\u0444\u0435\u0440\u0442\u043e\u0439 (\u0441\u0442. 437 \u0413\u041a \u0420\u0424), \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u0441 01.10.2020 \u043f\u043e 31.10.2020. \u0422\u043e\u0432\u0430\u0440 \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d. \u0414\u043b\u044f \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u044f \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e\u0431\u0440\u0430\u0449\u0430\u0439\u0442\u0435\u0441\u044c \u043a \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u043c \u0434\u0438\u043b\u0435\u0440\u0430\u043c KIA.\n\n[1]\u0411\u0430\u043d\u043a\u0438-\u043f\u0430\u0440\u0442\u043d\u0435\u0440\u044b KIA Finance: \u00ab\u0421\u0435\u0442\u0435\u043b\u0435\u043c \u0411\u0430\u043d\u043a\u00bb \u041e\u041e\u041e (\u043b\u0438\u0446. \u0426\u0411 \u0420\u0424 \u21162168 \u043e\u0442 27.06.2013\u0433.), \u00ab\u0420\u0443\u0441\u0444\u0438\u043d\u0430\u043d\u0441 \u0411\u0430\u043d\u043a\u00bb \u041e\u041e\u041e (\u043b\u0438\u0446. \u0426\u0411 \u0420\u0424 \u2116 1792 \u043e\u0442 13.02.2013\u0433.), \u041f\u0410\u041e \u00ab\u0421\u043e\u0432\u043a\u043e\u043c\u0431\u0430\u043d\u043a (\u043b\u0438\u0446. \u0426\u0411\n \u0420\u0424 \u2116 963 \u043e\u0442 05.12.2014 \u0433.). \u041e\u0431\u0449\u0438\u0435 \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f: \u0432\u0430\u043b\u044e\u0442\u0430 \u043a\u0440\u0435\u0434\u0438\u0442\u0430 \u0440\u0443\u0431\u043b\u0438 \u0420\u0424, \u043f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441 \u043e\u0442 0% \u0434\u043e 55% \u043e\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f; \u0441\u0440\u043e\u043a \u043a\u0440\u0435\u0434\u0438\u0442\u0430: \u043e\u0442 24 \u0434\u043e 36 \u043c\u0435\u0441.; \u041e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u043a\u0440\u0435\u0434\u0438\u0442\u0430 \u2013 \u0437\u0430\u043b\u043e\u0433 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f. \u041f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u0432 \u0441\u0443\u043c\u043c\u0443 \u043a\u0440\u0435\u0434\u0438\u0442\u0430 \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u044b\u0445 \u043f\u0440\u0435\u043c\u0438\u0439 \u043f\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044e \u0436\u0438\u0437\u043d\u0438 \u0438 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0437\u0430\u0435\u043c\u0449\u0438\u043a\u0430.\n\u0413\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u0430\u044f \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f (\u0447\u0430\u0441\u0442\u044c \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f, \u043f\u043e\u0434\u043b\u0435\u0436\u0430\u0449\u0430\u044f \u043e\u043f\u043b\u0430\u0442\u0435 \u0432 \u043a\u043e\u043d\u0446\u0435 \u0441\u0440\u043e\u043a\u0430 \u043a\u0440\u0435\u0434\u0438\u0442\u0430, \u043d\u043e \u043d\u0435 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0437\u0430 \u0441\u0447\u0435\u0442 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u0438\u043b\u0438 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432, \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u0437\u0430 \u0441\u0447\u0435\u0442 \u043f\u0440\u043e\u0434\u0430\u0436\u0438 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u0434\u0438\u043b\u0435\u0440\u0443) \u043e\u0442 45% \u043e\u0442 \u0446\u0435\u043d\u044b \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u043d\u0430 \u043c\u043e\u043c\u0435\u043d\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438. \u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0438 \u0442\u0430\u0440\u0438\u0444\u044b \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u044b \u0411\u0430\u043d\u043a\u043e\u043c \u0432 \u043e\u0434\u043d\u043e\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0435\u043c \u043f\u043e\u0440\u044f\u0434\u043a\u0435. \u0412 \u043a\u0440\u0435\u0434\u0438\u0442 \u0442\u0430\u043a\u0436\u0435 \u0432\u043a\u043b\u044e\u0447\u0435\u043d \u043f\u043e\u043b\u0438\u0441 \u041a\u0410\u0421\u041a\u041e, \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0449\u0435\u0439 \u0432 \u0441\u0435\u0431\u044f \u0440\u0438\u0441\u043a\u0438: \u00ab\u0423\u0449\u0435\u0440\u0431\u00bb (\u0430 \u0438\u043c\u0435\u043d\u043d\u043e: \u0414\u043e\u0440\u043e\u0436\u043d\u043e\u0435 \u043f\u0440\u043e\u0438\u0441\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0432\u0438\u043d\u0435 \u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u0442\u0435\u043b\u044f, \u0414\u043e\u043f\u0443\u0449\u0435\u043d\u043d\u043e\u0433\u043e \u043b\u0438\u0446\u0430 \u0438\u043b\u0438 \u043d\u0435\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044b\u0445 \u0442\u0440\u0435\u0442\u044c\u0438\u0445 \u043b\u0438\u0446, \u0414\u043e\u0440\u043e\u0436\u043d\u043e\u0435 \u043f\u0440\u043e\u0438\u0441\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0432\u0438\u043d\u0435 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044b\u0445 \u0442\u0440\u0435\u0442\u044c\u0438\u0445 \u043b\u0438\u0446, \u041f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u0435 \u0438 \u0442\u0435\u0445\u043d\u043e\u0433\u0435\u043d\u043d\u044b\u0435 \u0444\u0430\u043a\u0442\u043e\u0440\u044b, \u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0442\u0440\u0435\u0442\u044c\u0438\u0445 \u043b\u0438\u0446), \u00ab\u041f\u043e\u043b\u043d\u0430\u044f \u0433\u0438\u0431\u0435\u043b\u044c\u00bb, \u00ab\u0425\u0438\u0449\u0435\u043d\u0438\u0435\u00bb, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043f\u0440\u043e\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e\u0433\u043e \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0443 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0434\u0438\u043b\u0435\u0440\u0430 \u041a\u0418\u0410 1 \u0440\u0430\u0437 \u0432 \u0433\u043e\u0434 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u0441\u0440\u043e\u043a\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u043a\u0440\u0435\u0434\u0438\u0442\u0430. \u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043d\u043e\u0441\u0438\u0442 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440, \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0439 \u043e\u0444\u0435\u0440\u0442\u043e\u0439 (\u0441\u0442. 437 \u0413\u041a \u0420\u0424), \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u0441  01.10.2020 \u043f\u043e 31.10.2020. \u041f\u043e\u0434\u0440\u043e\u0431\u043d\u044b\u0435 \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f, \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u043c \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0437\u0430\u0435\u043c\u0449\u0438\u043a\u0430\u043c \u0443\u0442\u043e\u0447\u043d\u044f\u0439\u0442\u0435 \u0443 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0438\u043b\u0435\u0440\u043e\u0432 KIA."
+			}
+		},
+		"buystrips": [
+		{
+			"link": "\/models\/seltos\/calc\/",
+			"is_file": false,
+			"icon": "\/site-data\/menu\/strip_icons\/credit.svg",
+			"link_title": "\u0412 \u043a\u0440\u0435\u0434\u0438\u0442"
+		},
+		{
+			"link": "\/models\/seltos\/special\/",
+			"is_file": false,
+			"icon": "\/site-data\/menu\/strip_icons\/specials.svg",
+			"link_title": "\u0421\u043f\u0435\u0446\u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f"
+		},
+		{
+			"link": "\/models\/seltos\/testdrive\/",
+			"is_file": false,
+			"icon": "\/site-data\/menu\/strip_icons\/test-drive.svg",
+			"link_title": "\u0422\u0435\u0441\u0442-\u0434\u0440\u0430\u0439\u0432"
+		},
+		{
+			"link": "\/master-data\/brochures\/Kia_Seltos.pdf",
+			"is_file": true,
+			"icon": "\/site-data\/menu\/strip_icons\/files.svg",
+			"link_title": "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u0431\u0440\u043e\u0448\u044e\u0440\u0443"
+		}],
+		"model_menu": [
+		{
+			"title": "\u041e\u0431\u0437\u043e\u0440",
+			"link": "\/models\/seltos\/desc\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 400
+		},
+		{
+			"title": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u0438 \u0438 \u0446\u0435\u043d\u044b",
+			"link": "\/models\/seltos\/options\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 450
+		},
+		{
+			"title": "\u0425\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438",
+			"link": "\/models\/seltos\/properties\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 500
+		},
+		{
+			"title": "\u0420\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u0442\u044c \u0442\u0440\u0435\u0439\u0434-\u0438\u043d",
+			"link": "\/buy\/trade-in\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 1,
+			"show_in_calculator": 1,
+			"sort": 1450
+		},
+		{
+			"title": "\u0420\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u0442\u044c \u043a\u0440\u0435\u0434\u0438\u0442",
+			"link": "\/models\/seltos\/calc\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 1,
+			"show_in_calculator": 0,
+			"sort": 1500
+		},
+		{
+			"title": "\u0421\u043f\u0435\u0446\u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f",
+			"link": "\/models\/seltos\/special\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1550
+		},
+		{
+			"title": "\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0442\u043e\u0440",
+			"link": "\/models\/seltos\/configurator\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1600
+		},
+		{
+			"title": "\u0410\u0432\u0442\u043e \u0432 \u043d\u0430\u043b\u0438\u0447\u0438\u0438",
+			"link": "\/models\/seltos\/cars\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 1,
+			"show_in_calculator": 1,
+			"sort": 1600
+		},
+		{
+			"title": "\u0417\u0430\u044f\u0432\u043a\u0430 \u0434\u0438\u043b\u0435\u0440\u0443",
+			"link": "\/models\/seltos\/callback\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 1,
+			"sort": 1650
+		},
+		{
+			"title": "\u0422\u0435\u0441\u0442-\u0434\u0440\u0430\u0439\u0432",
+			"link": "\/models\/seltos\/testdrive\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1650
+		},
+		{
+			"title": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430",
+			"link": "https:\/\/cdn.kia.ru\/master-data\/brochures\/Kia_Seltos.pdf",
+			"code": "broshure",
+			"in_new_window": 1,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1700
+		},
+		{
+			"title": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+			"link": "https:\/\/www.kia.ru\/static\/master-data\/accessoaries\/KIA_brochure_Brand.pdf",
+			"code": null,
+			"in_new_window": 1,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1800
+		},
+		{
+			"title": "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438",
+			"link": "\/models\/seltos\/technologies\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1900
+		}],
+		"seo":
+		{
+			"title": "KIA Seltos - \u0421\u0442\u0430\u0440\u0442 \u043f\u0440\u043e\u0434\u0430\u0436 \u0432 \u0420\u043e\u0441\u0441\u0438\u0438",
+			"description": "KIA Seltos \u0441\u0442\u0430\u043b \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u043d\u043e\u0432\u044b\u043c \u0448\u0430\u0433\u043e\u043c \u0432 \u0441\u0435\u0433\u043c\u0435\u043d\u0442\u0435 B-SUV, \u043f\u0440\u0438\u0432\u043d\u043e\u0441\u044f \u0432 \u043d\u0435\u0433\u043e \u044f\u0440\u043a\u0438\u0439 \u0438 \u0441\u043c\u0435\u043b\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d, \u0441\u0442\u0438\u0440\u0430\u044e\u0449\u0438\u0439 \u0433\u0440\u0430\u043d\u0438\u0446\u044b \u043c\u0435\u0436\u0434\u0443 \u043a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u043c\u0438 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u0435\u0440\u0430\u043c\u0438 \u0438 \u043c\u043e\u0434\u0435\u043b\u044f\u043c\u0438 \u0431\u043e\u043b\u0435\u0435 \u00ab\u0441\u0442\u0430\u0440\u0448\u0438\u0445\u00bb \u0441\u0435\u0433\u043c\u0435\u043d\u0442\u043e\u0432, \u043f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u044f \u043a\u043e\u043d\u043a\u0443\u0440\u0435\u043d\u0442\u043e\u0432 \u043f\u043e \u043f\u0440\u043e\u0441\u0442\u043e\u0440\u0443 \u0441\u0430\u043b\u043e\u043d\u0430, \u043d\u043e\u0432\u0435\u0439\u0448\u0438\u043c \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f\u043c \u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u0430\u043c \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438."
+		}
+	}
+}
