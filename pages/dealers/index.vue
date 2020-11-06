@@ -78,12 +78,12 @@
       </div>
     </div>
   </div>
-  <no-ssr>
+  
     <!-- Yandex map -->
 	  <script src="js/points.js"></script>
 	  <script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=f06d738e-1a2e-4ca2-91cc-d23a3bbb9e09"></script>
 	  <script src="js/map.panel.js"></script>
-  </no-ssr>
+  
 </div>
 
 </template>
@@ -131,71 +131,10 @@ export default {
   mounted(){
     mainjs();
     console.log(this.page)
-    return;
-		/*Списком*/
-		var dealersList = $("#dealers-list");
-    console.log(dealersList);
-		var dealersListTemplate = 
-			'<div class="item">'+
-				'<div class="item-cell">'+
-					'<label class="align-center">'+
-						'<input type="radio" name="dealers" class="form-control hide">'+
-						'<span class="radio-style-1"></span>'+
-						'<span class="m-l-10">{{title}}</span>'+
-					'</label>'+
-					'<div class="hide dealers-rating">'+
-						'<img src="{{ratingImg}}">'+
-						'<span>{{ratingText}}</span>'+
-					'</div>'+
-				'</div>'+
-				'<div class="item-cell">'+
-					'<div>{{address}}</div>'+
-					'<div>{{worktime}}</div>'+
-				'</div>'+
-				'<div class="item-cell">'+
-					'<div class="align-center hide">'+
-						'<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="mr-2"><circle cx="10" cy="10" r="8.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M12.185 6.779c-1.259-1.757 2.215-2.474 2.234-3.374l1.425.751 1.237 1.108.588 2.057.532 2.318-.532 2.111-.805 1.611c-1.082.037-1.191-.623-1.61-1.208-.525-.732.473-2.596-3.07-5.374z" fill="currentColor"></path><path d="M3.97 6.03L6.73 2.877c-.015.33-.039.685-.075 1.018-.036.335-.081.63-.136.852a1.662 1.662 0 01-.08.255 7.665 7.665 0 01-.936.825c-.395.282-.737.423-1.002.423a.805.805 0 01-.53-.22zM8.135 13.001h0v0V13v0-.117l-.036-.112-.577-1.8-.053-.165-.12-.126c-.372-.386-.894-.62-1.215-.764l-.097-.043c-.099-.045-.17-.08-.222-.108a20.153 20.153 0 00-.02-.244c-.006-.067-.012-.133-.016-.194a7.376 7.376 0 01-.026-.829c.011-.285.048-.51.106-.663a.758.758 0 01.018-.044L9 8.255c.008.052.017.106.028.162.08.415.258 1.043.7 1.503.356.37.855.71 1.226.941.106.067.207.127.296.18v1.055a77.344 77.344 0 01-1.572 1.563 26.905 26.905 0 01-1.412 1.276 8.189 8.189 0 01-.063-.507 15.912 15.912 0 01-.068-1.399v-.028zm-.348 2.278a.06.06 0 01.002-.001h-.002z" fill="currentColor" stroke="currentColor" stroke-width="1.5"></path></svg>'+
-						'<a href="{{site}}" class="m-l-10">{{site}}</a>'+
-					'</div>'+
-					'<div class="align-center m-t-5">'+
-						'<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="mr-2"><path d="M2.494 3.506l1.299-1.299a1 1 0 011.414 0l2.66 2.66A1 1 0 017.941 6.2l-.681.851c-.467.584-.583 1.388-.203 2.032 1.318 2.23 3.191 3.5 4.511 4.086.57.254 1.218.103 1.706-.287l1.027-.822a1 1 0 011.332.074l2.603 2.603a1 1 0 01-.056 1.467l-1.691 1.45c-.63.54-1.46.82-2.286.734-1.801-.19-4.602-.786-7.703-3.887-3.716-3.716-4.577-6.634-4.855-8.603-.125-.882.219-1.761.849-2.39z" stroke="currentColor" stroke-width="1.5"></path></svg>'+
-						'<a href="{{phone}}" class="m-l-10">{{phone}}</a>'+
-					'</div>'+
-				'</div>'+
-				'<div class="item-cell dealers-services" toggle-class-wrapper>'+
-					'{{services}}'+
-					'<a href="javascript:;" toggle-class="opened">'+
-						'<span class="text-opened">Показать всё</span>'+
-						'<span class="text-close">Скрыть</span>'+
-					'</a>'+
-				'</div>'+
-			'</div>';
-
-		for (var i = 0; i < points.length; i++) {
-			
-			var services = "";
-			var point = points[i];
-			var template;
-			for (var o = 0; o < point.services.length; o++) {
-				services += '<div>'+point.services[o]+'</div>';
-			}
-			template = dealersListTemplate
-									.replace(/{{title}}/gim, point.info.title)
-									.replace(/{{ratingImg}}/gim, point.info.rating.img)
-									.replace(/{{ratingText}}/gim, point.info.rating.text)
-									.replace(/{{address}}/gim, point.info.address)
-									.replace(/{{worktime}}/gim, point.info.worktime)
-									.replace(/{{site}}/gim, point.info.site)
-									.replace(/{{phone}}/gim, point.info.phone)
-									.replace(/{{services}}/gim, services)
-
-			dealersList.append(template);
-		}
-
-
+    var dealerships = this.page.dealerships;
 		/*Карта*/
 		ymaps.ready(['Panel']).then(function () {
-
+			console.log(dealerships, 'Tut Page');
 			window.myMap = new ymaps.Map('map', {
 					center: [41.3017329, 69.2101797],
 					controls: [],
@@ -220,13 +159,6 @@ export default {
 				});
 
 			//myMap.controls.add('zoomControl');
-			/**
-			 * Кластеризатор расширяет коллекцию, что позволяет использовать один обработчик
-			 * для обработки событий всех геообъектов.
-			 * Будем менять цвет иконок и кластеров при наведении.
-			 */
-
-
 
 
    		var panel = new ymaps.Panel();
@@ -254,15 +186,17 @@ export default {
 
 				var iconDef = ymaps.templateLayoutFactory.createClass(iconDefHtml);
 				var iconDefActive = ymaps.templateLayoutFactory.createClass(iconDefHtmlActive);
-				for(var i = 0, len = points.length; i < len; i++) {
+				
 
+				for(var i = 0; i < dealerships.length; i++) {
+					console.log(dealerships[i]);
 					var html = 
 						'<div class="info-content">'+
-							'<p><b>'+points[i].info.title+'</b></p>'+
-							'<p>'+points[i].info.address+'</p>'+
-							'<p>'+points[i].info.worktime+'</p>'+
-							'<p><a href="'+points[i].info.site+'">'+points[i].info.site+'</a></p>'+
-							'<p><a href="'+points[i].info.phone+'">'+points[i].info.phone+'</a></p>'+
+							'<p><b>'+dealerships[i].name+'</b></p>'+
+							'<p>'+dealerships[i].address+'</p>'+
+							'<p>'+dealerships[i].work_time+'</p>'+
+							'<p><a href="'+dealerships[i].site+'">'+dealerships[i].site+'</a></p>'+
+							'<p><a href="'+dealerships[i].phone+'">'+dealerships[i].phone+'</a></p>'+
 							'<div class="btn-content">'+
 								'<div class="btn-def">'+
 									'<a href="javascript:;">Выбрать</a>'+
@@ -270,10 +204,10 @@ export default {
 							'</div>'+
 						'</div>';
 
-					geoObjects[i] = new ymaps.Placemark(points[i].coordinates, {
+					geoObjects[i] = new ymaps.Placemark([dealerships[i].lng, dealerships[i].lat], {
 						//balloonContent: html,
 						iconHtml: html,
-						iconCaption: points[i].info.title,
+						iconCaption: dealerships[i].name,
 						
 						//clusterCaption: 'метка <strong>' + i + '</strong>',
 					},{
