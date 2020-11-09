@@ -2857,7 +2857,6 @@ ymaps .map-cluster{
 	display: none;
 }
 .customControl{
-	display: none;
 	background-color: #fff;
 	padding: 30px;
 	border-radius: 3px;
@@ -2866,12 +2865,6 @@ ymaps .map-cluster{
 	margin-top: 20px;
 	margin-left: 10px;
 	border: 2px solid black;
-	a{
-		display: none;
-	}
-	.btn-content{
-		display: none;
-	}
 	p{
 		font-size: 12px;
 		margin-bottom: 3px;
