@@ -25,7 +25,10 @@
       </div>
       <div class="tab-content">
         <div class="tab-pane fade in active" id="map-styleitem-1">
-          <div class="map-content m-t-30">
+          <div class="map-content m-t-30 relative">
+            <div id="ymap_ctrl_display" style="display: none; width: 100%; height: 100%; position: absolute; background-color: rgba(0, 0, 0, 0.5); z-index: 100; pointer-events: none;">
+              <div style="position: relative; top: 50%; left: 0; right: 0; color: white; text-align: center; font-size: 1.8em; pointer-events: none;">Чтобы изменить масштаб, прокручивайте карту, удерживая клавишу Ctrl.</div>
+            </div>
             <div id="map"></div>
           </div>
         </div>
@@ -79,11 +82,6 @@
         </div>
       </div>
     </div>
-    <!-- Yandex map -->
-
-    <!-- <script async src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=f06d738e-1a2e-4ca2-91cc-d23a3bbb9e09"></script>
-    <script async src="js/map.panel.js"></script> -->
-
   </div>
 </template>
 
@@ -106,196 +104,7 @@ export default {
           content: this.page.seo.description
         }
       ],
-      script: [
-        {
-          defer: true,
-          hid: 'stripe',
-          src: 'https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=f06d738e-1a2e-4ca2-91cc-d23a3bbb9e09',
-          callback: () => {
-            console.log('api-maps')
-            var dealerships = this.page.dealerships;
-            console.log(dealerships);
 
-
-            // Пример реализации боковой панели на основе наследования от collection.Item.
-            // Боковая панель отображает информацию, которую мы ей передали.
-            ymaps.modules.define('Panel', [
-                'util.augment',
-                'collection.Item'
-            ], function (provide, augment, item) {
-                // Создаем собственный класс.
-                var Panel = function (options) {
-                    Panel.superclass.constructor.call(this, options);
-                };
-
-                // И наследуем его от collection.Item.
-                augment(Panel, item, {
-                    onAddToMap: function (map) {
-                        Panel.superclass.onAddToMap.call(this, map);
-                        this.getParent().getChildElement(this).then(this._onGetChildElement, this);
-                        // Добавим отступы на карту.
-                        // Отступы могут учитываться при установке текущей видимой области карты,
-                        // чтобы добиться наилучшего отображения данных на карте.
-                        map.margin.addArea({
-                            top: 0,
-                            left: 0,
-                            width: '250px',
-                            height: '100%'
-                        })
-                    },
-
-                    onRemoveFromMap: function (oldMap) {
-                        if (this._$control) {
-                            this._$control.remove();
-                        }
-                        Panel.superclass.onRemoveFromMap.call(this, oldMap);
-                    },
-
-                    _onGetChildElement: function (parentDomContainer) {
-                        // Создаем HTML-элемент с текстом.
-                        // По-умолчанию HTML-элемент скрыт.
-                        this._$control = $('<div class="customControl"><div class="content"></div><div class="closeButton"></div></div>').appendTo(parentDomContainer);
-                        this._$content = $('.content');
-                        // При клике по крестику будем скрывать панель.
-                        $('.closeButton').on('click', this._onClose);
-                    },
-                    _onClose: function () {
-                        $('.customControl').css('display', 'none');
-                    },
-                    // Метод задания контента панели.
-                    setContent: function (text) {
-                        // При задании контента будем показывать панель.
-                        this._$control.css('display', 'flex');
-                        this._$content.html(text);
-                    }
-                });
-
-                provide(Panel);
-            });
-
-
-
-            /*Карта*/
-            ymaps.ready(['Panel']).then(function () {
-              window.myMap = new ymaps.Map('map', {
-                center: [41.3017329, 69.2101797],
-                controls: [],
-                zoom: 14
-              }, {
-                searchControlProvider: 'yandex#search'
-              })
-              var MyIconContentLayout = ymaps.templateLayoutFactory.createClass('<div class="map-cluster">$[properties.geoObjects.length]</div>');
-              window.clusterer = new ymaps.Clusterer({
-                  clusterHideIconOnBalloonOpen: false,
-                  geoObjectHideIconOnBalloonOpen: false,
-                  zoom: 13,
-                  clusterIcons: [
-                    {
-                      html: "",
-                      //href: 'https://www.kia.ru/images/map/map_pin.svg',
-                      size: [40, 40],
-                      offset: [-20, -20]
-                    }
-                  ],
-                  clusterIconContentLayout: MyIconContentLayout,
-                });
-
-              //myMap.controls.add('zoomControl');
-              var panel = new ymaps.Panel();
-              myMap.controls.add(panel, {
-                  float: 'left'
-              });
-
-          
-              window.geoObjects = [];
-
-              var iconDefHtml = 
-                '<div class="de-marker">'+
-                  '<figure><img src="https://www.kia.ru/images/map/map_pin.svg"></figure>'+
-                  '<div class="de-marker-desc"><span>$[properties.iconCaption]</span></div>'+
-                '</div>';
-              var iconDefHtmlActive = 
-                '<div class="de-marker">'+
-                  '<figure><img src="https://www.kia.ru/images/map/map_pin_active.svg"></figure>'+
-                  '<div class="de-marker-desc"><span>$[properties.iconCaption]</span></div>'+
-                '</div>';
-
-              var iconDef = ymaps.templateLayoutFactory.createClass(iconDefHtml);
-              var iconDefActive = ymaps.templateLayoutFactory.createClass(iconDefHtmlActive);
-              
-
-              for(var i = 0; i < dealerships.length; i++) {
-                //console.log(dealerships[i]);
-                var html = 
-                  '<div class="info-content">'+
-                    '<p><b>'+dealerships[i].name+'</b></p>'+
-                    '<p>'+dealerships[i].address+'</p>'+
-                    '<p>'+dealerships[i].work_time+'</p>'+
-                    '<p><a href="'+dealerships[i].site+'"><u>'+dealerships[i].site+'</u></a></p>'+
-                    '<p><a href="'+dealerships[i].phone+'">'+dealerships[i].phone+'</a></p>'+
-                    '<div class="btn-content">'+
-                      '<div class="btn-def">'+
-                        '<a href="javascript:;">Выбрать</a>'+
-                      '</div>'+
-                    '</div>'+
-                  '</div>';
-
-                geoObjects[i] = new ymaps.Placemark([dealerships[i].lat, dealerships[i].lng], {
-                  //balloonContent: html,
-                  iconHtml: html,
-                  iconCaption: dealerships[i].name,
-                },{
-                  iconLayout: iconDef,
-                  iconOffset: [-15, 0],
-                  iconShape: {
-                      type: 'Rectangle',
-                      coordinates: [
-                        [0, 0], [30, 32]
-                      ],
-                  },
-                })
-                geoObjects[i].events.add('click', function (e) {
-                  //console.log(e);
-                  window.target = e.get('target');
-                  target.options.set({
-                    //iconOffset: [0, 0]
-                  })
-                  //console.log(target);
-                  panel.setContent(target.properties.get('iconHtml'));
-                  myMap.panTo(target.geometry.getCoordinates(), {useMapMargin: true});
-                });
-                geoObjects[i].balloon.events.add('close', function (e) {
-                  //console.log("close");
-                });
-              }
-
-
-              clusterer.add(geoObjects);
-              myMap.geoObjects.add(clusterer).events.fire("click");
-              
-
-              myMap.setBounds(clusterer.getBounds(), {
-                checkZoomRange: true,
-                zoom: 13,
-              });
-              setTimeout(function(){
-                myMap.setZoom(13);
-                geoObjects[0].events.fire("click");
-              }, 2000)
-              
-            });
-    
-          }
-        },
-        // {
-        //   defer: true,
-        //   //hid: 'stripe',
-        //   src: '/js/map.panel.js',
-        //   callback: (z) => {
-        //     console.log('/js/map.panel.js', z)
-        //   }
-        // },
-      ]
     }
   },
   async asyncData(context){
@@ -319,6 +128,161 @@ export default {
   },
   mounted(){
     mainjs();
+    var dealerships = this.page.dealerships;
+    /*Карта*/
+    ymaps.ready(['Panel']).then(function () {
+      console.log(ymaps);
+      window.myMap = new ymaps.Map('map', {
+        center: [41.3017329, 69.2101797],
+        controls: [],
+        zoom: 14
+      }, {
+        searchControlProvider: 'yandex#search'
+      })
+      var MyIconContentLayout = ymaps.templateLayoutFactory.createClass('<div class="map-cluster">$[properties.geoObjects.length]</div>');
+      window.clusterer = new ymaps.Clusterer({
+          clusterHideIconOnBalloonOpen: false,
+          geoObjectHideIconOnBalloonOpen: false,
+          zoom: 13,
+          clusterIcons: [
+            {
+              html: "",
+              //href: 'https://www.kia.ru/images/map/map_pin.svg',
+              size: [40, 40],
+              offset: [-20, -20]
+            }
+          ],
+          clusterIconContentLayout: MyIconContentLayout,
+        });
+
+      //myMap.controls.add('zoomControl');
+      var panel = new ymaps.Panel();
+      myMap.controls.add(panel, {
+          float: 'left'
+      });
+
+      window.geoObjects = [];
+
+      var iconDefHtml = 
+        '<div class="de-marker">'+
+          '<figure><img src="https://www.kia.ru/images/map/map_pin.svg"></figure>'+
+          '<div class="de-marker-desc"><span>$[properties.iconCaption]</span></div>'+
+        '</div>';
+      var iconDefHtmlActive = 
+        '<div class="de-marker">'+
+          '<figure><img src="https://www.kia.ru/images/map/map_pin_active.svg"></figure>'+
+          '<div class="de-marker-desc"><span>$[properties.iconCaption]</span></div>'+
+        '</div>';
+
+      var iconDef = ymaps.templateLayoutFactory.createClass(iconDefHtml);
+      var iconDefActive = ymaps.templateLayoutFactory.createClass(iconDefHtmlActive);
+      
+      for(var i = 0; i < dealerships.length; i++) {
+        //console.log(dealerships[i]);
+        var html = 
+          `
+            <div class="info-content">
+              <p><b>${dealerships[i].name}</b></p>
+              <p>${dealerships[i].address}</p>
+              <p>${dealerships[i].work_time}</p>
+              <p><a href="${dealerships[i].site}"><u>${dealerships[i].site}</u></a></p>
+              <p><a href="${dealerships[i].phone}">${dealerships[i].phone}</a></p>
+              <div class="btn-content">
+                <div class="btn-def">
+                  <a href="javascript:;">Выбрать</a>
+                </div>
+              </div>
+            </div>
+          `
+
+        geoObjects[i] = new ymaps.Placemark([dealerships[i].lat, dealerships[i].lng], {
+          //balloonContent: html,
+          iconHtml: html,
+          iconCaption: dealerships[i].name,
+        },{
+          iconLayout: iconDef,
+          iconOffset: [-15, 0],
+          iconShape: {
+              type: 'Rectangle',
+              coordinates: [
+                [0, 0], [30, 32]
+              ],
+          },
+        })
+        geoObjects[i].events.add('click', function (e) {
+          //console.log(e);
+          window.target = e.get('target');
+          target.options.set({
+            //iconOffset: [0, 0]
+          })
+          //console.log(target);
+          panel.setContent(target.properties.get('iconHtml'));
+          myMap.panTo(target.geometry.getCoordinates(), {useMapMargin: true});
+        });
+        geoObjects[i].balloon.events.add('close', function (e) {
+          //console.log("close");
+        });
+      }
+
+
+      clusterer.add(geoObjects);
+      myMap.geoObjects.add(clusterer).events.fire("click");
+      
+
+      myMap.setBounds(clusterer.getBounds(), {
+        checkZoomRange: true,
+        zoom: 13,
+      });
+      setTimeout(function(){
+        myMap.setZoom(13);
+        geoObjects[0].events.fire("click");
+      }, 2000)
+
+
+      myMap.behaviors.disable('scrollZoom');
+
+      var ctrlKey = false;
+      var ctrlMessVisible = false;
+      var timer;
+
+      // Отслеживаем скролл мыши на карте, чтобы показывать уведомление
+      myMap.events.add(['wheel', 'mousedown'], function(e) {
+          if (e.get('type') == 'wheel') {
+              if (!ctrlKey) { // Ctrl не нажат, показываем уведомление
+                  $('#ymap_ctrl_display').fadeIn(300);
+                  ctrlMessVisible = true;
+                  clearTimeout(timer); // Очищаем таймер, чтобы продолжать показывать уведомление
+                  timer = setTimeout(function() {
+                      $('#ymap_ctrl_display').fadeOut(300);
+                      ctrlMessVisible = false;
+                  }, 1500);
+              }
+              else { // Ctrl нажат, скрываем сообщение
+                  $('#ymap_ctrl_display').fadeOut(100);
+              }
+          }
+          if (e.get('type') == 'mousedown' && ctrlMessVisible) { // Скрываем уведомление при клике на карте
+              $('#ymap_ctrl_display').fadeOut(100);
+          }
+      });
+
+      // Обрабатываем нажатие на Ctrl
+      $(document).keydown(function(e) {
+          if (e.which === 17 && !ctrlKey) { // Ctrl нажат: включаем масштабирование мышью
+              ctrlKey = true;
+              myMap.behaviors.enable('scrollZoom');
+          }
+      });
+      $(document).keyup(function(e) { // Ctrl не нажат: выключаем масштабирование мышью
+          if (e.which === 17) {
+              ctrlKey = false;
+              myMap.behaviors.disable('scrollZoom');
+          }
+      });
+    });
+
+
+
   }
 }
 </script>

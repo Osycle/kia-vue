@@ -114,6 +114,45 @@ export default function(){
 		]
 
 
+		$(".conf-crs-items.owl-carousel").owlCarousel({
+			nav: true,
+			loop: false,
+			dots: false,
+			dotsEach: false,
+			//slideBy: 2,
+			autoplay: false,
+			autoplayTimeout: false,
+			autoWidth: true,
+			touchDrag: false,
+			mouseDrag: false,
+			center: false,
+			autoheight: true,
+			merge: true,
+			responsive:{
+	
+			},
+			navText : owlBtn,
+			margin: 60
+		});
+		$(".carousel-def.owl-carousel").owlCarousel({
+			nav: true,
+			loop: true,
+			//items: 3,
+			dots: true,
+			dotsEach: false,
+			//autoplay: true,
+			//autoplayTimeout: 7000,
+			autoheight: true,
+			touchDrag: true,
+			mouseDrag: true,
+			//smartSpeed: 0,
+			responsive:{
+				0:{items:1},
+				991:{items:1}
+			},
+			navText : owlBtn,
+			margin: 0
+    });
 		$(".bnr-carousel-items.owl-carousel").owlCarousel({
 			nav: true,
 			loop: true,
@@ -276,6 +315,7 @@ export default function(){
 				navText : owlBtn,
 				margin: 30
 		});
+
 		var configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
 				nav: true,
 				loop: false,

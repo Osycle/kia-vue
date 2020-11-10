@@ -19,12 +19,12 @@
               </a>
               <div class="list-add-sub">
                 <ul>
-                  <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link active-class="active" :to="item.link">{{item.title}}</nuxt-link></li>
+                  <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link :to="item.link" :target="item.in_new_window?'_blank':'_self'">{{item.title}}</nuxt-link></li>
                 </ul>
               </div>
             </div>
             <div class="list-last">
-              <a href="javascript:;">Конфигуратор</a>
+              <nuxt-link to="/models/k5/configurator/">Конфигуратор</nuxt-link>
             </div>
           </div>
 

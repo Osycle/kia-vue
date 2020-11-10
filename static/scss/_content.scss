@@ -2935,7 +2935,7 @@ ymaps .map-cluster{
  		}
  		&:before{
 	    transform: translateX(-100%);
-	    left: 0;
+	    left: 1px;
  		}
  		&:after{
 	    transform: translateX(100%);
@@ -3159,4 +3159,78 @@ ymaps .map-cluster{
 
 .accordion_right .card-media-desc{
 	order: 0;
+}
+
+
+//conf
+.conf-progress-bar{
+	ul{
+		display: flex;
+		border-top: 1px solid $color-gray-4;
+	}
+	li{
+		border-top: 4px solid transparent;
+		width: 100%;
+		margin-top: -1px;
+		b{
+			display: inline-block;
+			margin-top: 5px;
+			margin-bottom: 3px;
+		}
+		&.active{
+			border-color: $color-1;
+			p{
+				font-weight: 600;
+				color: black;
+			}
+		}
+	}
+	p{
+		color: $color-gray-4;
+	}
+}
+
+.conf-crs .owl-carousel{
+	.owl-stage-outer{
+		overflow: visible !important;
+	}
+	.img-content{
+		text-align: center;
+	}
+	h4{
+		margin-bottom: 5px;
+	}
+}
+.conf-main-crs{
+	.figure{
+		width: 100%;
+	}
+	.desc-content{
+		h2{
+			text-transform: uppercase;
+		}
+	}
+	.img-content{
+		text-align: center;
+		max-width: 750px;
+		&:before{
+			display: block;
+			content: "";
+			padding-top: 67.18954248366013%;
+		}
+		img{
+			@extend .trans-center;
+			width: auto;
+		}
+	}
+	.carousel-def{
+		width: 100%;
+	}
+}
+.conf-down{
+	z-index: 100000000;
+	width: 100%;
+	.flex-wrapper{
+		justify-content: flex-end;
+	}
 }

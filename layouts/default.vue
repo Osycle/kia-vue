@@ -43,6 +43,8 @@ export default {
         {src: '/js/plugins/smooth-scroll-link.min.js'},
         {src: '/js/plugins/owl.carousel.min.js'},
         {src: '/js/plugins/js-cloudimage-360-view.min.js'},
+        {src: 'https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=f06d738e-1a2e-4ca2-91cc-d23a3bbb9e09'},
+        {src: '/js/map.panel.js'},
         //{src: '/js/main.js'},
       ],
     }
