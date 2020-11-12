@@ -288,7 +288,11 @@ figcaption{
 	width: 100%;
 	@media (min-width: 1900px){
 		max-width: 1800px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
+	
+
 	@media (max-width: 991px){
 		padding-right: 15px;
 		padding-left: 15px;	
@@ -3163,14 +3167,22 @@ ymaps .map-cluster{
 
 
 //conf
+.conf{
+	&.is-scrollf{
+		.conf-down{
+			position: absolute;
+		}
+	}
+}
 .conf-progress-bar{
 	ul{
 		display: flex;
-		border-top: 1px solid $color-gray-4;
+		border-top: 1px solid $color-gray-3;
 	}
 	li{
 		border-top: 4px solid transparent;
 		width: 100%;
+		padding-top: 5px;
 		margin-top: -1px;
 		b{
 			display: inline-block;
@@ -3190,7 +3202,7 @@ ymaps .map-cluster{
 	}
 }
 
-.conf-crs .owl-carousel{
+.conf-crs .owl-carousel, .conf-crs-main .owl-carousel{
 	.owl-stage-outer{
 		overflow: visible !important;
 	}
@@ -3201,7 +3213,23 @@ ymaps .map-cluster{
 		margin-bottom: 5px;
 	}
 }
-.conf-main-crs{
+.conf-crs{
+	.img-content{
+		img{
+			width: 150px;
+		}
+	}
+	.fig-wrapper{
+		border: 2px solid transparent;
+		padding: 10px 15px;
+	}
+	.is-selected{
+		.fig-wrapper{
+			border-color: black;
+		}
+	}
+}
+.conf-crs-main{
 	.figure{
 		width: 100%;
 	}
@@ -3209,6 +3237,9 @@ ymaps .map-cluster{
 		h2{
 			text-transform: uppercase;
 		}
+	}
+	.owl-dots{
+		display: none;
 	}
 	.img-content{
 		text-align: center;
@@ -3220,17 +3251,29 @@ ymaps .map-cluster{
 		}
 		img{
 			@extend .trans-center;
-			width: auto;
+			width: 750px;
 		}
 	}
-	.carousel-def{
+	.owl-carousel{
 		width: 100%;
 	}
 }
 .conf-down{
-	z-index: 100000000;
+	z-index: 1;
+	bottom: 0;
 	width: 100%;
+	position: fixed;
+	border-top: 1px solid $color-gray-3;
+	margin-top: 30px;
+	margin-bottom: -1px;
+	background-color: white;
 	.flex-wrapper{
 		justify-content: flex-end;
+		display: flex;
+	}
+	.btn-def{
+		a{
+			padding: 22px 120px;
+		}
 	}
 }

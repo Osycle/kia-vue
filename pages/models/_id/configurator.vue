@@ -1,12 +1,12 @@
 <template>
   <div class="relative">
     <Breadcrump :breadcrumpItems="breadcrumpItems"/>
-    <div class="conf sidebar-wrapper">
+    <div class="conf" scrollf>
       <div class="container-p">
         <div class="entry-header">
-          <h1>Конфигуратор</h1>
+          <h2>Конфигуратор</h2>
         </div>
-        <div class="conf-progress-bar">
+        <div class="conf-progress-bar m-v-30">
           <ul class="list">
             <li class="active">
               <b class="color-1">01</b>
@@ -14,149 +14,66 @@
             </li>
             <li>
               <b class="color-1">02</b>
-              <p>Выбор модели</p>
+              <p>Двигатель и трансмиссия</p>
             </li>
             <li>
               <b class="color-1">03</b>
-              <p>Выбор модели</p>
+              <p>Комплектация</p>
             </li>
             <li>
               <b class="color-1">04</b>
-              <p>Выбор модели</p>
+              <p>Цвета и отделка</p>
             </li>
             <li>
-              <b class="color-1">04</b>
-              <p>Выбор модели</p>
+              <b class="color-1">05</b>
+              <p>Результаты</p>
             </li>
           </ul>
         </div>
-        <div class="conf-steps">
-          <div class="conf-crs m-v-30">
-            <div class="conf-crs-items owl-carousel owl-btn-2">
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="img-content">
-                    <img src="https://cdn.kia.ru/resize/150x73/master-data/models/K5_half.png" alt="">
-                  </div>
-                  <div class="desc-content">
-                    <h4>K5</h4>
-                    <p>от 1 509 900 ₽</p>
-                  </div>
-                </div>
-              </figure>
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="img-content">
-                    <img src="https://cdn.kia.ru/resize/150x73/master-data/models/K5_half.png" alt="">
-                  </div>
-                  <div class="desc-content">
-                    <h4>K5</h4>
-                    <p>от 1 509 900 ₽</p>
-                  </div>
-                </div>
-              </figure>
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="img-content">
-                    <img src="https://cdn.kia.ru/resize/150x73/master-data/models/K5_half.png" alt="">
-                  </div>
-                  <div class="desc-content">
-                    <h4>K5</h4>
-                    <p>от 1 509 900 ₽</p>
-                  </div>
-                </div>
-              </figure>
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="img-content">
-                    <img src="https://cdn.kia.ru/resize/150x73/master-data/models/K5_half.png" alt="">
-                  </div>
-                  <div class="desc-content">
-                    <h4>K5</h4>
-                    <p>от 1 509 900 ₽</p>
-                  </div>
-                </div>
-              </figure>
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="img-content">
-                    <img src="https://cdn.kia.ru/resize/150x73/master-data/models/K5_half.png" alt="">
-                  </div>
-                  <div class="desc-content">
-                    <h4>K5</h4>
-                    <p>от 1 509 900 ₽</p>
-                  </div>
-                </div>
-              </figure>
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="img-content">
-                    <img src="https://cdn.kia.ru/resize/150x73/master-data/models/K5_half.png" alt="">
-                  </div>
-                  <div class="desc-content">
-                    <h4>K5</h4>
-                    <p>от 1 509 900 ₽</p>
-                  </div>
-                </div>
-              </figure>
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="img-content">
-                    <img src="https://cdn.kia.ru/resize/150x73/master-data/models/K5_half.png" alt="">
-                  </div>
-                  <div class="desc-content">
-                    <h4>K5</h4>
-                    <p>от 1 509 900 ₽</p>
-                  </div>
-                </div>
-              </figure>
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="img-content">
-                    <img src="https://cdn.kia.ru/resize/150x73/master-data/models/K5_half.png" alt="">
-                  </div>
-                  <div class="desc-content">
-                    <h4>K5</h4>
-                    <p>от 1 509 900 ₽</p>
-                  </div>
-                </div>
-              </figure>
+        <div class="conf-steps conf-step-1">
+          <div class="conf-crs m-v-45">
+            <div class="owl-carousel owl-btn-2">
+              <template v-for="(modelLine) in page.model_lines">
+                <figure v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id" :model-id="model.id">
+                  <a href="javascript:;">
+                    <div class="fig-wrapper">
+                      <div class="img-content">
+                        <img :src="model.image" :alt="modelLine.name">
+                      </div>
+                      <div class="desc-content">
+                        <h4>{{modelLine.name}}</h4>
+                        <p>от {{model.min_price | spaceBetweenNum}} сум</p>
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+              </template>
             </div>
           </div>
-          <div class="conf-main-crs">
-            <div class="carousel-def owl-carousel owl-btn-2">
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="desc-content">
-                    <h2>k5</h2>
+          <div class="conf-crs-main">
+            <div class="owl-carousel owl-btn-2">
+              <template v-for="(modelLine) in page.model_lines">
+                <figure v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id" :model-id="model.id">
+                  <div class="fig-wrapper">
+                    <div class="desc-content">
+                      <h2>{{model.name}}</h2>
+                    </div>
+                    <div class="img-content m-t-30">
+                      <img :src="model.image" :alt="modelLine.name">
+                    </div>
                   </div>
-                  <div class="img-content m-t-30">
-                    <img src="https://cdn.kia.ru/resize/750x366/master-data/models/stinger.png" alt="">
-                  </div>
-                </div>
-              </figure>
-              <figure>
-                <div class="fig-wrapper">
-                  <div class="desc-content">
-                    <h2>k5</h2>
-                  </div>
-                  <div class="img-content m-t-30">
-                    <img src="https://cdn.kia.ru/resize/750x366/master-data/models/stinger.png" alt="">
-                  </div>
-                </div>
-              </figure>
+                </figure>
+              </template>
             </div>
           </div>
         </div>
       </div>
-      <div class="theiaStickySidebar">
-        <div class="conf-down">
-          <div class="container-p">
-            <div class="flex-wrapper">
-              <span class="btn-def">
-                <a href="javascript:;">Далее</a>
-              </span>
-            </div>
+      <div class="conf-down">
+        <div class="container-p">
+          <div class="flex-wrapper">
+            <span class="btn-def">
+              <a href="javascript:;" currentstep="0" @click="confnext">Далее</a>
+            </span>
           </div>
         </div>
       </div>
@@ -184,7 +101,7 @@ export default {
     try{
       const path = context.route.path
       const page = await context.store.dispatch("models/fetchPageData", {
-        path
+        path: '/models'
       })
       return {page: page.content}
     }catch(e){
@@ -201,8 +118,74 @@ export default {
   },
   mounted(){
     mainjs();
+
+		window.owlCrs = $(".conf-crs .owl-carousel").owlCarousel({
+			nav: true,
+			loop: false,
+			dots: false,
+			dotsEach: false,
+			//slideBy: 2,
+			autoplay: false,
+			autoplayTimeout: false,
+			autoWidth: true,
+			touchDrag: false,
+			mouseDrag: false,
+			center: false,
+			autoheight: true,
+			merge: false,
+			responsive:{
+	
+			},
+			navText : owlBtn,
+			margin: 30
+    });
+		window.owlCrsMain = $(".conf-crs-main .owl-carousel").owlCarousel({
+			nav: true,
+			loop: false,
+			//items: 3,
+			dots: true,
+			dotsEach: false,
+			//autoplay: true,
+			//autoplayTimeout: 7000,
+			autoheight: true,
+			touchDrag: true,
+			mouseDrag: true,
+			//smartSpeed: 0,
+			responsive:{
+				0:{items:1},
+				991:{items:1}
+			},
+			navText : owlBtn,
+			margin: 0
+    });
+    
+    var owlCrsItems = owlCrs.find(".owl-item");
+    owlCrs.on('click', '.owl-item', (e)=>{
+      var target = $(e.currentTarget);
+      owlCrsItems.removeClass('is-selected')
+      target.addClass('is-selected');
+      var modelId = target.find("[model-id]").attr("model-id");
+      var index = owlCrsMain.find("[model-id='"+modelId+"']").closest(".owl-item").index()
+      owlCrsMain.find(".owl-dot").eq(index).click()
+      console.log(target, index);
+    });
+    owlCrsMain.on('changed.owl.carousel', function(e) {
+      var target = $($(e.currentTarget).find('.owl-item').eq(e.page.index));
+      owlCrsItems.removeClass('is-selected');
+      var modelId = target.find("[model-id]").attr("model-id");
+      owlCrs.find("[model-id='"+modelId+"']").closest(".owl-item").addClass('is-selected');
+      
+      console.log($(e))
+    })
+    owlCrsItems.eq(0).click();
+    console.log(owlCrsMain);
+
   },
-  methods: {}
+  methods: {
+    confnext(){
+      console.log('111')
+    }
+  }
 }
 
 </script>

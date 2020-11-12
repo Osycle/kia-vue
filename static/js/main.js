@@ -65,6 +65,24 @@ export default function(){
 			str = str.replace(pattern, "$1"+char+"$2");
 		return str;
 	}
+
+
+	$("[scrollf]").map((i, el)=>{
+		el = $(el)
+		console.log(el);
+		window.ol = el;
+		$(window).on("scroll", (e)=>{
+			var docViewBottom = $(window).scrollTop() + $(window).height();
+			var elBottom = $(el).offset().top + $(el).height();
+				if(docViewBottom > elBottom){
+					el.addClass("is-scrollf")
+				}else{
+					el.removeClass("is-scrollf")
+				}
+		})
+	})
+	
+
 	
 	if( $('[header-opacity]').length ){
 		$(".header-parent").addClass("header-op")
@@ -114,45 +132,9 @@ export default function(){
 		]
 
 
-		$(".conf-crs-items.owl-carousel").owlCarousel({
-			nav: true,
-			loop: false,
-			dots: false,
-			dotsEach: false,
-			//slideBy: 2,
-			autoplay: false,
-			autoplayTimeout: false,
-			autoWidth: true,
-			touchDrag: false,
-			mouseDrag: false,
-			center: false,
-			autoheight: true,
-			merge: true,
-			responsive:{
-	
-			},
-			navText : owlBtn,
-			margin: 60
-		});
-		$(".carousel-def.owl-carousel").owlCarousel({
-			nav: true,
-			loop: true,
-			//items: 3,
-			dots: true,
-			dotsEach: false,
-			//autoplay: true,
-			//autoplayTimeout: 7000,
-			autoheight: true,
-			touchDrag: true,
-			mouseDrag: true,
-			//smartSpeed: 0,
-			responsive:{
-				0:{items:1},
-				991:{items:1}
-			},
-			navText : owlBtn,
-			margin: 0
-    });
+
+		
+		
 		$(".bnr-carousel-items.owl-carousel").owlCarousel({
 			nav: true,
 			loop: true,
