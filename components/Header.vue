@@ -11,7 +11,7 @@
                 <ul class="menu-list">
                   <li><nuxt-link active-class="active" to="/models">Модели</nuxt-link></li>
                   <li><nuxt-link active-class="active" to="/testdata">Выбор и покупка</nuxt-link></li>
-                  <li><nuxt-link active-class="active" to="/users">Конфигуратор</nuxt-link></li>
+                  <li><nuxt-link active-class="active" to="/configurator">Конфигуратор</nuxt-link></li>
                   <li><nuxt-link active-class="active" to="/login">Авто в наличии</nuxt-link></li>
                 </ul>
               </div>

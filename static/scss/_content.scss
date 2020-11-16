@@ -3278,6 +3278,14 @@ ymaps .map-cluster{
 		justify-content: flex-end;
 		display: flex;
 	}
+	.btn-step-back{
+		background-color: white;
+		color: black;
+		display: flex;
+		&:hover{
+			color: white;
+		}
+	}
 	.btn-def{
 		a{
 			padding: 22px 120px;
@@ -3295,6 +3303,7 @@ ymaps .map-cluster{
 
 .left-bar-def{
 	//background-color: $color-gray-5;
+	position: absolute;
 	.wrapper{
 		padding-top: 80px;
 		position: relative;
@@ -3338,6 +3347,10 @@ ymaps .map-cluster{
 			}
 		}
 	}
+}
+.car-params-item{
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 dl{
 	margin-bottom: 8px;
