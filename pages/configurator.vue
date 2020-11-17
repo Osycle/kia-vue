@@ -207,9 +207,6 @@ export default {
           modelCode = el.code
       }
       this.$router.push({path: "/models/"+modelCode+"/configurator"});
-      // const modelModifications = await this.$axios.$get('http://kia-api-php/handler.php', {
-      //   params: {path: "/models/"+modelCode+"/modifications"}
-      // });
 
       this.currentStep++;
     }
