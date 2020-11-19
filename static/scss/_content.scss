@@ -3167,8 +3167,9 @@ ymaps .map-cluster{
 
 
 //conf
-.conf-content{
+.conf-main{
 	border-top: 1px solid $color-gray-3;
+	min-height: 680px;
 }
 .conf{
 	&.is-scrollf{
@@ -3304,6 +3305,9 @@ ymaps .map-cluster{
 .left-bar-def{
 	//background-color: $color-gray-5;
 	position: absolute;
+	top: 0;
+	left: 0;
+	height: calc(100vh - 64px);
 	.wrapper{
 		padding-top: 80px;
 		position: relative;

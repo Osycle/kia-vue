@@ -32,14 +32,13 @@
         </div>
       </div>
     </div>
-    <div class="conf-content">
+    <div class="conf-main">
       <div class="container-p">
-        <div class="left-bar-def col-md-3">
+        <div class="left-bar-def sidebar-wrapper col-md-3">
           <div class="wrapper conf-result-content">
             <div class="cap-content">
               <h3>K5</h3>
-              <h3>от 3 504 900 ₽</h3>
-              <h3>17 570 ₽/мес</h3>
+              <h3>от {{currentComplectation.min_price}} сум</h3>
             </div>
             <figure>
               <img src="https://cdn.kia.ru/resize/300x200/master-data/models/image_side/stinger.png" alt="">
@@ -53,9 +52,9 @@
             <div class="conf-result-section">
               <h4>Двигатель и трансмиссия</h4>
               <dl>
-                <!-- <dt>{{carParams.engine.name}}, {{carParams.engine.power_hp}}</dt> -->
-                <dt></dt>
-                <dt>4WD, полный</dt>
+                <dt>{{carParams.engine.name}}, {{carParams.engine.power_hp}}</dt>
+                <dt>{{carParams.transmission.gears_number}}{{carParams.gearbox.code}}, {{carParams.gearbox.name}}</dt>
+                <dt>{{carParams.drive.code}}, {{carParams.drive.name}}</dt>
               </dl>
             </div>
             <div class="conf-result-summary">
@@ -73,15 +72,15 @@
             </div>
           </div>
         </div>
-        <div class="conf-content">
+        <div class="conf-main-content col-md-9">
           <div class="conf-steps conf-step-2">
             <div class="row p-b-10">
-              <div class="entry-content col-md-offset-3 col-md-9">
+              <div class="entry-content">
                 <div class="car-params">
                   <div class="car-params-item">
                     <h4>Двигатель</h4>
                     <ul class="flex-list">
-                      <li v-for="(engine, key) in page.engines" :key="key" @click="carParamClick({engine}, $event)">
+                      <li v-for="(engine, key) in page.engines" :key="key" @click="carParamClick({engine}, $event)" car-param-active="engine">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -97,7 +96,7 @@
                   <div class="car-params-item">
                     <h4>Коробка передач</h4>
                     <ul class="flex-list">
-                      <li v-for="(transmission, key) in page.transmissions" :key="key" @click="carParamClick({transmission}, $event)">
+                      <li v-for="(transmission, key) in page.transmissions" :key="key" @click="carParamClick({transmission}, $event)" car-param-active="engine">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -115,7 +114,7 @@
                   <div class="car-params-item">
                     <h4>Привод</h4>
                     <ul class="flex-list">
-                      <li v-for="(drive, key) in page.drives" :key="key" @click="carParamClick">
+                      <li v-for="(drive, key) in page.drives" :key="key" car-param-active="drive">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -159,7 +158,6 @@
 
 
 import mainjs from '@/static/js/main'
-import Step_2 from '@/components/configurator/Step-2.vue'
 
 export default {
   head() {
@@ -191,11 +189,9 @@ export default {
   data(){
     return {
       currentStep: 1,
-      complectationId: "",
+      currentComplectation: "",
       carParams: {
         engine: {
-          name: "",
-          power_hp: "",
         },
         transmission:{
 
@@ -207,22 +203,12 @@ export default {
       ],
     }
   },
+  created(){
+    this.currentComplectation = this.page.complectations[0];
+    this.changeCurrentComplectation(this.currentComplectation);
+  },
   mounted(){
     mainjs();
-    const firstSet = this.page.complectations[0];
-    for (let i = 0; i < this.page.engines.length; i++) {
-      const item = this.page.engines[i];
-      if(item.id == firstSet.engine_id){
-        this.carParams.engine = item
-      }
-    }
-    
-    for (let i = 0; i < this.page.transmissions.length; i++) {
-      const item = this.page.transmissions[i];
-      if(item.id == firstSet.transmission_id){
-        this.carParams.transmission = item
-      }
-    }
 
     console.log(this.page.complectations[0])
   },
@@ -230,27 +216,59 @@ export default {
     async carParamClick(carParam, e){
       //console.log('so sadpsaoidpoas', carParam ,e)
       if(carParam['engine']){
-
-        this.carParams.engine = carParam.engine
-        for (let i = 0; i < this.page.fuel_types.length; i++) {
-          const el = this.page.fuel_types[i];
-          if(el.id == carParam.engine.fuel_type_id)
-            this.carParams.fuel_types = el;
+        for (let i = 0; i < this.page.complectations.length; i++) {
+          const item = this.page.complectations[i];
+          if(item.engine_id == carParam.engine.id){
+            this.currentComplectation = item;
+            break;
+          }
         }
       }
-      // if(carParam['transmission']){
-      //   this.carParams.transmission_id = carParam.transmission.id
-      //   this.carParams.drive_id = carParam.transmission.drive_id
-      //   this.carParams.fuel_type_id = carParam.transmission.gearbox_id
-      // }
-      console.log(this.carParams, carParam);
-      this.changeParam();
+      
+      if(carParam['transmission']){
+        for (let i = 0; i < this.page.complectations.length; i++) {
+          const item = this.page.complectations[i];
+          if(item.transmission_id == carParam.transmission.id){
+            this.currentComplectation = item;
+            break;
+          }
+        }
+      }
+
+      this.changeCurrentComplectation(this.currentComplectation);
+      this.carParamActive();
+      console.log(this.currentComplectation);
     },
-    carInfo(prop){
-      console.log(prop)
+    changeCurrentComplectation(complectation){
+      for (let i = 0; i < this.page.engines.length; i++) {
+        const item = this.page.engines[i];
+        if(item.id == complectation.engine_id){
+          this.carParams.engine = item
+        }
+        for (let i = 0; i < this.page.fuel_types.length; i++) {
+          if(this.page.fuel_types[i].id == item.fuel_type_id)
+            this.carParams.fuel_type_id = this.page.fuel_types[i];
+        }
+      }
+      
+      for (let i = 0; i < this.page.transmissions.length; i++) {
+        const item = this.page.transmissions[i];
+        if(item.id == complectation.transmission_id){
+          this.carParams.transmission = item
+        }
+        for (let i = 0; i < this.page.gearboxes.length; i++) {
+          if(this.page.gearboxes[i].id == item.gearbox_id)
+            this.carParams.gearbox = this.page.gearboxes[i];
+        }
+        for (let i = 0; i < this.page.drives.length; i++) {
+          if(this.page.drives[i].id == item.drive_id)
+            this.carParams.drive = this.page.drives[i];
+        }
+      }
     },
-    changeParam(){
-      console.log('changeParam');
+    carParamActive(){
+      var s = $("[car-param-active]")
+      console.log(s)
     },
     confnext(){
       const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
