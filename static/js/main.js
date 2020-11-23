@@ -386,7 +386,7 @@ export default function(){
 		})
 
 		$('.sidebar-wrapper').theiaStickySidebar({
-      additionalMarginTop: 30
+      additionalMarginTop: 80
     });
 
 		/*FANCYBOX*/

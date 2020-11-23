@@ -3169,7 +3169,6 @@ ymaps .map-cluster{
 //conf
 .conf-main{
 	border-top: 1px solid $color-gray-3;
-	min-height: 680px;
 }
 .conf{
 	&.is-scrollf{
@@ -3188,16 +3187,31 @@ ymaps .map-cluster{
 	}
 	li{
 		border-top: 4px solid transparent;
+		border-color: #4ba29a;
 		width: 100%;
 		padding-top: 5px;
 		margin-top: -1px;
+		color: #4ba29a;
 		b{
+			color: #4ba29a;;
 			display: inline-block;
 			margin-top: 5px;
 			margin-bottom: 3px;
 		}
+		&:hover{
+			cursor: pointer;
+		}
 		&.active{
 			border-color: $color-1;
+			b{
+				color: $color-1;
+			}
+			&~*{
+				border-color: transparent;
+				b{
+					color: $color-1;
+				}
+			}
 			p{
 				font-weight: 600;
 				color: black;
@@ -3301,37 +3315,37 @@ ymaps .map-cluster{
 		padding-right: 80px;
 	}
 }
-
+.wrapper-scroll{
+	overflow-y: auto;
+}
 .left-bar-def{
 	//background-color: $color-gray-5;
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: calc(100vh - 64px);
+	height: calc(100vh - 60px);
 	.wrapper{
-		padding-top: 80px;
-		position: relative;
-		padding-left: 15px;
-		padding-right: 60px;
+		padding: 60px 60px 60px 15px;
 		&:before{
 			@extend .clafclear;
 			background-color: $color-gray-2;
 			top: 0;
-			left: -50px;
-			width: calc(100% + 50px);
+			right: 0;
+			width: 3000px;
 			z-index: -1;
 		}
+	}
+	.wrapper-scroll{
+		height: 80vh;
 	}
 }
 
 .car-params{
+	min-height: 400px;
 	.flex-list{
 		flex-direction: row;
 		flex-wrap: wrap;
 		display: flex;
-	}
-	li{
-		flex-basis: 33.33%;
 	}
 	.car-params-btn{
 		height: 100px;
@@ -3340,13 +3354,26 @@ ymaps .map-cluster{
 		align-items: center;
 		padding: 0 45px 0 30px;
 		background-color: $color-gray-2;
+		transition: .3s ease;
+	}
+	li{
+		flex-basis: 33.33%;
+		&:hover{
+			cursor: pointer;
+		}
+		&.disabled:not(.active){
+			color: $color-gray-4;
+			pointer-events: none;
+		}
 		&.active{
-			border-color: black;
-			background-color: white;
-			.check-sel{
-				background: black url('https://www.kia.ru/images/check.svg') no-repeat center;
-				svg{
-					display: none;
+			.car-params-btn{
+				border-color: currentColor;
+				background-color: white;
+				.check-sel{
+					background: black url('https://www.kia.ru/images/check.svg') no-repeat center;
+					svg{
+						display: none;
+					}
 				}
 			}
 		}
@@ -3365,7 +3392,7 @@ dt{
 .check-sel{
 	width: 40px;
 	height: 40px;
-	border: 2px solid black;
+	border: 2px solid currentColor;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;

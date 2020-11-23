@@ -8,67 +8,79 @@
         </div>
         <div class="conf-progress-bar">
           <ul class="list">
+            <li>
+              <nuxt-link to="/configurator">
+                <b>01</b>
+                <p>Выбор модели</p>
+              </nuxt-link>
+            </li>
             <li class="active">
-              <b class="color-1">01</b>
-              <p>Выбор модели</p>
+              <a href="">
+                <b>02</b>
+                <p>Двигатель и трансмиссия</p>
+              </a>
             </li>
             <li>
-              <b class="color-1">02</b>
-              <p>Двигатель и трансмиссия</p>
+              <a href="">
+                <b>03</b>
+                <p>Комплектация</p>
+              </a>
             </li>
             <li>
-              <b class="color-1">03</b>
-              <p>Комплектация</p>
+              <a href="">
+                <b>04</b>
+                <p>Цвета и отделка</p>
+              </a>
             </li>
             <li>
-              <b class="color-1">04</b>
-              <p>Цвета и отделка</p>
-            </li>
-            <li>
-              <b class="color-1">05</b>
-              <p>Результаты</p>
+              <a href="">
+                <b>05</b>
+                <p>Результаты</p>
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="conf-main">
-      <div class="container-p">
+      <div class="container-p clearfix">
         <div class="left-bar-def sidebar-wrapper col-md-3">
-          <div class="wrapper conf-result-content">
-            <div class="cap-content">
-              <h3>K5</h3>
-              <h3>от {{currentComplectation.min_price}} сум</h3>
-            </div>
-            <figure>
-              <img src="https://cdn.kia.ru/resize/300x200/master-data/models/image_side/stinger.png" alt="">
-            </figure>
-            <div class="conf-result-section">
-              <dl>
-                <dt>2020 год производства</dt>
-              </dl>
-            </div>
-            <br>
-            <div class="conf-result-section">
-              <h4>Двигатель и трансмиссия</h4>
-              <dl>
-                <dt>{{carParams.engine.name}}, {{carParams.engine.power_hp}}</dt>
-                <dt>{{carParams.transmission.gears_number}}{{carParams.gearbox.code}}, {{carParams.gearbox.name}}</dt>
-                <dt>{{carParams.drive.code}}, {{carParams.drive.name}}</dt>
-              </dl>
-            </div>
-            <div class="conf-result-summary">
-              <dl>
-                <dt>Итоговая стоимость</dt> 
-                <dd><strong class="text-s1">от 3 504 900 ₽</strong></dd>
-              </dl>
-            </div>
-            <div class="conf-result-summary">
-              <p>Кредитный расчет</p>
-              <dl>
-                <dt>Ежемесячный платеж</dt> 
-                <dd><strong class="text-s1">10 900 ₽/мес</strong></dd>
-              </dl>
+          <div class="wrapper-scroll">
+            <div class="wrapper conf-result-content">
+              <div class="cap-content">
+                <h3>{{currentModelLine.name}}</h3>
+                <h3>от {{currentComplectation.min_price | spaceBetweenNum}} сум</h3>
+              </div>
+              <figure class="text-center m-v-20">
+                <img :src="'https://cdn.kia.ru/resize/300x200'+currentModel.image_side_view" alt="">
+              </figure>
+              <div class="conf-result-section">
+                <dl>
+                  <dt>{{currentComplectation.year}} год производства</dt>
+                </dl>
+              </div>
+              <br>
+              <div class="conf-result-section">
+                <h4>Двигатель и трансмиссия</h4>
+                <dl>
+                  <dt>{{carParams.engine.name}}, {{carParams.engine.power_hp}}</dt>
+                  <dt>{{carParams.transmission.gears_number}}{{carParams.gearbox.code}}, {{carParams.gearbox.name}}</dt>
+                  <dt>{{carParams.drive.code}}, {{carParams.drive.name}}</dt>
+                </dl>
+              </div>
+              <div class="conf-result-summary">
+                <dl>
+                  <dt>Итоговая стоимость</dt> 
+                  <dd><strong class="text-s1">от 3 504 900 ₽</strong></dd>
+                </dl>
+              </div>
+              <div class="conf-result-summary">
+                <p>Кредитный расчет</p>
+                <dl>
+                  <dt>Ежемесячный платеж</dt> 
+                  <dd><strong class="text-s1">10 900 ₽/мес</strong></dd>
+                </dl>
+              </div>
             </div>
           </div>
         </div>
@@ -80,7 +92,7 @@
                   <div class="car-params-item">
                     <h4>Двигатель</h4>
                     <ul class="flex-list">
-                      <li v-for="(engine, key) in page.engines" :key="key" @click="carParamClick({engine}, $event)" car-param-active="engine">
+                      <li v-for="(engine, key) in page.engines" :key="key" @click="carParamClick({engine}, $event)" :engine-id="engine.id" car-param>
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -96,7 +108,7 @@
                   <div class="car-params-item">
                     <h4>Коробка передач</h4>
                     <ul class="flex-list">
-                      <li v-for="(transmission, key) in page.transmissions" :key="key" @click="carParamClick({transmission}, $event)" car-param-active="engine">
+                      <li v-for="(transmission, key) in page.transmissions" :key="key" @click="carParamClick({transmission}, $event)" :transmission-id="transmission.id" car-param class="disabled">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -114,7 +126,7 @@
                   <div class="car-params-item">
                     <h4>Привод</h4>
                     <ul class="flex-list">
-                      <li v-for="(drive, key) in page.drives" :key="key" car-param-active="drive">
+                      <li v-for="(drive, key) in page.drives" :key="key" :drive-id="drive.id" car-param>
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -175,8 +187,7 @@ export default {
       const path = context.route.path
       console.log(context.route.params.id);
       const page = await context.store.dispatch("models/fetchPageData", {
-        path: "/models/"+context.route.params.id+"/modifications"
-        //path: "/models"
+        path: "/models/"+context.route.params.id+"/full"
       })
       return {page: page.content}
     }catch(e){
@@ -190,13 +201,7 @@ export default {
     return {
       currentStep: 1,
       currentComplectation: "",
-      carParams: {
-        engine: {
-        },
-        transmission:{
-
-        }
-      },
+      carParams: {},
       breadcrumpItems: [
         {title: 'Главная',link: '/'},
         {title: 'Конфигуратор',link: '/'},
@@ -206,11 +211,22 @@ export default {
   created(){
     this.currentComplectation = this.page.complectations[0];
     this.changeCurrentComplectation(this.currentComplectation);
+    for (let i = 0; i < this.page.model_list.model_lines.length; i++) {
+      const modelLine = this.page.model_list.model_lines[i];
+      if( modelLine.code === this.$route.params.id )
+        this.currentModelLine = modelLine;
+    }
+    for (let i = 0; i < this.page.model_list.models.length; i++) {
+      const model = this.page.model_list.models[i];
+      if( this.currentModelLine.id === model.model_line_id )
+        this.currentModel = model;
+    }
   },
   mounted(){
     mainjs();
-
-    console.log(this.page.complectations[0])
+    this.carParamActive();
+    //this.currentModel
+    console.log(this.currentModelLine, this.currentModel)
   },
   methods: {
     async carParamClick(carParam, e){
@@ -237,7 +253,6 @@ export default {
 
       this.changeCurrentComplectation(this.currentComplectation);
       this.carParamActive();
-      console.log(this.currentComplectation);
     },
     changeCurrentComplectation(complectation){
       for (let i = 0; i < this.page.engines.length; i++) {
@@ -267,8 +282,13 @@ export default {
       }
     },
     carParamActive(){
-      var s = $("[car-param-active]")
-      console.log(s)
+      const engineId = this.currentComplectation.engine_id
+      const transmissionId = this.currentComplectation.transmission_id
+      $("[car-param]").removeClass("active");
+      console.log(this.carParams)
+      $("[engine-id='"+this.carParams.engine.id+"']").addClass("active");
+      $("[transmission-id='"+this.carParams.transmission.id+"']").addClass("active");
+      $("[drive-id='"+this.carParams.drive.id+"']").addClass("active");
     },
     confnext(){
       const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
