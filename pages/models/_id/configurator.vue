@@ -8,31 +8,31 @@
         </div>
         <div class="conf-progress-bar">
           <ul class="list">
-            <li>
+            <li conf-bar-step="1">
               <nuxt-link to="/configurator">
                 <b>01</b>
                 <p>Выбор модели</p>
               </nuxt-link>
             </li>
-            <li class="active">
+            <li conf-bar-step="2" class="active">
               <a href="">
                 <b>02</b>
                 <p>Двигатель и трансмиссия</p>
               </a>
             </li>
-            <li>
+            <li conf-bar-step="3">
               <a href="">
                 <b>03</b>
                 <p>Комплектация</p>
               </a>
             </li>
-            <li>
+            <li conf-bar-step="4">
               <a href="">
                 <b>04</b>
                 <p>Цвета и отделка</p>
               </a>
             </li>
-            <li>
+            <li conf-bar-step="5">
               <a href="">
                 <b>05</b>
                 <p>Результаты</p>
@@ -108,7 +108,7 @@
                   <div class="car-params-item">
                     <h4>Коробка передач</h4>
                     <ul class="flex-list">
-                      <li v-for="(transmission, key) in page.transmissions" :key="key" @click="carParamClick({transmission}, $event)" :transmission-id="transmission.id" car-param class="disabled">
+                      <li v-for="(transmission, key) in filterTransmission(page.transmissions, 'name')" :key="key" @click="carParamClick({transmission}, $event)" :transmission-id="transmission.id" car-param class="disabled">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -194,12 +194,11 @@ export default {
       context.error(e);
     }
   },
-  components: {
-    
-  },
+  components: {},
+  filters:{},
   data(){
     return {
-      currentStep: 1,
+      currentStep: 2,
       currentComplectation: "",
       carParams: {},
       breadcrumpItems: [
@@ -225,7 +224,6 @@ export default {
   mounted(){
     mainjs();
     this.carParamActive();
-    //this.currentModel
     console.log(this.currentModelLine, this.currentModel)
   },
   methods: {
@@ -285,14 +283,53 @@ export default {
       const engineId = this.currentComplectation.engine_id
       const transmissionId = this.currentComplectation.transmission_id
       $("[car-param]").removeClass("active");
-      console.log(this.carParams)
       $("[engine-id='"+this.carParams.engine.id+"']").addClass("active");
       $("[transmission-id='"+this.carParams.transmission.id+"']").addClass("active");
       $("[drive-id='"+this.carParams.drive.id+"']").addClass("active");
     },
+    filterTransmission(array, keyName){
+      const keyArray = ['sdsd'];
+      const newArray = [];
+      let matchKey = false;
+      var s = array.filter(function(el, i){
+        //console.log(el.name, i);
+        for (let i = 0; i < keyArray.length; i++) {
+          console.log(el.name, keyArray[i]);
+          if(el.name == keyArray[i]){
+            matchKey = true;
+            break;
+          }
+        }
+        if( !matchKey ){
+          keyArray.push(el.name);
+          console.log('--------')
+          return el;
+        }
+        
+      })
+      console.log(s, "s");
+      
+      //console.log(s);
+      // for (let o = -1; o < keyArray.length; o++) {
+      //   console.log(keyArray)
+      //   if( array[i][keyName] == keyArray[o] ){
+      //     matchKey = true;
+      //     break;
+      //   }
+      // }
+      // for (let i = 0; i < array.length; i++) {
+      //   keyArray.push()
+      //   if(!matchKey){
+      //     keyArray.push(array[i][keyName])
+      //     newArray.push(array[i])
+      //   }
+      // }
+      //console.log(newArray);
+      return newArray;
+    },
     confnext(){
       const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
-        path: "/modifications"
+        path: "/full"
       })
       this.currentStep++;
     }
