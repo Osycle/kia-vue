@@ -108,7 +108,16 @@
                   <div class="car-params-item">
                     <h4>Коробка передач</h4>
                     <ul class="flex-list">
-                      <li v-for="(transmission, key) in filterTransmission(page.transmissions, 'name')" :key="key" @click="carParamClick({transmission}, $event)" :transmission-id="transmission.id" car-param class="disabled">
+                      <li v-for="(transmission, key) in filterTransmission(page.transmissions, 'name')" 
+                          class="disabled"
+                          :key="key" 
+                          @click="carParamClick({transmission}, $event)" 
+                          :transmission-id="transmission.id" 
+                          :param-drive-id="transmission.drive_id" 
+                          :param-gearbox-id="transmission.gearbox_id" 
+                          :param-gears-number="transmission.gears_number" 
+                          :param-id="transmission.id"
+                          >
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -201,6 +210,7 @@ export default {
       currentStep: 2,
       currentComplectation: "",
       carParams: {},
+      uniqueParams: {},
       breadcrumpItems: [
         {title: 'Главная',link: '/'},
         {title: 'Конфигуратор',link: '/'},
@@ -220,11 +230,38 @@ export default {
       if( this.currentModelLine.id === model.model_line_id )
         this.currentModel = model;
     }
+
+    // Уникальные железяки
+
+      const uniqueTransmissions = [];
+      const uniqueEngines = [];
+      const transGear = {};
+      const eng = {};
+      this.page.transmissions.filter(function(el){
+        if( !(typeof transGear[el.gearbox_id+"|"+el.gears_number] == 'string') ){
+          transGear[el.gearbox_id+"|"+el.gears_number] = ""
+          uniqueTransmissions.push(el);
+        }
+      })
+      
+      this.page.engines.filter(function(el){
+        if( !(typeof eng[el.fuel_type_id+"|"+el.power_hp+"|"+el.volume] == 'string') ){
+          eng[el.fuel_type_id+"|"+el.power_hp+"|"+el.volume] = ""
+          uniqueEngines.push(el);
+        }
+      })
+
+      this.uniqueParams.transmissions = uniqueTransmissions
+      this.uniqueParams.engines = uniqueEngines
+      console.log(this.uniqueParams, "s");
+
+
+
   },
   mounted(){
     mainjs();
-    this.carParamActive();
-    console.log(this.currentModelLine, this.currentModel)
+    //this.carParamActive();
+    //console.log(this.currentModelLine, this.currentModel)
   },
   methods: {
     async carParamClick(carParam, e){
@@ -239,18 +276,18 @@ export default {
         }
       }
       
-      if(carParam['transmission']){
-        for (let i = 0; i < this.page.complectations.length; i++) {
-          const item = this.page.complectations[i];
-          if(item.transmission_id == carParam.transmission.id){
-            this.currentComplectation = item;
-            break;
-          }
-        }
-      }
+      // if(carParam['transmission']){
+      //   for (let i = 0; i < this.page.complectations.length; i++) {
+      //     const item = this.page.complectations[i];
+      //     if(item.transmission_id == carParam.transmission.id){
+      //       this.currentComplectation = item;
+      //       break;
+      //     }
+      //   }
+      // }
 
-      this.changeCurrentComplectation(this.currentComplectation);
-      this.carParamActive();
+      // this.changeCurrentComplectation(this.currentComplectation);
+      //this.carParamActive();
     },
     changeCurrentComplectation(complectation){
       for (let i = 0; i < this.page.engines.length; i++) {
@@ -288,43 +325,20 @@ export default {
       $("[drive-id='"+this.carParams.drive.id+"']").addClass("active");
     },
     filterTransmission(array, keyName){
-      const keyArray = ['sdsd'];
       const newArray = [];
+      const transGear = {}
       let matchKey = false;
-      var s = array.filter(function(el, i){
-        //console.log(el.name, i);
-        for (let i = 0; i < keyArray.length; i++) {
-          console.log(el.name, keyArray[i]);
-          if(el.name == keyArray[i]){
-            matchKey = true;
-            break;
-          }
+      array.filter(function(el){
+        if( !(typeof transGear[el.gearbox_id+"||"+el.gears_number] == 'string') ){
+          transGear[el.gearbox_id+"||"+el.gears_number] = ""
+          newArray.push(el);
         }
-        if( !matchKey ){
-          keyArray.push(el.name);
-          console.log('--------')
-          return el;
-        }
-        
       })
-      console.log(s, "s");
       
-      //console.log(s);
-      // for (let o = -1; o < keyArray.length; o++) {
-      //   console.log(keyArray)
-      //   if( array[i][keyName] == keyArray[o] ){
-      //     matchKey = true;
-      //     break;
-      //   }
-      // }
-      // for (let i = 0; i < array.length; i++) {
-      //   keyArray.push()
-      //   if(!matchKey){
-      //     keyArray.push(array[i][keyName])
-      //     newArray.push(array[i])
-      //   }
-      // }
-      //console.log(newArray);
+
+      console.log(newArray, "s");
+      
+
       return newArray;
     },
     confnext(){
