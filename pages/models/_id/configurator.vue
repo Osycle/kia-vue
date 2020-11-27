@@ -92,7 +92,7 @@
                   <div class="car-params-item">
                     <h4>Двигатель</h4>
                     <ul class="flex-list">
-                      <li v-for="(engine, key) in page.engines" :key="key" @click="carParamClick({engine}, $event)" :engine-id="engine.id" car-param>
+                      <li v-for="(engine, key) in page.engines" :key="key" @click.prevent.stop="carParamClick(engine)" :engine-id="engine.id" car-param>
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -108,14 +108,14 @@
                   <div class="car-params-item">
                     <h4>Коробка передач</h4>
                     <ul class="flex-list">
-                      <li v-for="(transmission, key) in filterTransmission(page.transmissions, 'name')" 
+                      <li v-for="(transmission, key) in page.transmissions" 
                           class="disabled"
                           :key="key" 
                           @click="carParamClick({transmission}, $event)" 
-                          :transmission-id="transmission.id" 
                           :param-drive-id="transmission.drive_id" 
                           :param-gearbox-id="transmission.gearbox_id" 
-                          :param-gears-number="transmission.gears_number" 
+                          :param-gears-number="transmission.gears_number"
+                          :param-name="transmission.name"
                           :param-id="transmission.id"
                           >
                         <div class="car-params-btn">
@@ -135,7 +135,10 @@
                   <div class="car-params-item">
                     <h4>Привод</h4>
                     <ul class="flex-list">
-                      <li v-for="(drive, key) in page.drives" :key="key" :drive-id="drive.id" car-param>
+                      <li v-for="(drive, key) in page.drives" :key="key" class="disabled"
+                        :param-drive-id="drive.id"
+                        :param-drive-code="drive.code"
+                        >
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -211,6 +214,7 @@ export default {
       currentComplectation: "",
       carParams: {},
       uniqueParams: {},
+      //groupComplectations: [],
       breadcrumpItems: [
         {title: 'Главная',link: '/'},
         {title: 'Конфигуратор',link: '/'},
@@ -233,27 +237,27 @@ export default {
 
     // Уникальные железяки
 
-      const uniqueTransmissions = [];
-      const uniqueEngines = [];
-      const transGear = {};
-      const eng = {};
-      this.page.transmissions.filter(function(el){
-        if( !(typeof transGear[el.gearbox_id+"|"+el.gears_number] == 'string') ){
-          transGear[el.gearbox_id+"|"+el.gears_number] = ""
-          uniqueTransmissions.push(el);
-        }
-      })
+      // const uniqueTransmissions = [];
+      // const uniqueEngines = [];
+      // const transGear = {};
+      // const eng = {};
+      // this.page.transmissions.filter(function(el){
+      //   if( !(typeof transGear[el.gearbox_id+"|"+el.gears_number] == 'string') ){
+      //     transGear[el.gearbox_id+"|"+el.gears_number] = ""
+      //     uniqueTransmissions.push(el);
+      //   }
+      // })
       
-      this.page.engines.filter(function(el){
-        if( !(typeof eng[el.fuel_type_id+"|"+el.power_hp+"|"+el.volume] == 'string') ){
-          eng[el.fuel_type_id+"|"+el.power_hp+"|"+el.volume] = ""
-          uniqueEngines.push(el);
-        }
-      })
+      // this.page.engines.filter(function(el){
+      //   if( !(typeof eng[el.fuel_type_id+"|"+el.power_hp+"|"+el.volume] == 'string') ){
+      //     eng[el.fuel_type_id+"|"+el.power_hp+"|"+el.volume] = ""
+      //     uniqueEngines.push(el);
+      //   }
+      // })
 
-      this.uniqueParams.transmissions = uniqueTransmissions
-      this.uniqueParams.engines = uniqueEngines
-      console.log(this.uniqueParams, "s");
+      // this.uniqueParams.transmissions = uniqueTransmissions
+      // this.uniqueParams.engines = uniqueEngines
+      // console.log(this.uniqueParams, "s");
 
 
 
@@ -264,18 +268,29 @@ export default {
     //console.log(this.currentModelLine, this.currentModel)
   },
   methods: {
-    async carParamClick(carParam, e){
-      //console.log('so sadpsaoidpoas', carParam ,e)
-      if(carParam['engine']){
-        for (let i = 0; i < this.page.complectations.length; i++) {
-          const item = this.page.complectations[i];
-          if(item.engine_id == carParam.engine.id){
-            this.currentComplectation = item;
-            break;
-          }
-        }
-      }
+    async carParamClick(engine, e){
+      var that = this;
+      this.groupComplectations = [];
+      this.groupTransmissions = []
+      this.page.complectations.forEach((complectation, i)=>{
+        if(complectation.engine_id == engine.id) 
+          this.groupComplectations.push(complectation)
+      })
       
+      this.groupComplectations.forEach((complectation, i)=>{
+        this.page.transmissions.forEach((transmission)=>{
+          if(complectation.transmission_id == transmission.id){
+            this.groupTransmissions.push(transmission);
+            console.log(complectation, transmission);
+          }
+        })
+      })
+      console.log(this.groupTransmissions);
+
+      this.groupTransmissions.forEach((transmission, i)=>{
+        $("[param-name='"+transmission.name+"']").removeClass("disabled");
+      })
+
       // if(carParam['transmission']){
       //   for (let i = 0; i < this.page.complectations.length; i++) {
       //     const item = this.page.complectations[i];

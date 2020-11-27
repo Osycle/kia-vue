@@ -3361,7 +3361,7 @@ ymaps .map-cluster{
 		&:hover{
 			cursor: pointer;
 		}
-		&.disabled:not(.active){
+		&.disabled:not(.active):not(.open){
 			color: $color-gray-4;
 			pointer-events: none;
 		}
