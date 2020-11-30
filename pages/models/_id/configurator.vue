@@ -92,7 +92,7 @@
                   <div class="car-params-item">
                     <h4>Двигатель</h4>
                     <ul class="flex-list">
-                      <li v-for="(engine, key) in page.engines" :key="key" @click.prevent.stop="carParamClick(engine)" :engine-id="engine.id" car-param>
+                      <li v-for="(engine, key) in page.engines" :key="key" @click.prevent.stop="carParamClickEngine(engine)" :param-engine-id="engine.id" car-param>
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -105,23 +105,16 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="car-params-item">
+                  <div class="car-params-item car-params-transmission">
                     <h4>Коробка передач</h4>
                     <ul class="flex-list">
-                      <li v-for="(transmission, key) in page.transmissions" 
-                          class="disabled"
-                          :key="key" 
-                          @click="carParamClick({transmission}, $event)" 
-                          :param-drive-id="transmission.drive_id" 
-                          :param-gearbox-id="transmission.gearbox_id" 
-                          :param-gears-number="transmission.gears_number"
-                          :param-name="transmission.name"
-                          :param-id="transmission.id"
-                          >
+                      <li v-for="(transmission, key) in uniqueParams.transmissions" class="disabled" :key="key" @click.prevent.stop="carParamClickTransmission(transmission)" car-param>
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
-                            <div class="m-l-15" v-for="(gearbox, key) in page.gearboxes" :key="key" v-if="transmission.gearbox_id == gearbox.id">
+                            <div class="m-l-15" v-for="(gearbox, key) in page.gearboxes" :key="key" v-if="transmission.gearbox_id == gearbox.id"
+                              :param-uniq="transmission.gears_number+gearbox.code"
+                              >
                               <div class="fw-6">
                                 {{gearbox.name}}
                               </div>
@@ -132,10 +125,10 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="car-params-item">
+                  <div class="car-params-item car-params-drive">
                     <h4>Привод</h4>
                     <ul class="flex-list">
-                      <li v-for="(drive, key) in page.drives" :key="key" class="disabled"
+                      <li v-for="(drive, key) in page.drives" :key="key" class="disabled" car-param
                         :param-drive-id="drive.id"
                         :param-drive-code="drive.code"
                         >
@@ -211,7 +204,12 @@ export default {
   data(){
     return {
       currentStep: 2,
-      currentComplectation: "",
+      currentComplectation: {},
+      currentEngine: {},
+      currentTransmission: {},
+      currentDrive: {},
+      currentGearbox: {},
+
       carParams: {},
       uniqueParams: {},
       //groupComplectations: [],
@@ -237,26 +235,18 @@ export default {
 
     // Уникальные железяки
 
-      // const uniqueTransmissions = [];
-      // const uniqueEngines = [];
-      // const transGear = {};
-      // const eng = {};
-      // this.page.transmissions.filter(function(el){
-      //   if( !(typeof transGear[el.gearbox_id+"|"+el.gears_number] == 'string') ){
-      //     transGear[el.gearbox_id+"|"+el.gears_number] = ""
-      //     uniqueTransmissions.push(el);
-      //   }
-      // })
+      const uniqueTransmissions = [];
+      const uniqueEngines = [];
+      const transGear = {};
+      this.page.transmissions.filter(function(el){
+        if( !(typeof transGear[el.gearbox_id+"|"+el.gears_number] == 'string') ){
+          transGear[el.gearbox_id+"|"+el.gears_number] = ""
+          uniqueTransmissions.push(el);
+        }
+      })
       
-      // this.page.engines.filter(function(el){
-      //   if( !(typeof eng[el.fuel_type_id+"|"+el.power_hp+"|"+el.volume] == 'string') ){
-      //     eng[el.fuel_type_id+"|"+el.power_hp+"|"+el.volume] = ""
-      //     uniqueEngines.push(el);
-      //   }
-      // })
 
-      // this.uniqueParams.transmissions = uniqueTransmissions
-      // this.uniqueParams.engines = uniqueEngines
+       this.uniqueParams.transmissions = uniqueTransmissions
       // console.log(this.uniqueParams, "s");
 
 
@@ -268,16 +258,18 @@ export default {
     //console.log(this.currentModelLine, this.currentModel)
   },
   methods: {
-    async carParamClick(engine, e){
-      var that = this;
+    async carParamClickEngine(engine, e){
+
+      this.currentEngine = engine;
       this.groupComplectations = [];
-      this.groupTransmissions = []
+      this.groupTransmissions = [];
+
       this.page.complectations.forEach((complectation, i)=>{
         if(complectation.engine_id == engine.id) 
           this.groupComplectations.push(complectation)
       })
       
-      this.groupComplectations.forEach((complectation, i)=>{
+      this.groupComplectations.forEach((complectation)=>{
         this.page.transmissions.forEach((transmission)=>{
           if(complectation.transmission_id == transmission.id){
             this.groupTransmissions.push(transmission);
@@ -287,22 +279,35 @@ export default {
       })
       console.log(this.groupTransmissions);
 
+
+      $(".car-params-transmission, .car-params-drive").find("li").addClass("disabled");
+
       this.groupTransmissions.forEach((transmission, i)=>{
-        $("[param-name='"+transmission.name+"']").removeClass("disabled");
+        this.page.gearboxes.forEach((gearbox)=>{
+          if( transmission.gearbox_id == gearbox.id ){
+            if(i == 0)
+              this.currentTransmission = transmission;
+            var attrParam = transmission.gears_number+gearbox.code;
+            $("[param-uniq='"+attrParam+"']").closest("li").removeClass("disabled");
+          }
+        })
+        this.page.drives.forEach((drive)=>{
+          console.log(transmission);
+          if( transmission.drive_id == drive.id ){
+            if(i == 0)
+              this.currentDrive = drive;
+            $("[param-drive-id='"+drive.id+"']").removeClass("disabled");
+          }
+        })
       })
 
-      // if(carParam['transmission']){
-      //   for (let i = 0; i < this.page.complectations.length; i++) {
-      //     const item = this.page.complectations[i];
-      //     if(item.transmission_id == carParam.transmission.id){
-      //       this.currentComplectation = item;
-      //       break;
-      //     }
-      //   }
-      // }
-
       // this.changeCurrentComplectation(this.currentComplectation);
-      //this.carParamActive();
+      this.carParamActive();
+    },
+    async carParamClickTransmission(transmission){
+      this.currentTransmission = transmission;
+      this.carParamActive();
+      console.log(transmission);
     },
     changeCurrentComplectation(complectation){
       for (let i = 0; i < this.page.engines.length; i++) {
@@ -332,29 +337,26 @@ export default {
       }
     },
     carParamActive(){
-      const engineId = this.currentComplectation.engine_id
-      const transmissionId = this.currentComplectation.transmission_id
       $("[car-param]").removeClass("active");
-      $("[engine-id='"+this.carParams.engine.id+"']").addClass("active");
-      $("[transmission-id='"+this.carParams.transmission.id+"']").addClass("active");
-      $("[drive-id='"+this.carParams.drive.id+"']").addClass("active");
-    },
-    filterTransmission(array, keyName){
-      const newArray = [];
-      const transGear = {}
-      let matchKey = false;
-      array.filter(function(el){
-        if( !(typeof transGear[el.gearbox_id+"||"+el.gears_number] == 'string') ){
-          transGear[el.gearbox_id+"||"+el.gears_number] = ""
-          newArray.push(el);
+
+      $("[param-engine-id='"+this.currentEngine.id+"']").addClass("active");
+
+      this.page.gearboxes.forEach((gearbox)=>{
+        if( this.currentTransmission.gearbox_id == gearbox.id ){
+          var attrParam = this.currentTransmission.gears_number+gearbox.code;
+          $("[param-uniq='"+attrParam+"']").closest("li").addClass("active");
         }
       })
+      this.page.drives.forEach((drive)=>{
+        if( this.currentTransmission.drive_id == drive.id ){
+          this.currentDrive = drive;
+          $("[param-drive-id='"+drive.id+"']").addClass("active");
+        }
+      });
       
-
-      console.log(newArray, "s");
       
-
-      return newArray;
+      
+      //$("[drive-id='"+this.carParams.drive.id+"']").addClass("active");
     },
     confnext(){
       const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
