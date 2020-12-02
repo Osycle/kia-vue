@@ -21,7 +21,7 @@
               </a>
             </li>
             <li conf-bar-step="3">
-              <a href="">
+              <a href="javascript:;" @click.prevent.stop="poh">
                 <b>03</b>
                 <p>Комплектация</p>
               </a>
@@ -71,7 +71,7 @@
               <div class="conf-result-summary">
                 <dl>
                   <dt>Итоговая стоимость</dt> 
-                  <dd><strong class="text-s1">от 3 504 900 ₽</strong></dd>
+                  <dd><strong class="text-s1">от {{currentComplectation.min_price | spaceBetweenNum}} сум</strong></dd>
                 </dl>
               </div>
               <div class="conf-result-summary hide">
@@ -85,7 +85,7 @@
           </div>
         </div>
         <div class="conf-main-content col-md-9">
-          <div class="conf-steps conf-step-2">
+          <div class="hide conf-steps conf-step-2">
             <div class="row p-b-10">
               <div class="entry-content">
                 <div class="car-params">
@@ -151,6 +151,9 @@
               </div>
             </div>
           </div>
+          <div class="conf-steps conf-step-3">
+
+          </div>
         </div>
       </div>
     </div>
@@ -191,7 +194,6 @@ export default {
   async asyncData(context){
     try{
       const path = context.route.path
-      console.log(context.route.params.id);
       const page = await context.store.dispatch("models/fetchPageData", {
         path: "/models/"+context.route.params.id+"/full"
       })
@@ -296,8 +298,25 @@ export default {
     setTimeout(()=>{
       $(".car-params-engine li").eq(0).trigger("click");
     }, 500)
+    this.poh()
   },
   methods: {
+    poh(){
+      //complectations[]=9ea73aaa-b670-4db4-ae46-bd005e0a693b&complectations[]=3acca6ca-0db3-4149-a95b-0f5031b6a905
+      var ur = "?complectations[]=9ea73aaa-b670-4db4-ae46-bd005e0a693b&complectations[]=3acca6ca-0db3-4149-a95b-0f5031b6a905"
+      $.ajax({
+        type: "GET",
+        url: "http://kia-api-php/handler.php"+ur,
+        data: {},
+        success: function(response) {
+          console.log(response)
+        },
+        error: function(response) {
+          console.log("%cОшибка ajax", "color:#90AF13;text-transform:uppercase;");
+        },
+        complete: function(response) {}
+      });
+    },
     async carParamClickEngine(engine, e){
 
       this.currentEngine = engine;
@@ -316,8 +335,6 @@ export default {
           }
         })
       })
-      console.log(this.groupTransmissions);
-
 
       $(".car-params-transmission, .car-params-drive").find("li").addClass("disabled");
 
@@ -336,10 +353,8 @@ export default {
           }
         })
         this.page.drives.forEach((drive)=>{
-          console.log(transmission);
           if( transmission.drive_id == drive.id ){
             if(i == 0){
-              console.log('Сюда не заходим')
               this.currentDrive = drive;
             }
             $("[param-drive-id='"+drive.id+"']").removeClass("disabled");
@@ -399,7 +414,6 @@ export default {
 
       })
       
-      console.log(set, 'changeCurrentComplectation');
     },
     confnext(){
       const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
