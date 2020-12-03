@@ -151,8 +151,74 @@
               </div>
             </div>
           </div>
-          <div class="conf-steps conf-step-3">
+          <div class="conf-steps conf-step-3 p-h-60">
+            <div>
+              <div class="showroom-main m-v-30">
+                <div
+                    class="cloudimage-360"
+                    data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
+                    data-filename="{index}.png"
+                    data-spin-reverse
+                    data-amount="72"
+                ></div>
+                <!-- {{page.overviews.colors[0].path}} -->
+              </div>
+              <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+              <div class="color-gray-4 text-center">
+                <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
+              </div>
+            </div>
+            <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="accordion-def-item">
+                <div class="title-content">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#prc-1" aria-expanded="true">
+                    <div class="car-params-btn">
+                      <div class="flex">
+                        <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
+                        <div class="m-l-15">
+                          <b>Classic</b><br>
+                          <b>1 179 900 сум</b>
+                        </div>
+                      </div>
+                      <div class="align-center">
+                        <b>Что включено</b>
+                        <svg class="m-l-15" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div id="prc-1" class="drop-content collapse in" role="tabpanel">
+                  <div class="drop-content-body">
+                    <ul>
+                      <li>Подогрев форсунок стеклоомывателя</li>
+                      <li>Боковые зеркала заднего вида с электроприводом и подогревом</li>
+                      <li>Стальные диски 16"с шинами 205/60 R16</li>
+                      <li>Аудиосистема с 3.8" монохромным дисплеем</li>
+                      <li>Задние сиденья с регулировкой угла наклона</li>
+                      <li>Мультифункциональное рулевое колесо</li>
+                      <li>6 динамиков</li>
+                    </ul>
+                    <a href="javascript:;" class="link-btn-1" data-fancybox>Показать всё <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></a>
+                    <div>
+                      <div class="h1">Seltos Classic</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-def-item">
+                <div class="title-content">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#prc-2" aria-expanded="false">Комплектующие<i class="fa fa-angle-up"></i></a>
+                </div>
+                <div id="prc-2" class="desc-content collapse" role="tabpanel">
+                  <div class="panel-body text-left p-v-10 text-item">
+                    <p>В течение долгого времени вам будет предложено указать предыдущего арендодателя, банка, сотрудника и/или ссылки на характер, чтобы продемонстрировать доказательство дохода и пригодности. Вам также необходимо будет предоставить удостоверение личности, подтверждение адреса и подтверждение "права на аренду" в Англии через паспорт или комбинацию паспорта и действительной визы.</p>
+                    <p>Для краткого разрешения вам потребуется предъявить подтверждение адреса и паспорт, национальное удостоверение личности или водительские права, а также справку о занятости или характере с указанием, почему требуется короткий отпуск.</p>
+                    <p>Для короткой аренды, где компания является арендатором, вам необходимо будет предъявить удостоверение личности для тех, кто находится в отеле, и письмо от компании, подтверждающее полные имена всех предлагаемых жильцов.</p>
+                  </div>
+                </div>
+              </div>
 
+            </div>
           </div>
         </div>
       </div>
