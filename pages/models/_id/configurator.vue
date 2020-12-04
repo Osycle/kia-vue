@@ -153,7 +153,7 @@
           </div>
           <div class="conf-steps conf-step-3 p-h-60">
             <div>
-              <div class="showroom-main m-v-30">
+              <div class="showroom-main m-v-30" v-if="false">
                 <div
                     class="cloudimage-360"
                     data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
@@ -161,14 +161,66 @@
                     data-spin-reverse
                     data-amount="72"
                 ></div>
-                <!-- {{page.overviews.colors[0].path}} -->
               </div>
               <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
               <div class="color-gray-4 text-center">
                 <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
               </div>
             </div>
-            <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
+            <div>
+              <div class="config-details">
+                <section class="item" v-for="(gOption, key) in page.grouped_options" :key="key">
+                  <a href=".item" class="title-click" data-toggle="click">{{gOption.name}}<i class="fa fa-angle-up"></i></a>
+                  <div class="section-body">
+                    <div class="section-body-wrapper">
+                      <div class="list-block-body">
+                        <ul>
+                          <template v-for="(complectation) in page.complectations">
+                            <template v-for="(option) in gOption.options">
+                              <li v-for="(complectationOptionId, key) in complectation.options" :key="key" v-if="complectationOptionId == option.id">
+                                {{option.name}}
+                              </li>
+                            </template>
+                          </template>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+  <!--               
+                <section class="item" v-for="(item, key) in page.modifications.grouped_options" :key="key">
+                  <a href=".item" class="title-click" data-toggle="click">{{item.name}}<i class="fa fa-angle-up"></i></a>
+                  <div class="section-body">
+                    <div class="section-body-wrapper">
+                      <div class="config-param-item" v-for="(option, key) in item.options" :key="key">
+                        <div class="config-param-item-wrapper">
+                          <p class="m-b-15 align-center">{{option.name}}</p>
+                          <div class="owl-table owl-carousel">
+                            <div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
+                              <div class="op-enable" v-for="(modelOptionId, key) in model.options" v-if="modelOptionId == option.id" :key="key">
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
+                              </div>
+                              <div><div>—</div></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                -->
+              </div>
+            </div>
+
+
+
+
+
+
+            <div class="accordion-def m-t-30 hide" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+
               <div class="accordion-def-item">
                 <div class="title-content">
                   <a role="button" data-toggle="collapse" data-parent="#accordion" href="#prc-1" aria-expanded="true">
@@ -200,7 +252,56 @@
                     </ul>
                     <a href="javascript:;" class="link-btn-1" data-fancybox>Показать всё <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></a>
                     <div>
-                      <div class="h1">Seltos Classic</div>
+                      <div class="config-details">
+                        <div class="h1">Seltos Classic</div>
+                        <section class="item active">
+                          <a href=".item" class="title-click" data-toggle="click">Стандартное оборудование<i class="fa fa-angle-up"></i></a>
+                          <div class="section-body">
+                            <div class="section-body-wrapper">
+                              <div class="list-block-body">
+                                <h4>Экстерьер</h4>
+                                <ul>
+                                  <li><span>Светодиодные (LED) фары</span></li>
+                                  <li><span>Cветодиодные дневные ходовые огни (LED DRL)</span></li>
+                                </ul>
+                              </div>
+                              <div class="list-block-body">
+                                <h4>Интерьер</h4>
+                                <ul>
+                                  <li><span>Задние сиденья со спинками, складывающимися в соотношении 60/40 Безопасность</span></li>
+                                </ul>
+                              </div>
+                              <div class="list-block-body">
+                                <h4>Безопасность</h4>
+                                <ul>
+                                  <li><span>Фронтальные подушки безопасности</span></li>
+                                  <li><span>Система курсовой устойчивости (ESC)</span></li>
+                                  <li><span>Интегрированная система активного управления (VSM)</span></li>
+                                  <li><span>Система помощи при трогании на подъеме (HAC)</span></li>
+                                  <li><span>Система предупреждения об экстренном торможении (ESS)	</span></li>
+                                  <li><span>Крепления ISOFIX для детского кресла</span></li>
+                                  <li><span>Полноразмерное легкосплавное запасное колесо</span></li>
+                                </ul>
+                              </div>
+                              <div class="list-block-body">
+                                <h4>Комфорт</h4>
+                                <ul>
+                                  <li><span>Мультифункциональное рулевое колесо</span></li>
+                                  <li><span>Bluetooth для подключения мобильного телефона</span></li>
+                                  <li><span>Система выбора режима движения (Drive Mode Select)</span></li>
+                                  <li><span>Круиз-контроль</span></li>
+                                  <li><span>Передние и задние стеклоподъёмники с электроприводом</span></li>
+                                  <li><span>Стеклоподъемник водителя с функцией Auto</span></li>
+                                  <li><span>Датчик света	</span></li>
+                                  <li><span>Ключ с дистанционным управлением центральным замком</span></li>
+                                  <li><span>Аудиосистема с радио, USB разъемом (6 динамиков)</span></li>
+                                  <li><span>Климат контроль</span></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -219,6 +320,14 @@
               </div>
 
             </div>
+
+
+
+
+
+
+
+
           </div>
         </div>
       </div>
