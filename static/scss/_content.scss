@@ -3454,3 +3454,13 @@ dt{
 		}
 	}	
 }
+
+.conf-steps-modal{
+	padding: 50px;
+}
+.conf-steps{
+	display: none;
+	&.active{
+		display: block;
+	}
+}

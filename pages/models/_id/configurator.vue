@@ -85,7 +85,7 @@
           </div>
         </div>
         <div class="conf-main-content col-md-9">
-          <div class="hide conf-steps conf-step-2">
+          <div class="conf-steps conf-step-2" :class="{'active': currentStep == 2}">
             <div class="row p-b-10">
               <div class="entry-content">
                 <div class="car-params">
@@ -151,9 +151,9 @@
               </div>
             </div>
           </div>
-          <div class="conf-steps conf-step-3 p-h-60">
+          <div class="conf-steps conf-step-3 p-h-60" :class="{'active': currentStep == 3}">
             <div>
-              <div class="showroom-main m-v-30" v-if="false">
+              <div class="showroom-main m-v-30">
                 <div
                     class="cloudimage-360"
                     data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
@@ -167,31 +167,27 @@
                 <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
               </div>
             </div>
+            <!-- config-details modal items -->
             <div class="hide">
-                <div class="config-details" v-for="(complectation, index) in page.complectations" :key="index" :id="'config-details-'+complectation.id" :config-complectation-id="complectation.id">
-                  <section class="item active" v-for="(gOption, key) in page.grouped_options" :key="key">
-                    <a href=".item" class="title-click" data-toggle="click">{{gOption.name}}<i class="fa fa-angle-up"></i></a>
-                    <div class="section-body">
-                      <div class="section-body-wrapper">
-                        <div class="list-block-body">
-                          <ul>
-                            <template v-for="(complectationOptionId) in complectation.options">
-                              <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
-                                {{option.name}}
-                              </li>
-                            </template>
-                          </ul>
-                        </div>
+              <div class="config-details config-details-modal conf-steps-modal" v-for="(complectation, index) in page.complectations" :key="index" :id="'config-details-'+complectation.id" :config-complectation-id="complectation.id">
+                <section class="item active" v-for="(gOption, key) in page.grouped_options" :key="key">
+                  <a href=".item" class="title-click" data-toggle="click">{{gOption.name}}<i class="fa fa-angle-up"></i></a>
+                  <div class="section-body">
+                    <div class="section-body-wrapper">
+                      <div class="list-block-body">
+                        <ul>
+                          <template v-for="(complectationOptionId) in complectation.options">
+                            <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
+                              {{option.name}}
+                            </li>
+                          </template>
+                        </ul>
                       </div>
                     </div>
-                  </section>
-                </div>
-              
+                  </div>
+                </section>
+              </div>
             </div>
-
-
-
-
 
 
             <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
@@ -226,7 +222,6 @@
                   </div>
                 </div>
               </div>
-
             </div>
 
 
@@ -244,13 +239,13 @@
       <div class="container-p">
         <div class="flex-wrapper">
           <span class="btn-def btn-step-back">
-            <a href="javascript:;" currentstep="0" @click="confnext" class="flex align-center">
+            <a href="javascript:;" currentstep="0" @click="confPrevStep" class="flex align-center">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
             </a>
           </span>
           <span class="btn-def">
-            <a href="javascript:;" currentstep="0" @click="confnext">Далее</a>
+            <a href="javascript:;" currentstep="0" @click="confNextStep">Далее</a>
           </span>
         </div>
       </div>
@@ -507,11 +502,19 @@ export default {
       
       this.selectComplectations = set
     },
-    confnext(){
-      const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
-        path: "/full"
-      })
+    confNextStep(){
+      if( this.currentStep == 2 ){
+        const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
+          path: "/full"
+        })
+      }
+      if( this.currentStep == 2 ){
+        
+      }
       this.currentStep++;
+    },
+    confPrevStep(){
+      this.currentStep--;
     }
   }
 }
