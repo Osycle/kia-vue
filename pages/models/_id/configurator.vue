@@ -8,35 +8,27 @@
         </div>
         <div class="conf-progress-bar">
           <ul class="list">
-            <li conf-bar-step="1">
+            <li>
               <nuxt-link to="/configurator">
                 <b>01</b>
                 <p>Выбор модели</p>
               </nuxt-link>
             </li>
-            <li conf-bar-step="2" class="active">
-              <a href="">
-                <b>02</b>
-                <p>Двигатель и трансмиссия</p>
-              </a>
+            <li @click.stop="progressStepsBar(2)" :class="{'active': currentStepNum == 2}">
+              <b>02</b>
+              <p>Двигатель и трансмиссия</p>
             </li>
-            <li conf-bar-step="3">
-              <a href="javascript:;" @click.prevent.stop="poh">
-                <b>03</b>
-                <p>Комплектация</p>
-              </a>
+            <li @click.stop="progressStepsBar(3)" :class="{'active': currentStepNum == 3}">
+              <b>03</b>
+              <p>Комплектация</p>
             </li>
-            <li conf-bar-step="4">
-              <a href="">
-                <b>04</b>
-                <p>Цвета и отделка</p>
-              </a>
+            <li @click.stop="progressStepsBar(4)" :class="{'active': currentStepNum == 4}">
+              <b>04</b>
+              <p>Цвета и отделка</p>
             </li>
-            <li conf-bar-step="5">
-              <a href="">
-                <b>05</b>
-                <p>Результаты</p>
-              </a>
+            <li @click.stop="progressStepsBar(5)" :class="{'active': currentStepNum == 5}">
+              <b>05</b>
+              <p>Результаты</p>
             </li>
           </ul>
         </div>
@@ -85,7 +77,7 @@
           </div>
         </div>
         <div class="conf-main-content col-md-9">
-          <div class="conf-steps conf-step-2" :class="{'active': currentStep == 2}">
+          <div class="conf-steps conf-step-2" :class="{'active': currentStepNum == 2}">
             <div class="row p-b-10">
               <div class="entry-content">
                 <div class="car-params">
@@ -151,10 +143,11 @@
               </div>
             </div>
           </div>
-          <div class="conf-steps conf-step-3 p-h-60" :class="{'active': currentStep == 3}">
+          <div class="conf-steps conf-step-3 p-h-60" :class="{'active': currentStepNum == 3}">
             <div>
               <div class="showroom-main m-v-30">
                 <div
+                    id="showroom-item"
                     class="cloudimage-360"
                     data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
                     data-filename="{index}.png"
@@ -162,6 +155,7 @@
                     data-amount="72"
                 ></div>
               </div>
+              <script>window.CI360 = { notInitOnLoad: true }</script>
               <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
               <div class="color-gray-4 text-center">
                 <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
@@ -191,9 +185,13 @@
 
 
             <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="accordion-def-item" v-for="(complectation, key) in selectComplectations" :key="key">
+              <div class="accordion-def-item" 
+                  :class="{'active': complectation.id == selectComplectation.id}"
+                  v-for="(complectation, key) in selectComplectations" :key="key"
+                  @click="selectComplectationAppend(complectation)"
+                  >
                 <div class="title-content">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" :href="'#step-3-complectation-'+key">
+                  <a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" :href="'#step-3-complectation-'+key">
                     <div class="car-params-btn">
                       <div class="flex">
                         <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -209,7 +207,7 @@
                     </div>
                   </a>
                 </div>
-                <div :id="'step-3-complectation-'+key" class="drop-content collapse in" role="tabpanel">
+                <div :id="'step-3-complectation-'+key" class="drop-content collapse" role="tabpanel">
                   <div class="drop-content-body">
                     <ul>
                       <template v-for="(baseOption) in groupOptions">
@@ -245,7 +243,7 @@
             </a>
           </span>
           <span class="btn-def">
-            <a href="javascript:;" currentstep="0" @click="confNextStep">Далее</a>
+            <a href="javascript:;" currentstep="0" @click="progressStepsBar">Далее</a>
           </span>
         </div>
       </div>
@@ -284,13 +282,14 @@ export default {
   filters:{},
   data(){
     return {
-      currentStep: 2,
+      currentStepNum: 2,
       currentComplectation: {},
       currentEngine: {},
       currentTransmission: {},
       currentDrive: {},
       currentGearbox: {},
       selectComplectations: {},
+      selectComplectation: {},
       groupOptions: [],
       carParams: {},
       uniqueParams: {},
@@ -368,11 +367,11 @@ export default {
     // console.log(this.uniqueParams, "s");
 
 
-  this.page.grouped_options.forEach((item)=>{
-    item.options.forEach((option)=>{
-      this.groupOptions.push(option);
-    });
-  })
+    this.page.grouped_options.forEach((item)=>{
+      item.options.forEach((option)=>{
+        this.groupOptions.push(option);
+      });
+    })
 
 
     this.changeCurrentComplectation();
@@ -380,7 +379,6 @@ export default {
   mounted(){
     mainjs();
     this.carParamActive();
-    //console.log(this.currentModelLine, this.currentModel)
     setTimeout(()=>{
       $(".car-params-engine li").eq(0).trigger("click");
     }, 500)
@@ -402,6 +400,28 @@ export default {
         },
         complete: function(response) {}
       });
+    },
+    progressStepsBar(stepNum){
+      console.log(stepNum);
+      if(typeof stepNum == "object")
+        this.currentStepNum++;
+      else{
+        this.currentStepNum = stepNum;
+      }
+      
+      if(this.currentStepNum == 2){
+        const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
+          path: "/full"
+        })
+      }
+      if(this.currentStepNum == 3){
+        this.selectComplectation = this.selectComplectations[0];
+        window.CI360.init();
+      }
+      
+    },
+    async selectComplectationAppend(complectation){
+      this.selectComplectation = complectation;
     },
     async carParamClickEngine(engine, e){
 
@@ -503,18 +523,18 @@ export default {
       this.selectComplectations = set
     },
     confNextStep(){
-      if( this.currentStep == 2 ){
+      this.currentStepNum++;
+      if( this.currentStepNum == 2 ){
         const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
           path: "/full"
         })
       }
-      if( this.currentStep == 2 ){
-        
+      if( this.currentStepNum == 3 ){
+        window.CI360.init();
       }
-      this.currentStep++;
     },
     confPrevStep(){
-      this.currentStep--;
+      this.currentStepNum--;
     }
   }
 }

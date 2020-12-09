@@ -3346,7 +3346,22 @@ ymaps .map-cluster{
 		height: 80vh;
 	}
 }
-
+.check-sel{
+	width: 40px;
+	height: 40px;
+	border: 2px solid currentColor;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+}
+.check-sel-active{
+	background: black url('https://www.kia.ru/images/check.svg') no-repeat center;
+	svg{
+		display: none;
+	}
+}
 .car-params{
 	min-height: 400px;
 	.flex-list{
@@ -3367,16 +3382,14 @@ ymaps .map-cluster{
 			.car-params-btn{
 				border-color: currentColor;
 				background-color: white;
-				.check-sel{
-					background: black url('https://www.kia.ru/images/check.svg') no-repeat center;
-					svg{
-						display: none;
-					}
-				}
+			}
+			.check-sel{
+				@extend .check-sel-active;
 			}
 		}
 	}
 }
+
 .car-params-btn{
 	height: 100px;
 	border: 2px solid transparent;
@@ -3396,16 +3409,7 @@ dl{
 dt{
 	font-weight: inherit;
 }
-.check-sel{
-	width: 40px;
-	height: 40px;
-	border: 2px solid currentColor;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-shrink: 0;
-}
+
 .conf-result-summary{
 	dl{
 		display: flex;
@@ -3427,6 +3431,11 @@ dt{
 		background-color: white;
 		padding-left: 30px;
 		padding-right: 30px;
+		&.active{
+			.check-sel{
+				@extend .check-sel-active;
+			}
+		}
 	}
 	.car-params-btn{
 		width: 100%;
@@ -3453,6 +3462,9 @@ dt{
 			align-items: center;
 		}
 	}	
+}
+.conf-main-content{
+
 }
 
 .conf-steps-modal{

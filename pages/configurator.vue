@@ -34,7 +34,7 @@
     </div>
     <div class="conf-content">
       <div class="container-p">
-        <div class="conf-steps conf-step-1">
+        <div class="conf-steps conf-step-1" :class="{'active': currentStep == 1}">
           <div class="conf-crs m-v-45">
             <div class="owl-carousel owl-btn-2">
               <template v-for="(modelLine) in page.model_lines">
@@ -77,13 +77,13 @@
       <div class="container-p">
         <div class="flex-wrapper">
           <span class="btn-def btn-step-back">
-            <a href="javascript:;" currentstep="0" @click="nextStep" class="flex align-center">
+            <a href="javascript:;" currentstep="0" @click="confPrevStep" class="flex align-center">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
             </a>
           </span>
           <span class="btn-def">
-            <a href="javascript:;" currentstep="0" @click="nextStep">Далее</a>
+            <a href="javascript:;" currentstep="0" @click="confNextStep">Далее</a>
           </span>
         </div>
       </div>
@@ -197,7 +197,7 @@ export default {
 
   },
   methods: {
-    async nextStep(){
+    async confNextStep(){
       console.log(this.selectModelId);
       var modelCode;
       for (let i = 0; i < this.page.model_lines.length; i++) {
@@ -209,6 +209,9 @@ export default {
       this.$router.push({path: "/models/"+modelCode+"/configurator"});
 
       this.currentStep++;
+    },
+    async confPrevStep(){
+      
     }
   }
 }
