@@ -19,13 +19,12 @@ if($_GET['complectations']){
   //}
   $currentComplectation;
 
-  print_r($currentComplectation);
+  //print_r($currentComplectation);
   for ($i=0; $i < count($complectationsId); $i++) { 
     for ($o=0; $o < count($complectationsArr); $o++) { 
       if( $complectationsArr[$o]["id"] == $complectationsId[$i])
         array_push($arr, $complectationsArr[$o]);
     }
   }
-  print_r($arr);
-  //echo $_GET;
+  echo json_encode($arr);
 }

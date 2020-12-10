@@ -3210,6 +3210,9 @@ ymaps .map-cluster{
 		}
 		&.active{
 			border-color: $color-1;
+			&~li{
+				pointer-events: none;
+			}
 			b{
 				color: $color-1;
 			}
@@ -3424,36 +3427,38 @@ dt{
 }
 
 .accordion-def{
+	padding-bottom: 50px;
 	.accordion-def-item{
-		margin-top: 20px;
-		margin-bottom: 20px;
-		border: 2px solid black;
-		background-color: white;
-		padding-left: 30px;
-		padding-right: 30px;
+		border: 2px solid transparent;
 		&.active{
+			border-color: black;
 			.check-sel{
 				@extend .check-sel-active;
+			}
+			.car-params-btn{
+				background-color: white;
+				border-bottom: 1px solid $color-gray-1;
 			}
 		}
 	}
 	.car-params-btn{
 		width: 100%;
 		justify-content: space-between;
-		background-color: white;
-		border-bottom: 1px solid $color-gray-3;
+		background-color: $color-gray-1;
+		border-bottom: 1px solid transparent;
 	}
 	.drop-content{
 		ul{
-			padding-left: 30px;
+			padding-left: 18px;
 		}
 		li{
-			margin-top: 15px;
-			margin-bottom: 15px;
+			margin-top: 20x;
+			margin-bottom: 20px;
 		}
 	}
 	.drop-content-body{
 		padding: 20px 30px;
+		padding-bottom: 35px;
 	}
 	.title-content{
 		a{

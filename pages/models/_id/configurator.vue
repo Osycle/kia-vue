@@ -216,7 +216,12 @@
                         </li>
                       </template>
                     </ul>
-                    <a href="javascript:;" :data-src="'#config-details-'+complectation.id" class="link-btn-1" data-fancybox>Показать всё <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></a>
+                    <a href="javascript:;" 
+                      :data-src="'#config-details-'+complectation.id" 
+                      class="link-btn-1 fw-6 align-center" data-fancybox>
+                      Показать всё 
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -382,26 +387,18 @@ export default {
     setTimeout(()=>{
       $(".car-params-engine li").eq(0).trigger("click");
     }, 500)
-    this.poh()
+    $('*').contents().each(function() {
+      if(this.nodeType === Node.COMMENT_NODE) {
+        if( $(this)[0] == '<!---->'){
+        console.log($(this)[0])
+
+          //$(this).remove();
+        }
+      }
+    });
   },
   methods: {
-    poh(){
-      //complectations[]=9ea73aaa-b670-4db4-ae46-bd005e0a693b&complectations[]=3acca6ca-0db3-4149-a95b-0f5031b6a905
-      var ur = "?complectations[]=9ea73aaa-b670-4db4-ae46-bd005e0a693b&complectations[]=3acca6ca-0db3-4149-a95b-0f5031b6a905"
-      $.ajax({
-        type: "GET",
-        url: "http://kia-api-php/handler.php"+ur,
-        data: {},
-        success: function(response) {
-          console.log(response)
-        },
-        error: function(response) {
-          console.log("%cОшибка ajax", "color:#90AF13;text-transform:uppercase;");
-        },
-        complete: function(response) {}
-      });
-    },
-    progressStepsBar(stepNum){
+    async progressStepsBar(stepNum){
       console.log(stepNum);
       if(typeof stepNum == "object")
         this.currentStepNum++;
@@ -417,6 +414,29 @@ export default {
       if(this.currentStepNum == 3){
         this.selectComplectation = this.selectComplectations[0];
         window.CI360.init();
+        $(".config-details .list-block-body").map((i, el)=>{
+          el = $(el);
+          if(!el.find("li").length)
+            el.closest(".item").remove();
+        })
+        
+        var complectationsIds = this.selectComplectations.map((complectation)=>{
+          return complectation.id;
+        })
+        $.ajax({
+          type: "GET",
+          url: "http://kia-api-php/handler.php",
+          data: {
+            complectations: complectationsIds
+          },
+          success: function(response) {
+            console.log(this, response)
+          },
+          error: function(response) {
+            console.log("%cОшибка ajax", "color:#90AF13;text-transform:uppercase;");
+          },
+          complete: function(response) {}
+        });
       }
       
     },
