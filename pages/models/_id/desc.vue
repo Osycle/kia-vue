@@ -239,10 +239,7 @@
               <ul class="list m-t-10" :color-arr="colorCodeArr = []">
                 <template v-for="(color, key) in page.overviews.colors">
                   <li v-if="!colorCodeArr.filter((e)=>{return e == color.code}).length" :color-num="colorCodeArr.push(color.code)" :key="key">
-                    <a 
-                      :href="'colorcar-'+color.code" 
-                      @click.prevent="showroom.changer(color, page.overviews.complectations)" 
-                      data-toggle="tab">
+                    <a href="javascript:;" @click.prevent="showroom.changer(color, page.overviews.complectations)" >
                       <div class="color-select" :style="'background-image: url('+color.image+')'"></div>
                     </a>
                   </li>

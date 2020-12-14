@@ -146,6 +146,9 @@
           <div class="conf-steps conf-step-3 p-h-60" :class="{'active': currentStepNum == 3}">
             <div>
               <div class="showroom-main m-v-30">
+                <div class="entry-title">
+                  <h3>{{currentModelLine.name}}</h3>
+                </div>
                 <div
                     id="showroom-item"
                     class="cloudimage-360"
@@ -187,25 +190,24 @@
             <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="accordion-def-item" 
                   :class="{'active': complectation.id == selectComplectation.id}"
-                  v-for="(complectation, key) in selectComplectations" :key="key"
-                  @click="selectComplectationAppend(complectation)"
-                  >
+                  v-for="(complectation, key) in selectComplectations" :key="key">
                 <div class="title-content">
-                  <a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" :href="'#step-3-complectation-'+key">
+                  
                     <div class="car-params-btn">
-                      <div class="flex">
+                      <div class="flex" click="selectComplectation" @click="selectComplectationAppend(complectation)" role="button">
                         <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
                         <div class="m-l-15">
                           <b>{{complectation.name}}</b><br>
                           <b>{{complectation.min_price | spaceBetweenNum}} сум</b>
                         </div>
                       </div>
-                      <div class="align-center">
-                        <b>Что включено</b>
-                        <svg class="m-l-15" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg>
-                      </div>
+                      <a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" :href="'#step-3-complectation-'+key">
+                        <div class="align-center">
+                          <b>Что включено</b>
+                          <svg class="m-l-15" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg>
+                        </div>
+                      </a>
                     </div>
-                  </a>
                 </div>
                 <div :id="'step-3-complectation-'+key" class="drop-content collapse" role="tabpanel">
                   <div class="drop-content-body">
@@ -234,6 +236,55 @@
 
 
 
+          </div>
+          <div class="conf-steps conf-step-4 p-h-60" :class="{'active': currentStepNum == 4}">
+            <div>
+              <div class="showroom-main m-v-30">
+                <div class="entry-title">
+                  <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
+                </div>
+                <div
+                    id="showroom-item"
+                    class="cloudimage-360"
+                    data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
+                    data-filename="{index}.png"
+                    data-spin-reverse
+                    data-amount="72"
+                ></div>
+              </div>
+              <script>window.CI360 = { notInitOnLoad: true }</script>
+              <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+              <div class="color-gray-4 text-center">
+                <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
+              </div>
+              <div class="showroom-bottom justify-c-between align-center">
+                <div class="showroom-colorselect">
+                  <div class="title-content">
+                    <span class="color-gray">Цвет:</span> <b >4444</b>
+                  </div>
+                  <ul class="list m-t-10" :color-arr="colorCodeArr = []">
+                    <template v-for="(complectationColorId) in currentComplectation.exterior_colors">
+                      <template v-for="(color, key) in page.exterior_colors">
+                        <li v-if="complectationColorId === color.id" :key="key"
+                            :color-num="colorCodeArr.push(color.code)"
+                            @click.prevent="showroom.changer(color, showroomComplectation.overviews, '.conf-step-4')">
+                          <a>
+                            <div class="color-select" :style="'background-image: url(https://www.kia.ru/static/'+color.image+')'"></div>
+                          </a>
+                        </li>
+                      </template>
+                    </template>
+                  </ul>
+                </div>
+                <span class="btn-def">
+                  <a href="../" class="p-v-20">Конфигуратор</a>	
+                </span>
+              </div>
+            </div>
+
+
+
+ 
           </div>
         </div>
       </div>
@@ -288,6 +339,7 @@ export default {
   data(){
     return {
       currentStepNum: 2,
+      currentModelLine: {},
       currentComplectation: {},
       currentEngine: {},
       currentTransmission: {},
@@ -295,6 +347,8 @@ export default {
       currentGearbox: {},
       selectComplectations: {},
       selectComplectation: {},
+      showroomComplectations: [],
+      showroomComplectation: {},
       groupOptions: [],
       carParams: {},
       uniqueParams: {},
@@ -303,6 +357,25 @@ export default {
         {title: 'Главная',link: '/'},
         {title: 'Конфигуратор',link: '/'},
       ],
+      showroom: {
+        colorName: '',
+        path: '',
+        amount: '',
+        async changer(color, overviews, parentClass){
+          parentClass = parentClass || ".showroom-main";
+          this.colorName = (color.name+" ("+color.code+")");
+          overviews.map((el)=>{
+            if( color.id == el.color_id ){
+              window.CI360.destroy();
+              console.info(el, $(parentClass+" [data-folder]"))
+              $(parentClass+" [data-folder]").attr('data-folder', "https://cdn.kia.ru"+el.path)
+              $(parentClass+" [data-amount]").attr('data-amount', "https://cdn.kia.ru"+el.amount)
+              return
+              window.CI360.init();
+            }
+          }) 
+        }
+      }
     }
   },
   created(){
@@ -399,6 +472,7 @@ export default {
   },
   methods: {
     async progressStepsBar(stepNum){
+      const that = this;
       console.log(stepNum);
       if(typeof stepNum == "object")
         this.currentStepNum++;
@@ -412,37 +486,46 @@ export default {
         })
       }
       if(this.currentStepNum == 3){
+
         this.selectComplectation = this.selectComplectations[0];
+        $(".accordion-def-item [data-toggle='collapse']").eq(0).trigger("click");
+
         window.CI360.init();
+
+        // Чистим аккордеон
         $(".config-details .list-block-body").map((i, el)=>{
           el = $(el);
           if(!el.find("li").length)
             el.closest(".item").remove();
         })
         
+        // Подбираем id полученных комплектации
         var complectationsIds = this.selectComplectations.map((complectation)=>{
           return complectation.id;
         })
-        $.ajax({
-          type: "GET",
-          url: "http://kia-api-php/handler.php",
-          data: {
-            complectations: complectationsIds
-          },
-          success: function(response) {
-            console.log(this, response)
-          },
-          error: function(response) {
-            console.log("%cОшибка ajax", "color:#90AF13;text-transform:uppercase;");
-          },
-          complete: function(response) {}
-        });
+
+        try{
+          that.showroomComplectations = await this.$axios.$get('http://kia-api-php/handler.php', {            
+            params:{
+              complectations: complectationsIds
+            }
+          })
+          this.selectComplectationAppend(this.selectComplectation);
+        }catch(error){
+          console.error(error);
+        }
       }
       
     },
+    /* Текущее выбранная комплектация */
     async selectComplectationAppend(complectation){
       this.selectComplectation = complectation;
+      this.showroomComplectations.forEach((overview)=>{
+        if( overview.id == complectation.id)
+          this.showroomComplectation = overview;
+      })
     },
+    /* Выбор двигателя */
     async carParamClickEngine(engine, e){
 
       this.currentEngine = engine;
@@ -487,9 +570,10 @@ export default {
           }
         })
       })
-
       this.carParamActive();
     },
+    
+    /* Выбор трансмиссии */
     async carParamClickTransmission(thisTransmission){
       this.page.transmissions.forEach((transmission)=>{
         var arr = []
@@ -507,20 +591,21 @@ export default {
       })
       this.carParamActive();
     },
+    /* Выбор привода */
     async carParamClickDrive(drive){
       this.currentDrive = drive;
       this.carParamActive();
     },
     carParamActive(){
       $("[car-param]").removeClass("active");
-
       $("[param-engine-id='"+this.currentEngine.id+"']").addClass("active");
       $("[param-uniq='"+this.currentTransmission.gears_number+this.currentGearbox.code+"']")
-        .closest("li").addClass("active");
-      //console.log(this.curretnDrive);
+        .closest("li")
+        .addClass("active");
       $("[param-drive-id='"+this.currentDrive.id+"']").addClass("active");
       this.changeCurrentComplectation();
     },
+    /* Выбор комплектации */
     changeCurrentComplectation(p){
       var set = []
       set = this.page.complectations.filter((complectation)=>{
@@ -531,11 +616,10 @@ export default {
         if(complectation.engine_id === this.currentEngine.id)
           return complectation;
       })
-      console.info(set, "info");
-      var s = Infinity;
+      var maxNum = Infinity;
       set.filter((complectation)=>{
-        if(complectation.price < s){
-          s = complectation.price;
+        if(complectation.price < maxNum){
+          maxNum = complectation.price;
           this.currentComplectation = complectation;
         }
       })
