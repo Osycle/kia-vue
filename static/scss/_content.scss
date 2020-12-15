@@ -3319,7 +3319,7 @@ ymaps .map-cluster{
 }
 
 .conf-steps{
-	padding-bottom: 60px;
+	padding-bottom: 120px;
 	.entry-content{
 		padding-left: 80px;
 		padding-right: 80px;
@@ -3474,10 +3474,4 @@ dt{
 
 .conf-steps-modal{
 	padding: 50px;
-}
-.conf-steps{
-	display: none;
-	&.active{
-		display: block;
-	}
 }

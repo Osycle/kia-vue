@@ -77,7 +77,8 @@
           </div>
         </div>
         <div class="conf-main-content col-md-9">
-          <div class="conf-steps conf-step-2" :class="{'active': currentStepNum == 2}">
+
+          <div class="conf-steps conf-step-2 active" v-if="currentStepNum == 2">
             <div class="row p-b-10">
               <div class="entry-content">
                 <div class="car-params">
@@ -143,7 +144,8 @@
               </div>
             </div>
           </div>
-          <div class="conf-steps conf-step-3 p-h-60" :class="{'active': currentStepNum == 3}">
+          
+          <div class="conf-steps conf-step-3 p-h-60 active" v-if="currentStepNum == 3">
             <div>
               <div class="showroom-main m-v-30">
                 <div class="entry-title">
@@ -158,13 +160,11 @@
                     data-amount="72"
                 ></div>
               </div>
-              <script>window.CI360 = { notInitOnLoad: true }</script>
               <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
               <div class="color-gray-4 text-center">
                 <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
               </div>
             </div>
-            <!-- config-details modal items -->
             <div class="hide">
               <div class="config-details config-details-modal conf-steps-modal" v-for="(complectation, index) in page.complectations" :key="index" :id="'config-details-'+complectation.id" :config-complectation-id="complectation.id">
                 <section class="item active" v-for="(gOption, key) in page.grouped_options" :key="key">
@@ -185,8 +185,6 @@
                 </section>
               </div>
             </div>
-
-
             <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="accordion-def-item" 
                   :class="{'active': complectation.id == selectComplectation.id}"
@@ -228,16 +226,9 @@
                 </div>
               </div>
             </div>
-
-
-
-
-
-
-
-
           </div>
-          <div class="conf-steps conf-step-4 p-h-60" :class="{'active': currentStepNum == 4}">
+
+          <div class="conf-steps conf-step-4 p-h-60 active" v-if="currentStepNum == 4">
             <div>
               <div class="showroom-main m-v-30">
                 <div class="entry-title">
@@ -252,7 +243,6 @@
                     data-amount="72"
                 ></div>
               </div>
-              <script>window.CI360 = { notInitOnLoad: true }</script>
               <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
               <div class="color-gray-4 text-center">
                 <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
@@ -260,17 +250,18 @@
               <div class="showroom-bottom justify-c-between align-center">
                 <div class="showroom-colorselect">
                   <div class="title-content">
-                    <span class="color-gray">Цвет:</span> <b >4444</b>
+                    <span class="color-gray">Цвет:</span> 
+                    <b>{{showroom.color.name}} ({{showroom.color.code}}), </b>
+                    <b v-if="showroom.color.is_metallic">метталик</b>
+                    <span v-if="showroom.color.price"> + {{showroom.color.price | spaceBetweenNum}} сум</span>
                   </div>
-                  <ul class="list m-t-10" :color-arr="colorCodeArr = []">
+                  <ul class="list m-t-10">
                     <template v-for="(complectationColorId) in currentComplectation.exterior_colors">
                       <template v-for="(color, key) in page.exterior_colors">
-                        <li v-if="complectationColorId === color.id" :key="key"
-                            :color-num="colorCodeArr.push(color.code)"
+                        <li :key="key" role="button"
+                            v-if="complectationColorId === color.id" 
                             @click.prevent="showroom.changer(color, showroomComplectation.overviews, '.conf-step-4')">
-                          <a>
-                            <div class="color-select" :style="'background-image: url(https://www.kia.ru/static/'+color.image+')'"></div>
-                          </a>
+                          <a><div class="color-select" :style="'background-image: url(https://www.kia.ru/static/'+color.image+')'"></div></a>
                         </li>
                       </template>
                     </template>
@@ -286,6 +277,7 @@
 
  
           </div>
+
         </div>
       </div>
     </div>
@@ -293,13 +285,13 @@
       <div class="container-p">
         <div class="flex-wrapper">
           <span class="btn-def btn-step-back">
-            <a href="javascript:;" currentstep="0" @click="confPrevStep" class="flex align-center">
+            <a href="javascript:;" currentstep="0" @click="progressStepsBar('prev')" class="flex align-center">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
             </a>
           </span>
           <span class="btn-def">
-            <a href="javascript:;" currentstep="0" @click="progressStepsBar">Далее</a>
+            <a href="javascript:;" currentstep="0" @click="progressStepsBar('next')">Далее</a>
           </span>
         </div>
       </div>
@@ -358,19 +350,19 @@ export default {
         {title: 'Конфигуратор',link: '/'},
       ],
       showroom: {
+        color: {},
         colorName: '',
         path: '',
         amount: '',
         async changer(color, overviews, parentClass){
+          this.color = color;
           parentClass = parentClass || ".showroom-main";
-          this.colorName = (color.name+" ("+color.code+")");
           overviews.map((el)=>{
             if( color.id == el.color_id ){
               window.CI360.destroy();
               console.info(el, $(parentClass+" [data-folder]"))
               $(parentClass+" [data-folder]").attr('data-folder', "https://cdn.kia.ru"+el.path)
-              $(parentClass+" [data-amount]").attr('data-amount', "https://cdn.kia.ru"+el.amount)
-              return
+              $(parentClass+" [data-amount]").attr('data-amount', el.amount)
               window.CI360.init();
             }
           }) 
@@ -378,88 +370,9 @@ export default {
       }
     }
   },
-  created(){
-    this.currentComplectation = this.page.complectations[0];
-
-    for (let i = 0; i < this.page.transmissions.length; i++) {
-      const transmission = this.page.transmissions[i];
-      if(transmission.id == this.currentComplectation.transmission_id){
-        this.currentTransmission = transmission;
-        break;
-      }
-    }
-    for (let i = 0; i < this.page.engines.length; i++) {
-      const engine = this.page.engines[i];
-      if(engine.id == this.currentComplectation.engine_id){
-        this.currentEngine = engine;
-        break;
-      }
-    }
-    for (let i = 0; i < this.page.gearboxes.length; i++) {
-      const gearbox = this.page.gearboxes[i];
-      if(gearbox.id == this.currentTransmission.gearbox_id){
-        this.currentGearbox = gearbox;
-        break;
-      }
-    }
-    for (let i = 0; i < this.page.drives.length; i++) {
-      const drive = this.page.drives[i];
-      if(drive.id == this.currentTransmission.drive_id){
-        this.currentDrive = drive;
-        break;
-      }
-    }
-
-
-    
-
-
-
-    for (let i = 0; i < this.page.model_list.model_lines.length; i++) {
-      const modelLine = this.page.model_list.model_lines[i];
-      if( modelLine.code === this.$route.params.id )
-        this.currentModelLine = modelLine;
-    }
-    for (let i = 0; i < this.page.model_list.models.length; i++) {
-      const model = this.page.model_list.models[i];
-      if( this.currentModelLine.id === model.model_line_id )
-        this.currentModel = model;
-    }
-
-
-
-    // Уникальные железяки
-
-    const uniqueTransmissions = [];
-    const uniqueEngines = [];
-    const transGear = {};
-    this.page.transmissions.filter(function(el){
-      if( !(typeof transGear[el.gearbox_id+"|"+el.gears_number] == 'string') ){
-        transGear[el.gearbox_id+"|"+el.gears_number] = ""
-        uniqueTransmissions.push(el);
-      }
-    })
-    
-
-    this.uniqueParams.transmissions = uniqueTransmissions
-    // console.log(this.uniqueParams, "s");
-
-
-    this.page.grouped_options.forEach((item)=>{
-      item.options.forEach((option)=>{
-        this.groupOptions.push(option);
-      });
-    })
-
-
-    this.changeCurrentComplectation();
-  },
   mounted(){
     mainjs();
     this.carParamActive();
-    setTimeout(()=>{
-      $(".car-params-engine li").eq(0).trigger("click");
-    }, 500)
     $('*').contents().each(function() {
       if(this.nodeType === Node.COMMENT_NODE) {
         if( $(this)[0] == '<!---->'){
@@ -474,23 +387,40 @@ export default {
     async progressStepsBar(stepNum){
       const that = this;
       console.log(stepNum);
-      if(typeof stepNum == "object")
+      if(stepNum == "next")
         this.currentStepNum++;
-      else{
+      else if(stepNum == "prev"){
+        this.currentStepNum--;
+      }
+      else if(stepNum >= 0){
         this.currentStepNum = stepNum;
       }
-      
+
+      // step 2
       if(this.currentStepNum == 2){
-        const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
-          path: "/full"
-        })
+        if( Object.keys(this.currentEngine).length != 0 ){
+          setTimeout(function(){
+            $(".car-params-engine li").map((i, el)=>{
+              el = $(el);
+              if( el.attr("param-engine-id") === that.currentEngine.id ){
+                el.trigger("click");
+              }
+            })
+          }, 1)
+          return;
+        }
+        this.carParamActive();
+        setTimeout(()=>{
+          $(".car-params-engine li").eq(0).trigger("click");
+        }, 500)
       }
+      // step 3
       if(this.currentStepNum == 3){
 
-        this.selectComplectation = this.selectComplectations[0];
-        $(".accordion-def-item [data-toggle='collapse']").eq(0).trigger("click");
 
-        window.CI360.init();
+        if( Object.keys(this.selectComplectation).length != 0 && $(".conf-step-3 .accordion-def-item").hasClass("active")){
+          return;
+        }
 
         // Чистим аккордеон
         $(".config-details .list-block-body").map((i, el)=>{
@@ -498,6 +428,10 @@ export default {
           if(!el.find("li").length)
             el.closest(".item").remove();
         })
+        this.selectComplectation = this.selectComplectations[0];
+        setTimeout(()=>{
+          $(".conf-step-3").find("[data-toggle='collapse']").eq(0).trigger("click");
+        }, 1)
         
         // Подбираем id полученных комплектации
         var complectationsIds = this.selectComplectations.map((complectation)=>{
@@ -514,6 +448,10 @@ export default {
         }catch(error){
           console.error(error);
         }
+      }
+      // step 4
+      if(this.currentStepNum == 4){
+        $(".conf-step-4 .showroom-colorselect li").eq(0).trigger("click");
       }
       
     },
@@ -626,21 +564,84 @@ export default {
       
       this.selectComplectations = set
     },
-    confNextStep(){
-      this.currentStepNum++;
-      if( this.currentStepNum == 2 ){
-        const modelVideo = this.$axios.$get('http://kia-api-php/handler.php?path=/modifications', {
-          path: "/full"
-        })
-      }
-      if( this.currentStepNum == 3 ){
-        window.CI360.init();
-      }
-    },
     confPrevStep(){
       this.currentStepNum--;
     }
-  }
+  },
+  created(){
+    this.currentComplectation = this.page.complectations[0];
+
+    for (let i = 0; i < this.page.transmissions.length; i++) {
+      const transmission = this.page.transmissions[i];
+      if(transmission.id == this.currentComplectation.transmission_id){
+        this.currentTransmission = transmission;
+        break;
+      }
+    }
+    for (let i = 0; i < this.page.engines.length; i++) {
+      const engine = this.page.engines[i];
+      if(engine.id == this.currentComplectation.engine_id){
+        this.currentEngine = engine;
+        break;
+      }
+    }
+    for (let i = 0; i < this.page.gearboxes.length; i++) {
+      const gearbox = this.page.gearboxes[i];
+      if(gearbox.id == this.currentTransmission.gearbox_id){
+        this.currentGearbox = gearbox;
+        break;
+      }
+    }
+    for (let i = 0; i < this.page.drives.length; i++) {
+      const drive = this.page.drives[i];
+      if(drive.id == this.currentTransmission.drive_id){
+        this.currentDrive = drive;
+        break;
+      }
+    }
+
+
+    
+
+    for (let i = 0; i < this.page.model_list.model_lines.length; i++) {
+      const modelLine = this.page.model_list.model_lines[i];
+      if( modelLine.code === this.$route.params.id )
+        this.currentModelLine = modelLine;
+    }
+    for (let i = 0; i < this.page.model_list.models.length; i++) {
+      const model = this.page.model_list.models[i];
+      if( this.currentModelLine.id === model.model_line_id )
+        this.currentModel = model;
+    }
+
+
+
+    // Уникальные железяки
+
+    const uniqueTransmissions = [];
+    const uniqueEngines = [];
+    const transGear = {};
+    this.page.transmissions.filter(function(el){
+      if( !(typeof transGear[el.gearbox_id+"|"+el.gears_number] == 'string') ){
+        transGear[el.gearbox_id+"|"+el.gears_number] = ""
+        uniqueTransmissions.push(el);
+      }
+    })
+    
+
+    this.uniqueParams.transmissions = uniqueTransmissions
+    // console.log(this.uniqueParams, "s");
+
+
+    this.page.grouped_options.forEach((item)=>{
+      item.options.forEach((option)=>{
+        this.groupOptions.push(option);
+      });
+    })
+
+
+    this.changeCurrentComplectation();
+  },
 }
 
 </script>
