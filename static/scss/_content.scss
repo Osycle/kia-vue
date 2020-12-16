@@ -3324,6 +3324,11 @@ ymaps .map-cluster{
 		padding-left: 80px;
 		padding-right: 80px;
 	}
+	.showroom-main{
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 .wrapper-scroll{
 	overflow-y: auto;
@@ -3335,7 +3340,7 @@ ymaps .map-cluster{
 	left: 0;
 	height: calc(100vh - 60px);
 	.wrapper{
-		padding: 60px 60px 60px 15px;
+		padding: 60px 60px 60px 0;
 		&:before{
 			@extend .clafclear;
 			background-color: $color-gray-2;

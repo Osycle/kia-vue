@@ -78,7 +78,7 @@
         </div>
         <div class="conf-main-content col-md-9">
 
-          <div class="conf-steps conf-step-2 active" v-if="currentStepNum == 2">
+          <div class="conf-steps conf-step-2" v-if="currentStepNum == 2">
             <div class="row p-b-10">
               <div class="entry-content">
                 <div class="car-params">
@@ -145,12 +145,12 @@
             </div>
           </div>
           
-          <div class="conf-steps conf-step-3 p-h-60 active" v-if="currentStepNum == 3">
+          <div class="conf-steps conf-step-3 p-h-60" v-if="currentStepNum == 3">
             <div>
-              <div class="showroom-main m-v-30">
-                <div class="entry-title">
-                  <h3>{{currentModelLine.name}}</h3>
-                </div>
+              <div class="entry-title m-v-30">
+                <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
+              </div>
+              <div class="showroom-main m-v-10">
                 <div
                     id="showroom-item"
                     class="cloudimage-360"
@@ -161,7 +161,7 @@
                 ></div>
               </div>
               <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
-              <div class="color-gray-4 text-center">
+              <div class="color-gray-4 text-center m-b-30">
                 <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
               </div>
             </div>
@@ -184,6 +184,13 @@
                   </div>
                 </section>
               </div>
+            </div>
+            <div class="fw-7 conf-cnt-complectations">
+              <span class="font-size-nm">
+                {{selectComplectations.length}} 
+                <span v-if="selectComplectations.length == 1">комплектация</span> 
+                <span v-else>комплектации</span> 
+              </span>
             </div>
             <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
               <div class="accordion-def-item" 
@@ -228,12 +235,12 @@
             </div>
           </div>
 
-          <div class="conf-steps conf-step-4 p-h-60 active" v-if="currentStepNum == 4">
+          <div class="conf-steps conf-step-4 p-h-60" v-if="currentStepNum == 4">
             <div>
-              <div class="showroom-main m-v-30">
-                <div class="entry-title">
-                  <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
-                </div>
+              <div class="entry-title m-v-30">
+                <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
+              </div>
+              <div class="showroom-main m-v-10">
                 <div
                     id="showroom-item"
                     class="cloudimage-360"
@@ -244,7 +251,7 @@
                 ></div>
               </div>
               <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
-              <div class="color-gray-4 text-center">
+              <div class="color-gray-4 text-center m-b-30">
                 <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
               </div>
               <div class="showroom-bottom justify-c-between align-center">
@@ -259,17 +266,41 @@
                     <template v-for="(complectationColorId) in currentComplectation.exterior_colors">
                       <template v-for="(color, key) in page.exterior_colors">
                         <li :key="key" role="button"
+                            :class="{'active': showroom.color.id == color.id}"
                             v-if="complectationColorId === color.id" 
                             @click.prevent="showroom.changer(color, showroomComplectation.overviews, '.conf-step-4')">
-                          <a><div class="color-select" :style="'background-image: url(https://www.kia.ru/static/'+color.image+')'"></div></a>
+                          <a><div class="color-select" :style="'background-image: url(https://www.kia.ru/static'+color.image+')'"></div></a>
                         </li>
                       </template>
                     </template>
                   </ul>
                 </div>
-                <span class="btn-def">
-                  <a href="../" class="p-v-20">Конфигуратор</a>	
-                </span>
+              </div>
+            </div>
+
+
+
+ 
+          </div>
+
+          <div class="conf-steps conf-step-5 p-h-60" v-if="currentStepNum == 5">
+            <div>
+              <div class="entry-title m-v-30">
+                <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
+              </div>
+              <div class="showroom-main m-v-10">
+                <div
+                    id="showroom-item"
+                    class="cloudimage-360"
+                    data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
+                    data-filename="{index}.png"
+                    data-spin-reverse
+                    data-amount="72"
+                ></div>
+              </div>
+              <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+              <div class="color-gray-4 text-center m-b-30">
+                <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
               </div>
             </div>
 
@@ -285,13 +316,18 @@
       <div class="container-p">
         <div class="flex-wrapper">
           <span class="btn-def btn-step-back">
-            <a href="javascript:;" currentstep="0" @click="progressStepsBar('prev')" class="flex align-center">
+            <nuxt-link to="/configurator" v-if="currentStepNum <= 2" class="flex align-center">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
+              Шаг назад
+            </nuxt-link>
+            <a v-else href="javascript:;"  @click="progressStepsBar('prev')" class="flex align-center">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
             </a>
+
           </span>
           <span class="btn-def">
-            <a href="javascript:;" currentstep="0" @click="progressStepsBar('next')">Далее</a>
+            <a href="javascript:;" @click="progressStepsBar('next')">Далее</a>
           </span>
         </div>
       </div>
@@ -395,7 +431,9 @@ export default {
       else if(stepNum >= 0){
         this.currentStepNum = stepNum;
       }
-
+      if(this.currentStepNum == 1){
+        
+      }
       // step 2
       if(this.currentStepNum == 2){
         if( Object.keys(this.currentEngine).length != 0 ){
@@ -418,7 +456,7 @@ export default {
       if(this.currentStepNum == 3){
 
 
-        if( Object.keys(this.selectComplectation).length != 0 && $(".conf-step-3 .accordion-def-item").hasClass("active")){
+        if( Object.keys(this.selectComplectation).length != 0 && stepNum != "next"){
           return;
         }
 
@@ -451,7 +489,15 @@ export default {
       }
       // step 4
       if(this.currentStepNum == 4){
-        $(".conf-step-4 .showroom-colorselect li").eq(0).trigger("click");
+        setTimeout(()=>{
+          $(".conf-step-4 .showroom-colorselect li").eq(0).trigger("click");
+        }, 700);
+      }
+
+      // step 5
+      if(this.currentStepNum == 5){
+        console.log(this);
+        window.CI360.init();
       }
       
     },
