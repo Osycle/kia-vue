@@ -152,12 +152,12 @@
               </div>
               <div class="showroom-main m-v-10">
                 <div
-                    id="showroom-item"
-                    class="cloudimage-360"
-                    data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
+                    v-if="Object.keys(showroomComplectation).length != 0"
+                    class="cloudimage-360 showroom-item"
+                    :data-folder="'https://cdn.kia.ru'+showroomComplectation.overviews[0].path"
                     data-filename="{index}.png"
                     data-spin-reverse
-                    data-amount="72"
+                    :data-amount="showroomComplectation.overviews[0].amount"
                 ></div>
               </div>
               <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
@@ -242,8 +242,7 @@
               </div>
               <div class="showroom-main m-v-10">
                 <div
-                    id="showroom-item"
-                    class="cloudimage-360"
+                    showroom-item class="cloudimage-360"
                     data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
                     data-filename="{index}.png"
                     data-spin-reverse
@@ -290,8 +289,7 @@
               </div>
               <div class="showroom-main m-v-10">
                 <div
-                    id="showroom-item"
-                    class="cloudimage-360"
+                    showroom-item class="cloudimage-360"
                     data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
                     data-filename="{index}.png"
                     data-spin-reverse
@@ -367,6 +365,7 @@ export default {
   data(){
     return {
       currentStepNum: 2,
+      currentModel: {},
       currentModelLine: {},
       currentComplectation: {},
       currentEngine: {},
@@ -377,6 +376,7 @@ export default {
       selectComplectation: {},
       showroomComplectations: [],
       showroomComplectation: {},
+      selectOverview: {},
       groupOptions: [],
       carParams: {},
       uniqueParams: {},
@@ -391,10 +391,12 @@ export default {
         path: '',
         amount: '',
         async changer(color, overviews, parentClass){
+          console.log(color, overviews, parentClass, "asdasd");
           this.color = color;
           parentClass = parentClass || ".showroom-main";
           overviews.map((el)=>{
             if( color.id == el.color_id ){
+              this.selectOverview = el;
               window.CI360.destroy();
               console.info(el, $(parentClass+" [data-folder]"))
               $(parentClass+" [data-folder]").attr('data-folder', "https://cdn.kia.ru"+el.path)
@@ -477,8 +479,9 @@ export default {
         })
 
         try{
-          that.showroomComplectations = await this.$axios.$get('http://kia-api-php/handler.php', {            
+          that.showroomComplectations = await this.$axios.$get('http://kia-api-php/overviews.php', {
             params:{
+              id: that.currentModel.id,
               complectations: complectationsIds
             }
           })
@@ -497,7 +500,9 @@ export default {
       // step 5
       if(this.currentStepNum == 5){
         console.log(this);
-        window.CI360.init();
+        setTimeout(()=>{
+          window.CI360.init();
+        }, 1);
       }
       
     },
