@@ -235,7 +235,7 @@
             </div>
           </div>
 
-          <div class="conf-steps conf-step-4 p-h-60" v-if="currentStepNum == 4">
+          <div class="conf-steps conf-step-4 p-h-60" v-if="currentStepNum == 4 && status">
             <div>
               <div class="entry-title m-v-30">
                 <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
@@ -264,11 +264,12 @@
                   <ul class="list m-t-10">
                     <template v-for="(complectationColorId) in currentComplectation.exterior_colors">
                       <template v-for="(color, key) in page.exterior_colors">
-                        <li :key="key" role="button"
+                        <!-- {{color + "ОБЕКТ 1"}} -->
+                        <!-- {{showroomComplectation.overviews + "ОБЕКТ 2"}} -->
+                        <li role="button" :key="key"
                             :class="{'active': showroom.color.id == color.id}"
-                            v-if="complectationColorId === color.id" 
-                            @click.prevent="showroom.changer(color, showroomComplectation.overviews, '.conf-step-4')">
-                          <a><div class="color-select" :style="'background-image: url(https://www.kia.ru/static'+color.image+')'"></div></a>
+                            v-if="complectationColorId == color.id" >
+                          <a href="javascript:;" @click="showroom.changer(color, '.conf-step-4')"><div class="color-select" :style="'background-image: url(\'https://www.kia.ru/static'+color.image+'\')'"></div></a>
                         </li>
                       </template>
                     </template>
@@ -276,13 +277,9 @@
                 </div>
               </div>
             </div>
-
-
-
- 
           </div>
 
-          <div class="conf-steps conf-step-5 p-h-60" v-if="currentStepNum == 5">
+          <!-- <div class="conf-steps conf-step-5 p-h-60" v-if="currentStepNum == 5">
             <div>
               <div class="entry-title m-v-30">
                 <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
@@ -301,11 +298,7 @@
                 <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
               </div>
             </div>
-
-
-
- 
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -351,6 +344,7 @@ export default {
   },
   async asyncData(context){
     try{
+      console.log(context);
       const path = context.route.path
       const page = await context.store.dispatch("models/fetchPageData", {
         path: "/models/"+context.route.params.id+"/full"
@@ -372,14 +366,15 @@ export default {
       currentTransmission: {},
       currentDrive: {},
       currentGearbox: {},
+      currentColor: {},
       selectComplectations: {},
       selectComplectation: {},
       showroomComplectations: [],
       showroomComplectation: {},
       selectOverview: {},
       groupOptions: [],
-      carParams: {},
       uniqueParams: {},
+      status: false,
       //groupComplectations: [],
       breadcrumpItems: [
         {title: 'Главная',link: '/'},
@@ -390,13 +385,16 @@ export default {
         colorName: '',
         path: '',
         amount: '',
-        async changer(color, overviews, parentClass){
-          console.log(color, overviews, parentClass, "asdasd");
-          this.color = color;
+        async changer(color, parentClass){
+          console.log("changer Отработал");
+          
           parentClass = parentClass || ".showroom-main";
-          overviews.map((el)=>{
+          console.log(olo);
+          this.showroomComplectation.overviews.map((el)=>{
+            console.log("changer Зашел в map");
             if( color.id == el.color_id ){
               this.selectOverview = el;
+              this.color = color;
               window.CI360.destroy();
               console.info(el, $(parentClass+" [data-folder]"))
               $(parentClass+" [data-folder]").attr('data-folder', "https://cdn.kia.ru"+el.path)
@@ -411,6 +409,8 @@ export default {
   mounted(){
     mainjs();
     this.carParamActive();
+    this.olo = this;
+    console.log(this);
     $('*').contents().each(function() {
       if(this.nodeType === Node.COMMENT_NODE) {
         if( $(this)[0] == '<!---->'){
@@ -424,6 +424,7 @@ export default {
   methods: {
     async progressStepsBar(stepNum){
       const that = this;
+      this.sd = this;
       console.log(stepNum);
       if(stepNum == "next")
         this.currentStepNum++;
@@ -452,12 +453,12 @@ export default {
         this.carParamActive();
         setTimeout(()=>{
           $(".car-params-engine li").eq(0).trigger("click");
-        }, 500)
+        }, 500);
       }
       // step 3
       if(this.currentStepNum == 3){
 
-
+        window.CI360.init();
         if( Object.keys(this.selectComplectation).length != 0 && stepNum != "next"){
           return;
         }
@@ -485,16 +486,29 @@ export default {
               complectations: complectationsIds
             }
           })
-          this.selectComplectationAppend(this.selectComplectation);
+          that.selectComplectationAppend(this.selectComplectation);
+          if(!Object.keys(this.selectOverview).length){
+            console.log(this.showroomComplectation, 'asdasd45d4as5d');
+            this.selectOverview = this.showroomComplectation.overviews[0]
+            console.log(this.selectOverview, 'asdasdsad');
+          }
         }catch(error){
           console.error(error);
         }
       }
       // step 4
       if(this.currentStepNum == 4){
-        setTimeout(()=>{
-          $(".conf-step-4 .showroom-colorselect li").eq(0).trigger("click");
-        }, 700);
+          //console.log(this.selectOverview);
+          //if( Object.keys(this.selectOverview).length == 0 ){
+          // this.selectOverview = overviews[0]
+          //}
+          
+          this.status = true;
+        // setTimeout(()=>{
+        //   setTimeout(()=>{
+        //     $(".conf-step-4 .showroom-colorselect li").eq(0).trigger("click");
+        //   }, 1);
+        // }, 1);
       }
 
       // step 5
@@ -681,7 +695,6 @@ export default {
     
 
     this.uniqueParams.transmissions = uniqueTransmissions
-    // console.log(this.uniqueParams, "s");
 
 
     this.page.grouped_options.forEach((item)=>{
