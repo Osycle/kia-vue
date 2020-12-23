@@ -3480,3 +3480,26 @@ dt{
 .conf-steps-modal{
 	padding: 50px;
 }
+
+
+.summary-conf-id{
+	.wrapper-content{
+		background-color: $color-gray-1;
+		padding: 30px;
+		display: flex;
+		align-items: center;
+	}
+	.summary-conf-id-code{
+		font-size: em(25);
+		font-weight: 700;
+	}
+}
+
+.conf-main[current-step="5"]{
+	.left-bar-def{
+		display: none;
+	}
+	.conf-main-content{
+		width: 100%;
+	}
+}

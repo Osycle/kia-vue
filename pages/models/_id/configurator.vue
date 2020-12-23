@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="conf-main">
+    <div class="conf-main" :current-step="currentStepNum">
       <div class="container-p clearfix">
         <div class="left-bar-def sidebar-wrapper col-md-3">
           <div class="wrapper-scroll">
@@ -280,28 +280,35 @@
               </div>
             </div>
           </template>
-<!-- 
-          <div class="conf-steps conf-step-5 p-h-60" v-if="currentStepNum == 5">
-            <div>
-              <div class="entry-title m-v-30">
-                <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
-              </div>
-              <div class="showroom-main m-v-10">
-                <div
-                    showroom-item class="cloudimage-360"
-                    data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
-                    data-filename="{index}.png"
-                    data-spin-reverse
-                    data-amount="72"
-                ></div>
-              </div>
-              <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
-              <div class="color-gray-4 text-center m-b-30">
-                <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
+          <template v-if="currentStepNum == 5">
+            <div class="conf-steps conf-step-5 p-h-60">
+              <div class="conf-summary">
+                <div class="entry-title m-v-30">
+                  <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
+                </div>
+                <div class="showroom-main m-v-10">
+                  <div
+                      showroom-item class="cloudimage-360"
+                      data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
+                      data-filename="{index}.png"
+                      data-spin-reverse
+                      data-amount="72"
+                  ></div>
+                </div>
+                <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+                <div class="color-gray-4 text-center m-b-30">
+                  <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
+                </div>
+                <div class="summary-conf-id">
+                  <div class="wrapper-content">
+                    <b>ID конфигурации</b>
+                    <div class="summary-conf-id-code">VVA84Y</div>
+                    <svg class="ml-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
+                  </div>
+                </div>
               </div>
             </div>
-          </div> -->
-
+          </template>
         </div>
       </div>
     </div>
@@ -359,9 +366,8 @@ export default {
   filters:{},
   data(){
     return {
-      maix: {},
 
-      currentStepNum: 2,
+      currentStepNum: 5,
       currentModel: {},
       currentModelLine: {},
       currentComplectation: {},
@@ -490,28 +496,20 @@ export default {
       // step 4
       if(this.currentStepNum == 4){
 
-          //console.log(this.selectOverview);
-          if( Object.keys(this.selectOverview).length == 0 ){
-            //this.selectOverview = overviews[0]
-            this.page.exterior_colors.forEach((color)=>{
-              if(color.id == this.selectComplectation.exterior_colors[0]){
-                //this.selectExteriorColor = color;  
-                this.showroomChanger(color, '.conf-step-4');
-              }
-            })
-            
-            
-          }
-        // setTimeout(()=>{
-        //   setTimeout(()=>{
-        //     $(".conf-step-4 .showroom-colorselect li").eq(0).trigger("click");
-        //   }, 1);
-        // }, 1);
+        if( Object.keys(this.selectOverview).length == 0 ){
+          this.page.exterior_colors.forEach((color)=>{
+            if(color.id == this.selectComplectation.exterior_colors[0]){
+              this.showroomChanger(color, '.conf-step-4');
+            }
+          })
+          
+          
+        }
       }
 
       // step 5
       if(this.currentStepNum == 5){
-        console.log(this);
+        console.log(this.selectComplectation, this.selectExteriorColor);
         setTimeout(()=>{
           window.CI360.init();
         }, 1);
@@ -633,7 +631,6 @@ export default {
   },
   created(){
     this.currentComplectation = this.page.complectations[0];
-    this.maix = this;
     for (let i = 0; i < this.page.transmissions.length; i++) {
       const transmission = this.page.transmissions[i];
       if(transmission.id == this.currentComplectation.transmission_id){
