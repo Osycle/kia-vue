@@ -299,12 +299,51 @@
                 <div class="color-gray-4 text-center m-b-30">
                   <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
                 </div>
-                <div class="summary-conf-id">
+                <div class="conf-summary-id">
                   <div class="wrapper-content">
                     <b>ID конфигурации</b>
-                    <div class="summary-conf-id-code">VVA84Y</div>
-                    <svg class="ml-2" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
+                    <div class="conf-summary-id-code m-h-15">VVA84Y</div>
+                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
                   </div>
+                </div>
+                <div class="conf-summary-params">
+                  <div class="wrapper-content">
+                    <div class="item col-md-6">
+                      <div class="fw-6 font-size-nm m-b-20">Двигатель и трансмиссия</div>
+                      <div class="info-content">
+                        <dl><dt>Год производства</dt> <dd>2020</dd></dl> 
+                        <dl><dt>Двигатель</dt> <dd>1.6 MPI / 123 л.с. / Бензин</dd></dl> 
+                        <dl><dt>Коробка передач</dt> <dd>Механика, 6MT</dd></dl> 
+                        <dl><dt>Привод</dt> <dd>Передний</dd></dl>
+                      </div>
+                    </div>
+                    <div class="item col-md-6">
+                      <div class="fw-6 font-size-nm m-b-20">Цвет</div>
+                      <div class="info-content">
+                        <dl>
+                          <dt>Кузов</dt> 
+                          <dd><div class="flex align-center"><span>Clear White (UD)</span> <figure style="background-image: url(&quot;https://cdn.kia.ru/master-data/colors/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg&quot;);"></figure></div></dd>
+                        </dl> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="config-details">
+                  <section class="item active">
+                    <a href=".item" class="title-click" data-toggle="click">Стандартное оборудование<i class="fa fa-angle-up"></i></a>
+                    <div class="section-body">
+                      <div class="section-body-wrapper">
+                        <div class="list-block-body">
+                          <h4>Экстерьер</h4>
+                          <ul>
+                            <li>Передние и задние брызговики</li>
+                            <li>Передние и задние брызговики</li>
+                            <li>Передние и задние брызговики</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
                 </div>
               </div>
             </div>

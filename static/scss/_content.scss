@@ -3482,14 +3482,14 @@ dt{
 }
 
 
-.summary-conf-id{
+.conf-summary-id{
 	.wrapper-content{
 		background-color: $color-gray-1;
 		padding: 30px;
 		display: flex;
 		align-items: center;
 	}
-	.summary-conf-id-code{
+	.conf-summary-id-code{
 		font-size: em(25);
 		font-weight: 700;
 	}
@@ -3501,5 +3501,61 @@ dt{
 	}
 	.conf-main-content{
 		width: 100%;
+	}
+}
+
+.conf-summary-params{
+	.wrapper-content{
+		display: flex;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.item{
+		@media (min-width: 992px){
+			&:nth-child(1){
+				.info-content{
+					border-right: none;
+					position: relative;
+					&:before{
+						content: "";
+						position: absolute;
+						top: 20%;
+						right: 0;
+						height: 60%;
+						width: 1px;
+						background-color: $color-gray-3;
+					}
+				}
+			}
+			&:nth-child(2){
+				.info-content{
+					border-left: none;
+				}
+			}
+		}
+	}
+	.info-content{
+		border: 2px solid black;
+		padding: 30px;
+		@media (min-width: 992px){
+			height: calc(100% - 43px);
+		}
+		figure{
+			flex: 0 0 auto;
+    	display: block;
+    	margin: 0 0 0 10px;
+    	width: 40px;
+    	height: 40px;
+    	background: 50% no-repeat;
+    	background-size: cover;
+    	border-radius: 100%;
+		}
+		dl{
+			display: flex;
+			justify-content: space-between;
+			dd{
+				font-weight: 600;
+			}
+		}
 	}
 }
