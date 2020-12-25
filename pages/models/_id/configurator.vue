@@ -406,7 +406,7 @@ export default {
   data(){
     return {
 
-      currentStepNum: 5,
+      currentStepNum: 2,
       currentModel: {},
       currentModelLine: {},
       currentComplectation: {},
@@ -500,10 +500,6 @@ export default {
       // step 3
       if(this.currentStepNum == 3){
         
-        // if( Object.keys(this.selectComplectation).length != 0 && stepNum != "next"){
-        //   return;
-        // }
-
         // Чистим аккордеон
         $(".config-details .list-block-body").map((i, el)=>{
           el = $(el);
@@ -549,6 +545,27 @@ export default {
       // step 5
       if(this.currentStepNum == 5){
         console.log(this.selectComplectation, this.selectExteriorColor);
+        
+        const modelcode = await this.$axios.$post('http://kia-api-php/configurator.php', {
+
+          complectation: that.selectComplectation,
+          exterior_color: that.selectExteriorColor
+          
+        })
+        console.log(this.selectComplectation.id)
+        var codeComplectation;
+        var codeOverview;
+        for( var code in modelcode.complectations){
+          if(modelcode.complectations[code] == this.selectComplectation.id);
+            codeComplectation = code;
+        }
+        
+        for( var code in modelcode.overviews){
+          if(modelcode.overviews[code] == this.selectExteriorColor.id);
+            codeOverview = code;
+        }
+
+        console.log(codeComplectation, codeOverview);
         setTimeout(()=>{
           window.CI360.init();
         }, 1);
