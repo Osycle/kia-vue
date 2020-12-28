@@ -3489,10 +3489,10 @@ dt{
 		display: flex;
 		align-items: center;
 	}
-	.conf-summary-id-code{
-		font-size: em(25);
-		font-weight: 700;
-	}
+}
+.conf-summary-code{
+	font-size: em(25);
+	font-weight: 700;
 }
 
 .conf-main[current-step="5"]{

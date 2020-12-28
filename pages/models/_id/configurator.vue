@@ -302,7 +302,7 @@
                 <div class="conf-summary-id">
                   <div class="wrapper-content">
                     <b>ID конфигурации</b>
-                    <div class="conf-summary-id-code m-h-15">VVA84Y</div>
+                    <div class="conf-summary-code m-h-15"><u>{{this.summaryCode}}</u></div>
                     <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
                   </div>
                 </div>
@@ -424,8 +424,12 @@ export default {
       showroomComplectations: [],
       showroomComplectation: {},
 
+      summaryCode: "01300O",
+
       groupOptions: [],
       uniqueParams: {},
+
+
       breadcrumpItems: [
         {title: 'Главная',link: '/'},
         {title: 'Конфигуратор',link: '/'},
@@ -435,7 +439,7 @@ export default {
   mounted(){
     mainjs();
     this.carParamActive();
-    console.log(this);
+    this.parseSummaryCode();
     $('*').contents().each(function() {
       if(this.nodeType === Node.COMMENT_NODE) {
         if( $(this)[0] == '<!---->'){
@@ -447,6 +451,29 @@ export default {
     });
   },
   methods: {
+    async parseSummaryCode(){
+      //if()
+      // 01300O
+      const modelcode = await this.$axios.$post('http://kia-api-php/configurator.php')
+      console.log(this.summaryCode, "parseSummaryCode", modelcode);
+
+      var codeComplectation = this.summaryCode.slice(0, 3);
+      var codeOverview = this.summaryCode.slice(3, 6);
+      var codeFull = "";
+      for( var code in modelcode.complectations){
+        if(code == codeComplectation)
+          codeFull += modelcode.complectations[code];
+      }
+      
+      for( var code in modelcode.overviews){
+        if(code == codeOverview)
+          codeFull += modelcode.overviews[code];
+      }
+
+      console.log(codeFull, "codeFull");
+
+
+    },
     async showroomChanger(color, parentClass){
       console.log("changer Отработал");
       
@@ -547,24 +574,22 @@ export default {
         console.log(this.selectComplectation, this.selectExteriorColor);
         
         const modelcode = await this.$axios.$post('http://kia-api-php/configurator.php', {
-
           complectation: that.selectComplectation,
           exterior_color: that.selectExteriorColor
-          
         })
         console.log(this.selectComplectation.id)
         var codeComplectation;
         var codeOverview;
         for( var code in modelcode.complectations){
-          if(modelcode.complectations[code] == this.selectComplectation.id);
+          if(modelcode.complectations[code] == this.selectComplectation.id)
             codeComplectation = code;
         }
         
         for( var code in modelcode.overviews){
-          if(modelcode.overviews[code] == this.selectExteriorColor.id);
+          if(modelcode.overviews[code] == this.selectExteriorColor.id)
             codeOverview = code;
         }
-
+        this.summaryCode = (codeComplectation+codeOverview);
         console.log(codeComplectation, codeOverview);
         setTimeout(()=>{
           window.CI360.init();
