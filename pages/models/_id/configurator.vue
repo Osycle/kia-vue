@@ -424,7 +424,7 @@ export default {
       showroomComplectations: [],
       showroomComplectation: {},
 
-      summaryCode: "01300O",
+      summaryCode: "00Q00J",
 
       groupOptions: [],
       uniqueParams: {},
@@ -439,6 +439,7 @@ export default {
   mounted(){
     mainjs();
     this.carParamActive();
+    
     this.parseSummaryCode();
     $('*').contents().each(function() {
       if(this.nodeType === Node.COMMENT_NODE) {
@@ -451,26 +452,103 @@ export default {
     });
   },
   methods: {
+    featureFill(complectation){
+      this.currentComplectation = complectation;
+
+      for (let i = 0; i < this.page.transmissions.length; i++) {
+        const transmission = this.page.transmissions[i];
+        if(transmission.id == this.currentComplectation.transmission_id){
+          this.currentTransmission = transmission;
+          break;
+        }
+      }
+      for (let i = 0; i < this.page.engines.length; i++) {
+        const engine = this.page.engines[i];
+        if(engine.id == this.currentComplectation.engine_id){
+          this.currentEngine = engine;
+          break;
+        }
+      }
+      for (let i = 0; i < this.page.gearboxes.length; i++) {
+        const gearbox = this.page.gearboxes[i];
+        if(gearbox.id == this.currentTransmission.gearbox_id){
+          this.currentGearbox = gearbox;
+          break;
+        }
+      }
+      for (let i = 0; i < this.page.drives.length; i++) {
+        const drive = this.page.drives[i];
+        if(drive.id == this.currentTransmission.drive_id){
+          this.currentDrive = drive;
+          break;
+        }
+      }
+    },
     async parseSummaryCode(){
       //if()
       // 01300O
+      var that = this;
       const modelcode = await this.$axios.$post('http://kia-api-php/configurator.php')
       console.log(this.summaryCode, "parseSummaryCode", modelcode);
-
+      
       var codeComplectation = this.summaryCode.slice(0, 3);
       var codeOverview = this.summaryCode.slice(3, 6);
-      var codeFull = "";
+      var idComplectation;
+      var idOverview;
+
       for( var code in modelcode.complectations){
         if(code == codeComplectation)
-          codeFull += modelcode.complectations[code];
+          idComplectation = modelcode.complectations[code];
       }
       
       for( var code in modelcode.overviews){
         if(code == codeOverview)
-          codeFull += modelcode.overviews[code];
+          idOverview = modelcode.overviews[code];
       }
 
-      console.log(codeFull, "codeFull");
+      console.log(this.page.complectations);
+
+      var complectation = this.page.complectations.filter((complectation)=>{
+        if( complectation.id == idComplectation){
+          return complectation;
+        }
+      })[0]
+      var exteriorColor = this.page.exterior_colors.filter((overview)=>{
+        if( overview.id == idOverview){
+          return overview;
+        }
+      })[0]
+
+      try{
+        that.showroomComplectations = await this.$axios.$get('http://kia-api-php/overviews.php', {
+          params:{
+            id: that.currentModel.id,
+            complectations: [complectation.id]
+          }
+        })
+        this.showroomComplectation = that.showroomComplectations[0]
+        this.selectOverview = this.showroomComplectation.overviews.filter((overview)=>{
+          if( overview.color_id == idOverview)
+            return overview;
+        })[0]
+        console.log(this.showroomComplectation);
+      }catch(error){
+        console.error(error);
+      }
+
+
+      this.selectExteriorColor = exteriorColor;
+      this.selectComplectation = complectation;
+
+
+
+
+      setTimeout(()=>{
+        this.featureFill(complectation);
+        this.carParamActive();
+        //this.currentStepNum = 3;
+      }, 1000)
+      console.log(complectation, "zzzzzz");
 
 
     },
@@ -708,42 +786,14 @@ export default {
     },
     confPrevStep(){
       this.currentStepNum--;
-    }
+    },
   },
   created(){
-    this.currentComplectation = this.page.complectations[0];
-    for (let i = 0; i < this.page.transmissions.length; i++) {
-      const transmission = this.page.transmissions[i];
-      if(transmission.id == this.currentComplectation.transmission_id){
-        this.currentTransmission = transmission;
-        break;
-      }
-    }
-    for (let i = 0; i < this.page.engines.length; i++) {
-      const engine = this.page.engines[i];
-      if(engine.id == this.currentComplectation.engine_id){
-        this.currentEngine = engine;
-        break;
-      }
-    }
-    for (let i = 0; i < this.page.gearboxes.length; i++) {
-      const gearbox = this.page.gearboxes[i];
-      if(gearbox.id == this.currentTransmission.gearbox_id){
-        this.currentGearbox = gearbox;
-        break;
-      }
-    }
-    for (let i = 0; i < this.page.drives.length; i++) {
-      const drive = this.page.drives[i];
-      if(drive.id == this.currentTransmission.drive_id){
-        this.currentDrive = drive;
-        break;
-      }
-    }
-
-
+    
+    this.featureFill(this.page.complectations[0]);
     
 
+  
     for (let i = 0; i < this.page.model_list.model_lines.length; i++) {
       const modelLine = this.page.model_list.model_lines[i];
       if( modelLine.code === this.$route.params.id )
