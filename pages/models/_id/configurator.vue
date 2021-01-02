@@ -145,7 +145,7 @@
               </div>
             </div>
           </template>
-          <template v-else-if="currentStepNum === 3 && Object.keys(showroomComplectation).length != 0" v-cloak>
+          <template v-else-if="currentStepNum === 3 && Object.keys(showroomComplectation).length != 0">
             <div class="conf-steps conf-step-3 p-h-60">
               <div>
                 <div class="entry-title m-v-30">
@@ -235,7 +235,7 @@
               </div>
             </div>
           </template>
-          <template v-else-if="currentStepNum === 4" v-cloak>
+          <template v-else-if="currentStepNum === 4">
             <div class="conf-steps conf-step-4 p-h-60">
               <div>
                 <div class="entry-title m-v-30">
@@ -288,8 +288,8 @@
                 </div>
                 <div class="showroom-main m-v-10">
                   <div
-                      showroom-item class="cloudimage-360"
-                      data-folder="https://cdn.kia.ru/master-data/overviews//THW5/20192019/D069/UD/"
+                      class="cloudimage-360"
+                      :data-folder="'https://cdn.kia.ru/'+selectOverview.path"
                       data-filename="{index}.png"
                       data-spin-reverse
                       data-amount="72"
@@ -484,9 +484,10 @@ export default {
         }
       }
     },
+
+    // Парс кода конфигуратора
     async parseSummaryCode(){
-      //if()
-      // 01300O
+      
       var that = this;
       const modelcode = await this.$axios.$post('http://kia-api-php/configurator.php')
       console.log(this.summaryCode, "parseSummaryCode", modelcode);
@@ -546,7 +547,7 @@ export default {
       setTimeout(()=>{
         this.featureFill(complectation);
         this.carParamActive();
-        //this.currentStepNum = 3;
+        this.currentStepNum = 5;
       }, 1000)
       console.log(complectation, "zzzzzz");
 
@@ -671,6 +672,7 @@ export default {
         console.log(codeComplectation, codeOverview);
         setTimeout(()=>{
           window.CI360.init();
+          //this.showroomChanger(this.selectExteriorColor, '.conf-step-5');
         }, 1);
       }
       
