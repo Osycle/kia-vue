@@ -280,7 +280,7 @@
               </div>
             </div>
           </template>
-          <template v-if="currentStepNum == 5">
+          <template v-else-if="currentStepNum == 5">
             <div class="conf-steps conf-step-5 p-h-60">
               <div class="conf-summary">
                 <div class="entry-title m-v-30">
@@ -311,10 +311,10 @@
                     <div class="item col-md-6">
                       <div class="fw-6 font-size-nm m-b-20">Двигатель и трансмиссия</div>
                       <div class="info-content">
-                        <dl><dt>Год производства</dt> <dd>2020</dd></dl> 
-                        <dl><dt>Двигатель</dt> <dd>1.6 MPI / 123 л.с. / Бензин</dd></dl> 
-                        <dl><dt>Коробка передач</dt> <dd>Механика, 6MT</dd></dl> 
-                        <dl><dt>Привод</dt> <dd>Передний</dd></dl>
+                        <dl><dt>Год производства</dt> <dd>{{ selectComplectation.year }}</dd></dl> 
+                        <dl><dt>Двигатель</dt> <dd>{{currentEngine.name}} / 123 л.с. / {{currentFuelType.name}}</dd></dl> 
+                        <dl><dt>Коробка передач</dt> <dd>{{currentGearbox.name}}, {{currentTransmission.gears_number}}{{currentGearbox.code}}</dd></dl> 
+                        <dl><dt>Привод</dt> <dd>{{currentDrive.name}}</dd></dl>
                       </div>
                     </div>
                     <div class="item col-md-6">
@@ -322,28 +322,31 @@
                       <div class="info-content">
                         <dl>
                           <dt>Кузов</dt> 
-                          <dd><div class="flex align-center"><span>Clear White (UD)</span> <figure style="background-image: url(&quot;https://cdn.kia.ru/master-data/colors/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg&quot;);"></figure></div></dd>
+                          <dd><div class="flex align-center"><span>{{selectExteriorColor.name}}</span> <figure :style="'background-image: url(https://cdn.kia.ru/'+selectExteriorColor.image+');'"></figure></div></dd>
                         </dl> 
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="config-details">
-                  <section class="item active">
-                    <a href=".item" class="title-click" data-toggle="click">Стандартное оборудование<i class="fa fa-angle-up"></i></a>
+
+                  <section class="item" v-for="(gOption, key) in page.grouped_options" :key="key">
+                    <a href=".item" class="title-click" data-toggle="click">{{gOption.name}}<i class="fa fa-angle-up"></i></a>
                     <div class="section-body">
                       <div class="section-body-wrapper">
                         <div class="list-block-body">
-                          <h4>Экстерьер</h4>
                           <ul>
-                            <li>Передние и задние брызговики</li>
-                            <li>Передние и задние брызговики</li>
-                            <li>Передние и задние брызговики</li>
+                            <template v-for="(complectationOptionId) in selectComplectation.options">
+                              <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
+                                {{option.name}}
+                              </li>
+                            </template>
                           </ul>
                         </div>
                       </div>
                     </div>
                   </section>
+
                 </div>
               </div>
             </div>
@@ -411,6 +414,7 @@ export default {
       currentModelLine: {},
       currentComplectation: {},
       currentEngine: {},
+      currentFuelType: {},
       currentTransmission: {},
       currentDrive: {},
       currentGearbox: {},
@@ -440,7 +444,7 @@ export default {
     mainjs();
     this.carParamActive();
     
-    this.parseSummaryCode();
+    //this.parseSummaryCode();
     $('*').contents().each(function() {
       if(this.nodeType === Node.COMMENT_NODE) {
         if( $(this)[0] == '<!---->'){
@@ -454,7 +458,7 @@ export default {
   methods: {
     featureFill(complectation){
       this.currentComplectation = complectation;
-
+      // transmissions
       for (let i = 0; i < this.page.transmissions.length; i++) {
         const transmission = this.page.transmissions[i];
         if(transmission.id == this.currentComplectation.transmission_id){
@@ -462,6 +466,7 @@ export default {
           break;
         }
       }
+      // engines
       for (let i = 0; i < this.page.engines.length; i++) {
         const engine = this.page.engines[i];
         if(engine.id == this.currentComplectation.engine_id){
@@ -469,6 +474,15 @@ export default {
           break;
         }
       }
+      // fuel type
+      for (let i = 0; i < this.page.fuel_types.length; i++) {
+        const fuelType = this.page.fuel_types[i];
+        if(fuelType.id == this.currentEngine.fuel_type_id){
+          this.currentFuelType = fuelType;
+          break;
+        }
+      }
+      // gearboxes
       for (let i = 0; i < this.page.gearboxes.length; i++) {
         const gearbox = this.page.gearboxes[i];
         if(gearbox.id == this.currentTransmission.gearbox_id){
@@ -476,6 +490,7 @@ export default {
           break;
         }
       }
+      // drives
       for (let i = 0; i < this.page.drives.length; i++) {
         const drive = this.page.drives[i];
         if(drive.id == this.currentTransmission.drive_id){

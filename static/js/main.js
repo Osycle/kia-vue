@@ -379,7 +379,7 @@ export default function(){
 
 
 
-		$('[data-toggle="click"]').on("click", function(e){
+		$(document).on('click', '[data-toggle="click"]', function(e){
 			var that = $(this);
 			e.preventDefault();
 			that.closest(that.attr("href")).toggleClass("active");
