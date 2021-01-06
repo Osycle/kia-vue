@@ -22,9 +22,6 @@
         })
         return crumbs
       }
-    },
-    created(){
-      //console.log(this.$route);
     }
   }
 </script>
