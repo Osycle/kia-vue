@@ -233,14 +233,8 @@
                     <div class="item">
                       <div class="color-gray-4 title-content">KIA в Узбекистане</div>
                       <ul>
-                        <li><a href="../">О нас</a></li>
-                        <li><a href="../">Popup Store</a></li>
-                        <li><a href="../">Социальная ответственность</a></li>
-                        <li><a href="../">Карьера</a></li>
                         <li><a href="../javascirpt:;">Обратная связь</a></li>
                         <li><a href="../dealers.html">Дилеры</a></li>
-                        <li><a href="../">Как стать дилером</a></li>
-                        <li><a href="../">Заказать звонок дилера</a></li>
                       </ul>
                     </div>
                     <div class="item">
@@ -248,15 +242,6 @@
                       <ul>
                         <li><a href="../desing.html">Дизайн</a></li>
                         <li><a href="../concept.html">Концепт-кары</a></li>
-                        <li><a href="../">Технологии</a></li>
-                      </ul>
-                    </div>
-                    <div class="item">
-                      <div class="color-gray-4 title-content">Медиа</div>
-                      <ul>
-                        <li><a href="../news.html">Новости</a></li>
-                        <li><a href="../">Обзоры</a></li>
-                        <li><a href="../">Журнал KIA WAY</a></li>
                       </ul>
                     </div>
                   </div>
