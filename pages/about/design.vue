@@ -1,9 +1,16 @@
 <template>
-  <div>
-
+  <div header-opacity>
     <div class="kiaworld">
       <div class="kiaworld-bnr color-white bg-shadow-none" style="background-image: url('https://www.kia.ru/images/landing/about/design/bg-header.jpg');">
-        <Breadcrump :breadcrumpItems="breadcrumpItems"/>
+        <div class="breadcrumb-container">
+          <div class="container-p">
+            <ol class="breadcrumb">
+              <li><nuxt-link to="/">Главная</nuxt-link></li>
+              <li><nuxt-link to="/about">Мир KIA</nuxt-link></li>
+              <li><nuxt-link to="/about/design">Дизайн</nuxt-link></li>
+            </ol>
+          </div>
+        </div>
         <div class="container-p relative">
           <div class="kiaworld-bnr-header">
             <h1>Дизайн</h1>
@@ -203,7 +210,7 @@
         </div>
         <div class="kiaworld-other-items m-v-30 owl-carousel boxes-3 m-v-30 owl-btn-2">
           <figure>
-            <a href="desing.html">
+            <nuxt-link to="/about/design/">
               <div class="fig-wrapper">
                 <div class="img-content">
                   <div class="img" style="background-image: url('https://www.kia.ru/images/landing/about/img-more-design.jpg');"></div>
@@ -212,10 +219,10 @@
                   <h3>Дизайн</h3>
                 </div>
               </div>
-            </a>
+            </nuxt-link>
           </figure>
           <figure>
-            <a href="concept.html">
+            <nuxt-link to="/about/concept/">
               <div class="fig-wrapper">
                 <div class="img-content">
                   <div class="img" style="background-image: url('https://www.kia.ru/static/media-data/landing/about/brand/menu/img-more-concept.jpg');"></div>
@@ -224,10 +231,10 @@
                   <h3>Концепт-кары</h3>
                 </div>
               </div>
-            </a>
+            </nuxt-link>
           </figure>
-          <figure>
-            <a href="kiaworld-sponsorship.html">
+          <figure>            
+            <nuxt-link to="/about/sponsorship/">
               <div class="fig-wrapper">
                 <div class="img-content">
                   <div class="img" style="background-image: url('https://www.kia.ru/static/media-data/landing/about/brand/menu/img-more-sponsorship.jpg');"></div>
@@ -236,10 +243,10 @@
                   <h3>Спонсорство</h3>
                 </div>
               </div>
-            </a>
+            </nuxt-link>
           </figure>
           <figure>
-            <a href="kiaworld-history.html">
+            <nuxt-link to="/about/history/">
               <div class="fig-wrapper">
                 <div class="img-content">
                   <div class="img" style="background-image: url('https://www.kia.ru/static/media-data/landing/about/brand/menu/img-more-history.jpg');"></div>
@@ -248,7 +255,7 @@
                   <h3>История KIA</h3>
                 </div>
               </div>
-            </a>
+            </nuxt-link>
           </figure>
         </div>
       </div>
@@ -260,16 +267,11 @@
 <script>
 
 import mainjs from '@/static/js/main'
-import Breadcrump from '~/components/Breadcrump.vue';
 
 export default {
   data(){
     return{
-      breadcrumpItems: [
-        {title: 'Главная',link: '/'},
-        {title: 'Мир KIA',link: '/about'},
-        {title: 'Дизайн',link: '/about/design'},
-      ],
+
     }
   },
   head() {
@@ -287,9 +289,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-  .breadcrumb-container{
-    padding-top: 20px;
-  }
-</style>

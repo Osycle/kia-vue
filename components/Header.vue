@@ -223,25 +223,23 @@
                     <div class="item">
                       <div class="color-gray-4 title-content">Бренд KIA</div>
                       <ul>
-                        <li><nuxt-link active-class="active" to="/about/brand/">Компания KIA Motors</nuxt-link></li>
-                        <li><nuxt-link active-class="active" to="/about/history/">История</nuxt-link></li>
-                        <li><nuxt-link active-class="active" to="/about/awards/">Награды</nuxt-link></li>
-                        <li><nuxt-link active-class="active" to="/about/sponsorship/">Спонсорство</nuxt-link></li>
-                        <li><a href="https://www.kia.com/worldwide/main.do">Kia Worldwide</a></li>
+                        <li><nuxt-link to="/about/brand/">Компания KIA Motors</nuxt-link></li>
+                        <li><nuxt-link to="/about/history/">История</nuxt-link></li>
+                        <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="item">
                       <div class="color-gray-4 title-content">KIA в Узбекистане</div>
                       <ul>
                         <li><a href="../javascirpt:;">Обратная связь</a></li>
-                        <li><a href="../dealers.html">Дилеры</a></li>
+                        <li><nuxt-link to="/about/dealers/">Дилеры</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="item">
                       <div class="color-gray-4 title-content">Инновации</div>
                       <ul>
-                        <li><a href="../desing.html">Дизайн</a></li>
-                        <li><a href="../concept.html">Концепт-кары</a></li>
+                        <li><nuxt-link to="/about/design/">Дизайн</nuxt-link></li>
+                        <li><nuxt-link to="/about/concept/">Концепт-кары</nuxt-link></li>
                       </ul>
                     </div>
                   </div>

@@ -1,6 +1,5 @@
 <template>
   <div header-opacity>
-    <!-- kiaworld -->
     <div class="kiaworld">
       <div class="kiaworld-bnr color-white" style="background-image: url('https://www.kia.ru/static/media-data/landing/about/brand/bg-header.jpg');">
         <Breadcrump :breadcrumpItems="breadcrumpItems"/>

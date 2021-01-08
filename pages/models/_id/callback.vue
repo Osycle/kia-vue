@@ -1,0 +1,117 @@
+<template>
+  <div>
+    <div class="breadcrumb-container">
+      <div class="container-p">
+        <ol class="breadcrumb">
+          <li><nuxt-link to="/">Главная</nuxt-link></li>
+          <li><nuxt-link to="/models/">Модели</nuxt-link></li>
+          <li><nuxt-link :to="'/models/'+page.model.code+'/desc'">{{page.model.name}}</nuxt-link></li>
+          <li><nuxt-link :to="'/models/'+page.model.code+'/callback'">Обратный звонок</nuxt-link></li>
+        </ol>
+      </div>
+    </div>
+    <div class="feedback">
+      <div class="container-p">
+        <div class="entry-header m-b-30">
+          <h1 class="	text-x5">Обратный звонок</h1>
+        </div>
+      </div>
+      <div class="feedback-content">
+        <div class="container-p">
+          <div class="flex-wrapper">
+            <div class="col-1 p-v-20">
+              <h3>{{page.model.name}}</h3>
+              <div class="img-content text-center">
+                <img :src="'https://cdn.kia.ru/resize/300x200/'+page.model.image_side_view">
+              </div>
+              <div class="prive-content align-center justify-c-between m-v-20">
+                <span>Стоимость авто</span>
+                <big><b>от {{page.model.min_price | spaceBetweenNum}} сум</b></big>
+              </div>
+            </div>	
+            <div class="col-2 p-v-20">
+              <p>
+                <b>Ваши контакты</b><br>
+                <small class="color-gray">Поля, отмеченные *, обязательны для заполнения</small>
+              </p>
+              <div class="form-content box-md-6">
+                <form>
+                  <div class="input-content m-v-30">
+                    <input type="" name="" placeholder="Имя *"  class="form-control">
+                  </div>
+                  <div class="input-content m-v-30">
+                    <input type="" name="" placeholder="Телефон *"  class="form-control">
+                  </div>
+                  <div class="input-content">
+                    <div class="models-filter m-v-30">
+                      <select class="js-select">
+                        <option value="0">Выберите тип вопроса</option>
+                        <option v-for="(calltype, key) in page.call_types" :key="key" :value="calltype.code">{{calltype.name}}</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="input-content">
+                    <textarea placeholder="Ваш комментарий или вопрос" class="form-control"></textarea>
+                  </div>
+                  <div class="iagree m-v-30">
+                    <label class="flex" role="button">
+                      <input type="checkbox" name="" >
+                      <span class="p-l-20">Отправляя сообщение, я выражаю свое согласие и разрешаю ООО "Roodell", а также, по их поручению, третьим лицам осуществлять обработку моих персональных данных (фамилия, имя, отчество, год, месяц, дата и место рождения; адрес, номер паспорта и сведения о дате выдачи паспорта и выдавшем его органе; образование, профессия, место работы и должность; домашний, рабочий и мобильный телефоны; адрес электронной почты и другие данные, требуемые для отправки сообщения), включая сбор, систематизацию, накопление, хранение, уточнение, использование, распространение (в том числе трансграничную передачу), обезличивание, уничтожение персональных данных), в целях связанных с возможностью предоставления информации о товарах и услугах, которые потенциально могут представлять интерес, а также в целях сбора и обработки статистической информации и проведения маркетинговых исследований. Согласие на обработку персональных данных в соответствии с указанными выше условиями я предоставляю на 10 (десять) лет. Я уведомлен и согласен с тем, что указанное согласие может быть мной отозвано посредством направления письменного заявления заказным почтовым отправлением с описью вложения, либо вручено лично под подпись.</span>
+                    </label>
+                  </div>
+                  <span class="btn-def">
+                    <button type="submit">Отправить заявку</button>
+                  </span>
+                </form>
+              </div>
+            </div>	
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<script>
+
+import mainjs from '@/static/js/main'
+
+export default {
+  data(){
+    return{
+
+    }
+  },
+  async asyncData(context){
+    try{
+      const path = context.route.path
+      const page = await context.store.dispatch("models/fetchPageData", {
+        path
+      })
+      return {page: page.content}
+    }catch(e){
+      context.error(e);
+    }
+  },
+  head() {
+    return {
+      title: this.page.seo.title,
+      meta: [
+        {
+          content: this.page.seo.description
+        }
+      ],
+    }
+  },
+  mounted() {
+    mainjs();
+  },
+}
+</script>
+
+<style lang="scss" scoped>
+  .breadcrumb-container{
+    padding-top: 20px;
+  }
+</style>

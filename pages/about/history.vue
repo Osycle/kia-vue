@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <!-- kiaworld -->
+  <div header-opacity>
     <div class="kiaworld">
       <div class="kiaworld-bnr color-white" style="background-image: url('https://www.kia.ru/images/landing/about/history/bg-header.jpg');">
         <div class="breadcrumb-container">
@@ -20,7 +19,6 @@
         </div>
       </div>
     </div>
-    <!-- kiaworld-history -->
     <div class="kiaworld-history">
       <div class="g-padding p-v-md-80 p-v-30">
         <div class="g-container">
@@ -209,7 +207,6 @@
         </div>
       </div>
     </div>
-    <!-- kiaworld-other -->
     <div class="kiaworld-other">
       <div class="container-p p-v-md-60 p-v-30">
         <div class="entry-header m-v-30">

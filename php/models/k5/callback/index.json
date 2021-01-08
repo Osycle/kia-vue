@@ -1,0 +1,93 @@
+{
+	"error": 0,
+	"content":
+	{
+		"call_types": [
+		{
+			"code": "KiaMobility",
+			"id": "24e61fb3-a975-472f-bc95-c32d18275e14",
+			"name": "Автомобили по подписке KiaMobility",
+			"name_en": "Rent a car KiaMobility"
+		},
+		{
+			"code": "Service",
+			"id": "4abe5572-87a6-4894-b9b1-466f71d6d453",
+			"name": "Сервисное обслуживание (ТО, гарантия, эксплуатация)",
+			"name_en": "Service (maintenance, warranty, operation)"
+		},
+		{
+			"code": "Test drive",
+			"id": "ceea0916-4800-46ce-996f-97caee8977ab",
+			"name": "Прохождение тест-драйва",
+			"name_en": "Test drive passing"
+		},
+		{
+			"code": "Credit",
+			"id": "cba8b02a-0fd1-477a-b9e4-cf1d0707dabe",
+			"name": "Условия кредитования и страхования",
+			"name_en": "Credit and insurance conditions"
+		},
+		{
+			"code": "Vehicle specification",
+			"id": "458950cc-6129-42f5-b521-33d4eba16c07",
+			"name": "Спецификация и стоимость автомобиля KIA",
+			"name_en": "KIA vehicle specification and cost"
+		},
+		{
+			"code": "Spare parts",
+			"id": "de0f3891-bd54-4214-b49a-387499bbf9f8",
+			"name": "Наличие и стоимость запасных частей и аксессуаров KIA",
+			"name_en": "Availability and cost of KIA spare parts and accessories"
+		},
+		{
+			"code": "Vehicle availability",
+			"id": "f336a657-5be0-46a0-9806-517031082e30",
+			"name": "Наличие и процесс поставки автомобиля KIA",
+			"name_en": "KIA vehicle availability and delivery process"
+		},
+		{
+			"code": "Corporate clients",
+			"id": "782c7727-327d-44c9-b212-7ca2260174ce",
+			"name": "Условия для корпоративных клиентов",
+			"name_en": "Conditions for corporate clients"
+		},
+		{
+			"code": "Other",
+			"id": "72b219fe-9a7a-4b35-baaa-ce38daf0a63b",
+			"name": "Другое",
+			"name_en": "Other"
+		}],
+		"model":
+		{
+			"accessory": null,
+			"brochure": "\/master-data\/brochures\/Kia_K5_Preview.pdf",
+			"code": "k5",
+			"external_id": "EXS4",
+			"id": "7dc5ba2d-e214-4746-9e61-6a79812987dd",
+			"image": "\/master-data\/models\/K5_half.png",
+			"image_side_view": "\/master-data\/models\/image_side\/K5.png",
+			"is_coming_soon": 0,
+			"logo_black": "\/master-data\/models\/logo\/k5-logo-black.svg",
+			"logo_white": "\/master-data\/models\/logo\/k5-logo-white.svg",
+			"max_benefit": 40000,
+			"min_credit_price": 7690,
+			"min_price": 1539900,
+			"model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+			"name": "K5",
+			"price": 1579900,
+			"price_list": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf",
+			"unique_id": "EXS420212020"
+		},
+		"agreement":
+		{
+			"id": "122420ea-7d6f-4f4d-881e-5abd7b6c1c5e",
+			"text": "Проставляя отметку, Вы даете согласие на обработку Ваших персональных данных ООО «КМР и СНГ»[1], дилерам KIA[2], а также партнерам ООО «КМР и СНГ» в РФ и за рубежом[3] в соответствии с ФЗ № 152 «О персональных данных» на условиях, #LICENSE#. Настоящим Вы выражаете свое согласие на получение от ООО «КМР и СНГ»[1] и дилеров KIA[2] информационных и рекламных материалов путем осуществления прямых контактов с помощью различных средств связи, включая, но, не ограничиваясь: почтовую рассылку, sms – рассылку, электронную почту, телефон, Интернет."
+		},
+		"disclaimers": [],
+		"seo":
+		{
+			"title": "Модельный ряд KIA – комплектации и цены на новые автомобили КИА 2019\/2020",
+			"description": "Все модели автомобилей KIA в России: субкомпактные и компактные, автомобили бизнес-класса и представительского класса, кроссоверы и внедорожники."
+		}
+	}
+}
