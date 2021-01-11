@@ -522,8 +522,6 @@ export default {
           idOverview = modelcode.overviews[code];
       }
 
-      console.log(this.page.complectations);
-
       var complectation = this.page.complectations.filter((complectation)=>{
         if( complectation.id == idComplectation){
           return complectation;
@@ -557,8 +555,6 @@ export default {
       this.selectComplectation = complectation;
 
 
-
-
       setTimeout(()=>{
         this.featureFill(complectation);
         this.carParamActive();
@@ -568,13 +564,10 @@ export default {
 
 
     },
+    // События Изменение цвета 
     async showroomChanger(color, parentClass){
-      console.log("changer Отработал");
-      
       parentClass = parentClass || ".showroom-main";
-      
       this.showroomComplectation.overviews.map((overview)=>{
-        console.log("changer Зашел в map");
         if( color.id == overview.color_id ){
           this.selectExteriorColor = color;
           this.selectOverview = overview;

@@ -1,4 +1,5 @@
 
+
 export default {
   /*
   ** Nuxt rendering mode
@@ -59,6 +60,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/dotenv'
   ],
   /*
   ** Nuxt.js modules
@@ -66,8 +68,13 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv',
     '@nuxt/http',
   ],
+  env: {
+    NUMBER: '777',
+    exFilesUrl: 'https://cdn.kia.ru/'
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

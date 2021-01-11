@@ -918,13 +918,6 @@ $heightSlider: auto;
 			}	
 		}
 	}
-	.car-card-links{
-		.btn-link-1{
-			&:nth-child(1){
-				display: none;
-			}
-		}
-	}
 }
 .car-card-price{
 	font-size: 15px;
@@ -2272,8 +2265,8 @@ $heightSlider: auto;
 	}
 	&.config-details{
 		margin-top: 320px;
-		padding-left: 440px;
-		padding-right: 50px;
+		padding-left: 70px;
+		padding-right: 70px;
 	}
 }
 .options-recon{
@@ -2286,10 +2279,6 @@ $heightSlider: auto;
 		.config-filter-items{
 			max-height: calc(100vh - 290px);
 		}
-	}
-	&.config-details{
-		padding-left: 440px;
-		padding-right: 50px;
 	}
 	&.options-bnr{
 		//padding-left: 440px;
@@ -2375,18 +2364,17 @@ $heightSlider: auto;
 }
 .options-body{
 	border-top: 1px solid $color-gray-3;
+	//background-color: white;
 	.wrapper{
 		display: flex;
 		.config-content{
-			width: calc(100% - 380px);
-
+			width: calc(100% - 70px);
 		}
 	}
 }
 .config-filter{
 	background-color: $color-gray-2;
-	z-index: 11;
-	width: 340px;
+	z-index: 4;
 	flex-shrink: 0;
 	position: relative;
 	padding: 30px 0;
@@ -2400,7 +2388,11 @@ $heightSlider: auto;
 		width: 1500px;
 	}
 }
-
+.input-clear{
+	position: fixed;
+	bottom: 20px;
+	text-align: center;
+}
 .range-input{
 	.irs-max, .irs-min{
 		display: none;
@@ -2425,7 +2417,8 @@ $heightSlider: auto;
 	max-height: calc(100vh - 170px);
 	overflow-y: auto;
 	overflow-x: hidden;
-	padding-right: 30px;
+	padding-right: 40px;
+	padding-left: 40px;
 	a{
 		display: flex;
 		justify-content: space-between;
@@ -2534,9 +2527,10 @@ $heightSlider: auto;
 		font-weight: 600;
 	}
 }
-
+.config-wrapper{
+	margin-top: 112px;
+}
 .config-details{
-	padding-left: 30px;
 	padding-bottom: 60px;
 	background-color: white;
 	h4{

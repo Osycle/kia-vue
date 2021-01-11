@@ -472,20 +472,20 @@ export default function(){
 		$(window).trigger("scroll");
 
 
-		var optionsRecon = $(".scroll-options-recon");
-		$(window).on("scroll", function(e) {
-			var el = $("#footer");
-			var docViewTop = $(window).scrollTop(),
-				docViewBottom = docViewTop + $(window).height(),
-				elTop = $(el).offset().top,
-				elBottom = elTop + $(el).height() / 1.8;
-			//console.log(elBottom, docViewBottom, elTop, docViewTop);
-			if( scrollTop > 600 && docViewBottom <= elTop){
-				optionsRecon.addClass("options-recon");
-			}else{
-				optionsRecon.removeClass("options-recon");
-			}
-		})
+		// var optionsRecon = $(".scroll-options-recon");
+		// $(window).on("scroll", function(e) {
+		// 	var el = $("#footer");
+		// 	var docViewTop = $(window).scrollTop(),
+		// 		docViewBottom = docViewTop + $(window).height(),
+		// 		elTop = $(el).offset().top,
+		// 		elBottom = elTop + $(el).height();
+		// 	//console.log(elBottom, docViewBottom, elTop, docViewTop);
+		// 	if( scrollTop > 600 && docViewBottom <= elTop){
+		// 		optionsRecon.addClass("options-recon");
+		// 	}else{
+		// 		optionsRecon.removeClass("options-recon");
+		// 	}
+		// })
 		var wheelup = $(".scrolled-up");
 		$(window).on('mousewheel', function(e) {
 			//console.log(e);

@@ -1,0 +1,2864 @@
+{
+	"error": 0,
+	"content":
+	{
+		"model":
+		{
+			"accessory": "\/master-data\/accessories\/R8490AC100Q5.pdf",
+			"brochure": "\/master-data\/brochures\/Kia_Seltos.pdf",
+			"code": "seltos",
+			"external_id": "TH",
+			"id": "3515cd01-a834-4112-89b1-604fcfb6c71e",
+			"image": "\/master-data\/models\/seltos.png",
+			"image_side_view": "\/master-data\/models\/image_side\/seltos.png",
+			"is_coming_soon": 0,
+			"logo_black": "\/master-data\/models\/logo\/seltos-logo-black.svg",
+			"logo_white": "\/master-data\/models\/logo\/seltos-logo-white.svg",
+			"max_benefit": 45000,
+			"min_credit_price": 5670,
+			"min_price": 1134900,
+			"model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+			"name": "Seltos",
+			"price": 1179900,
+			"price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
+			"unique_id": "THW520202020"
+		},
+		"years_price_lists":
+		{
+			"2020": "\/master-data\/pdf\/model\/Seltos.pdf"
+		},
+		"banner":
+		{
+			"bg_color": "red",
+			"bg_images":
+			{
+				"desktop": null,
+				"mobile": null,
+				"retina": null
+			},
+			"description": null,
+			"group_code": "models_seltos_options",
+			"images":
+			{
+				"desktop": "\/media-data\/banners\/models\/seltos\/options\/seltos_options_desktop.png",
+				"mobile": "\/media-data\/banners\/models\/seltos\/options\/seltos_options_mobile.png",
+				"retina": "\/media-data\/banners\/models\/seltos\/options\/seltos_options_desktop.png"
+			},
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"logo":
+			{
+				"image": null,
+				"label": null,
+				"signature": null
+			},
+			"name": "Баннер на странице комплектации и цены Optima",
+			"teasers": [],
+			"title": null,
+			"type_code": "preview",
+			"video": null
+		},
+		"modifications":
+		{
+			"base_prices":
+			{
+				"from": 1179900,
+				"to": 2079900
+			},
+			"complectations": [
+			{
+				"acceleration_to_100": 12.2,
+				"advantage_options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "44c98cc0-3417-4f2e-933a-fc4db09d0f98", "44140984-8606-4aeb-a60f-9928abb52779", "8801a8be-dd81-4dcf-b4f3-ada1b8433b1e"],
+				"base_complectation_id": null,
+				"consumption_per_100": 6.9,
+				"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "CLASSIC",
+				"id": "9ea73aaa-b670-4db4-ae46-bd005e0a693b",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 5670,
+				"min_price": 1134900,
+				"model_year": 2020,
+				"modification_code": "THW5D2617",
+				"modification_id": "b6b4a272-527a-42ee-9b71-bd61317d1ec5",
+				"name": "Classic",
+				"name_en": "Classic",
+				"ocn": "D069",
+				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "2ece2ded-8b38-4904-804e-fa8f721d212f", "28a902ac-4c7d-4208-b76e-7ea48beece55", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "7f34325d-9fc2-447a-b602-1a970d90f27b", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "486233fc-59ed-4e99-a962-c78b31de053c", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1179900,
+				"transmission_id": "f7c81bad-f6e6-474b-9b18-0426325946a1",
+				"unique_id": "THW520202020D2617DD069",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.2,
+				"advantage_options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "76a7a316-195b-4de1-9f89-d15bcea7a340", "3af93114-6d35-4623-b114-d1890c062014", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7"],
+				"base_complectation_id": null,
+				"consumption_per_100": 6.9,
+				"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "COMFORT",
+				"id": "3acca6ca-0db3-4149-a95b-0f5031b6a905",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 6010,
+				"min_price": 1204900,
+				"model_year": 2020,
+				"modification_code": "THW5D2617",
+				"modification_id": "b6b4a272-527a-42ee-9b71-bd61317d1ec5",
+				"name": "Comfort",
+				"name_en": "Comfort",
+				"ocn": "D073",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "2ece2ded-8b38-4904-804e-fa8f721d212f", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "7f34325d-9fc2-447a-b602-1a970d90f27b", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1249900,
+				"transmission_id": "f7c81bad-f6e6-474b-9b18-0426325946a1",
+				"unique_id": "THW520202020D2617DD073",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.3,
+				"advantage_options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "44c98cc0-3417-4f2e-933a-fc4db09d0f98", "44140984-8606-4aeb-a60f-9928abb52779", "8801a8be-dd81-4dcf-b4f3-ada1b8433b1e"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.4,
+				"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "CLASSIC",
+				"id": "4f3f63ce-7721-4075-9c1f-da1a01c995fb",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 5860,
+				"min_price": 1174900,
+				"model_year": 2020,
+				"modification_code": "THW5D261F",
+				"modification_id": "0beb65b8-8dec-4af0-88d2-2106931b90da",
+				"name": "Classic",
+				"name_en": "Classic",
+				"ocn": "D069",
+				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "2ece2ded-8b38-4904-804e-fa8f721d212f", "28a902ac-4c7d-4208-b76e-7ea48beece55", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "7f34325d-9fc2-447a-b602-1a970d90f27b", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "486233fc-59ed-4e99-a962-c78b31de053c", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1219900,
+				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+				"unique_id": "THW520202020D261FDD069",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.3,
+				"advantage_options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "76a7a316-195b-4de1-9f89-d15bcea7a340", "3af93114-6d35-4623-b114-d1890c062014", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.4,
+				"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "COMFORT",
+				"id": "008296be-519c-4f64-a205-3c75a79f23a7",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 6210,
+				"min_price": 1244900,
+				"model_year": 2020,
+				"modification_code": "THW5D261F",
+				"modification_id": "0beb65b8-8dec-4af0-88d2-2106931b90da",
+				"name": "Comfort",
+				"name_en": "Comfort",
+				"ocn": "D075",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "2ece2ded-8b38-4904-804e-fa8f721d212f", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "7f34325d-9fc2-447a-b602-1a970d90f27b", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1289900,
+				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+				"unique_id": "THW520202020D261FDD075",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.3,
+				"advantage_options": ["a742c73a-6059-4e56-9a65-d17ae402dfb7", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "90596dad-b569-4f34-b59d-57a20baa90d7", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.4,
+				"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "LUXE",
+				"id": "3648b119-7ea0-4566-81b2-2c40b1e20aef",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 6760,
+				"min_price": 1354900,
+				"model_year": 2020,
+				"modification_code": "THW5D261F",
+				"modification_id": "0beb65b8-8dec-4af0-88d2-2106931b90da",
+				"name": "Luxe",
+				"name_en": "Luxe",
+				"ocn": "G368",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "a742c73a-6059-4e56-9a65-d17ae402dfb7", "2ece2ded-8b38-4904-804e-fa8f721d212f", "c805fd73-65d9-48d2-9eb5-924ae88db833", "1e1e1f30-a84a-4be9-b687-e164859190e5", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "fb5715ea-c188-4a5e-9225-4923590fbe92", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "90596dad-b569-4f34-b59d-57a20baa90d7", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1399900,
+				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+				"unique_id": "THW520202020D261FGG368",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.3,
+				"advantage_options": ["72002f02-268a-4b30-a0f3-9b119089344c", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "90596dad-b569-4f34-b59d-57a20baa90d7"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.4,
+				"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "STYLE",
+				"id": "2c5dccb3-f15e-4c05-acd4-a3c2134629e3",
+				"interior_colors": ["cae82a1b-5815-4ca2-9b00-ee2bcfd3460b"],
+				"min_credit_amount": 6960,
+				"min_price": 1394900,
+				"model_year": 2020,
+				"modification_code": "THW5D261F",
+				"modification_id": "0beb65b8-8dec-4af0-88d2-2106931b90da",
+				"name": "Style",
+				"name_en": "Style",
+				"ocn": "G422",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "72002f02-268a-4b30-a0f3-9b119089344c", "1802e164-0056-4a53-8b00-213f85bba4ad", "2ece2ded-8b38-4904-804e-fa8f721d212f", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "1e1e1f30-a84a-4be9-b687-e164859190e5", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "fb5715ea-c188-4a5e-9225-4923590fbe92", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "90596dad-b569-4f34-b59d-57a20baa90d7", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 1439900,
+				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+				"unique_id": "THW520202020D261FGG422",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.9,
+				"advantage_options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "76a7a316-195b-4de1-9f89-d15bcea7a340", "3af93114-6d35-4623-b114-d1890c062014", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.8,
+				"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "COMFORT",
+				"id": "814dfd78-6389-4f59-aec7-3d9a1a77e3bc",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 6360,
+				"min_price": 1274900,
+				"model_year": 2020,
+				"modification_code": "THW5D2618",
+				"modification_id": "42e4b3b1-e19b-4891-8944-b8530e774755",
+				"name": "Comfort",
+				"name_en": "Comfort",
+				"ocn": "D074",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "2ece2ded-8b38-4904-804e-fa8f721d212f", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "7f34325d-9fc2-447a-b602-1a970d90f27b", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1319900,
+				"transmission_id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3",
+				"unique_id": "THW520202020D2618DD074",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.9,
+				"advantage_options": ["a742c73a-6059-4e56-9a65-d17ae402dfb7", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "90596dad-b569-4f34-b59d-57a20baa90d7", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.8,
+				"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "LUXE",
+				"id": "439dcce5-4118-4393-a0bf-4140e7a75cbb",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 6960,
+				"min_price": 1394900,
+				"model_year": 2020,
+				"modification_code": "THW5D2618",
+				"modification_id": "42e4b3b1-e19b-4891-8944-b8530e774755",
+				"name": "Luxe",
+				"name_en": "Luxe",
+				"ocn": "G371",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "a742c73a-6059-4e56-9a65-d17ae402dfb7", "2ece2ded-8b38-4904-804e-fa8f721d212f", "c805fd73-65d9-48d2-9eb5-924ae88db833", "1e1e1f30-a84a-4be9-b687-e164859190e5", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "fb5715ea-c188-4a5e-9225-4923590fbe92", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "90596dad-b569-4f34-b59d-57a20baa90d7", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1439900,
+				"transmission_id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3",
+				"unique_id": "THW520202020D2618GG371",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.6,
+				"advantage_options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "76a7a316-195b-4de1-9f89-d15bcea7a340", "3af93114-6d35-4623-b114-d1890c062014", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7"],
+				"base_complectation_id": null,
+				"consumption_per_100": 8,
+				"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "COMFORT",
+				"id": "875db28a-ee52-4bb7-aba2-81b91ea02984",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 6610,
+				"min_price": 1324900,
+				"model_year": 2020,
+				"modification_code": "THW5D261G",
+				"modification_id": "737063f1-5652-4ca0-af85-6dbbf12bcb4c",
+				"name": "Comfort",
+				"name_en": "Comfort",
+				"ocn": "D134",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "2ece2ded-8b38-4904-804e-fa8f721d212f", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "7f34325d-9fc2-447a-b602-1a970d90f27b", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1369900,
+				"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"unique_id": "THW520202020D261GDD134",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.6,
+				"advantage_options": ["a742c73a-6059-4e56-9a65-d17ae402dfb7", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "90596dad-b569-4f34-b59d-57a20baa90d7", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"],
+				"base_complectation_id": null,
+				"consumption_per_100": 8,
+				"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "LUXE",
+				"id": "5a14f255-6b88-49f6-884b-d26aa27afeeb",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 7160,
+				"min_price": 1434900,
+				"model_year": 2020,
+				"modification_code": "THW5D261G",
+				"modification_id": "737063f1-5652-4ca0-af85-6dbbf12bcb4c",
+				"name": "Luxe",
+				"name_en": "Luxe",
+				"ocn": "G461",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "a742c73a-6059-4e56-9a65-d17ae402dfb7", "2ece2ded-8b38-4904-804e-fa8f721d212f", "c805fd73-65d9-48d2-9eb5-924ae88db833", "1e1e1f30-a84a-4be9-b687-e164859190e5", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "fb5715ea-c188-4a5e-9225-4923590fbe92", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "90596dad-b569-4f34-b59d-57a20baa90d7", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1479900,
+				"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"unique_id": "THW520202020D261GGG461",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.6,
+				"advantage_options": ["72002f02-268a-4b30-a0f3-9b119089344c", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "90596dad-b569-4f34-b59d-57a20baa90d7"],
+				"base_complectation_id": null,
+				"consumption_per_100": 8,
+				"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "STYLE",
+				"id": "d5cc7d64-5db7-488d-9399-0ea628507aa8",
+				"interior_colors": ["cae82a1b-5815-4ca2-9b00-ee2bcfd3460b"],
+				"min_credit_amount": 7360,
+				"min_price": 1474900,
+				"model_year": 2020,
+				"modification_code": "THW5D261G",
+				"modification_id": "737063f1-5652-4ca0-af85-6dbbf12bcb4c",
+				"name": "Style",
+				"name_en": "Style",
+				"ocn": "G441",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "72002f02-268a-4b30-a0f3-9b119089344c", "1802e164-0056-4a53-8b00-213f85bba4ad", "2ece2ded-8b38-4904-804e-fa8f721d212f", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "1e1e1f30-a84a-4be9-b687-e164859190e5", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "fb5715ea-c188-4a5e-9225-4923590fbe92", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "90596dad-b569-4f34-b59d-57a20baa90d7", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 1519900,
+				"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"unique_id": "THW520202020D261GGG441",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 12.6,
+				"advantage_options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
+				"base_complectation_id": null,
+				"consumption_per_100": 8,
+				"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "d014cc71-0410-49c7-806e-ef940eea2ffc", "8bca6033-8a1c-4fb2-86c6-17badabced85", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "96c0a8c8-c293-400a-9f28-ae7c101440ac", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "PRESTIGE",
+				"id": "6e985191-1656-4d73-87ac-8fc49a319a61",
+				"interior_colors": ["d69acc7e-c755-4fa0-94e3-5eca4020fd8a"],
+				"min_credit_amount": 7010,
+				"min_price": 1604900,
+				"model_year": 2020,
+				"modification_code": "THW5D261G",
+				"modification_id": "737063f1-5652-4ca0-af85-6dbbf12bcb4c",
+				"name": "Prestige",
+				"name_en": "Prestige",
+				"ocn": "G194",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "b913fb68-795a-4e24-845e-a518cbd82a54", "1802e164-0056-4a53-8b00-213f85bba4ad", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "749900c0-a16f-4db3-ac1f-7770f9f56fe5", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "1e1e1f30-a84a-4be9-b687-e164859190e5", "b52051b3-32a7-4bb0-958c-7db1301b0e44", "3af93114-6d35-4623-b114-d1890c062014", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "d314c083-c1f4-4100-8984-b64448a4613f", "fb5715ea-c188-4a5e-9225-4923590fbe92", "6e57ac33-c034-41fa-9edc-ce93408c5528", "821537e9-3901-4fc8-b9d5-9232fcd0e772", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "1d20faf0-0a7f-4b4d-9816-01d3e846c405", "46b241ea-492d-46d6-ab8b-2fb847121587", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 1649900,
+				"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"unique_id": "THW520202020D261GGG194",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 9.6,
+				"advantage_options": ["a742c73a-6059-4e56-9a65-d17ae402dfb7", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "90596dad-b569-4f34-b59d-57a20baa90d7", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"],
+				"base_complectation_id": null,
+				"consumption_per_100": 6.8,
+				"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "209938ed-171f-404c-8e74-75f76907225f", "b137d001-169e-42c9-ba72-797e8262c82d", "0d2e2289-e975-4b5a-a7e2-7876ad2edf56", "d014cc71-0410-49c7-806e-ef940eea2ffc", "96e40eb5-9bea-49a6-9273-38fdd8f1a398", "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a", "27b380f5-62bd-4c46-ae58-c0b8f528c40a", "c2884aab-45bf-4576-b9ba-22e23da17129", "03531178-ae44-4318-a4e6-32aeb415cd4f", "e5094c34-9d95-4e67-b78a-ec53588fb01f", "f2703162-c445-4812-9506-64972a2604b7", "6eb4524d-05a2-46ca-ac6f-993a4600a51b", "0bf9f742-677b-4db9-86a5-a30bab9e2829"],
+				"external_name": "LUXE",
+				"id": "54ff7d06-ab5c-495c-81ed-76011f97dd2c",
+				"interior_colors": ["bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc"],
+				"min_credit_amount": 6960,
+				"min_price": 1394900,
+				"model_year": 2020,
+				"modification_code": "THW52G61V",
+				"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
+				"name": "Luxe",
+				"name_en": "Luxe",
+				"ocn": "G368",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "a742c73a-6059-4e56-9a65-d17ae402dfb7", "2ece2ded-8b38-4904-804e-fa8f721d212f", "c805fd73-65d9-48d2-9eb5-924ae88db833", "bd616cf4-675e-4657-9fc4-5564d7101d60", "1e1e1f30-a84a-4be9-b687-e164859190e5", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "fb5715ea-c188-4a5e-9225-4923590fbe92", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "90596dad-b569-4f34-b59d-57a20baa90d7", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"],
+				"price": 1439900,
+				"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+				"unique_id": "THW5202020202G61VGG368",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 9.6,
+				"advantage_options": ["72002f02-268a-4b30-a0f3-9b119089344c", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "90596dad-b569-4f34-b59d-57a20baa90d7"],
+				"base_complectation_id": null,
+				"consumption_per_100": 6.8,
+				"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "209938ed-171f-404c-8e74-75f76907225f", "b137d001-169e-42c9-ba72-797e8262c82d", "0d2e2289-e975-4b5a-a7e2-7876ad2edf56", "d014cc71-0410-49c7-806e-ef940eea2ffc", "96e40eb5-9bea-49a6-9273-38fdd8f1a398", "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a", "27b380f5-62bd-4c46-ae58-c0b8f528c40a", "c2884aab-45bf-4576-b9ba-22e23da17129", "03531178-ae44-4318-a4e6-32aeb415cd4f", "e5094c34-9d95-4e67-b78a-ec53588fb01f", "f2703162-c445-4812-9506-64972a2604b7", "6eb4524d-05a2-46ca-ac6f-993a4600a51b", "0bf9f742-677b-4db9-86a5-a30bab9e2829"],
+				"external_name": "STYLE",
+				"id": "3411d0ee-a003-4efd-bcb0-d1b63acba6ac",
+				"interior_colors": ["cae82a1b-5815-4ca2-9b00-ee2bcfd3460b"],
+				"min_credit_amount": 7160,
+				"min_price": 1434900,
+				"model_year": 2020,
+				"modification_code": "THW52G61V",
+				"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
+				"name": "Style",
+				"name_en": "Style",
+				"ocn": "G422",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "72002f02-268a-4b30-a0f3-9b119089344c", "1802e164-0056-4a53-8b00-213f85bba4ad", "2ece2ded-8b38-4904-804e-fa8f721d212f", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "bd616cf4-675e-4657-9fc4-5564d7101d60", "1e1e1f30-a84a-4be9-b687-e164859190e5", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "fb5715ea-c188-4a5e-9225-4923590fbe92", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "90596dad-b569-4f34-b59d-57a20baa90d7", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 1479900,
+				"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+				"unique_id": "THW5202020202G61VGG422",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 9.6,
+				"advantage_options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
+				"base_complectation_id": null,
+				"consumption_per_100": 6.8,
+				"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "209938ed-171f-404c-8e74-75f76907225f", "b137d001-169e-42c9-ba72-797e8262c82d", "0d2e2289-e975-4b5a-a7e2-7876ad2edf56", "d014cc71-0410-49c7-806e-ef940eea2ffc", "96e40eb5-9bea-49a6-9273-38fdd8f1a398", "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a", "27b380f5-62bd-4c46-ae58-c0b8f528c40a", "c2884aab-45bf-4576-b9ba-22e23da17129", "03531178-ae44-4318-a4e6-32aeb415cd4f", "e5094c34-9d95-4e67-b78a-ec53588fb01f", "f2703162-c445-4812-9506-64972a2604b7", "6eb4524d-05a2-46ca-ac6f-993a4600a51b", "0bf9f742-677b-4db9-86a5-a30bab9e2829"],
+				"external_name": "PRESTIGE",
+				"id": "5e39a2d0-5bd0-4a76-86a3-30d186bef99d",
+				"interior_colors": ["d69acc7e-c755-4fa0-94e3-5eca4020fd8a"],
+				"min_credit_amount": 7810,
+				"min_price": 1564900,
+				"model_year": 2020,
+				"modification_code": "THW52G61V",
+				"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
+				"name": "Prestige",
+				"name_en": "Prestige",
+				"ocn": "G193",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "b913fb68-795a-4e24-845e-a518cbd82a54", "1802e164-0056-4a53-8b00-213f85bba4ad", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "749900c0-a16f-4db3-ac1f-7770f9f56fe5", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "bd616cf4-675e-4657-9fc4-5564d7101d60", "1e1e1f30-a84a-4be9-b687-e164859190e5", "b52051b3-32a7-4bb0-958c-7db1301b0e44", "3af93114-6d35-4623-b114-d1890c062014", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "d314c083-c1f4-4100-8984-b64448a4613f", "fb5715ea-c188-4a5e-9225-4923590fbe92", "6e57ac33-c034-41fa-9edc-ce93408c5528", "821537e9-3901-4fc8-b9d5-9232fcd0e772", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "1d20faf0-0a7f-4b4d-9816-01d3e846c405", "46b241ea-492d-46d6-ab8b-2fb847121587", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 1609900,
+				"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+				"unique_id": "THW5202020202G61VGG193",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 10.4,
+				"advantage_options": ["72002f02-268a-4b30-a0f3-9b119089344c", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "90596dad-b569-4f34-b59d-57a20baa90d7"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.3,
+				"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "209938ed-171f-404c-8e74-75f76907225f", "b137d001-169e-42c9-ba72-797e8262c82d", "0d2e2289-e975-4b5a-a7e2-7876ad2edf56", "d014cc71-0410-49c7-806e-ef940eea2ffc", "96e40eb5-9bea-49a6-9273-38fdd8f1a398", "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a", "27b380f5-62bd-4c46-ae58-c0b8f528c40a", "c2884aab-45bf-4576-b9ba-22e23da17129", "03531178-ae44-4318-a4e6-32aeb415cd4f", "e5094c34-9d95-4e67-b78a-ec53588fb01f", "f2703162-c445-4812-9506-64972a2604b7", "6eb4524d-05a2-46ca-ac6f-993a4600a51b", "0bf9f742-677b-4db9-86a5-a30bab9e2829"],
+				"external_name": "STYLE",
+				"id": "108ca427-10bd-4d0e-aeb2-af1d80bbbefe",
+				"interior_colors": ["cae82a1b-5815-4ca2-9b00-ee2bcfd3460b"],
+				"min_credit_amount": 7560,
+				"min_price": 1514900,
+				"model_year": 2020,
+				"modification_code": "THW52G61Q",
+				"modification_id": "b20c8243-c029-4ecd-84c3-c868b32c0a4b",
+				"name": "Style",
+				"name_en": "Style",
+				"ocn": "G421",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "72002f02-268a-4b30-a0f3-9b119089344c", "1802e164-0056-4a53-8b00-213f85bba4ad", "2ece2ded-8b38-4904-804e-fa8f721d212f", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "bd616cf4-675e-4657-9fc4-5564d7101d60", "1e1e1f30-a84a-4be9-b687-e164859190e5", "28a902ac-4c7d-4208-b76e-7ea48beece55", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "fb5715ea-c188-4a5e-9225-4923590fbe92", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "90596dad-b569-4f34-b59d-57a20baa90d7", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 1559900,
+				"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257",
+				"unique_id": "THW5202020202G61QGG421",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 10.4,
+				"advantage_options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.3,
+				"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "209938ed-171f-404c-8e74-75f76907225f", "b137d001-169e-42c9-ba72-797e8262c82d", "0d2e2289-e975-4b5a-a7e2-7876ad2edf56", "d014cc71-0410-49c7-806e-ef940eea2ffc", "96e40eb5-9bea-49a6-9273-38fdd8f1a398", "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a", "27b380f5-62bd-4c46-ae58-c0b8f528c40a", "c2884aab-45bf-4576-b9ba-22e23da17129", "03531178-ae44-4318-a4e6-32aeb415cd4f", "e5094c34-9d95-4e67-b78a-ec53588fb01f", "f2703162-c445-4812-9506-64972a2604b7", "6eb4524d-05a2-46ca-ac6f-993a4600a51b", "0bf9f742-677b-4db9-86a5-a30bab9e2829"],
+				"external_name": "PRESTIGE",
+				"id": "92a97455-ad9b-4ce7-a9a4-64e8cd971413",
+				"interior_colors": ["d69acc7e-c755-4fa0-94e3-5eca4020fd8a"],
+				"min_credit_amount": 8210,
+				"min_price": 1644900,
+				"model_year": 2020,
+				"modification_code": "THW52G61Q",
+				"modification_id": "b20c8243-c029-4ecd-84c3-c868b32c0a4b",
+				"name": "Prestige",
+				"name_en": "Prestige",
+				"ocn": "G195",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "b913fb68-795a-4e24-845e-a518cbd82a54", "1802e164-0056-4a53-8b00-213f85bba4ad", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "749900c0-a16f-4db3-ac1f-7770f9f56fe5", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "bd616cf4-675e-4657-9fc4-5564d7101d60", "1e1e1f30-a84a-4be9-b687-e164859190e5", "b52051b3-32a7-4bb0-958c-7db1301b0e44", "3af93114-6d35-4623-b114-d1890c062014", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "d314c083-c1f4-4100-8984-b64448a4613f", "fb5715ea-c188-4a5e-9225-4923590fbe92", "6e57ac33-c034-41fa-9edc-ce93408c5528", "821537e9-3901-4fc8-b9d5-9232fcd0e772", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "1d20faf0-0a7f-4b4d-9816-01d3e846c405", "46b241ea-492d-46d6-ab8b-2fb847121587", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 1689900,
+				"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257",
+				"unique_id": "THW5202020202G61QGG195",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 10.4,
+				"advantage_options": ["72002f02-268a-4b30-a0f3-9b119089344c", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9", "2814d7c0-ade7-4b0e-86a4-26509dc65c63"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.3,
+				"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "209938ed-171f-404c-8e74-75f76907225f", "b137d001-169e-42c9-ba72-797e8262c82d", "0d2e2289-e975-4b5a-a7e2-7876ad2edf56", "d014cc71-0410-49c7-806e-ef940eea2ffc", "96e40eb5-9bea-49a6-9273-38fdd8f1a398", "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a", "27b380f5-62bd-4c46-ae58-c0b8f528c40a", "c2884aab-45bf-4576-b9ba-22e23da17129", "03531178-ae44-4318-a4e6-32aeb415cd4f", "e5094c34-9d95-4e67-b78a-ec53588fb01f", "f2703162-c445-4812-9506-64972a2604b7", "6eb4524d-05a2-46ca-ac6f-993a4600a51b", "0bf9f742-677b-4db9-86a5-a30bab9e2829"],
+				"external_name": "PREMIUM",
+				"id": "4f0d42cc-98f8-4b21-9a9d-0887b81e4295",
+				"interior_colors": ["82edc531-8701-44bd-9f4b-55dda4095bb9"],
+				"min_credit_amount": 9260,
+				"min_price": 1854900,
+				"model_year": 2020,
+				"modification_code": "THW52G61Q",
+				"modification_id": "b20c8243-c029-4ecd-84c3-c868b32c0a4b",
+				"name": "Premium",
+				"name_en": "Premium",
+				"ocn": "G420",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "294d3083-38ca-4c8c-89cb-518c33eb3ffd", "72002f02-268a-4b30-a0f3-9b119089344c", "1802e164-0056-4a53-8b00-213f85bba4ad", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "749900c0-a16f-4db3-ac1f-7770f9f56fe5", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "bd616cf4-675e-4657-9fc4-5564d7101d60", "1e1e1f30-a84a-4be9-b687-e164859190e5", "3a077530-46a3-47cc-855f-da57ecc6ec6e", "3af93114-6d35-4623-b114-d1890c062014", "5a21f9ec-76f0-49e4-8cb1-fe18bafbdcd5", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "d314c083-c1f4-4100-8984-b64448a4613f", "b5169497-1b04-43fc-9b72-e8f26c89940c", "fb5715ea-c188-4a5e-9225-4923590fbe92", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "6e57ac33-c034-41fa-9edc-ce93408c5528", "821537e9-3901-4fc8-b9d5-9232fcd0e772", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "1d20faf0-0a7f-4b4d-9816-01d3e846c405", "46b241ea-492d-46d6-ab8b-2fb847121587", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "a54c609d-ed05-4201-9e2d-f4279280b2bc", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "77256777-677e-4640-ba1d-2a0159387b3c", "159d923b-c6eb-414d-b661-d786e8848e45", "74096779-44bc-4c75-a9b4-4e304d40a407", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "b76b2bc1-343f-4982-85ae-956637101548", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1", "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14", "5853b815-f266-4d68-b888-02e6a897a452", "fdd88786-9079-42e3-8034-7407edb54e9c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 1899900,
+				"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257",
+				"unique_id": "THW5202020202G61QGG420",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 8.4,
+				"advantage_options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.6,
+				"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "209938ed-171f-404c-8e74-75f76907225f", "b137d001-169e-42c9-ba72-797e8262c82d", "0d2e2289-e975-4b5a-a7e2-7876ad2edf56", "d014cc71-0410-49c7-806e-ef940eea2ffc", "96e40eb5-9bea-49a6-9273-38fdd8f1a398", "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a", "27b380f5-62bd-4c46-ae58-c0b8f528c40a", "c2884aab-45bf-4576-b9ba-22e23da17129", "03531178-ae44-4318-a4e6-32aeb415cd4f", "e5094c34-9d95-4e67-b78a-ec53588fb01f", "f2703162-c445-4812-9506-64972a2604b7", "6eb4524d-05a2-46ca-ac6f-993a4600a51b", "0bf9f742-677b-4db9-86a5-a30bab9e2829"],
+				"external_name": "PRESTIGE",
+				"id": "1a14e464-0531-4bdf-80ba-ced0daedae07",
+				"interior_colors": ["d69acc7e-c755-4fa0-94e3-5eca4020fd8a"],
+				"min_credit_amount": 9010,
+				"min_price": 1804900,
+				"model_year": 2020,
+				"modification_code": "THW5D2G1X",
+				"modification_id": "d5e4b241-a920-478e-8438-0be919a01868",
+				"name": "Prestige",
+				"name_en": "Prestige",
+				"ocn": "G195",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "b913fb68-795a-4e24-845e-a518cbd82a54", "1802e164-0056-4a53-8b00-213f85bba4ad", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "749900c0-a16f-4db3-ac1f-7770f9f56fe5", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "bd616cf4-675e-4657-9fc4-5564d7101d60", "1e1e1f30-a84a-4be9-b687-e164859190e5", "b52051b3-32a7-4bb0-958c-7db1301b0e44", "3af93114-6d35-4623-b114-d1890c062014", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "d314c083-c1f4-4100-8984-b64448a4613f", "fb5715ea-c188-4a5e-9225-4923590fbe92", "6e57ac33-c034-41fa-9edc-ce93408c5528", "821537e9-3901-4fc8-b9d5-9232fcd0e772", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "1d20faf0-0a7f-4b4d-9816-01d3e846c405", "46b241ea-492d-46d6-ab8b-2fb847121587", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14", "5853b815-f266-4d68-b888-02e6a897a452", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 1849900,
+				"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69",
+				"unique_id": "THW520202020D2G1XGG195",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 8.4,
+				"advantage_options": ["72002f02-268a-4b30-a0f3-9b119089344c", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1", "2814d7c0-ade7-4b0e-86a4-26509dc65c63"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.6,
+				"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "209938ed-171f-404c-8e74-75f76907225f", "b137d001-169e-42c9-ba72-797e8262c82d", "0d2e2289-e975-4b5a-a7e2-7876ad2edf56", "d014cc71-0410-49c7-806e-ef940eea2ffc", "96e40eb5-9bea-49a6-9273-38fdd8f1a398", "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a", "27b380f5-62bd-4c46-ae58-c0b8f528c40a", "c2884aab-45bf-4576-b9ba-22e23da17129", "03531178-ae44-4318-a4e6-32aeb415cd4f", "e5094c34-9d95-4e67-b78a-ec53588fb01f", "f2703162-c445-4812-9506-64972a2604b7", "6eb4524d-05a2-46ca-ac6f-993a4600a51b", "0bf9f742-677b-4db9-86a5-a30bab9e2829"],
+				"external_name": "PREMIUM",
+				"id": "d93dbbd2-5093-49ac-a931-6ec63cc53b3f",
+				"interior_colors": ["82edc531-8701-44bd-9f4b-55dda4095bb9"],
+				"min_credit_amount": 10050,
+				"min_price": 2014900,
+				"model_year": 2020,
+				"modification_code": "THW5D2G1X",
+				"modification_id": "d5e4b241-a920-478e-8438-0be919a01868",
+				"name": "Premium",
+				"name_en": "Premium",
+				"ocn": "G420",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "294d3083-38ca-4c8c-89cb-518c33eb3ffd", "72002f02-268a-4b30-a0f3-9b119089344c", "1802e164-0056-4a53-8b00-213f85bba4ad", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "749900c0-a16f-4db3-ac1f-7770f9f56fe5", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "bd616cf4-675e-4657-9fc4-5564d7101d60", "1e1e1f30-a84a-4be9-b687-e164859190e5", "3a077530-46a3-47cc-855f-da57ecc6ec6e", "3af93114-6d35-4623-b114-d1890c062014", "5a21f9ec-76f0-49e4-8cb1-fe18bafbdcd5", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "d314c083-c1f4-4100-8984-b64448a4613f", "b5169497-1b04-43fc-9b72-e8f26c89940c", "fb5715ea-c188-4a5e-9225-4923590fbe92", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "6e57ac33-c034-41fa-9edc-ce93408c5528", "821537e9-3901-4fc8-b9d5-9232fcd0e772", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "1d20faf0-0a7f-4b4d-9816-01d3e846c405", "46b241ea-492d-46d6-ab8b-2fb847121587", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "a54c609d-ed05-4201-9e2d-f4279280b2bc", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "77256777-677e-4640-ba1d-2a0159387b3c", "159d923b-c6eb-414d-b661-d786e8848e45", "74096779-44bc-4c75-a9b4-4e304d40a407", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "b76b2bc1-343f-4982-85ae-956637101548", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1", "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14", "5853b815-f266-4d68-b888-02e6a897a452", "fdd88786-9079-42e3-8034-7407edb54e9c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674", "c21ae727-8e6f-49a7-af17-1b040e774b7a"],
+				"price": 2059900,
+				"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69",
+				"unique_id": "THW520202020D2G1XGG420",
+				"year": 2020
+			},
+			{
+				"acceleration_to_100": 8.4,
+				"advantage_options": ["72002f02-268a-4b30-a0f3-9b119089344c", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1", "2814d7c0-ade7-4b0e-86a4-26509dc65c63"],
+				"base_complectation_id": null,
+				"consumption_per_100": 7.6,
+				"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+				"exterior_colors": ["7854a364-8310-417b-9e7c-f35ee2f09b30", "209938ed-171f-404c-8e74-75f76907225f", "b137d001-169e-42c9-ba72-797e8262c82d", "0d2e2289-e975-4b5a-a7e2-7876ad2edf56", "d014cc71-0410-49c7-806e-ef940eea2ffc", "96e40eb5-9bea-49a6-9273-38fdd8f1a398", "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a", "27b380f5-62bd-4c46-ae58-c0b8f528c40a"],
+				"external_name": "PREMIUM+",
+				"id": "949372a9-7227-450f-a9ee-dbc894d62567",
+				"interior_colors": ["82edc531-8701-44bd-9f4b-55dda4095bb9"],
+				"min_credit_amount": 10150,
+				"min_price": 2034900,
+				"model_year": 2020,
+				"modification_code": "THW5D2G1X",
+				"modification_id": "d5e4b241-a920-478e-8438-0be919a01868",
+				"name": "Premium+",
+				"name_en": "Premium+",
+				"ocn": "G290",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "294d3083-38ca-4c8c-89cb-518c33eb3ffd", "72002f02-268a-4b30-a0f3-9b119089344c", "1802e164-0056-4a53-8b00-213f85bba4ad", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "749900c0-a16f-4db3-ac1f-7770f9f56fe5", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "c81f947f-07ed-49d0-96f3-b6023cac9d32", "1e1e1f30-a84a-4be9-b687-e164859190e5", "3a077530-46a3-47cc-855f-da57ecc6ec6e", "3af93114-6d35-4623-b114-d1890c062014", "5a21f9ec-76f0-49e4-8cb1-fe18bafbdcd5", "8ba99a70-d9d2-4acb-a694-b7b3048a1d46", "d314c083-c1f4-4100-8984-b64448a4613f", "b5169497-1b04-43fc-9b72-e8f26c89940c", "fb5715ea-c188-4a5e-9225-4923590fbe92", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "6e57ac33-c034-41fa-9edc-ce93408c5528", "821537e9-3901-4fc8-b9d5-9232fcd0e772", "e1389b9c-0784-4656-a9f0-db83bd5d9421", "2574e2c0-0c51-429c-903c-b249b23dfcf9", "497e49d4-666d-4344-bbe8-b2b2f4817a7a", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "1d20faf0-0a7f-4b4d-9816-01d3e846c405", "46b241ea-492d-46d6-ab8b-2fb847121587", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "a54c609d-ed05-4201-9e2d-f4279280b2bc", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "77256777-677e-4640-ba1d-2a0159387b3c", "159d923b-c6eb-414d-b661-d786e8848e45", "74096779-44bc-4c75-a9b4-4e304d40a407", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "b76b2bc1-343f-4982-85ae-956637101548", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1", "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14", "5853b815-f266-4d68-b888-02e6a897a452", "fdd88786-9079-42e3-8034-7407edb54e9c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7", "486233fc-59ed-4e99-a962-c78b31de053c", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "0b222232-edfb-415e-b5f8-c694924aa674"],
+				"price": 2079900,
+				"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69",
+				"unique_id": "THW520202020D2G1XGG290",
+				"year": 2020
+			}],
+			"drives": [
+			{
+				"code": "FWD",
+				"id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"name": "Передний",
+				"name_en": "Front-wheel drive",
+				"sort": 500
+			},
+			{
+				"code": "4WD",
+				"id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"name": "Полный",
+				"name_en": "All-wheel drive",
+				"sort": 300
+			}],
+			"engine_types": [
+			{
+				"id": "efbafa4f-3f6e-4c36-9e7d-7532de739180",
+				"name": "MPI",
+				"sort": null
+			},
+			{
+				"id": "7fd1a66b-80e5-4db5-97c4-ec2e6f16ed89",
+				"name": "T-GDI",
+				"sort": null
+			}],
+			"engines": [
+			{
+				"engine_torque": "151",
+				"engine_type_id": "efbafa4f-3f6e-4c36-9e7d-7532de739180",
+				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+				"name": "1.6 MPI",
+				"name_en": null,
+				"power_hp": "123",
+				"power_rpm": "6300",
+				"volume": "1.6"
+			},
+			{
+				"engine_torque": "180",
+				"engine_type_id": "efbafa4f-3f6e-4c36-9e7d-7532de739180",
+				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+				"name": "2.0 MPI",
+				"name_en": null,
+				"power_hp": "149",
+				"power_rpm": "6200",
+				"volume": "2.0"
+			},
+			{
+				"engine_torque": "265",
+				"engine_type_id": "7fd1a66b-80e5-4db5-97c4-ec2e6f16ed89",
+				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+				"name": "1.6 T-GDI",
+				"name_en": null,
+				"power_hp": "177",
+				"power_rpm": "5500",
+				"volume": "1.6"
+			},
+			{
+				"engine_torque": "148",
+				"engine_type_id": "efbafa4f-3f6e-4c36-9e7d-7532de739180",
+				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+				"name": "1.6 MPI",
+				"name_en": null,
+				"power_hp": "121",
+				"power_rpm": "6200",
+				"volume": "1.6"
+			}],
+			"exterior_colors": [
+			{
+				"code": "UD",
+				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"is_double_color": false,
+				"is_metallic": false,
+				"name": "Clear White",
+				"name_en": "Clear White",
+				"price": null,
+				"sort": 6200
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": 10000,
+				"sort": 6100
+			},
+			{
+				"code": "4SS",
+				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Silky Silver",
+				"name_en": "Silky Silver",
+				"price": 10000,
+				"sort": 5300
+			},
+			{
+				"code": "KDG",
+				"id": "209938ed-171f-404c-8e74-75f76907225f",
+				"image": "\/master-data\/colors\/f0193540-687d-4474-8db2-43c0801bb0c3.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Gravity Gray",
+				"name_en": "Gravity Gray",
+				"price": 10000,
+				"sort": 3700
+			},
+			{
+				"code": "KLG",
+				"id": "b137d001-169e-42c9-ba72-797e8262c82d",
+				"image": "\/master-data\/colors\/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Steel Gray",
+				"name_en": "Steel Gray",
+				"price": 10000,
+				"sort": 3600
+			},
+			{
+				"code": "B4Y",
+				"id": "0d2e2289-e975-4b5a-a7e2-7876ad2edf56",
+				"image": "\/master-data\/colors\/B4Y.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Stargright Yellow",
+				"name_en": "Stargright Yellow",
+				"price": 10000,
+				"sort": 3550
+			},
+			{
+				"code": "B3A",
+				"id": "d014cc71-0410-49c7-806e-ef940eea2ffc",
+				"image": "\/master-data\/colors\/d850fd73-31fb-4508-b26b-5cd100939e74.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Neptune Blue",
+				"name_en": "Neptune Blue",
+				"price": 10000,
+				"sort": 3500
+			},
+			{
+				"code": "CR5",
+				"id": "8bca6033-8a1c-4fb2-86c6-17badabced85",
+				"image": "\/master-data\/colors\/660c3a6d-69b3-4b03-a996-b8cd9d951fbc.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Runway Red",
+				"name_en": "Runway Red",
+				"price": 10000,
+				"sort": 3400
+			},
+			{
+				"code": "M3R",
+				"id": "96e40eb5-9bea-49a6-9273-38fdd8f1a398",
+				"image": "\/master-data\/colors\/e24a69f7-32a0-432c-a848-c01d023281cd.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Mars Orange",
+				"name_en": "Mars Orange",
+				"price": 10000,
+				"sort": 3300
+			},
+			{
+				"code": "B4U",
+				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Gravity Blue",
+				"name_en": "Gravity Blue",
+				"price": 10000,
+				"sort": 2500
+			},
+			{
+				"code": "BU3",
+				"id": "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a",
+				"image": "\/master-data\/colors\/BU3.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Dark Ocean Blue",
+				"name_en": "Dark Ocean Blue",
+				"price": 10000,
+				"sort": 2450
+			},
+			{
+				"code": "K3G",
+				"id": "96c0a8c8-c293-400a-9f28-ae7c101440ac",
+				"image": "\/master-data\/colors\/4c44e3c6-c375-4e2a-9a88-c58bf5790c16.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Glittering Metal",
+				"name_en": "Glittering Metal",
+				"price": 10000,
+				"sort": 2300
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": 10000,
+				"sort": 950
+			},
+			{
+				"code": "9H",
+				"id": "27b380f5-62bd-4c46-ae58-c0b8f528c40a",
+				"image": "\/master-data\/colors\/bc555e24-fa5d-45a8-8020-2a6225e76fc0.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Cherry Black",
+				"name_en": "Cherry Black",
+				"price": 10000,
+				"sort": 900
+			},
+			{
+				"code": "GA6",
+				"id": "c2884aab-45bf-4576-b9ba-22e23da17129",
+				"image": "\/master-data\/colors\/3ebff914-a151-4f63-9f9b-d5f422692fc0.svg",
+				"is_double_color": true,
+				"is_metallic": true,
+				"name": "Starbright Yellow \/ Clear White",
+				"name_en": "Starbright Yellow \/ Clear White",
+				"price": 20000,
+				"sort": 600
+			},
+			{
+				"code": "GA7",
+				"id": "03531178-ae44-4318-a4e6-32aeb415cd4f",
+				"image": "\/master-data\/colors\/6a094b2e-993a-415f-bc14-c4fa7b4bc132.svg",
+				"is_double_color": true,
+				"is_metallic": true,
+				"name": "Starbright Yellow \/ Cherry Black",
+				"name_en": "Starbright Yellow \/ Cherry Black",
+				"price": 20000,
+				"sort": 550
+			},
+			{
+				"code": "SE1",
+				"id": "e5094c34-9d95-4e67-b78a-ec53588fb01f",
+				"image": "\/master-data\/colors\/afe82e9b-eca9-4b02-acb7-d50f44b959b2.svg",
+				"is_double_color": true,
+				"is_metallic": true,
+				"name": "Gravity Gray \/ Platinum Gold",
+				"name_en": "Gravity Gray \/ Platinum Gold",
+				"price": 20000,
+				"sort": 525
+			},
+			{
+				"code": "GA4",
+				"id": "f2703162-c445-4812-9506-64972a2604b7",
+				"image": "\/master-data\/colors\/3fe5fffa-3bd8-4301-8f23-e710f02540a2.svg",
+				"is_double_color": true,
+				"is_metallic": true,
+				"name": "Dark Ocean Blue \/ Clear White",
+				"name_en": "Dark Ocean Blue \/ Clear White",
+				"price": 20000,
+				"sort": 500
+			},
+			{
+				"code": "GA5",
+				"id": "6eb4524d-05a2-46ca-ac6f-993a4600a51b",
+				"image": "\/master-data\/colors\/361992a7-8b6b-4200-92db-ed167a3a2eb6.svg",
+				"is_double_color": true,
+				"is_metallic": true,
+				"name": "Dark Ocean Blue \/ Cherry Black",
+				"name_en": "Dark Ocean Blue \/ Cherry Black",
+				"price": 20000,
+				"sort": 450
+			},
+			{
+				"code": "GA3",
+				"id": "0bf9f742-677b-4db9-86a5-a30bab9e2829",
+				"image": "\/master-data\/colors\/8798dc64-afab-4afe-9207-720ce7651053.svg",
+				"is_double_color": true,
+				"is_metallic": true,
+				"name": "Mars Orange \/ Clear White",
+				"name_en": "Mars Orange \/ Clear White",
+				"price": 20000,
+				"sort": 150
+			}],
+			"fuel_types": [
+			{
+				"id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"name": "Бензин",
+				"name_en": "Petrol",
+				"sort": null
+			}],
+			"gearboxes": [
+			{
+				"code": "MT",
+				"id": "861522b8-995c-4204-8bb7-3638b829a5f0",
+				"name": "Механика",
+				"name_en": "Mechanics",
+				"sort": 500
+			},
+			{
+				"code": "AT",
+				"id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
+				"name": "Автомат",
+				"name_en": "Automatic",
+				"sort": 400
+			},
+			{
+				"code": "DCT",
+				"id": "50b4e48e-81c8-488b-9a1a-296786f6fc74",
+				"name": "Робот",
+				"name_en": "Robot",
+				"sort": 300
+			},
+			{
+				"code": "IVT",
+				"id": "0187d564-de16-440d-bf05-ad7b53ba4652",
+				"name": "Вариатор",
+				"name_en": "Variator",
+				"sort": 300
+			}],
+			"grouped_options": [
+			{
+				"name": "Пакет \"Теплые опции\"",
+				"options": [
+				{
+					"id": "20edd792-c345-46e5-aa94-c3582e0d519d",
+					"name": "Подогрев передних сидений",
+					"sort": 400
+				},
+				{
+					"id": "ecc3f7a5-db63-4198-98d8-ed74a6402047",
+					"name": "Подогрев задних сидений",
+					"sort": 500
+				},
+				{
+					"id": "8e287a59-a6c8-4a46-bb83-b956869e2b90",
+					"name": "Подогрев рулевого колеса",
+					"sort": 500
+				},
+				{
+					"id": "df0a6ec9-18d7-4481-9d61-5abf89db70f0",
+					"name": "Электрообогрев ветрового стекла",
+					"sort": 500
+				},
+				{
+					"id": "d129184e-c14b-4658-89e7-bb79aaa4bc9c",
+					"name": "Подогрев форсунок стеклоомывателя",
+					"sort": 500
+				},
+				{
+					"id": "c8170134-afd7-4067-b8e2-f014933629eb",
+					"name": "Боковые зеркала заднего вида с электроприводом и подогревом",
+					"sort": 500
+				},
+				{
+					"id": "294d3083-38ca-4c8c-89cb-518c33eb3ffd",
+					"name": "Воздуховоды для задних пассажиров в центральной консоли",
+					"sort": 500
+				}],
+				"sort": 1300
+			},
+			{
+				"name": "Экстерьер",
+				"options": [
+				{
+					"id": "76a7a316-195b-4de1-9f89-d15bcea7a340",
+					"name": "Стальные диски 16\"с шинами 205\/60 R16",
+					"sort": 500
+				},
+				{
+					"id": "a742c73a-6059-4e56-9a65-d17ae402dfb7",
+					"name": "Легкосплавные диски 16\" с шинами 205\/60 R16",
+					"sort": 500
+				},
+				{
+					"id": "b913fb68-795a-4e24-845e-a518cbd82a54",
+					"name": "Легкосплавные диски 17\" с шинами 215\/55 R17",
+					"sort": 500
+				},
+				{
+					"id": "72002f02-268a-4b30-a0f3-9b119089344c",
+					"name": "Легкосплавные диски 18\" с шинами 235\/45 R18",
+					"sort": 500
+				},
+				{
+					"id": "1802e164-0056-4a53-8b00-213f85bba4ad",
+					"name": "Решетка радиатора с черными глянцевыми вставками",
+					"sort": 500
+				},
+				{
+					"id": "2879a3e5-ff60-4e30-8923-5eb628c88c58",
+					"name": "Внешние дверные ручки с отделкой хромом",
+					"sort": 500
+				},
+				{
+					"id": "2ece2ded-8b38-4904-804e-fa8f721d212f",
+					"name": "Галогенные фары проекционного типа",
+					"sort": 500
+				},
+				{
+					"id": "749900c0-a16f-4db3-ac1f-7770f9f56fe5",
+					"name": "Светодиодные (LED) фары",
+					"sort": 500
+				},
+				{
+					"id": "83df224d-d805-4eba-a8ee-8e0ac96f2b94",
+					"name": "Светодиодные дневные ходовые огни (LED DRL)",
+					"sort": 500
+				},
+				{
+					"id": "c805fd73-65d9-48d2-9eb5-924ae88db833",
+					"name": "Противотуманные фары",
+					"sort": 500
+				},
+				{
+					"id": "2ddbf2d6-81c9-498f-8898-060a73dadd8e",
+					"name": "Светодиодные (LED) противотуманные фары",
+					"sort": 500
+				},
+				{
+					"id": "dda59a4f-7499-4c0b-a655-fee7f755e2cd",
+					"name": "Светодиодные (LED) задние фонари",
+					"sort": 500
+				},
+				{
+					"id": "21d64663-7ab0-4587-a593-055f9fbf2494",
+					"name": "Светодиодные (LED) габаритные огни",
+					"sort": 500
+				},
+				{
+					"id": "c81f947f-07ed-49d0-96f3-b6023cac9d32",
+					"name": "Люк с электроприводом",
+					"sort": 500
+				},
+				{
+					"id": "bd616cf4-675e-4657-9fc4-5564d7101d60",
+					"name": "Двухцветная окраска кузова (опционально)",
+					"sort": 500
+				},
+				{
+					"id": "1e1e1f30-a84a-4be9-b687-e164859190e5",
+					"name": "Рейлинги на крыше",
+					"sort": 500
+				}],
+				"sort": 1200
+			},
+			{
+				"name": "Интерьер",
+				"options": [
+				{
+					"id": "28a902ac-4c7d-4208-b76e-7ea48beece55",
+					"name": "Вставки серого цвета",
+					"sort": 500
+				},
+				{
+					"id": "b52051b3-32a7-4bb0-958c-7db1301b0e44",
+					"name": "Вставки из черного глянца с принтом",
+					"sort": 500
+				},
+				{
+					"id": "3a077530-46a3-47cc-855f-da57ecc6ec6e",
+					"name": "Вставки с имитацией прострочки",
+					"sort": 500
+				},
+				{
+					"id": "3af93114-6d35-4623-b114-d1890c062014",
+					"name": "Рулевое колесо и ручка селектора трансмиссии с отделкой кожей",
+					"sort": 500
+				},
+				{
+					"id": "690d98a7-d4d6-4da3-a9f8-f59653b5e57a",
+					"name": "Сиденья с отделкой тканью",
+					"sort": 500
+				},
+				{
+					"id": "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9",
+					"name": "Сиденья с комбинированной отделкой ткань + эко кожа",
+					"sort": 500
+				},
+				{
+					"id": "5a21f9ec-76f0-49e4-8cb1-fe18bafbdcd5",
+					"name": "Сиденья с отделкой эко кожей",
+					"sort": 500
+				},
+				{
+					"id": "8ba99a70-d9d2-4acb-a694-b7b3048a1d46",
+					"name": "Полка багажного отделения",
+					"sort": 500
+				},
+				{
+					"id": "d314c083-c1f4-4100-8984-b64448a4613f",
+					"name": "Светодиодная (LED) подсветка салона",
+					"sort": 500
+				},
+				{
+					"id": "b5169497-1b04-43fc-9b72-e8f26c89940c",
+					"name": "Декоративная подсветка интерьера Mood Lamp",
+					"sort": 500
+				}],
+				"sort": 1100
+			},
+			{
+				"name": "Комфорт",
+				"options": [
+				{
+					"id": "fb5715ea-c188-4a5e-9225-4923590fbe92",
+					"name": "Датчик света",
+					"sort": 500
+				},
+				{
+					"id": "760f7792-c8e7-4daf-9e94-b140bfaf91ec",
+					"name": "Датчик дождя",
+					"sort": 500
+				},
+				{
+					"id": "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d",
+					"name": "Вентиляция передних сидений",
+					"sort": 500
+				},
+				{
+					"id": "cf530c4e-801b-4b6d-b8c1-e24d34463871",
+					"name": "Электропривод регулировок передних сидений",
+					"sort": 500
+				},
+				{
+					"id": "6e57ac33-c034-41fa-9edc-ce93408c5528",
+					"name": "Регулируемый центральный подлокотник",
+					"sort": 500
+				},
+				{
+					"id": "821537e9-3901-4fc8-b9d5-9232fcd0e772",
+					"name": "Задний подлокотник с подстаканниками",
+					"sort": 500
+				},
+				{
+					"id": "e1389b9c-0784-4656-a9f0-db83bd5d9421",
+					"name": "Бескаркасные стеклоочистители \"Aero Blade\"",
+					"sort": 500
+				},
+				{
+					"id": "2574e2c0-0c51-429c-903c-b249b23dfcf9",
+					"name": "Стеклоподъемник водителя с функцией Auto (вверх\/вниз)",
+					"sort": 500
+				},
+				{
+					"id": "497e49d4-666d-4344-bbe8-b2b2f4817a7a",
+					"name": "Система выбора режима движения Drive Mode Select (кроме версий с механической трансмиссией)",
+					"sort": 500
+				},
+				{
+					"id": "f2f31af0-9813-4e1e-b9ec-7a8769d54411",
+					"name": "Салонное зеркало с автоматическим затемнением (ECM)",
+					"sort": 500
+				},
+				{
+					"id": "bbe4cdd1-b23e-4473-ab19-8758807b9d87",
+					"name": "Система бесключевого доступа Smart Key и запуска двигателя кнопкой",
+					"sort": 500
+				},
+				{
+					"id": "7f34325d-9fc2-447a-b602-1a970d90f27b",
+					"name": "Кондиционер",
+					"sort": 500
+				},
+				{
+					"id": "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b",
+					"name": "Климат-контроль",
+					"sort": 500
+				},
+				{
+					"id": "1d20faf0-0a7f-4b4d-9816-01d3e846c405",
+					"name": "Электропривод складывания зеркал заднего вида",
+					"sort": 500
+				},
+				{
+					"id": "46b241ea-492d-46d6-ab8b-2fb847121587",
+					"name": "Задние датчики парковки",
+					"sort": 500
+				},
+				{
+					"id": "0587d09e-7d5a-4f9d-b0b1-278c407a4252",
+					"name": "Передние датчики парковки",
+					"sort": 500
+				},
+				{
+					"id": "dddd9087-ab14-4d0c-8261-4cb28af99dc6",
+					"name": "Камера заднего вида с динамическими линиями парковки",
+					"sort": 500
+				},
+				{
+					"id": "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad",
+					"name": "Приборная панель с дисплеем 3.5\"",
+					"sort": 500
+				},
+				{
+					"id": "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c",
+					"name": "Приборная панель с дисплеем 7\" Supervision",
+					"sort": 500
+				},
+				{
+					"id": "2f1258e6-1ba8-4c8d-8af5-372f123d30db",
+					"name": "Проекционный экран (HUD)",
+					"sort": 500
+				},
+				{
+					"id": "a54c609d-ed05-4201-9e2d-f4279280b2bc",
+					"name": "Электромеханический стояночный тормоз (EPB)",
+					"sort": 500
+				},
+				{
+					"id": "f760de13-d7b3-456f-a679-7d7d3d7faa29",
+					"name": "Круиз-контроль",
+					"sort": 500
+				},
+				{
+					"id": "c21ae727-8e6f-49a7-af17-1b040e774b7a",
+					"name": "Электрорегулировка поясничного подпора сиденья водителя",
+					"sort": 500
+				}],
+				"sort": 800
+			},
+			{
+				"name": "Современные системы помощи водителю DRIVE WISE",
+				"options": [
+				{
+					"id": "98e7502e-a301-4fa1-941e-b8dbbf9746f4",
+					"name": "Интеллектуальный круиз-контроль (SCC) с функцией Stop&Go",
+					"sort": 500
+				},
+				{
+					"id": "77256777-677e-4640-ba1d-2a0159387b3c",
+					"name": "Система предотвращения фронтального столкновения (FCA)",
+					"sort": 500
+				},
+				{
+					"id": "159d923b-c6eb-414d-b661-d786e8848e45",
+					"name": "Система предотвращения выезда из полосы движения (LKA)",
+					"sort": 500
+				},
+				{
+					"id": "74096779-44bc-4c75-a9b4-4e304d40a407",
+					"name": "Ассистент движения в полосе (LFA)",
+					"sort": 500
+				},
+				{
+					"id": "71cbfc91-a55b-4cb6-8d17-fbbdbe368543",
+					"name": "Система предотвращения столкновения с автомобилем в слепой зоне (BCA)",
+					"sort": 500
+				},
+				{
+					"id": "14881c3f-121b-4b8c-ae6c-1d7a37c754c2",
+					"name": "Система предотвращения бокового столкновения при выезде с парковки задним ходом (RCCA)",
+					"sort": 500
+				},
+				{
+					"id": "b76b2bc1-343f-4982-85ae-956637101548",
+					"name": "Система безопасного выхода (SEA)",
+					"sort": 500
+				},
+				{
+					"id": "5ad85803-503b-4a51-9b80-fc7a2eaa14e1",
+					"name": "Система контроля внимания водителя (DAW)",
+					"sort": 500
+				},
+				{
+					"id": "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9",
+					"name": "Система распознавания усталости водителя (DAW)",
+					"sort": 500
+				}],
+				"sort": 850
+			},
+			{
+				"name": "Мультимедиа",
+				"options": [
+				{
+					"id": "a6758985-e2f1-402c-b50f-16f93bf7e41c",
+					"name": "Аудиосистема с 3.8\" монохромным дисплеем",
+					"sort": 500
+				},
+				{
+					"id": "90596dad-b569-4f34-b59d-57a20baa90d7",
+					"name": "Мультимедиа с 8\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay",
+					"sort": 500
+				},
+				{
+					"id": "2814d7c0-ade7-4b0e-86a4-26509dc65c63",
+					"name": "Навигационная система с 10.25\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay",
+					"sort": 500
+				},
+				{
+					"id": "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14",
+					"name": "Аудиосистема Bose",
+					"sort": 500
+				},
+				{
+					"id": "5853b815-f266-4d68-b888-02e6a897a452",
+					"name": "Дополнительные разъемы зарядки USB",
+					"sort": 500
+				},
+				{
+					"id": "fdd88786-9079-42e3-8034-7407edb54e9c",
+					"name": "Беспроводная зарядка для мобильных устройств в центральной консоли",
+					"sort": 500
+				},
+				{
+					"id": "ae93d9b6-045a-4664-87d2-9845ba6b44b7",
+					"name": "Bluetooth для подключения мобильных устройств",
+					"sort": 500
+				}],
+				"sort": 790
+			},
+			{
+				"name": "Безопасность",
+				"options": [
+				{
+					"id": "486233fc-59ed-4e99-a962-c78b31de053c",
+					"name": "Фронтальные подушки безопасности",
+					"sort": 500
+				},
+				{
+					"id": "e1265686-4ca6-4132-b7e9-62f6b3d2bf34",
+					"name": "Боковые подушки и шторки безопасности",
+					"sort": 500
+				},
+				{
+					"id": "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1",
+					"name": "Стальное запасное колесо временного использования",
+					"sort": 500
+				},
+				{
+					"id": "0b222232-edfb-415e-b5f8-c694924aa674",
+					"name": "Полноразмерное запасное колесо",
+					"sort": 500
+				}],
+				"sort": 1000
+			}],
+			"interior_colors": [
+			{
+				"code": "WK",
+				"id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Тканевая отделка",
+				"name_en": "Black, Fabric finish"
+			},
+			{
+				"code": "WK",
+				"id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
+				"image": "\/master-data\/colors\/dfab6f76-5f73-49c5-a1d1-88bce428b937.svg",
+				"name": "Черный с серыми вставками, Тканевая отделка",
+				"name_en": "Black with gray accents, Fabric finish"
+			},
+			{
+				"code": "WK",
+				"id": "d69acc7e-c755-4fa0-94e3-5eca4020fd8a",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Комбинированная отделка ткань и экокожа",
+				"name_en": "Black, Fabric and faux leather combo"
+			},
+			{
+				"code": "WK",
+				"id": "82edc531-8701-44bd-9f4b-55dda4095bb9",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Экокожа",
+				"name_en": "Black, Eco leather"
+			}],
+			"options": [
+			{
+				"id": "20edd792-c345-46e5-aa94-c3582e0d519d",
+				"name": "Подогрев передних сидений",
+				"sort": 400
+			},
+			{
+				"id": "ecc3f7a5-db63-4198-98d8-ed74a6402047",
+				"name": "Подогрев задних сидений",
+				"sort": 500
+			},
+			{
+				"id": "8e287a59-a6c8-4a46-bb83-b956869e2b90",
+				"name": "Подогрев рулевого колеса",
+				"sort": 500
+			},
+			{
+				"id": "df0a6ec9-18d7-4481-9d61-5abf89db70f0",
+				"name": "Электрообогрев ветрового стекла",
+				"sort": 500
+			},
+			{
+				"id": "d129184e-c14b-4658-89e7-bb79aaa4bc9c",
+				"name": "Подогрев форсунок стеклоомывателя",
+				"sort": 500
+			},
+			{
+				"id": "c8170134-afd7-4067-b8e2-f014933629eb",
+				"name": "Боковые зеркала заднего вида с электроприводом и подогревом",
+				"sort": 500
+			},
+			{
+				"id": "294d3083-38ca-4c8c-89cb-518c33eb3ffd",
+				"name": "Воздуховоды для задних пассажиров в центральной консоли",
+				"sort": 500
+			},
+			{
+				"id": "76a7a316-195b-4de1-9f89-d15bcea7a340",
+				"name": "Стальные диски 16\"с шинами 205\/60 R16",
+				"sort": 500
+			},
+			{
+				"id": "a742c73a-6059-4e56-9a65-d17ae402dfb7",
+				"name": "Легкосплавные диски 16\" с шинами 205\/60 R16",
+				"sort": 500
+			},
+			{
+				"id": "b913fb68-795a-4e24-845e-a518cbd82a54",
+				"name": "Легкосплавные диски 17\" с шинами 215\/55 R17",
+				"sort": 500
+			},
+			{
+				"id": "72002f02-268a-4b30-a0f3-9b119089344c",
+				"name": "Легкосплавные диски 18\" с шинами 235\/45 R18",
+				"sort": 500
+			},
+			{
+				"id": "1802e164-0056-4a53-8b00-213f85bba4ad",
+				"name": "Решетка радиатора с черными глянцевыми вставками",
+				"sort": 500
+			},
+			{
+				"id": "2879a3e5-ff60-4e30-8923-5eb628c88c58",
+				"name": "Внешние дверные ручки с отделкой хромом",
+				"sort": 500
+			},
+			{
+				"id": "2ece2ded-8b38-4904-804e-fa8f721d212f",
+				"name": "Галогенные фары проекционного типа",
+				"sort": 500
+			},
+			{
+				"id": "749900c0-a16f-4db3-ac1f-7770f9f56fe5",
+				"name": "Светодиодные (LED) фары",
+				"sort": 500
+			},
+			{
+				"id": "83df224d-d805-4eba-a8ee-8e0ac96f2b94",
+				"name": "Светодиодные дневные ходовые огни (LED DRL)",
+				"sort": 500
+			},
+			{
+				"id": "c805fd73-65d9-48d2-9eb5-924ae88db833",
+				"name": "Противотуманные фары",
+				"sort": 500
+			},
+			{
+				"id": "2ddbf2d6-81c9-498f-8898-060a73dadd8e",
+				"name": "Светодиодные (LED) противотуманные фары",
+				"sort": 500
+			},
+			{
+				"id": "dda59a4f-7499-4c0b-a655-fee7f755e2cd",
+				"name": "Светодиодные (LED) задние фонари",
+				"sort": 500
+			},
+			{
+				"id": "21d64663-7ab0-4587-a593-055f9fbf2494",
+				"name": "Светодиодные (LED) габаритные огни",
+				"sort": 500
+			},
+			{
+				"id": "c81f947f-07ed-49d0-96f3-b6023cac9d32",
+				"name": "Люк с электроприводом",
+				"sort": 500
+			},
+			{
+				"id": "bd616cf4-675e-4657-9fc4-5564d7101d60",
+				"name": "Двухцветная окраска кузова (опционально)",
+				"sort": 500
+			},
+			{
+				"id": "1e1e1f30-a84a-4be9-b687-e164859190e5",
+				"name": "Рейлинги на крыше",
+				"sort": 500
+			},
+			{
+				"id": "28a902ac-4c7d-4208-b76e-7ea48beece55",
+				"name": "Вставки серого цвета",
+				"sort": 500
+			},
+			{
+				"id": "b52051b3-32a7-4bb0-958c-7db1301b0e44",
+				"name": "Вставки из черного глянца с принтом",
+				"sort": 500
+			},
+			{
+				"id": "3a077530-46a3-47cc-855f-da57ecc6ec6e",
+				"name": "Вставки с имитацией прострочки",
+				"sort": 500
+			},
+			{
+				"id": "3af93114-6d35-4623-b114-d1890c062014",
+				"name": "Рулевое колесо и ручка селектора трансмиссии с отделкой кожей",
+				"sort": 500
+			},
+			{
+				"id": "690d98a7-d4d6-4da3-a9f8-f59653b5e57a",
+				"name": "Сиденья с отделкой тканью",
+				"sort": 500
+			},
+			{
+				"id": "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9",
+				"name": "Сиденья с комбинированной отделкой ткань + эко кожа",
+				"sort": 500
+			},
+			{
+				"id": "5a21f9ec-76f0-49e4-8cb1-fe18bafbdcd5",
+				"name": "Сиденья с отделкой эко кожей",
+				"sort": 500
+			},
+			{
+				"id": "8ba99a70-d9d2-4acb-a694-b7b3048a1d46",
+				"name": "Полка багажного отделения",
+				"sort": 500
+			},
+			{
+				"id": "d314c083-c1f4-4100-8984-b64448a4613f",
+				"name": "Светодиодная (LED) подсветка салона",
+				"sort": 500
+			},
+			{
+				"id": "b5169497-1b04-43fc-9b72-e8f26c89940c",
+				"name": "Декоративная подсветка интерьера Mood Lamp",
+				"sort": 500
+			},
+			{
+				"id": "fb5715ea-c188-4a5e-9225-4923590fbe92",
+				"name": "Датчик света",
+				"sort": 500
+			},
+			{
+				"id": "760f7792-c8e7-4daf-9e94-b140bfaf91ec",
+				"name": "Датчик дождя",
+				"sort": 500
+			},
+			{
+				"id": "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d",
+				"name": "Вентиляция передних сидений",
+				"sort": 500
+			},
+			{
+				"id": "cf530c4e-801b-4b6d-b8c1-e24d34463871",
+				"name": "Электропривод регулировок передних сидений",
+				"sort": 500
+			},
+			{
+				"id": "6e57ac33-c034-41fa-9edc-ce93408c5528",
+				"name": "Регулируемый центральный подлокотник",
+				"sort": 500
+			},
+			{
+				"id": "821537e9-3901-4fc8-b9d5-9232fcd0e772",
+				"name": "Задний подлокотник с подстаканниками",
+				"sort": 500
+			},
+			{
+				"id": "e1389b9c-0784-4656-a9f0-db83bd5d9421",
+				"name": "Бескаркасные стеклоочистители \"Aero Blade\"",
+				"sort": 500
+			},
+			{
+				"id": "2574e2c0-0c51-429c-903c-b249b23dfcf9",
+				"name": "Стеклоподъемник водителя с функцией Auto (вверх\/вниз)",
+				"sort": 500
+			},
+			{
+				"id": "497e49d4-666d-4344-bbe8-b2b2f4817a7a",
+				"name": "Система выбора режима движения Drive Mode Select (кроме версий с механической трансмиссией)",
+				"sort": 500
+			},
+			{
+				"id": "f2f31af0-9813-4e1e-b9ec-7a8769d54411",
+				"name": "Салонное зеркало с автоматическим затемнением (ECM)",
+				"sort": 500
+			},
+			{
+				"id": "bbe4cdd1-b23e-4473-ab19-8758807b9d87",
+				"name": "Система бесключевого доступа Smart Key и запуска двигателя кнопкой",
+				"sort": 500
+			},
+			{
+				"id": "7f34325d-9fc2-447a-b602-1a970d90f27b",
+				"name": "Кондиционер",
+				"sort": 500
+			},
+			{
+				"id": "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b",
+				"name": "Климат-контроль",
+				"sort": 500
+			},
+			{
+				"id": "1d20faf0-0a7f-4b4d-9816-01d3e846c405",
+				"name": "Электропривод складывания зеркал заднего вида",
+				"sort": 500
+			},
+			{
+				"id": "46b241ea-492d-46d6-ab8b-2fb847121587",
+				"name": "Задние датчики парковки",
+				"sort": 500
+			},
+			{
+				"id": "0587d09e-7d5a-4f9d-b0b1-278c407a4252",
+				"name": "Передние датчики парковки",
+				"sort": 500
+			},
+			{
+				"id": "dddd9087-ab14-4d0c-8261-4cb28af99dc6",
+				"name": "Камера заднего вида с динамическими линиями парковки",
+				"sort": 500
+			},
+			{
+				"id": "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad",
+				"name": "Приборная панель с дисплеем 3.5\"",
+				"sort": 500
+			},
+			{
+				"id": "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c",
+				"name": "Приборная панель с дисплеем 7\" Supervision",
+				"sort": 500
+			},
+			{
+				"id": "2f1258e6-1ba8-4c8d-8af5-372f123d30db",
+				"name": "Проекционный экран (HUD)",
+				"sort": 500
+			},
+			{
+				"id": "a54c609d-ed05-4201-9e2d-f4279280b2bc",
+				"name": "Электромеханический стояночный тормоз (EPB)",
+				"sort": 500
+			},
+			{
+				"id": "f760de13-d7b3-456f-a679-7d7d3d7faa29",
+				"name": "Круиз-контроль",
+				"sort": 500
+			},
+			{
+				"id": "98e7502e-a301-4fa1-941e-b8dbbf9746f4",
+				"name": "Интеллектуальный круиз-контроль (SCC) с функцией Stop&Go",
+				"sort": 500
+			},
+			{
+				"id": "77256777-677e-4640-ba1d-2a0159387b3c",
+				"name": "Система предотвращения фронтального столкновения (FCA)",
+				"sort": 500
+			},
+			{
+				"id": "159d923b-c6eb-414d-b661-d786e8848e45",
+				"name": "Система предотвращения выезда из полосы движения (LKA)",
+				"sort": 500
+			},
+			{
+				"id": "74096779-44bc-4c75-a9b4-4e304d40a407",
+				"name": "Ассистент движения в полосе (LFA)",
+				"sort": 500
+			},
+			{
+				"id": "71cbfc91-a55b-4cb6-8d17-fbbdbe368543",
+				"name": "Система предотвращения столкновения с автомобилем в слепой зоне (BCA)",
+				"sort": 500
+			},
+			{
+				"id": "14881c3f-121b-4b8c-ae6c-1d7a37c754c2",
+				"name": "Система предотвращения бокового столкновения при выезде с парковки задним ходом (RCCA)",
+				"sort": 500
+			},
+			{
+				"id": "b76b2bc1-343f-4982-85ae-956637101548",
+				"name": "Система безопасного выхода (SEA)",
+				"sort": 500
+			},
+			{
+				"id": "5ad85803-503b-4a51-9b80-fc7a2eaa14e1",
+				"name": "Система контроля внимания водителя (DAW)",
+				"sort": 500
+			},
+			{
+				"id": "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9",
+				"name": "Система распознавания усталости водителя (DAW)",
+				"sort": 500
+			},
+			{
+				"id": "a6758985-e2f1-402c-b50f-16f93bf7e41c",
+				"name": "Аудиосистема с 3.8\" монохромным дисплеем",
+				"sort": 500
+			},
+			{
+				"id": "90596dad-b569-4f34-b59d-57a20baa90d7",
+				"name": "Мультимедиа с 8\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay",
+				"sort": 500
+			},
+			{
+				"id": "2814d7c0-ade7-4b0e-86a4-26509dc65c63",
+				"name": "Навигационная система с 10.25\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay",
+				"sort": 500
+			},
+			{
+				"id": "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14",
+				"name": "Аудиосистема Bose",
+				"sort": 500
+			},
+			{
+				"id": "5853b815-f266-4d68-b888-02e6a897a452",
+				"name": "Дополнительные разъемы зарядки USB",
+				"sort": 500
+			},
+			{
+				"id": "fdd88786-9079-42e3-8034-7407edb54e9c",
+				"name": "Беспроводная зарядка для мобильных устройств в центральной консоли",
+				"sort": 500
+			},
+			{
+				"id": "ae93d9b6-045a-4664-87d2-9845ba6b44b7",
+				"name": "Bluetooth для подключения мобильных устройств",
+				"sort": 500
+			},
+			{
+				"id": "486233fc-59ed-4e99-a962-c78b31de053c",
+				"name": "Фронтальные подушки безопасности",
+				"sort": 500
+			},
+			{
+				"id": "e1265686-4ca6-4132-b7e9-62f6b3d2bf34",
+				"name": "Боковые подушки и шторки безопасности",
+				"sort": 500
+			},
+			{
+				"id": "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1",
+				"name": "Стальное запасное колесо временного использования",
+				"sort": 500
+			},
+			{
+				"id": "0b222232-edfb-415e-b5f8-c694924aa674",
+				"name": "Полноразмерное запасное колесо",
+				"sort": 500
+			},
+			{
+				"id": "c21ae727-8e6f-49a7-af17-1b040e774b7a",
+				"name": "Электрорегулировка поясничного подпора сиденья водителя",
+				"sort": 500
+			}],
+			"options_base": [
+			{
+				"group_name": "Мультимедиа",
+				"group_sort": "790",
+				"id": "c3e0369c-1341-4a36-8d30-57291e5b0112",
+				"name": "Аудиосистема с радио, MP3, RDS, USB вход",
+				"sort": 500
+			},
+			{
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "2fc5be80-5517-46f1-8aec-c9972634e49e",
+				"name": "Подсветка багажника",
+				"sort": 500
+			},
+			{
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "a4c0a3ac-2b74-45c3-ba5f-925aaed198de",
+				"name": "Механическая регулировка сиденья водителя по высоте",
+				"sort": 500
+			},
+			{
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "b09407a6-b7ac-4f1a-9793-9076a5f72e6d",
+				"name": "Регулировка рулевой колонки по высоте и вылету",
+				"sort": 500
+			},
+			{
+				"group_name": "Мультимедиа",
+				"group_sort": "790",
+				"id": "8801a8be-dd81-4dcf-b4f3-ada1b8433b1e",
+				"name": "6 динамиков",
+				"sort": 500
+			},
+			{
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "44140984-8606-4aeb-a60f-9928abb52779",
+				"name": "Мультифункциональное рулевое колесо",
+				"sort": 500
+			},
+			{
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "cbccad4e-d74f-4840-ab6b-8f77f72d4c6e",
+				"name": "Передние и задние стеклоподъемники с электроприводом",
+				"sort": 500
+			},
+			{
+				"group_name": "Интерьер",
+				"group_sort": "1100",
+				"id": "99a394b8-03c2-4728-93cd-4f2005b48570",
+				"name": "Крючки для крепления сетки в багажнике",
+				"sort": 500
+			},
+			{
+				"group_name": "Интерьер",
+				"group_sort": "1100",
+				"id": "fb5674fe-aaaa-43b5-9a58-f5bb478613c3",
+				"name": "Задние сиденья со спинками,  складывающимися в соотношении 60\/40",
+				"sort": 500
+			},
+			{
+				"group_name": "Интерьер",
+				"group_sort": "1100",
+				"id": "44c98cc0-3417-4f2e-933a-fc4db09d0f98",
+				"name": "Задние сиденья с регулировкой угла наклона",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "b50c76f6-1010-4f10-ab8f-6dae16d66808",
+				"name": "Система экстренной связи ЭРА-ГЛОНАСС",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "6283bebd-54b5-4cf9-be9b-69be019fe3aa",
+				"name": "Автоматическое запирание дверей при движении",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "f103b5d9-c5dd-49eb-8b60-828dbe89387e",
+				"name": "Иммобилайзер",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "d2af6732-fe0e-42fe-aa0b-daf4cde1b3bd",
+				"name": "Центральный замок",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "fbb31cc3-4b16-4543-8221-55990121e05f",
+				"name": "Крепление для детского кресла ISOFIX",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "987c9c2b-aeec-4a9b-9b1a-ff4ad282a11c",
+				"name": "Система контроля давления в шинах (TPMS)",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "b32ee3ee-190b-4a57-9720-7e36e2df994f",
+				"name": "Система помощи при трогании на подъеме (HAC)",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "4bb27fd5-a199-46dc-bcc8-3cacf19dcd63",
+				"name": "Система помощи при торможении на склоне (DBC)",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "02aa5366-3901-4014-a8c5-0e573677a560",
+				"name": "Система курсовой устойчивости (ESC)",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "87970574-d831-47ca-9723-20d399c37f4f",
+				"name": "Антиблокировочная система тормозов (ABS)",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "fbfad831-96bc-4e4c-840f-2241e17ef1cf",
+				"name": "Передние и задние дисковые тормоза",
+				"sort": 500
+			},
+			{
+				"group_name": "Экстерьер",
+				"group_sort": "1200",
+				"id": "9ef2b47a-3e5c-4428-aaa2-c1af167119b6",
+				"name": "Передние и задние брызговики",
+				"sort": 500
+			},
+			{
+				"group_name": "Экстерьер",
+				"group_sort": "1200",
+				"id": "8e8f0e65-f59d-4367-a663-c23af8e280c3",
+				"name": "Серебристые накладки на передний и задний бампер",
+				"sort": 500
+			},
+			{
+				"group_name": "Экстерьер",
+				"group_sort": "1200",
+				"id": "37c2bf8d-23a4-4e65-be96-031cf8be1326",
+				"name": "Боковые зеркала, окрашенные в цвет кузова",
+				"sort": 500
+			}],
+			"options_descriptions": [
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "c805fd73-65d9-48d2-9eb5-924ae88db833"
+			},
+			{
+				"description": "Контролирует ситуацию по бокам и сзади автомобиля и предупреждает Вас при обнаружении приближающегося транспортного средства в Вашей слепой зоне. Система подает визуальные сигналы на боковом зеркале, а также звуковые оповещения, в случае необходимости система предотвратит столкновение.",
+				"file_id": "\/master-data\/models\/options\/seltos\/BCA.jpg",
+				"option_id": "71cbfc91-a55b-4cb6-8d17-fbbdbe368543"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/lights.jpg",
+				"option_id": "2ece2ded-8b38-4904-804e-fa8f721d212f"
+			},
+			{
+				"description": "Яркие энергосберегающие светодиодные фары долговечны и обеспечивают оптимальное освещение в темное время суток.",
+				"file_id": "\/master-data\/models\/options\/seltos\/LED.jpg",
+				"option_id": "749900c0-a16f-4db3-ac1f-7770f9f56fe5"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "83df224d-d805-4eba-a8ee-8e0ac96f2b94"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "b76b2bc1-343f-4982-85ae-956637101548"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9"
+			},
+			{
+				"description": "Для защиты пассажиров и снижения риска травм в случае столкновения Seltos оборудован двумя фронтальными и двумя боковыми подушками безопасности для водителя и пассажира.",
+				"file_id": "\/master-data\/models\/options\/seltos\/airbags-2.png",
+				"option_id": "486233fc-59ed-4e99-a962-c78b31de053c"
+			},
+			{
+				"description": "Для защиты пассажиров и снижения риска травм в случае столкновения Seltos оборудован двумя шторками безопасности по всей длине салона с обеих сторон.",
+				"file_id": "\/master-data\/models\/options\/seltos\/airbags.jpg",
+				"option_id": "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "0b222232-edfb-415e-b5f8-c694924aa674"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "5ffea7f2-4a3e-4a74-a466-9c08d688f48c"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/drive_mode.jpg",
+				"option_id": "6468c5b3-a21c-4907-ae41-0cecf0f7d363"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "c21ae727-8e6f-49a7-af17-1b040e774b7a"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "2879a3e5-ff60-4e30-8923-5eb628c88c58"
+			},
+			{
+				"description": "Камера заднего вида с ассистентом парковки позволит Вам увидеть на экране пространство позади автомобиля. С помощью наложенных на изображение контрольных линий Вы сможете припарковаться более точно.",
+				"file_id": "\/master-data\/models\/options\/seltos\/rear_camera.jpg",
+				"option_id": "dddd9087-ab14-4d0c-8261-4cb28af99dc6"
+			},
+			{
+				"description": "Вы можете включить стояночный тормоз одним нажатием клавиши, не беспокоясь о том, достаточно ли вы его затянули.",
+				"file_id": "\/master-data\/models\/options\/seltos\/EPB.jpg",
+				"option_id": "a54c609d-ed05-4201-9e2d-f4279280b2bc"
+			},
+			{
+				"description": "Компактный 3,8-дюймовый дисплей аудиосистемы позволяет выбрать источник воспроизведения, настроить радио и отрегулировать качество звука по вкусу с помощью удобных органов управления на руле.",
+				"file_id": "\/master-data\/models\/options\/seltos\/audio_system_38inches.jpg",
+				"option_id": "a6758985-e2f1-402c-b50f-16f93bf7e41c"
+			},
+			{
+				"description": "Не бойтесь случайно выехать из своего ряда — система удержания автомобиля в полосе постоянно следит за дорожной разметкой с помощью камеры в верхней части лобового стекла. В случае, если Вы нечаянно выйдете за границу полосы, система подаст сигнал, а при необходимости — поможет Вам вернуть автомобиль в занимаемый ряд.",
+				"file_id": "\/master-data\/models\/options\/seltos\/LKA.jpg",
+				"option_id": "159d923b-c6eb-414d-b661-d786e8848e45"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "5ad85803-503b-4a51-9b80-fc7a2eaa14e1"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/light_wheels_17inches.jpg",
+				"option_id": "b913fb68-795a-4e24-845e-a518cbd82a54"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/light_wheels_18inches.jpg",
+				"option_id": "72002f02-268a-4b30-a0f3-9b119089344c"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "2ddbf2d6-81c9-498f-8898-060a73dadd8e"
+			},
+			{
+				"description": "Стильные энергоэффективные светодиоды в задних фонарях гарантируют быстродействие и постоянно высокую яркость, обладая при этом завидной долговечностью.",
+				"file_id": "\/master-data\/models\/options\/seltos\/LED_rear.jpg",
+				"option_id": "dda59a4f-7499-4c0b-a655-fee7f755e2cd"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "21d64663-7ab0-4587-a593-055f9fbf2494"
+			},
+			{
+				"description": "Прочный моноблочный люк в крыше можно приподнять или сдвинуть простым нажатием кнопки, чтобы наполнить салон воздухом или позволить пассажирам любоваться открытым небом.",
+				"file_id": "\/master-data\/models\/options\/seltos\/hatch.jpg",
+				"option_id": "c81f947f-07ed-49d0-96f3-b6023cac9d32"
+			},
+			{
+				"description": "Рейлинги с опциональными поперечными дугами позволят разместить дополнительный багаж на крыше.",
+				"file_id": "\/master-data\/models\/options\/seltos\/railings.jpg",
+				"option_id": "1e1e1f30-a84a-4be9-b687-e164859190e5"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "28a902ac-4c7d-4208-b76e-7ea48beece55"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "b52051b3-32a7-4bb0-958c-7db1301b0e44"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "3a077530-46a3-47cc-855f-da57ecc6ec6e"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "3af93114-6d35-4623-b114-d1890c062014"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/cloth_seats.jpg",
+				"option_id": "690d98a7-d4d6-4da3-a9f8-f59653b5e57a"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/leather_cloth_combined_seats.jpg",
+				"option_id": "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/eco_leather_seats.jpg",
+				"option_id": "5a21f9ec-76f0-49e4-8cb1-fe18bafbdcd5"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "8ba99a70-d9d2-4acb-a694-b7b3048a1d46"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/interior_LED.jpg",
+				"option_id": "d314c083-c1f4-4100-8984-b64448a4613f"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "b5169497-1b04-43fc-9b72-e8f26c89940c"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "fb5715ea-c188-4a5e-9225-4923590fbe92"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "760f7792-c8e7-4daf-9e94-b140bfaf91ec"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "cf530c4e-801b-4b6d-b8c1-e24d34463871"
+			},
+			{
+				"description": "В поднятом положении on открывает дополнительный подстаканник. Будут  разложены, подлокотник становится удобной площадкой,  на которую можно положить руку и снять усталость. Внутри он имеет вместительный бокс  для самого необходимого.",
+				"file_id": "\/master-data\/models\/options\/seltos\/central_armrest.jpg",
+				"option_id": "6e57ac33-c034-41fa-9edc-ce93408c5528"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "821537e9-3901-4fc8-b9d5-9232fcd0e772"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "e1389b9c-0784-4656-a9f0-db83bd5d9421"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "2574e2c0-0c51-429c-903c-b249b23dfcf9"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "497e49d4-666d-4344-bbe8-b2b2f4817a7a"
+			},
+			{
+				"description": "Удобство пуска и безопасность: больше не нужно доставать ключ, чтобы открыть дверь и завести двигатель.",
+				"file_id": "\/master-data\/models\/options\/seltos\/smartkey.jpg",
+				"option_id": "bbe4cdd1-b23e-4473-ab19-8758807b9d87"
+			},
+			{
+				"description": "Вы легко сможете настроить кондиционер, отрегулировав температуру и воздушный поток, чтобы сосредоточиться на дороге, наслаждаясь оптимальным климатом в салоне.",
+				"file_id": "\/master-data\/models\/options\/seltos\/conditioner.jpg",
+				"option_id": "7f34325d-9fc2-447a-b602-1a970d90f27b"
+			},
+			{
+				"description": "Автоматическая система контроля температуры (климат-контроль) позволит водителю и переднему пассажиру выбрать желаемую температуру и скорость подачи воздуха, а затем поддерживает эти настройки в трех режимах.",
+				"file_id": "\/master-data\/models\/options\/seltos\/climat_control.jpg",
+				"option_id": "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b"
+			},
+			{
+				"description": "Чтобы помочь Вам безопасно и уверенно парковаться, сигнализация аварийного сближения при парковке использует установленные на бамперах ультразвуковые датчики, оповещая Вас звуком, если другие транспортные средства или препятствия окажутся на опасно близком расстоянии.",
+				"file_id": "\/master-data\/models\/options\/seltos\/rear_sensors.jpg",
+				"option_id": "46b241ea-492d-46d6-ab8b-2fb847121587"
+			},
+			{
+				"description": "Чтобы помочь Вам безопасно и уверенно парковаться, сигнализация аварийного сближения при парковке использует установленные на бамперах ультразвуковые датчики, оповещая Вас звуком, если другие транспортные средства или препятствия окажутся на опасно близком расстоянии.",
+				"file_id": "\/master-data\/models\/options\/seltos\/rear_sensors.jpg",
+				"option_id": "0587d09e-7d5a-4f9d-b0b1-278c407a4252"
+			},
+			{
+				"description": "3,5-дюймовый информационный дисплей между шкалами приборов позволяет легко и быстро получить доступ к такой информации, как расход топлива и запас хода.",
+				"file_id": "\/master-data\/models\/options\/seltos\/display35.jpg",
+				"option_id": "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad"
+			},
+			{
+				"description": "На дисплее отражаются такие данные, как запас хода, расход топлива, навигационные сигналы и температура за бортом.",
+				"file_id": "\/master-data\/models\/options\/seltos\/supervision.jpg",
+				"option_id": "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c"
+			},
+			{
+				"description": "Изображение, размером соответствующее 8-дюймовому дисплею, проецируется на специальный экран перед лобовым стеклом, позволяя Вам считывать скорость, запас хода, данные круиз-контроля и ассистентов Drive Wise, не отвлекаясь от дороги.",
+				"file_id": "\/master-data\/models\/options\/seltos\/HUD.jpg",
+				"option_id": "2f1258e6-1ba8-4c8d-8af5-372f123d30db"
+			},
+			{
+				"description": "Круиз-контроль позволяет выбрать оптимальную скорость, чтобы дать ноге отдохнуть на свободной дороге. Легкое нажатие на тормоз или кнопку отмены вернет Seltos в обычный режим.",
+				"file_id": "\/master-data\/models\/options\/seltos\/SCC.png",
+				"option_id": "98e7502e-a301-4fa1-941e-b8dbbf9746f4"
+			},
+			{
+				"description": "С помощью камеры и радаров система отслеживает скорость и дистанцию. В случае возникновения риска столкновения система предупредит водителя, подав визуальный сигнал. Если водитель не отреагирует, автомобиль автоматически задействует тормоза.",
+				"file_id": "\/master-data\/models\/options\/seltos\/FCA.jpg",
+				"option_id": "77256777-677e-4640-ba1d-2a0159387b3c"
+			},
+			{
+				"description": "Система использует радиолокационные датчики для мониторинга области слева и справа и предупреждает или даже активно задействует тормоз, если с обеих сторон приближается движение.",
+				"file_id": "\/master-data\/models\/options\/seltos\/rear_sensors.jpg",
+				"option_id": "14881c3f-121b-4b8c-ae6c-1d7a37c754c2"
+			},
+			{
+				"description": "8-дюймовый дисплей в центральной части панели позволит Вам просматривать и выбирать аудиотреки, менять источники воспроизведения, настраивать радио и регулировать качество звука, используя удобные кнопки управления на руле.",
+				"file_id": "\/master-data\/models\/options\/seltos\/android_audio_system.jpg",
+				"option_id": "90596dad-b569-4f34-b59d-57a20baa90d7"
+			},
+			{
+				"description": "Четыре динамика в дверях, центральный динамик, два встроенных в двери высокочастотных динамика, отдельный сабвуфер и внешний усилитель — все вместе это замечательная аудиосистема Bose, способная наполнить салон богатым, качественным звуком, настроенным в соответствии с общим ощущением интерьера.",
+				"file_id": "\/master-data\/models\/options\/seltos\/bose.jpg",
+				"option_id": "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "74096779-44bc-4c75-a9b4-4e304d40a407"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "bd616cf4-675e-4657-9fc4-5564d7101d60"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "294d3083-38ca-4c8c-89cb-518c33eb3ffd"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "37c2bf8d-23a4-4e65-be96-031cf8be1326"
+			},
+			{
+				"description": "Окантовка оригинальной формы — яркий дизайнерский штрих, придающий заднему бамперу привлекательную симметрию.",
+				"file_id": "\/master-data\/models\/options\/seltos\/silver_inserts.jpg",
+				"option_id": "8e8f0e65-f59d-4367-a663-c23af8e280c3"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "9ef2b47a-3e5c-4428-aaa2-c1af167119b6"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "fbfad831-96bc-4e4c-840f-2241e17ef1cf"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "87970574-d831-47ca-9723-20d399c37f4f"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "02aa5366-3901-4014-a8c5-0e573677a560"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/wheels_16inches.jpg",
+				"option_id": "76a7a316-195b-4de1-9f89-d15bcea7a340"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/light_wheels_16inches.jpg",
+				"option_id": "a742c73a-6059-4e56-9a65-d17ae402dfb7"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "1802e164-0056-4a53-8b00-213f85bba4ad"
+			},
+			{
+				"description": "Кресла с тремя степенями подогрева быстро набирают нужную температуру и поддерживают её на заданном уровне.",
+				"file_id": "\/master-data\/models\/options\/seltos\/rear_seat_heating.jpg",
+				"option_id": "ecc3f7a5-db63-4198-98d8-ed74a6402047"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "4bb27fd5-a199-46dc-bcc8-3cacf19dcd63"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "b32ee3ee-190b-4a57-9720-7e36e2df994f"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "987c9c2b-aeec-4a9b-9b1a-ff4ad282a11c"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "fbb31cc3-4b16-4543-8221-55990121e05f"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "d2af6732-fe0e-42fe-aa0b-daf4cde1b3bd"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "f103b5d9-c5dd-49eb-8b60-828dbe89387e"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "6283bebd-54b5-4cf9-be9b-69be019fe3aa"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "b50c76f6-1010-4f10-ab8f-6dae16d66808"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "44c98cc0-3417-4f2e-933a-fc4db09d0f98"
+			},
+			{
+				"description": "Возможность сложить задние сиденья в пропорции 60:40 позволяет использовать разные конфигурации салона для транспортировки различных грузов. При полностью сложенных сиденьях багаж не будет закрывать обзор через заднее стекло.",
+				"file_id": null,
+				"option_id": "fb5674fe-aaaa-43b5-9a58-f5bb478613c3"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "99a394b8-03c2-4728-93cd-4f2005b48570"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "cbccad4e-d74f-4840-ab6b-8f77f72d4c6e"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "44140984-8606-4aeb-a60f-9928abb52779"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "8801a8be-dd81-4dcf-b4f3-ada1b8433b1e"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "b09407a6-b7ac-4f1a-9793-9076a5f72e6d"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "a4c0a3ac-2b74-45c3-ba5f-925aaed198de"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "2fc5be80-5517-46f1-8aec-c9972634e49e"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "c3e0369c-1341-4a36-8d30-57291e5b0112"
+			},
+			{
+				"description": "Передние сидения с функцией подогрева , окажутся очень кстати в холодную погоду.",
+				"file_id": "\/master-data\/models\/options\/seltos\/front_seat_heating.jpg",
+				"option_id": "20edd792-c345-46e5-aa94-c3582e0d519d"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "5853b815-f266-4d68-b888-02e6a897a452"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "ae93d9b6-045a-4664-87d2-9845ba6b44b7"
+			},
+			{
+				"description": "Новый KIA Seltos оснащается подогревом рулевого колеса.",
+				"file_id": "\/master-data\/models\/options\/seltos\/wheel_heating.jpg",
+				"option_id": "8e287a59-a6c8-4a46-bb83-b956869e2b90"
+			},
+			{
+				"description": "KIA Seltos оснащается обогреваемым ветровым стеклом с буквально невидимыми нитями, способными быстро растопить лёд.",
+				"file_id": "\/master-data\/models\/options\/seltos\/front_window_heating.jpg",
+				"option_id": "df0a6ec9-18d7-4481-9d61-5abf89db70f0"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "d129184e-c14b-4658-89e7-bb79aaa4bc9c"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/side_mirror_heating.jpg",
+				"option_id": "c8170134-afd7-4067-b8e2-f014933629eb"
+			},
+			{
+				"description": "В условиях низкой освещенности зеркало заднего вида автоматически уменьшает яркость фар автомобилей, следующих за Вами. Переключитесь на задний ход — и зеркало автоматически станет ярче.",
+				"file_id": "\/master-data\/models\/options\/seltos\/ECM.jpg",
+				"option_id": "f2f31af0-9813-4e1e-b9ec-7a8769d54411"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "1d20faf0-0a7f-4b4d-9816-01d3e846c405"
+			},
+			{
+				"description": null,
+				"file_id": "\/master-data\/models\/options\/seltos\/cruise_control.jpg",
+				"option_id": "f760de13-d7b3-456f-a679-7d7d3d7faa29"
+			},
+			{
+				"description": "С помощью большого информационного дисплея навигационной и аудиосистемы Вы легко сориентируетесь в незнакомом месте, настроите музыку с внешних носителей, а также получите много необходимой информации о дороге.",
+				"file_id": "\/master-data\/models\/options\/seltos\/display_android.jpg",
+				"option_id": "2814d7c0-ade7-4b0e-86a4-26509dc65c63"
+			},
+			{
+				"description": "Вам не понадобится провод, чтобы зарядить совместимый мобильный телефон, расположив его на специальной площадке перед селектором трансмиссии.",
+				"file_id": "\/master-data\/models\/options\/seltos\/wireless_charger.jpg",
+				"option_id": "fdd88786-9079-42e3-8034-7407edb54e9c"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "7dd6fe12-17ba-4cd2-aa25-2461f73a79d1"
+			}],
+			"prices":
+			{
+				"from": 1134900,
+				"to": 2034900
+			},
+			"transmissions": [
+			{
+				"drive_id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"gearbox_id": "861522b8-995c-4204-8bb7-3638b829a5f0",
+				"gears_number": "6",
+				"id": "f7c81bad-f6e6-474b-9b18-0426325946a1",
+				"name": "FWD 6MT"
+			},
+			{
+				"drive_id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"gearbox_id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
+				"gears_number": "6",
+				"id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+				"name": "FWD 6AT"
+			},
+			{
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"gearbox_id": "861522b8-995c-4204-8bb7-3638b829a5f0",
+				"gears_number": "6",
+				"id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3",
+				"name": "4WD 6MT"
+			},
+			{
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"gearbox_id": "50b4e48e-81c8-488b-9a1a-296786f6fc74",
+				"gears_number": "7",
+				"id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69",
+				"name": "4WD 7DCT"
+			},
+			{
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"gearbox_id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
+				"gears_number": "6",
+				"id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"name": "4WD 6AT"
+			},
+			{
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"gearbox_id": "0187d564-de16-440d-bf05-ad7b53ba4652",
+				"gears_number": null,
+				"id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257",
+				"name": "4WD IVT"
+			},
+			{
+				"drive_id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"gearbox_id": "0187d564-de16-440d-bf05-ad7b53ba4652",
+				"gears_number": null,
+				"id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+				"name": "FWD IVT"
+			}],
+			"years": [
+			{
+				"year": 2020
+			}]
+		},
+		"offers":
+		{
+			"complectations": [
+			{
+				"id": "3acca6ca-0db3-4149-a95b-0f5031b6a905",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "439dcce5-4118-4393-a0bf-4140e7a75cbb",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "008296be-519c-4f64-a205-3c75a79f23a7",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "4f0d42cc-98f8-4b21-9a9d-0887b81e4295",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "875db28a-ee52-4bb7-aba2-81b91ea02984",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "54ff7d06-ab5c-495c-81ed-76011f97dd2c",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "d93dbbd2-5093-49ac-a931-6ec63cc53b3f",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "108ca427-10bd-4d0e-aeb2-af1d80bbbefe",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "5a14f255-6b88-49f6-884b-d26aa27afeeb",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "2c5dccb3-f15e-4c05-acd4-a3c2134629e3",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "4f3f63ce-7721-4075-9c1f-da1a01c995fb",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "3648b119-7ea0-4566-81b2-2c40b1e20aef",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "3411d0ee-a003-4efd-bcb0-d1b63acba6ac",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "1a14e464-0531-4bdf-80ba-ced0daedae07",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "d5cc7d64-5db7-488d-9399-0ea628507aa8",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "9ea73aaa-b670-4db4-ae46-bd005e0a693b",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "6e985191-1656-4d73-87ac-8fc49a319a61",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "5e39a2d0-5bd0-4a76-86a3-30d186bef99d",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "814dfd78-6389-4f59-aec7-3d9a1a77e3bc",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "92a97455-ad9b-4ce7-a9a4-64e8cd971413",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			},
+			{
+				"id": "949372a9-7227-450f-a9ee-dbc894d62567",
+				"max_discount_offers": ["931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 45000
+				}]
+			}],
+			"offers": [
+			{
+				"active_from": 1575147600,
+				"active_to": 1640898000,
+				"advantage_text": "Вы получаете КАСКО на 3 года, а также сервисное обслуживание на 3 года. Ваша выгода достигается путем предоставления дополнительной скидки.",
+				"code": "credit-legko-plus",
+				"condition_text": "<ul>\r\n<li>Вы приобретаете новый автомобиль KIA<\/li>\r\n<li>Вы используете программу кредитования \"KIA Легко Plus\"<\/li>\r\n<li>Программа кредитования \"KIA Легко Plus\" включается в кредит и является частью ежемесячного платежа Клиента<\/li>\r\n<\/ul>",
+				"description": null,
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"is_base": false,
+				"is_traid_in": false,
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"preview_text": "Дополнительная выгода при оформлении программы."
+			}]
+		},
+		"disclaimers":
+		{
+			"footer":
+			{
+				"2020":
+				{
+					"name": "Footer Model Option Seltos 2020",
+					"text": "*Наценка за двухцветную окраску кузова указана относительно цены автомобиля с цветом неметаллик.\r\n<br\/><br\/>\r\n        Сведения о ценах на продукцию бренда KIA, содержащиеся на сайте, носят исключительно информационный характер. \n        Указанные цены могут отличаться от действительных цен дилеров KIA. Для получения подробной информации об актуальных \n        ценах на продукцию KIA обращайтесь к дилерам KIA. Приобретение любой продукции бренда KIA осуществляется в соответствии \n        с условиями индивидуального договора купли-продажи. Представленное изображение автомобиля может отличаться от реализуемого.\r\n<br\/><br\/>\r\nНа данном сайте используются зарегистрированные товарные знаки, перечисленные в разделе Правовая информация  <a href=\"https:\/\/www.kia.ru\/info\/trademarks\/\">https:\/\/www.kia.ru\/info\/trademarks\/<\/a>\r\n<br\/><br\/>\r\n    Данные по времени разгона получены в эталонных условиях с применением специального измерительного оборудования,\n    при использовании эталонного топлива. Реальное время разгона может отличаться в силу воздействия различных объективных\n    и субъективных факторов: влажности, давления и температуры окружающего воздуха, фракционного состава используемого топлива,\n    рельефа местности, характеристик дорожного покрытия, направления и скорости ветра, атмосферных осадков, давления в шинах а\n    также их размерности, марки и модели, массы перевозимого груза (включая водителя и пассажиров) и навыков вождения. Из-за\n    различий в комплектациях автомобилей и требованиях на разных рынках, характеристики моделей могут отличаться от указанных выше.\n    Компания KIA Motors Corporation оставляет за собой право на внесение изменений в конструкцию и комплектацию автомобилей без предварительного уведомления.\r\n<br\/><br\/>\r\nSeltos - Сэлтос, Classic - Классик, Comfort - Комфорт, Luxe - Люкс, Style - Стайл, Prestige - Престиж, Premium - Премиум, Premium+ - Премиум Плюс.\r\n<br\/><br\/>\r\nMPI (Multi Point Injection) - бензиновый двигатель с распределенным впрыском топлива.\r\n<br\/><br\/>\r\nT-GDi (Turbo Gasoline Direct Injection) - cистема непосредственного впрыска топлива в бензиновых двигателях.\r\n<br\/><br\/>\r\n        Auto - Авто,\r\n\t\tTFT (Thin Film Transistor) - Тиэфти,    \r\n        Engine (Start-Stop) - Двигатель (Старт-Стоп), \r\n        LCD (Liquid Crystal Display) - Жидкокристаллический дисплей, \r\n        Supervision - Супервижн,\r\n        USB (Universal Serial Bus) - интерфейс для подключения,  \r\n        AUX (auxiliary) -  интерфейс для подключения, \r\n        SD (Secure Digital) - формат карт памяти, \r\n        Bluetooth (Блютус) - спецификация беспроводных персональных сетей, \r\n        Apple Carplay - Эппл Карплей, \r\n        Android Auto - Андройд Авто, \r\n        Smart Key - Смарт Кей, \r\n        AHSS(Advanced-high-strength steel) - прогрессивная высокопрочная сталь,\r\n        ABS (Anti-lock braking system) -  Антиблокировочная система торможения,\r\n        DRL (Daytime running lights) - Дневные ходовые огни.\r\n<br\/><br\/>\r\nТехнические характеристики уточняйте у дилеров KIA.\r\n<br\/><br\/>\r\nMT - Механика.\r\n<br\/><br\/>\r\nAT - Автомат.\r\n<br\/><br\/>\r\nDCT (Dual-clutch transmission) - роботизированная коробка передач с двумя сцеплениями\r\n<br\/><br\/>\r\nIVT (Intelligent Variable Transmission) - бесступенчатая трансмиссия\r\n<br\/><br\/>\r\nOCN - Код комплектации.",
+					"year": 2020,
+					"model_year": 2020
+				}
+			},
+			"min_price":
+			{
+				"name": "Min Price Seltos",
+				"text": "Цена 1 134 900 руб. указана на новый автомобиль KIA Seltos 2020 г. выпуска в комплектации 1.6 MT Classic c учетом максимальной выгоды 45 000 руб. Выгода формируется из: \n1) выгоды 45 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1]Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ\n РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита."
+			},
+			"max_benefit":
+			{
+				"name": "Max Benefit Seltos",
+				"text": "Получение максимальной выгоды в размере 45 000 рублей возможно при покупке нового KIA Seltos 2020 г. выпуска. Выгода формируется из: \n1) выгоды 45 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1]Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита. "
+			},
+			"credit":
+			{
+				"name": "Credit Seltos",
+				"text": "Ежемесячный платеж –  5 670 р. на КИА Сэлтос. Кредит предоставляется ПАО «Совкомбанк» (далее «Банк») Генеральная лицензия ЦБ РФ № 963 от 05.12.2014 г., рассчитан по условиям программы  \"KIA Легко Plus\" (Подробная информация: https:\/\/www.kia.ru\/buy\/special\/credit-legko-plus\/) по кредитному тарифу KIA Finance Indirect исходя из параметров: цена КИА Сэлтос 1.6 МТ Классик 2020 года производства, стоимостью 1 179 900 руб. (и с условием предоставления дополнительной скидки в размере 45 000 р. по программе \"KIA Легко Plus\"), срок кредита 36 мес., первоначального взноса 624 195 р., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13.3% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПолис КАСКО оформляется в САО «ВСК» (Лицензии ЦБ РФ - СЛ № 0621, СИ № 0621 от 11.09.2015 www.vsk.ru) на 3 года и предусматривает выплату страхового возмещения за вычетом безусловной франшизы в размере 18 000 р. по страховым случаям, определенным в полисе и с учетом положений Правил страхования, и связанным с утратой, гибелью, повреждением приобретенного автомобиля. Условия программы могут быть изменены в одностороннем порядке САО «ВСК».\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с  01.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA."
+			}
+		},
+		"model_default_year": 2020,
+		"model_menu": [
+		{
+			"title": "Обзор",
+			"link": "\/models\/seltos\/desc\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 400
+		},
+		{
+			"title": "Комплектации и цены",
+			"link": "\/models\/seltos\/options\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 450
+		},
+		{
+			"title": "Характеристики",
+			"link": "\/models\/seltos\/properties\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 500
+		},
+		{
+			"title": "Рассчитать кредит",
+			"link": "\/models\/seltos\/calc\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 1,
+			"show_in_calculator": 0,
+			"sort": 900
+		},
+		{
+			"title": "Рассчитать трейд-ин",
+			"link": "\/buy\/trade-in\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 1,
+			"show_in_calculator": 1,
+			"sort": 1450
+		},
+		{
+			"title": "Авто в наличии",
+			"link": "\/models\/seltos\/cars\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 1,
+			"show_in_calculator": 1,
+			"sort": 1500
+		},
+		{
+			"title": "Спецпредложения",
+			"link": "\/models\/seltos\/special\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1550
+		},
+		{
+			"title": "Конфигуратор",
+			"link": "\/models\/seltos\/configurator\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1600
+		},
+		{
+			"title": "Тест-драйв",
+			"link": "\/models\/seltos\/testdrive\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1650
+		},
+		{
+			"title": "Заявка дилеру",
+			"link": "\/models\/seltos\/callback\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1650
+		},
+		{
+			"title": "Технологии",
+			"link": "\/models\/seltos\/technologies\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1660
+		},
+		{
+			"title": "Брошюра",
+			"link": "https:\/\/cdn.kia.ru\/master-data\/brochures\/Kia_Seltos.pdf",
+			"code": "broshure",
+			"in_new_window": 1,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1700
+		},
+		{
+			"title": "Аксессуары",
+			"link": "https:\/\/www.kia.ru\/static\/master-data\/accessoaries\/KIA_brochure_Brand.pdf",
+			"code": null,
+			"in_new_window": 1,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1800
+		}],
+		"seo":
+		{
+			"title": "KIA Seltos 2020 - Цены и комплектации",
+			"description": "В российских спецификациях KIA Seltos будет комплектоваться механической, автоматической, вариаторной или роботизированной трансмиссиями, иметь привод на переднюю ось или систему полного привода."
+		}
+	}
+}

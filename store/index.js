@@ -28,8 +28,6 @@ Vue.use(VueFilterDateFormat, {
 // Vue.use(ApiPlugin);
 
 
-
-
 // GLOBAL FILTRES
 
 Vue.filter('spaceBetweenNum', function (price) { 
