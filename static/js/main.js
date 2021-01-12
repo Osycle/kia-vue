@@ -480,7 +480,7 @@ export default function(){
 		// 		elTop = $(el).offset().top,
 		// 		elBottom = elTop + $(el).height();
 		// 	//console.log(elBottom, docViewBottom, elTop, docViewTop);
-		// 	if( scrollTop > 600 && docViewBottom <= elTop){
+		// 	if( scrollTop > 750 && docViewBottom <= elTop){
 		// 		optionsRecon.addClass("options-recon");
 		// 	}else{
 		// 		optionsRecon.removeClass("options-recon");

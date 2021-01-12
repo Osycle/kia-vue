@@ -2766,16 +2766,6 @@
 			"sort": 900
 		},
 		{
-			"title": "Рассчитать трейд-ин",
-			"link": "\/buy\/trade-in\/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 1,
-			"show_in_calculator": 1,
-			"sort": 1450
-		},
-		{
 			"title": "Авто в наличии",
 			"link": "\/models\/seltos\/cars\/",
 			"code": null,
@@ -2824,36 +2814,6 @@
 			"show_in_configurator": 0,
 			"show_in_calculator": 0,
 			"sort": 1650
-		},
-		{
-			"title": "Технологии",
-			"link": "\/models\/seltos\/technologies\/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1660
-		},
-		{
-			"title": "Брошюра",
-			"link": "https:\/\/cdn.kia.ru\/master-data\/brochures\/Kia_Seltos.pdf",
-			"code": "broshure",
-			"in_new_window": 1,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1700
-		},
-		{
-			"title": "Аксессуары",
-			"link": "https:\/\/www.kia.ru\/static\/master-data\/accessoaries\/KIA_brochure_Brand.pdf",
-			"code": null,
-			"in_new_window": 1,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1800
 		}],
 		"seo":
 		{

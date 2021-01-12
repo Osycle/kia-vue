@@ -4,26 +4,28 @@
 	{
 		"model":
 		{
-			"brochure": "https://cdn.kia.ru/master-data/brochures/Kia_K5_Preview.pdf",
+			"accessory": null,
+			"brochure": "\/master-data\/brochures\/Kia_K5_Preview.pdf",
 			"code": "k5",
 			"external_id": "EXS4",
 			"id": "7dc5ba2d-e214-4746-9e61-6a79812987dd",
-			"image": "https://cdn.kia.ru/master-data/models/K5_half.png",
-			"image_side_view": "https://cdn.kia.ru/master-data/models/image_side/K5.png",
+			"image": "\/master-data\/models\/K5_half.png",
+			"image_side_view": "\/master-data\/models\/image_side\/K5.png",
 			"is_coming_soon": 0,
-			"logo_black": "https://cdn.kia.ru/master-data/models/logo/k5-logo-black.svg",
-			"logo_white": "https://cdn.kia.ru/master-data/models/logo/k5-logo-white.svg",
+			"logo_black": "\/master-data\/models\/logo\/k5-logo-black.svg",
+			"logo_white": "\/master-data\/models\/logo\/k5-logo-white.svg",
 			"max_benefit": 40000,
-			"min_credit_price": 7870,
-			"min_price": 1479900,
+			"min_credit_price": 7690,
+			"min_price": 1539900,
 			"model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
 			"name": "K5",
-			"price": 1519900,
-			"price_list": "https://cdn.kia.ru/master-data/pdf/model/Kia_K5_Preview.pdf"
+			"price": 1579900,
+			"price_list": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf",
+			"unique_id": "EXS420212020"
 		},
 		"years_price_lists":
 		{
-			"2020": "https://cdn.kia.ru/master-data/pdf/model/Kia_K5_Preview.pdf"
+			"2020": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf"
 		},
 		"banner":
 		{
@@ -38,9 +40,9 @@
 			"group_code": "models_k5_options",
 			"images":
 			{
-				"desktop": "/img/other/k5-models-options-bnr.png",
-				"mobile": "/img/other/k5-models-options-bnr-xs.png",
-				"retina": "/img/other/k5-models-options-bnr.png"
+				"desktop": "\/media-data\/banners\/models\/k5\/options\/desktop.png",
+				"mobile": "\/media-data\/banners\/models\/k5\/options\/mobile.png",
+				"retina": "\/media-data\/banners\/models\/k5\/options\/desktop.png"
 			},
 			"link":
 			{
@@ -63,8 +65,8 @@
 		{
 			"base_prices":
 			{
-				"from": 1519900,
-				"to": 2229900
+				"from": 1579900,
+				"to": 2289900
 			},
 			"complectations": [
 			{
@@ -77,8 +79,8 @@
 				"external_name": "CLASSIC",
 				"id": "f50239f8-c152-4680-8bba-051691f8e01c",
 				"interior_colors": ["cae82a1b-5815-4ca2-9b00-ee2bcfd3460b"],
-				"min_credit_amount": 7870,
-				"min_price": 1479900,
+				"min_credit_amount": 7690,
+				"min_price": 1539900,
 				"model_year": 2021,
 				"modification_code": "EXS42G61F",
 				"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
@@ -86,7 +88,7 @@
 				"name_en": "Classic",
 				"ocn": "D641",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "b122e29d-50de-4be9-932a-6980d3fb5593", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "d67c19f8-cae0-4757-8582-e1ed41f9f642", "6c4c70d1-0387-4d12-9881-476b8be73909", "a6758985-e2f1-402c-b50f-16f93bf7e41c"],
-				"price": 1519900,
+				"price": 1579900,
 				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
 				"unique_id": "EXS4202120202G61FDD641",
 				"year": 2020
@@ -101,8 +103,8 @@
 				"external_name": "COMFORT",
 				"id": "7be5053b-9ef0-4d7b-b6b0-367daa774285",
 				"interior_colors": ["cae82a1b-5815-4ca2-9b00-ee2bcfd3460b"],
-				"min_credit_amount": 8490,
-				"min_price": 1639900,
+				"min_credit_amount": 8280,
+				"min_price": 1659900,
 				"model_year": 2021,
 				"modification_code": "EXS42G61F",
 				"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
@@ -110,7 +112,7 @@
 				"name_en": "Comfort",
 				"ocn": "D646",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "b122e29d-50de-4be9-932a-6980d3fb5593", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "d67c19f8-cae0-4757-8582-e1ed41f9f642", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "6c4c70d1-0387-4d12-9881-476b8be73909", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2"],
-				"price": 1639900,
+				"price": 1699900,
 				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
 				"unique_id": "EXS4202120202G61FDD646",
 				"year": 2020
@@ -125,8 +127,8 @@
 				"external_name": "LUXE",
 				"id": "ea939986-7735-4b5e-b6a0-52694b4b20e7",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
-				"min_credit_amount": 9010,
-				"min_price": 1739900,
+				"min_credit_amount": 8780,
+				"min_price": 1759900,
 				"model_year": 2021,
 				"modification_code": "EXS42G61F",
 				"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
@@ -134,7 +136,7 @@
 				"name_en": "Luxe",
 				"ocn": "G466",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "a95a7f44-f8ca-4a67-bab1-4f4a256cd362", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "b913fb68-795a-4e24-845e-a518cbd82a54", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "1f0f6fb7-dbaa-4816-a3bd-9ba5b9f59f95", "b4d2a9c6-7b15-47bc-8ce5-17ccc0f1d942", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "003c8abb-c8ac-44bf-bf59-d64d3e0188ca", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "6c4c70d1-0387-4d12-9881-476b8be73909", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83"],
-				"price": 1739900,
+				"price": 1799900,
 				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
 				"unique_id": "EXS4202120202G61FGG466",
 				"year": 2020
@@ -149,8 +151,8 @@
 				"external_name": "PRESTIGE",
 				"id": "ecc1c0b3-61db-4fa7-af9a-65ee4e881e1e",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
-				"min_credit_amount": 9470,
-				"min_price": 1829900,
+				"min_credit_amount": 9230,
+				"min_price": 1849900,
 				"model_year": 2021,
 				"modification_code": "EXS42G61F",
 				"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
@@ -158,7 +160,7 @@
 				"name_en": "Prestige",
 				"ocn": "G473",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "a95a7f44-f8ca-4a67-bab1-4f4a256cd362", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "b913fb68-795a-4e24-845e-a518cbd82a54", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "1f0f6fb7-dbaa-4816-a3bd-9ba5b9f59f95", "b4d2a9c6-7b15-47bc-8ce5-17ccc0f1d942", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "51622ab4-355b-49dd-9b2c-d01cdf990204", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "c7049a87-8fe7-4d69-8319-3d309a1b376b", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "003c8abb-c8ac-44bf-bf59-d64d3e0188ca", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "6c4c70d1-0387-4d12-9881-476b8be73909", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "8bd17b34-6289-4053-86a1-f8d6a29ba632", "f8a2e09f-3ea4-4041-a13e-203c4ef7ff08", "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0"],
-				"price": 1829900,
+				"price": 1889900,
 				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
 				"unique_id": "EXS4202120202G61FGG473",
 				"year": 2020
@@ -173,8 +175,8 @@
 				"external_name": "STYLE",
 				"id": "6436406b-513d-4368-bbee-d587d25133a2",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
-				"min_credit_amount": 9730,
-				"min_price": 1879900,
+				"min_credit_amount": 9480,
+				"min_price": 1899900,
 				"model_year": 2021,
 				"modification_code": "EXS42G61F",
 				"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
@@ -182,7 +184,7 @@
 				"name_en": "Style",
 				"ocn": "G501",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "a95a7f44-f8ca-4a67-bab1-4f4a256cd362", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "f2287862-3158-4845-b392-5e13ad841e20", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "1f0f6fb7-dbaa-4816-a3bd-9ba5b9f59f95", "b4d2a9c6-7b15-47bc-8ce5-17ccc0f1d942", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "003c8abb-c8ac-44bf-bf59-d64d3e0188ca", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "6c4c70d1-0387-4d12-9881-476b8be73909", "5e106d34-d6d7-46c6-a9c7-fed9159e9e93", "8f212f10-7e95-4ab2-9186-017fc4f63e78", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "8bd17b34-6289-4053-86a1-f8d6a29ba632", "268a8241-e190-4deb-bcab-27a7a6ce4d45", "b7daa006-d5f5-4e0e-93a2-70ab2e926fcd", "5828ad6b-e2b3-41dd-bc9b-fbbd886386f6"],
-				"price": 1879900,
+				"price": 1939900,
 				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
 				"unique_id": "EXS4202120202G61FGG501",
 				"year": 2020
@@ -197,8 +199,8 @@
 				"external_name": "LUXE",
 				"id": "08316f44-3d28-4eff-9705-3f1108d12778",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
-				"min_credit_amount": 9680,
-				"min_price": 1869900,
+				"min_credit_amount": 9430,
+				"min_price": 1889900,
 				"model_year": 2021,
 				"modification_code": "EXS4L9A1J",
 				"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
@@ -206,7 +208,7 @@
 				"name_en": "Luxe",
 				"ocn": "G466",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "a95a7f44-f8ca-4a67-bab1-4f4a256cd362", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "b913fb68-795a-4e24-845e-a518cbd82a54", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "1f0f6fb7-dbaa-4816-a3bd-9ba5b9f59f95", "b4d2a9c6-7b15-47bc-8ce5-17ccc0f1d942", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "003c8abb-c8ac-44bf-bf59-d64d3e0188ca", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "6c4c70d1-0387-4d12-9881-476b8be73909", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83"],
-				"price": 1869900,
+				"price": 1929900,
 				"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
 				"unique_id": "EXS420212020L9A1JGG466",
 				"year": 2020
@@ -221,8 +223,8 @@
 				"external_name": "PRESTIGE",
 				"id": "a6b865eb-0723-4448-915c-be924a9c8e02",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
-				"min_credit_amount": 10150,
-				"min_price": 1959900,
+				"min_credit_amount": 9880,
+				"min_price": 1979900,
 				"model_year": 2021,
 				"modification_code": "EXS4L9A1J",
 				"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
@@ -230,7 +232,7 @@
 				"name_en": "Prestige",
 				"ocn": "G473",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "a95a7f44-f8ca-4a67-bab1-4f4a256cd362", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "b913fb68-795a-4e24-845e-a518cbd82a54", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "1f0f6fb7-dbaa-4816-a3bd-9ba5b9f59f95", "b4d2a9c6-7b15-47bc-8ce5-17ccc0f1d942", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "51622ab4-355b-49dd-9b2c-d01cdf990204", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "c7049a87-8fe7-4d69-8319-3d309a1b376b", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "003c8abb-c8ac-44bf-bf59-d64d3e0188ca", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "6c4c70d1-0387-4d12-9881-476b8be73909", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "8bd17b34-6289-4053-86a1-f8d6a29ba632", "f8a2e09f-3ea4-4041-a13e-203c4ef7ff08", "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0"],
-				"price": 1959900,
+				"price": 2019900,
 				"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
 				"unique_id": "EXS420212020L9A1JGG473",
 				"year": 2020
@@ -245,8 +247,8 @@
 				"external_name": "STYLE",
 				"id": "cc2c0fba-4dbe-4cc3-b80f-13c716b51017",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
-				"min_credit_amount": 10410,
-				"min_price": 2009900,
+				"min_credit_amount": 10130,
+				"min_price": 2029900,
 				"model_year": 2021,
 				"modification_code": "EXS4L9A1J",
 				"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
@@ -254,7 +256,7 @@
 				"name_en": "Style",
 				"ocn": "G468",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "a95a7f44-f8ca-4a67-bab1-4f4a256cd362", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "f2287862-3158-4845-b392-5e13ad841e20", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "1f0f6fb7-dbaa-4816-a3bd-9ba5b9f59f95", "b4d2a9c6-7b15-47bc-8ce5-17ccc0f1d942", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "003c8abb-c8ac-44bf-bf59-d64d3e0188ca", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "6c4c70d1-0387-4d12-9881-476b8be73909", "5e106d34-d6d7-46c6-a9c7-fed9159e9e93", "8f212f10-7e95-4ab2-9186-017fc4f63e78", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "8bd17b34-6289-4053-86a1-f8d6a29ba632", "268a8241-e190-4deb-bcab-27a7a6ce4d45", "b7daa006-d5f5-4e0e-93a2-70ab2e926fcd", "5828ad6b-e2b3-41dd-bc9b-fbbd886386f6"],
-				"price": 2009900,
+				"price": 2069900,
 				"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
 				"unique_id": "EXS420212020L9A1JGG468",
 				"year": 2020
@@ -269,8 +271,8 @@
 				"external_name": "GT LINE",
 				"id": "478e1dd1-b192-42c9-84f3-5c786088f540",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464"],
-				"min_credit_amount": 11080,
-				"min_price": 2139900,
+				"min_credit_amount": 10780,
+				"min_price": 2159900,
 				"model_year": 2021,
 				"modification_code": "EXS4L9A1J",
 				"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
@@ -278,7 +280,7 @@
 				"name_en": "GT Line",
 				"ocn": "P005",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "a95a7f44-f8ca-4a67-bab1-4f4a256cd362", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "3fe66ebe-4ebf-4315-8956-1215a9dabe0a", "f2287862-3158-4845-b392-5e13ad841e20", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "1f0f6fb7-dbaa-4816-a3bd-9ba5b9f59f95", "a75e848f-4399-47a1-b4e8-ff8fa0ad2460", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "d314c083-c1f4-4100-8984-b64448a4613f", "36a41171-6d2f-4686-bd0f-bce430d94d14", "51622ab4-355b-49dd-9b2c-d01cdf990204", "582e25f1-1675-4720-927c-242d8f00a8dc", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "4e3ba590-09fb-4c8d-8822-e191218d9036", "166a1d55-d119-4ce8-825f-29740d38fe33", "a8ed9a16-e6e2-48e7-80fe-99089327f8ab", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "c7049a87-8fe7-4d69-8319-3d309a1b376b", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "003c8abb-c8ac-44bf-bf59-d64d3e0188ca", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "399d2db1-65ff-4dcd-b9b4-aa2c39af2812", "5e106d34-d6d7-46c6-a9c7-fed9159e9e93", "8f212f10-7e95-4ab2-9186-017fc4f63e78", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "8bd17b34-6289-4053-86a1-f8d6a29ba632", "f8a2e09f-3ea4-4041-a13e-203c4ef7ff08", "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0", "0a4f60db-3972-4404-9d0e-9570ca749f09", "b76b2bc1-343f-4982-85ae-956637101548", "268a8241-e190-4deb-bcab-27a7a6ce4d45", "b7daa006-d5f5-4e0e-93a2-70ab2e926fcd", "5828ad6b-e2b3-41dd-bc9b-fbbd886386f6", "591cefe7-cd58-4fae-95a9-8f72b70d9ec3", "f733e2eb-5b63-4a52-9e5e-9b449c428d8c", "62bdecfb-97b8-40d9-b16f-c5bfa3e91a6d", "b1b9fd89-204f-4378-8156-bf560d009ad6", "f6aafc9b-3b6e-47e2-abbb-270a0f52c860", "9ecc66bb-48f4-4325-904e-91d347727212"],
-				"price": 2139900,
+				"price": 2199900,
 				"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
 				"unique_id": "EXS420212020L9A1JPP005",
 				"year": 2020
@@ -293,8 +295,8 @@
 				"external_name": "GT LINE+",
 				"id": "5eced350-c1a5-4c99-9f21-2db5ee24462f",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464"],
-				"min_credit_amount": 11540,
-				"min_price": 2229900,
+				"min_credit_amount": 11230,
+				"min_price": 2249900,
 				"model_year": 2021,
 				"modification_code": "EXS4L9A1J",
 				"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
@@ -302,7 +304,7 @@
 				"name_en": "GT Line+",
 				"ocn": "P007",
 				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "a95a7f44-f8ca-4a67-bab1-4f4a256cd362", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "3fe66ebe-4ebf-4315-8956-1215a9dabe0a", "f2287862-3158-4845-b392-5e13ad841e20", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "1f0f6fb7-dbaa-4816-a3bd-9ba5b9f59f95", "a75e848f-4399-47a1-b4e8-ff8fa0ad2460", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "d314c083-c1f4-4100-8984-b64448a4613f", "36a41171-6d2f-4686-bd0f-bce430d94d14", "51622ab4-355b-49dd-9b2c-d01cdf990204", "582e25f1-1675-4720-927c-242d8f00a8dc", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "4e3ba590-09fb-4c8d-8822-e191218d9036", "166a1d55-d119-4ce8-825f-29740d38fe33", "a8ed9a16-e6e2-48e7-80fe-99089327f8ab", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "c7049a87-8fe7-4d69-8319-3d309a1b376b", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "003c8abb-c8ac-44bf-bf59-d64d3e0188ca", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "399d2db1-65ff-4dcd-b9b4-aa2c39af2812", "4e702cfa-452d-4991-bb83-245be872d21a", "5e106d34-d6d7-46c6-a9c7-fed9159e9e93", "8f212f10-7e95-4ab2-9186-017fc4f63e78", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "8bd17b34-6289-4053-86a1-f8d6a29ba632", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "f30067c0-722c-4b5f-92a8-246d26d083ca", "159d923b-c6eb-414d-b661-d786e8848e45", "74096779-44bc-4c75-a9b4-4e304d40a407", "f8a2e09f-3ea4-4041-a13e-203c4ef7ff08", "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0", "0a4f60db-3972-4404-9d0e-9570ca749f09", "b76b2bc1-343f-4982-85ae-956637101548", "c9a21753-14fa-45c5-997f-9039a89f23e2", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1", "2c5a8957-ff1b-47ee-86e3-f759397cd604", "268a8241-e190-4deb-bcab-27a7a6ce4d45", "b7daa006-d5f5-4e0e-93a2-70ab2e926fcd", "5828ad6b-e2b3-41dd-bc9b-fbbd886386f6", "591cefe7-cd58-4fae-95a9-8f72b70d9ec3", "f733e2eb-5b63-4a52-9e5e-9b449c428d8c", "62bdecfb-97b8-40d9-b16f-c5bfa3e91a6d", "b1b9fd89-204f-4378-8156-bf560d009ad6", "f6aafc9b-3b6e-47e2-abbb-270a0f52c860", "9ecc66bb-48f4-4325-904e-91d347727212"],
-				"price": 2229900,
+				"price": 2289900,
 				"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
 				"unique_id": "EXS420212020L9A1JPP007",
 				"year": 2020
@@ -353,7 +355,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://cdn.kia.ru/master-data/colors/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"is_double_color": false,
 				"is_metallic": true,
 				"name": "Interstellar Gray",
@@ -364,7 +366,7 @@
 			{
 				"code": "UD",
 				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
-				"image": "https://cdn.kia.ru/master-data/colors/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
 				"is_double_color": false,
 				"is_metallic": false,
 				"name": "Clear White",
@@ -375,7 +377,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://cdn.kia.ru/master-data/colors/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"is_double_color": false,
 				"is_metallic": true,
 				"name": "Yacht Blue",
@@ -386,7 +388,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://cdn.kia.ru/master-data/colors/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"is_double_color": false,
 				"is_metallic": true,
 				"name": "Snow White Pearl",
@@ -397,7 +399,7 @@
 			{
 				"code": "4SS",
 				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-				"image": "https://cdn.kia.ru/master-data/colors/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"is_double_color": false,
 				"is_metallic": true,
 				"name": "Silky Silver",
@@ -408,7 +410,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://cdn.kia.ru/master-data/colors/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"is_double_color": false,
 				"is_metallic": true,
 				"name": "Gravity Blue",
@@ -419,7 +421,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://cdn.kia.ru/master-data/colors/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"is_double_color": false,
 				"is_metallic": true,
 				"name": "Aurora Black Pearl",
@@ -483,12 +485,12 @@
 				"options": [
 				{
 					"id": "b122e29d-50de-4be9-932a-6980d3fb5593",
-					"name": "Легкосплавные диски 16\" с шинами 215/60 R16",
+					"name": "Легкосплавные диски 16\" с шинами 215\/60 R16",
 					"sort": 500
 				},
 				{
 					"id": "b913fb68-795a-4e24-845e-a518cbd82a54",
-					"name": "Легкосплавные диски 17\" с шинами 215/55 R17",
+					"name": "Легкосплавные диски 17\" с шинами 215\/55 R17",
 					"sort": 500
 				},
 				{
@@ -583,7 +585,7 @@
 				},
 				{
 					"id": "582e25f1-1675-4720-927c-242d8f00a8dc",
-					"name": "Автоматическая (электроннная) система блокировки замков задних дверей от случайного открывания детьми",
+					"name": "Автоматическая (электронная) система блокировки замков задних дверей от случайного открывания детьми",
 					"sort": 500
 				}],
 				"sort": 1000
@@ -723,7 +725,7 @@
 				},
 				{
 					"id": "8f212f10-7e95-4ab2-9186-017fc4f63e78",
-					"name": "Аудиосистема BOSE с 12 динамиками",
+					"name": "Аудиосистема BOSE с 12 динамиками, включая сабвуфер",
 					"sort": 500
 				},
 				{
@@ -736,7 +738,7 @@
 					"name": "Беспроводная зарядка мобильного телефона",
 					"sort": 500
 				}],
-				"sort": 925
+				"sort": 790
 			},
 			{
 				"name": "Современные системы помощи водителю DRIVE WISE",
@@ -799,11 +801,11 @@
 				"sort": 850
 			},
 			{
-				"name": "Пакет Style / GT Line",
+				"name": "Пакет Style \/ GT Line",
 				"options": [
 				{
 					"id": "268a8241-e190-4deb-bcab-27a7a6ce4d45",
-					"name": "Легкосплавные диски 18\" с шинами 235/45 R18",
+					"name": "Легкосплавные диски 18\" с шинами 235\/45 R18",
 					"sort": 500
 				},
 				{
@@ -852,21 +854,21 @@
 			{
 				"code": "WK",
 				"id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
-				"image": "https://cdn.kia.ru/master-data/colors/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
 				"name": "Черный, Тканевая отделка",
 				"name_en": "Black, Fabric finish"
 			},
 			{
 				"code": "WK",
 				"id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
-				"image": "https://cdn.kia.ru/master-data/colors/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
 				"name": "Черный, Натуральная кожа",
 				"name_en": "Black, Genuine leather"
 			},
 			{
 				"code": "DNN",
 				"id": "f2105db2-4a6e-473b-8505-5f125ea9adb3",
-				"image": "https://cdn.kia.ru/master-data/colors/08d1a1e3-e235-4e71-a5c0-293aa86da978.svg",
+				"image": "\/master-data\/colors\/08d1a1e3-e235-4e71-a5c0-293aa86da978.svg",
 				"name": "Бежевый, Натуральная кожа",
 				"name_en": "Beige, Genuine leather"
 			}],
@@ -903,12 +905,12 @@
 			},
 			{
 				"id": "b122e29d-50de-4be9-932a-6980d3fb5593",
-				"name": "Легкосплавные диски 16\" с шинами 215/60 R16",
+				"name": "Легкосплавные диски 16\" с шинами 215\/60 R16",
 				"sort": 500
 			},
 			{
 				"id": "b913fb68-795a-4e24-845e-a518cbd82a54",
-				"name": "Легкосплавные диски 17\" с шинами 215/55 R17",
+				"name": "Легкосплавные диски 17\" с шинами 215\/55 R17",
 				"sort": 500
 			},
 			{
@@ -993,7 +995,7 @@
 			},
 			{
 				"id": "582e25f1-1675-4720-927c-242d8f00a8dc",
-				"name": "Автоматическая (электроннная) система блокировки замков задних дверей от случайного открывания детьми",
+				"name": "Автоматическая (электронная) система блокировки замков задних дверей от случайного открывания детьми",
 				"sort": 500
 			},
 			{
@@ -1123,7 +1125,7 @@
 			},
 			{
 				"id": "8f212f10-7e95-4ab2-9186-017fc4f63e78",
-				"name": "Аудиосистема BOSE с 12 динамиками",
+				"name": "Аудиосистема BOSE с 12 динамиками, включая сабвуфер",
 				"sort": 500
 			},
 			{
@@ -1193,7 +1195,7 @@
 			},
 			{
 				"id": "268a8241-e190-4deb-bcab-27a7a6ce4d45",
-				"name": "Легкосплавные диски 18\" с шинами 235/45 R18",
+				"name": "Легкосплавные диски 18\" с шинами 235\/45 R18",
 				"sort": 500
 			},
 			{
@@ -1262,7 +1264,7 @@
 				"group_name": "Интерьер",
 				"group_sort": "1100",
 				"id": "e620a101-b002-4409-8b93-5cdece1839cb",
-				"name": "Задние сиденья со спинками, складывающимися в соотношении 60/40",
+				"name": "Задние сиденья со спинками, складывающимися в соотношении 60\/40",
 				"sort": 500
 			},
 			{
@@ -1485,37 +1487,37 @@
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_2.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_2.jpg",
 				"option_id": "0b4baf62-2238-4ed3-a189-0e0454692f20"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_5.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_5.jpg",
 				"option_id": "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_7.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_7.jpg",
 				"option_id": "26e216ee-4fbc-4974-833c-f5b9748e0986"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_8.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_8.jpg",
 				"option_id": "44140984-8606-4aeb-a60f-9928abb52779"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_9.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_9.jpg",
 				"option_id": "a6cad079-1642-4ae9-958b-b8078f9c5eb7"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_10.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_10.jpg",
 				"option_id": "a9fcefb1-77fc-4863-b0f6-d67e0ef8afc6"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_11.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_11.jpg",
 				"option_id": "9ca1d11a-ac37-4af3-a196-b189b15b100c"
 			},
 			{
@@ -1550,22 +1552,22 @@
 			},
 			{
 				"description": "Светодиодные фары проекционного типа и графический элемент «биение сердца» в форме дневных ходовых огней подчеркивают технологичность и футуристичный дизайн автомобиля.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_1.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_1.jpg",
 				"option_id": "749900c0-a16f-4db3-ac1f-7770f9f56fe5"
 			},
 			{
 				"description": "Серебристый диффузор, двойная хромированная отделка подчеркивают любовь к скорости и спортивный дух нового KIA К5.Уникальный рисунок задних фонарей продолжает графическую тему “биение сердца”.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_3.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_3.jpg",
 				"option_id": "2eb6f689-8d96-42b8-8df1-5282dc6b5f95"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/exterior_1.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/exterior_1.jpg",
 				"option_id": "b122e29d-50de-4be9-932a-6980d3fb5593"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/exterior_4.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/exterior_4.jpg",
 				"option_id": "f2287862-3158-4845-b392-5e13ad841e20"
 			},
 			{
@@ -1626,11 +1628,6 @@
 			{
 				"description": null,
 				"file_id": null,
-				"option_id": "12ef1125-0fb2-408b-8162-0585b8c1ad60"
-			},
-			{
-				"description": null,
-				"file_id": null,
 				"option_id": "f2f31af0-9813-4e1e-b9ec-7a8769d54411"
 			},
 			{
@@ -1680,122 +1677,117 @@
 			},
 			{
 				"description": "Помогает защитить Вас и Ваших пассажиров, постоянно отслеживая дорожные условия, работу рулевого управления и тормозов, чтобы сохранять устойчивое направление движения, если дорога становится неровной.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_6.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_6.jpg",
 				"option_id": "e63d05b6-0351-4024-a590-44bcd2bea668"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/warm_1.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/warm_1.jpg",
 				"option_id": "c8170134-afd7-4067-b8e2-f014933629eb"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/exterior_2.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/exterior_2.jpg",
 				"option_id": "b913fb68-795a-4e24-845e-a518cbd82a54"
 			},
 			{
 				"description": "Функция наклона и сдвига дает максимальную свободу и ощущение пространства.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/exterior_3.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/exterior_3.jpg",
 				"option_id": "3fe66ebe-4ebf-4315-8956-1215a9dabe0a"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/exterior_5.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/exterior_5.jpg",
 				"option_id": "dda59a4f-7499-4c0b-a655-fee7f755e2cd"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/interior_1.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/interior_1.jpg",
 				"option_id": "3af93114-6d35-4623-b114-d1890c062014"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/interior_2.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/interior_2.jpg",
 				"option_id": "690d98a7-d4d6-4da3-a9f8-f59653b5e57a"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/interior_3.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/interior_3.jpg",
 				"option_id": "3c7e88e7-9334-4884-94ea-9919fc20deb5"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/interior_4.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/interior_4.jpg",
 				"option_id": "1f0f6fb7-dbaa-4816-a3bd-9ba5b9f59f95"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/interior_5.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/interior_5.jpg",
 				"option_id": "36a41171-6d2f-4686-bd0f-bce430d94d14"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/multimedia_4.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/multimedia_4.jpg",
 				"option_id": "82532e41-f6ca-4d9d-ae40-7fdf4404fb83"
 			},
 			{
 				"description": "Зарядите смартфон, не пользуясь проводами. Просто положите его в специальное отделение центральной консоли. Зеленый индикатор сообщит что зарядка завершена.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/multimedia_5.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/multimedia_5.jpg",
 				"option_id": "8bd17b34-6289-4053-86a1-f8d6a29ba632"
 			},
 			{
 				"description": "Передние сиденья с электроприводом оснащены поясничным подпором, подогревом и вентиляцией.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_5.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_5.jpg",
 				"option_id": "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_3.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_3.jpg",
 				"option_id": "f8558b5d-8309-4ddc-9411-9e9ac90116d9"
 			},
 			{
 				"description": "Для повышенного комфорта переднего пассажира доступны дополнительные настройки перевода положения сиденья в режим релаксации.  Передние сиденья с электроприводом (8 настроек для водителя, 4 для пассажира) оснащены поясничным подпором (2 направления) с электроприводом.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_4.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_4.jpg",
 				"option_id": "a8ed9a16-e6e2-48e7-80fe-99089327f8ab"
 			},
 			{
 				"description": "Чтобы обеспечить Вам спокойное и уверенное маневрирование при парковке в тесных условиях, система использует ультразвуковые датчики в переднем и заднем бамперах, предупреждая Вас о любых препятствиях.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_6.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_6.jpg",
 				"option_id": "5a84aeaa-45f2-4762-a828-8771518ffba1"
 			},
 			{
 				"description": "При парковке в ограниченном пространстве несколько камер обеспечивают масштабируемый 360-градусный обзор пространства вокруг автомобиля, чтобы Вы могли уверенно совершить маневр, не выходя из автомобиля.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_7.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_7.jpg",
 				"option_id": "dddd9087-ab14-4d0c-8261-4cb28af99dc6"
 			},
 			{
-				"description": "Функция удаленного запуска Smart key позволяет дистанционно запустить и прогреть двигатель и активировать систему климат-контроля.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_8.jpg",
-				"option_id": "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6"
-			},
-			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_9.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_9.jpg",
 				"option_id": "6f981468-c022-4d52-add5-0a3389c47d91"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_10.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_10.jpg",
 				"option_id": "7dae8dde-6584-45f9-a900-3fda13d25635"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_11.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_11.jpg",
 				"option_id": "6c4c70d1-0387-4d12-9881-476b8be73909"
 			},
 			{
 				"description": "Проекционный дисплей выводит информацию на лобовое стекло на линии взгляда водителя.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/comfort_12.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_12.jpg",
 				"option_id": "4e702cfa-452d-4991-bb83-245be872d21a"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/style_3.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/style_3.jpg",
 				"option_id": "5828ad6b-e2b3-41dd-bc9b-fbbd886386f6"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/style_4.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/style_4.jpg",
 				"option_id": "591cefe7-cd58-4fae-95a9-8f72b70d9ec3"
 			},
 			{
@@ -1810,103 +1802,113 @@
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/standart_12.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/standart_12.jpg",
 				"option_id": "bb7a92cf-30b2-49d7-ac97-fcfc1b640682"
 			},
 			{
 				"description": "Акустическая система объединяет 12 оптимально настроенных динамиков и уникальные технологии Bose для высококачественного и “богатого” звучания.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/multimedia_3.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/multimedia_3.jpg",
 				"option_id": "8f212f10-7e95-4ab2-9186-017fc4f63e78"
 			},
 			{
 				"description": "Система поддерживает заданную водителем скорость и рассчитывает относительное расположение и скорость впереди идущего автомобиля с помощью фронтальной камеры и переднего радара, чтобы обеспечить безопасную дистанцию. В пробке система при необходимости полностью остановит автомобиль, а затем — автоматически разгонит его до заданной скорости.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/drive_wise_1.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/drive_wise_1.jpg",
 				"option_id": "98e7502e-a301-4fa1-941e-b8dbbf9746f4"
 			},
 			{
 				"description": "Система FCA предотвращает опасность столкновения с впереди идущим транспортным средством или внезапным препятствием (автомобиль, пешеход, велосипедист). Если система FCA определяет, что есть риск фронтального столкновения, она подаст водителю звуковое и визуальное предупреждение и возьмет на себя управление системой торможения автомобиля.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/drive_wise_2.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/drive_wise_2.jpg",
 				"option_id": "f30067c0-722c-4b5f-92a8-246d26d083ca"
 			},
 			{
 				"description": "Чтобы избежать случайного выезда за пределы полосы движения, система отслеживает положение KIA K5 между линиями разметки. Если Вы начнете покидать полосу без сигнала поворота, система предупредит Вас и направит автомобиль обратно в пределы полосы.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/drive_wise_3.png",
+				"file_id": "\/master-data\/models\/options\/k5\/drive_wise_3.png",
 				"option_id": "159d923b-c6eb-414d-b661-d786e8848e45"
 			},
 			{
 				"description": "Чтобы обеспечить движение по выбранной полосе, система отслеживает дорожную разметку с помощью камеры. Если Вы начнете смещаться, система автоматически выровняет Ваш автомобиль по центру полосы.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/drive_wise_4.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/drive_wise_4.jpg",
 				"option_id": "74096779-44bc-4c75-a9b4-4e304d40a407"
 			},
 			{
-				"description": "На скорости 20 км/ч и выше система BCW предупреждает о появлении автомобиля в слепой зоне, когда Вы меняете полосу движения. Световой сигнал на боковом зеркале и звуковое предупреждение появляются, когда Вы включаете сигнал поворота.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/drive_wise_5.jpg",
+				"description": "На скорости 20 км\/ч и выше система BCW предупреждает о появлении автомобиля в слепой зоне, когда Вы меняете полосу движения. Световой сигнал на боковом зеркале и звуковое предупреждение появляются, когда Вы включаете сигнал поворота.",
+				"file_id": "\/master-data\/models\/options\/k5\/drive_wise_5.jpg",
 				"option_id": "f8a2e09f-3ea4-4041-a13e-203c4ef7ff08"
 			},
 			{
 				"description": "При выезде с парковки задним ходом система отслеживает объекты, движущиеся в перекрестном направлении. При обнаружении помехи с любой стороны система подает звуковой и световой сигналы, пока объект не проедет.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/drive_wise_6.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/drive_wise_6.jpg",
 				"option_id": "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0"
 			},
 			{
 				"description": "Если при включенном сигнале поворота есть вероятность столкновения, система BVM покажет на приборной панели изображение с камеры, предупреждая о возможных помехах в слепых зонах.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/drive_wise_7.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/drive_wise_7.jpg",
 				"option_id": "0a4f60db-3972-4404-9d0e-9570ca749f09"
 			},
 			{
 				"description": "Используя радары в задней части автомобиля, система SEA отслеживает приближающиеся сзади автомобили и предупреждает пассажиров, которые могут выйти из машины. Система также активирует электронный замок безопасности для детей, пока приближающийся автомобиль не проедет мимо.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/drive_wise_8.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/drive_wise_8.jpg",
 				"option_id": "b76b2bc1-343f-4982-85ae-956637101548"
 			},
 			{
 				"description": "Система DAW анализирует Вашу манеру управления. При обнаружении признаков усталости и потери концентрации система подает визуальный и звуковой сигнал, рекомендуя сделать остановку для отдыха. Систему можно настроить в соответствии с Вашими пожеланиями.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/drive_wise_9.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/drive_wise_9.jpg",
 				"option_id": "5ad85803-503b-4a51-9b80-fc7a2eaa14e1"
 			},
 			{
 				"description": "Легкосплавные диски спортивного дизайна подчеркивают динамику автомобиля.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/style_1.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/style_1.jpg",
 				"option_id": "268a8241-e190-4deb-bcab-27a7a6ce4d45"
 			},
 			{
 				"description": "Решетка радиатора в фирменной стилистике «улыбка тигра» обрела интригующий трехмерный рисунок. Дизайн ячеек напоминает текстуру акульей кожи.",
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/style_2.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/style_2.jpg",
 				"option_id": "b7daa006-d5f5-4e0e-93a2-70ab2e926fcd"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/style_5.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/style_5.jpg",
 				"option_id": "f733e2eb-5b63-4a52-9e5e-9b449c428d8c"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/style_6.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/style_6.jpg",
 				"option_id": "62bdecfb-97b8-40d9-b16f-c5bfa3e91a6d"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/style_7.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/style_7.jpg",
 				"option_id": "b1b9fd89-204f-4378-8156-bf560d009ad6"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/style_9.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/style_9.jpg",
 				"option_id": "9ecc66bb-48f4-4325-904e-91d347727212"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/multimedia_1.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/multimedia_1.jpg",
 				"option_id": "a6758985-e2f1-402c-b50f-16f93bf7e41c"
 			},
 			{
 				"description": null,
-				"file_id": "https://cdn.kia.ru/master-data/models/options/k5/multimedia_2.jpg",
+				"file_id": "\/master-data\/models\/options\/k5\/multimedia_2.jpg",
 				"option_id": "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2"
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"option_id": "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6"
+			},
+			{
+				"description": "Если автомобиль находится не дальше 50 метров, его двигатель можно завести дистанционно и прогреть автомобиль (или наоборот охладить при помощи кондиционера) к началу поездки. Чтобы запустить двигатель, необходимо нажать и удерживать кнопку на ключе автомобиля более 2 секунд.",
+				"file_id": "\/master-data\/models\/options\/k5\/comfort_8.jpg",
+				"option_id": "12ef1125-0fb2-408b-8162-0585b8c1ad60"
 			}],
 			"prices":
 			{
-				"from": 1479900,
-				"to": 2229900
+				"from": 1539900,
+				"to": 2249900
 			},
 			"transmissions": [
 			{
@@ -2033,12 +2035,17 @@
 			}],
 			"offers": [
 			{
+				"active_from": 1575147600,
+				"active_to": 1640898000,
+				"advantage_text": "Вы получаете КАСКО на 3 года, а также сервисное обслуживание на 3 года. Ваша выгода достигается путем предоставления дополнительной скидки.",
 				"code": "credit-legko-plus",
+				"condition_text": "<ul>\r\n<li>Вы приобретаете новый автомобиль KIA<\/li>\r\n<li>Вы используете программу кредитования \"KIA Легко Plus\"<\/li>\r\n<li>Программа кредитования \"KIA Легко Plus\" включается в кредит и является частью ежемесячного платежа Клиента<\/li>\r\n<\/ul>",
 				"description": null,
 				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
 				"is_base": false,
 				"is_traid_in": false,
-				"name": "Программа кредитования \"KIA Легко Plus\""
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"preview_text": "Дополнительная выгода при оформлении программы."
 			}]
 		},
 		"disclaimers":
@@ -2048,32 +2055,32 @@
 				"2020":
 				{
 					"name": "Footer Model Option K5",
-					"text": "        Сведения о ценах на продукцию бренда KIA, содержащиеся на сайте, носят исключительно информационный характер. \n        Указанные цены могут отличаться от действительных цен дилеров KIA. Для получения подробной информации об актуальных \n        ценах на продукцию KIA обращайтесь к дилерам KIA. Приобретение любой продукции бренда KIA осуществляется в соответствии \n        с условиями индивидуального договора купли-продажи. Представленное изображение автомобиля может отличаться от реализуемого.\r\n<br/><br/>\r\nНа данном сайте используются зарегистрированные товарные знаки, перечисленные в разделе Правовая информация  <a href=\"https://www.kia.ru/info/trademarks/\">https://www.kia.ru/info/trademarks/</a>\r\n<br/><br/>\r\n        Данные по времени разгона получены в эталонных условиях с применением специального измерительного оборудования, \n        при использовании эталонного топлива. Реальное время разгона может отличаться в силу воздействия различных \n        объективных и субъективных факторов: влажности, давления и температуры окружающего воздуха, фракционного состава используемого топлива, \n        рельефа местности, характеристик дорожного покрытия, направления и скорости ветра, атмосферных осадков, \n        давления в шинах а также их размерности, марки и модели, массы перевозимого груза (включая водителя и пассажиров) и навыков вождения. \n        Из-за различий в комплектациях автомобилей и требованиях на разных рынках, характеристики моделей могут отличаться от указанных выше. \n        Компания Kia оставляет за собой право на внесение изменений в конструкцию и комплектацию автомобилей без предварительного уведомления.\r\n<br/><br/>\r\nНаценка за окраску кузова в цвете металлик указана относительно цены автомобиля с базовым цветом.\r\n<br/><br/>\r\nАктуальную цену с учетом действующих спецпредложений уточняйте на сайте kia.ru в разделе \"Спецпредложения\" и у дилеров KIA.\r\n<br/><br/>\r\nClassic - Классик, Comfort - Комфорт, Luxe - Люкс, Prestige - Престиж, Style - Стайл, GT Line - Джити Лайн, GT Line+ - Джити Лайн Плюс.\r\n<br/><br/>\r\nGDI (Gasoline Direct Injection) - двигатель с непосредственным впрыском топлива.\r\n<br/><br/>\r\nMPI (Multi Point Injection) - бензиновый двигатель с распределенным впрыском топлива.\r\n<br/><br/>\r\n        Auto - Авто, \r\n        TFT (Thin Film Transistor) - Тиэфти,\r\n        Engine (Start-Stop) - Двигатель (Старт-Стоп), \r\n        LCD (Liquid Crystal Display) - Жидкокристаллический дисплей,  \r\n        Supervision - Супервижн, \r\n        USB (Universal Serial Bus) - интерфейс для подключения, \r\n        AUX (auxiliary) -  интерфейс для подключения, \r\n        SD (Secure Digital) - формат карт памяти, \r\n        Bluetooth (Блютус) - спецификация беспроводных персональных сетей, \r\n        Apple Carplay - Эппл Карплей, \r\n        Android Auto - Андройд Авто, \r\n        Smart Key - Смарт Кей, \r\n        AHSS(Advanced-high-strength steel) - прогрессивная высокопрочная сталь,\r\n        ABS (Anti-lock braking system) -  Антиблокировочная система торможения,\r\n        EPB (Electromechanical Parking Brake)-Электрический стояночный тормоз,\r\n        Auto Hold - система автоматического удержания.\r\n<br/><br/>\r\nТехнические характеристики уточняйте у дилеров KIA.\r\n<br/><br/>\r\nOCN - Код комплектации.",
+					"text": "        Сведения о ценах на продукцию бренда KIA, содержащиеся на сайте, носят исключительно информационный характер. \n        Указанные цены могут отличаться от действительных цен дилеров KIA. Для получения подробной информации об актуальных \n        ценах на продукцию KIA обращайтесь к дилерам KIA. Приобретение любой продукции бренда KIA осуществляется в соответствии \n        с условиями индивидуального договора купли-продажи. Представленное изображение автомобиля может отличаться от реализуемого.\r\n<br\/><br\/>\r\nНа данном сайте используются зарегистрированные товарные знаки, перечисленные в разделе Правовая информация  <a href=\"https:\/\/www.kia.ru\/info\/trademarks\/\">https:\/\/www.kia.ru\/info\/trademarks\/<\/a>\r\n<br\/><br\/>\r\n        Данные по времени разгона получены в эталонных условиях с применением специального измерительного оборудования, \n        при использовании эталонного топлива. Реальное время разгона может отличаться в силу воздействия различных \n        объективных и субъективных факторов: влажности, давления и температуры окружающего воздуха, фракционного состава используемого топлива, \n        рельефа местности, характеристик дорожного покрытия, направления и скорости ветра, атмосферных осадков, \n        давления в шинах а также их размерности, марки и модели, массы перевозимого груза (включая водителя и пассажиров) и навыков вождения. \n        Из-за различий в комплектациях автомобилей и требованиях на разных рынках, характеристики моделей могут отличаться от указанных выше. \n        Компания Kia оставляет за собой право на внесение изменений в конструкцию и комплектацию автомобилей без предварительного уведомления.\r\n<br\/><br\/>\r\nНаценка за окраску кузова в цвете металлик указана относительно цены автомобиля с базовым цветом.\r\n<br\/><br\/>\r\nАктуальную цену с учетом действующих спецпредложений уточняйте на сайте kia.ru в разделе \"Спецпредложения\" и у дилеров KIA.\r\n<br\/><br\/>\r\nClassic - Классик, Comfort - Комфорт, Luxe - Люкс, Prestige - Престиж, Style - Стайл, GT Line - Джити Лайн, GT Line+ - Джити Лайн Плюс.\r\n<br\/><br\/>\r\nGDI (Gasoline Direct Injection) - двигатель с непосредственным впрыском топлива.\r\n<br\/><br\/>\r\nMPI (Multi Point Injection) - бензиновый двигатель с распределенным впрыском топлива.\r\n<br\/><br\/>\r\n        Auto - Авто, \r\n        TFT (Thin Film Transistor) - Тиэфти,\r\n        Engine (Start-Stop) - Двигатель (Старт-Стоп), \r\n        LCD (Liquid Crystal Display) - Жидкокристаллический дисплей,  \r\n        Supervision - Супервижн, \r\n        USB (Universal Serial Bus) - интерфейс для подключения, \r\n        AUX (auxiliary) -  интерфейс для подключения, \r\n        SD (Secure Digital) - формат карт памяти, \r\n        Bluetooth (Блютус) - спецификация беспроводных персональных сетей, \r\n        Apple Carplay - Эппл Карплей, \r\n        Android Auto - Андройд Авто, \r\n        Smart Key - Смарт Кей, \r\n        AHSS(Advanced-high-strength steel) - прогрессивная высокопрочная сталь,\r\n        ABS (Anti-lock braking system) -  Антиблокировочная система торможения,\r\n        EPB (Electromechanical Parking Brake)-Электрический стояночный тормоз,\r\n        Auto Hold - система автоматического удержания.\r\n<br\/><br\/>\r\nТехнические характеристики уточняйте у дилеров KIA.\r\n<br\/><br\/>\r\nOCN - Код комплектации.",
 					"year": 2020,
 					"model_year": 2021
 				}
 			},
-			"max_benefit":
-			{
-				"name": "Max Benefit K5",
-				"text": "Получение максимальной выгоды в размере 40 000 рублей возможно при покупке новых автомобилей KIA K5 2020 г. выпуска. Выгода формируется из: \n1) выгоды 40 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https://kia.ru/buy/special/credit-legko-plus/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует c 01.10.2020 по 31.10.2020. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1]Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ\n РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита. Предложение носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует c 01.10.2020 по 31.10.2020. Подробные условия кредитования, требования к условиям страхования и требования к заемщикам уточняйте у официальных дилеров KIA."
-			},
 			"min_price":
 			{
 				"name": "Min Price K5",
-				"text": "Цена 1 479 900 руб. указана на новый автомобиль KIA K5 2020 г. выпуска в комплектации 2.0 AT Classic c учетом максимальной выгоды 40 000 руб. Выгода формируется из: \n1) выгоды 40 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https://kia.ru/buy/special/credit-legko-plus/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.10.2020 по 31.10.2020. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1] Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. \nУсловия и тарифы могут быть изменены Банком в одностороннем порядке. Предложение носит информационный характер, не является публичной офертой (ст. 437 ГК РФ). Программа действует с 01.10.2020 по 31.10.2020. Подробные условия кредитования, требования к условиям страхования и требования к заемщикам уточняйте у официальных дилеров KIA."
+				"text": "Цена 1 539 900 руб. указана на новый автомобиль KIA K5 2020 г. выпуска в комплектации 2.0 AT Classic c учетом максимальной выгоды 40 000 руб. Выгода формируется из: \n1) выгоды 40 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1] Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. \nУсловия и тарифы могут быть изменены Банком в одностороннем порядке."
+			},
+			"max_benefit":
+			{
+				"name": "Max Benefit K5",
+				"text": "Получение максимальной выгоды в размере 40 000 рублей возможно при покупке новых автомобилей KIA K5 2020 г. выпуска. Выгода формируется из: \n1) выгоды 40 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует c 01.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1]Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ\n РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита. "
 			},
 			"credit":
 			{
 				"name": "Credit K5",
-				"text": "Ежемесячный платеж –  7 870 р. на КИА K5. Кредит предоставляется ПАО «Совкомбанк» (далее «Банк») Генеральная лицензия ЦБ РФ № 963 от 05.12.2014 г., рассчитан по условиям программы КИА Легко! (Подробная информация: https://kia.ru/buy/special/credit-legko/) по кредитному тарифу KIA Finance Indirect исходя из параметров: цена КИА K5 2.0 АТ Классик 2020 года производства, стоимостью 1 519 900 руб., срок кредита 36 мес., первоначального взноса 835 945 р., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13.8% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПолис КАСКО оформляется в САО «ВСК» (Лицензии ЦБ РФ - СЛ № 0621, СИ № 0621 от 11.09.2015 www.vsk.ru) на 3 года и предусматривает выплату страхового возмещения за вычетом безусловной франшизы в размере 18 000 р. по страховым случаям, определенным в полисе и с учетом положений Правил страхования, и связанным с утратой, гибелью, повреждением приобретенного автомобиля. Условия программы могут быть изменены в одностороннем порядке САО «ВСК».\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.10.2020 по 31.10.2020. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA."
+				"text": "Ежемесячный платеж –  7 690 р. на КИА K5. Кредит предоставляется ПАО «Совкомбанк» (далее «Банк») Генеральная лицензия ЦБ РФ № 963 от 05.12.2014 г., рассчитан по условиям программы \"KIA Легко Plus\" (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/) по кредитному тарифу KIA Finance Indirect исходя из параметров: цена КИА K5 2.0 АТ Классик 2020 года производства, стоимостью 1 579 900 руб. (и с условием предоставления дополнительной скидки в размере 40 000 р. по программе \"KIA Легко Plus\"), срок кредита 36 мес., первоначального взноса 846 945 р., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13.3% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПолис КАСКО оформляется в САО «ВСК» (Лицензии ЦБ РФ - СЛ № 0621, СИ № 0621 от 11.09.2015 www.vsk.ru) на 3 года и предусматривает выплату страхового возмещения за вычетом безусловной франшизы в размере 18 000 р. по страховым случаям, определенным в полисе и с учетом положений Правил страхования, и связанным с утратой, гибелью, повреждением приобретенного автомобиля. Условия программы могут быть изменены в одностороннем порядке САО «ВСК».\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA."
 			}
 		},
 		"model_default_year": null,
 		"model_menu": [
 		{
 			"title": "Обзор",
-			"link": "/models/k5/desc/",
+			"link": "\/models\/k5\/desc\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -2083,7 +2090,7 @@
 		},
 		{
 			"title": "Комплектации и цены",
-			"link": "/models/k5/options/",
+			"link": "\/models\/k5\/options\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -2093,7 +2100,7 @@
 		},
 		{
 			"title": "Характеристики",
-			"link": "/models/k5/properties/",
+			"link": "\/models\/k5\/properties\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -2103,7 +2110,7 @@
 		},
 		{
 			"title": "Рассчитать кредит",
-			"link": "/models/k5/calc/",
+			"link": "\/models\/k5\/calc\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -2113,7 +2120,7 @@
 		},
 		{
 			"title": "Авто в наличии",
-			"link": "/models/k5/cars/",
+			"link": "\/models\/k5\/cars\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 0,
@@ -2123,7 +2130,7 @@
 		},
 		{
 			"title": "Спецпредложения",
-			"link": "/models/k5/special/",
+			"link": "\/models\/k5\/special\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 0,
@@ -2133,7 +2140,7 @@
 		},
 		{
 			"title": "Конфигуратор",
-			"link": "/models/k5/configurator/",
+			"link": "\/models\/k5\/configurator\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -2143,53 +2150,23 @@
 		},
 		{
 			"title": "Заявка дилеру",
-			"link": "/models/k5/callback/",
+			"link": "\/models\/k5\/callback\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 0,
 			"show_in_configurator": 0,
-			"show_in_calculator": 1,
+			"show_in_calculator": 0,
 			"sort": 1650
 		},
 		{
 			"title": "Тест-драйв",
-			"link": "/models/k5/testdrive/",
+			"link": "\/models\/k5\/testdrive\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 0,
 			"show_in_configurator": 0,
 			"show_in_calculator": 0,
 			"sort": 1650
-		},
-		{
-			"title": "Технологии",
-			"link": "/models/k5/technologies/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1700
-		},
-		{
-			"title": "Брошюра",
-			"link": "https://cdn.kia.ruhttps://cdn.kia.ru/master-data/brochures/Kia_K5_Preview.pdf",
-			"code": "broshure",
-			"in_new_window": 1,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1800
-		},
-		{
-			"title": "Аксессуары",
-			"link": "https://www.kia.ru/statichttps://cdn.kia.ru/master-data/accessoaries/KIA_brochure_Brand.pdf",
-			"code": null,
-			"in_new_window": 1,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1900
 		}],
 		"seo":
 		{

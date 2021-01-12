@@ -1,6 +1,13 @@
 <template>
   <div class="relative conf" scrollf>
-    <Breadcrump :breadcrumpItems="breadcrumpItems"/>
+    <div class="breadcrumb-container">
+      <div class="container-p">
+        <ol class="breadcrumb">
+          <li><nuxt-link to="/">Главная</nuxt-link></li>
+          <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
+        </ol>
+      </div>
+    </div>
     <div class="conf-header">
       <div class="container-p">
         <div class="entry-header">
@@ -434,10 +441,6 @@ export default {
       uniqueParams: {},
 
 
-      breadcrumpItems: [
-        {title: 'Главная',link: '/'},
-        {title: 'Конфигуратор',link: '/'},
-      ],
     }
   },
   mounted(){
