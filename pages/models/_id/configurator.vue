@@ -175,7 +175,7 @@
               <div class="hide">
                 <div class="config-details config-details-modal conf-steps-modal" v-for="(complectation, index) in page.complectations" :key="index" :id="'config-details-'+complectation.id" :config-complectation-id="complectation.id">
                   <section class="item active" v-for="(gOption, key) in page.grouped_options" :key="key">
-                    <a href=".item" class="title-click" data-toggle="click">{{gOption.name}}<i class="fa fa-angle-up"></i></a>
+                    <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
                     <div class="section-body">
                       <div class="section-body-wrapper">
                         <div class="list-block-body">
@@ -338,7 +338,7 @@
                 <div class="config-details">
 
                   <section class="item" v-for="(gOption, key) in page.grouped_options" :key="key">
-                    <a href=".item" class="title-click" data-toggle="click">{{gOption.name}}<i class="fa fa-angle-up"></i></a>
+                    <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
                     <div class="section-body">
                       <div class="section-body-wrapper">
                         <div class="list-block-body">

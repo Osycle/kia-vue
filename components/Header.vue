@@ -1,7 +1,6 @@
 <template>
   <div class="header-parent">
-    <div class="header-hidden block"></div>
-    <header id="header" class="header header-scroll white-style">
+    <header id="header" class="header header-scroll scrolled-up">
       <!-- HEADER TOP -->
       <div class="header-top">
         <div class="container-p relative">
@@ -44,47 +43,7 @@
             <div class="container-p">
               <div class="subdown-item-wrapper">
                 <div class="subdown-menu-items">
-                  <div class="item">
-                    <div class="color-gray-4 title-content">Новые авто</div>
-                    <ul>
-                      <li><a href="../">Онлайн-сервисы</a></li>
-                      <li><a href="../">Конфигуратор</a></li>
-                      <li><a href="../">Авто в наличии</a></li>
-                      <li><a href="../">Спецпредложения</a></li>
-                      <li><a href="../">Расчёт кредита</a></li>
-                      <li><a href="../">Сравнение комплектаций</a></li>
-                      <li><a href="../">Поиск дилера</a></li>
-                      <li><a href="../">Запрос предложения</a></li>
-                      <li><a href="../">Запись на тест-драйв</a></li>
-                      <li><a href="../">Аксессуары</a></li>
-                      <li><a href="../">ЭПТС</a></li>
-                      <li><a href="../">Все брошюры</a></li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <div class="color-gray-4 title-content">Авто с пробегом</div>
-                    <ul>
-                      <li><a href="../">Поиск автомобилей</a></li>
-                      <li><a href="../">Программа «KIA Уверен»</a></li>
-                      <li><a href="../">Программа «Трейд-ин»</a></li>
-                      <li><a href="../">Трейд-ин оценка</a></li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <div class="color-gray-4 title-content">KIA Finance</div>
-                    <ul>
-                      <li><a href="../">Кредитование</a></li>
-                      <li><a href="../">Страхование</a></li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <div class="color-gray-4 title-content">Корпоративным клиентам</div>
-                    <ul>
-                      <li><a href="../">Программы продаж</a></li>
-                      <li><a href="../">Программы сервиса</a></li>
-                      <li><a href="../">Лизинг</a></li>
-                    </ul>
-                  </div>
+                  <!-- clear -->
                 </div>
                 <div class="subdown-right">
                   <div class="subdown-ad">
@@ -133,44 +92,7 @@
             <div class="container-p">
               <div class="subdown-item-wrapper">
                 <div class="subdown-menu-items">
-                  <div class="item">
-                    <div class="color-gray-4 title-content">Техобслуживание и ремонт</div>
-                    <ul>
-                      <li><a href="../">Запись на сервис</a></li>
-                      <li><a href="../">Спецпредложения</a></li>
-                      <li><a href="../">Сервис для корпоративных клиентов</a></li>
-                      <li><a href="../">Поиск дилера</a></li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <div class="color-gray-4 title-content">Запчасти и аксессуары</div>
-                    <ul>
-                      <li><a href="../">Оригинальные части</a></li>
-                      <li><a href="../">Запчасти PL2</a></li>
-                      <li><a href="../">Наличие запчастей</a></li>
-                      <li><a href="../">Аксессуары</a></li>
-                      <li><a href="../">Подбор масла</a></li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <div class="color-gray-4 title-content">Информация для владельцев</div>
-                    <ul>
-                      <li><a href="../">Руководства по эксплуатации</a></li>
-                      <li><a href="../">Гарантия</a></li>
-                      <li><a href="../">Сервисные инспекции</a></li>
-                      <li><a href="../">Помощь на дороге</a></li>
-                      <li><a href="../">Премиум сервис</a></li>
-                      <li><a href="../">Быстрый сервис</a></li>
-                      <li><a href="../">Автомобиль на время ремонта</a></li>
-                    </ul>
-                  </div>
-                  <div class="item">
-                    <div class="color-gray-4 title-content">Семья KIA</div>
-                    <ul>
-                      <li><a href="../">Программа лояльности</a></li>
-                      <li><a href="../">Личный кабинет</a></li>
-                    </ul>
-                  </div>
+                  <!-- clear -->
                 </div>
                 <div class="subdown-right">
                   <div class="subdown-ad">
@@ -219,28 +141,32 @@
             <div class="container-p">
               <div class="subdown-item-wrapper">
                 <div>
-                  <div class="subdown-menu-items boxes-2">
-                    <div class="item">
-                      <div class="color-gray-4 title-content">Бренд KIA</div>
-                      <ul>
-                        <li><nuxt-link to="/about/brand/">Компания KIA Motors</nuxt-link></li>
-                        <li><nuxt-link to="/about/history/">История</nuxt-link></li>
-                        <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
-                      </ul>
+                  <div class="subdown-menu-items">
+                    <div>
+                      <div class="item">
+                        <div class="color-gray-4 title-content">Бренд KIA</div>
+                        <ul>
+                          <li><nuxt-link to="/about/brand/">Компания KIA Motors</nuxt-link></li>
+                          <li><nuxt-link to="/about/history/">История</nuxt-link></li>
+                          <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
+                        </ul>
+                      </div>
+                      <div class="item">
+                        <div class="color-gray-4 title-content">KIA в Узбекистане</div>
+                        <ul>
+                          <li><a href="../javascirpt:;">Обратная связь</a></li>
+                          <li><nuxt-link to="/about/dealers/">Дилеры</nuxt-link></li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="item">
-                      <div class="color-gray-4 title-content">KIA в Узбекистане</div>
-                      <ul>
-                        <li><a href="../javascirpt:;">Обратная связь</a></li>
-                        <li><nuxt-link to="/about/dealers/">Дилеры</nuxt-link></li>
-                      </ul>
-                    </div>
-                    <div class="item">
-                      <div class="color-gray-4 title-content">Инновации</div>
-                      <ul>
-                        <li><nuxt-link to="/about/design/">Дизайн</nuxt-link></li>
-                        <li><nuxt-link to="/about/concept/">Концепт-кары</nuxt-link></li>
-                      </ul>
+                    <div>          
+                      <div class="item">
+                        <div class="color-gray-4 title-content">Инновации</div>
+                        <ul>
+                          <li><nuxt-link to="/about/design/">Дизайн</nuxt-link></li>
+                          <li><nuxt-link to="/about/concept/">Концепт-кары</nuxt-link></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>

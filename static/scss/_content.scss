@@ -961,6 +961,10 @@ $heightSlider: auto;
 	z-index: 11;
 	top: 80px;
 	width: 100%;
+	transition: 0.3s ease;
+	&.scrolled{
+		top: 0;
+	}
 	@media (max-width: 991px){
 		top: 60px;
 	}
@@ -2354,7 +2358,7 @@ $heightSlider: auto;
 .options-body{
 	background-color: white;
 	z-index: 2;
-	height: 182px;
+	//height: 182px;
 	width: calc(100% - 325px);
 	background-color: white;
 	left: 315px;
@@ -2465,19 +2469,21 @@ $heightSlider: auto;
 		@extend .clafclear;
 		height: 1px;
 		background-color: $color-gray-3;
-		width: 2500px;
+		width: 6000px;
 		z-index: 2;
 	}
 	&:before{
-		left: -1000px;
+		left: -1500px;
 		top: -1px;
 	}
 	&:after{
-		left: -1000px;
+		left: -1500px;
 		bottom: -1px;
 	}
 }
 .config-variants-items{
+	//display: block !important;
+	//opacity: 1;
 	&:before{
 		@extend .clafclear;
 		width: 100px;
@@ -2549,15 +2555,34 @@ $heightSlider: auto;
 }
 .options-entry{
 	margin-top: 0;
+	&.filter-hidden{
+		.config-sidebar{
+			display: none;
+		}
+		.options-body{
+			width: calc(100% - 0px);
+			left: 0;
+			padding-left: 0;
+			top: 0;
+		}
+		.config-details{
+			padding-left: 0;
+		}
+	}
 	.container-p{
 		display: flex;
 		align-items: flex-start;
 	}
 	.config-details{
-		margin-top: 200px;
+		padding-top: 200px;
 		padding-left: 335px;
 		padding-right: 0;
 		width: 100%;
+	}
+	@media (min-width: 992px){
+		.container-p{
+			margin-bottom: 180px;
+		}
 	}
 }
 .config-details{
@@ -3586,4 +3611,8 @@ dt{
 			}
 		}
 	}
+}
+
+.start-offset{
+	margin-top: 80px;
 }

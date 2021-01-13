@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="offset-start">
     <Breadcrump :breadcrumpItems="breadcrumpItems"/>
     <div class="dealers">
       <div class="container-p">					

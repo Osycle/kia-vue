@@ -379,10 +379,16 @@ export default function(){
 
 
 
-		$(document).on('click', '[data-toggle="click"]', function(e){
-			var that = $(this);
+		$(document).on('click', '[tc]', function(e){
 			e.preventDefault();
-			that.closest(that.attr("href")).toggleClass("active");
+			var that = $(this);
+			var toggleClassName = that.attr("tc") || "active";
+			var toggleEl = $(that.attr("href"));
+			console.log(toggleEl, toggleClassName);
+			if( typeof that.attr("tc-closest") == "string" )
+				that.closest(toggleEl).toggleClass(toggleClassName);
+			else
+				$(toggleEl).toggleClass(toggleClassName);
 		})
 
 		$('.sidebar-wrapper').theiaStickySidebar({
@@ -434,39 +440,21 @@ export default function(){
 
 
 
-
+		// Адаптация хедера при скролле
+		window.minMenu = $(".header-scroll");
+		window.headerRange = false;
 		// Scroll events
-		var minMenu = $(".header-scroll") || null;
-		var headerRange = false;
-		var staffProgressStatus = false;
-		var scrollTop;
 		$(window).on("scroll", function(e) {
-			scrollTop = $(window).scrollTop();
-			//Адаптация хедера при скролинге
+			
+			var scrollTop = $(window).scrollTop();
 			if (scrollTop > 250 && headerRange == false) {
-
 				headerRange = true;
-				if (minMenu) minMenu.addClass("scrolled");
-
+				minMenu.addClass("scrolled");
 			} else if (scrollTop < 250 && headerRange == true) {
-				headerRange = !true;
-				if (minMenu) minMenu.removeClass("scrolled");
-			} //.originalEvent.wheelDelta
+				headerRange = false;
+				minMenu.removeClass("scrolled");
+			}
 
-			if( scrollTop > 170 && scrollTop < ($(".services-content").height()-200) ){
-				if(!$(".services-nav").hasClass("scrolled"))
-					$(".services-nav").addClass("scrolled");
-			}else{
-				if($(".services-nav").hasClass("scrolled"))
-					$(".services-nav").removeClass("scrolled");
-			}
-			if(scrollTop > $(".services-content").height()-250){
-				//$(".services-nav").css("bottom", $(".services-content").height());
-				//$(".services-nav").addClass("end");
-			}
-			else{
-				$(".services-nav").removeClass("end");
-			}
 
 		});
 		$(window).trigger("scroll");
@@ -497,12 +485,6 @@ export default function(){
 				wheelup.addClass("up")
 			}
 		});
-		//config options
-		$(".config-details .item")
-			.removeClass("active")
-			.eq(0)
-			.add($(".config-details .item").eq(2))
-			.addClass("active");
 
 
 
