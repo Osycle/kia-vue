@@ -1,6 +1,13 @@
 <template>
-  <div class="offset-start">
-    <Breadcrump :breadcrumpItems="breadcrumpItems"/>
+  <div class="offset-header">
+    <div class="breadcrumb-container">
+      <div class="container-p">
+        <ol class="breadcrumb">
+          <li><nuxt-link to="/">Главная</nuxt-link></li>
+          <li><nuxt-link to="/dealer">Дилеры</nuxt-link></li>
+        </ol>
+      </div>
+    </div>
     <div class="dealers">
       <div class="container-p">					
         <div class="entry-header">
@@ -120,10 +127,7 @@ export default {
   },
   data(){
     return {
-      breadcrumpItems: [
-        {title: 'Главная',link: '/'},
-        {title: 'Официальный дилер KIA в г. Ташкент',link: '/'},
-      ],
+      
     }
   },
   mounted(){

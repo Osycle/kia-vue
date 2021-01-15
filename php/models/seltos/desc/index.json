@@ -2098,36 +2098,6 @@
 			"show_in_configurator": 0,
 			"show_in_calculator": 0,
 			"sort": 1650
-		},
-		{
-			"title": "\u0411\u0440\u043e\u0448\u044e\u0440\u0430",
-			"link": "https:\/\/cdn.kia.ru\/master-data\/brochures\/Kia_Seltos.pdf",
-			"code": "broshure",
-			"in_new_window": 1,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1700
-		},
-		{
-			"title": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
-			"link": "https:\/\/www.kia.ru\/static\/master-data\/accessoaries\/KIA_brochure_Brand.pdf",
-			"code": null,
-			"in_new_window": 1,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1800
-		},
-		{
-			"title": "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438",
-			"link": "\/models\/seltos\/technologies\/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1900
 		}],
 		"seo":
 		{

@@ -1,6 +1,6 @@
 <template>
   <div class="header-parent">
-    <header id="header" class="header header-scroll scrolled-up">
+    <header id="header" class="header header-scroll scrolled-down">
       <!-- HEADER TOP -->
       <div class="header-top">
         <div class="container-p relative">
@@ -224,7 +224,7 @@
       </div>
 		</div>
 		<!-- MIN MENU HEADER -->
-		<div class="min-menu-header hidden-md hidden-lg header-scroll scrolled-up white-style">
+		<div class="min-menu-header hidden-md hidden-lg header-scroll scrolled-down white-style">
 			<div class="min-menu-top">
 				<div class="wrapper-bg"></div>
 				<div class="min-menu-bar col-xs-2">

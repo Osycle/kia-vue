@@ -1,6 +1,6 @@
 <template>
-  <div class="main-body options">
-    <div class="model-header header-scroll">
+  <div class="main-body model-options offset-model-header">
+    <div class="model-header header-scroll scrolled-down">
       <div class="container-p">
         <div class="model-header-panel">
           <div class="align-center">
@@ -24,14 +24,13 @@
               </div>
             </div>
             <div class="list-last">
-              <a href="javascript:;">Конфигуратор</a>
+							<nuxt-link :to="'/models/'+page.model.code+'/configurator'">Конфигуратор</nuxt-link>
             </div>
           </div>
 
         </div>
       </div>
     </div>
-    <!-- options-bnr -->
     <div class="options-bnr relative card-top">
       <div class="container-p relative">
         <div class="flex-adaptive align-center justify-c-between">
@@ -41,7 +40,7 @@
 								<li><nuxt-link to="/">Главная</nuxt-link></li>
 								<li><nuxt-link to="/models">Модели</nuxt-link></li>
 								<li><nuxt-link :to="'/models/'+page.model.code">{{page.model.name}}</nuxt-link></li>
-								<li><nuxt-link :to="'/models/'+page.model.code+'options'">Комплектации и цены</nuxt-link></li>
+								<li><nuxt-link :to="'/models/'+page.model.code+'/options'">Комплектации и цены</nuxt-link></li>
 							</ol>
 						</div>
 					</div>
@@ -59,7 +58,7 @@
               </div>
               <div class="btn-content">
                 <span class="btn-def style-2 m-v-20">
-                  <nuxt-link to="/callback" class="p-v-20">Связаться с нами</nuxt-link>
+                  <nuxt-link :to="'/models/'+page.model.code+'/callback'" class="p-v-20">Связаться с нами</nuxt-link>
                 </span>
               </div>
             </div>
@@ -73,7 +72,7 @@
         </div>
       </div>
     </div>
-		<div class="options-header scroll-options-recon scrolled-up">
+		<div class="options-header scrolled-down">
 			<div class="options-header-content p-v-30">
 				<div class="container-p">
 					<ul class="list">
@@ -83,7 +82,11 @@
 								<span class="m-l-15">Фильтры и опции</span>
 							</a>
 						</li>
-						<li>6 комплектаций</li>
+						<li>
+							{{page.modifications.complectations.length}}
+							<span v-if="page.modifications.complectations.length == 1">комплектация</span> 
+							<span v-else>комплектации</span> 
+						</li>
 						<li class="hide">
 							<div>
 								<input type="checkbox"  id="checkbox-diff-spec" name="" class="checkbox-style-1 none">
@@ -97,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="options-entry">
+		<div class="options-entry scrolled-down">
 			<div class="container-p relative">
 				<div class="config-sidebar">	
 					<div class="config-filter">
@@ -687,13 +690,30 @@
 						<div class="config-content">
 							<div class="config-variants">
 								<div class="config-variants-items owl-carousel">
-									<div class="cell" v-for="(cell, key) in page.modifications.complectations" :key="key">
+									<div class="cell" v-for="(complectation, key) in page.modifications.complectations" :key="key">
 										<div class="cell-wrapper">
-											<h4>{{cell.name}} <i class="fa fa-angle-right fw-6"></i></h4>
+											<h4>{{complectation.name}} <i class="fa fa-angle-right fw-6"></i></h4>
 											<div>
-												<p>{{infoModel(cell)}}</p>
+												<p>
+													<!-- Engine -->
+													<template v-for="(engine) in page.modifications.engines" v-if="complectation.engine_id == engine.id">
+														{{engine.volume}} / {{engine.power_hp}} л. с. /
+														<template v-for="(fuel_type) in page.modifications.fuel_types" v-if="engine.fuel_type_id == fuel_type.id">
+															{{fuel_type.name}}
+														</template>
+													</template>
+													<!-- Transmission -->
+													<template v-for="(transmission) in page.modifications.transmissions" v-if="complectation.transmission_id == transmission.id">
+														<template v-for="(gearbox) in page.modifications.gearboxes" v-if="transmission.gearbox_id == gearbox.id">
+															{{gearbox.name}} /
+														</template>
+														<template v-for="(drive) in page.modifications.drives" v-if="transmission.drive_id == drive.id">
+															{{drive.name}}
+														</template>
+													</template>
+												</p>
 												<div class="price-content m-t-15">
-													{{cell.price | spaceBetweenNum}} сум
+													{{complectation.price | spaceBetweenNum}} сум
 												</div>
 											</div>
 										</div>
@@ -704,49 +724,54 @@
 					</div>
 				</div>
 				
-				<div class="config-details scroll-options-recon">
-					<section class="item">
+				<div class="config-details">
+					<section class="item active">
 						<a href=".item" class="title-click" tc tc-closest>Стандартное оборудование<i class="fa fa-angle-up"></i></a>
 						<div class="section-body">
 							<div class="section-body-wrapper">
 								<div class="list-block-body">
 									<h4>Экстерьер</h4>
 									<ul>
-										<li><span>Светодиодные (LED) фары</span></li>
-										<li><span>Cветодиодные дневные ходовые огни (LED DRL)</span></li>
+									<template>
+										<li v-for="(options_base, key) in page.modifications.options_base" 
+												v-if="options_base.group_name == 'Экстерьер'" :key="key">
+											<span>{{options_base.name}}</span>
+										</li>
+									</template>
 									</ul>
 								</div>
+								
 								<div class="list-block-body">
 									<h4>Интерьер</h4>
 									<ul>
-										<li><span>Задние сиденья со спинками, складывающимися в соотношении 60/40 Безопасность</span></li>
+									<template>
+										<li v-for="(options_base, key) in page.modifications.options_base" 
+												v-if="options_base.group_name == 'Интерьер'" :key="key">
+											<span>{{options_base.name}}</span>
+										</li>
+									</template>
 									</ul>
 								</div>
 								<div class="list-block-body">
 									<h4>Безопасность</h4>
 									<ul>
-										<li><span>Фронтальные подушки безопасности</span></li>
-										<li><span>Система курсовой устойчивости (ESC)</span></li>
-										<li><span>Интегрированная система активного управления (VSM)</span></li>
-										<li><span>Система помощи при трогании на подъеме (HAC)</span></li>
-										<li><span>Система предупреждения об экстренном торможении (ESS)	</span></li>
-										<li><span>Крепления ISOFIX для детского кресла</span></li>
-										<li><span>Полноразмерное легкосплавное запасное колесо</span></li>
+									<template>
+										<li v-for="(options_base, key) in page.modifications.options_base" 
+												v-if="options_base.group_name == 'Безопасность'" :key="key">
+											<span>{{options_base.name}}</span>
+										</li>
+									</template>
 									</ul>
 								</div>
 								<div class="list-block-body">
 									<h4>Комфорт</h4>
 									<ul>
-										<li><span>Мультифункциональное рулевое колесо</span></li>
-										<li><span>Bluetooth для подключения мобильного телефона</span></li>
-										<li><span>Система выбора режима движения (Drive Mode Select)</span></li>
-										<li><span>Круиз-контроль</span></li>
-										<li><span>Передние и задние стеклоподъёмники с электроприводом</span></li>
-										<li><span>Стеклоподъемник водителя с функцией Auto</span></li>
-										<li><span>Датчик света	</span></li>
-										<li><span>Ключ с дистанционным управлением центральным замком</span></li>
-										<li><span>Аудиосистема с радио, USB разъемом (6 динамиков)</span></li>
-										<li><span>Климат контроль</span></li>
+									<template>
+										<li v-for="(options_base, key) in page.modifications.options_base" 
+												v-if="options_base.group_name == 'Комфорт'" :key="key">
+											<span>{{options_base.name}}</span>
+										</li>
+									</template>
 									</ul>
 								</div>
 							</div>
@@ -818,81 +843,77 @@ export default {
     }
   },
   methods: {
-    infoModel(complectation){
-      const engineId = complectation.engine_id
-      const transmissionId = complectation.transmission_id
-      const m = this.page.modifications;
-      let text, engineName, engineHp, fuelType, driveName, gearboxName;
 
-      m.engines.forEach(engine => {
-        if(engine.id == engineId){
-          engineName = engine.volume;
-          engineHp = engine.power_hp;
-          m.fuel_types.forEach(ftype => {
-            if(ftype.id == engine.fuel_type_id)
-              fuelType = ftype.name
-          })
-        }
-      });
-      m.transmissions.forEach(transmission => {
-        if(transmission.id == transmissionId){
-          m.drives.forEach(drive =>{
-            if(drive.id == transmission.drive_id)
-              driveName = drive.name
-          })
-          m.gearboxes.forEach(gearbox =>{
-            if(gearbox.id == transmission.gearbox_id)
-              gearboxName = gearbox.name
-          })
-        }
-      });
-      //2.5, 150 л. c., Бензин / Автомат / Передний привод
-      text = engineName+" / "+engineHp+" л. с "+fuelType+" / "+gearboxName+" / "+driveName
-      return text;
-    }
   },
   mounted() {
 		mainjs();
-		$('.config-sidebar').theiaStickySidebar({
-			additionalMarginTop: 60,
-			defaultPosition: "absolute"
+
+		var configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
+				nav: true,
+				loop: false,
+				items: 2,
+				dots: false,
+				dotsEach: false,
+				//slideBy: 2,
+				autoplay: false,
+				autoplayTimeout: false,
+				autoWidth: true,
+				touchDrag: false,
+				mouseDrag: false,
+				center: false,
+				autoheight: true,
+				merge: true,
+				responsive:{
+	        678:{
+	            mergeFit:true
+	        }
+				},
+				navText : owlBtn,
+				margin: 0
 		});
+
+
+		var configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
+				nav: false,
+				loop: false,
+				items: 2,
+				dots: false,
+				dotsEach: false,
+				//slideBy: 2,
+				autoplay: false,
+				autoplayTimeout: false,
+				autoWidth: true,
+				touchDrag: false,
+				mouseDrag: false,
+				center: false,
+				autoheight: true,
+				merge: true,
+				responsive:{
+	        678:{
+	            mergeFit:true
+	        }
+				},
+				navText : owlBtn,
+				margin: 0
+		});
+
+
+		configCrs.find(".owl-next").on('click', function(event) {
+			configTableCrs.trigger('next.owl.carousel');
+		})
+		configCrs.find(".owl-prev").on('click', function(event) {
+			configTableCrs.trigger('prev.owl.carousel');
+		})
+
 		
-		$('.options-body').theiaStickySidebar({
+
+		$('.config-sidebar, .options-body').theiaStickySidebar({
 			//additionalMarginBottom: -300,
 			additionalMarginTop: 60,
 			defaultPosition: "absolute"
 		});
-
-		
+				
 		
   },
 }
 </script>
-
-<style lang="scss" scoped>
-	.header{
-		transition: 0.3s ease;
-	}
-	.header.scrolled{
-		top: -80px;
-	}
-	// .config-filter{
-	// 	display: none;
-	// }
-	// .config-variants-items{
-	// 	display: block;
-	// }
-	// .filter-visible{
-	// 	.config-filter{
-	// 		display: block;
-	// 	}
-	// 	.config-details{
-	// 		//padding-left: 440px;
-	// 		//padding-right: 50px;
-	// 	}
-	// 	.config-content{
-	// 		//width: calc(100% - 380px);
-	// 	}
-	// }
-</style>

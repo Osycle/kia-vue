@@ -155,6 +155,25 @@ export default {
   },
   mounted(){
     mainjs();
+		$(".bnr-carousel-items.owl-carousel").owlCarousel({
+			nav: true,
+			loop: true,
+			//items: 3,
+			dots: true,
+			dotsEach: false,
+			//autoplay: true,
+			//autoplayTimeout: 7000,
+			autoheight: true,
+			touchDrag: true,
+			mouseDrag: true,
+			//smartSpeed: 0,
+			responsive:{
+				0:{items:1},
+				991:{items:1}
+			},
+			navText : owlBtn,
+			margin: 0
+    });
   },
   methods: {}
 }

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="model-header">
+  <div class="offset-model-header model-desc">
+    <div class="model-header header-scroll scrolled-down">
       <div class="container-p">
         <div class="model-header-panel">
           <div class="align-center">
@@ -24,7 +24,7 @@
               </div>
             </div>
             <div class="list-last">
-              <nuxt-link to="/models/k5/configurator/">Конфигуратор</nuxt-link>
+              <nuxt-link :to="'/models/'+page.model.code+'/configurator'">Конфигуратор</nuxt-link>
             </div>
           </div>
 
@@ -38,12 +38,20 @@
         <div class="img-xs absolute" :style="'background-image: url('+bnr.images.mobile+');'"></div>
       </div>
       <div class="container-p relative">
-        <Breadcrump :breadcrumpItems="breadcrumpItems"/>
+      <div class="breadcrumb-container">
+        <div class="container-p">
+          <ol class="breadcrumb">
+            <li><nuxt-link to="/">Главная</nuxt-link></li>
+            <li><nuxt-link to="/models">Модели</nuxt-link></li>
+            <li><nuxt-link :to="'/models/'+page.model.code">{{page.model.name}}</nuxt-link></li>
+          </ol>
+        </div>
+      </div>
         <div class="wrapper-content">
           <div class="desc-content justify-c-end hidden-xs hidden-sm">
             <span class="text align-center"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span> <a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
             <span class="p-h-5">·</span>
-            <span class="btn-def style-2 m-l-20"><a href="feedback.html">Связаться с нами</a></span>
+            <span class="btn-def style-2 m-l-20"><nuxt-link to="callback">Связаться с нами</nuxt-link></span>
           </div>
           <div class="card-bnr-bottom">
             <div class="flex-adaptive align-center justify-c-between">
@@ -54,7 +62,7 @@
               </div>
               <div class="desc-content hidden-md hidden-lg">
                 <span class="text align-center"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span><a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
-                <div class="btn-opacity"><a href="feedback.html">Связаться с нами</a></div>
+                <div class="btn-opacity"><nuxt-link to="callback">Связаться с нами</nuxt-link></div>
               </div>
               <div class="card-bnr-advantages box-md-5 flex row">
                 <div class="item p-h-15" v-for="(teaser, key) in bnr.teasers" :key="key">
@@ -387,11 +395,6 @@ export default {
   },
   data(){
     return{
-      breadcrumpItems: [
-        {title: 'Главная',link: '/'},
-        {title: 'Модели',link: '/models'},
-        {title: 'K5',link: '/models/k5'},
-      ],
       showroom: {
         colorName: '',
         path: '',

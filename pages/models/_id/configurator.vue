@@ -1,5 +1,5 @@
 <template>
-  <div class="relative conf" scrollf>
+  <div class="relative conf offset-header" scrollf>
     <div class="breadcrumb-container">
       <div class="container-p">
         <ol class="breadcrumb">
@@ -43,7 +43,7 @@
     </div>
     <div class="conf-main" :current-step="currentStepNum">
       <div class="container-p clearfix">
-        <div class="left-bar-def sidebar-wrapper col-md-3">
+        <div class="left-bar-def sidebar-wrapper col-md-3 scrolled-down">
           <div class="wrapper-scroll">
             <div class="wrapper conf-result-content">
               <div class="cap-content">
@@ -446,16 +446,8 @@ export default {
   mounted(){
     mainjs();
     this.carParamActive();
-    
-    //this.parseSummaryCode();
-    $('*').contents().each(function() {
-      if(this.nodeType === Node.COMMENT_NODE) {
-        if( $(this)[0] == '<!---->'){
-        console.log($(this)[0])
-
-          //$(this).remove();
-        }
-      }
+    $('.sidebar-wrapper').theiaStickySidebar({
+      additionalMarginTop: 0
     });
   },
   methods: {

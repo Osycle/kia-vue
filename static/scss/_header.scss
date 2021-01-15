@@ -16,10 +16,15 @@ $header-min-menu: 60px;
 	//position: relative;
 	position: fixed;
 	//pointer-events: none;
+	transition: 0.3s ease;
 	&:not([class*="bg-color"]){
 		background-color: transparent;
 	}
-
+	@media (min-width: 992px){
+		&.down.scrolled{
+			top: -80px;
+		}
+	}
 	*{
 		//pointer-events: auto;
 	}
