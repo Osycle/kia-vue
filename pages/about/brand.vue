@@ -268,7 +268,6 @@
 <script>
 
 
-import mainjs from '@/static/js/main'
 
 export default {
   head() {
@@ -300,10 +299,6 @@ export default {
       ],
     }
   },
-  mounted(){
-    mainjs();
-  },
-  methods: {}
 }
 
 </script>

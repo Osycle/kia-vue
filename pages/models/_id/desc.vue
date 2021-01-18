@@ -358,8 +358,7 @@
 
 <script>
 
-import Breadcrump from '@/components/Breadcrump'
-import mainjs from '@/static/js/main'
+
 
 export default {
   head() {
@@ -371,10 +370,6 @@ export default {
         }
       ],
     }
-  },
-  scrollToTop: true,
-  components: {
-    Breadcrump
   },
   async asyncData(context){
     try{
@@ -412,9 +407,6 @@ export default {
         }
       }
     }
-  },
-  mounted() {
-    mainjs();
   },
 }
 </script>

@@ -809,7 +809,6 @@
 
 <script>
 
-import mainjs from '@/static/js/main'
 
 export default {
   head() {
@@ -846,8 +845,6 @@ export default {
 
   },
   mounted() {
-		mainjs();
-
 		var configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
 				nav: true,
 				loop: false,

@@ -2379,6 +2379,7 @@ $heightSlider: auto;
 	padding: 30px 0;
 	border-right: 1px solid $color-gray-3;
 	padding-bottom: 70px;
+	min-height: calc(100vh - 40px);
 	&:before{
 		@extend .clafclear;
 		background-color: $color-gray-2;
@@ -2555,6 +2556,7 @@ $heightSlider: auto;
 }
 .options-entry{
 	margin-top: 0;
+	min-height: calc(100vh - 40px);
 	&.filter-hidden{
 		.config-sidebar{
 			display: none;
@@ -2683,7 +2685,7 @@ $heightSlider: auto;
 		pointer-events: none;
 	}
 	&:hover{
-		background-color: rgba($color-gray-1, 0.4);
+		background-color: rgba($color-gray-1, 0.6);
 		&:before{
 			opacity: 1;
 			background-color: rgba($color-gray-1, 0.6);

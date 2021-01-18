@@ -1,8 +1,12 @@
 
+
 import Vue from 'vue'
 import Vuex from 'vuex'
+import _ from 'lodash'
 
-Vue.use(Vuex)
+Vue.use(_);
+//Vue.use(mainjs);
+Vue.use(Vuex);
 
 import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
 Vue.use(VueFilterDateFormat, {
@@ -28,9 +32,9 @@ Vue.use(VueFilterDateFormat, {
 // Vue.use(ApiPlugin);
 
 
-// GLOBAL FILTRES
+/* GLOBAL FILTRES */
 
-Vue.filter('spaceBetweenNum', function (price) { 
+Vue.filter('spaceBetweenNum', (price)=>{ 
 	price += "";
 	var pattern = /(-?\d+)(\d{3})/;
 	while (pattern.test(price))
@@ -39,6 +43,22 @@ Vue.filter('spaceBetweenNum', function (price) {
 })
 
 
+
+
+/* GLOBAL MIXINS */
+
+Vue.mixin({
+	methods:{
+		sortedUniq(ob) {
+			return _.uniqWith(ob, _.isEqual);
+		}		
+	}
+})
+
+
+function sortedUniq(ob) {
+	return _.uniqWith(ob, _.isEqual);
+}
 
 // COMMON FUNCTION
 function checkSm() {

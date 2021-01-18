@@ -387,7 +387,7 @@
 <script>
 
 
-import mainjs from '@/static/js/main'
+
 
 export default {
   head() {
@@ -444,7 +444,6 @@ export default {
     }
   },
   mounted(){
-    mainjs();
     this.carParamActive();
     $('.sidebar-wrapper').theiaStickySidebar({
       additionalMarginTop: 0

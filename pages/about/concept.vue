@@ -106,14 +106,9 @@
 
 <script>
 
-import mainjs from '@/static/js/main'
+
 
 export default {
-  data(){
-    return{
-
-    }
-  },
   head() {
     return {
       title: "Концепт-кары",
@@ -123,9 +118,6 @@ export default {
         }
       ],
     }
-  },
-  mounted() {
-    mainjs();
   },
 }
 </script>

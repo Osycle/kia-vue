@@ -256,7 +256,10 @@
 
 <script>
 export default {
-  mounted(){
+  async mounted(){
+    if (process.browser) {
+      require('@/static/js/main')
+    }
    $(".header a:not([subdown-click])").on("click", function(){
       if($("[subdown-click].subdown-active").length)
         $("[subdown-click].subdown-active").trigger("click");

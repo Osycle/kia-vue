@@ -1,7 +1,6 @@
 
-export default function(){
-
-
+	window.iki = 0
+	console.log("Я загрузился", iki++);
 
 	var isWebkit = /Webkit/i.test(navigator.userAgent),
 			isChrome = /Chrome/i.test(navigator.userAgent),
@@ -469,16 +468,3 @@ export default function(){
 				}
 			]
 		}, {});
-
-
-
-
-
-
-
-		
-
-
-
-	
-}

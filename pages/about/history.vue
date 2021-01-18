@@ -271,8 +271,6 @@
 <script>
 
 
-import mainjs from '@/static/js/main'
-
 export default {
   head() {
     return {
@@ -295,15 +293,6 @@ export default {
       context.error(e);
     }
   },
-  data(){
-    return {
-      //
-    }
-  },
-  mounted(){
-    mainjs();
-  },
-  methods: {}
 }
 
 </script>

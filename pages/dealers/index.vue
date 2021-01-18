@@ -1,5 +1,5 @@
 <template>
-  <div class="offset-header">
+  <div class="main-body offset-header">
     <div class="breadcrumb-container">
       <div class="container-p">
         <ol class="breadcrumb">
@@ -100,7 +100,6 @@
 
 <script>
 
-import mainjs from '@/static/js/main'
 
 export default {
   head() {
@@ -131,7 +130,6 @@ export default {
     }
   },
   mounted(){
-    mainjs();
     var dealerships = this.page.dealerships;
     /*Карта*/
     ymaps.ready(['Panel']).then(function () {

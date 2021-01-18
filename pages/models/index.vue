@@ -1,6 +1,14 @@
 <template>
-  <div class="offset-header">
-    <Breadcrump :breadcrumpItems="breadcrumpItems"/>
+  <div class="main-body offset-header">
+    <div class="breadcrumb-container">
+      <div class="container-p">
+        <ol class="breadcrumb">
+          <li><nuxt-link to="/">Главная</nuxt-link></li>
+          <li><nuxt-link to="/models">Модели</nuxt-link></li>
+        </ol>
+      </div>
+    </div>
+
     <div class="models">
       <div class="container-p">
         <div class="entry-header m-b-30">
@@ -39,8 +47,7 @@
 
 
 <script>
-import Breadcrump from '@/components/Breadcrump'
-import mainjs from '@/static/js/main'
+
 export default {
   head() {
     return {
@@ -51,9 +58,6 @@ export default {
         }
       ]
     }
-  },
-  components: {
-    Breadcrump
   },
   async asyncData(context){
     try{
@@ -68,16 +72,5 @@ export default {
       context.error(e);
     }
   },
-  data(){
-    return {
-      breadcrumpItems: [
-        {title: 'Главная',link: '/'},
-        {title: 'Модели',link: '/models'},
-      ],
-    }
-  },
-  mounted(){
-    mainjs();
-  }
 }
 </script>

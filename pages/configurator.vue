@@ -101,7 +101,6 @@
 <script>
 
 
-import mainjs from '@/static/js/main'
 
 export default {
   head() {
@@ -134,7 +133,6 @@ export default {
     }
   },
   mounted(){
-    mainjs();
     var v = this;
 		window.owlCrs = $(".conf-crs .owl-carousel").owlCarousel({
 			nav: true,

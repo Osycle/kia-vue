@@ -4,782 +4,102 @@
 	{
 		"model":
 		{
-			"accessory": null,
-			"brochure": "\/master-data\/brochures\/Kia_K5_Preview.pdf",
-			"code": "k5",
-			"external_id": "EXS4",
-			"id": "7dc5ba2d-e214-4746-9e61-6a79812987dd",
-			"image": "\/master-data\/models\/K5_half.png",
-			"image_side_view": "\/master-data\/models\/image_side\/K5.png",
+			"accessory": "\/master-data\/accessories\/R8490AC100Q5.pdf",
+			"brochure": "\/master-data\/brochures\/Kia_Seltos.pdf",
+			"code": "seltos",
+			"external_id": "TH",
+			"id": "3515cd01-a834-4112-89b1-604fcfb6c71e",
+			"image": "\/master-data\/models\/seltos.png",
+			"image_side_view": "\/master-data\/models\/image_side\/seltos.png",
 			"is_coming_soon": 0,
-			"logo_black": "\/master-data\/models\/logo\/k5-logo-black.svg",
-			"logo_white": "\/master-data\/models\/logo\/k5-logo-white.svg",
-			"max_benefit": 40000,
-			"min_credit_price": 8030,
-			"min_price": 1549900,
-			"model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
-			"name": "K5",
-			"price": 1589900,
-			"price_list": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf",
-			"unique_id": "EXS420212020"
+			"logo_black": "\/master-data\/models\/logo\/seltos-logo-black.svg",
+			"logo_white": "\/master-data\/models\/logo\/seltos-logo-white.svg",
+			"max_benefit": 45000,
+			"min_credit_price": 5960,
+			"min_price": 1149900,
+			"model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+			"name": "Seltos",
+			"price": 1194900,
+			"price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
+			"unique_id": "THW520202020"
 		},
 		"years_price_lists":
 		{
-			"2020": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf"
+			"2020": "\/master-data\/pdf\/model\/Seltos.pdf"
 		},
 		"specifications":
 		{
 			"complectations":
 			{
-				"08316f44-3d28-4eff-9705-3f1108d12778":
+				"008296be-519c-4f64-a205-3c75a79f23a7":
 				{
 					"base_complectation_id": null,
-					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-					"external_name": "LUXE",
-					"id": "08316f44-3d28-4eff-9705-3f1108d12778",
-					"min_price": 1899900,
-					"modification_code": "EXS4L9A1J",
-					"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
-					"name": "Luxe",
-					"name_en": "Luxe",
-					"ocn": "G466",
-					"price": 1939900,
-					"specifications": [
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					}],
-					"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
-					"unique_id": "EXS420212020L9A1JGG466",
-					"year": 2020
-				},
-				"478e1dd1-b192-42c9-84f3-5c786088f540":
-				{
-					"base_complectation_id": null,
-					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-					"external_name": "GT LINE",
-					"id": "478e1dd1-b192-42c9-84f3-5c786088f540",
-					"min_price": 2169900,
-					"modification_code": "EXS4L9A1J",
-					"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
-					"name": "GT Line",
-					"name_en": "GT Line",
-					"ocn": "P005",
-					"price": 2209900,
-					"specifications": [
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					}],
-					"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
-					"unique_id": "EXS420212020L9A1JPP005",
-					"year": 2020
-				},
-				"5eced350-c1a5-4c99-9f21-2db5ee24462f":
-				{
-					"base_complectation_id": null,
-					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-					"external_name": "GT LINE+",
-					"id": "5eced350-c1a5-4c99-9f21-2db5ee24462f",
-					"min_price": 2259900,
-					"modification_code": "EXS4L9A1J",
-					"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
-					"name": "GT Line+",
-					"name_en": "GT Line+",
-					"ocn": "P007",
-					"price": 2299900,
-					"specifications": [
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					}],
-					"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
-					"unique_id": "EXS420212020L9A1JPP007",
-					"year": 2020
-				},
-				"6436406b-513d-4368-bbee-d587d25133a2":
-				{
-					"base_complectation_id": null,
-					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
-					"external_name": "STYLE",
-					"id": "6436406b-513d-4368-bbee-d587d25133a2",
-					"min_price": 1909900,
-					"modification_code": "EXS42G61F",
-					"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
-					"name": "Style",
-					"name_en": "Style",
-					"ocn": "G501",
-					"price": 1949900,
-					"specifications": [
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.0 MPI"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "1999"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (6AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.0 MPI"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "1999"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (6AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
-					}],
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
-					"unique_id": "EXS4202120202G61FGG501",
-					"year": 2020
-				},
-				"7be5053b-9ef0-4d7b-b6b0-367daa774285":
-				{
-					"base_complectation_id": null,
-					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
 					"external_name": "COMFORT",
-					"id": "7be5053b-9ef0-4d7b-b6b0-367daa774285",
-					"min_price": 1669900,
-					"modification_code": "EXS42G61F",
-					"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
+					"id": "008296be-519c-4f64-a205-3c75a79f23a7",
+					"min_price": 1259900,
+					"modification_code": "THW5D261F",
+					"modification_id": "0beb65b8-8dec-4af0-88d2-2106931b90da",
 					"name": "Comfort",
 					"name_en": "Comfort",
-					"ocn": "D646",
-					"price": 1709900,
+					"ocn": "D075",
+					"price": 1304900,
 					"specifications": [
 					{
 						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
+						"value": "225"
 					},
 					{
 						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
+						"value": "Кроссовер"
 					},
 					{
 						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.0 MPI"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
+						"value": "1.6 MPI"
 					},
 					{
 						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
+						"value": "123"
 					},
 					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "141"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1615"
 					},
 					{
 						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "172"
 					},
 					{
 						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
+						"value": "151"
 					},
 					{
 						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
+						"value": "185"
 					},
 					{
 						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
+						"value": "Бензин, АИ 92-95"
 					},
 					{
 						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "468"
 					},
 					{
 						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "1999"
+						"value": "1591"
 					},
 					{
 						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
@@ -791,501 +111,85 @@
 					},
 					{
 						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
+						"value": "передний"
 					},
 					{
 						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
+						"value": "12.3"
 					},
 					{
 						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.0 MPI"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "1999"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (6AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
+						"value": "7.4"
 					}],
 					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
-					"unique_id": "EXS4202120202G61FDD646",
+					"unique_id": "THW520202020D261FDD075",
 					"year": 2020
 				},
-				"a6b865eb-0723-4448-915c-be924a9c8e02":
+				"108ca427-10bd-4d0e-aeb2-af1d80bbbefe":
 				{
 					"base_complectation_id": null,
-					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-					"external_name": "PRESTIGE",
-					"id": "a6b865eb-0723-4448-915c-be924a9c8e02",
-					"min_price": 1989900,
-					"modification_code": "EXS4L9A1J",
-					"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
-					"name": "Prestige",
-					"name_en": "Prestige",
-					"ocn": "G473",
-					"price": 2029900,
-					"specifications": [
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					}],
-					"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
-					"unique_id": "EXS420212020L9A1JGG473",
-					"year": 2020
-				},
-				"cc2c0fba-4dbe-4cc3-b80f-13c716b51017":
-				{
-					"base_complectation_id": null,
-					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 					"external_name": "STYLE",
-					"id": "cc2c0fba-4dbe-4cc3-b80f-13c716b51017",
-					"min_price": 2039900,
-					"modification_code": "EXS4L9A1J",
-					"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
+					"id": "108ca427-10bd-4d0e-aeb2-af1d80bbbefe",
+					"min_price": 1529900,
+					"modification_code": "THW52G61Q",
+					"modification_id": "b20c8243-c029-4ecd-84c3-c868b32c0a4b",
 					"name": "Style",
 					"name_en": "Style",
-					"ocn": "G468",
-					"price": 2079900,
+					"ocn": "G421",
+					"price": 1574900,
 					"specifications": [
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					}],
-					"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
-					"unique_id": "EXS420212020L9A1JGG468",
-					"year": 2020
-				},
-				"ea939986-7735-4b5e-b6a0-52694b4b20e7":
-				{
-					"base_complectation_id": null,
-					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
-					"external_name": "LUXE",
-					"id": "ea939986-7735-4b5e-b6a0-52694b4b20e7",
-					"min_price": 1769900,
-					"modification_code": "EXS42G61F",
-					"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
-					"name": "Luxe",
-					"name_en": "Luxe",
-					"ocn": "G466",
-					"price": 1809900,
-					"specifications": [
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
 					{
 						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
 						"value": "2.0 MPI"
 					},
 					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
 					},
 					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "218"
 					},
 					{
 						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
+						"value": "4370 \/ 1800 \/ 1635"
 					},
 					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "142"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "149"
 					},
 					{
 						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
+						"value": "170"
 					},
 					{
 						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
+						"value": "2630"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "180"
 					},
 					{
 						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
+						"value": "190"
 					},
 					{
 						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
+						"value": "Бензин, АИ 92-95"
 					},
 					{
 						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
+						"value": "2.0"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
 					},
 					{
 						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
@@ -1297,169 +201,93 @@
 					},
 					{
 						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (6AT)"
+						"value": "Вариатор (IVT)"
 					},
 					{
 						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
+						"value": "полный"
 					},
 					{
 						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
+						"value": "10.4"
 					},
 					{
 						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.0 MPI"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "1999"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (6AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
+						"value": "7.3"
 					}],
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
-					"unique_id": "EXS4202120202G61FGG466",
+					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257",
+					"unique_id": "THW5202020202G61QGG421",
 					"year": 2020
 				},
-				"ecc1c0b3-61db-4fa7-af9a-65ee4e881e1e":
+				"1a14e464-0531-4bdf-80ba-ced0daedae07":
 				{
 					"base_complectation_id": null,
-					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
+					"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
 					"external_name": "PRESTIGE",
-					"id": "ecc1c0b3-61db-4fa7-af9a-65ee4e881e1e",
-					"min_price": 1859900,
-					"modification_code": "EXS42G61F",
-					"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
+					"id": "1a14e464-0531-4bdf-80ba-ced0daedae07",
+					"min_price": 1819900,
+					"modification_code": "THW5D2G1X",
+					"modification_id": "d5e4b241-a920-478e-8438-0be919a01868",
 					"name": "Prestige",
 					"name_en": "Prestige",
-					"ocn": "G473",
-					"price": 1899900,
+					"ocn": "G195",
+					"price": 1864900,
 					"specifications": [
 					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
 					},
 					{
 						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.0 MPI"
+						"value": "1.6 T-GDI"
 					},
 					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "222"
 					},
 					{
 						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
+						"value": "148"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "177"
 					},
 					{
 						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
+						"value": "2630"
 					},
 					{
 						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
+						"value": "265"
 					},
 					{
 						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
+						"value": "175"
 					},
 					{
 						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
+						"value": "190"
 					},
 					{
 						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
 						"value": "Бензин, АИ 95"
 					},
 					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
 					},
 					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
 					},
 					{
 						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "1999"
+						"value": "1591"
 					},
 					{
 						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
@@ -1467,165 +295,747 @@
 					},
 					{
 						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (6AT)"
+						"value": "Робот (7DCT)"
 					},
 					{
 						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
+						"value": "полный"
 					},
 					{
 						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
+						"value": "8.4"
 					},
 					{
 						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.0 MPI"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "1999"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (6AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
+						"value": "7.6"
 					}],
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
-					"unique_id": "EXS4202120202G61FGG473",
+					"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69",
+					"unique_id": "THW520202020D2G1XGG195",
 					"year": 2020
 				},
-				"f50239f8-c152-4680-8bba-051691f8e01c":
+				"2c5dccb3-f15e-4c05-acd4-a3c2134629e3":
 				{
 					"base_complectation_id": null,
-					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"external_name": "STYLE",
+					"id": "2c5dccb3-f15e-4c05-acd4-a3c2134629e3",
+					"min_price": 1409900,
+					"modification_code": "THW5D261F",
+					"modification_id": "0beb65b8-8dec-4af0-88d2-2106931b90da",
+					"name": "Style",
+					"name_en": "Style",
+					"ocn": "G422",
+					"price": 1454900,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "225"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "123"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "141"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "172"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "151"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Автомат (6AT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "12.3"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "7.4"
+					}],
+					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+					"unique_id": "THW520202020D261FGG422",
+					"year": 2020
+				},
+				"3411d0ee-a003-4efd-bcb0-d1b63acba6ac":
+				{
+					"base_complectation_id": null,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"external_name": "STYLE",
+					"id": "3411d0ee-a003-4efd-bcb0-d1b63acba6ac",
+					"min_price": 1449900,
+					"modification_code": "THW52G61V",
+					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
+					"name": "Style",
+					"name_en": "Style",
+					"ocn": "G422",
+					"price": 1494900,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "205"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "2.0 MPI"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "130"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "149"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "180"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "157"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "2.0"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1999"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Вариатор (IVT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "9.6"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "6.8"
+					}],
+					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+					"unique_id": "THW5202020202G61VGG422",
+					"year": 2020
+				},
+				"3648b119-7ea0-4566-81b2-2c40b1e20aef":
+				{
+					"base_complectation_id": null,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"external_name": "LUXE",
+					"id": "3648b119-7ea0-4566-81b2-2c40b1e20aef",
+					"min_price": 1369900,
+					"modification_code": "THW5D261F",
+					"modification_id": "0beb65b8-8dec-4af0-88d2-2106931b90da",
+					"name": "Luxe",
+					"name_en": "Luxe",
+					"ocn": "G368",
+					"price": 1414900,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "225"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "141"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "123"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1630"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "151"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "172"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "185"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "468"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Автомат (6AT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "12.3"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "7.4"
+					}],
+					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+					"unique_id": "THW520202020D261FGG368",
+					"year": 2020
+				},
+				"3acca6ca-0db3-4149-a95b-0f5031b6a905":
+				{
+					"base_complectation_id": null,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"external_name": "COMFORT",
+					"id": "3acca6ca-0db3-4149-a95b-0f5031b6a905",
+					"min_price": 1219900,
+					"modification_code": "THW5D2617",
+					"modification_id": "b6b4a272-527a-42ee-9b71-bd61317d1ec5",
+					"name": "Comfort",
+					"name_en": "Comfort",
+					"ocn": "D073",
+					"price": 1264900,
+					"specifications": [
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "203"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "123"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1615"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "135"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "160"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "151"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "185"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "468"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Механика (6MT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "12.2"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "6.9"
+					}],
+					"transmission_id": "f7c81bad-f6e6-474b-9b18-0426325946a1",
+					"unique_id": "THW520202020D2617DD073",
+					"year": 2020
+				},
+				"439dcce5-4118-4393-a0bf-4140e7a75cbb":
+				{
+					"base_complectation_id": null,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"external_name": "LUXE",
+					"id": "439dcce5-4118-4393-a0bf-4140e7a75cbb",
+					"min_price": 1409900,
+					"modification_code": "THW5D2618",
+					"modification_id": "42e4b3b1-e19b-4891-8944-b8530e774755",
+					"name": "Luxe",
+					"name_en": "Luxe",
+					"ocn": "G371",
+					"price": 1454900,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "226"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "121"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1630"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "153"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "148"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "180"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "185"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "468"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Механика (6MT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "полный"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "12.9"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "7.8"
+					}],
+					"transmission_id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3",
+					"unique_id": "THW520202020D2618GG371",
+					"year": 2020
+				},
+				"4f0d42cc-98f8-4b21-9a9d-0887b81e4295":
+				{
+					"base_complectation_id": null,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"external_name": "PREMIUM",
+					"id": "4f0d42cc-98f8-4b21-9a9d-0887b81e4295",
+					"min_price": 1869900,
+					"modification_code": "THW52G61Q",
+					"modification_id": "b20c8243-c029-4ecd-84c3-c868b32c0a4b",
+					"name": "Premium",
+					"name_en": "Premium",
+					"ocn": "G420",
+					"price": 1914900,
+					"specifications": [
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "2.0 MPI"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "218"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "142"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "149"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "180"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "170"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "2.0"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1999"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Вариатор (IVT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "полный"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "10.4"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "7.3"
+					}],
+					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257",
+					"unique_id": "THW5202020202G61QGG420",
+					"year": 2020
+				},
+				"4f3f63ce-7721-4075-9c1f-da1a01c995fb":
+				{
+					"base_complectation_id": null,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
 					"external_name": "CLASSIC",
-					"id": "f50239f8-c152-4680-8bba-051691f8e01c",
-					"min_price": 1549900,
-					"modification_code": "EXS42G61F",
-					"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
+					"id": "4f3f63ce-7721-4075-9c1f-da1a01c995fb",
+					"min_price": 1189900,
+					"modification_code": "THW5D261F",
+					"modification_id": "0beb65b8-8dec-4af0-88d2-2106931b90da",
 					"name": "Classic",
 					"name_en": "Classic",
-					"ocn": "D641",
-					"price": 1589900,
+					"ocn": "D069",
+					"price": 1234900,
+					"specifications": [
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "225"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "123"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "141"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1615"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "151"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "172"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "185"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "468"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Автомат (6AT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "12.3"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "7.4"
+					}],
+					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+					"unique_id": "THW520202020D261FDD069",
+					"year": 2020
+				},
+				"54ff7d06-ab5c-495c-81ed-76011f97dd2c":
+				{
+					"base_complectation_id": null,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"external_name": "LUXE",
+					"id": "54ff7d06-ab5c-495c-81ed-76011f97dd2c",
+					"min_price": 1409900,
+					"modification_code": "THW52G61V",
+					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
+					"name": "Luxe",
+					"name_en": "Luxe",
+					"ocn": "G368",
+					"price": 1454900,
 					"specifications": [
 					{
 						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
+						"value": "Кроссовер"
 					},
 					{
 						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
 						"value": "2.0 MPI"
 					},
 					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "205"
 					},
 					{
 						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
+						"value": "130"
 					},
 					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1630"
 					},
 					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "149"
 					},
 					{
 						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
+						"value": "157"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "180"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
 					},
 					{
 						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
+						"value": "185"
 					},
 					{
 						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
+						"value": "Бензин, АИ 92-95"
 					},
 					{
 						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
+						"value": "2.0"
 					},
 					{
 						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
+						"value": "468"
 					},
 					{
 						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
@@ -1637,19 +1047,511 @@
 					},
 					{
 						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Вариатор (IVT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "9.6"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "6.8"
+					}],
+					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+					"unique_id": "THW5202020202G61VGG368",
+					"year": 2020
+				},
+				"5a14f255-6b88-49f6-884b-d26aa27afeeb":
+				{
+					"base_complectation_id": null,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"external_name": "LUXE",
+					"id": "5a14f255-6b88-49f6-884b-d26aa27afeeb",
+					"min_price": 1449900,
+					"modification_code": "THW5D261G",
+					"modification_id": "737063f1-5652-4ca0-af85-6dbbf12bcb4c",
+					"name": "Luxe",
+					"name_en": "Luxe",
+					"ocn": "G461",
+					"price": 1494900,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "231"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "121"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1630"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "158"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "184"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "148"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "185"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "468"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
 						"value": "Автомат (6AT)"
 					},
 					{
 						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
+						"value": "полный"
 					},
 					{
 						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
+						"value": "12.6"
 					},
 					{
 						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
+						"value": "8.0"
+					}],
+					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+					"unique_id": "THW520202020D261GGG461",
+					"year": 2020
+				},
+				"5e39a2d0-5bd0-4a76-86a3-30d186bef99d":
+				{
+					"base_complectation_id": null,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"external_name": "PRESTIGE",
+					"id": "5e39a2d0-5bd0-4a76-86a3-30d186bef99d",
+					"min_price": 1579900,
+					"modification_code": "THW52G61V",
+					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
+					"name": "Prestige",
+					"name_en": "Prestige",
+					"ocn": "G193",
+					"price": 1624900,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "205"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "2.0 MPI"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "130"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "149"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "157"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "180"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "2.0"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1999"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Вариатор (IVT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "9.6"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "6.8"
+					}],
+					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+					"unique_id": "THW5202020202G61VGG193",
+					"year": 2020
+				},
+				"6e985191-1656-4d73-87ac-8fc49a319a61":
+				{
+					"base_complectation_id": null,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"external_name": "PRESTIGE",
+					"id": "6e985191-1656-4d73-87ac-8fc49a319a61",
+					"min_price": 1619900,
+					"modification_code": "THW5D261G",
+					"modification_id": "737063f1-5652-4ca0-af85-6dbbf12bcb4c",
+					"name": "Prestige",
+					"name_en": "Prestige",
+					"ocn": "G194",
+					"price": 1664900,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "231"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "158"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "121"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "184"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "148"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Автомат (6AT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "полный"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "12.6"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "8.0"
+					}],
+					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+					"unique_id": "THW520202020D261GGG194",
+					"year": 2020
+				},
+				"814dfd78-6389-4f59-aec7-3d9a1a77e3bc":
+				{
+					"base_complectation_id": null,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"external_name": "COMFORT",
+					"id": "814dfd78-6389-4f59-aec7-3d9a1a77e3bc",
+					"min_price": 1289900,
+					"modification_code": "THW5D2618",
+					"modification_id": "42e4b3b1-e19b-4891-8944-b8530e774755",
+					"name": "Comfort",
+					"name_en": "Comfort",
+					"ocn": "D074",
+					"price": 1334900,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "226"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "121"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "153"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1615"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "148"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "180"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "185"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "468"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Механика (6MT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "полный"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "12.9"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "7.8"
+					}],
+					"transmission_id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3",
+					"unique_id": "THW520202020D2618DD074",
+					"year": 2020
+				},
+				"875db28a-ee52-4bb7-aba2-81b91ea02984":
+				{
+					"base_complectation_id": null,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"external_name": "COMFORT",
+					"id": "875db28a-ee52-4bb7-aba2-81b91ea02984",
+					"min_price": 1339900,
+					"modification_code": "THW5D261G",
+					"modification_id": "737063f1-5652-4ca0-af85-6dbbf12bcb4c",
+					"name": "Comfort",
+					"name_en": "Comfort",
+					"ocn": "D134",
+					"price": 1384900,
+					"specifications": [
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "231"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "121"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1615"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "158"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "184"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "148"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "185"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "468"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Автомат (6AT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "полный"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "12.6"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "8.0"
+					}],
+					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+					"unique_id": "THW520202020D261GDD134",
+					"year": 2020
+				},
+				"92a97455-ad9b-4ce7-a9a4-64e8cd971413":
+				{
+					"base_complectation_id": null,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"external_name": "PRESTIGE",
+					"id": "92a97455-ad9b-4ce7-a9a4-64e8cd971413",
+					"min_price": 1659900,
+					"modification_code": "THW52G61Q",
+					"modification_id": "b20c8243-c029-4ecd-84c3-c868b32c0a4b",
+					"name": "Prestige",
+					"name_en": "Prestige",
+					"ocn": "G195",
+					"price": 1704900,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "218"
 					},
 					{
 						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
@@ -1657,51 +1559,47 @@
 					},
 					{
 						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "232"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
+						"value": "Кроссовер"
 					},
 					{
 						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "126"
+						"value": "142"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
 					},
 					{
 						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "150"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "192"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
+						"value": "149"
 					},
 					{
 						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "165"
+						"value": "170"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "180"
 					},
 					{
 						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
+						"value": "190"
 					},
 					{
 						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2"
+						"value": "Бензин, АИ 92-95"
 					},
 					{
 						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
+						"value": "433"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "2.0"
 					},
 					{
 						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
@@ -1713,22 +1611,398 @@
 					},
 					{
 						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Вариатор (IVT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "полный"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "10.4"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "7.3"
+					}],
+					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257",
+					"unique_id": "THW5202020202G61QGG195",
+					"year": 2020
+				},
+				"949372a9-7227-450f-a9ee-dbc894d62567":
+				{
+					"base_complectation_id": null,
+					"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+					"external_name": "PREMIUM+",
+					"id": "949372a9-7227-450f-a9ee-dbc894d62567",
+					"min_price": 2049900,
+					"modification_code": "THW5D2G1X",
+					"modification_id": "d5e4b241-a920-478e-8438-0be919a01868",
+					"name": "Premium+",
+					"name_en": "Premium+",
+					"ocn": "G290",
+					"price": 2094900,
+					"specifications": [
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 T-GDI"
+					},
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "222"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "148"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "177"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "175"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "265"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 95"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Робот (7DCT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "полный"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "8.4"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "7.6"
+					}],
+					"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69",
+					"unique_id": "THW520202020D2G1XGG290",
+					"year": 2020
+				},
+				"9ea73aaa-b670-4db4-ae46-bd005e0a693b":
+				{
+					"base_complectation_id": null,
+					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+					"external_name": "CLASSIC",
+					"id": "9ea73aaa-b670-4db4-ae46-bd005e0a693b",
+					"min_price": 1149900,
+					"modification_code": "THW5D2617",
+					"modification_id": "b6b4a272-527a-42ee-9b71-bd61317d1ec5",
+					"name": "Classic",
+					"name_en": "Classic",
+					"ocn": "D069",
+					"price": 1194900,
+					"specifications": [
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "203"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "135"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "123"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1615"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "151"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "160"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "185"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "468"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Механика (6MT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "12.2"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "6.9"
+					}],
+					"transmission_id": "f7c81bad-f6e6-474b-9b18-0426325946a1",
+					"unique_id": "THW520202020D2617DD069",
+					"year": 2020
+				},
+				"d5cc7d64-5db7-488d-9399-0ea628507aa8":
+				{
+					"base_complectation_id": null,
+					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+					"external_name": "STYLE",
+					"id": "d5cc7d64-5db7-488d-9399-0ea628507aa8",
+					"min_price": 1489900,
+					"modification_code": "THW5D261G",
+					"modification_id": "737063f1-5652-4ca0-af85-6dbbf12bcb4c",
+					"name": "Style",
+					"name_en": "Style",
+					"ocn": "G441",
+					"price": 1534900,
+					"specifications": [
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 MPI"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "231"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "158"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "121"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "148"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "184"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
 						"value": "Автомат (6AT)"
 					},
 					{
 						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
+						"value": "полный"
 					},
 					{
 						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "10.6"
+						"value": "12.6"
 					},
 					{
 						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.2"
+						"value": "8.0"
 					}],
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
-					"unique_id": "EXS4202120202G61FDD641",
+					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+					"unique_id": "THW520202020D261GGG441",
+					"year": 2020
+				},
+				"d93dbbd2-5093-49ac-a931-6ec63cc53b3f":
+				{
+					"base_complectation_id": null,
+					"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+					"external_name": "PREMIUM",
+					"id": "d93dbbd2-5093-49ac-a931-6ec63cc53b3f",
+					"min_price": 2029900,
+					"modification_code": "THW5D2G1X",
+					"modification_id": "d5e4b241-a920-478e-8438-0be919a01868",
+					"name": "Premium",
+					"name_en": "Premium",
+					"ocn": "G420",
+					"price": 2074900,
+					"specifications": [
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "222"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "1.6 T-GDI"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "148"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "177"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "175"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "265"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 95"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "1.6"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1591"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Робот (7DCT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "полный"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "8.4"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "7.6"
+					}],
+					"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69",
+					"unique_id": "THW520202020D2G1XGG420",
 					"year": 2020
 				}
 			},
@@ -1737,6 +2011,11 @@
 				"id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
 				"name": "Передний",
 				"sort": 500
+			},
+			{
+				"id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"name": "Полный",
+				"sort": 300
 			}],
 			"engine_types": [
 			{
@@ -1745,28 +2024,46 @@
 				"sort": 0
 			},
 			{
-				"id": "aab859ba-b8af-4b38-a674-8d5d169ca40b",
-				"name": "GDI",
+				"id": "7fd1a66b-80e5-4db5-97c4-ec2e6f16ed89",
+				"name": "T-GDI",
 				"sort": 0
 			}],
 			"engines": [
 			{
 				"engine_type_id": "efbafa4f-3f6e-4c36-9e7d-7532de739180",
 				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
-				"id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
+				"id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
+				"name": "1.6 MPI",
+				"name_en": null,
+				"power_hp": "123",
+				"volume": "1.6"
+			},
+			{
+				"engine_type_id": "efbafa4f-3f6e-4c36-9e7d-7532de739180",
+				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 				"name": "2.0 MPI",
 				"name_en": null,
-				"power_hp": "150",
+				"power_hp": "149",
 				"volume": "2.0"
 			},
 			{
-				"engine_type_id": "aab859ba-b8af-4b38-a674-8d5d169ca40b",
+				"engine_type_id": "7fd1a66b-80e5-4db5-97c4-ec2e6f16ed89",
 				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
-				"id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-				"name": "2.5 GDI",
+				"id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
+				"name": "1.6 T-GDI",
 				"name_en": null,
-				"power_hp": "194",
-				"volume": "2.5"
+				"power_hp": "177",
+				"volume": "1.6"
+			},
+			{
+				"engine_type_id": "efbafa4f-3f6e-4c36-9e7d-7532de739180",
+				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"id": "8c65d90d-7f97-445e-9411-110f1880afe2",
+				"name": "1.6 MPI",
+				"name_en": null,
+				"power_hp": "121",
+				"volume": "1.6"
 			}],
 			"fuel_types": [
 			{
@@ -1776,11 +2073,56 @@
 			}],
 			"gearboxes": [
 			{
+				"id": "861522b8-995c-4204-8bb7-3638b829a5f0",
+				"name": "Механика",
+				"sort": 500
+			},
+			{
 				"id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
 				"name": "Автомат",
 				"sort": 400
+			},
+			{
+				"id": "50b4e48e-81c8-488b-9a1a-296786f6fc74",
+				"name": "Робот",
+				"sort": 300
+			},
+			{
+				"id": "0187d564-de16-440d-bf05-ad7b53ba4652",
+				"name": "Вариатор",
+				"sort": 300
 			}],
 			"grouped_specifications": [
+			{
+				"code": "TSG02",
+				"name": "Размеры",
+				"specifications": [
+				{
+					"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+					"name": "Тип кузова",
+					"sort": 0
+				},
+				{
+					"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+					"name": "Габариты (длина\/ширина\/высота), мм",
+					"sort": 0
+				},
+				{
+					"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+					"name": "Колесная база, мм",
+					"sort": 0
+				},
+				{
+					"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+					"name": "Дорожный просвет, мм",
+					"sort": 0
+				},
+				{
+					"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+					"name": "Объём багажника (VDA), л",
+					"sort": 0
+				}]
+			},
 			{
 				"code": "TSG01",
 				"name": "Двигатель и трансмиссия",
@@ -1860,44 +2202,20 @@
 					"name": "В комбинированном цикле, г\/км",
 					"sort": 0
 				}]
-			},
-			{
-				"code": "TSG02",
-				"name": "Размеры",
-				"specifications": [
-				{
-					"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-					"name": "Тип кузова",
-					"sort": 0
-				},
-				{
-					"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-					"name": "Габариты (длина\/ширина\/высота), мм",
-					"sort": 0
-				},
-				{
-					"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-					"name": "Колесная база, мм",
-					"sort": 0
-				},
-				{
-					"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-					"name": "Дорожный просвет, мм",
-					"sort": 0
-				},
-				{
-					"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-					"name": "Объём багажника (VDA), л",
-					"sort": 0
-				}]
 			}],
 			"model_dimensions_images": [],
 			"prices":
 			{
-				"from": 1549900,
-				"to": 2259900
+				"from": 1149900,
+				"to": 2049900
 			},
 			"transmissions": [
+			{
+				"drive_id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"gearbox_id": "861522b8-995c-4204-8bb7-3638b829a5f0",
+				"id": "f7c81bad-f6e6-474b-9b18-0426325946a1",
+				"name": "FWD 6MT"
+			},
 			{
 				"drive_id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
 				"gearbox_id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
@@ -1905,10 +2223,34 @@
 				"name": "FWD 6AT"
 			},
 			{
-				"drive_id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"gearbox_id": "861522b8-995c-4204-8bb7-3638b829a5f0",
+				"id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3",
+				"name": "4WD 6MT"
+			},
+			{
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"gearbox_id": "50b4e48e-81c8-488b-9a1a-296786f6fc74",
+				"id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69",
+				"name": "4WD 7DCT"
+			},
+			{
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
 				"gearbox_id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
-				"id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
-				"name": "FWD 8AT"
+				"id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"name": "4WD 6AT"
+			},
+			{
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"gearbox_id": "0187d564-de16-440d-bf05-ad7b53ba4652",
+				"id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257",
+				"name": "4WD IVT"
+			},
+			{
+				"drive_id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"gearbox_id": "0187d564-de16-440d-bf05-ad7b53ba4652",
+				"id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+				"name": "FWD IVT"
 			}],
 			"years": [
 			{
@@ -1921,33 +2263,33 @@
 			{
 				"2020":
 				{
-					"name": "Footer Model Properties K5",
-					"text": "        Сведения о ценах на продукцию бренда KIA, содержащиеся на сайте, носят исключительно информационный характер. \n        Указанные цены могут отличаться от действительных цен дилеров KIA. Для получения подробной информации об актуальных \n        ценах на продукцию KIA обращайтесь к дилерам KIA. Приобретение любой продукции бренда KIA осуществляется в соответствии \n        с условиями индивидуального договора купли-продажи. Представленное изображение автомобиля может отличаться от реализуемого.\r\n<br\/><br\/>\r\nНа данном сайте используются зарегистрированные товарные знаки, перечисленные в разделе Правовая информация  <a href=\"https:\/\/www.kia.ru\/info\/trademarks\/\">https:\/\/www.kia.ru\/info\/trademarks\/<\/a>\r\n<br\/><br\/>\r\n        Данные по времени разгона получены в эталонных условиях с применением специального измерительного оборудования, \n        при использовании эталонного топлива. Реальное время разгона может отличаться в силу воздействия различных \n        объективных и субъективных факторов: влажности, давления и температуры окружающего воздуха, фракционного состава используемого топлива, \n        рельефа местности, характеристик дорожного покрытия, направления и скорости ветра, атмосферных осадков, \n        давления в шинах а также их размерности, марки и модели, массы перевозимого груза (включая водителя и пассажиров) и навыков вождения. \n        Из-за различий в комплектациях автомобилей и требованиях на разных рынках, характеристики моделей могут отличаться от указанных выше. \n        Компания Kia оставляет за собой право на внесение изменений в конструкцию и комплектацию автомобилей без предварительного уведомления.\r\n<br\/><br\/>\r\nНаценка за окраску кузова в цвете металлик указана относительно цены автомобиля с базовым цветом.\r\n<br\/><br\/>\r\nАктуальную цену с учетом действующих спецпредложений уточняйте на сайте kia.ru в разделе \"Спецпредложения\" и у дилеров KIA.\r\n<br\/><br\/>\r\nClassic - Классик, Comfort - Комфорт, Luxe - Люкс, Prestige - Престиж, Style - Стайл, GT Line - Джити Лайн, GT Line+ - Джити Лайн Плюс.\r\n<br\/><br\/>\r\nGDI (Gasoline Direct Injection) - двигатель с непосредственным впрыском топлива.\r\n<br\/><br\/>\r\nMPI (Multi Point Injection) - бензиновый двигатель с распределенным впрыском топлива.\r\n<br\/><br\/>\r\n        Auto - Авто, \r\n        TFT (Thin Film Transistor) - Тиэфти,\r\n        Engine (Start-Stop) - Двигатель (Старт-Стоп), \r\n        LCD (Liquid Crystal Display) - Жидкокристаллический дисплей,  \r\n        Supervision - Супервижн, \r\n        USB (Universal Serial Bus) - интерфейс для подключения, \r\n        AUX (auxiliary) -  интерфейс для подключения, \r\n        SD (Secure Digital) - формат карт памяти, \r\n        Bluetooth (Блютус) - спецификация беспроводных персональных сетей, \r\n        Apple Carplay - Эппл Карплей, \r\n        Android Auto - Андройд Авто, \r\n        Smart Key - Смарт Кей, \r\n        AHSS(Advanced-high-strength steel) - прогрессивная высокопрочная сталь,\r\n        ABS (Anti-lock braking system) -  Антиблокировочная система торможения,\r\n        EPB (Electromechanical Parking Brake)-Электрический стояночный тормоз,\r\n        Auto Hold - система автоматического удержания.\r\n<br\/><br\/>\r\nТехнические характеристики уточняйте у дилеров KIA.\r\n<br\/><br\/>\r\n    Данные по расходу топлива и выбросам CO2 получены в стандартизованных условиях по условному ездовому циклу\n    с применением специального измерительного оборудования. Реальный расход топлива может отличаться в силу\n    воздействия различных объективных и субъективных факторов: влажности, давления и температуры окружающего воздуха,\n    фракционного состава используемого топлива, рельефа местности, характеристик дорожного покрытия,\n    скорости движения автомобиля, направления и скорости ветра, атмосферных осадков, давления в шинах а также их размерности,\n    марки и модели, массы перевозимого груза (включая водителя и пассажиров) и манеры вождения\n    (частота и интенсивность продольных и поперечных ускорений, средняя скорость).",
+					"name": "Footer Properties  Seltos 2020",
+					"text": "        Сведения о ценах на продукцию бренда KIA, содержащиеся на сайте, носят исключительно информационный характер. \n        Указанные цены могут отличаться от действительных цен дилеров KIA. Для получения подробной информации об актуальных \n        ценах на продукцию KIA обращайтесь к дилерам KIA. Приобретение любой продукции бренда KIA осуществляется в соответствии \n        с условиями индивидуального договора купли-продажи. Представленное изображение автомобиля может отличаться от реализуемого.\n<br\/><br\/>\n    Данные по времени разгона получены в эталонных условиях с применением специального измерительного оборудования,\n    при использовании эталонного топлива. Реальное время разгона может отличаться в силу воздействия различных объективных\n    и субъективных факторов: влажности, давления и температуры окружающего воздуха, фракционного состава используемого топлива,\n    рельефа местности, характеристик дорожного покрытия, направления и скорости ветра, атмосферных осадков, давления в шинах а\n    также их размерности, марки и модели, массы перевозимого груза (включая водителя и пассажиров) и навыков вождения. Из-за\n    различий в комплектациях автомобилей и требованиях на разных рынках, характеристики моделей могут отличаться от указанных выше.\n    Компания KIA Motors Corporation оставляет за собой право на внесение изменений в конструкцию и комплектацию автомобилей без предварительного уведомления.\n<br\/><br\/>\n    Данные по расходу топлива и выбросам CO2 получены в стандартизованных условиях по условному ездовому циклу\n    с применением специального измерительного оборудования. Реальный расход топлива может отличаться в силу\n    воздействия различных объективных и субъективных факторов: влажности, давления и температуры окружающего воздуха,\n    фракционного состава используемого топлива, рельефа местности, характеристик дорожного покрытия,\n    скорости движения автомобиля, направления и скорости ветра, атмосферных осадков, давления в шинах а также их размерности,\n    марки и модели, массы перевозимого груза (включая водителя и пассажиров) и манеры вождения\n    (частота и интенсивность продольных и поперечных ускорений, средняя скорость).\n<br\/><br\/>\nVDA (Verband fuer Deutsche Automobilindustrie) - методика измерения объема.\n<br\/><br\/>\nMPI (Multi Point Injection) - бензиновый двигатель с распределенным впрыском топлива.\n<br\/><br\/>\nT-GDi (Turbo Gasoline Direct Injection) - cистема непосредственного впрыска топлива в бензиновых двигателях.\n<br\/><br\/>\nMT - Механика.\n<br\/><br\/>\nAT - Автомат.\n<br\/><br\/>\nDCT (Dual-clutch transmission) - роботизированная коробка передач с двумя сцеплениями\n<br\/><br\/>\nIVT (Intelligent Variable Transmission) - бесступенчатая трансмиссия\n<br\/><br\/>\nТехнические характеристики уточняйте у дилеров KIA.",
 					"year": 2020,
-					"model_year": 2021
+					"model_year": 2020
 				}
-			},
-			"min_price":
-			{
-				"name": "Min Price K5",
-				"text": "Цена 1 549 900 руб. указана на новый автомобиль KIA K5 2020 г. выпуска в комплектации 2.0 AT Classic c учетом максимальной выгоды 40 000 руб. Выгода формируется из: \n1) выгоды 40 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 13.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1] Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. \nУсловия и тарифы могут быть изменены Банком в одностороннем порядке."
 			},
 			"max_benefit":
 			{
-				"name": "Max Benefit K5",
-				"text": "Получение максимальной выгоды в размере 40 000 рублей возможно при покупке новых автомобилей KIA K5 2020 г. выпуска. Выгода формируется из: \n1) выгоды 40 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует c 01.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1]Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ\n РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита. "
+				"name": "Max Benefit Seltos",
+				"text": "Получение максимальной выгоды в размере 45 000 рублей возможно при покупке нового KIA Seltos 2020 г. выпуска. Выгода формируется из: \n1) выгоды 45 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1]Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита. "
+			},
+			"min_price":
+			{
+				"name": "Min Price Seltos",
+				"text": "Цена 1 149 900 руб. указана на новый автомобиль KIA Seltos 2020 г. выпуска в комплектации 1.6 MT Classic c учетом максимальной выгоды 45 000 руб. Выгода формируется из: \n1) выгоды 45 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 13.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1]Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ\n РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита."
 			},
 			"credit":
 			{
-				"name": "Credit K5",
-				"text": "Ежемесячный платеж –  8 030 р. на КИА K5. Кредит предоставляется ПАО «Совкомбанк» (далее «Банк») Генеральная лицензия ЦБ РФ № 963 от 05.12.2014 г., рассчитан по условиям программы \"KIA Легко Plus\" (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/) по кредитному тарифу KIA Finance Indirect исходя из параметров: цена КИА K5 2.0 АТ Классик 2020 года производства, стоимостью 1 589 900 руб. (и с условием предоставления дополнительной скидки в размере 40 000 р. по программе \"KIA Легко Plus\"), срок кредита 36 мес., первоначального взноса 852 445 р., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13.8% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПолис КАСКО оформляется в САО «ВСК» (Лицензии ЦБ РФ - СЛ № 0621, СИ № 0621 от 11.09.2015 www.vsk.ru) на 3 года и предусматривает выплату страхового возмещения за вычетом безусловной франшизы в размере 18 000 р. по страховым случаям, определенным в полисе и с учетом положений Правил страхования, и связанным с утратой, гибелью, повреждением приобретенного автомобиля. Условия программы могут быть изменены в одностороннем порядке САО «ВСК».\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 13.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA."
+				"name": "Credit Seltos",
+				"text": "Ежемесячный платеж –  5 960 р. на КИА Сэлтос. Кредит предоставляется ПАО «Совкомбанк» (далее «Банк») Генеральная лицензия ЦБ РФ № 963 от 05.12.2014 г., рассчитан по условиям программы  \"KIA Легко Plus\" (Подробная информация: https:\/\/www.kia.ru\/buy\/special\/credit-legko-plus\/) по кредитному тарифу KIA Finance Indirect исходя из параметров: цена КИА Сэлтос 1.6 МТ Классик 2020 года производства, стоимостью 1 194 900 руб. (и с условием предоставления дополнительной скидки в размере 45 000 р. по программе \"KIA Легко Plus\"), срок кредита 36 мес., первоначального взноса 632 445 р., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13.8% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПолис КАСКО оформляется в САО «ВСК» (Лицензии ЦБ РФ - СЛ № 0621, СИ № 0621 от 11.09.2015 www.vsk.ru) на 3 года и предусматривает выплату страхового возмещения за вычетом безусловной франшизы в размере 18 000 р. по страховым случаям, определенным в полисе и с учетом положений Правил страхования, и связанным с утратой, гибелью, повреждением приобретенного автомобиля. Условия программы могут быть изменены в одностороннем порядке САО «ВСК».\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с  13.01.2021 по 31.01.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA."
 			}
 		},
-		"model_default_year": null,
+		"model_default_year": 2020,
 		"model_menu": [
 		{
 			"title": "Обзор",
-			"link": "\/models\/k5\/desc\/",
+			"link": "\/models\/seltos\/desc\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -1957,7 +2299,7 @@
 		},
 		{
 			"title": "Комплектации и цены",
-			"link": "\/models\/k5\/options\/",
+			"link": "\/models\/seltos\/options\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -1967,7 +2309,7 @@
 		},
 		{
 			"title": "Характеристики",
-			"link": "\/models\/k5\/properties\/",
+			"link": "\/models\/seltos\/properties\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -1977,7 +2319,7 @@
 		},
 		{
 			"title": "Рассчитать кредит",
-			"link": "\/models\/k5\/calc\/",
+			"link": "\/models\/seltos\/calc\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -1986,8 +2328,18 @@
 			"sort": 900
 		},
 		{
+			"title": "Рассчитать трейд-ин",
+			"link": "\/buy\/trade-in\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 1,
+			"show_in_calculator": 1,
+			"sort": 1450
+		},
+		{
 			"title": "Авто в наличии",
-			"link": "\/models\/k5\/cars\/",
+			"link": "\/models\/seltos\/cars\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 0,
@@ -1997,7 +2349,7 @@
 		},
 		{
 			"title": "Спецпредложения",
-			"link": "\/models\/k5\/special\/",
+			"link": "\/models\/seltos\/special\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 0,
@@ -2007,7 +2359,7 @@
 		},
 		{
 			"title": "Конфигуратор",
-			"link": "\/models\/k5\/configurator\/",
+			"link": "\/models\/seltos\/configurator\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 1,
@@ -2016,8 +2368,8 @@
 			"sort": 1600
 		},
 		{
-			"title": "Заявка дилеру",
-			"link": "\/models\/k5\/callback\/",
+			"title": "Тест-драйв",
+			"link": "\/models\/seltos\/testdrive\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 0,
@@ -2026,8 +2378,8 @@
 			"sort": 1650
 		},
 		{
-			"title": "Тест-драйв",
-			"link": "\/models\/k5\/testdrive\/",
+			"title": "Заявка дилеру",
+			"link": "\/models\/seltos\/callback\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 0,
@@ -2037,23 +2389,23 @@
 		},
 		{
 			"title": "Технологии",
-			"link": "\/models\/k5\/technologies\/",
+			"link": "\/models\/seltos\/technologies\/",
 			"code": null,
 			"in_new_window": 0,
 			"is_base": 0,
 			"show_in_configurator": 0,
 			"show_in_calculator": 0,
-			"sort": 1700
+			"sort": 1660
 		},
 		{
 			"title": "Брошюра",
-			"link": "https:\/\/cdn.kia.ru\/master-data\/brochures\/Kia_K5_Preview.pdf",
+			"link": "https:\/\/cdn.kia.ru\/master-data\/brochures\/Kia_Seltos.pdf",
 			"code": "broshure",
 			"in_new_window": 1,
 			"is_base": 0,
 			"show_in_configurator": 0,
 			"show_in_calculator": 0,
-			"sort": 1800
+			"sort": 1700
 		},
 		{
 			"title": "Аксессуары",
@@ -2063,12 +2415,12 @@
 			"is_base": 0,
 			"show_in_configurator": 0,
 			"show_in_calculator": 0,
-			"sort": 1900
+			"sort": 1800
 		}],
 		"seo":
 		{
-			"title": "KIA K5 - Технические характеристики",
-			"description": "Узнайте технические характеристики KIA K5: двигатель, габаритные размеры, клиренс, расход топлива и разгон до 100 км\/ч. Двигатель 2.0 MPI с повышенной топливной эффективностью с улучшенными технологиями сгорания и охлаждения. 6- и 8-ступенчатая АКПП с 5 режимами движения соответствуют индивидуальным предпочтениям водителя."
+			"title": "KIA Seltos - Технические характеристики",
+			"description": "При габаритной длине 4 370 мм, передний и задний свесы KIA Seltos не превышают 850 мм. Колесная база составляет 2 630 мм, а габаритная высота составляет 1 615 мм. Seltos выглядит более спортивно, чем многие кроссоверы."
 		}
 	}
 }

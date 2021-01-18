@@ -124,8 +124,6 @@
 <script>
 
 
-import mainjs from '@/static/js/main'
-
 export default {
   head() {
     return {
@@ -148,32 +146,25 @@ export default {
       context.error(e);
     }
   },
-  data(){
-    return {
-      //
-    }
-  },
   mounted(){
-    mainjs();
-		$(".bnr-carousel-items.owl-carousel").owlCarousel({
-			nav: true,
-			loop: true,
-			//items: 3,
-			dots: true,
-			dotsEach: false,
-			//autoplay: true,
-			//autoplayTimeout: 7000,
-			autoheight: true,
-			touchDrag: true,
-			mouseDrag: true,
-			//smartSpeed: 0,
-			responsive:{
-				0:{items:1},
-				991:{items:1}
-			},
-			navText : owlBtn,
-			margin: 0
+  
+    $(".bnr-carousel-items.owl-carousel").owlCarousel({
+      nav: true,
+      loop: true,
+      //items: 3,
+      dots: true,
+      dotsEach: false,
+      autoheight: true,
+      touchDrag: true,
+      mouseDrag: true,
+      responsive:{
+        0:{items:1},
+        991:{items:1}
+      },
+      navText : owlBtn,
+      margin: 0
     });
+
   },
   methods: {}
 }

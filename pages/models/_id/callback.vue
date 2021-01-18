@@ -77,14 +77,9 @@
 
 <script>
 
-import mainjs from '@/static/js/main'
+
 
 export default {
-  data(){
-    return{
-
-    }
-  },
   async asyncData(context){
     try{
       const path = context.route.path
@@ -105,9 +100,6 @@ export default {
         }
       ],
     }
-  },
-  mounted() {
-    mainjs();
   },
 }
 </script>

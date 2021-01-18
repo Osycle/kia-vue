@@ -35,14 +35,12 @@
       <div class="container-p relative">
         <div class="flex-adaptive align-center justify-c-between">
 					<div class="breadcrumb-container">
-						<div class="container-p">
-							<ol class="breadcrumb">
-								<li><nuxt-link to="/">Главная</nuxt-link></li>
-								<li><nuxt-link to="/models">Модели</nuxt-link></li>
-								<li><nuxt-link :to="'/models/'+page.model.code">{{page.model.name}}</nuxt-link></li>
-								<li><nuxt-link :to="'/models/'+page.model.code+'/properties'">Характеристики</nuxt-link></li>
-							</ol>
-						</div>
+						<ol class="breadcrumb">
+							<li><nuxt-link to="/">Главная</nuxt-link></li>
+							<li><nuxt-link to="/models">Модели</nuxt-link></li>
+							<li><nuxt-link :to="'/models/'+page.model.code">{{page.model.name}}</nuxt-link></li>
+							<li><nuxt-link :to="'/models/'+page.model.code+'/properties'">Характеристики</nuxt-link></li>
+						</ol>
 					</div>
         </div>
         <div class="entry-intro">
@@ -109,11 +107,11 @@
 						<div class="config-content">
 							<div class="config-variants">
 								<div class="config-variants-items owl-carousel">
-									<div class="cell" v-for="(complectation, key) in page.complectations" :key="key" >
+									<div class="cell" v-for="(complectation, key) in complectations" :key="key">
 										<div class="cell-wrapper" >
 											<h4>{{complectation.name}} <i class="fa fa-angle-right fw-6"></i></h4>
 											<div>
-												<p v-if="false">
+												<p>
 													<!-- Engine -->
 													<template v-for="(engine) in page.specifications.engines" v-if="complectation.engine_id == engine.id">
 														{{engine.volume}} / {{engine.power_hp}} л. с. /
@@ -142,73 +140,19 @@
 						</div>
 					</div>
 				</div>
-				
-				<div class="config-details" v-if="false">
-					<section class="item active">
-						<a href=".item" class="title-click" tc tc-closest>Стандартное оборудование<i class="fa fa-angle-up"></i></a>
-						<div class="section-body">
-							<div class="section-body-wrapper">
-								<div class="list-block-body">
-									<h4>Экстерьер</h4>
-									<ul>
-									<template>
-										<li v-for="(options_base, key) in page.modifications.options_base" 
-												v-if="options_base.group_name == 'Экстерьер'" :key="key">
-											<span>{{options_base.name}}</span>
-										</li>
-									</template>
-									</ul>
-								</div>
-								
-								<div class="list-block-body">
-									<h4>Интерьер</h4>
-									<ul>
-									<template>
-										<li v-for="(options_base, key) in page.modifications.options_base" 
-												v-if="options_base.group_name == 'Интерьер'" :key="key">
-											<span>{{options_base.name}}</span>
-										</li>
-									</template>
-									</ul>
-								</div>
-								<div class="list-block-body">
-									<h4>Безопасность</h4>
-									<ul>
-									<template>
-										<li v-for="(options_base, key) in page.modifications.options_base" 
-												v-if="options_base.group_name == 'Безопасность'" :key="key">
-											<span>{{options_base.name}}</span>
-										</li>
-									</template>
-									</ul>
-								</div>
-								<div class="list-block-body">
-									<h4>Комфорт</h4>
-									<ul>
-									<template>
-										<li v-for="(options_base, key) in page.modifications.options_base" 
-												v-if="options_base.group_name == 'Комфорт'" :key="key">
-											<span>{{options_base.name}}</span>
-										</li>
-									</template>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section class="item" v-for="(item, key) in page.modifications.grouped_options" :key="key">
+				<div class="config-details">
+					<section class="item" v-for="(item, key) in page.specifications.grouped_specifications" :key="key">
 						<a href=".item" class="title-click" tc tc-closest>{{item.name}}<i class="fa fa-angle-up"></i></a>
 						<div class="section-body">
 							<div class="section-body-wrapper">
-								<div class="config-param-item" v-for="(option, key) in item.options" :key="key">
+								<div class="config-param-item" v-for="(option, key) in item.specifications" :key="key">
 									<div class="config-param-item-wrapper">
 										<p class="m-b-15 align-center">{{option.name}}</p>
 										<div class="owl-table owl-carousel">
-											<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
-												<div class="op-enable" v-for="(modelOptionId, key) in model.options" v-if="modelOptionId == option.id" :key="key">
-													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
-												</div>
-												<div><div>—</div></div>
+											<div class="owl-table-item" v-for="(model, key) in complectations" :key="key" >
+												<span v-for="(specification, key) in sortedUniq(model.specifications)" v-if="option.id == specification.id" :key="key">
+													{{specification.value}}
+												</span>
 											</div>
 										</div>
 									</div>
@@ -216,6 +160,26 @@
 							</div>
 						</div>
 					</section>
+					<section class="item">
+						<a href=".item" class="title-click" tc tc-closest>Спецификация<i class="fa fa-angle-up"></i></a>
+						<div class="section-body">
+							<div class="section-body-wrapper">
+								<div class="config-param-item">
+									<div class="config-param-item-wrapper">
+										<p class="m-b-15 align-center">Код модели</p>
+										<div class="owl-table owl-carousel">
+											<div class="owl-table-item" v-for="(model, key) in complectations" :key="key" >
+												<span>
+													{{model.modification_code}}
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
 				</div>
 
 			</div>
@@ -229,7 +193,7 @@
 
 <script>
 
-import mainjs from '@/static/js/main'
+import _ from 'lodash'
 
 export default {
   head() {
@@ -242,11 +206,9 @@ export default {
       ],
     }
   },
-  scrollToTop: true,
   async asyncData(context){
     try{
 			const path = context.route.path;
-			//console.log(context);
       const page = await context.store.dispatch("models/fetchPageData", {
         path: path,
       })
@@ -266,16 +228,12 @@ export default {
   },
   created(){
     for (const key in this.page.specifications.complectations) {
-      var complectation = this.page.specifications.complectations[key];
+			const complectation = this.page.specifications.complectations[key];
+			//complectation.
       this.complectations.push(complectation)
     }
-  },
-  methods: {
-
-  },
+	},
   mounted() {
-		mainjs();
-    
 		var configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
 				nav: true,
 				loop: false,
@@ -301,37 +259,37 @@ export default {
 		});
 
     console.log(configCrs);
-		// var configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
-		// 		nav: false,
-		// 		loop: false,
-		// 		items: 2,
-		// 		dots: false,
-		// 		dotsEach: false,
-		// 		//slideBy: 2,
-		// 		autoplay: false,
-		// 		autoplayTimeout: false,
-		// 		autoWidth: true,
-		// 		touchDrag: false,
-		// 		mouseDrag: false,
-		// 		center: false,
-		// 		autoheight: true,
-		// 		merge: true,
-		// 		responsive:{
-	  //       678:{
-	  //           mergeFit:true
-	  //       }
-		// 		},
-		// 		navText : owlBtn,
-		// 		margin: 0
-		// });
+		var configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
+				nav: false,
+				loop: false,
+				items: 2,
+				dots: false,
+				dotsEach: false,
+				//slideBy: 2,
+				autoplay: false,
+				autoplayTimeout: false,
+				autoWidth: true,
+				touchDrag: false,
+				mouseDrag: false,
+				center: false,
+				autoheight: true,
+				merge: true,
+				responsive:{
+	        678:{
+	            mergeFit:true
+	        }
+				},
+				navText : owlBtn,
+				margin: 0
+		});
 
 
-		// configCrs.find(".owl-next").on('click', function(event) {
-		// 	configTableCrs.trigger('next.owl.carousel');
-		// })
-		// configCrs.find(".owl-prev").on('click', function(event) {
-		// 	configTableCrs.trigger('prev.owl.carousel');
-		// })
+		configCrs.find(".owl-next").on('click', function(event) {
+			configTableCrs.trigger('next.owl.carousel');
+		})
+		configCrs.find(".owl-prev").on('click', function(event) {
+			configTableCrs.trigger('prev.owl.carousel');
+		})
 
     //console.log(configCrs, configTableCrs);
 
