@@ -1,5 +1,5 @@
 <template>
-  <div class="relative conf" scrollf>
+  <div class="main-body relative conf offset-header" scrollf>
     <div class="breadcrumb-container">
       <div class="container-p">
         <ol class="breadcrumb">
@@ -133,6 +133,20 @@ export default {
     }
   },
   mounted(){
+    $("[scrollf]").map((i, el)=>{
+      el = $(el)
+      $(window).on("scroll", (e)=>{
+        var docViewBottom = $(window).scrollTop() + $(window).height();
+        var elBottom = $(el).offset().top + $(el).height();
+          if(docViewBottom > elBottom){
+            el.addClass("is-scrollf")
+          }else{
+            el.removeClass("is-scrollf")
+          }
+      })
+    })
+
+
     var v = this;
 		window.owlCrs = $(".conf-crs .owl-carousel").owlCarousel({
 			nav: true,

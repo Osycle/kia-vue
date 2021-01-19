@@ -1,136 +1,97 @@
 
+
+export default ()=>{
+
+
+/* COMMON FUNCTION */
+window.checkSm = function(){
+	return $(document).width() <= 991;
+}
+window.checkMd = function(){
+	return $(document).width() < 1199 && !checkSm();
+}
+window.getRandomInt = function(min, max){
+	return Math.floor(Math.random() * (max - min)) + min;
+}
+window.getRandomIntFloat = (min, max) =>{
+	return Math.random() * (max - min) + min;
+}
+window.scrolledDiv = function(el){
+	try {
+		var docViewTop = $(window).scrollTop(),
+			docViewBottom = docViewTop + $(window).height(),
+			elTop = $(el).offset().top + 100,
+			elBottom = elTop + $(el).height() / 1.8;
+	} catch (err) {
+		console.error();
+	}
+	return elBottom <= docViewBottom && elTop >= docViewTop;
+}
+window.roundFix = function(num, cnt){
+	num = num+""
+	cnt = cnt + (/./.test(num) || null ? 1 : 0);
+	return num.substring( 0,  cnt)*1
+}
+window.spaceBetweenNum = function(str, char){
+	str = str+"";
+	char = char || ","
+	var pattern = /(-?\d+)(\d{3})/;
+	while (pattern.test(str))
+		str = str.replace(pattern, "$1"+char+"$2");
+	return str;
+}
+
+
+
+
+if(!window.iki)
 	window.iki = 0
-	console.log("Я загрузился", iki++);
-
-	var isWebkit = /Webkit/i.test(navigator.userAgent),
-			isChrome = /Chrome/i.test(navigator.userAgent),
-			isMac = /Mac/i.test(navigator.userAgent),
-			isMobile = !!("ontouchstart" in window),
-			isAndroid = /Android/i.test(navigator.userAgent),
-			isEdge = /Edge/i.test(navigator.userAgent);
+console.log("Я загрузился", iki++);
 
 
-	// COMMON FUNCTION
+/* COMMON VAREBILES */
 
-	function checkSm() {
-		return $(document).width() <= 991;
-	}
+window.isWebkit = /Webkit/i.test(navigator.userAgent),
+window.isChrome = /Chrome/i.test(navigator.userAgent),
+window.isMac = /Mac/i.test(navigator.userAgent),
+window.isMobile = !!("ontouchstart" in window),
+window.isAndroid = /Android/i.test(navigator.userAgent),
+window.isEdge = /Edge/i.test(navigator.userAgent);
 
-	function checkMd() {
-		return $(document).width() < 1199 && !checkSm();
-	}
-
-	function getRandomInt(min, max) {
-		return Math.floor(Math.random() * (max - min)) + min;
-	}
-
-	function getRandomIntFloat(min, max) {
-		return Math.random() * (max - min) + min;
-	}
-
-	function onResized(f) {
-		if (typeof f === "function") f();
-		$(window).on("resize", function(e) {
-			if (typeof f === "function") f();
-		});
-		return this;
-	}
-
-	function scrolledDiv(el) {
-		try {
-			var docViewTop = $(window).scrollTop(),
-				docViewBottom = docViewTop + $(window).height(),
-				elTop = $(el).offset().top + 100,
-				elBottom = elTop + $(el).height() / 1.8;
-		} catch (err) {
-			console.error();
-		}
-
-		return elBottom <= docViewBottom && elTop >= docViewTop;
-	}
-
-	function roundFix( num, cnt ){
-		num = num+""
-		cnt = cnt + (/./.test(num) || null ? 1 : 0);
-		return num.substring( 0,  cnt)*1
-	}
-
-
-	function spaceBetweenNum(str, char) {
-		str = str+"";
-		char = char || ","
-		var pattern = /(-?\d+)(\d{3})/;
-		while (pattern.test(str))
-			str = str.replace(pattern, "$1"+char+"$2");
-		return str;
-	}
-
-
-	$("[scrollf]").map((i, el)=>{
-		el = $(el)
-		console.log(el);
-		window.ol = el;
-		$(window).on("scroll", (e)=>{
-			var docViewBottom = $(window).scrollTop() + $(window).height();
-			var elBottom = $(el).offset().top + $(el).height();
-				if(docViewBottom > elBottom){
-					el.addClass("is-scrollf")
-				}else{
-					el.removeClass("is-scrollf")
-				}
-		})
-	})
-	
-
-	
-	if( $('[header-opacity]').length ){
-		$(".header-parent").addClass("header-op")
-		$(".header").removeClass("white-style")
-	}else{
-		$(".header-parent").removeClass("header-op")
-		$(".header").addClass("white-style")
-	}
+// owl btn
+window.owlBtn = [
+	'<span class="owl-btn previous">'+
+		'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
+			'<path d="M6 3L2 7l4 4M2.333 7h12.334" stroke="currentColor" stroke-width="1.5"></path>'+
+		'</svg>'+
+	'</span>', 
+	'<span class="owl-btn next">'+
+		'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
+			'<path d="M9 11l4-4-4-4M12.667 7H.333" stroke="currentColor" stroke-width="1.5"></path>'+
+		'</svg>'+
+	'</span>'
+]
 
 
 
-		/* SELECT2 */
-		if ( $(".js-select").length )
-			$(".js-select").select2({
-				placeholder: "Выберите...",
-				minimumResultsForSearch: Infinity,
-				allowClear: false
-			});
-		
+/* SELECT2 */
+if ( $(".js-select").length )
+	$(".js-select").select2({
+		placeholder: "Выберите...",
+		minimumResultsForSearch: Infinity,
+		allowClear: false
+	});
 
-			$(".js-range-slider").ionRangeSlider({
-				type: "double",
-				min: 0,
-				max: 1000,
-				from: 200,
-				to: 500,
-				grid: false
-			});
-
+	$(".js-range-slider").ionRangeSlider({
+		type: "double",
+		min: 0,
+		max: 1000,
+		from: 200,
+		to: 500,
+		grid: false
+	});
 
 
-		/*Owl carousel*/
-		window.owlBtn = [
-			'<span class="owl-btn previous">'+
-				'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
-					'<path d="M6 3L2 7l4 4M2.333 7h12.334" stroke="currentColor" stroke-width="1.5"></path>'+
-				'</svg>'+
-			'</span>', 
-			'<span class="owl-btn next">'+
-				'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
-    			'<path d="M9 11l4-4-4-4M12.667 7H.333" stroke="currentColor" stroke-width="1.5"></path>'+
-				'</svg>'+
-			'</span>'
-		]
-
-
-
-		
-		
 
 		//card Carousel
 		if(checkSm()){
@@ -275,17 +236,12 @@
 				margin: 30
 		});
 
-
-
 		$(".design-inter-items.owl-carousel").owlCarousel({
 				nav: false,
 				loop: false,
-				//items: 3,
 				dots: true,
 				dotsEach: false,
-				//slideBy: 2,
 				autoplay: false,
-				//autoplayTimeout: 5400,
 				touchDrag: true,
 				center: false,
 				autoheight: true,
@@ -295,10 +251,6 @@
 				navText : owlBtn,
 				margin: 30
 		});
-
-
-
-
 
 
 
@@ -335,32 +287,10 @@
 				easing: 'easeInOutCubic',
 				offset: 10
 			});
-		/*ELEVATEZOOM*/
-		if ( !checkSm() && $("[data-zoom-image]:not([group])").length )
-			var x = $("[data-zoom-image]:not([group])").elevateZoom({
-				scrollZoom: true,
-				zoomWindowFadeIn: 500,
-				zoomWindowFadeOut: 500,
-				lensFadeIn: 300,
-				lensFadeOut: 300,
-				//cursor: 'pointer', 
-				tint: true,
-				tintColour: '#000',
-				tintOpacity: 0.5,
-				//zoomType        : "lens",
-				//lensShape : "round",
-				//lensSize    : 200,
-				imageCrossfade: true,
-				easing: true
-			});
-
-
-
 
 
 
 		// Адаптация хедера при скролле
-		window.minMenu = $(".header-scroll");
 		window.headerRange = false;
 		// Scroll events
 		$(window).on("scroll", function(e) {
@@ -368,31 +298,15 @@
 			var scrollTop = $(window).scrollTop();
 			if (scrollTop > 250 && headerRange == false) {
 				headerRange = true;
-				minMenu.addClass("scrolled");
+				$(".header-scroll").addClass("scrolled");
 			} else if (scrollTop < 250 && headerRange == true) {
 				headerRange = false;
-				minMenu.removeClass("scrolled");
+				$(".header-scroll").removeClass("scrolled");
 			}
 
 
 		});
 		$(window).trigger("scroll");
-
-
-		// var optionsRecon = $(".scroll-options-recon");
-		// $(window).on("scroll", function(e) {
-		// 	var el = $("#footer");
-		// 	var docViewTop = $(window).scrollTop(),
-		// 		docViewBottom = docViewTop + $(window).height(),
-		// 		elTop = $(el).offset().top,
-		// 		elBottom = elTop + $(el).height();
-		// 	//console.log(elBottom, docViewBottom, elTop, docViewTop);
-		// 	if( scrollTop > 750 && docViewBottom <= elTop){
-		// 		optionsRecon.addClass("options-recon");
-		// 	}else{
-		// 		optionsRecon.removeClass("options-recon");
-		// 	}
-		// })
 
 		$('*').contents().each(function() {
       if(this.nodeType === Node.COMMENT_NODE) {
@@ -402,22 +316,21 @@
       }
     });
 
-
-		var wheelup = $(".scrolled-down");
+		
 		window.scrollYCurrent = 0;
 		$(window).on('mousewheel DOMMouseScroll MozMousePixelScroll', (e)=>{
-			
+			console.log(1)
 			if(window.scrollY == scrollYCurrent){
 				return;
 			}
 			scrollYCurrent = window.scrollY;
+			console.log($(".scrolled-down").length)
 			if (e.originalEvent.wheelDelta >= 0) {
-				wheelup.removeClass("down")
+				$(".scrolled-down").removeClass("down")
 			}else{						
-				wheelup.addClass("down")
+				$(".scrolled-down").addClass("down")
 			}
-			
-
+	
 		});
 
 
@@ -441,10 +354,8 @@
 		//MIN-MENU
 		$("#min-menu").mmenu({
 			extensions: [
-				"wrapper-bg", // wrapper-bg black
-				//"theme-dark",
+				"wrapper-bg",
 				"theme-white",
-				//"fullscreen",
 				"listview-50",
 				"fx-panels-slide-up",
 				"fx-listitems-drop",
@@ -458,9 +369,6 @@
 			navbars: [{
 					height: 0,
 					content: [
-						// '<div class="close-btn close-content bar">' +
-						// '<a  href="#page" ><span class="icon-bar"></span><span class="icon-bar"></span></a>' +
-						// '</div>'
 					]
 				},
 				{
@@ -468,3 +376,4 @@
 				}
 			]
 		}, {});
+}

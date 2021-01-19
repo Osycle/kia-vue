@@ -1,6 +1,6 @@
 <template>
-  <div class="header-parent">
-    <header id="header" class="header header-scroll scrolled-down">
+  <div class="header-parent" :class="{'header-op': opacityStyle}">
+    <header id="header" class="header header-scroll scrolled-down" :class="{'white-style': !opacityStyle}">
       <!-- HEADER TOP -->
       <div class="header-top">
         <div class="container-p relative">
@@ -255,11 +255,26 @@
 
 
 <script>
+import mainjs from '@/static/js/main';
+
 export default {
-  async mounted(){
-    if (process.browser) {
-      require('@/static/js/main')
+  data(){
+    return {
+      opacityStyle: false,
     }
+  },
+  watch:{
+    $route (to, from){
+      mainjs(); 
+      setTimeout(() => {
+        this.opacityStyle = $('[header-opacity]').length
+      }, 120);
+    }
+  },
+  mounted(){
+    mainjs(); 
+    this.opacityStyle = $('[header-opacity]').length
+    
    $(".header a:not([subdown-click])").on("click", function(){
       if($("[subdown-click].subdown-active").length)
         $("[subdown-click].subdown-active").trigger("click");

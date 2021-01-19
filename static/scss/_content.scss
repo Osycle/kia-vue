@@ -853,6 +853,9 @@ $heightSlider: auto;
 	font-weight: 600;
 	display: flex;
 	align-items: center;
+	span{
+		line-height: 100%;
+	}
 }
 .text-x1{
 	font-size: 18px;
@@ -3626,4 +3629,35 @@ dt{
 }
 .offset-model-header{
 	margin-top: 140px;
+}
+
+
+
+//buy
+.buy-main-items{
+	figure{
+		display: flex;
+		flex-direction: column;
+		@media (min-width: 992px){
+			&:nth-child(1), &:nth-child(2){
+				width: 50%;
+			}
+		}
+	}
+	.img-content{
+		img{
+			display: block;
+			width: 100%;
+		}
+	}
+	.desc-content{
+		background-color: $color-gray-1;
+		padding: 20px 30px;
+		height: 100%;
+		p{
+			margin-top: 10px;
+			line-height: 120%;
+			color: $color-gray-5;
+		}
+	}
 }
