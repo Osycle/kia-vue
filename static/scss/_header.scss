@@ -46,7 +46,6 @@ $header-min-menu: 60px;
 .header-hidden{
 	position: relative;
 	height: $header-top-height;
-	display: none;
 	//transition: height 0.3s linear 0.4s;
 	background-color: transparent;
 	@media ( max-width: 991px ){

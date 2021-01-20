@@ -1,0 +1,732 @@
+{
+	"error": 0,
+	"content":
+	{
+		"offer":
+		{
+			"active_from": 1575147600,
+			"active_to": 1640898000,
+			"advantage_text": "Вы получаете КАСКО на 3 года, а также сервисное обслуживание на 3 года. Ваша выгода достигается путем предоставления дополнительной скидки.",
+			"condition_text": "<ul>\r\n<li>Вы приобретаете новый автомобиль KIA<\/li>\r\n<li>Вы используете программу кредитования \"KIA Легко Plus\"<\/li>\r\n<li>Программа кредитования \"KIA Легко Plus\" включается в кредит и является частью ежемесячного платежа Клиента<\/li>\r\n<\/ul>",
+			"detail_image": "\/sale-data\/special-offers\/government\/1920_special-offer.jpg",
+			"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+			"is_calc": true,
+			"is_service": false,
+			"is_trade_in": false,
+			"name": "Программа кредитования \"KIA Легко Plus\"",
+			"preview_text": "Дополнительная выгода при оформлении программы."
+		},
+		"year_models":
+		{
+			"2020": ["cef2036b-ab02-4bc2-bc8c-dded81e45e4d", "378f0511-b41a-487d-86b3-2d7db87a2cdf", "b9568e27-e57f-4b73-af9c-e271c7215b83", "259f93e4-313c-450f-a575-a479d9b82133", "88b88d67-ed36-4566-b52e-f6e4237def68"]
+		},
+		"model_complectations":
+		{
+			"cef2036b-ab02-4bc2-bc8c-dded81e45e4d": ["e4001813-224e-4092-a1b6-6b4d534f30e7", "d9bdf9a8-c6a3-4acd-a08b-4f176f3ee8f6", "5251905b-3fff-40ff-aa28-2cd005253a86", "57e1e3e6-2f4d-4427-8532-2d8cc6d231b5", "ba9c7f24-62b0-4de8-b660-7abbbbfcb400", "83aa7375-1303-4b64-9f76-62005ea8ba2f", "6ec1a83f-1d00-4c3b-960d-80802a0d06c5", "8b4ed981-40da-4715-a54a-ae1a3b1aae6c", "1d36b60c-d6b0-4d7e-9370-7c32dc6291ce", "1659338a-8e57-4de2-8721-4f13f920c85e", "69ff4d6b-fd50-4c41-94a8-5c327a9fbea6", "c5d601fe-ba98-4cc3-8bba-ca69e6bba117", "96185dc4-5f03-4077-9c9e-dc3922741f3c", "62f9895d-a7ad-41cb-a5f1-8b42773ec4f6", "9d0cbecd-ee7c-4c38-8f01-948d7bb444c5", "1c6d4b97-62be-4d29-962f-12f3a36ac9f3"],
+			"378f0511-b41a-487d-86b3-2d7db87a2cdf": ["cc2c0fba-4dbe-4cc3-b80f-13c716b51017", "a6b865eb-0723-4448-915c-be924a9c8e02", "08316f44-3d28-4eff-9705-3f1108d12778", "5eced350-c1a5-4c99-9f21-2db5ee24462f", "478e1dd1-b192-42c9-84f3-5c786088f540", "f50239f8-c152-4680-8bba-051691f8e01c", "6436406b-513d-4368-bbee-d587d25133a2", "7be5053b-9ef0-4d7b-b6b0-367daa774285", "ea939986-7735-4b5e-b6a0-52694b4b20e7", "ecc1c0b3-61db-4fa7-af9a-65ee4e881e1e"],
+			"b9568e27-e57f-4b73-af9c-e271c7215b83": ["814dfd78-6389-4f59-aec7-3d9a1a77e3bc", "3648b119-7ea0-4566-81b2-2c40b1e20aef", "d93dbbd2-5093-49ac-a931-6ec63cc53b3f", "1a14e464-0531-4bdf-80ba-ced0daedae07", "2c5dccb3-f15e-4c05-acd4-a3c2134629e3", "4f0d42cc-98f8-4b21-9a9d-0887b81e4295", "d5cc7d64-5db7-488d-9399-0ea628507aa8", "439dcce5-4118-4393-a0bf-4140e7a75cbb", "92a97455-ad9b-4ce7-a9a4-64e8cd971413", "108ca427-10bd-4d0e-aeb2-af1d80bbbefe", "875db28a-ee52-4bb7-aba2-81b91ea02984", "5e39a2d0-5bd0-4a76-86a3-30d186bef99d", "3411d0ee-a003-4efd-bcb0-d1b63acba6ac", "54ff7d06-ab5c-495c-81ed-76011f97dd2c", "6e985191-1656-4d73-87ac-8fc49a319a61", "5a14f255-6b88-49f6-884b-d26aa27afeeb", "9ea73aaa-b670-4db4-ae46-bd005e0a693b", "949372a9-7227-450f-a9ee-dbc894d62567", "3acca6ca-0db3-4149-a95b-0f5031b6a905", "4f3f63ce-7721-4075-9c1f-da1a01c995fb", "008296be-519c-4f64-a205-3c75a79f23a7"],
+			"259f93e4-313c-450f-a575-a479d9b82133": ["6b352646-1854-4892-8b26-36dee68d1c4d", "ed8442dc-4bc6-4c3a-b9a1-eb0556d8714a", "92110b1a-b037-4870-a336-51a7f383a7e0", "6105030a-8f49-4617-9db2-6c8e81ed78d8", "caebe818-5f2a-4571-982b-c3d120e01fb7", "29437470-99cc-4df9-a489-7775816ef74e"],
+			"88b88d67-ed36-4566-b52e-f6e4237def68": ["b0451daf-0ffa-4831-8353-abb8646aa76b", "0a2c5959-3413-45a6-8fdb-88111eaf4991", "24e83594-010c-4afd-95d8-70f1e35404d2", "1d89fef3-73cb-4422-a6d9-133df0595b09", "d431611b-bdad-49f2-85bf-d3125d138c0a", "ee435c81-b58d-4ef9-a130-c2d120fdeb59", "801e6ba0-bc73-4f4b-93c8-4e1e9100f908", "88063e3c-53e2-4b0d-a2d6-66afda22d55f", "675b0367-aa2a-4957-b9f7-8413cc3fce28", "7cd7ef49-9198-497d-988d-cdf898c4f8fb", "3fcdb8d1-0794-455b-935a-b5270f46999d", "20555c97-a187-464b-b05e-a70bde5c05f8", "7c2f4d4f-fccc-4569-9ef8-459017cb7752", "02a2cb93-3a55-4420-b804-5149da40d19c", "b6e08c09-4323-478a-a7a5-f0dd0df4a804", "a74d4f81-fbc4-4d7d-aaaf-29256fbd3786", "5b2ea077-823f-4b55-9bf9-28fc6583c981", "ad588cb8-4f90-4fb6-97e7-4d4d7f1b5113", "c5726c34-4eb5-45c9-93dc-a1ac9daaccd4", "964319ce-efb9-4b80-aef7-f8a08a40be5a", "7f9810db-81ed-4d26-8127-397fd0d6ac4a", "6f644ac6-538e-4f05-8878-7a3b9e87f42e", "0dc3cff3-9e66-46a4-8163-44529ac8c7da", "63a42410-b57b-4063-9b3e-1cf4f623a48b", "bd75e8d2-dc17-4f11-b6fd-078cfadd9607", "036d8b2e-2891-4939-b961-39334352234c", "061d6048-36ac-4c77-8d56-2c240544211b", "c3581a29-1e1a-4083-86b2-2d7cc1bdfebc", "683039dd-e787-4637-b7d3-9ebb86f04785", "b1eb3c75-3f9d-4b39-a0c9-3f175836dca4"]
+		},
+		"models": [
+		{
+			"code": "cerato",
+			"external_id": "DJ",
+			"id": "cef2036b-ab02-4bc2-bc8c-dded81e45e4d",
+			"image": "\/master-data\/models\/cerato.png",
+			"name": "Cerato",
+			"sort": 900
+		},
+		{
+			"code": "k5",
+			"external_id": "EXS4",
+			"id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+			"image": "\/master-data\/models\/K5_half.png",
+			"name": "K5",
+			"sort": 750
+		},
+		{
+			"code": "soul",
+			"external_id": "SK",
+			"id": "88b88d67-ed36-4566-b52e-f6e4237def68",
+			"image": "\/master-data\/models\/soul.png",
+			"name": "Soul",
+			"sort": 550
+		},
+		{
+			"code": "seltos",
+			"external_id": "TH",
+			"id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+			"image": "\/master-data\/models\/seltos.png",
+			"name": "Seltos",
+			"sort": 500
+		},
+		{
+			"code": "sorento",
+			"external_id": "GZ",
+			"id": "259f93e4-313c-450f-a575-a479d9b82133",
+			"image": "\/master-data\/models\/sorento_new.png",
+			"name": "Новый Sorento",
+			"sort": 350
+		}],
+		"complectations": [
+		{
+			"credit_monthly_payment": 7090,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "128",
+			"engine_type_name": "MPI",
+			"engine_volume": "1.6",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "e4001813-224e-4092-a1b6-6b4d534f30e7",
+			"min_price": 1191900,
+			"model_year": 2020,
+			"name": "Comfort",
+			"name_en": "Comfort",
+			"price": 1279900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			}]
+		},
+		{
+			"credit_monthly_payment": 6860,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "128",
+			"engine_type_name": "MPI",
+			"engine_volume": "1.6",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Механика",
+			"gearbox_name_en": "Mechanics",
+			"id": "c5d601fe-ba98-4cc3-8bba-ca69e6bba117",
+			"min_price": 1151900,
+			"model_year": 2020,
+			"name": "Comfort",
+			"name_en": "Comfort",
+			"price": 1239900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			}]
+		},
+		{
+			"credit_monthly_payment": 7350,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "150",
+			"engine_type_name": "MPI",
+			"engine_volume": "2",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "d9bdf9a8-c6a3-4acd-a08b-4f176f3ee8f6",
+			"min_price": 1236900,
+			"model_year": 2020,
+			"name": "Comfort",
+			"name_en": "Comfort",
+			"price": 1324900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			}]
+		},
+		{
+			"credit_monthly_payment": 7490,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "128",
+			"engine_type_name": "MPI",
+			"engine_volume": "1.6",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "1d36b60c-d6b0-4d7e-9370-7c32dc6291ce",
+			"min_price": 1261900,
+			"model_year": 2020,
+			"name": "Luxe",
+			"name_en": "Luxe",
+			"price": 1349900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			}]
+		},
+		{
+			"credit_monthly_payment": 8870,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "150",
+			"engine_type_name": "MPI",
+			"engine_volume": "2",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "8b4ed981-40da-4715-a54a-ae1a3b1aae6c",
+			"min_price": 1501900,
+			"model_year": 2020,
+			"name": "GT Line+",
+			"name_en": "GT Line+",
+			"price": 1589900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			}]
+		},
+		{
+			"credit_monthly_payment": 7090,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "128",
+			"engine_type_name": "MPI",
+			"engine_volume": "1.6",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "6ec1a83f-1d00-4c3b-960d-80802a0d06c5",
+			"min_price": 1191900,
+			"model_year": 2020,
+			"name": "Comfort",
+			"name_en": "Comfort",
+			"price": 1279900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			}]
+		},
+		{
+			"credit_monthly_payment": 8090,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "150",
+			"engine_type_name": "MPI",
+			"engine_volume": "2",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "83aa7375-1303-4b64-9f76-62005ea8ba2f",
+			"min_price": 1366900,
+			"model_year": 2020,
+			"name": "Prestige",
+			"name_en": "Prestige",
+			"price": 1454900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			}]
+		},
+		{
+			"credit_monthly_payment": 8530,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "150",
+			"engine_type_name": "MPI",
+			"engine_volume": "2",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "69ff4d6b-fd50-4c41-94a8-5c327a9fbea6",
+			"min_price": 1441900,
+			"model_year": 2020,
+			"name": "GT Line",
+			"name_en": "GT Line",
+			"price": 1529900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			}]
+		},
+		{
+			"credit_monthly_payment": 6860,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "128",
+			"engine_type_name": "MPI",
+			"engine_volume": "1.6",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Механика",
+			"gearbox_name_en": "Mechanics",
+			"id": "1659338a-8e57-4de2-8721-4f13f920c85e",
+			"min_price": 1151900,
+			"model_year": 2020,
+			"name": "Comfort",
+			"name_en": "Comfort",
+			"price": 1239900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			}]
+		},
+		{
+			"credit_monthly_payment": 8530,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "150",
+			"engine_type_name": "MPI",
+			"engine_volume": "2",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "5251905b-3fff-40ff-aa28-2cd005253a86",
+			"min_price": 1441900,
+			"model_year": 2020,
+			"name": "GT Line",
+			"name_en": "GT Line",
+			"price": 1529900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			}]
+		},
+		{
+			"credit_monthly_payment": 7750,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "150",
+			"engine_type_name": "MPI",
+			"engine_volume": "2",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "57e1e3e6-2f4d-4427-8532-2d8cc6d231b5",
+			"min_price": 1306900,
+			"model_year": 2020,
+			"name": "Luxe",
+			"name_en": "Luxe",
+			"price": 1394900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			}]
+		},
+		{
+			"credit_monthly_payment": 7890,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "150",
+			"engine_type_name": "MPI",
+			"engine_volume": "2",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "ba9c7f24-62b0-4de8-b660-7abbbbfcb400",
+			"min_price": 1331900,
+			"model_year": 2020,
+			"name": "Специальная серия \"Edition Plus\"",
+			"name_en": "Special series Edition Plus",
+			"price": 1419900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			}]
+		},
+		{
+			"credit_monthly_payment": 7260,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "128",
+			"engine_type_name": "MPI",
+			"engine_volume": "1.6",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Механика",
+			"gearbox_name_en": "Mechanics",
+			"id": "1c6d4b97-62be-4d29-962f-12f3a36ac9f3",
+			"min_price": 1221900,
+			"model_year": 2020,
+			"name": "Luxe",
+			"name_en": "Luxe",
+			"price": 1309900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			}]
+		},
+		{
+			"credit_monthly_payment": 7350,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "150",
+			"engine_type_name": "MPI",
+			"engine_volume": "2",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "9d0cbecd-ee7c-4c38-8f01-948d7bb444c5",
+			"min_price": 1236900,
+			"model_year": 2020,
+			"name": "Comfort",
+			"name_en": "Comfort",
+			"price": 1324900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			}]
+		},
+		{
+			"credit_monthly_payment": 7840,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "128",
+			"engine_type_name": "MPI",
+			"engine_volume": "1.6",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "62f9895d-a7ad-41cb-a5f1-8b42773ec4f6",
+			"min_price": 1321900,
+			"model_year": 2020,
+			"name": "Prestige",
+			"name_en": "Prestige",
+			"price": 1409900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			}]
+		},
+		{
+			"credit_monthly_payment": 7630,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": "128",
+			"engine_type_name": "MPI",
+			"engine_volume": "1.6",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Petrol",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "96185dc4-5f03-4077-9c9e-dc3922741f3c",
+			"min_price": 1286900,
+			"model_year": 2020,
+			"name": "Специальная серия \"Edition Plus\"",
+			"name_en": "Special series Edition Plus",
+			"price": 1374900,
+			"year": 2020,
+			"offers": [
+			{
+				"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+				"name": "Программа «Автомобиль в рассрочку»",
+				"price": null
+			},
+			{
+				"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+				"name": "Программа кредитования \"KIA Легко\"",
+				"price": 40000
+			},
+			{
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"name": "Программа кредитования \"KIA Легко Plus\"",
+				"price": 48000
+			},
+			{
+				"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+				"name": "Программа для работников медицинских учреждений",
+				"price": 40000
+			}]
+		}],
+		"agreement":
+		{
+			"id": "122420ea-7d6f-4f4d-881e-5abd7b6c1c5e",
+			"text": "Проставляя отметку, Вы даете согласие на обработку Ваших персональных данных ООО «КМР и СНГ»[1], дилерам KIA[2], а также партнерам ООО «КМР и СНГ» в РФ и за рубежом[3] в соответствии с ФЗ № 152 «О персональных данных» на условиях, #LICENSE#. Настоящим Вы выражаете свое согласие на получение от ООО «КМР и СНГ»[1] и дилеров KIA[2] информационных и рекламных материалов путем осуществления прямых контактов с помощью различных средств связи, включая, но, не ограничиваясь: почтовую рассылку, sms – рассылку, электронную почту, телефон, Интернет."
+		},
+		"disclaimers":
+		{
+			"footer":
+			{
+				"name": "Footer Special Legko Plus",
+				"text": "Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита. Полис КАСКО оформляется в САО «ВСК» (Лицензии ЦБ РФ - СЛ № 0621, СИ № 0621 от 11.09.2015 www.vsk.ru) на 3 года и предусматривает выплату страхового возмещения за вычетом безусловной франшизы в размере 18 000 р. по страховым случаям, определенным в полисе и с учетом положений Правил страхования, и связанным с утратой, гибелью, повреждением приобретенного автомобиля. Условия программы могут быть изменены в одностороннем порядке САО «ВСК».\n\nПредложение носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.01.2021 по 31.01.2021. Подробные условия кредитования, требования к условиям страхования и требования к заемщикам уточняйте у официальных дилеров KIA.\n\n[1] ООО «Киа Моторс Россия и СНГ» (ООО «КМР и СНГ»), г. Москва, Валовая ул., д. 26 (https:\/\/www.kia.ru)\n[2] Актуальный список официальных дилеров ООО «Киа Моторс Россия и СНГ» на территории Российской Федерации доступен по ссылке: https:\/\/www.kia.ru\/dealers\/\n[3] ООО «Киа Моторс Россия и СНГ» оставляет за собой право поручать обработку предоставленных персональных данных другим лицам, в том числе находящимся за пределами Российской Федерации»."
+			}
+		},
+		"seo":
+		{
+			"title": "KIA Легко Plus",
+			"description": "Узнайте обо всех специальных предложениях KIA (КИА)"
+		}
+	}
+}

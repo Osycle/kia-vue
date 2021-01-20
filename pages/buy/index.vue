@@ -1,5 +1,5 @@
 <template>
-  <div class="main-body buy offset-header">
+  <div class="main-body buy">
     <div class="breadcrumb-container">
       <div class="container-p">
         <ol class="breadcrumb">
@@ -32,12 +32,12 @@
           </figure>
           <figure>
             <div class="img-content">
-              <nuxt-link :to="'/buy/configurator/'">
+              <nuxt-link :to="'/buy/cars/'">
                 <img src="https://www.kia.ru/images/buy/online/002.jpg" alt="">
               </nuxt-link>
             </div>
             <div class="desc-content">
-              <nuxt-link :to="'/buy/configurator/'" class="hover-aunderline">
+              <nuxt-link :to="'/buy/cars/'" class="hover-aunderline">
                 <span class="text-s1">Новые автомобили в наличии</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
@@ -47,12 +47,12 @@
           </figure>
           <figure>
             <div class="img-content">
-              <nuxt-link :to="'/buy/configurator/'">
+              <nuxt-link :to="'/buy/calc/'">
                 <img src="https://www.kia.ru/images/buy/online/005.jpg" alt="">
               </nuxt-link>
             </div>
             <div class="desc-content">
-              <nuxt-link :to="'/buy/configurator/'" class="hover-aunderline">
+              <nuxt-link :to="'/buy/calc/'" class="hover-aunderline">
                 <span class="text-s1">Онлайн кредитование</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
@@ -62,12 +62,12 @@
           </figure>
           <figure>
             <div class="img-content">
-              <nuxt-link :to="'/buy/configurator/'">
+              <nuxt-link :to="'/buy/testdrive/'">
                 <img src="https://www.kia.ru/images/buy/online/007.jpg" alt="">
               </nuxt-link>
             </div>
             <div class="desc-content">
-              <nuxt-link :to="'/buy/configurator/'" class="hover-aunderline">
+              <nuxt-link :to="'/buy/testdrive/'" class="hover-aunderline">
                 <span class="text-s1">Запись на тест-драйв</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
@@ -77,12 +77,12 @@
           </figure>
           <figure>
             <div class="img-content">
-              <nuxt-link :to="'/buy/configurator/'">
+              <nuxt-link :to="'/dealers/'">
                 <img src="https://www.kia.ru/images/buy/online/008.jpg" alt="">
               </nuxt-link>
             </div>
             <div class="desc-content">
-              <nuxt-link :to="'/buy/configurator/'" class="hover-aunderline">
+              <nuxt-link :to="'/dealers/'" class="hover-aunderline">
                 <span class="text-s1">Поиск дилера</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
@@ -96,8 +96,9 @@
     </div>
   </div>
 </template>
-<script>
 
+
+<script>
 export default {
   head() {
     return {

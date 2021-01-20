@@ -1,5 +1,6 @@
 <template>
   <div class="header-parent" :class="{'header-op': opacityStyle}">
+    <div class="header-hidden"></div>
     <header id="header" class="header header-scroll scrolled-down" :class="{'white-style': !opacityStyle}">
       <!-- HEADER TOP -->
       <div class="header-top">
