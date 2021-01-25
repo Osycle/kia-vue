@@ -196,7 +196,26 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 
 }
 
-
+.list-check{
+	li{
+		list-style: none;
+		position: relative;
+    padding-left: 30px;
+		&+li{
+			margin-top: 15px;
+		}
+		&:before{
+			position: absolute;
+			top: 2px;
+			left: 0;
+			width: 20px;
+			height: 20px;
+			background: url('../img/icons/check-black.svg') 50% no-repeat;
+			background-size: 13px;
+			content: "";
+		}
+	}
+}
 
 
 
@@ -1170,18 +1189,18 @@ main{
 		overflow: hidden;
 		padding-bottom: 30px;
 	}
-	ul:not([class]){
-		text-align: left;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		list-style: disc;
-    padding-left: 15px;
-    li{
-    	margin-top: 5px;
-    	line-height: 130%;
-    	margin-bottom: 5px;
-    }
-	}
+	// ul:not([class]){
+	// 	text-align: left;
+	// 	margin-top: 10px;
+	// 	margin-bottom: 10px;
+	// 	list-style: disc;
+  //   padding-left: 15px;
+  //   li{
+  //   	margin-top: 5px;
+  //   	line-height: 130%;
+  //   	margin-bottom: 5px;
+  //   }
+	// }
 	*:not(figure):not(div){
 		
 	}

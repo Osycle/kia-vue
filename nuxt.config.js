@@ -31,7 +31,7 @@ export default {
   //   host: "localhost"
   // },
   serverMiddleware: {
-    '/api': '~/api'
+    //'/api': '~/api'
   },
   loading: {
     color: '#bb162b'

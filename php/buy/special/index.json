@@ -1,0 +1,298 @@
+{
+	"error": 0,
+	"content":
+	{
+		"offers": [
+		{
+			"active_from": 1575147600,
+			"active_to": 1640898000,
+			"code": "credit-government",
+			"id": "14cda1c5-58c0-4644-b29c-17375687e451",
+			"name": "Государственные программы льготного автокредитования",
+			"preview_image": "\/sale-data\/special-offers\/gov_programms\/770_news_special_offer_gov_programms.jpg",
+			"preview_text": "Дополнительная выгода при оформлении программы в размере 10% от стоимости автомобиля"
+		},
+		{
+			"active_from": 1575147600,
+			"active_to": 1640898000,
+			"code": "trade-in",
+			"id": "ce40c7f0-04a2-11ea-9a9f-362b9e155667",
+			"name": "Программа Трейд-ин",
+			"preview_image": "\/sale-data\/special-offers\/financial99\/financial99_prev.jpg",
+			"preview_text": "Действует при сдаче автомобиля любой марки в счет стоимости нового автомобиля"
+		},
+		{
+			"active_from": 1575147600,
+			"active_to": 1640898000,
+			"code": "loyal-trade-in",
+			"id": "c67349cc-6848-463c-aa1e-459547fa006b",
+			"name": "Программа Трейд-ин для лояльных клиентов",
+			"preview_image": "\/sale-data\/special-offers\/loyal_trade_in_preview.jpg",
+			"preview_text": "Действует при сдаче автомобиля KIA в счет стоимости нового автомобиля"
+		},
+		{
+			"active_from": 1575147600,
+			"active_to": 1640898000,
+			"code": "medical_offer",
+			"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
+			"name": "Программа для работников медицинских учреждений",
+			"preview_image": "\/sale-data\/special-offers\/medical.jpg",
+			"preview_text": "KIA высоко ценит вклад работников медицинских учреждений во время пандемии COVID-19"
+		},
+		{
+			"active_from": 1606744868,
+			"active_to": 1640898000,
+			"code": "credit-tires",
+			"id": "167f40f7-07e2-4cc2-9a4a-067c48956261",
+			"name": "Зимний пакет \"КАСКО + Шины в комплекте\"",
+			"preview_image": "\/sale-data\/special-offers\/credit_tires_preview.jpg",
+			"preview_text": "Выгодное зимнее предложение от KIA Finance"
+		},
+		{
+			"active_from": 1606744494,
+			"active_to": 1640898000,
+			"code": "credit-kasko",
+			"id": "379c83c8-401f-4bc7-83fc-77e6914561d3",
+			"name": "КАСКО в комплекте",
+			"preview_image": "\/sale-data\/special-offers\/gov_programms\/770_news_special_offer_gov_programms.jpg",
+			"preview_text": "Выгодное зимнее предложение от KIA Finance"
+		},
+		{
+			"active_from": 1575147600,
+			"active_to": 1640898000,
+			"code": "credit-legko-plus",
+			"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+			"name": "Программа кредитования \"KIA Легко Plus\"",
+			"preview_image": "\/sale-data\/special-offers\/government\/770_special-offer.jpg",
+			"preview_text": "Дополнительная выгода при оформлении программы."
+		},
+		{
+			"active_from": 1575147600,
+			"active_to": 1640898000,
+			"code": "credit-legko",
+			"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
+			"name": "Программа кредитования \"KIA Легко\"",
+			"preview_image": "\/sale-data\/special-offers\/Special_offers_easy_plus_preview.png",
+			"preview_text": "Дополнительная выгода при оформлении программы."
+		},
+		{
+			"active_from": 1575147600,
+			"active_to": 1640898000,
+			"code": "credit-standart",
+			"id": "c40a2524-e7b3-4560-ad4c-ac6041243b92",
+			"name": "Программа кредитования \"KIA Стандарт\"",
+			"preview_image": "\/sale-data\/special-offers\/financical79\/financical79_prev.jpg",
+			"preview_text": "Выгодное предложение от KIA Finance"
+		},
+		{
+			"active_from": 1575147600,
+			"active_to": 1640898000,
+			"code": "credit-sovcombank",
+			"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
+			"name": "Программа «Автомобиль в рассрочку»",
+			"preview_image": "\/sale-data\/special-offers\/credit-sovcombank\/770_special-offer.jpg",
+			"preview_text": "Ставка 0% - выгодное предложение от KIA Finance"
+		}],
+		"model_lines": [
+		{
+			"cars_in_stock": 1,
+			"code": "picanto",
+			"external_id": "G6",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "7eb56cca-6cb5-4b58-b396-ca6413035839",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Picanto",
+			"sort": 1600
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "rio",
+			"external_id": "H0",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "a14527a8-20ef-4b4f-ba81-f4c5d47996ed",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Новый Rio",
+			"sort": 1550
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "rio-x",
+			"external_id": "H0S",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "e3b21af4-46f7-44be-95dc-bc28827aa7c3",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Rio X",
+			"sort": 1500
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "rio-x-line",
+			"external_id": "H0S6",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "0a6fda20-1488-443d-acf7-791340390002",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Rio X-Line",
+			"sort": 1400
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "ceed",
+			"external_id": "J7S6",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "933b4317-3cd4-4949-961d-674ee6d6fad6",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Ceed",
+			"sort": 1300
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "ceed_sw",
+			"external_id": "J7W5",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "ae7982d3-d9a0-4a97-bac5-db54e184741c",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Ceed SW",
+			"sort": 1200
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "proceed",
+			"external_id": "J7Q1",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "e6d76b78-a116-4127-a6ca-e856a6a6b651",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "ProCeed",
+			"sort": 1100
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "cerato",
+			"external_id": "DJ",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "cef2036b-ab02-4bc2-bc8c-dded81e45e4d",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Cerato",
+			"sort": 900
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "k5",
+			"external_id": "EXS4",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "K5",
+			"sort": 750
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "stinger",
+			"external_id": "J5",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "4174eee0-ddcc-4edf-9a75-ff0ece055e2a",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Stinger",
+			"sort": 700
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "k900",
+			"external_id": "J6",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "K900",
+			"sort": 600
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "soul",
+			"external_id": "SK",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "88b88d67-ed36-4566-b52e-f6e4237def68",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Soul",
+			"sort": 550
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "seltos",
+			"external_id": "TH",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Seltos",
+			"sort": 500
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "xceed",
+			"external_id": "J7S8",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "dad9bcf8-8ee6-4469-af87-67df7c5ebac6",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "XCeed",
+			"sort": 450
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "sportage",
+			"external_id": "F1",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "d9fb43e6-4e75-4372-b361-a279dede090e",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Sportage",
+			"sort": 400
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "sorento",
+			"external_id": "GZ",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "259f93e4-313c-450f-a575-a479d9b82133",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Новый Sorento",
+			"sort": 350
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "mohave",
+			"external_id": "ENW",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "e1b6e4af-6fcf-4ba2-8149-fc24609774d2",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Новый Mohave",
+			"sort": 150
+		}],
+		"disclaimers":
+		{
+			"footer":
+			{
+				"name": "Footer Special Offers",
+				"text": "        Сведения о ценах на продукцию бренда KIA, содержащиеся на сайте, носят исключительно информационный характер. \n        Указанные цены могут отличаться от действительных цен дилеров KIA. Для получения подробной информации об актуальных \n        ценах на продукцию KIA обращайтесь к дилерам KIA. Приобретение любой продукции бренда KIA осуществляется в соответствии \n        с условиями индивидуального договора купли-продажи. Представленное изображение автомобиля может отличаться от реализуемого.<br\/><br\/>Picanto - Пиканто, Rio - Рио, Rio X-Line - Рио Икс-Лайн, Cerato Classic - Церато Классик,         Cerato - Церато, Ceed - Сид, Ceed SW - Сид СВ, ProCeed - Просид, Optima - Оптима, Stinger - Стингер,         Soul - Соул, XCeed - Иксид, Seltos - Сэлтос, Sportage - Спортаж, Sorento - Соренто, Rio X - Рио Икс , K5 - К5        Mohave - Мохав."
+			}
+		},
+		"seo":
+		{
+			"title": "Акции на автомобили KIA – специальные предложения на новые авто КИА у официальных дилеров",
+			"description": "Узнайте обо всех специальных предложениях KIA! Полная информация об актуальных акциях на покупку новых автомобилей KIA у официальных дилеров марки."
+		}
+	}
+}
