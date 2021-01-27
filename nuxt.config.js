@@ -1,20 +1,11 @@
 
 
-export default {
-  /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
+
+const pkg = require('./package')
+
+module.exports = {
   mode: 'universal',
-  /*
-  ** Nuxt target
-  ** See https://nuxtjs.org/api/configuration-target
-  */
   target: 'server',
-  /*
-  ** Headers of the page
-  ** See https://nuxtjs.org/api/configuration-head
-  */
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -26,60 +17,28 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  // server:{
-  //   port: 8000,
-  //   host: "localhost"
-  // },
-  serverMiddleware: {
-    //'/api': '~/api'
-  },
-  loading: {
-    color: '#bb162b'
-  },
-  /*
-  ** Global CSS
-  */
+
+  loading: { color: '#bb162b' },
   css: [
     '@/static/fonts/Kia/stylesheet.css',
     '@/static/scss/plugins.scss',
     '@/static/scss/main.scss'
   ],
-  /*
-  ** Plugins to load before mounting the App
-  ** https://nuxtjs.org/guide/plugins
-  */
+
   plugins: [
-    
   ],
-  /*
-  ** Auto import components
-  ** See https://nuxtjs.org/api/configuration-components
-  */
-  components: true,
-  /*
-  ** Nuxt.js dev-modules
-  */
-  buildModules: [
-    '@nuxtjs/dotenv'
-  ],
-  /*
-  ** Nuxt.js modules
-  */
+
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxt/http',
   ],
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-  axios: {},
-  /*
-  ** Build configuration
-  ** See https://nuxtjs.org/api/configuration-build/
-  */
+  axios: {
+    //baseURL: 'http://icanhazip.com'
+  },
+
   build: {
-    vendor: ['@/static/js/main']
+    extend(config, ctx) {
+      
+    }
   }
 }

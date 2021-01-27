@@ -498,7 +498,7 @@ export default {
     async parseSummaryCode(){
       
       var that = this;
-      const modelcode = await this.$axios.$post('http://kia-api-php/configurator.php')
+      const modelcode = await this.$axios.$post('https://html.lifestyle.uz/kia-api/configurator.php')
       console.log(this.summaryCode, "parseSummaryCode", modelcode);
       
       var codeComplectation = this.summaryCode.slice(0, 3);
@@ -528,7 +528,7 @@ export default {
       })[0]
 
       try{
-        that.showroomComplectations = await this.$axios.$get('http://kia-api-php/overviews.php', {
+        that.showroomComplectations = await this.$axios.$get('https://html.lifestyle.uz/kia-api/overviews.php', {
           params:{
             id: that.currentModel.id,
             complectations: [complectation.id]
@@ -625,7 +625,7 @@ export default {
         })
 
         try{
-          that.showroomComplectations = await this.$axios.$get('http://kia-api-php/overviews.php', {
+          that.showroomComplectations = await this.$axios.$get('https://html.lifestyle.uz/kia-api/overviews.php', {
             params:{
               id: that.currentModel.id,
               complectations: complectationsIds
@@ -654,7 +654,7 @@ export default {
       if(this.currentStepNum == 5){
         console.log(this.selectComplectation, this.selectExteriorColor);
         
-        const modelcode = await this.$axios.$post('http://kia-api-php/configurator.php', {
+        const modelcode = await this.$axios.$post('https://html.lifestyle.uz/kia-api/configurator.php', {
           complectation: that.selectComplectation,
           exterior_color: that.selectExteriorColor
         })
