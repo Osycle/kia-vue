@@ -58,19 +58,6 @@ window.isMobile = !!("ontouchstart" in window),
 window.isAndroid = /Android/i.test(navigator.userAgent),
 window.isEdge = /Edge/i.test(navigator.userAgent);
 
-// owl btn
-window.owlBtn = [
-	'<span class="owl-btn previous">'+
-		'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
-			'<path d="M6 3L2 7l4 4M2.333 7h12.334" stroke="currentColor" stroke-width="1.5"></path>'+
-		'</svg>'+
-	'</span>', 
-	'<span class="owl-btn next">'+
-		'<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
-			'<path d="M9 11l4-4-4-4M12.667 7H.333" stroke="currentColor" stroke-width="1.5"></path>'+
-		'</svg>'+
-	'</span>'
-]
 
 
 

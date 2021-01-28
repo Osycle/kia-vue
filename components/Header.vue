@@ -10,9 +10,8 @@
               <div class="menu p-h-15">
                 <ul class="menu-list">
                   <li><nuxt-link active-class="active" to="/models">Модели</nuxt-link></li>
-                  <li><nuxt-link active-class="active" to="/testdata">Выбор и покупка</nuxt-link></li>
                   <li><nuxt-link active-class="active" to="/configurator">Конфигуратор</nuxt-link></li>
-                  <li><nuxt-link active-class="active" to="/login">Авто в наличии</nuxt-link></li>
+                  <li><nuxt-link active-class="active" to="/buy/cars">Авто в наличии</nuxt-link></li>
                 </ul>
               </div>
               <div class="header-logo col-md-2 p-h-15">
@@ -26,7 +25,6 @@
               </div>
               <div class="menu p-h-15">
                 <ul class="menu-list justify-c-end">
-                  <li><a href="javascript:;" subdown-click="2">Владельцам</a></li>
                   <li><a href="javascript:;" subdown-click="3">Мир KIA</a></li>
                   <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
                 </ul>
@@ -35,7 +33,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="subdown" subdown="1">
         <div class="subdown-wrapper">
@@ -266,16 +263,30 @@ export default {
   },
   watch:{
     $route (to, from){
-      mainjs(); 
       setTimeout(() => {
         this.opacityStyle = $('[header-opacity]').length
+        mainjs(); 
       }, 120);
     }
   },
   mounted(){
-    mainjs(); 
-    this.opacityStyle = $('[header-opacity]').length
     
+    // owl Carousel btn
+    window.owlBtn = [
+      '<span class="owl-btn previous">'+
+        '<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
+          '<path d="M6 3L2 7l4 4M2.333 7h12.334" stroke="currentColor" stroke-width="1.5"></path>'+
+        '</svg>'+
+      '</span>', 
+      '<span class="owl-btn next">'+
+        '<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="">'+
+          '<path d="M9 11l4-4-4-4M12.667 7H.333" stroke="currentColor" stroke-width="1.5"></path>'+
+        '</svg>'+
+      '</span>'
+    ]
+
+    this.opacityStyle = $('[header-opacity]').length
+
    $(".header a:not([subdown-click])").on("click", function(){
       if($("[subdown-click].subdown-active").length)
         $("[subdown-click].subdown-active").trigger("click");
@@ -285,7 +296,6 @@ export default {
 			var num = that.attr("subdown-click");
       ($("[subdown]")).removeClass("subdown-active");
 			if(that.hasClass("bg-shadow")){
-				console.log(that);
 				$("a[subdown-click='"+num+"']").trigger("click");
 				return;
 			}
@@ -303,6 +313,8 @@ export default {
 				$("[subdown-click].subdown-active").trigger("click");
     })
 
+    //init main js
+    mainjs();
   }
 }
 </script>

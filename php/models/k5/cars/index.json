@@ -1,0 +1,1366 @@
+{
+	"error": 0,
+	"content":
+	{
+		"current_city": "e7e04196-fd9d-409b-97ce-697e5f3b328f",
+		"model":
+		{
+			"accessory": null,
+			"brochure": "\/master-data\/brochures\/Kia_K5_Preview.pdf",
+			"code": "k5",
+			"external_id": "EXS4",
+			"id": "11f54c7e-cccf-405e-950c-691c554bea5f",
+			"image": "\/master-data\/models\/K5_half.png",
+			"image_side_view": "\/master-data\/models\/image_side\/K5.png",
+			"is_coming_soon": 0,
+			"logo_black": "\/master-data\/models\/logo\/k5-logo-black.svg",
+			"logo_white": "\/master-data\/models\/logo\/k5-logo-white.svg",
+			"max_benefit": 40000,
+			"min_credit_price": 8030,
+			"min_price": 1549900,
+			"model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+			"name": "K5",
+			"price": 1589900,
+			"price_list": "\/master-data\/pdf\/model\/k5_2021.pdf",
+			"unique_id": "EXS420212021"
+		},
+		"default_sort":
+		{
+			"sort": "price",
+			"order": "asc"
+		},
+		"disclaimers": [],
+		"cities": [
+		{
+			"code": "archangelsk",
+			"id": "c874965f-9af5-421f-90c7-4676c056a3ec",
+			"name": "Архангельск"
+		},
+		{
+			"code": "astrakhan",
+			"id": "928e7319-86bb-4247-8035-23fe58e81421",
+			"name": "Астрахань"
+		},
+		{
+			"code": "barnaul",
+			"id": "849b33ca-26a3-425a-9735-a649feaa3434",
+			"name": "Барнаул"
+		},
+		{
+			"code": "belgorod",
+			"id": "33be38e9-d960-48a9-93c8-ccc954706933",
+			"name": "Белгород"
+		},
+		{
+			"code": "berezniki",
+			"id": "0fa3886b-5b69-45b3-8f3c-dbe511b1a0bb",
+			"name": "Березники"
+		},
+		{
+			"code": "bratsk",
+			"id": "ca8032c5-f074-4aa1-b8c4-5d446d722e77",
+			"name": "Братск"
+		},
+		{
+			"code": "bryansk",
+			"id": "0e9ffba3-8c43-4e45-9767-a3d679276da3",
+			"name": "Брянск"
+		},
+		{
+			"code": "velikiy_novgorod",
+			"id": "ab339ad9-72d8-4332-807f-8186e2441022",
+			"name": "Великий Новгород"
+		},
+		{
+			"code": "vladimir",
+			"id": "b4dd43e3-7e79-4e63-9ef4-8e78efd57143",
+			"name": "Владимир"
+		},
+		{
+			"code": "volgograd",
+			"id": "996cf2b5-1522-428f-bacc-4f9d0fae8c9d",
+			"name": "Волгоград"
+		},
+		{
+			"code": "vologda",
+			"id": "be2a471f-4212-4b71-b253-b78e96f8695a",
+			"name": "Вологда"
+		},
+		{
+			"code": "voronezh",
+			"id": "404a1618-d66e-4f35-86da-4f05acae76be",
+			"name": "Воронеж"
+		},
+		{
+			"code": "yekaterinburg",
+			"id": "3b4ea652-4da6-47e3-b865-1eda261bc4d2",
+			"name": "Екатеринбург"
+		},
+		{
+			"code": "izhevsk",
+			"id": "217997eb-13e9-4160-a79a-d65ecb7d29db",
+			"name": "Ижевск"
+		},
+		{
+			"code": "irkutsk",
+			"id": "ca9032c5-f074-4aa1-b8c4-5d446d722e77",
+			"name": "Иркутск"
+		},
+		{
+			"code": "yoshkar-ola",
+			"id": "609be682-6c44-4801-b7b2-c97b96b534a2",
+			"name": "Йошкар-Ола"
+		},
+		{
+			"code": "kazan",
+			"id": "bb861aa1-4474-414e-be4f-102c816793dd",
+			"name": "Казань"
+		},
+		{
+			"code": "kaliningrad",
+			"id": "12c4ff3a-78d8-4909-8ddb-8d9a9384be2b",
+			"name": "Калининград"
+		},
+		{
+			"code": "kaluga",
+			"id": "728ec134-4912-4645-a50e-0623b9777ad7",
+			"name": "Калуга"
+		},
+		{
+			"code": "kemerovo",
+			"id": "de66ef36-2ffb-48d5-bf60-0e13d8aed708",
+			"name": "Кемерово"
+		},
+		{
+			"code": "kirov",
+			"id": "b1a859ba-2d62-4c08-a978-f84815a74fdd",
+			"name": "Киров"
+		},
+		{
+			"code": "kostroma",
+			"id": "335134a2-7e66-4cfb-a93f-70ddf842caff",
+			"name": "Кострома"
+		},
+		{
+			"code": "krasnodar",
+			"id": "8b3352da-6fd6-427c-bad8-1dcf3807cf3f",
+			"name": "Краснодар"
+		},
+		{
+			"code": "krasnoyarsk",
+			"id": "b81381af-3890-4249-a449-46d0dad5ebed",
+			"name": "Красноярск"
+		},
+		{
+			"code": "kurgan",
+			"id": "6c3859f4-03a2-4543-974a-3c59209b573a",
+			"name": "Курган"
+		},
+		{
+			"code": "lipetsk",
+			"id": "95261328-457e-45fd-942d-11a4026bb1b8",
+			"name": "Липецк"
+		},
+		{
+			"code": "magnitogorsk",
+			"id": "64f4c6af-2f2d-4469-ba5e-84bff0cf394b",
+			"name": "Магнитогорск"
+		},
+		{
+			"code": "miass",
+			"id": "2932f74a-c442-4eb8-b112-da6ee243ec77",
+			"name": "Миасс"
+		},
+		{
+			"code": "mineralnyye_vody",
+			"id": "0ff5ab1e-cb07-47f8-ae85-7d4f50686ea2",
+			"name": "Минеральные Воды"
+		},
+		{
+			"code": "moscow",
+			"id": "e7e04196-fd9d-409b-97ce-697e5f3b328f",
+			"name": "Москва и МО"
+		},
+		{
+			"code": "naberezhnyye_chelny",
+			"id": "d81dc23f-2838-4b53-a075-9a779878f54b",
+			"name": "Набережные Челны"
+		},
+		{
+			"code": "nizhnevartovsk",
+			"id": "8bb84e2f-2ac9-4793-873c-142407c9f8a3",
+			"name": "Нижневартовск"
+		},
+		{
+			"code": "nizhniy_novgorod",
+			"id": "96ce98aa-b06e-44b4-aa5f-f49288121035",
+			"name": "Нижний Новгород"
+		},
+		{
+			"code": "novokuznetsk",
+			"id": "ecf2a86f-9f25-452c-a04e-a757edaccd67",
+			"name": "Новокузнецк"
+		},
+		{
+			"code": "novomoskovsk",
+			"id": "6b74ef42-4b94-4fc1-9292-aab9fb434120",
+			"name": "Новомосковск"
+		},
+		{
+			"code": "novorossiysk",
+			"id": "4c754c3a-ad20-41ce-82c8-9a87fa21ca61",
+			"name": "Новороссийск"
+		},
+		{
+			"code": "novosibirsk",
+			"id": "6fa2288d-8d8d-4ad0-a535-8a3d0b878e86",
+			"name": "Новосибирск"
+		},
+		{
+			"code": "noyabrsk",
+			"id": "2fc6d7a5-f761-4889-8e2d-28cad23c1dd9",
+			"name": "Ноябрьск"
+		},
+		{
+			"code": "obninsk",
+			"id": "c7052c63-e079-423b-a430-f1a1082a074d",
+			"name": "Обнинск"
+		},
+		{
+			"code": "oktyabrskiy",
+			"id": "8741661b-e1c6-45a4-9410-8e301323398b",
+			"name": "Октябрьский"
+		},
+		{
+			"code": "omsk",
+			"id": "990d8a98-54f4-436b-82fa-32309dd11e2c",
+			"name": "Омск"
+		},
+		{
+			"code": "orel",
+			"id": "61881d30-f45b-4ec0-ae36-4b8c2a43b9af",
+			"name": "Орел"
+		},
+		{
+			"code": "orenburg",
+			"id": "13d6b746-c00f-4ad8-93fb-4c9eac43f2b0",
+			"name": "Оренбург"
+		},
+		{
+			"code": "orsk",
+			"id": "a53925a6-a7e0-4493-aeeb-ae25feed5e68",
+			"name": "Орск"
+		},
+		{
+			"code": "perm",
+			"id": "8c7e2c27-a513-41e8-9b6e-ffcd4a38ece3",
+			"name": "Пермь"
+		},
+		{
+			"code": "petrozavodsk",
+			"id": "9c612120-9aa0-417f-adfc-2e2e2a307b3b",
+			"name": "Петрозаводск"
+		},
+		{
+			"code": "pyatigorsk",
+			"id": "c2870001-5df9-475e-867b-37f5aef0db3f",
+			"name": "Пятигорск"
+		},
+		{
+			"code": "rostov-na-donu",
+			"id": "4e92a20c-4c1d-43d2-a136-421017efffcb",
+			"name": "Ростов-на-Дону"
+		},
+		{
+			"code": "ryazan",
+			"id": "e5e2c9ec-bb35-4921-aab8-f5b8b94cfc64",
+			"name": "Рязань"
+		},
+		{
+			"code": "samara",
+			"id": "b9a1c98c-60ac-46c2-aee3-dfc79b1d5850",
+			"name": "Самара"
+		},
+		{
+			"code": "saint_petersburg",
+			"id": "16a9ab80-87ba-4d63-8706-6cd5770e1d6e",
+			"name": "Санкт-Петербург"
+		},
+		{
+			"code": "saransk",
+			"id": "0b4052e7-3c75-4769-b9ad-1943fa584b91",
+			"name": "Саранск"
+		},
+		{
+			"code": "saratov",
+			"id": "f2ed4b3c-4159-4a2f-af9a-f2a82b10d760",
+			"name": "Саратов"
+		},
+		{
+			"code": "sevastopol",
+			"id": "a4dadb60-6bee-41af-b987-48af850f67ca",
+			"name": "Севастополь"
+		},
+		{
+			"code": "simferopol",
+			"id": "655b266b-a2ac-41af-816a-d3192a288716",
+			"name": "Симферополь"
+		},
+		{
+			"code": "smolensk",
+			"id": "9bbe875f-b885-4594-8204-129acde1f48c",
+			"name": "Смоленск"
+		},
+		{
+			"code": "sochi",
+			"id": "e6a226de-bc8d-403b-a425-d7cafbb6d235",
+			"name": "Сочи"
+		},
+		{
+			"code": "stavropol",
+			"id": "2f5b865c-4d0a-4608-ad20-ced7ce821b03",
+			"name": "Ставрополь"
+		},
+		{
+			"code": "sterlitamak",
+			"id": "9d4b67ee-530e-4499-be0e-4f39eb00e408",
+			"name": "Стерлитамак"
+		},
+		{
+			"code": "surgut",
+			"id": "84e67220-6d91-4f76-aaa2-64bd67ec5c7a",
+			"name": "Сургут"
+		},
+		{
+			"code": "taganrog",
+			"id": "ff4a7ad3-64d9-4628-8265-bc1dbdcb7618",
+			"name": "Таганрог"
+		},
+		{
+			"code": "tambov",
+			"id": "f9edcd52-6f17-4571-9ac4-c39428e983df",
+			"name": "Тамбов"
+		},
+		{
+			"code": "tver",
+			"id": "bd45873a-87f7-445d-b74c-370226c3c964",
+			"name": "Тверь"
+		},
+		{
+			"code": "tolyatti",
+			"id": "686351f4-92e6-4213-86e8-b2391ba0c593",
+			"name": "Тольятти"
+		},
+		{
+			"code": "tomsk",
+			"id": "5a455889-2e12-4120-8d5a-7c8c59912036",
+			"name": "Томск"
+		},
+		{
+			"code": "tula",
+			"id": "ce281f1c-64a0-48d1-a8f8-d952be85bb7f",
+			"name": "Тула"
+		},
+		{
+			"code": "tyumen",
+			"id": "b8a03fa8-7298-4b86-8fef-5bc4c4367e8a",
+			"name": "Тюмень"
+		},
+		{
+			"code": "ulyanovsk",
+			"id": "f746316e-e40e-469b-9db2-519ba60c50f0",
+			"name": "Ульяновск"
+		},
+		{
+			"code": "ufa",
+			"id": "3a96cb6c-ee4c-4a73-9381-58b3eec166de",
+			"name": "Уфа"
+		},
+		{
+			"code": "cheboksary",
+			"id": "9df6622e-eaac-4213-a93a-504e239c9ce0",
+			"name": "Чебоксары"
+		},
+		{
+			"code": "chelyabinsk",
+			"id": "dff35151-034d-43b5-a899-b4c3ab242e6b",
+			"name": "Челябинск"
+		},
+		{
+			"code": "cherepovets",
+			"id": "e20724e3-0824-455f-8622-daa9dadb6e06",
+			"name": "Череповец"
+		},
+		{
+			"code": "shakhty",
+			"id": "cabf4279-e3e3-4986-bf60-27acc575432d",
+			"name": "Шахты"
+		},
+		{
+			"code": "engels",
+			"id": "89bbf68f-3b40-4073-ae06-34e488b2107e",
+			"name": "Энгельс"
+		},
+		{
+			"code": "yaroslavl",
+			"id": "29168c8f-7928-4e80-9d97-3e52fb8a70a8",
+			"name": "Ярославль"
+		}],
+		"cars": [
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "e2c66d9b123e4d2ea9408f743fec8cb7",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Clear White",
+			"exterior_color_name_en": "Clear White",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "6755ae07-deb4-428a-a038-4005618e096a",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/UD\/1.png",
+			"price": 1589900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 2,
+			"code": "31c82ebc41f9b33da9fa5e39d501788c",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Clear White",
+			"exterior_color_name_en": "Clear White",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "627283a9-c5d7-43a3-8c58-a767eb111418",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/UD\/1.png",
+			"price": 1589900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 6,
+			"code": "b510bbbea3c7a5d4e989a6b0f9252841",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Clear White",
+			"exterior_color_name_en": "Clear White",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "882430f0-5c7a-4c6a-a840-ca3253e77b42",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/UD\/1.png",
+			"price": 1589900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "5b14c1a01877cf8a21bdacd9338f0cec",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Clear White",
+			"exterior_color_name_en": "Clear White",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "5f8d177e-fed9-41ef-9c89-53ded0b0edaa",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/UD\/1.png",
+			"price": 1589900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "22b6a8665241395c7357a2d49dd6c60d",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Aurora Black Pearl",
+			"exterior_color_name_en": "Aurora Black Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "99b8474a-74fc-4dfe-a32d-738dcaed4b99",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/ABP\/1.png",
+			"price": 1604900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "92008464449678a5feed1b81c925f235",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Snow White Pearl",
+			"exterior_color_name_en": "Snow White Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "9fc21f11-925e-482d-8cc0-298e4b1fdfa8",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/SWP\/1.png",
+			"price": 1604900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "45000289769e259006b5949e50e13bf4",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Silky Silver",
+			"exterior_color_name_en": "Silky Silver",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "dd71d203-2428-4f67-9275-3c630b3ad478",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/4SS\/1.png",
+			"price": 1604900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 2,
+			"code": "edd6de2a0d724d97360bdc3dbea782fb",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 2,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Snow White Pearl",
+			"exterior_color_name_en": "Snow White Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "b827ad19-b28e-474f-ae80-71a0db40e6c0",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/SWP\/1.png",
+			"price": 1604900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "31cd00f6a34d3417ca52ae97d8b767d9",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Aurora Black Pearl",
+			"exterior_color_name_en": "Aurora Black Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "a650249d-39e2-497e-be47-c8228154021f",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/ABP\/1.png",
+			"price": 1604900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "1a1f7270a5b482a98320735e3e639081",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Snow White Pearl",
+			"exterior_color_name_en": "Snow White Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "8f99e081-db3c-428e-b936-6f0636ac890c",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/SWP\/1.png",
+			"price": 1604900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "9facdd989b3daf781c2d36fbd1b6cb97",
+			"comment": null,
+			"complectation_name": "Classic",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Snow White Pearl",
+			"exterior_color_name_en": "Snow White Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "884d342c-dc25-4512-b3c3-f31b0e66c4fc",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8030,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/SWP\/1.png",
+			"price": 1604900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 6,
+			"code": "9618775bd9806038ed82ff10233dac0b",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Clear White",
+			"exterior_color_name_en": "Clear White",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "6d0b5a16-5817-41b9-8ed9-8c2d4b121b66",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/UD\/1.png",
+			"price": 1709900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 3,
+			"code": "98b949663fe76fb6c0e653430330e135",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Clear White",
+			"exterior_color_name_en": "Clear White",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "9c7e9ede-7d65-4263-91f5-4ec37f6ba483",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/UD\/1.png",
+			"price": 1709900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "54b6fbb57465727b9962469300d0986a",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Clear White",
+			"exterior_color_name_en": "Clear White",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "a23e4402-3103-40a4-a6fe-f9d843533f83",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/UD\/1.png",
+			"price": 1709900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "cb732843e0345f2671db4c636779add8",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Interstellar Gray",
+			"exterior_color_name_en": "Interstellar Gray",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "9a8622c0-bb1e-4609-ab21-393e421c73b4",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/AGT\/1.png",
+			"price": 1724900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "4003bf4a8da0add705cbc62555314191",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Snow White Pearl",
+			"exterior_color_name_en": "Snow White Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "96966f5d-d928-42df-a2fa-5daa91757841",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/SWP\/1.png",
+			"price": 1724900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "ef30719e7a9baef012a15dd9761c8c4f",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Snow White Pearl",
+			"exterior_color_name_en": "Snow White Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "94aee257-85d9-41e0-8714-42e1647a5ca0",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/SWP\/1.png",
+			"price": 1724900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 2,
+			"code": "716a4b3ca5ac74f560d14a0f96490cb5",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Silky Silver",
+			"exterior_color_name_en": "Silky Silver",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "8fe260dc-1654-48d1-bed3-16a4bdfd3be2",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/4SS\/1.png",
+			"price": 1724900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "95bf80a17ca6b73aa1b648c0fd15fe67",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Snow White Pearl",
+			"exterior_color_name_en": "Snow White Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "8f8ecb24-72df-409b-bd89-52d6a35dc186",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/SWP\/1.png",
+			"price": 1724900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 2,
+			"code": "c08f6c8f2cddc04ee4c43209b461d349",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Snow White Pearl",
+			"exterior_color_name_en": "Snow White Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "8254d597-d403-4fa3-be66-4bbe771489ad",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/SWP\/1.png",
+			"price": 1724900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 6,
+			"code": "b5cf236c6edb1191f204a62efb5a00a2",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Snow White Pearl",
+			"exterior_color_name_en": "Snow White Pearl",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "5cc7c77e-38d6-4fba-98e7-5f2fcec9da45",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/SWP\/1.png",
+			"price": 1724900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "67311fd5e347e1ce41c85905b8a75638",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Yacht Blue",
+			"exterior_color_name_en": "Yacht Blue",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "a01ecf37-7d7d-45ee-9f44-af29e6bd5fc0",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/DU3\/1.png",
+			"price": 1724900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "7264d353f1f3fe38cd85bc5236229c93",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Interstellar Gray",
+			"exterior_color_name_en": "Interstellar Gray",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "da33d414-3563-482e-b968-d116ee0b52fb",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/AGT\/1.png",
+			"price": 1724900,
+			"year": 2020
+		},
+		{
+			"city_code": "moscow",
+			"city_name": "Москва и МО",
+			"cnt": 1,
+			"code": "aed43329d2fff45695c1c5157452e60a",
+			"comment": null,
+			"complectation_name": "Comfort",
+			"dealer_cnt": 1,
+			"drive_name": "Передний",
+			"drive_name_en": "Front-wheel drive",
+			"engine_power_hp": 150,
+			"engine_volume": "2.0",
+			"exterior_color_name": "Interstellar Gray",
+			"exterior_color_name_en": "Interstellar Gray",
+			"fuel_type_name": "Бензин",
+			"fuel_type_name_en": "Бензин",
+			"gearbox_name": "Автомат",
+			"gearbox_name_en": "Automatic",
+			"id": "2314bd7b-1cb1-4cf7-92eb-d73dfe4b97bc",
+			"interior_color_name": "Черный, Тканевая отделка",
+			"interior_color_name_en": "Black, Fabric finish",
+			"is_forward": null,
+			"max_benefit": 40000,
+			"min_credit_amount": 8650,
+			"model_name": "K5",
+			"model_year": 2021,
+			"photo": "\/master-data\/albums\/k5\/AGT\/1.png",
+			"price": 1724900,
+			"year": 2020
+		}],
+		"filter":
+		{
+			"complectations": [
+			{
+				"id": "CLASSIC",
+				"name": "Classic",
+				"name_en": "Classic"
+			},
+			{
+				"id": "COMFORT",
+				"name": "Comfort",
+				"name_en": "Comfort"
+			},
+			{
+				"id": "LUXE",
+				"name": "Luxe",
+				"name_en": "Luxe"
+			},
+			{
+				"id": "PRESTIGE",
+				"name": "Prestige",
+				"name_en": "Prestige"
+			},
+			{
+				"id": "STYLE",
+				"name": "Style",
+				"name_en": "Style"
+			},
+			{
+				"id": "GT LINE",
+				"name": "GT Line",
+				"name_en": "GT Line"
+			},
+			{
+				"id": "GT LINE+",
+				"name": "GT Line+",
+				"name_en": "GT Line+"
+			}],
+			"drives": [
+			{
+				"id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"name": "Передний"
+			}],
+			"engines": [
+			{
+				"fuel_type_name": "Бензин",
+				"fuel_type_name_en": "Petrol",
+				"id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
+				"name": "2.0 MPI",
+				"name_en": "2.0 ",
+				"power_hp": "150"
+			},
+			{
+				"fuel_type_name": "Бензин",
+				"fuel_type_name_en": "Petrol",
+				"id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
+				"name": "2.5 GDI",
+				"name_en": "2.5 ",
+				"power_hp": "194"
+			}],
+			"exterior_colors": [
+			{
+				"code": "DU3",
+				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"name": "Yacht Blue",
+				"name_en": "Yacht Blue"
+			},
+			{
+				"code": "AGT",
+				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"name": "Interstellar Gray",
+				"name_en": "Interstellar Gray"
+			},
+			{
+				"code": "UD",
+				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"name": "Clear White",
+				"name_en": "Clear White"
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl"
+			},
+			{
+				"code": "4SS",
+				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"name": "Silky Silver",
+				"name_en": "Silky Silver"
+			},
+			{
+				"code": "B4U",
+				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"name": "Gravity Blue",
+				"name_en": "Gravity Blue"
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl"
+			}],
+			"gearboxes": [
+			{
+				"id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
+				"name": "Автомат"
+			}],
+			"interior_colors": [
+			{
+				"code": "WK",
+				"id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Тканевая отделка",
+				"name_en": "Black, Fabric finish"
+			},
+			{
+				"code": "WK",
+				"id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Натуральная кожа",
+				"name_en": "Black, Genuine leather"
+			},
+			{
+				"code": "DNN",
+				"id": "f2105db2-4a6e-473b-8505-5f125ea9adb3",
+				"image": "\/master-data\/colors\/08d1a1e3-e235-4e71-a5c0-293aa86da978.svg",
+				"name": "Бежевый, Натуральная кожа",
+				"name_en": "Beige, Genuine leather"
+			}],
+			"model_years": [
+			{
+				"id": 2021,
+				"name": 2021
+			}],
+			"models": [
+			{
+				"code": "rio",
+				"id": "a14527a8-20ef-4b4f-ba81-f4c5d47996ed",
+				"name": "Новый Rio"
+			},
+			{
+				"code": "rio-x",
+				"id": "e3b21af4-46f7-44be-95dc-bc28827aa7c3",
+				"name": "Rio X"
+			},
+			{
+				"code": "rio-x-line",
+				"id": "0a6fda20-1488-443d-acf7-791340390002",
+				"name": "Rio X-Line"
+			},
+			{
+				"code": "ceed",
+				"id": "933b4317-3cd4-4949-961d-674ee6d6fad6",
+				"name": "Ceed"
+			},
+			{
+				"code": "ceed_sw",
+				"id": "ae7982d3-d9a0-4a97-bac5-db54e184741c",
+				"name": "Ceed SW"
+			},
+			{
+				"code": "cerato",
+				"id": "cef2036b-ab02-4bc2-bc8c-dded81e45e4d",
+				"name": "Cerato"
+			},
+			{
+				"code": "k5",
+				"id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+				"name": "K5"
+			},
+			{
+				"code": "k900",
+				"id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
+				"name": "K900"
+			},
+			{
+				"code": "soul",
+				"id": "88b88d67-ed36-4566-b52e-f6e4237def68",
+				"name": "Soul"
+			},
+			{
+				"code": "seltos",
+				"id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+				"name": "Seltos"
+			},
+			{
+				"code": "xceed",
+				"id": "dad9bcf8-8ee6-4469-af87-67df7c5ebac6",
+				"name": "XCeed"
+			},
+			{
+				"code": "sportage",
+				"id": "d9fb43e6-4e75-4372-b361-a279dede090e",
+				"name": "Sportage"
+			},
+			{
+				"code": "sorento",
+				"id": "259f93e4-313c-450f-a575-a479d9b82133",
+				"name": "Sorento"
+			}],
+			"price":
+			{
+				"max": 2314900,
+				"min": 1589900
+			},
+			"years": [
+			{
+				"id": 2020,
+				"name": 2020
+			},
+			{
+				"id": 2021,
+				"name": 2021
+			}]
+		},
+		"meta":
+		{
+			"current_page": 1,
+			"last_page": 22,
+			"per_page": 20,
+			"total": 423
+		},
+		"seo":
+		{
+			"title": "KIA K5 в г. Москва и МО - купить у официального дилера KIA",
+			"description": "Каталог авто KIA K5 в г. Москва и МО"
+		}
+	}
+}

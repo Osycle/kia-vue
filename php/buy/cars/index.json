@@ -1,0 +1,100 @@
+{
+	"error": 0,
+	"content":
+	{
+		"models": [
+		{
+			"name": "Новый Rio",
+			"code": "rio",
+			"image": "\/master-data\/models\/rio_new.png"
+		},
+		{
+			"name": "Rio X",
+			"code": "rio-x",
+			"image": "\/master-data\/models\/rio-x.png"
+		},
+		{
+			"name": "Rio X-Line",
+			"code": "rio-x-line",
+			"image": "\/master-data\/models\/rio_x_line.png"
+		},
+		{
+			"name": "Ceed",
+			"code": "ceed",
+			"image": "\/master-data\/models\/ceed.png"
+		},
+		{
+			"name": "Ceed SW",
+			"code": "ceed_sw",
+			"image": "\/master-data\/models\/ceedsw.png"
+		},
+		{
+			"name": "ProCeed",
+			"code": "proceed",
+			"image": "\/master-data\/models\/proceed.png"
+		},
+		{
+			"name": "Cerato",
+			"code": "cerato",
+			"image": "\/master-data\/models\/cerato.png"
+		},
+		{
+			"name": "K5",
+			"code": "k5",
+			"image": "\/master-data\/models\/K5_half.png"
+		},
+		{
+			"name": "Stinger",
+			"code": "stinger",
+			"image": "\/master-data\/models\/stinger.png"
+		},
+		{
+			"name": "K900",
+			"code": "k900",
+			"image": "\/master-data\/models\/k900.png"
+		},
+		{
+			"name": "Soul",
+			"code": "soul",
+			"image": "\/master-data\/models\/soul.png"
+		},
+		{
+			"name": "Seltos",
+			"code": "seltos",
+			"image": "\/master-data\/models\/seltos.png"
+		},
+		{
+			"name": "XCeed",
+			"code": "xceed",
+			"image": "\/master-data\/models\/xceed.png"
+		},
+		{
+			"name": "Sportage",
+			"code": "sportage",
+			"image": "\/master-data\/models\/sportage.png"
+		},
+		{
+			"name": "Sorento",
+			"code": "sorento",
+			"image": "\/master-data\/models\/sorento_new.png"
+		},
+		{
+			"name": "Mohave",
+			"code": "mohave",
+			"image": "\/master-data\/models\/mohave_new.png"
+		}],
+		"disclaimers":
+		{
+			"footer":
+			{
+				"name": "Footer Buy Cars",
+				"text": "Сведения о наличии автомобилей и ценах, содержащиеся на сайте, носят исключительно информационный характер. Указанные цены могут отличаться от действительных цен дилеров KIA. Для получения подробной информации об актуальных ценах на продукцию KIA обращайтесь к дилерам KIA. Приобретение любой продукции бренда KIA осуществляется в соответствии с условиями индивидуального договора купли-продажи. Представленное изображение автомобиля может отличаться от реализуемого. Цвет автомобиля может отличаться от представленного на данном сайте."
+			}
+		},
+		"seo":
+		{
+			"title": "Автомобили KIA в наличии у официальных дилеров",
+			"description": "Выберите автомобиль KIA с помощью онлайн-каталога."
+		}
+	}
+}
