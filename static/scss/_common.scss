@@ -478,6 +478,11 @@ table {
 .border-default{
 	border: 1px solid $color-gray-3;
 }
+.border-top{border-top: 1px solid $color-gray-3;}
+.border-bottom{border-bottom: 1px solid $color-gray-3;}
+.border-left{border-left: 1px solid $color-gray-3;}
+.border-right{border-right: 1px solid $color-gray-3;}
+
 .border-style-1{
 	border-radius: 15px;
 	border: 1px solid $color-gray-3;

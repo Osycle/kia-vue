@@ -3684,3 +3684,32 @@ dt{
 		}
 	}
 }
+
+//carstock
+.carstock-content{
+	width: 100%;
+}
+.carstock-items{
+	display: flex;
+	flex-wrap: wrap;
+	.item{
+		flex: 0 0 33.3333%;
+		padding-bottom: 40px;
+		@media (max-width: 1600px){
+			flex: 0 0 50%;
+		}
+		figure{
+			display: block;
+    	position: relative;
+    	margin: 0;
+    	padding-bottom: 56.17978%;
+			overflow: hidden;
+			img{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+			}
+		}
+	}
+}
