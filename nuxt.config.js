@@ -33,7 +33,8 @@ module.exports = {
     '@nuxt/http',
   ],
   axios: {
-    //baseURL: 'http://icanhazip.com'
+    //baseURL: 'https://html.lifestyle.uz/kia-api/',
+    baseURL: 'http://kia-api-php/',
   },
 
   build: {

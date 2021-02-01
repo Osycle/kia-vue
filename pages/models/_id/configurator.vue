@@ -86,75 +86,73 @@
         <div class="conf-main-content col-md-9">
           <template v-if="currentStepNum === 2">
             <div class="conf-steps conf-step-2">
-              <div class="row p-b-10">
-                <div class="entry-content">
-                  <div class="car-params">
-                    <div class="car-params-item car-params-engine">
-                      <h4>Двигатель</h4>
-                      <ul class="flex-list">
-                        <li v-for="(engine, key) in page.engines" :key="key" @click.prevent.stop="carParamClickEngine(engine)" :param-engine-id="engine.id" car-param>
-                          <div class="car-params-btn">
-                            <div class="flex">
-                              <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
-                              <div class="m-l-15" v-for="(type, key) in page.fuel_types" :key="key" v-if="engine.fuel_type_id == type.id">
-                                <div class="fw-6">{{engine.name}}</div>
-                                {{engine.power_hp}} л.c., {{type.name}}
-                              </div>
+              <div class="entry-content">
+                <div class="car-params">
+                  <div class="car-params-item car-params-engine">
+                    <h4>Двигатель</h4>
+                    <ul class="flex-list">
+                      <li v-for="(engine, key) in page.engines" :key="key" @click.prevent.stop="carParamClickEngine(engine)" :param-engine-id="engine.id" car-param>
+                        <div class="car-params-btn">
+                          <div class="flex">
+                            <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
+                            <div class="m-l-15" v-for="(type, key) in page.fuel_types" :key="key" v-if="engine.fuel_type_id == type.id">
+                              <div class="fw-6">{{engine.name}}</div>
+                              {{engine.power_hp}} л.c., {{type.name}}
                             </div>
                           </div>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="car-params-item car-params-transmission">
-                      <h4>Коробка передач</h4>
-                      <ul class="flex-list">
-                        <li v-for="(transmission, key) in uniqueParams.transmissions" class="disabled" :key="key" @click.prevent.stop="carParamClickTransmission(transmission)" car-param>
-                          <div class="car-params-btn">
-                            <div class="flex">
-                              <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
-                              <div class="m-l-15" v-for="(gearbox, key) in page.gearboxes" :key="key" v-if="transmission.gearbox_id == gearbox.id"
-                                :param-uniq="transmission.gears_number+gearbox.code"
-                                >
-                                <div class="fw-6">
-                                  {{gearbox.name}}
-                                </div>
-                                {{transmission.gears_number}}{{gearbox.code}}
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="car-params-item car-params-transmission">
+                    <h4>Коробка передач</h4>
+                    <ul class="flex-list">
+                      <li v-for="(transmission, key) in uniqueParams.transmissions" class="disabled" :key="key" @click.prevent.stop="carParamClickTransmission(transmission)" car-param>
+                        <div class="car-params-btn">
+                          <div class="flex">
+                            <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
+                            <div class="m-l-15" v-for="(gearbox, key) in page.gearboxes" :key="key" v-if="transmission.gearbox_id == gearbox.id"
+                              :param-uniq="transmission.gears_number+gearbox.code"
+                              >
+                              <div class="fw-6">
+                                {{gearbox.name}}
                               </div>
+                              {{transmission.gears_number}}{{gearbox.code}}
                             </div>
                           </div>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="car-params-item car-params-drive">
-                      <h4>Привод</h4>
-                      <ul class="flex-list">
-                        <li v-for="(drive, key) in page.drives" :key="key" class="disabled" car-param
-                          @click.prevent.stop="carParamClickDrive(drive)"
-                          :param-drive-id="drive.id"
-                          :param-drive-code="drive.code"
-                          >
-                          <div class="car-params-btn">
-                            <div class="flex">
-                              <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
-                              <div class="m-l-15">
-                                <div class="fw-6">
-                                  {{drive.name}}
-                                </div>
-                                {{drive.code}}
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="car-params-item car-params-drive">
+                    <h4>Привод</h4>
+                    <ul class="flex-list">
+                      <li v-for="(drive, key) in page.drives" :key="key" class="disabled" car-param
+                        @click.prevent.stop="carParamClickDrive(drive)"
+                        :param-drive-id="drive.id"
+                        :param-drive-code="drive.code"
+                        >
+                        <div class="car-params-btn">
+                          <div class="flex">
+                            <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
+                            <div class="m-l-15">
+                              <div class="fw-6">
+                                {{drive.name}}
                               </div>
+                              {{drive.code}}
                             </div>
                           </div>
-                        </li>
-                      </ul>
-                    </div>
+                        </div>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </template>
           <template v-else-if="currentStepNum === 3 && Object.keys(showroomComplectation).length != 0">
-            <div class="conf-steps conf-step-3 p-h-60">
-              <div>
+            <div class="conf-steps conf-step-3">
+              <div class="entry-content">
                 <div class="entry-title m-v-30">
                   <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
                 </div>
@@ -171,71 +169,71 @@
                 <div class="color-gray-4 text-center m-b-30">
                   <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
                 </div>
-              </div>
-              <div class="hide">
-                <div class="config-details config-details-modal conf-steps-modal" v-for="(complectation, index) in page.complectations" :key="index" :id="'config-details-'+complectation.id" :config-complectation-id="complectation.id">
-                  <section class="item active" v-for="(gOption, key) in page.grouped_options" :key="key">
-                    <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
-                    <div class="section-body">
-                      <div class="section-body-wrapper">
-                        <div class="list-block-body">
-                          <ul>
-                            <template v-for="(complectationOptionId) in complectation.options">
-                              <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
-                                {{option.name}}
-                              </li>
-                            </template>
-                          </ul>
+                <div class="hide">
+                  <div class="config-details config-details-modal conf-steps-modal" v-for="(complectation, index) in page.complectations" :key="index" :id="'config-details-'+complectation.id" :config-complectation-id="complectation.id">
+                    <section class="item active" v-for="(gOption, key) in page.grouped_options" :key="key">
+                      <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
+                      <div class="section-body">
+                        <div class="section-body-wrapper">
+                          <div class="list-block-body">
+                            <ul>
+                              <template v-for="(complectationOptionId) in complectation.options">
+                                <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
+                                  {{option.name}}
+                                </li>
+                              </template>
+                            </ul>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </section>
+                    </section>
+                  </div>
                 </div>
-              </div>
-              <div class="fw-7 conf-cnt-complectations">
-                <span class="font-size-nm">
-                  {{selectComplectations.length}} 
-                  <span v-if="selectComplectations.length == 1">комплектация</span> 
-                  <span v-else>комплектации</span> 
-                </span>
-              </div>
-              <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="accordion-def-item" 
-                    :class="{'active': complectation.id == selectComplectation.id}"
-                    v-for="(complectation, key) in selectComplectations" :key="key">
-                  <div class="title-content">
-                    
-                      <div class="car-params-btn">
-                        <div class="flex" click="selectComplectation" @click="selectComplectationAppend(complectation)" role="button">
-                          <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
-                          <div class="m-l-15">
-                            <b>{{complectation.name}}</b><br>
-                            <b>{{complectation.min_price | spaceBetweenNum}} сум</b>
+                <div class="fw-7 conf-cnt-complectations">
+                  <span class="font-size-nm">
+                    {{selectComplectations.length}} 
+                    <span v-if="selectComplectations.length == 1">комплектация</span> 
+                    <span v-else>комплектации</span> 
+                  </span>
+                </div>
+                <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="accordion-def-item" 
+                      :class="{'active': complectation.id == selectComplectation.id}"
+                      v-for="(complectation, key) in selectComplectations" :key="key">
+                    <div class="title-content">
+                      
+                        <div class="car-params-btn">
+                          <div class="flex" click="selectComplectation" @click="selectComplectationAppend(complectation)" role="button">
+                            <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
+                            <div class="m-l-15">
+                              <b>{{complectation.name}}</b><br>
+                              <b>{{complectation.min_price | spaceBetweenNum}} сум</b>
+                            </div>
                           </div>
+                          <a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" :href="'#step-3-complectation-'+key">
+                            <div class="align-center">
+                              <b>Что включено</b>
+                              <svg class="m-l-15" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg>
+                            </div>
+                          </a>
                         </div>
-                        <a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" :href="'#step-3-complectation-'+key">
-                          <div class="align-center">
-                            <b>Что включено</b>
-                            <svg class="m-l-15" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg>
-                          </div>
+                    </div>
+                    <div :id="'step-3-complectation-'+key" class="drop-content collapse" role="tabpanel">
+                      <div class="drop-content-body">
+                        <ul>
+                          <template v-for="(baseOption) in groupOptions">
+                            <li v-for="(optionId, key) in complectation.advantage_options" :key="key" v-if="baseOption.id == optionId">
+                              {{baseOption.name}}
+                            </li>
+                          </template>
+                        </ul>
+                        <a href="javascript:;" 
+                          :data-src="'#config-details-'+complectation.id" 
+                          class="link-btn-1 fw-6 align-center" data-fancybox>
+                          Показать всё 
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
                         </a>
                       </div>
-                  </div>
-                  <div :id="'step-3-complectation-'+key" class="drop-content collapse" role="tabpanel">
-                    <div class="drop-content-body">
-                      <ul>
-                        <template v-for="(baseOption) in groupOptions">
-                          <li v-for="(optionId, key) in complectation.advantage_options" :key="key" v-if="baseOption.id == optionId">
-                            {{baseOption.name}}
-                          </li>
-                        </template>
-                      </ul>
-                      <a href="javascript:;" 
-                        :data-src="'#config-details-'+complectation.id" 
-                        class="link-btn-1 fw-6 align-center" data-fancybox>
-                        Показать всё 
-                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -243,8 +241,8 @@
             </div>
           </template>
           <template v-else-if="currentStepNum === 4">
-            <div class="conf-steps conf-step-4 p-h-60">
-              <div>
+            <div class="conf-steps conf-step-4">
+              <div class="entry-content">
                 <div class="entry-title m-v-30">
                   <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
                 </div>
@@ -288,72 +286,74 @@
             </div>
           </template>
           <template v-else-if="currentStepNum == 5">
-            <div class="conf-steps conf-step-5 p-h-60">
-              <div class="conf-summary">
-                <div class="entry-title m-v-30">
-                  <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
-                </div>
-                <div class="showroom-main m-v-10">
-                  <div
-                      class="cloudimage-360"
-                      :data-folder="'https://cdn.kia.ru/'+selectOverview.path"
-                      data-filename="{index}.png"
-                      data-spin-reverse
-                      data-amount="72"
-                  ></div>
-                </div>
-                <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
-                <div class="color-gray-4 text-center m-b-30">
-                  <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
-                </div>
-                <div class="conf-summary-id">
-                  <div class="wrapper-content">
-                    <b>ID конфигурации</b>
-                    <div class="conf-summary-code m-h-15"><u>{{this.summaryCode}}</u></div>
-                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
+            <div class="conf-steps conf-step-5">
+              <div class="entry-content">
+                <div class="conf-summary">
+                  <div class="entry-title m-v-30">
+                    <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
                   </div>
-                </div>
-                <div class="conf-summary-params">
-                  <div class="wrapper-content">
-                    <div class="item col-md-6">
-                      <div class="fw-6 font-size-nm m-b-20">Двигатель и трансмиссия</div>
-                      <div class="info-content">
-                        <dl><dt>Год производства</dt> <dd>{{ selectComplectation.year }}</dd></dl> 
-                        <dl><dt>Двигатель</dt> <dd>{{currentEngine.name}} / 123 л.с. / {{currentFuelType.name}}</dd></dl> 
-                        <dl><dt>Коробка передач</dt> <dd>{{currentGearbox.name}}, {{currentTransmission.gears_number}}{{currentGearbox.code}}</dd></dl> 
-                        <dl><dt>Привод</dt> <dd>{{currentDrive.name}}</dd></dl>
-                      </div>
-                    </div>
-                    <div class="item col-md-6">
-                      <div class="fw-6 font-size-nm m-b-20">Цвет</div>
-                      <div class="info-content">
-                        <dl>
-                          <dt>Кузов</dt> 
-                          <dd><div class="flex align-center"><span>{{selectExteriorColor.name}}</span> <figure :style="'background-image: url(https://cdn.kia.ru/'+selectExteriorColor.image+');'"></figure></div></dd>
-                        </dl> 
-                      </div>
+                  <div class="showroom-main m-v-10">
+                    <div
+                        class="cloudimage-360"
+                        :data-folder="'https://cdn.kia.ru/'+selectOverview.path"
+                        data-filename="{index}.png"
+                        data-spin-reverse
+                        data-amount="72"
+                    ></div>
+                  </div>
+                  <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+                  <div class="color-gray-4 text-center m-b-30">
+                    <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
+                  </div>
+                  <div class="conf-summary-id">
+                    <div class="wrapper-content">
+                      <b>ID конфигурации</b>
+                      <div class="conf-summary-code m-h-15"><u>{{this.summaryCode}}</u></div>
+                      <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
                     </div>
                   </div>
-                </div>
-                <div class="config-details">
-
-                  <section class="item" v-for="(gOption, key) in page.grouped_options" :key="key">
-                    <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
-                    <div class="section-body">
-                      <div class="section-body-wrapper">
-                        <div class="list-block-body">
-                          <ul>
-                            <template v-for="(complectationOptionId) in selectComplectation.options">
-                              <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
-                                {{option.name}}
-                              </li>
-                            </template>
-                          </ul>
+                  <div class="conf-summary-params">
+                    <div class="wrapper-content">
+                      <div class="item col-md-6">
+                        <div class="fw-6 font-size-nm m-b-20">Двигатель и трансмиссия</div>
+                        <div class="info-content">
+                          <dl><dt>Год производства</dt> <dd>{{ selectComplectation.year }}</dd></dl> 
+                          <dl><dt>Двигатель</dt> <dd>{{currentEngine.name}} / 123 л.с. / {{currentFuelType.name}}</dd></dl> 
+                          <dl><dt>Коробка передач</dt> <dd>{{currentGearbox.name}}, {{currentTransmission.gears_number}}{{currentGearbox.code}}</dd></dl> 
+                          <dl><dt>Привод</dt> <dd>{{currentDrive.name}}</dd></dl>
+                        </div>
+                      </div>
+                      <div class="item col-md-6">
+                        <div class="fw-6 font-size-nm m-b-20">Цвет</div>
+                        <div class="info-content">
+                          <dl>
+                            <dt>Кузов</dt> 
+                            <dd><div class="flex align-center"><span>{{selectExteriorColor.name}}</span> <figure :style="'background-image: url(https://cdn.kia.ru/'+selectExteriorColor.image+');'"></figure></div></dd>
+                          </dl> 
                         </div>
                       </div>
                     </div>
-                  </section>
+                  </div>
+                  <div class="config-details">
 
+                    <section class="item" v-for="(gOption, key) in page.grouped_options" :key="key">
+                      <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
+                      <div class="section-body">
+                        <div class="section-body-wrapper">
+                          <div class="list-block-body">
+                            <ul>
+                              <template v-for="(complectationOptionId) in selectComplectation.options">
+                                <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
+                                  {{option.name}}
+                                </li>
+                              </template>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                  </div>
                 </div>
               </div>
             </div>
@@ -498,7 +498,7 @@ export default {
     async parseSummaryCode(){
       
       var that = this;
-      const modelcode = await this.$axios.$post('https://html.lifestyle.uz/kia-api/configurator.php')
+      const modelcode = await this.$axios.$post('/configurator.php')
       console.log(this.summaryCode, "parseSummaryCode", modelcode);
       
       var codeComplectation = this.summaryCode.slice(0, 3);
@@ -528,7 +528,7 @@ export default {
       })[0]
 
       try{
-        that.showroomComplectations = await this.$axios.$get('https://html.lifestyle.uz/kia-api/overviews.php', {
+        that.showroomComplectations = await this.$axios.$get('/overviews.php', {
           params:{
             id: that.currentModel.id,
             complectations: [complectation.id]
@@ -625,7 +625,7 @@ export default {
         })
 
         try{
-          that.showroomComplectations = await this.$axios.$get('https://html.lifestyle.uz/kia-api/overviews.php', {
+          that.showroomComplectations = await this.$axios.$get('/overviews.php', {
             params:{
               id: that.currentModel.id,
               complectations: complectationsIds
@@ -654,7 +654,7 @@ export default {
       if(this.currentStepNum == 5){
         console.log(this.selectComplectation, this.selectExteriorColor);
         
-        const modelcode = await this.$axios.$post('https://html.lifestyle.uz/kia-api/configurator.php', {
+        const modelcode = await this.$axios.$post('/configurator.php', {
           complectation: that.selectComplectation,
           exterior_color: that.selectExteriorColor
         })

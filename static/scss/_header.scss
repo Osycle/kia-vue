@@ -534,7 +534,7 @@ ul[class*="sub-menu"]{
 	//box-shadow: 0 0 20px 0 black;
 	background-color: transparent;
 	font-size: 0.9em;
-	border-bottom: 1px solid rgba(white, 0.5);
+	border-bottom: 1px solid rgba($color-gray-3, 0.5);
 	&.scrolled, &.white-style{
 		position: fixed;
 		.min-menu-top{

@@ -100,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="options-entry scrolled-down">
+		<div class="options-entry scrolled-down filter-hidden">
 			<div class="container-p relative">
 				<div class="config-sidebar">	
 					<div class="config-filter">
@@ -904,11 +904,19 @@ export default {
 
 		
 
-		$('.config-sidebar, .options-body').theiaStickySidebar({
+		$('.config-sidebar').theiaStickySidebar({
 			//additionalMarginBottom: -300,
 			additionalMarginTop: 60,
 			defaultPosition: "absolute"
 		});
+		
+		$('.options-body').theiaStickySidebar({
+			//updateSidebarHeight: true,
+			disableOnResponsiveLayouts: false,
+			additionalMarginTop: 60,
+			defaultPosition: "absolute"
+		});
+
 				
 		
   },

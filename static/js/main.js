@@ -306,12 +306,10 @@ if ( $(".js-select").length )
 		
 		window.scrollYCurrent = 0;
 		$(window).on('mousewheel DOMMouseScroll MozMousePixelScroll', (e)=>{
-			console.log(1)
 			if(window.scrollY == scrollYCurrent){
 				return;
 			}
 			scrollYCurrent = window.scrollY;
-			console.log($(".scrolled-down").length)
 			if (e.originalEvent.wheelDelta >= 0) {
 				$(".scrolled-down").removeClass("down")
 			}else{						

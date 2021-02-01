@@ -979,9 +979,11 @@ $heightSlider: auto;
 	&.scrolled{
 		top: 0;
 	}
-	&.scrolled-down{
-		&:not(.down){
-			top: 80px;
+	@media (min-width: 992px){
+		&.scrolled-down{
+			&:not(.down){
+				top: 80px;
+			}
 		}
 	}
 	@media (max-width: 991px){
@@ -1092,7 +1094,6 @@ $heightSlider: auto;
 				list-style: none;
 				margin-top: 6px;
 				margin-bottom: 6px;
-				display: none;
 				@media (min-width: 992px) {
 					&:nth-child(3) ~ li{
 						display: block;
@@ -2355,6 +2356,10 @@ $heightSlider: auto;
 	background-color: white;
 	li{
 		pointer-events: auto;
+		@media (max-width: 991px){
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
 	}
 	@media (min-width: 992px){
 		li{
@@ -2369,10 +2374,17 @@ $heightSlider: auto;
 	background-color: white;
 	z-index: 2;
 	//height: 182px;
-	width: calc(100% - 325px);
+	width: 100%;
 	background-color: white;
-	left: 315px;
-	padding-left: 15px;
+	left: 0; 
+	@media (min-width: 992px){
+		//width: calc(100% - 325px);
+		padding-left: 15px;
+		left: 315px;
+	}
+	.theiaStickySidebar{
+		height: 150px;
+	}
 	.wrapper{
 		display: flex;
 		.config-content{
@@ -2387,6 +2399,9 @@ $heightSlider: auto;
 }
 .config-sidebar{
 	z-index: 4;
+	@media (max-width: 991px) {
+		//display: none;
+	}
 }
 .config-filter{
 	background-color: $color-gray-2;
@@ -2510,13 +2525,10 @@ $heightSlider: auto;
 		right: 0;
 		top: 0
 	}
-	.owl-stage-outer{
-		padding-right: 70px;
-	}
 	.owl-nav{
 		display: flex;
 		flex-direction: column-reverse;
-		right: 0;
+		right: 15px;
 		z-index: 2;
 		width: auto;
 		top: 50%;
@@ -2579,11 +2591,13 @@ $heightSlider: auto;
 			display: none;
 		}
 		.options-body{
-			width: calc(100% - 80px);
-			left: 0;
-			padding-left: 0;
-			top: 0;
-			margin-right: -80px;
+			@media (min-width: 992px){
+				//width: calc(100% - 80px);
+				left: 0;
+				padding-left: 0;
+				top: 0;
+				//margin-right: -80px;
+			}
 		}
 		.config-details{
 			padding-left: 0;
@@ -2601,9 +2615,10 @@ $heightSlider: auto;
 		min-height: calc(100vh + 140px);
 	}
 	&:not(.down){
-		.theiaStickySidebar[style*='fixed']{
-			//transition: 0.3s ease;
-			transform: translateY(140px) !important;
+		@media (min-width: 992px) {
+			.theiaStickySidebar[style*='fixed']{
+				transform: translateY(140px) !important;
+			}
 		}
 	}
 }
@@ -2736,14 +2751,14 @@ $heightSlider: auto;
 			display: flex;
 			flex-wrap: wrap;
 			li{
-				margin-left: 25px;
-				padding-left: 5px;
 				width: calc(33% - 35px);
 			}
 		}
 	}
 	li{
 		list-style: disc;
+		margin-left: 25px;
+		padding-left: 5px;
 		*{
 			vertical-align: middle;
 		}
@@ -2766,7 +2781,10 @@ $heightSlider: auto;
     	padding-bottom: 100%;
     	content: "";
 		}
-	}	
+	}
+	@media (max-width: 991px){
+		width: 100%;
+	}
 }
 .config-details-modal-body{
 	display: flex;
@@ -2800,20 +2818,11 @@ $heightSlider: auto;
 			.cell{
 				border-right: 1px solid white;
 			}
-			.owl-nav{
-				position: absolute;	
-				right: 15px;
-			}
 		}
 		.options-body {
 			.wrapper .config-content{
 				width: 100%;
 			}
-		}
-		.config-details{
-			padding-left: 15px !important;
-			padding-right: 15px !important;
-			margin-top: 410px !important;
 		}
 		.options-nav{
 			&.p-v-30{
@@ -3259,6 +3268,11 @@ ymaps .map-cluster{
 		}
 	}
 }
+.conf-header{
+	.entry-header{
+		margin-top: 30px;
+	}
+}
 .conf-progress-bar{
 	position: relative;
 	padding-top: 25px;
@@ -3305,6 +3319,17 @@ ymaps .map-cluster{
 	}
 	p{
 		color: $color-gray-4;
+	}
+	@media (max-width: 991px){
+		li{
+			display: none;
+			&.active{
+				display: block;
+				&+li{
+					display: block;
+				}
+			}
+		}
 	}
 }
 
@@ -3377,6 +3402,11 @@ ymaps .map-cluster{
 	.flex-wrapper{
 		justify-content: flex-end;
 		display: flex;
+		height: 60px;
+		@media (max-width: 991px){
+			margin-left: -15px;
+			margin-right: -15px;
+		}
 	}
 	.btn-step-back{
 		background-color: white;
@@ -3387,22 +3417,40 @@ ymaps .map-cluster{
 		}
 	}
 	.btn-def{
+		@media (min-width: 992px){	
+			max-width: 270px;
+		}
+		width: 100%;
 		a{
-			padding: 22px 120px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+			//padding: 22px 120px;
 		}
 	}
 }
-
+.conf-content{
+	overflow: hidden;
+}
 .conf-steps{
 	padding-bottom: 120px;
 	.entry-content{
 		padding-left: 80px;
 		padding-right: 80px;
+		@media (max-width: 992px){
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 	}
 	.showroom-main{
 		max-width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	@media (max-width: 991px){
+		padding-bottom: 30px;
 	}
 }
 .wrapper-scroll{
@@ -3430,6 +3478,9 @@ ymaps .map-cluster{
 	}
 	.wrapper-scroll{
 		height: calc(100vh - 60px);
+	}
+	@media (max-width: 991px){
+		display: none;
 	}
 }
 .check-sel{
@@ -3474,6 +3525,11 @@ ymaps .map-cluster{
 			}
 		}
 	}
+	@media (max-width: 991px){
+		li{
+			flex-basis: 100%;
+		}
+	}
 }
 
 .car-params-btn{
@@ -3484,6 +3540,11 @@ ymaps .map-cluster{
 	padding: 0 45px 0 30px;
 	background-color: $color-gray-1;
 	transition: .3s ease;
+	@media (max-width: 991px){
+		a b{
+			display: none;
+		}
+	}
 }
 .car-params-item{
 	margin-top: 30px;
@@ -3585,10 +3646,13 @@ dt{
 .conf-summary-params{
 	.wrapper-content{
 		display: flex;
-		margin-top: 30px;
-		margin-bottom: 30px;
+		@media (max-width: 991px){
+			flex-direction: column;
+		}
 	}
 	.item{
+		margin-top: 30px;
+		margin-bottom: 30px;
 		@media (min-width: 992px){
 			&:nth-child(1){
 				.info-content{
@@ -3610,6 +3674,9 @@ dt{
 					border-left: none;
 				}
 			}
+		}
+		@media (max-width: 991px){
+
 		}
 	}
 	.info-content{

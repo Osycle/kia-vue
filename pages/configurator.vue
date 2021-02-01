@@ -83,7 +83,7 @@
     <div class="conf-down">
       <div class="container-p">
         <div class="flex-wrapper">
-          <span class="btn-def btn-step-back">
+          <span class="btn-def btn-step-back" v-if="currentStep > 1">
             <a href="javascript:;" currentstep="0" @click="confPrevStep" class="flex align-center">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
