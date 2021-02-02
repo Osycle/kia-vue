@@ -256,6 +256,9 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 	margin-bottom: 0px;
 	@media (min-width: 992px) {
 	}
+	@media (max-width: 991px) {
+		display: none;
+	}
 	a{
 		@extend .hover-aunderline;
 	}

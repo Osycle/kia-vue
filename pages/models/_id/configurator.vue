@@ -285,81 +285,110 @@
               </div>
             </div>
           </template>
-          <template v-else-if="currentStepNum == 5">
-            <div class="conf-steps conf-step-5">
-              <div class="entry-content">
-                <div class="conf-summary">
-                  <div class="entry-title m-v-30">
-                    <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
-                  </div>
-                  <div class="showroom-main m-v-10">
-                    <div
-                        class="cloudimage-360"
-                        :data-folder="'https://cdn.kia.ru/'+selectOverview.path"
-                        data-filename="{index}.png"
-                        data-spin-reverse
-                        data-amount="72"
-                    ></div>
-                  </div>
-                  <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
-                  <div class="color-gray-4 text-center m-b-30">
-                    <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
-                  </div>
-                  <div class="conf-summary-id">
-                    <div class="wrapper-content">
-                      <b>ID конфигурации</b>
-                      <div class="conf-summary-code m-h-15"><u>{{this.summaryCode}}</u></div>
-                      <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
+        </div>
+      </div>
+      <template v-if="currentStepNum == 5">
+        <div class="conf-steps conf-step-5">
+          <div class="entry-content">
+            <div class="conf-summary">
+              <div class="entry-title m-v-30">
+                <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
+              </div>
+              <div class="showroom-main m-v-10">
+                <div
+                    class="cloudimage-360"
+                    :data-folder="'https://cdn.kia.ru/'+selectOverview.path"
+                    data-filename="{index}.png"
+                    data-spin-reverse
+                    data-amount="72"
+                ></div>
+              </div>
+              <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+              <div class="color-gray-4 text-center m-b-30">
+                <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
+              </div>
+              <div class="conf-summary-id">
+                <div class="wrapper-content">
+                  <b>ID конфигурации</b>
+                  <div class="conf-summary-code m-h-15"><u>{{this.summaryCode}}</u></div>
+                  <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
+                </div>
+              </div>
+              <div class="conf-summary-params">
+                <div class="wrapper-content">
+                  <div class="item col-md-6">
+                    <div class="fw-6 font-size-nm m-b-20">Двигатель и трансмиссия</div>
+                    <div class="info-content">
+                      <dl><dt>Год производства</dt> <dd>{{ selectComplectation.year }}</dd></dl> 
+                      <dl><dt>Двигатель</dt> <dd>{{currentEngine.name}} / 123 л.с. / {{currentFuelType.name}}</dd></dl> 
+                      <dl><dt>Коробка передач</dt> <dd>{{currentGearbox.name}}, {{currentTransmission.gears_number}}{{currentGearbox.code}}</dd></dl> 
+                      <dl><dt>Привод</dt> <dd>{{currentDrive.name}}</dd></dl>
                     </div>
                   </div>
-                  <div class="conf-summary-params">
-                    <div class="wrapper-content">
-                      <div class="item col-md-6">
-                        <div class="fw-6 font-size-nm m-b-20">Двигатель и трансмиссия</div>
-                        <div class="info-content">
-                          <dl><dt>Год производства</dt> <dd>{{ selectComplectation.year }}</dd></dl> 
-                          <dl><dt>Двигатель</dt> <dd>{{currentEngine.name}} / 123 л.с. / {{currentFuelType.name}}</dd></dl> 
-                          <dl><dt>Коробка передач</dt> <dd>{{currentGearbox.name}}, {{currentTransmission.gears_number}}{{currentGearbox.code}}</dd></dl> 
-                          <dl><dt>Привод</dt> <dd>{{currentDrive.name}}</dd></dl>
-                        </div>
-                      </div>
-                      <div class="item col-md-6">
-                        <div class="fw-6 font-size-nm m-b-20">Цвет</div>
-                        <div class="info-content">
-                          <dl>
-                            <dt>Кузов</dt> 
-                            <dd><div class="flex align-center"><span>{{selectExteriorColor.name}}</span> <figure :style="'background-image: url(https://cdn.kia.ru/'+selectExteriorColor.image+');'"></figure></div></dd>
-                          </dl> 
-                        </div>
-                      </div>
+                  <div class="item col-md-6">
+                    <div class="fw-6 font-size-nm m-b-20">Цвет</div>
+                    <div class="info-content">
+                      <dl>
+                        <dt>Кузов</dt> 
+                        <dd><div class="flex align-center"><span>{{selectExteriorColor.name}}</span> <figure :style="'background-image: url(https://cdn.kia.ru/'+selectExteriorColor.image+');'"></figure></div></dd>
+                      </dl> 
                     </div>
-                  </div>
-                  <div class="config-details">
-
-                    <section class="item" v-for="(gOption, key) in page.grouped_options" :key="key">
-                      <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
-                      <div class="section-body">
-                        <div class="section-body-wrapper">
-                          <div class="list-block-body">
-                            <ul>
-                              <template v-for="(complectationOptionId) in selectComplectation.options">
-                                <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
-                                  {{option.name}}
-                                </li>
-                              </template>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </section>
-
                   </div>
                 </div>
               </div>
+              <div class="config-details">
+                <section class="item" v-for="(gOption, key) in page.grouped_options" :key="key">
+                  <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
+                  <div class="section-body">
+                    <div class="section-body-wrapper">
+                      <div class="list-block-body">
+                        <ul>
+                          <template v-for="(complectationOptionId) in selectComplectation.options">
+                            <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
+                              {{option.name}}
+                            </li>
+                          </template>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
             </div>
-          </template>
+          </div>
+          <div class="conf-feedback" id="conf-feedback">
+            <div class="entry-content">
+              <div class="form-content pt-6 desktop:pt-20 pb-12 desktop:pb-20">
+                <div>
+                  <h3>Забронировать автомобиль Picanto Classic 1.0 MPI</h3>
+                  <p>После отправки заявки выбранный дилер свяжется с вами для уточнения деталей.</p>
+                </div>
+                <form>
+                  <input type="text" name="model" class="hide">
+                  <div class="row">
+                    <div class="input-content m-v-30 col-md-6 p-h-15">
+                      <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
+                    </div>
+                    <div class="input-content m-v-30 col-md-6 p-h-15">
+                      <input type="phone" name="phone" placeholder="Телефон *"  class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="iagree m-v-30">
+                    <label class="flex" role="button">
+                      <input type="checkbox" name="" class="hide" required>
+                      <span class="checkbox-style-1"></span>
+                      <span class="p-l-20">Отправляя сообщение, я выражаю свое согласие и разрешаю ООО 'Roodell', а также, по их поручению, третьим лицам осуществлять обработку моих персональных данных (фамилия, имя, отчество, год, месяц, дата и место рождения; адрес, номер паспорта и сведения о дате выдачи паспорта и выдавшем его органе; образование, профессия, место работы и должность; домашний, рабочий и мобильный телефоны; адрес электронной почты и другие данные, требуемые для отправки сообщения), включая сбор, систематизацию, накопление, хранение, уточнение, использование, распространение (в том числе трансграничную передачу), обезличивание, уничтожение персональных данных), в целях связанных с возможностью предоставления информации о товарах и услугах, которые потенциально могут представлять интерес, а также в целях сбора и обработки статистической информации и проведения маркетинговых исследований. Согласие на обработку персональных данных в соответствии с указанными выше условиями я предоставляю на 10 (десять) лет. Я уведомлен и согласен с тем, что указанное согласие может быть мной отозвано посредством направления письменного заявления заказным почтовым отправлением с описью вложения, либо вручено лично под подпись.</span>
+                    </label>
+                  </div>
+                  <span class="btn-def">
+                    <button type="submit">Забронировать</button>
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </template>
     </div>
     <div class="conf-down">
       <div class="container-p">
@@ -369,14 +398,15 @@
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
             </nuxt-link>
-            <a v-else href="javascript:;"  @click="progressStepsBar('prev')" class="flex align-center">
+            <a href="javascript:;" v-else-if="currentStepNum < 5" @click="progressStepsBar('prev')" class="flex align-center">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
             </a>
 
           </span>
           <span class="btn-def">
-            <a href="javascript:;" @click="progressStepsBar('next')">Далее</a>
+            <a href="#conf-feedback" v-if="currentStepNum == 5">Забронировать</a>
+            <a href="javascript:;" v-if="currentStepNum < 5" @click="progressStepsBar('next')">Далее</a>
           </span>
         </div>
       </div>
@@ -554,7 +584,6 @@ export default {
         this.carParamActive();
         this.currentStepNum = 5;
       }, 1000)
-      console.log(complectation, "zzzzzz");
 
 
     },
@@ -652,8 +681,11 @@ export default {
 
       // step 5
       if(this.currentStepNum == 5){
+
+
+
+
         console.log(this.selectComplectation, this.selectExteriorColor);
-        
         const modelcode = await this.$axios.$post('/configurator.php', {
           complectation: that.selectComplectation,
           exterior_color: that.selectExteriorColor

@@ -2318,6 +2318,11 @@ $heightSlider: auto;
 	.config-filter *, .config-content *{
 		pointer-events: auto;
 	}
+	.filter-btn{
+		@media (max-width: 991px){
+			display: none;
+		}
+	}
 }
 .card-top{
 	margin-top: 60px;
@@ -2362,6 +2367,8 @@ $heightSlider: auto;
 		}
 	}
 	@media (min-width: 992px){
+		padding-top: 30px;
+		padding-bottom: 30px;
 		li{
 			display: inline-block;
 			&:not(:last-child){
@@ -2372,7 +2379,7 @@ $heightSlider: auto;
 }
 .options-body{
 	background-color: white;
-	z-index: 2;
+	z-index: 4;
 	//height: 182px;
 	width: 100%;
 	background-color: white;
@@ -2383,7 +2390,7 @@ $heightSlider: auto;
 		left: 315px;
 	}
 	.theiaStickySidebar{
-		height: 150px;
+		height: 182px;
 	}
 	.wrapper{
 		display: flex;
@@ -2533,6 +2540,7 @@ $heightSlider: auto;
 		width: auto;
 		top: 50%;
 		transform: translateY(-50%);
+		position: absolute;
 		.owl-prev{
 			margin-right: 0;
 		}
@@ -3620,7 +3628,13 @@ dt{
 	padding: 50px;
 }
 
-
+.conf-feedback{
+	background-color: $color-gray-1;
+	.form-content{
+		max-width: 840px;
+		margin: 0 auto;
+	}
+}
 .conf-summary-id{
 	.wrapper-content{
 		background-color: $color-gray-1;
@@ -3710,6 +3724,9 @@ dt{
 }
 .offset-model-header{
 	margin-top: 60px;
+	@media (max-width: 991px){
+		margin-top: 110px;
+	}
 }
 
 

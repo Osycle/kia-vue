@@ -763,6 +763,20 @@ img[auto]{
 
 
 // kia
+@for $i from 0 through 20{
+	.pt-#{$i}{
+		padding-top: $i*5px;
+	}
+	.pr-#{$i}{
+		padding-right: $i*5px;
+	}
+	.pb-#{$i}{
+		padding-bottom: $i*5px;
+	}
+	.pl-#{$i}{
+		padding-left: $i*5px;
+	}
+}
 @media (min-width: 64em){
 
 	.desktop\:text-x4{
@@ -780,7 +794,7 @@ img[auto]{
     letter-spacing: -.02em;
     font-weight: 700;
 	}
-	@for $i from 0 through 12{
+	@for $i from 0 through 20{
 		.desktop\:mt-#{$i}{
 			margin-top: $i*5px;
 		}
@@ -792,6 +806,20 @@ img[auto]{
 		}
 		.desktop\:ml-#{$i}{
 			margin-left: $i*5px;
+		}
+	}
+	@for $i from 0 through 20{
+		.desktop\:pt-#{$i}{
+			padding-top: $i*5px;
+		}
+		.desktop\:pr-#{$i}{
+			padding-right: $i*5px;
+		}
+		.desktop\:pb-#{$i}{
+			padding-bottom: $i*5px;
+		}
+		.desktop\:pl-#{$i}{
+			padding-left: $i*5px;
 		}
 	}
 }

@@ -51,10 +51,10 @@
       </div>
     </div>
 		<div class="options-header scrolled-down">
-			<div class="options-header-content p-v-30">
+			<div class="options-header-content">
 				<div class="container-p">
 					<ul class="list">
-						<li>
+						<li class="filter-btn">
 							<a href=".options-entry" class="align-center justify-center" tc="filter-hidden">
 								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 6.5a2 2 0 104 0 2 2 0 00-4 0zM0 6h3.035a3.5 3.5 0 016.93 0H20v1.5H9.855a3.502 3.502 0 01-6.71 0H0V6zm11.5 7.5a2 2 0 104 0 2 2 0 00-4 0zM0 13h10.035a3.501 3.501 0 016.93 0H20v1.5h-3.145a3.502 3.502 0 01-6.71 0H0V13z" fill="currentColor"></path></svg> 
 								<span class="m-l-15">Фильтры и опции</span>
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="options-entry scrolled-down">
+		<div class="options-entry scrolled-down filter-hidden">
 			<div class="container-p relative">
 				<div class="config-sidebar">	
 					<div class="config-filter">
@@ -141,7 +141,7 @@
 					</div>
 				</div>
 				<div class="config-details">
-					<section class="item" v-for="(item, key) in page.specifications.grouped_specifications" :key="key">
+					<section class="item active" v-for="(item, key) in page.specifications.grouped_specifications" :key="key">
 						<a href=".item" class="title-click" tc tc-closest>{{item.name}}<i class="fa fa-angle-up"></i></a>
 						<div class="section-body">
 							<div class="section-body-wrapper">
@@ -160,7 +160,7 @@
 							</div>
 						</div>
 					</section>
-					<section class="item">
+					<section class="item active">
 						<a href=".item" class="title-click" tc tc-closest>Спецификация<i class="fa fa-angle-up"></i></a>
 						<div class="section-body">
 							<div class="section-body-wrapper">
@@ -293,12 +293,18 @@ export default {
 
     //console.log(configCrs, configTableCrs);
 
-		$('.config-sidebar, .options-body').theiaStickySidebar({
+		$('.config-sidebar').theiaStickySidebar({
 			//additionalMarginBottom: -300,
 			additionalMarginTop: 60,
 			defaultPosition: "absolute"
 		});
-				
+		
+		$('.options-body').theiaStickySidebar({
+			//updateSidebarHeight: true,
+			disableOnResponsiveLayouts: false,
+			additionalMarginTop: 60,
+			defaultPosition: "absolute"
+		});
 		
   },
 }
