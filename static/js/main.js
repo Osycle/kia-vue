@@ -44,10 +44,6 @@ window.spaceBetweenNum = function(str, char){
 
 
 
-if(!window.iki)
-	window.iki = 0
-console.log("Я загрузился", iki++);
-
 
 /* COMMON VAREBILES */
 
@@ -241,7 +237,7 @@ if ( $(".js-select").length )
 
 
 
-		$(document).on('click', '[tc]', function(e){
+		$(document).on('click.toggle', '[tc]', function(e){
 			e.preventDefault();
 			var that = $(this);
 			var toggleClassName = that.attr("tc") || "active";
@@ -252,6 +248,16 @@ if ( $(".js-select").length )
 			else
 				$(toggleEl).toggleClass(toggleClassName);
 		})
+		
+		window.collapseClear = ()=>{
+      $('.section-body').map((i, el)=>{
+				el = $(el);
+				if(el.find("li").length == 0)
+					el.closest(".item").addClass("hide");				
+			})
+		}
+
+
 
 		/*FANCYBOX*/
 		if ($("[data-fancybox]").length != 0)
@@ -315,10 +321,21 @@ if ( $(".js-select").length )
 			}else{						
 				$(".scrolled-down").addClass("down")
 			}
-	
 		});
 
 
+		$("[scrollf]").map((i, el)=>{
+			el = $(el)
+			$(window).on("scroll", (e)=>{
+				var docViewBottom = $(window).scrollTop() + $(window).height();
+				var elBottom = $(el).offset().top + $(el).height();
+					if(docViewBottom > elBottom){
+						el.addClass("is-scrollf")
+					}else{
+						el.removeClass("is-scrollf")
+					}
+			})
+		})
 
 		//dealers
 		$(document).on("click", "[toggle-class-wrapper] a", function(){

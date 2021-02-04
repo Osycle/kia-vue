@@ -11,7 +11,7 @@
     <div class="conf-header">
       <div class="container-p">
         <div class="entry-header">
-          <h2>Конфигуратор</h2>
+          <h2><nuxt-link to="/models/k5/configurator/k5">Конфигуратор</nuxt-link></h2>
         </div>
         <div class="conf-progress-bar">
           <ul class="list">
@@ -337,6 +337,7 @@
                 </div>
               </div>
               <div class="config-details">
+                
                 <section class="item" v-for="(gOption, key) in page.grouped_options" :key="key">
                   <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
                   <div class="section-body">
@@ -393,19 +394,18 @@
     <div class="conf-down">
       <div class="container-p">
         <div class="flex-wrapper">
-          <span class="btn-def btn-step-back">
+          <span class="btn-def btn-step-back" v-if="currentStepNum < 5">
             <nuxt-link to="/configurator" v-if="currentStepNum <= 2" class="flex align-center">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
             </nuxt-link>
-            <a href="javascript:;" v-else-if="currentStepNum < 5" @click="progressStepsBar('prev')" class="flex align-center">
+            <a href="javascript:;" v-else @click="progressStepsBar('prev')" class="flex align-center">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
             </a>
-
           </span>
           <span class="btn-def">
-            <a href="#conf-feedback" v-if="currentStepNum == 5">Забронировать</a>
+            <a href="javascript:;" v-if="currentStepNum == 5" @click.prevent.stop="scrollAnimate('#conf-feedback', $event)">Забронировать</a>
             <a href="javascript:;" v-if="currentStepNum < 5" @click="progressStepsBar('next')">Далее</a>
           </span>
         </div>
@@ -430,22 +430,31 @@ export default {
       ],
     }
   },
+  props: ['page'],
   async asyncData(context){
     try{
+      console.log("context.route.params.id: ", context.route.params.id);
       const path = context.route.path
       const page = await context.store.dispatch("models/fetchPageData", {
         path: "/models/"+context.route.params.id+"/full"
       })
+      console.log(page, context.route.params)
       return {page: page.content}
     }catch(e){
       context.error(e);
     }
   },
   components: {},
-  filters:{},
+  compluted: {
+
+  },
+  filters:{
+
+  },
   data(){
     return {
 
+      page: null,
       currentStepNum: 2,
       currentModel: {},
       currentModelLine: {},
@@ -465,7 +474,7 @@ export default {
       showroomComplectations: [],
       showroomComplectation: {},
 
-      summaryCode: "00Q00J",
+      summaryCode: "",
 
       groupOptions: [],
       uniqueParams: {},
@@ -478,8 +487,12 @@ export default {
     $('.sidebar-wrapper').theiaStickySidebar({
       additionalMarginTop: 0
     });
+    console.log(this.$route, "Тут тот самый роут");
   },
   methods: {
+    scrollAnimate(elId, event){
+      $('html, body').animate({ scrollTop: $(elId).offset().top-30}, 300);
+    },
     featureFill(complectation){
       this.currentComplectation = complectation;
       // transmissions
@@ -636,16 +649,13 @@ export default {
       }
       // step 3
       if(this.currentStepNum == 3){
-        
-        // Чистим аккордеон
-        $(".config-details .list-block-body").map((i, el)=>{
-          el = $(el);
-          if(!el.find("li").length)
-            el.closest(".item").remove();
-        })
+
+
+
         this.selectComplectation = this.selectComplectations[0];
         setTimeout(()=>{
           $(".conf-step-3").find("[data-toggle='collapse']").eq(0).trigger("click");
+          collapseClear();
         }, 1)
         
         // Подбираем id полученных комплектации
@@ -683,7 +693,7 @@ export default {
       if(this.currentStepNum == 5){
 
 
-
+  
 
         console.log(this.selectComplectation, this.selectExteriorColor);
         const modelcode = await this.$axios.$post('/configurator.php', {
@@ -707,6 +717,7 @@ export default {
         setTimeout(()=>{
           window.CI360.init();
           //this.showroomChanger(this.selectExteriorColor, '.conf-step-5');
+          collapseClear();
         }, 1);
       }
       
