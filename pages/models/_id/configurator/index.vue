@@ -310,8 +310,18 @@
               <div class="conf-summary-id">
                 <div class="wrapper-content">
                   <b>ID конфигурации</b>
-                  <div class="conf-summary-code m-h-15"><u>{{this.summaryCode}}</u></div>
-                  <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
+                  <a href="#" id="link-copy-code" 
+                      @click.prevent.stop="copyUrlCode(summaryCode, $event)" 
+                      class="flex align-center" 
+                      data-placement="bottom"
+                      data-delay='{ "show": 500, "hide": 100 }'
+                      data-trigger="focus" 
+                      role="button"
+                      title="Ссылка скопированно">
+                    <input id="copyUrlCode" class="bury">
+                    <div class="conf-summary-code m-h-15"><u>{{summaryCode}}</u></div>
+                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M14.734 11.239l2.706-2.955c.747-.816.747-2.14 0-2.956l-2.03-2.216c-.746-.816-1.958-.816-2.705 0L8.647 7.545c-.747.816-.747 2.139 0 2.955l1.015 1.108m-3.72-2.586L2.56 12.716c-.747.816-.747 2.14 0 2.956l2.03 2.216c.746.816 1.957.816 2.705 0l4.735-5.172c.747-.816.746-2.139-.001-2.955l-1.014-1.108" stroke="currentColor" stroke-width="1.5"></path></svg>
+                  </a>
                 </div>
               </div>
               <div class="conf-summary-params">
@@ -430,15 +440,15 @@ export default {
       ],
     }
   },
-  props: ['page'],
   async asyncData(context){
     try{
       console.log("context.route.params.id: ", context.route.params.id);
       const path = context.route.path
       const page = await context.store.dispatch("models/fetchPageData", {
-        path: "/models/"+context.route.params.id+"/full"
+        //path: "/models/"+context.route.params.id+"/full"
+        path: "/models/k5/full"
       })
-      console.log(page, context.route.params)
+      //console.log(page, context.route.params)
       return {page: page.content}
     }catch(e){
       context.error(e);
@@ -474,7 +484,7 @@ export default {
       showroomComplectations: [],
       showroomComplectation: {},
 
-      summaryCode: "",
+      summaryCode: "", //00U007
 
       groupOptions: [],
       uniqueParams: {},
@@ -487,9 +497,20 @@ export default {
     $('.sidebar-wrapper').theiaStickySidebar({
       additionalMarginTop: 0
     });
-    console.log(this.$route, "Тут тот самый роут");
+    if(this.$route.query.summary_code && this.$route.query.summary_code.length > 0){
+      this.summaryCode = this.$route.query.summary_code;
+      this.parseSummaryCode()
+    }
+    console.log(this.$route.query.summary_code);
   },
   methods: {
+    copyUrlCode(code, event){
+      $('#link-copy-code').popover('show'); 
+      $("#copyUrlCode")[0].value = document.location.origin+"/"+this.$route.path+"?summary_code="+code;
+      $("#copyUrlCode")[0].select();
+      document.execCommand("copy");
+      console.log(code, event);
+    },
     scrollAnimate(elId, event){
       $('html, body').animate({ scrollTop: $(elId).offset().top-30}, 300);
     },
@@ -598,6 +619,7 @@ export default {
         this.currentStepNum = 5;
       }, 1000)
 
+      return true;
 
     },
     // События Изменение цвета 
@@ -835,8 +857,8 @@ export default {
       this.currentStepNum--;
     },
   },
-  created(){
-    
+  async created(){
+
     this.featureFill(this.page.complectations[0]);
     
 

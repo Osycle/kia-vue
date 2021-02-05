@@ -310,7 +310,15 @@ figcaption{
 		max-width: 1800px;
 	}
 }
-
+.bury{
+	width: 1px;
+	//opacity: 0;
+	//visibility: hidden;
+	transform: scale(0);
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0;
+}
 //content
 //bnr-carousel
 $heightSlider: auto;
@@ -3798,5 +3806,17 @@ dt{
 				width: 100%;
 			}
 		}
+	}
+}
+
+.notif-other{
+	position: fixed;
+	z-index: 200;
+	top: 15px !important;
+	left: 15px !important;
+	.vue-notification-wrapper{
+		background-color: #000;
+		color: white;
+		padding: 20px 30px;
 	}
 }

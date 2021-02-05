@@ -3,10 +3,11 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import _ from 'lodash'
+import Notifications from 'vue-notification/dist/ssr.js'
 
-Vue.use(_);
-//Vue.use(mainjs);
 Vue.use(Vuex);
+Vue.use(_);
+Vue.use(Notifications);
 
 import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
 Vue.use(VueFilterDateFormat, {

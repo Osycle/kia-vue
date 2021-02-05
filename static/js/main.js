@@ -257,6 +257,7 @@ if ( $(".js-select").length )
 			})
 		}
 
+		$('[data-toggle="popover"]').popover();
 
 
 		/*FANCYBOX*/

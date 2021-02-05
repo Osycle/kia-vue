@@ -19,7 +19,6 @@
         <Nuxt />
       </main>
       <Footer />
-      
     </div>
   </div>
 </template>
