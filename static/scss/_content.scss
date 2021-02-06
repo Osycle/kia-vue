@@ -2398,7 +2398,9 @@ $heightSlider: auto;
 		left: 315px;
 	}
 	.theiaStickySidebar{
-		height: 182px;
+		@media (min-width: 992px){
+			height: 182px;
+		}
 	}
 	.wrapper{
 		display: flex;
@@ -2413,7 +2415,7 @@ $heightSlider: auto;
 	}
 }
 .config-sidebar{
-	z-index: 4;
+	z-index: 5;
 	@media (max-width: 991px) {
 		//display: none;
 	}
@@ -3449,6 +3451,7 @@ ymaps .map-cluster{
 }
 .conf-content{
 	overflow: hidden;
+	padding-bottom: 60px;
 }
 .conf-steps{
 	padding-bottom: 120px;

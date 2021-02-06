@@ -1,13 +1,14 @@
 <template>
-  <nuxt-child />
+  <nuxt-child/>
 </template>
 
 
 <script>
 export default {
-  async asyncData(context){
-    if((context.route.name == "models-id"))
-      context.redirect(context.route.path+"/desc")
-  },
+  // async asyncData(context){
+  //   console.log(context.route)
+  //   if(context.route.params.id)
+  //     context.redirect("/models/"+context.route.params.id+"/desc")
+  // },
 }
 </script>

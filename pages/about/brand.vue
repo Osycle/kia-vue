@@ -2,7 +2,15 @@
   <div header-opacity>
     <div class="kiaworld">
       <div class="kiaworld-bnr color-white" style="background-image: url('https://www.kia.ru/static/media-data/landing/about/brand/bg-header.jpg');">
-        <Breadcrump :breadcrumpItems="breadcrumpItems"/>
+        <div class="breadcrumb-container">
+          <div class="container-p">
+            <ol class="breadcrumb">
+              <li><nuxt-link to="/">Главная</nuxt-link></li>
+              <li><nuxt-link to="">Мир KIA</nuxt-link></li>
+              <li><nuxt-link to="">Компания KIA Motors</nuxt-link></li>
+            </ol>
+          </div>
+        </div>
         <div class="container-p relative">
           <div class="kiaworld-bnr-header">
             <h1>Компания <br>KIA Motors</h1>
@@ -293,10 +301,6 @@ export default {
   },
   data(){
     return {
-      breadcrumpItems: [
-        {title: 'Главная',link: '/'},
-        {title: 'Мир KIA',link: '/about'},
-      ],
     }
   },
 }

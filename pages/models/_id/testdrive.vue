@@ -6,14 +6,14 @@
           <li><nuxt-link to="/">Главная</nuxt-link></li>
           <li><nuxt-link to="/models/">Модели</nuxt-link></li>
           <li><nuxt-link :to="'/models/'+$route.params.id+'/desc'">{{page.model.name}}</nuxt-link></li>
-          <li><nuxt-link :to="'/models/'+$route.params.id+'/callback'">Обратный звонок</nuxt-link></li>
+          <li><nuxt-link :to="'/models/'+$route.params.id+'/testdrive'">Тест-драйв</nuxt-link></li>
         </ol>
       </div>
     </div>
     <div class="feedback">
       <div class="container-p">
         <div class="entry-header m-b-30">
-          <h1 class="	text-x5">Обратный звонок</h1>
+          <h1 class="	text-x5">Тест-драйв</h1>
         </div>
       </div>
       <div class="feedback-content">
@@ -42,14 +42,6 @@
                   </div>
                   <div class="input-content m-v-30">
                     <input type="phone" name="phone" placeholder="Телефон *"  class="form-control">
-                  </div>
-                  <div class="input-content">
-                    <div class="models-filter m-v-30">
-                      <select class="js-select">
-                        <option value="0">Выберите тип вопроса</option>
-                        <option v-for="(calltype, key) in page.call_types" :key="key" :value="calltype.code">{{calltype.name}}</option>
-                      </select>
-                    </div>
                   </div>
                   <div class="input-content">
                     <textarea placeholder="Ваш комментарий или вопрос" class="form-control"></textarea>
@@ -84,7 +76,7 @@ export default {
     try{
       const path = context.route.path
       const page = await context.store.dispatch("models/fetchPageData", {
-        path
+        path: '/models/'+context.route.params.id+'/callback'
       })
       return {page: page.content}
     }catch(e){

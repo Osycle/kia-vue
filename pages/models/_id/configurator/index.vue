@@ -11,7 +11,7 @@
     <div class="conf-header">
       <div class="container-p">
         <div class="entry-header">
-          <h2><nuxt-link to="/models/k5/configurator/k5">Конфигуратор</nuxt-link></h2>
+          <h2>Конфигуратор</h2>
         </div>
         <div class="conf-progress-bar">
           <ul class="list">
@@ -442,13 +442,10 @@ export default {
   },
   async asyncData(context){
     try{
-      console.log("context.route.params.id: ", context.route.params.id);
       const path = context.route.path
       const page = await context.store.dispatch("models/fetchPageData", {
-        //path: "/models/"+context.route.params.id+"/full"
-        path: "/models/k5/full"
+        path: "/models/"+context.route.params.id+"/full"
       })
-      //console.log(page, context.route.params)
       return {page: page.content}
     }catch(e){
       context.error(e);
@@ -464,7 +461,6 @@ export default {
   data(){
     return {
 
-      page: null,
       currentStepNum: 2,
       currentModel: {},
       currentModelLine: {},
@@ -506,7 +502,7 @@ export default {
   methods: {
     copyUrlCode(code, event){
       $('#link-copy-code').popover('show'); 
-      $("#copyUrlCode")[0].value = document.location.origin+"/"+this.$route.path+"?summary_code="+code;
+      $("#copyUrlCode")[0].value = document.location.origin+this.$route.path+"?summary_code="+code;
       $("#copyUrlCode")[0].select();
       document.execCommand("copy");
       console.log(code, event);

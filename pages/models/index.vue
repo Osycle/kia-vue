@@ -21,7 +21,9 @@
               <figure v-for="(modelLine, key) in page.model_lines" :key="key" v-if="type.id == modelLine.group_id" >
                 <div v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id">                
                   <div class="img-content" >
-                    <nuxt-link prefetch :to="$route.path+'/'+modelLine.code+'/desc'"><img :src="model.image"></nuxt-link>
+                    <nuxt-link prefetch :to="$route.path+'/'+modelLine.code+'/desc'">
+                      <img :src="'https://cdn.kia.ru/resize/400x198/'+model.image">
+                    </nuxt-link>
                   </div>
                   <div class="desc-content">
                     <div class="car-card__name">

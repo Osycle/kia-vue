@@ -5,9 +5,9 @@
         <div class="breadcrumb-container">
           <div class="container-p">
             <ol class="breadcrumb">
-              <li><a href="index.html">Главная</a></li>
-              <li><a href="javascript:;">Мир KIA</a></li>
-              <li class="active"><a href="">История KIA</a></li>
+              <li><nuxt-link to="/">Главная</nuxt-link></li>
+              <li><nuxt-link to="">Мир KIA</nuxt-link></li>
+              <li><nuxt-link to="">История KIA</nuxt-link></li>
             </ol>
           </div>
         </div>

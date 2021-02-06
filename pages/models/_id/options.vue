@@ -39,8 +39,8 @@
 							<ol class="breadcrumb">
 								<li><nuxt-link to="/">Главная</nuxt-link></li>
 								<li><nuxt-link to="/models">Модели</nuxt-link></li>
-								<li><nuxt-link :to="'/models/'+page.model.code">{{page.model.name}}</nuxt-link></li>
-								<li><nuxt-link :to="'/models/'+page.model.code+'/options'">Комплектации и цены</nuxt-link></li>
+								<li><nuxt-link :to="'/models/'+$route.params.id+'/'">{{page.model.name}}</nuxt-link></li>
+								<li><nuxt-link :to="'/models/'+$route.params.id+'/options'">Комплектации и цены</nuxt-link></li>
 							</ol>
 						</div>
 					</div>

@@ -6,8 +6,8 @@
           <div class="container-p">
             <ol class="breadcrumb">
               <li><nuxt-link to="/">Главная</nuxt-link></li>
-              <li><nuxt-link to="/about">Мир KIA</nuxt-link></li>
-              <li><nuxt-link to="/about/design">Дизайн</nuxt-link></li>
+              <li><nuxt-link to="">Мир KIA</nuxt-link></li>
+              <li><nuxt-link to="">Дизайн</nuxt-link></li>
             </ol>
           </div>
         </div>

@@ -2034,36 +2034,6 @@
 			"show_in_configurator": 0,
 			"show_in_calculator": 0,
 			"sort": 1650
-		},
-		{
-			"title": "Технологии",
-			"link": "\/models\/k5\/technologies\/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1700
-		},
-		{
-			"title": "Брошюра",
-			"link": "https:\/\/cdn.kia.ru\/master-data\/brochures\/Kia_K5_Preview.pdf",
-			"code": "broshure",
-			"in_new_window": 1,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1800
-		},
-		{
-			"title": "Аксессуары",
-			"link": "https:\/\/www.kia.ru\/static\/master-data\/accessoaries\/KIA_brochure_Brand.pdf",
-			"code": null,
-			"in_new_window": 1,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1900
 		}],
 		"seo":
 		{

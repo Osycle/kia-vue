@@ -49,7 +49,7 @@
                   <a href="javascript:;">
                     <div class="fig-wrapper">
                       <div class="img-content">
-                        <img :src="model.image" :alt="modelLine.name">
+                        <img :src="'https://cdn.kia.ru/resize/150x73/'+model.image" :alt="modelLine.name">
                       </div>
                       <div class="desc-content">
                         <h4>{{modelLine.name}}</h4>
@@ -67,10 +67,10 @@
                 <figure v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id" :model-line-id="modelLine.id">
                   <div class="fig-wrapper">
                     <div class="desc-content">
-                      <h2>{{model.name}}</h2>
+                      <div class="text-x5 desktop:text-x4">{{modelLine.name}}</div>
                     </div>
                     <div class="img-content m-t-30">
-                      <img :src="model.image" :alt="modelLine.name">
+                      <img :src="'https://cdn.kia.ru/resize/750x366/'+model.image" :alt="modelLine.name">
                     </div>
                   </div>
                 </figure>

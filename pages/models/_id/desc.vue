@@ -19,7 +19,16 @@
               </a>
               <div class="list-add-sub">
                 <ul>
-                  <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link :to="item.link" :target="item.in_new_window?'_blank':'_self'">{{item.title}}</nuxt-link></li>
+                  <!-- <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link :to="item.link" :target="item.in_new_window?'_blank':'_self'">{{item.title}}</nuxt-link></li> -->
+                  <li><nuxt-link to="/models/k5/desc/" class="">Обзор</nuxt-link></li>
+                  <li><nuxt-link to="/models/k5/options/">Комплектации и цены</nuxt-link></li>
+                  <li><nuxt-link to="/models/k5/properties/" class="">Характеристики</nuxt-link></li>
+                  <li><nuxt-link to="/models/k5/calc/" class="">Рассчитать кредит</nuxt-link></li>
+                  <li><nuxt-link to="/models/k5/cars/" class="">Авто в наличии</nuxt-link></li>
+                  <li><nuxt-link to="/models/k5/special/" class="">Спецпредложения</nuxt-link></li>
+                  <li><nuxt-link to="/models/k5/configurator/" class="">Конфигуратор</nuxt-link></li>
+                  <li><nuxt-link to="/models/k5/callback/" class="">Заявка дилеру</nuxt-link></li>
+                  <li><nuxt-link to="/models/k5/testdrive/" class="">Тест-драйв</nuxt-link></li>
                 </ul>
               </div>
             </div>
@@ -43,7 +52,7 @@
           <ol class="breadcrumb">
             <li><nuxt-link to="/">Главная</nuxt-link></li>
             <li><nuxt-link to="/models">Модели</nuxt-link></li>
-            <li><nuxt-link :to="'/models/'+page.model.code">{{page.model.name}}</nuxt-link></li>
+            <li><nuxt-link :to="'/models/'+$route.params.id">{{page.model.name}}</nuxt-link></li>
           </ol>
         </div>
       </div>

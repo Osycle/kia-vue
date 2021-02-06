@@ -41,7 +41,7 @@
         </div>
         <div class="tab-pane fade" id="map-styleitem-2">
           <div class="container-p">
-            <div class="dealers-list-search">
+            <div class="dealers-list-search hide">
               <div class="input-content placeholder-focus">
                 <div class="icon-content">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="9" cy="9" r="7.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M14 14l5 5" stroke="currentColor" stroke-width="1.5"></path></svg>									
@@ -189,7 +189,7 @@ export default {
               <p>${dealerships[i].work_time}</p>
               <p><a href="${dealerships[i].site}"><u>${dealerships[i].site}</u></a></p>
               <p><a href="${dealerships[i].phone}">${dealerships[i].phone}</a></p>
-              <div class="btn-content">
+              <div class="btn-content hide">
                 <div class="btn-def">
                   <a href="javascript:;">Выбрать</a>
                 </div>
