@@ -236,19 +236,18 @@ if ( $(".js-select").length )
 		});
 
 
-
-		$(document).on('click.toggle', '[tc]', function(e){
-			e.preventDefault();
-			var that = $(this);
-			var toggleClassName = that.attr("tc") || "active";
-			var toggleEl = $(that.attr("href"));
-			console.log(toggleEl, toggleClassName);
-			if( typeof that.attr("tc-closest") == "string" )
-				that.closest(toggleEl).toggleClass(toggleClassName);
-			else
-				$(toggleEl).toggleClass(toggleClassName);
-		})
-		
+		if(!window.mainJsActive)
+			$(document).on('click.toggle', '[tc]', function(e){
+				e.preventDefault();
+				var that = $(this);
+				var toggleClassName = that.attr("tc") || "active";
+				var toggleEl = $(that.attr("href"));
+				if( typeof that.attr("tc-closest") == "string" )
+					that.closest(toggleEl).toggleClass(toggleClassName);
+				else
+					$(toggleEl).toggleClass(toggleClassName);
+			})
+			
 		window.collapseClear = ()=>{
       $('.section-body').map((i, el)=>{
 				el = $(el);
@@ -379,4 +378,8 @@ if ( $(".js-select").length )
 				}
 			]
 		}, {});
+
+
+	window.mainJsActive = true;
+
 }
