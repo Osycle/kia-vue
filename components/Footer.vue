@@ -14,17 +14,18 @@
         <div class="flex-adaptive footer-main">
           <div class="footer-menu">
             <ul class="item">
-              <li><a href="/k5">K5</a></li>
-              <li><a href="/seltos/">Seltos</a></li>
-              <li><a href="dealers.html">Дилеры</a></li>
+              <li><nuxt-link to="/models">Модели</nuxt-link></li>
+              <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
+              <li><nuxt-link to="/buy/cars">Авто в наличии</nuxt-link></li>
+              <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
             </ul>
             <ul class="item">
               <h4>Мир KIA</h4>
-              <li><a href="kiaworld-1.html">Бренд KIA</a></li>
-              <li><a href="desing.html">Дизайн</a></li>
-              <li><a href="concept.html">Концепт-кары</a></li>
-              <li><a href="kiaworld-history.html">История</a></li>								
-              <li><a href="kiaworld-sponsorship.html">Спонсорство</a></li>
+              <li><nuxt-link to="/about/brand/">Компания KIA Motors</nuxt-link></li>
+              <li><nuxt-link to="/about/history/">История</nuxt-link></li>
+              <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
+              <li><nuxt-link to="/about/design/">Дизайн</nuxt-link></li>
+              <li><nuxt-link to="/about/concept/">Концепт-кары</nuxt-link></li>
             </ul>
           </div>
           <div class="footer-info">
@@ -58,7 +59,7 @@
           </div>
           <div class="col-md-4 text-right-md">
             <span class="btn-opacity color-white">
-              <a href="feedback.html">Обратная связь</a>
+              <nuxt-link to="/feedback">Обратная связь</nuxt-link>
             </span>
             <br><br>
             <p class="copyright"><small>LifeStyle</small></p>

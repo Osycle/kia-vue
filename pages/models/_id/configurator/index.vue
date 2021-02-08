@@ -1,5 +1,5 @@
 <template>
-  <div class="relative conf " scrollf>
+  <div class="relative conf offset-header" scrollf>
     <div class="breadcrumb-container">
       <div class="container-p">
         <ol class="breadcrumb">
@@ -163,7 +163,7 @@
                       data-filename="{index}.png"
                       data-spin-reverse
                       data-amount="72">
-                      <div class="showroom-item-cover flex align-center" @click.prevent="activeShowroom">
+                      <div class="showroom-item-cover flex align-center">
                         <div class="flex box-xs-10 align-center">
                           <img :src="'https://cdn.kia.ru'+showroomComplectation.overviews[0].path+'/1.png'" width="100%">
                         </div>
@@ -260,7 +260,7 @@
                       data-filename="{index}.png"
                       data-spin-reverse
                       data-amount="72">
-                      <div class="showroom-item-cover flex align-center" @click.prevent="activeShowroom">
+                      <div class="showroom-item-cover flex align-center">
                         <div class="flex box-xs-10 align-center">
                           <img :src="'https://cdn.kia.ru'+showroomComplectation.overviews[0].path+'/1.png'" width="100%">
                         </div>
@@ -315,7 +315,7 @@
                     data-filename="{index}.png"
                     data-spin-reverse
                     data-amount="72">
-                    <div class="showroom-item-cover flex align-center" @click.prevent="activeShowroom">
+                    <div class="showroom-item-cover flex align-center">
                       <div class="flex box-xs-10 align-center">
                         <img :src="'https://cdn.kia.ru'+showroomComplectation.overviews[0].path+'/1.png'" width="100%">
                       </div>
@@ -518,6 +518,10 @@ export default {
       this.summaryCode = this.$route.query.summary_code;
       this.parseSummaryCode()
     }
+    $(document).on("click", ".showroom-item-cover", ()=>{
+      window.CI360.init();
+    })
+    
     console.log(this.$route.query.summary_code);
   },
   methods: {
@@ -660,7 +664,7 @@ export default {
       }) 
     },
     async activeShowroom(){
-      $(".showroom-item-cover").addClass("hide");
+      $(".showroom-item-cover").remove();
       window.CI360.init();
     },
     async progressStepsBar(stepNum){

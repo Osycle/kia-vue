@@ -1,0 +1,23 @@
+{
+	"error": 0,
+	"content":
+	{
+		"offers": [
+		{
+			"active_from": 1586120400,
+			"active_to": 1614459600,
+			"code": "prevention-covid",
+			"id": "f927c377-a36b-4ff0-bd4a-4065f18183f1",
+			"is_service": false,
+			"name": "Профилактика COVID-19",
+			"preview_image": "\/sale-data\/aftersales\/offers\/prevention-covid\/pre-min.jpg",
+			"preview_text": "Антибактериальной обработка салона автомобиля, а также проверка и замена салонного фильтра по специальной цене."
+		}],
+		"disclaimers": [],
+		"seo":
+		{
+			"title": "Специальные предложения KIA. Выгодные условия на сервисное обслуживание автомобилей КИА.",
+			"description": "Узнайте обо всех специальных предложениях KIA (КИА) по сервисному обслуживанию."
+		}
+	}
+}

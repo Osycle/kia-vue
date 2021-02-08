@@ -983,7 +983,7 @@ $heightSlider: auto;
 	z-index: 11;
 	top: 80px;
 	width: 100%;
-	transition: 0.3s ease;
+	transition: 0.1s ease;
 	&.scrolled{
 		top: 0;
 	}
@@ -1835,7 +1835,6 @@ $heightSlider: auto;
 		}
 		.col-2{
 			padding: 60px;
-			width: 100%;
 		}
 	}
 	@media (max-width: 991px){
@@ -3026,7 +3025,10 @@ ymaps .map-cluster{
 	}
 }
 .dealers-list{
- 	padding-bottom: 40px;
+	 padding-bottom: 40px;
+	 .radio-style-1{
+		 display: none;
+	 }
  	.item{
  		flex: 0 0 25%;
  		//margin-top: 35px;
@@ -3104,7 +3106,8 @@ ymaps .map-cluster{
  	}
  }
 .dealers-services{
- 	font-size: 12px;
+	 font-size: 12px;
+	display: none;
 	div{
 		color: $color-gray-5;
 		&:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4){
@@ -3278,6 +3281,7 @@ ymaps .map-cluster{
 //conf
 .conf-main{
 	border-top: 1px solid $color-gray-3;
+
 }
 .conf{
 	&.is-scrollf{
@@ -3469,6 +3473,11 @@ ymaps .map-cluster{
 		margin-right: auto;
 	}
 	@media (max-width: 991px){
+		padding-bottom: 100px;
+	}
+}
+.conf-step-1{
+	@media (max-width: 991px){
 		padding-bottom: 30px;
 	}
 }
@@ -3635,7 +3644,11 @@ dt{
 	}	
 }
 .conf-main-content{
-
+	@media (min-width: 992px){
+		.cloudimage-inner-box{
+			max-height: 500px;
+		}
+	}
 }
 
 .conf-steps-modal{
@@ -3735,9 +3748,12 @@ dt{
 
 .offset-header{
 	margin-top: 80px;
+	&[header-opacity]{
+		margin-top: 0;
+	}
 }
 .offset-model-header{
-	margin-top: 60px;
+	margin-top: 140px;
 	@media (max-width: 991px){
 		margin-top: 110px;
 	}
@@ -3821,5 +3837,15 @@ dt{
 		background-color: #000;
 		color: white;
 		padding: 20px 30px;
+	}
+}
+
+
+.cloudimage-360{
+	&.initialized{
+		.showroom-item-cover{
+			position: absolute;
+			visibility: hidden;
+		}
 	}
 }

@@ -6,92 +6,11 @@
 		{
 			"active_from": 1575147600,
 			"active_to": 1640898000,
-			"code": "credit-government",
-			"id": "14cda1c5-58c0-4644-b29c-17375687e451",
-			"name": "Государственные программы льготного автокредитования",
-			"preview_image": "\/sale-data\/special-offers\/gov_programms\/770_news_special_offer_gov_programms.jpg",
-			"preview_text": "Дополнительная выгода при оформлении программы в размере 10% от стоимости автомобиля"
-		},
-		{
-			"active_from": 1575147600,
-			"active_to": 1640898000,
-			"code": "trade-in",
-			"id": "ce40c7f0-04a2-11ea-9a9f-362b9e155667",
-			"name": "Программа Трейд-ин",
-			"preview_image": "\/sale-data\/special-offers\/financial99\/financial99_prev.jpg",
-			"preview_text": "Действует при сдаче автомобиля любой марки в счет стоимости нового автомобиля"
-		},
-		{
-			"active_from": 1575147600,
-			"active_to": 1640898000,
-			"code": "loyal-trade-in",
-			"id": "c67349cc-6848-463c-aa1e-459547fa006b",
-			"name": "Программа Трейд-ин для лояльных клиентов",
-			"preview_image": "\/sale-data\/special-offers\/loyal_trade_in_preview.jpg",
-			"preview_text": "Действует при сдаче автомобиля KIA в счет стоимости нового автомобиля"
-		},
-		{
-			"active_from": 1575147600,
-			"active_to": 1640898000,
-			"code": "medical_offer",
-			"id": "e51d200c-1c92-415b-8e74-9fd16c336a10",
-			"name": "Программа для работников медицинских учреждений",
-			"preview_image": "\/sale-data\/special-offers\/medical.jpg",
-			"preview_text": "KIA высоко ценит вклад работников медицинских учреждений во время пандемии COVID-19"
-		},
-		{
-			"active_from": 1606744868,
-			"active_to": 1640898000,
-			"code": "credit-tires",
-			"id": "167f40f7-07e2-4cc2-9a4a-067c48956261",
-			"name": "Зимний пакет \"КАСКО + Шины в комплекте\"",
-			"preview_image": "\/sale-data\/special-offers\/credit_tires_preview.jpg",
-			"preview_text": "Выгодное зимнее предложение от KIA Finance"
-		},
-		{
-			"active_from": 1606744494,
-			"active_to": 1640898000,
-			"code": "credit-kasko",
-			"id": "379c83c8-401f-4bc7-83fc-77e6914561d3",
-			"name": "КАСКО в комплекте",
-			"preview_image": "\/sale-data\/special-offers\/gov_programms\/770_news_special_offer_gov_programms.jpg",
-			"preview_text": "Выгодное зимнее предложение от KIA Finance"
-		},
-		{
-			"active_from": 1575147600,
-			"active_to": 1640898000,
 			"code": "credit-legko-plus",
 			"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
 			"name": "Программа кредитования \"KIA Легко Plus\"",
 			"preview_image": "\/sale-data\/special-offers\/government\/770_special-offer.jpg",
 			"preview_text": "Дополнительная выгода при оформлении программы."
-		},
-		{
-			"active_from": 1575147600,
-			"active_to": 1640898000,
-			"code": "credit-legko",
-			"id": "99b38964-fa7e-44e0-8fd3-9f058c86d621",
-			"name": "Программа кредитования \"KIA Легко\"",
-			"preview_image": "\/sale-data\/special-offers\/Special_offers_easy_plus_preview.png",
-			"preview_text": "Дополнительная выгода при оформлении программы."
-		},
-		{
-			"active_from": 1575147600,
-			"active_to": 1640898000,
-			"code": "credit-standart",
-			"id": "c40a2524-e7b3-4560-ad4c-ac6041243b92",
-			"name": "Программа кредитования \"KIA Стандарт\"",
-			"preview_image": "\/sale-data\/special-offers\/financical79\/financical79_prev.jpg",
-			"preview_text": "Выгодное предложение от KIA Finance"
-		},
-		{
-			"active_from": 1575147600,
-			"active_to": 1640898000,
-			"code": "credit-sovcombank",
-			"id": "1af90e4f-038b-4313-9cd5-a45f04b8a43a",
-			"name": "Программа «Автомобиль в рассрочку»",
-			"preview_image": "\/sale-data\/special-offers\/credit-sovcombank\/770_special-offer.jpg",
-			"preview_text": "Ставка 0% - выгодное предложение от KIA Finance"
 		}],
 		"model_lines": [
 		{

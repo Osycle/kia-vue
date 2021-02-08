@@ -1,5 +1,5 @@
 <template>
-  <div class="main-body carstock">
+  <div class="main-body offset-header carstock">
     <div class="options-bnr relative">
       <div class="container-p relative">
         <div class="flex-adaptive align-center justify-c-between">

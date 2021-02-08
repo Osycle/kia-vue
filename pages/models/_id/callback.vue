@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-body offset-header">
     <div class="breadcrumb-container">
       <div class="container-p">
         <ol class="breadcrumb">

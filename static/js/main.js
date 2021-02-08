@@ -366,7 +366,7 @@ if ( $(".js-select").length )
 				"position-right"
 			],
 			navbar: {
-				title: ""
+				title: "Меню"
 			},
 			navbars: [{
 					height: 0,
@@ -378,6 +378,7 @@ if ( $(".js-select").length )
 				}
 			]
 		}, {});
+		window.minMenu = $("#min-menu").data("mmenu");
 
 
 	window.mainJsActive = true;

@@ -1,5 +1,5 @@
 <template>
-  <div class="main-body model-special">
+  <div class="main-body offset-header model-special">
     <div class="container-p">
 
       <div class="breadcrumb-container">

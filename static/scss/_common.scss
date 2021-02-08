@@ -1193,9 +1193,10 @@ main{
 	//position: relative;
 	overflow: inherit;
 	z-index: 1;
+	background-color: white;
 	@media (max-width: 991px){
 		overflow: hidden;
-		padding-bottom: 30px;
+		
 	}
 	// ul:not([class]){
 	// 	text-align: left;
@@ -1253,7 +1254,7 @@ hr{
 		margin-top: 0;
 	}
 	p, li{
-		font-size: em(18);
+		font-size: em(15);
 	}
 	p:not([class*="color-"]){
 		line-height: 139%;

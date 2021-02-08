@@ -1,5 +1,5 @@
 <template>
-  <div class="main-body ">
+  <div class="main-body offset-header">
     <div class="breadcrumb-container">
       <div class="container-p">
         <ol class="breadcrumb">
@@ -19,13 +19,17 @@
           <div class="models-items boxes-4 figure-m-v-30 desktop:mb-12">
             <figure v-for="(model, key) in page.models" :key="key">
               <div class="img-content">
-                <nuxt-link :to="'/models/'+model.code+'/cars'">
+                <nuxt-link :to="'/models/'+model.code+'/cars'" class="hide"></nuxt-link>
+                <a href="javascript:;">
                   <img :src="'https://cdn.kia.ru/resize/400x198/'+model.image">
-                </nuxt-link>
+                </a>
               </div>
               <div class="desc-content">
                 <div class="car-card__name">
-                  <nuxt-link :to="'/models/'+model.code+'/cars'">{{model.name}}</nuxt-link>
+                  <nuxt-link :to="'/models/'+model.code+'/cars'" class="hide"></nuxt-link>
+                  <a href="javascript:;">
+                    {{model.name}}
+                  </a>
                 </div>
               </div>
             </figure>

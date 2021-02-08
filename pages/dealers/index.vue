@@ -1,5 +1,5 @@
 <template>
-  <div class="main-body ">
+  <div class="main-body offset-header">
     <div class="breadcrumb-container">
       <div class="container-p">
         <ol class="breadcrumb">
@@ -60,10 +60,11 @@
                   </label>
                 </div>
                 <div class="item-cell">
-                  <div>
-                    <p>{{item.address}}</p>
-                  </div>
-                  <div>{{item.work_time}}</div>
+                  <p>Наш адрес:</p>
+                  <p>Сергелийский район, массив А.Навоий, Ташкентская Кольцевая Автомобильная Дорога.</p>
+                  <p>Ориентир:</p>
+                  <p>Напротив автосалона Drivers Village.</p>
+                  <p>пн. - вс.: 9:00 - 18:00</p>
                 </div>
                 <div class="item-cell">
                   <div class="align-center">
@@ -178,22 +179,34 @@ export default {
 
       var iconDef = ymaps.templateLayoutFactory.createClass(iconDefHtml);
       var iconDefActive = ymaps.templateLayoutFactory.createClass(iconDefHtmlActive);
-      
-      for(var i = 0; i < dealerships.length; i++) {
+      //for(var i = 0; i < dealerships.length; i++) {
+
+      for(var i = 0; i < 1; i++) {
         //console.log(dealerships[i]);
+        // var html = 
+        //   `
+        //     <div class="info-content">
+        //       <p><b>${dealerships[i].name}</b></p>
+        //       <p>${dealerships[i].address}</p>
+        //       <p>${dealerships[i].work_time}</p>
+        //       <p><a href="${dealerships[i].site}"><u>${dealerships[i].site}</u></a></p>
+        //       <p><a href="${dealerships[i].phone}">${dealerships[i].phone}</a></p>
+        //       <div class="btn-content hide">
+        //         <div class="btn-def">
+        //           <a href="javascript:;">Выбрать</a>
+        //         </div>
+        //       </div>
+        //     </div>
+        //   `
         var html = 
           `
             <div class="info-content">
-              <p><b>${dealerships[i].name}</b></p>
-              <p>${dealerships[i].address}</p>
-              <p>${dealerships[i].work_time}</p>
-              <p><a href="${dealerships[i].site}"><u>${dealerships[i].site}</u></a></p>
-              <p><a href="${dealerships[i].phone}">${dealerships[i].phone}</a></p>
-              <div class="btn-content hide">
-                <div class="btn-def">
-                  <a href="javascript:;">Выбрать</a>
-                </div>
-              </div>
+              <p><b>Roodell</b></p>
+              <p>Наш адрес:</p>
+              <p>Сергелийский район, массив А.Навоий, Ташкентская Кольцевая Автомобильная Дорога.</p>
+              <p>Ориентир:</p>
+              <p>Напротив автосалона Drivers Village.</p>
+              <p>пн. - вс.: 9:00 - 18:00</p>
             </div>
           `
 

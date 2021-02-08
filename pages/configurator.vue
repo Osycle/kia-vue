@@ -1,5 +1,5 @@
 <template>
-  <div class="main-body relative conf " scrollf>
+  <div class="main-body relative conf offset-header" scrollf>
     <div class="breadcrumb-container">
       <div class="container-p">
         <ol class="breadcrumb">

@@ -1,5 +1,5 @@
 <template>
-  <div header-opacity>
+  <div class="main-body offset-header" header-opacity>
     <div class="kiaworld">
       <div class="kiaworld-bnr color-white" style="background-image: url('https://www.kia.ru/images/landing/about/concept/bg-header.jpg');">
         <div class="breadcrumb-container">

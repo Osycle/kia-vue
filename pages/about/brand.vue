@@ -1,5 +1,5 @@
 <template>
-  <div header-opacity>
+  <div class="main-body offset-header" header-opacity>
     <div class="kiaworld">
       <div class="kiaworld-bnr color-white" style="background-image: url('https://www.kia.ru/static/media-data/landing/about/brand/bg-header.jpg');">
         <div class="breadcrumb-container">
@@ -211,70 +211,13 @@
         </div>
       </div>
     </div>
-    <!-- kiaworld-other -->
-    <div class="kiaworld-other">
-      <div class="container-p p-v-md-60 p-v-30">
-        <div class="entry-header m-v-30">
-          <h3>Подробнее о KIA</h3>
-        </div>
-        <div class="kiaworld-other-items m-v-30 owl-carousel boxes-3 m-v-30 owl-btn-2">
-          <figure>
-            <a href="desing.html">
-              <div class="fig-wrapper">
-                <div class="img-content">
-                  <div class="img" style="background-image: url('https://www.kia.ru/images/landing/about/img-more-design.jpg');"></div>
-                </div>
-                <div class="desc-content">
-                  <h3>Дизайн</h3>
-                </div>
-              </div>
-            </a>
-          </figure>
-          <figure>
-            <a href="concept.html">
-              <div class="fig-wrapper">
-                <div class="img-content">
-                  <div class="img" style="background-image: url('https://www.kia.ru/static/media-data/landing/about/brand/menu/img-more-concept.jpg');"></div>
-                </div>
-                <div class="desc-content">
-                  <h3>Концепт-кары</h3>
-                </div>
-              </div>
-            </a>
-          </figure>
-          <figure>
-            <a href="kiaworld-sponsorship.html">
-              <div class="fig-wrapper">
-                <div class="img-content">
-                  <div class="img" style="background-image: url('https://www.kia.ru/static/media-data/landing/about/brand/menu/img-more-sponsorship.jpg');"></div>
-                </div>
-                <div class="desc-content">
-                  <h3>Спонсорство</h3>
-                </div>
-              </div>
-            </a>
-          </figure>
-          <figure>
-            <a href="kiaworld-history.html">
-              <div class="fig-wrapper">
-                <div class="img-content">
-                  <div class="img" style="background-image: url('https://www.kia.ru/static/media-data/landing/about/brand/menu/img-more-history.jpg');"></div>
-                </div>
-                <div class="desc-content">
-                  <h3>История KIA</h3>
-                </div>
-              </div>
-            </a>
-          </figure>
-        </div>
-      </div>
-    </div>
+    <KiaworldOther />
   </div>
 </template>
 
 
 <script>
-
+import KiaworldOther from "@/components/kiaworld/KiaworldOther";
 
 
 export default {
@@ -287,6 +230,9 @@ export default {
         }
       ],
     }
+  },
+  components:{
+    KiaworldOther
   },
   async asyncData(context){
     try{

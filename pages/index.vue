@@ -1,5 +1,5 @@
 <template>
-  <div header-opacity>
+  <div class="main-body" header-opacity>
     <div class="bnr-carousel">
       <div class="bnr-carousel-items owl-carousel owl-btn-2">
 

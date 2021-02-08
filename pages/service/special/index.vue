@@ -1,24 +1,23 @@
 <template>
-  <div class="main-body offset-header specials">
-    <div class="bnr-area">
-      <div class="breadcrumb-container">
-        <div class="container-p">
-          <ol class="breadcrumb">
-            <li><nuxt-link to="/">Главная</nuxt-link></li>
-            <li><nuxt-link to="">Спецпредложение</nuxt-link></li>
-          </ol>
-        </div>
-      </div>
-      <div class="container-p">
-        <div class="entry-content">
-          <h1 class="desktop:text-x3">Специальные предложения</h1>
-        </div>
-      </div>
-    </div>
+  <div class="main-body offset-header model-special">
     <div class="container-p">
-      <div class="short-news-items boxes-4 figure-m-v-15 p-b-30 m-v-30">
+      <div class="breadcrumb-container">
+        <ol class="breadcrumb">
+          <li><nuxt-link to="/">Главная</nuxt-link></li>
+          <li><nuxt-link to="">Спецпредложения на сервис KIA</nuxt-link></li>
+        </ol>
+      </div>
+      <div class="entry-header m-v-30">
+        <div class="flex-adaptive justify-c-between">
+          <h1 class="text-x5">Спецпредложения на сервис KIA</h1>
+        </div>
+      </div>
+      <div class="m-t-30 m-b-15">
+        {{page.offers.length}} спецпредложения
+      </div>
+      <div class="short-news-items boxes-4 figure-m-v-15 p-b-30 m-t-15 m-b-30">
         <figure v-for="(offer, key) in page.offers" :key="key">
-          <nuxt-link :to="'/buy/special/'+offer.code">
+          <nuxt-link :to="'/service/special/'+offer.code">
             <div class="fig-wrapper">
               <div class="img-content">
                 <div class="img" :style="'background-image: url(\'https://cdn.kia.ru/resize/410x277'+offer.preview_image+'\');'"></div>
@@ -33,9 +32,9 @@
         </figure>
       </div>
     </div>
-
   </div>
 </template>
+
 <script>
 export default {
   head() {
