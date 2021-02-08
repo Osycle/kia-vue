@@ -317,7 +317,7 @@
                     data-amount="72">
                     <div class="showroom-item-cover flex align-center">
                       <div class="flex box-xs-10 align-center">
-                        <img :src="'https://cdn.kia.ru'+showroomComplectation.overviews[0].path+'/1.png'" width="100%">
+                        <img :src="'https://cdn.kia.ru'+selectOverview.path+'/1.png'" width="100%">
                       </div>
                     </div>
                 </div>
