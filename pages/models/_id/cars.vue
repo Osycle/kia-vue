@@ -29,50 +29,20 @@
                 <fieldset>
                   <h4>Двигатель</h4>
                   <div class="input-items">
-                    <label role="button" class="align-center m-v-15">
+                    <label role="button" class="align-center m-v-15" v-for="(engine, key) in page.filter.engines" :key="key">
                       <input type="checkbox" name="" class="none" >
                       <span class="checkbox-style-1"></span>
-                      <span class="m-l-10">2.0 MPI / 149 л.с. / Бензин</span>
-                    </label>
-                    <label role="button" class="align-center m-v-15">
-                      <input type="checkbox" name="" class="none" >
-                      <span class="checkbox-style-1"></span>
-                      <span class="m-l-10">1.6 T-GDI / 177 л.с. / Бензин</span>
+                      <span class="m-l-10">{{engine.name}} / {{engine.power_hp}} л.с. / {{engine.fuel_type_name}}</span>
                     </label>
                   </div>
                 </fieldset>
 							<fieldset>
 								<h4>Комплектация</h4>
 								<div class="input-items">
-									<label role="button" class="align-center m-v-15">
+									<label role="button" class="align-center m-v-15" v-for="(complectation, key) in page.filter.complectations" :key="key">
 										<input type="checkbox" name="" class="none" >
 										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Classic</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Comfort</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Luxe</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Prestige</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Style</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">GT line</span>
+										<span class="m-l-10">{{complectation.name}}</span>
 									</label>
 								</div>
 							</fieldset>
@@ -208,9 +178,30 @@ export default {
 	},
   mounted() {
 
-
+		$('.config-sidebar').theiaStickySidebar({
+			//additionalMarginBottom: -300,
+			additionalMarginTop: 0,
+			defaultPosition: "absolute"
+		});
+		
 				
 		
   },
 }
 </script>
+
+<style lang="scss" scoped>
+  .options-entry{
+    .theiaStickySidebar{
+      transition: 0.3s esae;
+    }
+  }
+  @media (min-width: 992px){
+    .options-entry:not(.down) .theiaStickySidebar[style*='fixed']{
+      transform: translateY(80px) !important;
+    }
+  }
+  .config-filter{
+    min-height: calc(100vh - 0px);
+  }
+</style>
