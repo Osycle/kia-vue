@@ -21,8 +21,11 @@
       </div>
     </div>
     <div class="entry-content border-top">
+
+
       <div class="options-entry scrolled-down">
         <div class="container-p relative">
+          
           <div class="config-sidebar">	
             <div class="config-filter">
               <div class="config-filter-items">
@@ -30,7 +33,7 @@
                   <h4>Двигатель</h4>
                   <div class="input-items">
                     <label role="button" class="align-center m-v-15" v-for="(engine, key) in page.filter.engines" :key="key">
-                      <input type="checkbox" name="" class="none" >
+                      <input type="checkbox" name="" class="none" :value="engine.id" :data-value="engine.id">
                       <span class="checkbox-style-1"></span>
                       <span class="m-l-10">{{engine.name}} / {{engine.power_hp}} л.с. / {{engine.fuel_type_name}}</span>
                     </label>
@@ -40,17 +43,40 @@
 								<h4>Комплектация</h4>
 								<div class="input-items">
 									<label role="button" class="align-center m-v-15" v-for="(complectation, key) in page.filter.complectations" :key="key">
-										<input type="checkbox" name="" class="none" >
+										<input type="checkbox" name="" class="none" :value="complectation.id" :data-value="complectation.id">
 										<span class="checkbox-style-1"></span>
 										<span class="m-l-10">{{complectation.name}}</span>
 									</label>
+								</div>
+							</fieldset>
+							<fieldset>
+								<h4>Год производства</h4>
+								<div class="input-items">
+									<label role="button" class="align-center m-v-15" v-for="(year, key) in page.filter.years" :key="key">
+										<input type="checkbox" name="" class="none" :value="year.id" :data-value="year.id">
+										<span class="checkbox-style-1"></span>
+										<span class="m-l-10">{{year.name}}</span>
+									</label>
+								</div>
+							</fieldset>
+							<fieldset>
+								<h4>Цвет кузова</h4>
+								<div class="input-items showroom-colorselect">
+                  <ul class="list m-t-10">
+                    <li class="active">
+                      <label role="button" class="align-center">
+                        <input type="checkbox" name="" class="none">
+                        <div class="color-select" style="background-image: url('https://www.kia.ru/static/master-data/colors/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg');"></div>
+                      </label>
+                    </li>
+                  </ul>
 								</div>
 							</fieldset>
               </div>
             </div>
           </div>
 
-          <div class="carstock-content p-h-30 p-h-md-60">
+          <div class="carstock-content offset-left-bar">
             <div class="carstock-items figure-m-v-30">
               <div class="item">
                 <figure>
@@ -155,6 +181,11 @@ export default {
       ],
     }
   },
+  data(){
+    return{
+      filterVisible: true,
+    }
+  },
   async asyncData(context){
     try{
 			const path = context.route.path;
@@ -190,18 +221,21 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .options-entry{
     .theiaStickySidebar{
       transition: 0.3s esae;
     }
-  }
-  @media (min-width: 992px){
-    .options-entry:not(.down) .theiaStickySidebar[style*='fixed']{
-      transform: translateY(80px) !important;
+    &:not(.down){
+      @media (min-width: 992px) {
+        .theiaStickySidebar[style*='fixed']{
+          transform: translateY(80px) !important;
+        }
+      }
     }
   }
   .config-filter{
     min-height: calc(100vh - 0px);
   }
+
 </style>

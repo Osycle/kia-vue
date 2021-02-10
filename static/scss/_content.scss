@@ -1555,6 +1555,10 @@ $heightSlider: auto;
 		justify-content: center;
 		align-items: center;
 	}
+	li{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
 	.list{
 		display: flex;
 		flex-wrap: wrap;
@@ -1562,19 +1566,8 @@ $heightSlider: auto;
 			display: inline-block;
 			margin-right: 5px;
 			position: relative;
-			&:before{
-				@extend .clafclear;
-				display: none;
-				background-image: url('https://www.kia.ru/_nuxt/assets/check-colour.ace89650.svg');
-				background-position: center;
-				background-repeat: no-repeat;
-				top: 0;
-				left: 0;
-				pointer-events: none;
-				z-index: 1;
-			}
 			&.active{
-				&:before{
+				.color-select:before{
 					display: block;
 				}
 			}
@@ -1593,10 +1586,26 @@ $heightSlider: auto;
 		border-radius: 50%;
 		background-position: center;
 		background-size: cover;
+		&:before{
+			@extend .clafclear;
+			display: none;
+			background-image: url('https://www.kia.ru/_nuxt/assets/check-colour.ace89650.svg');
+			background-position: center;
+			background-repeat: no-repeat;
+			top: 0;
+			left: 0;
+			pointer-events: none;
+			z-index: 1;
+		}
 	}
 	.check-img{
 		position: absolute;
 	}
+	// input{
+	// 	&:checked{
+
+	// 	}
+	// }
 }
 
 
@@ -2444,13 +2453,15 @@ $heightSlider: auto;
 	padding-right: 15px;
 	width: 300px;
 	margin-left: -1px;
-	a{
-		display: flex;
-		justify-content: space-between;
-		padding: 20px 5px;
-		i{
-			font-weight: 600;
-			font-size: 18px;
+	.collapse-content{
+		a{
+			display: flex;
+			justify-content: space-between;
+			padding: 20px 5px;
+			i{
+				font-weight: 600;
+				font-size: 18px;
+			}
 		}
 	}
 	fieldset{
@@ -3839,8 +3850,6 @@ dt{
 		padding: 20px 30px;
 	}
 }
-
-
 .cloudimage-360{
 	&.initialized{
 		.showroom-item-cover{
@@ -3848,4 +3857,7 @@ dt{
 			visibility: hidden;
 		}
 	}
+}
+.offset-left-bar{
+	padding-left: 335px;
 }
