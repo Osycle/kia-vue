@@ -2069,26 +2069,9 @@
 			"complectations": [
 			{
 				"gallery": null,
-				"id": "f50239f8-c152-4680-8bba-051691f8e01c",
-				"label": null,
-				"min_price": 1479900,
-				"modifications": [
-				{
-					"acceleration_to_100": 10.6,
-					"consumption_per_100": 7.2,
-					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
-				}],
-				"name": "Classic",
-				"name_en": "Classic",
-				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "b122e29d-50de-4be9-932a-6980d3fb5593", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "a6758985-e2f1-402c-b50f-16f93bf7e41c"],
-				"price": 1519900
-			},
-			{
-				"gallery": null,
 				"id": "7be5053b-9ef0-4d7b-b6b0-367daa774285",
 				"label": null,
-				"min_price": 1639900,
+				"min_price": 249900000,
 				"modifications": [
 				{
 					"acceleration_to_100": 10.6,
@@ -2099,13 +2082,13 @@
 				"name": "Comfort",
 				"name_en": "Comfort",
 				"options": ["8e287a59-a6c8-4a46-bb83-b956869e2b90", "b122e29d-50de-4be9-932a-6980d3fb5593", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2"],
-				"price": 1639900
+				"price": 249900000
 			},
 			{
 				"gallery": null,
 				"id": "ea939986-7735-4b5e-b6a0-52694b4b20e7",
 				"label": null,
-				"min_price": 1739900,
+				"min_price": 269900000,
 				"modifications": [
 				{
 					"acceleration_to_100": 10.6,
@@ -2122,20 +2105,14 @@
 				"name": "Luxe",
 				"name_en": "Luxe",
 				"options": ["a95a7f44-f8ca-4a67-bab1-4f4a256cd362", "b913fb68-795a-4e24-845e-a518cbd82a54", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2"],
-				"price": 1739900
+				"price": 269900000
 			},
 			{
 				"gallery": null,
 				"id": "ecc1c0b3-61db-4fa7-af9a-65ee4e881e1e",
 				"label": null,
-				"min_price": 1829900,
+				"min_price": 293900000,
 				"modifications": [
-				{
-					"acceleration_to_100": 10.6,
-					"consumption_per_100": 7.2,
-					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
-				},
 				{
 					"acceleration_to_100": 8.6,
 					"consumption_per_100": 7.1,
@@ -2145,20 +2122,14 @@
 				"name": "Prestige",
 				"name_en": "Prestige",
 				"options": ["b913fb68-795a-4e24-845e-a518cbd82a54", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "c7049a87-8fe7-4d69-8319-3d309a1b376b", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "8bd17b34-6289-4053-86a1-f8d6a29ba632", "f8a2e09f-3ea4-4041-a13e-203c4ef7ff08", "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0"],
-				"price": 1829900
+				"price": 293900000 
 			},
 			{
 				"gallery": null,
 				"id": "6436406b-513d-4368-bbee-d587d25133a2",
 				"label": null,
-				"min_price": 1879900,
+				"min_price": 343900000,
 				"modifications": [
-				{
-					"acceleration_to_100": 10.6,
-					"consumption_per_100": 7.2,
-					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
-				},
 				{
 					"acceleration_to_100": 8.6,
 					"consumption_per_100": 7.1,
@@ -2168,13 +2139,13 @@
 				"name": "Style",
 				"name_en": "Style",
 				"options": ["f2287862-3158-4845-b392-5e13ad841e20", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "5e106d34-d6d7-46c6-a9c7-fed9159e9e93", "8f212f10-7e95-4ab2-9186-017fc4f63e78", "268a8241-e190-4deb-bcab-27a7a6ce4d45", "b7daa006-d5f5-4e0e-93a2-70ab2e926fcd", "5828ad6b-e2b3-41dd-bc9b-fbbd886386f6"],
-				"price": 1879900
+				"price": 343900000
 			},
 			{
 				"gallery": null,
 				"id": "478e1dd1-b192-42c9-84f3-5c786088f540",
 				"label": null,
-				"min_price": 2139900,
+				"min_price": 369900000,
 				"modifications": [
 				{
 					"acceleration_to_100": 8.6,
@@ -2185,24 +2156,7 @@
 				"name": "GT Line",
 				"name_en": "GT Line",
 				"options": ["3fe66ebe-4ebf-4315-8956-1215a9dabe0a", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "36a41171-6d2f-4686-bd0f-bce430d94d14", "a8ed9a16-e6e2-48e7-80fe-99089327f8ab", "399d2db1-65ff-4dcd-b9b4-aa2c39af2812", "5e106d34-d6d7-46c6-a9c7-fed9159e9e93", "0a4f60db-3972-4404-9d0e-9570ca749f09", "268a8241-e190-4deb-bcab-27a7a6ce4d45", "591cefe7-cd58-4fae-95a9-8f72b70d9ec3"],
-				"price": 2139900
-			},
-			{
-				"gallery": null,
-				"id": "5eced350-c1a5-4c99-9f21-2db5ee24462f",
-				"label": null,
-				"min_price": 2229900,
-				"modifications": [
-				{
-					"acceleration_to_100": 8.6,
-					"consumption_per_100": 7.1,
-					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-					"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e"
-				}],
-				"name": "GT Line+",
-				"name_en": "GT Line+",
-				"options": ["3c7e88e7-9334-4884-94ea-9919fc20deb5", "4e702cfa-452d-4991-bb83-245be872d21a", "5e106d34-d6d7-46c6-a9c7-fed9159e9e93", "f30067c0-722c-4b5f-92a8-246d26d083ca", "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0", "b76b2bc1-343f-4982-85ae-956637101548", "c9a21753-14fa-45c5-997f-9039a89f23e2", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1", "268a8241-e190-4deb-bcab-27a7a6ce4d45"],
-				"price": 2229900
+				"price": 369900000
 			}],
 			"engines": [
 			{

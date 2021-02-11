@@ -283,19 +283,18 @@ figcaption{
 	margin-right: auto;
 }
 .container-p{
-	padding-left: 80px;
-	padding-right: 80px;
-	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	width: calc(100% - 160px);
 	@media (min-width: 1900px){
 		max-width: 1800px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	
-
 	@media (max-width: 991px){
 		padding-right: 15px;
 		padding-left: 15px;	
+		width: 100%;
 	}
 }
 .container-p-2{
@@ -2412,6 +2411,12 @@ $heightSlider: auto;
 	}
 	.wrapper{
 		display: flex;
+		&:before{
+			@extend .claf;
+			width: 200% !important;
+			background-color: white;
+			left: -50%;
+		}
 		.config-content{
 			width: calc(100%);
 			position: absolute;

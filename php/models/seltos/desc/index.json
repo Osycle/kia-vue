@@ -15,10 +15,10 @@
 			"logo_white": "\/master-data\/models\/logo\/seltos-logo-white.svg",
 			"max_benefit": 45000,
 			"min_credit_price": 5960,
-			"min_price": 1104900,
+			"min_price": 229900000,
 			"model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
 			"name": "Seltos",
-			"price": 1149900,
+			"price": 229900000,
 			"price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
 			"overview_default_color_id": "96e40eb5-9bea-49a6-9273-38fdd8f1a398"
 		},
@@ -1305,86 +1305,10 @@
 			"complectations": [
 			{
 				"gallery": null,
-				"id": "9ea73aaa-b670-4db4-ae46-bd005e0a693b",
-				"label": null,
-				"min_price": 1104900,
-				"modifications": [
-				{
-					"acceleration_to_100": 12.2,
-					"consumption_per_100": 6.9,
-					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
-					"transmission_id": "f7c81bad-f6e6-474b-9b18-0426325946a1"
-				},
-				{
-					"acceleration_to_100": 12.3,
-					"consumption_per_100": 7.4,
-					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
-				}],
-				"name": "Classic",
-				"name_en": "Classic",
-				"options": ["d129184e-c14b-4658-89e7-bb79aaa4bc9c", "c8170134-afd7-4067-b8e2-f014933629eb", "76a7a316-195b-4de1-9f89-d15bcea7a340", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "44c98cc0-3417-4f2e-933a-fc4db09d0f98", "44140984-8606-4aeb-a60f-9928abb52779", "8801a8be-dd81-4dcf-b4f3-ada1b8433b1e"],
-				"price": 1149900
-			},
-			{
-				"gallery": null,
-				"id": "3acca6ca-0db3-4149-a95b-0f5031b6a905",
-				"label": null,
-				"min_price": 1174900,
-				"modifications": [
-				{
-					"acceleration_to_100": 12.2,
-					"consumption_per_100": 6.9,
-					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
-					"transmission_id": "f7c81bad-f6e6-474b-9b18-0426325946a1"
-				},
-				{
-					"acceleration_to_100": 12.3,
-					"consumption_per_100": 7.4,
-					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
-				},
-				{
-					"acceleration_to_100": 12.9,
-					"consumption_per_100": 7.8,
-					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
-					"transmission_id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3"
-				},
-				{
-					"acceleration_to_100": 12.6,
-					"consumption_per_100": 8,
-					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
-					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5"
-				}],
-				"name": "Comfort",
-				"name_en": "Comfort",
-				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "76a7a316-195b-4de1-9f89-d15bcea7a340", "3af93114-6d35-4623-b114-d1890c062014", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "a6758985-e2f1-402c-b50f-16f93bf7e41c", "ae93d9b6-045a-4664-87d2-9845ba6b44b7"],
-				"price": 1219900
-			},
-			{
-				"gallery": null,
 				"id": "3648b119-7ea0-4566-81b2-2c40b1e20aef",
 				"label": null,
-				"min_price": 1324900,
+				"min_price": 229900000,
 				"modifications": [
-				{
-					"acceleration_to_100": 12.3,
-					"consumption_per_100": 7.4,
-					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
-				},
-				{
-					"acceleration_to_100": 12.9,
-					"consumption_per_100": 7.8,
-					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
-					"transmission_id": "19e1eb93-2005-44ce-ad6c-e0b23b1255e3"
-				},
-				{
-					"acceleration_to_100": 12.6,
-					"consumption_per_100": 8,
-					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
-					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5"
-				},
 				{
 					"acceleration_to_100": 9.6,
 					"consumption_per_100": 6.8,
@@ -1394,26 +1318,14 @@
 				"name": "Luxe",
 				"name_en": "Luxe",
 				"options": ["a742c73a-6059-4e56-9a65-d17ae402dfb7", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "90596dad-b569-4f34-b59d-57a20baa90d7", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"],
-				"price": 1369900
+				"price": 229900000
 			},
 			{
 				"gallery": null,
 				"id": "2c5dccb3-f15e-4c05-acd4-a3c2134629e3",
 				"label": null,
-				"min_price": 1364900,
+				"min_price": 252900000,
 				"modifications": [
-				{
-					"acceleration_to_100": 12.3,
-					"consumption_per_100": 7.4,
-					"engine_id": "5759827e-2032-4a2d-b1a1-f861f4430bc7",
-					"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611"
-				},
-				{
-					"acceleration_to_100": 12.6,
-					"consumption_per_100": 8,
-					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
-					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5"
-				},
 				{
 					"acceleration_to_100": 9.6,
 					"consumption_per_100": 6.8,
@@ -1429,20 +1341,14 @@
 				"name": "Style",
 				"name_en": "Style",
 				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "90596dad-b569-4f34-b59d-57a20baa90d7"],
-				"price": 1409900
+				"price": 252900000
 			},
 			{
 				"gallery": null,
 				"id": "6e985191-1656-4d73-87ac-8fc49a319a61",
 				"label": null,
-				"min_price": 1534900,
+				"min_price": 279900000,
 				"modifications": [
-				{
-					"acceleration_to_100": 12.6,
-					"consumption_per_100": 8,
-					"engine_id": "8c65d90d-7f97-445e-9411-110f1880afe2",
-					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5"
-				},
 				{
 					"acceleration_to_100": 9.6,
 					"consumption_per_100": 6.8,
@@ -1454,57 +1360,11 @@
 					"consumption_per_100": 7.3,
 					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257"
-				},
-				{
-					"acceleration_to_100": 8.4,
-					"consumption_per_100": 7.6,
-					"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
-					"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69"
 				}],
 				"name": "Prestige",
 				"name_en": "Prestige",
 				"options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
-				"price": 1619900
-			},
-			{
-				"gallery": null,
-				"id": "4f0d42cc-98f8-4b21-9a9d-0887b81e4295",
-				"label": null,
-				"min_price": 1824900,
-				"modifications": [
-				{
-					"acceleration_to_100": 10.4,
-					"consumption_per_100": 7.3,
-					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
-					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257"
-				},
-				{
-					"acceleration_to_100": 8.4,
-					"consumption_per_100": 7.6,
-					"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
-					"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69"
-				}],
-				"name": "Premium",
-				"name_en": "Premium",
-				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1"],
-				"price": 1869900
-			},
-			{
-				"gallery": null,
-				"id": "949372a9-7227-450f-a9ee-dbc894d62567",
-				"label": null,
-				"min_price": 2004900,
-				"modifications": [
-				{
-					"acceleration_to_100": 8.4,
-					"consumption_per_100": 7.6,
-					"engine_id": "d87eb6d2-f238-43eb-8c34-450edbb73a0a",
-					"transmission_id": "5805fe67-fb4c-4695-a3c6-2df8e3dacb69"
-				}],
-				"name": "Premium+",
-				"name_en": "Premium+",
-				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "cf530c4e-801b-4b6d-b8c1-e24d34463871", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "98e7502e-a301-4fa1-941e-b8dbbf9746f4", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "14881c3f-121b-4b8c-ae6c-1d7a37c754c2", "5ad85803-503b-4a51-9b80-fc7a2eaa14e1", "2814d7c0-ade7-4b0e-86a4-26509dc65c63"],
-				"price": 2049900
+				"price": 279900000
 			}],
 			"engines": [
 			{

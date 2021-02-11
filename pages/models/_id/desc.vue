@@ -47,15 +47,13 @@
         <div class="img-xs absolute" :style="'background-image: url('+bnr.images.mobile+');'"></div>
       </div>
       <div class="container-p relative">
-      <div class="breadcrumb-container">
-        <div class="container-p">
+        <div class="breadcrumb-container">
           <ol class="breadcrumb">
             <li><nuxt-link to="/">Главная</nuxt-link></li>
             <li><nuxt-link to="/models">Модели</nuxt-link></li>
             <li><nuxt-link :to="'/models/'+$route.params.id">{{page.model.name}}</nuxt-link></li>
           </ol>
         </div>
-      </div>
         <div class="wrapper-content">
           <div class="desc-content justify-c-end hidden-xs hidden-sm">
             <span class="text align-center"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span> <a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
@@ -313,7 +311,7 @@
                 </div>
                 <div class="link-content m-t-20">
                   <div class="align-center font-w-6">
-                    <a href="../models-options.html" class="hover-aunderline"><b>Комплектации и цены</b></a>
+                    <nuxt-link :to="'/models/'+page.model.code+'/options'"><b>Комплектации и цены</b></nuxt-link>
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
                   </div>
                 </div>
@@ -396,6 +394,28 @@ export default {
     }catch(e){
       context.error(e);
     }
+  },
+  mounted(){
+		$(".card-sets-items.owl-carousel").owlCarousel({
+      nav: !checkSm(),
+      loop: false,
+      //items: 3,
+      dots: false,
+      dotsEach: false,
+      //slideBy: 2,
+      autoplay: false,
+      autoplayTimeout: 5400,
+      touchDrag: true,
+      center: false,
+      autoheight: true,
+      responsive:{
+        0:{items:1.1},
+        991:{items:3},
+        1600:{items:4}
+      },
+      navText : owlBtn,
+      margin: 30
+		});
   },
   data(){
     return{
