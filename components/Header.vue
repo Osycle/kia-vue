@@ -154,7 +154,7 @@
                         <div class="color-gray-4 title-content">KIA в Узбекистане</div>
                         <ul>
                           <li><nuxt-link to="/service/booking/">Обратная связь</nuxt-link></li>
-                          <li><nuxt-link to="/about/dealers/">Дилеры</nuxt-link></li>
+                          <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
                         </ul>
                       </div>
                     </div>
