@@ -3866,3 +3866,18 @@ dt{
 .offset-left-bar{
 	padding-left: 335px;
 }
+
+
+.about-desc{
+	.item{
+		border-top: 1px solid #ccc;
+		font-size: 1.2em;
+		.flex{
+			flex-flow: row wrap;
+		}
+	}
+	.item-media-video{
+		width: 100%;
+		display: block;
+	}
+}

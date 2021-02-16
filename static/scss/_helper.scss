@@ -286,16 +286,23 @@ html{
 
 
 @media (min-width: 992px){
-	.desktop\:justify-c-center{ justify-content: center; }
-	.desktop\:justify-c-between{ justify-content: space-between; }
-	.desktop\:justify-c-start{ justify-content: flex-start; }
-	.desktop\:justify-c-end{ justify-content: flex-end; }
+
+	.desktop\:jc-center{ justify-content: center; }
+	.desktop\:jc-between{ justify-content: space-between; }
+	.desktop\:jc-start{ justify-content: flex-start; }
+	.desktop\:jc-end{ justify-content: flex-end; }
+
+	.desktop\:fd-columm{ flex-direction: column; }
+
 }
 @media (max-width: 991px){
-	.mobile\:justify-c-center{ justify-content: center; }
-	.mobile\:justify-c-between{ justify-content: space-between; }
-	.mobile\:justify-c-start{ justify-content: flex-start; }
-	.mobile\:justify-c-end{ justify-content: flex-end; }
+
+	.mobile\:jc-center{ justify-content: center; }
+	.mobile\:jc-between{ justify-content: space-between; }
+	.mobile\:jc-start{ justify-content: flex-start; }
+	.mobile\:jc-end{ justify-content: flex-end; }
+
+	.mobile\:fd-columm{ flex-direction: column; }
 }
 
 .justify-c-center{ justify-content: center; }
@@ -776,6 +783,14 @@ img[auto]{
 	.pl-#{$i}{
 		padding-left: $i*5px;
 	}
+	.pv-#{$i}{
+		padding-top: $i*5px;
+		padding-bottom: $i*5px;
+	}
+	.ph-#{$i}{
+		padding-left: $i*5px;
+		padding-right: $i*5px;
+	}
 }
 @media (min-width: 64em){
 
@@ -807,6 +822,14 @@ img[auto]{
 		.desktop\:ml-#{$i}{
 			margin-left: $i*5px;
 		}
+		.desktop\:mv-#{$i}{
+			margin-top: $i*5px;
+			margin-bottom: $i*5px;
+		}
+		.desktop\:mh-#{$i}{
+			margin-left: $i*5px;
+			margin-right: $i*5px;
+		}
 	}
 	@for $i from 0 through 20{
 		.desktop\:pt-#{$i}{
@@ -820,6 +843,14 @@ img[auto]{
 		}
 		.desktop\:pl-#{$i}{
 			padding-left: $i*5px;
+		}
+		.desktop\:pv-#{$i}{
+			padding-top: $i*5px;
+			padding-bottom: $i*5px;
+		}
+		.desktop\:ph-#{$i}{
+			padding-left: $i*5px;
+			padding-right: $i*5px;
 		}
 	}
 }
