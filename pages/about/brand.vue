@@ -94,7 +94,7 @@
           </div>
         </div>
         <div class="img-entry-header relative">
-          <div class="container-p text-content color-white m-t-md-40">
+          <div class="container text-content color-white m-t-md-40">
             <h4 class="color-2 text-n1">ДЕВИЗ КОМПАНИИ</h4>
             <div class="row-15 flex-adaptive justify-c-between">
               <div class="col-md-4 p-h-15">

@@ -1916,7 +1916,14 @@ $heightSlider: auto;
 }
 .kiaworld-logo{
 	position: relative;
-	overflow: hidden;
+	z-index: 1;
+	.img-entry-header{
+		max-height: auto;
+		.text-content{
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
 	.kiaworld-logo-wrapper{
 		margin-left: 40px;	
 		margin-right: 40px;	
@@ -1948,21 +1955,18 @@ $heightSlider: auto;
 			padding: 15px;
 		}
 	}
-
-}
-.kiaworld-logo{
 	.img-bg{
 		@media (min-width: 992px){
-			height: 900px;
+			height: auto;
+			margin-bottom: -10%;
 			img{
-				position: absolute;
-    		transform: translateY(-50%);
-    		z-index: -1;
-    		top: calc(50% - 150px);
+				display: block;
+				width: 100%;
 			}
 		}
 	}
 }
+
 .img-entry-header{
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -2038,7 +2042,7 @@ $heightSlider: auto;
 	}
 }
 .g-container{
-	max-width: c;
+	max-width: 1760px;
   margin: 0 auto;
 }
 .kiaworld-plan{
@@ -3880,4 +3884,21 @@ dt{
 		width: 100%;
 		display: block;
 	}
+}
+
+.about-stat{
+	background: linear-gradient(180deg,#d8e9f1,rgba(216,233,241,0));
+	.num-style{
+		font-size: 90px;
+    line-height: 111%;
+    letter-spacing: -.03em;
+    font-weight: 700;
+	}
+	.color-gray-5{
+		line-height: 140%;
+		font-size: 18px;
+	}
+}
+.about-stat-items{
+	
 }

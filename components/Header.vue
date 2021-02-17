@@ -52,8 +52,8 @@
                         <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li>
                         <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li>
                         <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
-                        <li><nuxt-link to="/callback">Запрос предложения</nuxt-link></li>
-                        <li><nuxt-link to="/buy/testdrive/">Записть на тест-драйв</nuxt-link></li>
+                        <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>
+                        <li><nuxt-link to="/feedback">Записть на тест-драйв</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="item">
@@ -239,7 +239,19 @@
           <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
           <li><nuxt-link to="/buy/cars">Авто в наличии</nuxt-link></li>
           <li>
-            <a href="javascript:;" subdown-click="3">Мир KIA</a>
+            <a href="javascript:;">Выбор и покупка</a>
+            <ul>
+              <li><nuxt-link to="/buy">Онлайн-сервисы</nuxt-link></li>
+              <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
+              <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li>
+              <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li>
+              <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
+              <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>
+              <li><nuxt-link to="/feedback">Записть на тест-драйв</nuxt-link></li>
+            </ul>
+          </li>
+          <li>
+            <nuxt-link to="/about">Мир KIA</nuxt-link>
             <ul>
               <li><nuxt-link to="/about/brand/">Компания KIA Motors</nuxt-link></li>
               <li><nuxt-link to="/about/history/">История</nuxt-link></li>

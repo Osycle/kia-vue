@@ -62,12 +62,12 @@
           </figure>
           <figure>
             <div class="img-content">
-              <nuxt-link :to="'/buy/testdrive/'">
+              <nuxt-link :to="'/feedback'">
                 <img src="https://www.kia.ru/images/buy/online/007.jpg" alt="">
               </nuxt-link>
             </div>
             <div class="desc-content">
-              <nuxt-link :to="'/buy/testdrive/'" class="hover-aunderline">
+              <nuxt-link :to="'/feedback'" class="hover-aunderline">
                 <span class="text-s1">Запись на тест-драйв</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>

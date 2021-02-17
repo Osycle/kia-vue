@@ -225,7 +225,7 @@
                           </a>
                         </div>
                     </div>
-                    <div :id="'step-3-complectation-'+key" class="drop-content collapse" role="tabpanel">
+                    <div :id="'step-3-complectation-'+key" class="drop-content collapse" role="tabpasnel">
                       <div class="drop-content-body">
                         <ul>
                           <template v-for="(baseOption) in groupOptions">
@@ -706,9 +706,9 @@ export default {
 
         this.selectComplectation = this.selectComplectations[0];
         setTimeout(()=>{
-          $(".conf-step-3").find("[data-toggle='collapse']").eq(0).trigger("click");
           collapseClear();
-        }, 1)
+          $(".conf-step-3").find("[data-toggle='collapse']").eq(0).trigger("click");
+        }, 500)
         
         // Подбираем id полученных комплектации
         var complectationsIds = this.selectComplectations.map((complectation)=>{

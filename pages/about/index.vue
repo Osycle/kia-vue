@@ -95,8 +95,37 @@
         </div>
       </div>
     </div>
+    <div class="about-stat">
+      <div class="g-padding">
+        <div class="g-container">
+          <div class="g-margin">
+            <div class="container">
+              <div class="about-stat-items boxes-3 text-s1 pb-8 flex-adaptive justify-between desktop:mt-10 mt-6">
+                <div class="cell">
+                  <h2>Дилерская <br>сеть KIA </h2>
+                  <div>Самая большая дилерская сеть в России среди иностранных брендов </div>
+                </div>
+                <div class="cell">
+                  <div class="num-style">199 </div>
+                  <div><b>дилерских центров KIA</b></div>
+                  <div class="color-gray-5">по состоянию на 01.06.2020 </div>
+                </div>
+                <div class="cell">
+                  <div class="num-style">100 </div>
+                  <div><b>городов</b></div>
+                  <div class="color-gray-5">от Калининграда на западе<br> до Южно-Сахалинска на Дальнем Востоке </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-content">
+        <img src="https://www.kia.ru/images/landing/about/russia/img-stats.png" alt="">
+      </div>
+    </div>
 
-    <div class="kiaworld-sponsorship">
+    <div class="kiaworld-sponsorship text-x1">
       <div class="g-padding p-v-md-40">
         <div class="g-container">
           <div class="g-margin">
@@ -152,130 +181,6 @@
       </div>
     </div>
 
-    <div class="short-concept img bg-size-cover" style="background-image: url('https://www.kia.ru/images/landing/about/design/bg-banner-0.jpg');">
-      <div class="g-padding p-v-md-80 p-v-50">
-        <div class="g-container">
-          <div class="g-margin">
-            <div class="entry-header color-white text-center box-md-7 box-lg-5 m-auto">
-              <h2 class="text-x5">Концепт-кары</h2>
-              <p class="text-x1">Физическое воплощение идей из будущего, позволяющее опробовать смелые решения и технологии.</p>
-              <br>
-              <span class="btn-opacity">
-                <a href="concept.html">Подробнее</a>
-              </span>
-            </div>
-            <div class="hidden-xs hidden-sm" style="height: 600px;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card-video bg-black-fill color-white">
-      <div class="container-p p-v-80">
-        <div class="entry-header text-center m-b-30">
-          <h4 class="color-2 text-n1">ПОИСКИ НОВОГО</h4>
-          <h2>Стиль передающий дух бренда</h2>
-        </div>
-        <br>
-        <div class="tab-content">
-          <div class="tab-pane fade in active" id="card-video-1-1">
-            <div class="card-video-items boxes-4 owl-carousel owl-btn-2">
-              <figure>
-                <a href="https://youtu.be/pSUC_debwtI" data-fancybox>
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('https://www.kia.ru/images/landing/about/design/bg-video-0.jpg');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Светотехника KIA Seltos</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/Ee2cYiq8ib0" data-fancybox>
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('https://www.kia.ru/images/landing/about/design/bg-video-1.jpg');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Создание дизайна KIA Stinger</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-              <figure>
-                <a href="https://youtu.be/qKO4eGDGFjs" data-fancybox>
-                  <div class="fig-wrapper">
-                    <div class="img-content">
-                      <div class="img" style="background-image: url('https://www.kia.ru/images/landing/about/design/bg-video-2.jpg');"></div>
-                      <div class="btn-play">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                      </div>
-                    </div>
-                    <div class="desc-content m-t-10">
-                      <p><b>Создание дизайна KIA Stinger</b></p>
-                    </div>
-                  </div>
-                </a>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="design-symbol bg-color-black color-white">
-      <div class="container-p p-v-80">
-        <div class="entry-header text-center m-b-30 box-md-5 m-auto">
-          <h4 class="color-2 text-n1">СИМВОЛИКА</h4>
-          <h2>Визуальные <br>особенности</h2>
-          <p class="text-x1">KIA создала визуальный символ, столь же мощный, как и логотип бренда. Фирменная "Улыбка тигра", фары и логотип бренда образуют уникальный и неповторимый семейный облик, который развивался годами и теперь настолько распространен на дорогах, что люди могут мгновенно узнавать марку на расстоянии или в темноте.</p>
-        </div>
-        <div class="img-content text-center">
-          <img src="https://www.kia.ru/images/landing/about/design/bg-banner-1.jpg">
-        </div>
-      </div>
-    </div>
-
-    <div class="design-inter">
-      <div class="container-p p-v-80">
-        <div class="row-15 flex-adaptive justify-c-between">
-          <div class="col-md-4 p-h-15">
-            <h4 class="color-2 text-n1">ДИЗАЙН ИНТЕРЬЕРОВ</h4>
-            <div class="h1 text-x5">Баланс эстетики и функции</div>
-          </div>
-          <div class="col-md-offset-1 p-h-15 col-md-6 m-t-50 text-item">
-            <p>Именно этими словами наилучшим образом можно выразить концепцию дизайна интерьера автомобилей KIA. Ядром этой идеи является стремление к гармонии и балансу между эстетикой и удобством использования. Утонченность отделки и текстур, передовые технологии.</p>
-            <p>Дизайнеры и инженеры KIA уже сейчас создают интерьеры будущего, с учетом самых высокотехнологичных решений и с уважением к традициям комфорта и высочайшего качества.</p>
-          </div>
-        </div>
-        <br class="hidden-xs">
-        <div class="design-inter-items owl-carousel m-t-30">
-          <figure>
-            <div class="img-content">
-              <img src="https://www.kia.ru/images/landing/about/design/img-slide-2.jpg">
-            </div>
-          </figure>
-          <figure>
-            <div class="img-content">
-              <img src="https://www.kia.ru/images/landing/about/design/img-slide-0.jpg">
-            </div>
-          </figure>
-          <figure>
-            <div class="img-content">
-              <img src="https://www.kia.ru/images/landing/about/design/img-slide-1.jpg">
-            </div>
-          </figure>
-        </div>
-      </div>
-    </div>
 
     <KiaworldOther />
 
@@ -291,10 +196,10 @@ import KiaworldOther from "@/components/kiaworld/KiaworldOther";
 export default {
   head() {
     return {
-      title: "Дизайн KIA",
+      title: "KIA в Узбекистане",
       meta: [
         {
-          content: "Дизайн, перевернувший представление о KIA"
+          content: "О компании Киа Моторс в Узбекистане"
         }
       ],
     }
