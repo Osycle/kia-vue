@@ -45,7 +45,9 @@
               <div class="fig-wrapper">
                 <h1 class="m-b-5">1944</h1>
                 <p>Год основания компании</p>
-                <a href="kiaworld-history.html" class="hover-aunderline"><b>История KIA</b><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path data-v-8a6d1ec4="" d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></a>
+                <nuxt-link to="about/history" class="hover-aunderline">
+                  <b>История KIA</b><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path data-v-8a6d1ec4="" d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
+                </nuxt-link>
               </div>
             </figure>
             <figure>
@@ -158,7 +160,7 @@
     <!-- kiaworld-cars -->
     <div class="kiaworld-cars">
       <div class="img-entry-header relative">
-        <div class="container-p text-content m-t-md-70">
+        <div class="container text-content m-t-md-70">
           <div class="row-15 flex-adaptive justify-c-between">
             <div class="col-md-4 p-h-15">
               <div class="h1 text-x5 m-t-0">Автомобили KIA</div>

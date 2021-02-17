@@ -21,13 +21,13 @@
               <figure v-for="(modelLine, key) in page.model_lines" :key="key" v-if="type.id == modelLine.group_id" >
                 <div v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id">                
                   <div class="img-content" >
-                    <nuxt-link prefetch :to="$route.path+'/'+modelLine.code+'/desc'">
+                    <nuxt-link exact :to="$route.path+'/'+modelLine.code+'/desc/'">
                       <img :src="'https://cdn.kia.ru/resize/400x198/'+model.image">
                     </nuxt-link>
                   </div>
                   <div class="desc-content">
                     <div class="car-card__name">
-                      <nuxt-link prefetch :to="$route.path+'/'+modelLine.code+'/desc'">{{modelLine.name}}</nuxt-link>
+                      <nuxt-link exact :to="$route.path+'/'+modelLine.code+'/desc/'">{{modelLine.name}}</nuxt-link>
                     </div>
                     <div class="car-card-price m-v-5">
                       <p><span class="p-r-10">от {{ model.min_price | spaceBetweenNum }} сум</span><a class="flex" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></p>

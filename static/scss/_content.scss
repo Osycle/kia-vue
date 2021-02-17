@@ -1133,7 +1133,7 @@ $heightSlider: auto;
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
-		min-height: calc(100vh - 200px);
+		height: calc(100vh - 200px);
 	}
 	.breadcrumb{
 		li{
@@ -1919,6 +1919,8 @@ $heightSlider: auto;
 	z-index: 1;
 	.img-entry-header{
 		max-height: auto;
+    background-color: black;
+    min-height: 300px;
 		.text-content{
 			left: 50%;
 			transform: translateX(-50%);
@@ -1971,9 +1973,14 @@ $heightSlider: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	.text-content{
-		position: absolute;
+		@media (min-width: 992px){
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+		}
 	}	
 	.img-bg{
+		text-align: center;
 		@media (min-width: 992px){
 			max-height: 700px;
 		}

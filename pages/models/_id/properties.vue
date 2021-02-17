@@ -1,6 +1,6 @@
 <template>
   <div class="main-body model-options offset-model-header">
-    <div class="model-header header-scroll scrolled-down">
+    <div class="model-header header-scroll scrolled-down down">
       <div class="container-p">
         <div class="model-header-panel">
           <div class="align-center">

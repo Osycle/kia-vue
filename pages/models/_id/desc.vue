@@ -1,6 +1,6 @@
 <template>
   <div class="offset-model-header model-desc">
-    <div class="model-header header-scroll scrolled-down">
+    <div class="model-header header-scroll scrolled-down down">
       <div class="container-p">
         <div class="model-header-panel">
           <div class="align-center">
@@ -232,6 +232,10 @@
                   <a href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
                   <span>Экстерьер</span>
                 </li>
+                <li>
+                  <a href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
+                  <span>Интерьер</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -262,10 +266,14 @@
               </ul>
             </div>
             <span class="btn-def">
-              <a href="../" class="p-v-20">Конфигуратор</a>	
+              <nuxt-link to="/configurator" class="p-v-20">Конфигуратор</nuxt-link>	
             </span>
           </div>
           <br><br>
+          <div>
+            <h1>KRPANO</h1>
+            <krpano :xml="'/viewer/krpano.xml'" :lazy-load="true" style="width:100%;height:400px" @panoCreated="init"></krpano>
+          </div>
         </div>
       </div>
     </div>
@@ -365,7 +373,9 @@
 
 <script>
 
-
+import Vue from "vue";
+import Krpano from "vue-krpano";
+Vue.use(Krpano);
 
 export default {
   head() {
@@ -396,6 +406,8 @@ export default {
     }
   },
   mounted(){
+    $(window).scrollTop(400);
+    $(window).scrollTop(0);
 		$(".card-sets-items.owl-carousel").owlCarousel({
       nav: !checkSm(),
       loop: false,
