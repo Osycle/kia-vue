@@ -1501,15 +1501,33 @@ $heightSlider: auto;
 .card-showroom{
 }
 .showroom{
+	position: relative;
+	&.pano-active{
+		color: white;
+		.color-2{
+			color: inherit;
+		}
+	}
 	.showroom-header{
-		margin-bottom: -80px;
+		position: absolute;
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
+		left: 0;
+		top: 20px;
+		z-index: 1;
 	}
 	.showroom-main{
 		margin: 0 auto;
     max-width: 1000px;
     margin-top: 30px;
+	}
+	.showroom-bottom{
+		position: absolute;
+		width: 100%;
+		bottom: 20px;
+		left: 0;
+		z-index: 1;
 	}
 }
 .showroom-typeselect{
@@ -1605,6 +1623,12 @@ $heightSlider: auto;
 
 	// 	}
 	// }
+}
+.showroom-pano{
+	iframe{
+		width: 100%;
+		height: 100vh;
+	}
 }
 
 

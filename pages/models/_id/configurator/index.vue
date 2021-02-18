@@ -657,7 +657,6 @@ export default {
           if($(parentClass).find("canvas").length > 0)
             window.CI360.init();
           else{
-            console.log("Я тут ");
             $(parentClass).find(".showroom-item-cover").find("img").attr("src", "https://cdn.kia.ru"+overview.path+"/1.png")
           }
         }

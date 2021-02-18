@@ -218,9 +218,9 @@
       </div>
     </div>
 
-    <div class="card-showroom car-showroom">
-      <div class="container-p p-v-30">
-        <div class="showroom">
+    <div class="card-showroom car-showroom"> 
+      <div class="showroom" :class="{'pano-active': panoActive}">
+        <div class="container-p relative">
           <div class="showroom-header">
             <div class="entry-header">
               <h4 class="color-2 text-n1">ПРОСМОТР 360°</h4>
@@ -229,36 +229,52 @@
             <div class="showroom-typeselect">
               <ul class="list">
                 <li class="active">
-                  <a href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
+                  <a @click="panoActive = false" href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
                   <span>Экстерьер</span>
                 </li>
                 <li>
-                  <a href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
+                  <a @click="panoActive = true" href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
                   <span>Интерьер</span>
                 </li>
               </ul>
             </div>
           </div>
+        </div>
+        <div class="container-p relative p-v-30" v-if="!panoActive">
           <div class="showroom-main m-v-30">
             <div
                 class="cloudimage-360"
-                :data-folder="page.overviews.complectations[0].overviews[0].path"
+                :data-folder="'https://cdn.kia.ru'+page.overviews.complectations[0].overviews[0].path"
                 data-filename="{index}.png"
                 data-spin-reverse
-                :data-amount="page.overviews.complectations[0].overviews[0].amount"
-            ></div>
+                data-amount="72">
+                <div class="showroom-item-cover flex align-center">
+                  <div class="flex box-xs-10 align-center">
+                    <img :src="'https://cdn.kia.ru'+page.overviews.complectations[0].overviews[0].path+'/1.png'" width="100%">
+                  </div>
+                </div>
+            </div>
             {{page.overviews.colors[0].path}}
           </div>
+          <script>window.CI360 = { notInitOnLoad: true }</script>
           <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+        </div>
+        <div v-else>
+          <div class="showroom-pano">
+            <iframe src="https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/master-data/panorama/EXS4/2020/D641/1K//pano.xml" frameborder="0"></iframe>
+          </div>
+        </div>
+        
+        <div class="container-p relative">          
           <div class="showroom-bottom justify-c-between align-center">
             <div class="showroom-colorselect">
               <div class="title-content">
                 <span class="color-gray">Цвет:</span> <b >{{showroom.colorName}}</b>
               </div>
-              <ul class="list m-t-10" :color-arr="colorCodeArr = []">
+              <ul class="list m-t-10">
                 <template v-for="(color, key) in page.overviews.colors">
-                  <li v-if="!colorCodeArr.filter((e)=>{return e == color.code}).length" :color-num="colorCodeArr.push(color.code)" :key="key">
-                    <a href="javascript:;" @click.prevent="showroom.changer(color, page.overviews.complectations)" >
+                  <li :key="key">
+                    <a href="javascript:;" @click.prevent="showroom.showroomChanger(color)" >
                       <div class="color-select" :style="'background-image: url('+color.image+')'"></div>
                     </a>
                   </li>
@@ -268,11 +284,6 @@
             <span class="btn-def">
               <nuxt-link to="/configurator" class="p-v-20">Конфигуратор</nuxt-link>	
             </span>
-          </div>
-          <br><br>
-          <div>
-            <h1>KRPANO</h1>
-            <krpano :xml="'/viewer/krpano.xml'" :lazy-load="true" style="width:100%;height:400px" @panoCreated="init"></krpano>
           </div>
         </div>
       </div>
@@ -405,9 +416,26 @@ export default {
       context.error(e);
     }
   },
+  components: {
+    
+    "krpano": Krpano
+  },
+  methods: {
+    init(){
+      console.log(445566)
+    }
+  },
   mounted(){
     $(window).scrollTop(400);
     $(window).scrollTop(0);
+    
+    // Активация экстерер 360
+    $(document).on("click", ".showroom-item-cover", ()=>{
+      window.CI360.init();
+    })
+
+
+
 		$(".card-sets-items.owl-carousel").owlCarousel({
       nav: !checkSm(),
       loop: false,
@@ -431,22 +459,49 @@ export default {
   },
   data(){
     return{
+      panoActive: false,
+      selectColor: "",
+      selectOverview: "",
+      currentComplectation: "",
       showroom: {
         colorName: '',
         path: '',
         amount: '',
-        async changer(color, complectations){
+        async changer(color){
+          const currentComplectation = this.page.overviews.complectations;
+          return;
           this.colorName = (color.name+" ("+color.code+")");
-          complectations[0].overviews.map((el, i)=>{
+          currentComplectation.overviews.map((el, i)=>{
             if( color.id == el.color_id ){
               window.CI360.destroy();
-              $(".showroom-main [data-folder]").attr('data-folder', el.path)
+              $(".showroom-main [data-folder]").attr('data-folder', "https://cdn.kia.ru"+el.path)
               $(".showroom-main [data-amount]").attr('data-amount', el.amount)
               window.CI360.init();
             }
           }) 
         }
-      }
+      },
+      // События Изменение цвета 
+      async showroomChanger(color, parentClass){
+        return;
+        parentClass = parentClass || ".showroom-main";
+        this.showroomComplectation.overviews.map((overview)=>{
+          if( color.id == overview.color_id ){
+            this.selectExteriorColor = color;
+            this.selectOverview = overview;
+            window.CI360.destroy();
+            console.info(overview, $(parentClass+" [data-folder]"))
+            $(parentClass+" [data-folder]").attr('data-folder', "https://cdn.kia.ru"+overview.path)
+            $(parentClass+" [data-amount]").attr('data-amount', overview.amount)
+            if($(parentClass).find("canvas").length > 0)
+              window.CI360.init();
+            else{
+              $(parentClass).find(".showroom-item-cover").find("img").attr("src", "https://cdn.kia.ru"+overview.path+"/1.png")
+            }
+          }
+        }) 
+      },
+
     }
   },
 }
