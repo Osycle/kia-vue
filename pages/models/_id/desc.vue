@@ -1,5 +1,6 @@
 <template>
   <div class="offset-model-header model-desc">
+
     <div class="model-header header-scroll scrolled-down down">
       <div class="container-p">
         <div class="model-header-panel">
@@ -228,61 +229,89 @@
             </div>
             <div class="showroom-typeselect">
               <ul class="list">
-                <li class="active">
-                  <a @click="panoActive = false" href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
+                <li :class="{'active': !panoActive}">
+                  <a @click="panoActive = false" href="javascript:;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
                   <span>Экстерьер</span>
                 </li>
-                <li>
-                  <a @click="panoActive = true" href="javascript:;" data-toggle="tab"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
+                <li :class="{'active': panoActive}">
+                  <a @click="panoActive = true" href="javascript:;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
                   <span>Интерьер</span>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="container-p relative p-v-30" v-if="!panoActive">
+        <div class="container-p relative" v-if="!panoActive">
           <div class="showroom-main m-v-30">
             <div
                 class="cloudimage-360"
-                :data-folder="'https://cdn.kia.ru'+page.overviews.complectations[0].overviews[0].path"
+                :data-folder="'https://cdn.kia.ru'+selectOverview.path"
                 data-filename="{index}.png"
                 data-spin-reverse
                 data-amount="72">
                 <div class="showroom-item-cover flex align-center">
                   <div class="flex box-xs-10 align-center">
-                    <img :src="'https://cdn.kia.ru'+page.overviews.complectations[0].overviews[0].path+'/1.png'" width="100%">
+                    <img :src="'https://cdn.kia.ru'+selectOverview.path+'/1.png'" width="100%">
                   </div>
                 </div>
             </div>
-            {{page.overviews.colors[0].path}}
           </div>
           <script>window.CI360 = { notInitOnLoad: true }</script>
           <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
         </div>
         <div v-else>
           <div class="showroom-pano">
-            <iframe src="https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/master-data/panorama/EXS4/2020/D641/1K//pano.xml" frameborder="0"></iframe>
+            <iframe :src="'https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/'+selectPanoComplectation.panoramas[0].path+'/pano.xml'" frameborder="0"></iframe>
           </div>
         </div>
         
         <div class="container-p relative">          
           <div class="showroom-bottom justify-c-between align-center">
-            <div class="showroom-colorselect">
-              <div class="title-content">
-                <span class="color-gray">Цвет:</span> <b >{{showroom.colorName}}</b>
+            <div class="flex-adaptive">
+              <div class="showroom-colorselect">
+                <div class="title-content">
+                  <span class="color-gray">Цвет:</span> 
+                  <b>{{selectExteriorColor.name}} ({{selectExteriorColor.code}}), </b>
+                  <b v-if="selectExteriorColor.is_metallic">метталик</b>
+                  <span v-if="selectExteriorColor.price"> + {{selectExteriorColor.price | spaceBetweenNum}} сум</span>
+                </div>
+                <ul class="list m-t-10">
+                  <template v-for="(overview) in selectComplectation.overviews">
+                    <template v-for="(color) in page.overviews.colors">
+                      <template v-if="overview.color_id == color.id" >
+                        <li :class="{'active': selectOverview.color_id == color.id}">
+                          <a href="javascript:;" @click.stop.prevent="showroomChanger(color)" >
+                            <div class="color-select" :style="'background-image: url('+color.image+')'"></div>
+                          </a>
+                        </li>
+                      </template>
+                    </template>
+                  </template>
+                </ul>
               </div>
-              <ul class="list m-t-10">
-                <template v-for="(color, key) in page.overviews.colors">
-                  <li :key="key">
-                    <a href="javascript:;" @click.prevent="showroom.showroomChanger(color)" >
-                      <div class="color-select" :style="'background-image: url('+color.image+')'"></div>
-                    </a>
-                  </li>
-                </template>
-              </ul>
+              <div class="showroom-colorselect">
+                <div class="title-content">
+                  <span class="color-gray">Цвет:</span> 
+                  <b>{{selectInteriorColor.name}} ({{selectInteriorColor.code}})</b>
+                  <span v-if="selectInteriorColor.price"> + {{selectInteriorColor.price | spaceBetweenNum}} сум</span>
+                </div>
+                <ul class="list m-t-10">
+                  <template v-for="(panorama) in selectPanoComplectation.panoramas">
+                    <template v-for="(color) in page.panoramas.colors">
+                      <template v-if="panorama.color_id == color.id">
+                        <li :class="{'active': selectInteriorColor.id == color.id}">
+                          <a href="javascript:;" @click.stop.prevent="showroomInChanger(color)" >
+                            <div class="color-select" :style="'background-image: url('+color.image+')'"></div>
+                          </a>
+                        </li>
+                      </template>
+                    </template>
+                  </template>
+                </ul>
+              </div>
             </div>
             <span class="btn-def">
-              <nuxt-link to="/configurator" class="p-v-20">Конфигуратор</nuxt-link>	
+              <nuxt-link :to="'/models/'+page.model.code+'/configurator'" class="p-v-20">Конфигуратор</nuxt-link>	
             </span>
           </div>
         </div>
@@ -384,9 +413,6 @@
 
 <script>
 
-import Vue from "vue";
-import Krpano from "vue-krpano";
-Vue.use(Krpano);
 
 export default {
   head() {
@@ -416,25 +442,45 @@ export default {
       context.error(e);
     }
   },
-  components: {
-    
-    "krpano": Krpano
-  },
   methods: {
-    init(){
-      console.log(445566)
-    }
+   
+  },
+  created(){
+    this.selectComplectation = this.page.overviews.complectations[0]
+
+    this.page.panoramas.complectations.forEach(complectation => {
+      if(complectation.id === this.selectComplectation.id)
+        this.selectPanoComplectation = complectation;
+    })
+    this.selectComplectation.overviews.forEach(overview => {
+      if(overview.color_id == this.page.model.overview_default_color_id)
+        this.selectOverview = overview;
+    });
+
+    this.page.overviews.colors.forEach(color => {
+      if(color.id == this.page.model.overview_default_color_id)
+        this.selectExteriorColor = color;
+    });
+    this.page.panoramas.colors.forEach(color => {
+      if(color.id == this.selectPanoComplectation.panoramas[0].color_id)
+        this.selectInteriorColor = color;
+    });
+    
+
+
+    
   },
   mounted(){
-    $(window).scrollTop(400);
-    $(window).scrollTop(0);
+    //$(window).scrollTop(400);
+    //$(window).scrollTop(0);
     
     // Активация экстерер 360
     $(document).on("click", ".showroom-item-cover", ()=>{
       window.CI360.init();
     })
+    _.unionBy(this.page.overviews.colors, "id")
 
-
+    this.page.overviews.colors = _.unionBy(this.page.overviews.colors, "id");
 
 		$(".card-sets-items.owl-carousel").owlCarousel({
       nav: !checkSm(),
@@ -455,37 +501,22 @@ export default {
       },
       navText : owlBtn,
       margin: 30
-		});
+    });
+    
+
   },
   data(){
     return{
       panoActive: false,
-      selectColor: "",
       selectOverview: "",
-      currentComplectation: "",
-      showroom: {
-        colorName: '',
-        path: '',
-        amount: '',
-        async changer(color){
-          const currentComplectation = this.page.overviews.complectations;
-          return;
-          this.colorName = (color.name+" ("+color.code+")");
-          currentComplectation.overviews.map((el, i)=>{
-            if( color.id == el.color_id ){
-              window.CI360.destroy();
-              $(".showroom-main [data-folder]").attr('data-folder', "https://cdn.kia.ru"+el.path)
-              $(".showroom-main [data-amount]").attr('data-amount', el.amount)
-              window.CI360.init();
-            }
-          }) 
-        }
-      },
+      selectExteriorColor: "",
+      selectInteriorColor: "",
+      selectComplectation: "",
+      selectPanoComplectation: "",
       // События Изменение цвета 
       async showroomChanger(color, parentClass){
-        return;
         parentClass = parentClass || ".showroom-main";
-        this.showroomComplectation.overviews.map((overview)=>{
+        this.selectComplectation.overviews.map((overview)=>{
           if( color.id == overview.color_id ){
             this.selectExteriorColor = color;
             this.selectOverview = overview;
@@ -500,6 +531,12 @@ export default {
             }
           }
         }) 
+      },
+      async showroomInChanger(color, parentClass){
+        this.selectInteriorColor = color;
+          parentClass = parentClass || ".showroom-pano";
+          
+        console.log(color, $(parentClass).find("iframe"));
       },
 
     }

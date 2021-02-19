@@ -1503,9 +1503,25 @@ $heightSlider: auto;
 .showroom{
 	position: relative;
 	&.pano-active{
-		color: white;
-		.color-2{
-			color: inherit;
+		@media (min-width: 991px){
+			color: white;
+			.color-2{
+				color: inherit;
+			}
+			.showroom-typeselect{
+				a{
+					border-color: white;
+				}
+			}
+			.btn-def{
+				background-color: white;
+				color: black;
+			}
+			.showroom-typeselect .active a{
+				border-color: white;
+				background-color: white;
+				color: black;
+			}
 		}
 	}
 	.showroom-header{
@@ -1514,23 +1530,58 @@ $heightSlider: auto;
 		display: flex;
 		justify-content: space-between;
 		left: 0;
-		top: 20px;
+		top: 30px;
 		z-index: 1;
 	}
 	.showroom-main{
 		margin: 0 auto;
     max-width: 1000px;
-    margin-top: 30px;
+		margin-top: 30px;
+		margin-bottom: 60px;
+		@media (min-width: 992px){
+			padding-top: 45px;
+			padding-bottom: 45px;
+		}
+		@media (max-width: 991px){
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
 	}
 	.showroom-bottom{
 		position: absolute;
 		width: 100%;
-		bottom: 20px;
+		bottom: 40px;
 		left: 0;
 		z-index: 1;
 	}
+	.showroom-colorselect{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		@media (min-width: 992px){
+			margin-right: 35px;
+			min-width: 370px;
+		}
+	}
+	@media (max-width: 991px){
+		.showroom-header{
+			top: 0;
+			position: relative;
+			flex-direction: column;
+		}
+		.showroom-bottom{
+			position: relative;
+			display: block;
+			justify-content: center;
+			bottom: 0;
+			.btn-def{
+				width: 100%;
+				margin-top: 30px;
+			}
+		}
+	}
 }
 .showroom-typeselect{
+	
 	ul{
 		display: flex;
 	}
@@ -1563,6 +1614,11 @@ $heightSlider: auto;
 			background-color: black;
 			color: white;
 		}
+	}
+	@media (min-width: 992px){
+		position: absolute;
+		right: 0;
+		top: 0;
 	}
 }
 .showroom-colorselect{
@@ -1603,6 +1659,7 @@ $heightSlider: auto;
 		border-radius: 50%;
 		background-position: center;
 		background-size: cover;
+		flex-shrink: 0;
 		&:before{
 			@extend .clafclear;
 			display: none;
@@ -1627,7 +1684,10 @@ $heightSlider: auto;
 .showroom-pano{
 	iframe{
 		width: 100%;
-		height: 100vh;
+		height: calc(100vh - 80px);
+		@media (max-width: 991px){
+			height: 230px;
+		}
 	}
 }
 
@@ -3701,7 +3761,9 @@ dt{
 		}
 	}
 }
-
+.cloudimage-inner-box{
+	max-height: 500px;
+}
 .conf-steps-modal{
 	padding: 50px;
 }
@@ -3890,6 +3952,11 @@ dt{
 		padding: 20px 30px;
 	}
 }
+.showroom-item-cover{
+	@media (min-width: 992px){
+		min-height: 430px;
+	}
+}
 .cloudimage-360{
 	&.initialized{
 		.showroom-item-cover{
@@ -3930,6 +3997,13 @@ dt{
 		font-size: 18px;
 	}
 }
-.about-stat-items{
-	
+
+
+.card-video{
+	.owl-hidden{
+		opacity: 1;
+	}
+	.owl-carousel{
+		display: block;
+	}
 }
