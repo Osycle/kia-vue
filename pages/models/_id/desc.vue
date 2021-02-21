@@ -261,11 +261,11 @@
         </div>
         <div v-else>
           <div class="showroom-pano">
-            <iframe :src="'https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/'+selectPanoComplectation.panoramas[0].path+'/pano.xml'" frameborder="0"></iframe>
+            <iframe :src="'https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/'+panoramasComplectation.panoramas[0].path+'/pano.xml'" frameborder="0"></iframe>
           </div>
         </div>
         
-        <div class="container-p relative">          
+        <div class="container-p relative">
           <div class="showroom-bottom justify-c-between align-center">
             <div class="flex-adaptive">
               <div class="showroom-colorselect">
@@ -296,7 +296,7 @@
                   <span v-if="selectInteriorColor.price"> + {{selectInteriorColor.price | spaceBetweenNum}} сум</span>
                 </div>
                 <ul class="list m-t-10">
-                  <template v-for="(panorama) in selectPanoComplectation.panoramas">
+                  <template v-for="(panorama) in panoramasComplectation.panoramas">
                     <template v-for="(color) in page.panoramas.colors">
                       <template v-if="panorama.color_id == color.id">
                         <li :class="{'active': selectInteriorColor.id == color.id}">
@@ -450,7 +450,7 @@ export default {
 
     this.page.panoramas.complectations.forEach(complectation => {
       if(complectation.id === this.selectComplectation.id)
-        this.selectPanoComplectation = complectation;
+        this.panoramasComplectation = complectation;
     })
     this.selectComplectation.overviews.forEach(overview => {
       if(overview.color_id == this.page.model.overview_default_color_id)
@@ -462,7 +462,7 @@ export default {
         this.selectExteriorColor = color;
     });
     this.page.panoramas.colors.forEach(color => {
-      if(color.id == this.selectPanoComplectation.panoramas[0].color_id)
+      if(color.id == this.panoramasComplectation.panoramas[0].color_id)
         this.selectInteriorColor = color;
     });
     
@@ -512,7 +512,7 @@ export default {
       selectExteriorColor: "",
       selectInteriorColor: "",
       selectComplectation: "",
-      selectPanoComplectation: "",
+      panoramasComplectation: "",
       // События Изменение цвета 
       async showroomChanger(color, parentClass){
         parentClass = parentClass || ".showroom-main";
