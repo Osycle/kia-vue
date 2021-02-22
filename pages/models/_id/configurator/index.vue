@@ -406,9 +406,13 @@
                     <div class="fw-6 font-size-nm m-b-20">Цвет</div>
                     <div class="info-content">
                       <dl>
-                        <dt>Кузов</dt> 
+                        <dt>Кузов</dt>
                         <dd><div class="flex align-center"><span>{{selectExteriorColor.name}}</span> <figure :style="'background-image: url(https://cdn.kia.ru/'+selectExteriorColor.image+');'"></figure></div></dd>
-                      </dl> 
+                      </dl>
+                      <dl>
+                        <dt>Интерьер</dt>
+                        <dd><div class="flex align-center"><span>{{selectInteriorColor.name}}</span> <figure :style="'background-image: url(https://cdn.kia.ru/'+selectInteriorColor.image+');'"></figure></div></dd>
+                      </dl>
                     </div>
                   </div>
                 </div>
@@ -825,10 +829,6 @@ export default {
       // step 5
       if(this.currentStepNum == 5){
 
-
-  
-
-        console.log(this.selectComplectation, this.selectExteriorColor);
         const modelcode = await this.$axios.$post('/configurator.php', {
           complectation: that.selectComplectation,
           exterior_color: that.selectExteriorColor
