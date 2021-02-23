@@ -17,12 +17,14 @@
           </div>
         </div>
       </div>
-      <div class="container pv-8 desktop:pv-12 desktop1440:pv-16">
-        <div class="flex-adaptive justify-c-between inline-ul">
-          <div v-html="page.description"></div>
+      <div class="block-content">
+        <div class="container pv-8 desktop:pv-12 desktop1440:pv-16">
+          <div class="flex-adaptive justify-c-between inline-ul">
+            <div v-html="page.description"></div>
+          </div>
         </div>
       </div>
-      <section class="bg-color-gray-1">
+      <div class="block-content bg-color-gray-1">
         <div class="container pv-8 desktop:pv-12 desktop1440:pv-16">
           <div class="entry-header">
             <div class="text-x4 mb-6 desktop1440:mb-6">Список документов для кандидатов в дилеры</div>
@@ -53,8 +55,8 @@
             <div><a href="mailto:contact@kia.ru" class="hover-aunderline"><b>contact@kia.ru</b></a></div>
           </div>
         </div>
-      </section>
-      <section>
+      </div>
+      <div class="block-content">
         <div class="container pv-8 desktop:pv-12 desktop1440:pv-16">
           <div class="text-x4 mb-6 desktop1440:mb-6">Преимущества</div>
           <div class="text-content">
@@ -72,8 +74,8 @@
             </ul>
           </div>
         </div>
-      </section>
-      <section class="bg-color-gray-1">
+      </div>
+      <div class="block-content bg-color-gray-1">
         <div class="container pv-8 desktop:pv-12 desktop1440:pv-16">
           <div class="text-x4 mb-6 desktop1440:mb-6">Наши ожидания от кандидатов в дилеры </div>
           <div class="text-content">
@@ -86,32 +88,79 @@
             </ul>
           </div>
         </div>
-      </section>
-      <section class="dealer-steps">
+      </div>
+      <div class="block-content dealer-steps">
         <div class="container pv-8 desktop:pv-12 desktop1440:pv-16">
           <div class="text-x4 mb-6 desktop1440:mb-6">Как стать дилером</div>
           <div class="list-content">
             <div class="item">
-              <div class="color-1">01</div>
-              <div>
-                <b>Заполнить анкету</b>
+              <div class="item-header flex flexbasis-md-3 text-s1">
+                <div class="num">01</div>
+                <div>
+                  <b>Заполнить анкету</b>
+                </div>
               </div>
               <div class="item-text">
                 <p>Первым этапом сотрудничества является заполнение анкеты кандидата.</p>
                 <div class="mt-6">
-                  <a href="https://cdn.kia.ru/media-data/landing/dealer/Regulations_on_the_procedure_for_obtaining_the_status_of_the_dealer_KMR.pdf" target="_blank" download="" class="file-download align-center">
+                  <a href="https://cdn.kia.ru/media-data/landing/dealer/KIA_dealership_application_template.rar" target="_blank" download="" class="file-download align-center">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="file-download__icon"><path d="M2.75.75h9.94l4.56 4.56v13.94H2.75V.75z" stroke="currentColor" stroke-width="1.5"></path><path d="M12.5 1v5h4" stroke="currentColor" stroke-width="1.5"></path></svg> 
                     <span class="flex fw-6 m-l-15">
-                      Порядок получения статуса дилера
+                      Загрузить анкету
                       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="file-download__arrow"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg>
                     </span>
                   </a>
                 </div>
               </div>
             </div>
+            <div class="item">
+              <div class="item-header flex flexbasis-md-3 text-s1">
+                <div class="num">02</div>
+                <div>
+                  <b>Отправить анкету</b>
+                </div>
+              </div>
+              <div class="item-text flexbasis-md-9">
+                <p>Заполненную анкету необходимо отправить по электронной почте</p>
+                <div>
+                  <a href="mailto:contact@kia.ru" class="hover-aunderline"><strong>contact@kia.ru</strong></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header flex flexbasis-md-3 text-s1">
+                <div class="num">03</div>
+                <div>
+                  <b>Предварительное одобрение анкеты</b>
+                </div>
+              </div>
+              <div class="item-text flexbasis-md-9">
+                <p>После получения заполненной с Вашей стороны анкеты и предварительного одобрения со стороны дистрибьютора Вам будет отправлена более подробная информация по условиям сотрудничества. На этом этапе мы поможем Вам определить, как построить дилерский центр в соответствии с архитектурными и строительными стандартами KIA, как наиболее эффективно организовать производственный процесс на уже существующем дилерском предприятии.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-header flex flexbasis-md-3 text-s1">
+                <div class="num">04</div>
+                <div>
+                  <b>Подпишите документы</b>
+                </div>
+              </div>
+              <div class="item-text flexbasis-md-9">
+                <p>При положительном решении со стороны КИА Моторс Россия и СНГ с кандидатом в дилеры подписывается «Протокол о намерениях» по реализации проекта открытия официального дилера в регионе, с описанием процедуры и сроков исполнения.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mv-6">
+            <div class="text-x4 mb-6 desktop1440:mb-6">Дополнительно</div>
+            <div class="text-item">
+              <p>На всех этапах реализации Протокола о намерениях кандидат предоставляет дистрибьютору подробную информацию о ходе реализации проекта. Дистрибьютор вправе осуществлять контроль за ходом реализации проекта. Несоблюдение принципиальных положений «Протокола о намерениях», наличие значительных выявленных отклонений от эскизного проекта или существенный срыв календарного графика являются для Дистрибьютора достаточным основанием для расторжения достигнутых договорённостей в одностороннем порядке на любом этапе реализации проекта.</p>
+              <p>Мы приглашаем Вас к сотрудничеству и обязательно ответим на Ваши вопросы.</p>
+              <p>С пожеланием успешного сотрудничества,</p>
+              <p>Отдел развития дилерской сети.</p>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   </div>
 </template>
