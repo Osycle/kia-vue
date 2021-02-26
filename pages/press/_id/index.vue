@@ -1,0 +1,96 @@
+<template>
+  <div class="main-body offset-header">
+			<div class="press">
+				<div class="container-p">
+					<div class="entry-header  desktop:pt-5 mv-4">
+						<h1 class="text-x5">Медиа-центр</h1>
+					</div>
+					<div class="short-models-nav m-v-30">
+						<ul class="list flex-adaptive li-m-v-15">
+							<li v-for="(item, key) in page.media_center_groups" :key="key" :class="{'active': item.code == $route.params.id}">
+								<nuxt-link :to="'/press/'+item.code">{{item.name}}</nuxt-link>
+							</li>
+						</ul>
+					</div>
+					<hr>
+					<div class="press-content m-v-20">
+						<div class="short-news-items boxes-4 figure-m-v-15">
+							<figure v-for="(item, key) in page.media_center[$route.params.id]" :key="key" v-if="page.media_center[$route.params.id].length != 0">
+								<nuxt-link :to="'/press/news/'+item.code">
+									<div class="fig-wrapper">
+										<div class="img-content">
+											<div class="img" :style="'background-image: url(https://cdn.kia.ru/resize/410x277/'+item.image+');'"></div>
+										</div>
+										<div class="desc-content">
+											<h4>{{item.name}}</h4>
+											<p class="news-date">{{ new Date(item.date*1000) | dateFormat('D MMMM YYYY')}}</p>
+										</div>
+									</div>
+								</nuxt-link>
+							</figure>
+							<template v-if="page.video_bank">
+								<template v-for="(videogroup) in page.video_bank.groups">
+									<figure v-for="(overview, key) in page.video_bank.list[videogroup.id]" :key="key">
+										<div class="fig-wrapper">
+											<div class="img-content">
+												<a :href="[overview.video_link]" data-fancybox>
+													<div class="btn-play">
+														<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+													</div>
+													<div class="img" :style="'background-image: url(https://cdn.kia.ru/resize/410x277/'+[overview.preview_image]+');'"></div>
+												</a>
+											</div>
+											<div class="desc-content">
+												<h4>{{overview.name}}</h4>
+												<p>{{overview.author}}</p>
+												<p class="news-date">{{ new Date(overview.date*1000) | dateFormat('D MMMM YYYY')}}</p>
+											</div>
+										</div>
+									</figure>
+								</template>
+							</template>
+						</div>
+						<div class="btn-opacity reverse m-v-30 hide">
+							<a href="" class="pv-2">Показать ещё</a>
+						</div>
+						<br><br>
+					</div>
+				</div>
+			</div>
+  </div>
+</template>
+
+
+
+<script>
+
+
+
+export default {
+  head() {
+    return {
+      title: this.page.seo.title,
+      meta: [
+        {
+          content: this.page.seo.content
+        }
+      ],
+    }
+  },
+  async asyncData(context){
+    var url = 'https://www.kia.ru/ajax/page/mediacenter/'+context.params.id;
+    try{
+      const page = await context.$axios.$get(url, {
+        params:{
+          limit: 24,
+          page: 1
+        }
+      })
+      return {page: page.content}
+    }catch(error){
+      console.error(error);
+    }
+  },
+}
+
+</script>
