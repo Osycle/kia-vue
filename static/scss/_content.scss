@@ -1773,14 +1773,14 @@ $heightSlider: auto;
 .card-fb{
 	background-repeat: repeat-x;
 	background-position: center;
-
+	//background-size: 100%;
 	.entry-content{
 		height: 500px;
 		position: relative;
 		margin-bottom: 260px;
 		@media (max-width: 991px){
 			margin-bottom: 100px;
-			height: 420px;
+			height: 480px;
 		}
 	}
 	.entry-header{
@@ -2420,10 +2420,6 @@ $heightSlider: auto;
 	}
 }
 .card-top{
-	margin-top: 60px;
-	@media (max-width: 991px){
-		margin-top: 50px;
-	}
 	.breadcrumb-container{
     .container-p{
       padding-left: 0;

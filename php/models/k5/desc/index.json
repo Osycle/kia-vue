@@ -27,17 +27,17 @@
 			"bg_color": null,
 			"bg_images":
 			{
-				"desktop": "/img/other/k5-fb-bg.jpg",
-				"mobile": "/img/other/k5-fb-bg.jpg",
-				"retina": "/img/other/k5-fb-bg.jpg"
+				"desktop": "\/media-data\/banners\/models\/k5\/main_footer\/bg.jpg",
+				"mobile": "\/media-data\/banners\/models\/k5\/main_footer\/bg.jpg",
+				"retina": "\/media-data\/banners\/models\/k5\/main_footer\/bg.jpg"
 			},
 			"description": null,
 			"group_code": "models_k5_main_footer",
 			"images":
 			{
-				"desktop": "https://www.kia.ru/static/resize/1020x480/media-data/banners/models/k5/main_footer/desktop.png",
-				"mobile": "https://www.kia.ru/static/resize/375x188/media-data/banners/models/k5/main_footer/mobile.png",
-				"retina": "https://www.kia.ru/static/resize/1020x480/media-data/banners/models/k5/main_footer/desktop.png"
+				"desktop": "\/media-data\/banners\/models\/k5\/main_footer\/desktop.png",
+				"mobile": "\/media-data\/banners\/models\/k5\/main_footer\/mobile.png",
+				"retina": "\/media-data\/banners\/models\/k5\/main_footer\/desktop.png"
 			},
 			"link":
 			{
@@ -69,7 +69,7 @@
 			"images":
 			{
 				"desktop": "\/media-data\/banners\/models\/k5\/main\/1920_model_hero.jpg",
-				"mobile": "/img/other/k5-card-bnr-xs.jpg",
+				"mobile": "\/media-data\/banners\/models\/k5\/main\/375_model_hero.jpg",
 				"retina": "\/media-data\/banners\/models\/k5\/main\/1920_model_hero.jpg"
 			},
 			"link":
@@ -109,31 +109,6 @@
 		}],
 		"infographics": [
 		{
-			"description": "Дизайн К5 впечатляет даже притязательных профессионалов, представляя актуальный и запоминающийся облик",
-			"detail_link_title": null,
-			"id": "41d49081-0ea3-42cb-8124-80d4d06d4285",
-			"image": "\/media-data\/infographics\/k5\/770_design-min.jpg",
-			"link":
-			{
-				"title": null,
-				"url": null
-			},
-			"name": "Артемий Лебедев и Тимур Бурбаев о дизайне К5",
-			"preview_block": null,
-			"sort": 100,
-			"teasers": [],
-			"theme": "dark",
-			"title": "Дизайн",
-			"type": "base",
-			"video":
-			{
-				"link": "https:\/\/www.youtube.com\/embed\/2QOuOXUVkz0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=2QOuOXUVkz0",
-				"video_preview": "/video/k5-overview-1.mp4",
-				"video_time": "1:09"
-			},
-			"video_bank": null
-		},
-		{
 			"description": "KIA K5 открывает новую эпоху дизайна автомобилей KIA. В этом инновационном седане сочетаются динамика и комфорт, дополненные дерзким и уверенным профилем. Его элегантность считывается в пристальном внимании к деталям.",
 			"detail_link_title": null,
 			"id": "ac377ec9-60d2-491b-89cd-1c6785669b68",
@@ -149,7 +124,7 @@
 				"contents": [
 				{
 					"description": "Динамичный боковой профиль, уникальный хромированный молдинг и силуэт в стиле “фастбек” с покатой линией крыши, плавно перетекающий в контур багажника, создают стильный и уверенный образ.",
-					"file": "/img/other/k5-1-1.jpg",
+					"file": "\/media-data\/infographics\/k5\/design-1.jpg",
 					"name": "Элегантный силуэт кузова",
 					"sort": null,
 					"teasers": [],
@@ -161,7 +136,7 @@
 				},
 				{
 					"description": "Светодиодные фары проекционного типа  и графический элемент «биение сердца» в форме дневных ходовых огней подчеркивают технологичность и футуристичный дизайн автомобиля.",
-					"file": "/img/other/k5-1-2.jpg",
+					"file": "\/media-data\/infographics\/k5\/model-k5-02.jpg",
 					"name": "Изящные светодиодные фары",
 					"sort": null,
 					"teasers": [],
@@ -173,7 +148,7 @@
 				},
 				{
 					"description": "Решетка радиатора в фирменной стилистике\n«улыбка тигра» обрела интригующий\nтрехмерный рисунок. Дизайн ячеек напоминает текстуру акульей кожи.",
-					"file": "/img/other/k5-1-3.jpg",
+					"file": "\/media-data\/infographics\/k5\/design-3.jpg",
 					"name": "Решетка радиатора",
 					"sort": null,
 					"teasers": [],
@@ -185,7 +160,7 @@
 				},
 				{
 					"description": "Серебристый диффузор, двойная хромированная отделка подчеркивают любовь к скорости и спортивный дух нового KIA К5.Уникальный рисунок задних фонарей продолжает графическую тему “биение сердца”.",
-					"file": "/img/other/k5-1-4.jpg",
+					"file": "\/media-data\/infographics\/k5\/design-4.jpg",
 					"name": "Спортивный дизайн заднего бампера",
 					"sort": null,
 					"teasers": [],
@@ -197,7 +172,7 @@
 				},
 				{
 					"description": "Легкосплавные диски спортивного дизайна подчеркивают динамику автомобиля.",
-					"file": "/img/other/k5-1-5.jpg",
+					"file": "\/media-data\/infographics\/k5\/design-5.jpg",
 					"name": "18” легкосплавные диски ",
 					"sort": null,
 					"teasers": [],
@@ -227,31 +202,6 @@
 			"video_bank": null
 		},
 		{
-			"description": "К5 дарит эмоции даже тем, кто привык к очень динамичной езде",
-			"detail_link_title": null,
-			"id": "b31c7e58-57a0-4caf-93af-b527b53f4f70",
-			"image": "\/media-data\/infographics\/k5\/770_drive-min.jpg",
-			"link":
-			{
-				"title": null,
-				"url": null
-			},
-			"name": "Автогонщик Михаил Алешин о драйве К5",
-			"preview_block": null,
-			"sort": 120,
-			"teasers": [],
-			"theme": "dark",
-			"title": "ДРАЙВ",
-			"type": "base",
-			"video":
-			{
-				"link": "https:\/\/www.youtube.com\/embed\/RVai0ZUa598?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=RVai0ZUa598",
-				"video_preview": "/video/k5-overview-4.mp4",
-				"video_time": "0:47"
-			},
-			"video_bank": null
-		},
-		{
 			"description": "KIA K5 базируется на новой платформе со значительными конструктивными усовершенствованиями, которые обеспечивают не только высокий уровень защиты, но также более точную управляемость и захватывающую динамику. Современные системы активной и пассивной безопасности заботятся о водителе и каждом пассажире, отвечая самым строгим требованиям.",
 			"detail_link_title": null,
 			"id": "6de76567-08cb-4b61-beba-1ced1ce1cd39",
@@ -267,7 +217,7 @@
 				"contents": [
 				{
 					"description": "Платформа третьего поколения — это новый стандарт KIA, определяющий расположение рулевого управления, элементов шасси, трансмиссии и пола кабины, который позволяет сделать салон более просторным, улучшить аэродинамические характеристики автомобиля, его управляемость, устойчивость и безопасность.",
-					"file": "/img/other/k5-5-1.jpg",
+					"file": "\/media-data\/infographics\/k5\/drive-1.jpg",
 					"name": "Новая платформа N3",
 					"sort": null,
 					"teasers": [],
@@ -279,7 +229,7 @@
 				},
 				{
 					"description": "Автоматические трансмиссии K5 объединяют в себе самые передовые технологии для повышенной топливной экономичности и превосходных ходовых характеристик.",
-					"file": "/img/other/k5-5-2.jpg",
+					"file": "\/media-data\/infographics\/k5\/drive-3.jpg",
 					"name": "8-ступенчатая автоматическая трансмиссия",
 					"sort": null,
 					"teasers": [],
@@ -291,7 +241,7 @@
 				},
 				{
 					"description": "Улучшенная аэродинамика благодаря специальному дизайну формы кузова и аэродинамическим элементам.",
-					"file": "/img/other/k5-5-3.jpg",
+					"file": "\/media-data\/infographics\/k5\/drive-4.jpg",
 					"name": "Улучшенная аэродинамика",
 					"sort": null,
 					"teasers": [],
@@ -303,7 +253,7 @@
 				},
 				{
 					"description": "Позволяет выбрать режим вождения, характеристики которого максимально соответствуют индивидуальным предпочтениям водителя.",
-					"file": "/img/other/k5-5-4.jpg",
+					"file": "\/media-data\/infographics\/k5\/drive-5.jpg",
 					"name": "Выбор режима движения",
 					"sort": null,
 					"teasers": [],
@@ -315,7 +265,7 @@
 				},
 				{
 					"description": "KIA K5 в исполнении GT Line предлагает уникальный дизайн элементов экстерьера и интерьера и позволяет полностью раскрыть его спортивный потенциал.",
-					"file": "/img/other/k5-5-5.jpg",
+					"file": "\/media-data\/infographics\/k5\/model-k5-01.jpg",
 					"name": "Исполнение GT Line",
 					"sort": null,
 					"teasers": [],
@@ -329,7 +279,7 @@
 				"id": "09b370d8-9923-4373-bd95-50ba2162892c",
 				"is_not_slider_in_mobile": false,
 				"name": null,
-				"type": "accordion_right"
+				"type": "accordion_left"
 			},
 			"sort": 130,
 			"teasers": [],
@@ -438,31 +388,6 @@
 			"video_bank": null
 		},
 		{
-			"description": "Насыщенность технологиями комфорта и безопасности впечатляет даже самых искушенных",
-			"detail_link_title": null,
-			"id": "15fc81fc-9988-43ec-9a93-2cfa2670f342",
-			"image": "\/media-data\/infographics\/k5\/770_tech-min.jpg",
-			"link":
-			{
-				"title": null,
-				"url": null
-			},
-			"name": "Wylsacom о технологиях К5",
-			"preview_block": null,
-			"sort": 140,
-			"teasers": [],
-			"theme": "dark",
-			"title": "Технологии",
-			"type": "base",
-			"video":
-			{
-				"link": "https:\/\/www.youtube.com\/embed\/54EZrym5rCo?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=54EZrym5rCo",
-				"video_preview": "/video/k5-overview-2.mp4",
-				"video_time": "5:00"
-			},
-			"video_bank": null
-		},
-		{
 			"description": "Отражая спортивный дух автомобиля, салон K5 ориентирован на водителя, все элементы управления легкодоступны. Помимо выверенной эргономики, интерьер K5 вызывает шквал «технологических» эмоций. Продуманный интеллектуальный интерфейс предоставляет доступ к различным настройкам коммуникаций, комфорта и развлечений.",
 			"detail_link_title": null,
 			"id": "d501a908-6014-4d90-a4fa-e8f112e3155d",
@@ -478,7 +403,7 @@
 				"contents": [
 				{
 					"description": "Полностью цифровая приборная панель Supervision обеспечит Вам доступ ко всей необходимой информации, не отвлекая Вас от дороги.",
-					"file": "/img/other/k5-2-1.jpg",
+					"file": "\/media-data\/infographics\/k5\/model-k5-04.jpg",
 					"name": "Цифровая приборная панель 12,3”",
 					"sort": null,
 					"teasers": [],
@@ -490,7 +415,7 @@
 				},
 				{
 					"description": "Большой дисплей мультимедийной системы предлагает непревзойденно четкое изображение и удобный интерфейс.  Вы легко сможете настроить аудиосистему, воспользоваться функциями смартфона с Apple CarPlay или Android Auto и построить маршрут.",
-					"file": "/img/other/k5-2-2.jpeg",
+					"file": "\/media-data\/infographic\/file\/7e0d2f1c-ebae-4bde-ac35-21092f2b0655.jpeg",
 					"name": "Навигационная система с дисплеем 10,25”",
 					"sort": null,
 					"teasers": [],
@@ -502,7 +427,7 @@
 				},
 				{
 					"description": "Зарядите смартфон, не пользуясь проводами. Просто положите его в специальное отделение центральной консоли. Зеленый индикатор сообщит что зарядка завершена.",
-					"file": "/img/other/k5-2-3.jpg",
+					"file": "\/media-data\/technologies\/85.jpg",
 					"name": "Беспроводная зарядка",
 					"sort": null,
 					"teasers": [],
@@ -514,7 +439,7 @@
 				},
 				{
 					"description": "Проекционный дисплей выводит\nинформацию на лобовое стекло на линии взгляда водителя.",
-					"file": "/img/other/k5-2-4.jpg",
+					"file": "\/media-data\/technologies\/86.jpg",
 					"name": "Проекционный дисплей (HUD)",
 					"sort": null,
 					"teasers": [],
@@ -559,7 +484,7 @@
 				"contents": [
 				{
 					"description": "Система поддерживает заданную водителем скорость и рассчитывает относительное расположение и скорость впереди идущего автомобиля с помощью фронтальной камеры и переднего радара, чтобы обеспечить безопасную дистанцию. В пробке система при необходимости полностью остановит автомобиль, а затем — автоматически разгонит его до заданной скорости.",
-					"file": "/img/other/k5-3-1.jpg",
+					"file": "\/media-data\/infographics\/k5\/drivewise_1.jpg",
 					"name": "Интеллектуальный круиз-контроль (SCC)\nс функцией Stop&Go",
 					"sort": null,
 					"teasers": [],
@@ -571,7 +496,7 @@
 				},
 				{
 					"description": "Система FCA предотвращает опасность столкновения с впереди идущим транспортным средством или внезапным препятствием (автомобиль, пешеход, велосипедист). Если система FCA определяет, что есть риск фронтального столкновения, она подаст водителю звуковое и визуальное предупреждение  и\nвозьмет на себя управление системой торможения автомобиля.",
-					"file": "/img/other/k5-3-2.jpg",
+					"file": "\/media-data\/infographics\/k5\/drivewise_2.jpg",
 					"name": "Система предотвращения фронтальных столкновений (FCA)",
 					"sort": null,
 					"teasers": [],
@@ -583,7 +508,7 @@
 				},
 				{
 					"description": "Если при включенном\nсигнале поворота есть вероятность столкновения, система BVM\nпокажет на приборной панели изображение с камеры,\nпредупреждая о возможных помехах в слепых зонах.",
-					"file": "/img/other/k5-3-3.jpg",
+					"file": "\/media-data\/infographics\/k5\/drivewise_3.jpg",
 					"name": "Камеры для контроля слепых зон с отображением на панель приборов (BVM)",
 					"sort": null,
 					"teasers": [],
@@ -595,7 +520,7 @@
 				},
 				{
 					"description": "Используя радары в задней части автомобиля, система SEA отслеживает\nприближающиеся сзади автомобили и предупреждает пассажиров, которые могут выйти из машины. Система также\nактивирует электронный замок безопасности для детей,\nпока приближающийся автомобиль не проедет мимо.",
-					"file": "/img/other/k5-3-4.jpg",
+					"file": "\/media-data\/infographics\/k5\/drivewise_4.jpg",
 					"name": "Система безопасного выхода из автомобиля (SEA)",
 					"sort": null,
 					"teasers": [],
@@ -607,7 +532,7 @@
 				},
 				{
 					"description": "Система DAW анализирует Вашу манеру управления. При обнаружении признаков усталости и потери концентрации система подает визуальный и звуковой сигнал, рекомендуя сделать остановку для отдыха. Систему можно настроить в соответствии с Вашими пожеланиями.",
-					"file": "/img/other/k5-3-5.jpg",
+					"file": "\/media-data\/infographics\/k5\/drivewise_5.jpg",
 					"name": "Система контроля внимания водителя (DAW)",
 					"sort": null,
 					"teasers": [],
@@ -619,7 +544,7 @@
 				},
 				{
 					"description": "При выезде с парковки задним ходом система отслеживает объекты, движущиеся в перекрестном направлении. При обнаружении помехи с любой стороны система подает звуковой и световой сигналы, пока объект не проедет.",
-					"file": "/img/other/k5-3-6.jpg",
+					"file": "\/media-data\/infographics\/k5\/drivewise_6.jpg",
 					"name": "Система предупреждения при выезде с парковки задним ходом (RCCW)",
 					"sort": null,
 					"teasers": [],
@@ -649,31 +574,6 @@
 			"video_bank": null
 		},
 		{
-			"description": "Новый взгляд на комфорт бизнес-седана с эргономично организованным пространством, качественными материалами и высоким уровнем оснащения",
-			"detail_link_title": null,
-			"id": "3f256661-962a-45f9-90b0-79635906c7f3",
-			"image": "\/media-data\/infographics\/k5\/770_comfort-min.jpg",
-			"link":
-			{
-				"title": null,
-				"url": null
-			},
-			"name": "Юлия Паршута о комфорте K5",
-			"preview_block": null,
-			"sort": 170,
-			"teasers": [],
-			"theme": "dark",
-			"title": "Комфорт",
-			"type": "base",
-			"video":
-			{
-				"link": "https:\/\/www.youtube.com\/embed\/fkn3VJAA5Os?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=fkn3VJAA5Os",
-				"video_preview": "/video/k5-overview-3.mp4",
-				"video_time": "0:39"
-			},
-			"video_bank": null
-		},
-		{
 			"description": "На первый взгляд обычные решения, применённые в KIA K5, обретают истинный смысл, когда они становятся частью Вашей повседневной жизни. Выберите свой вариант K5 для оформления, расширения функционала или повышения комфорта, чтобы каждый день автомобиль радовал Вас своей неповторимостью.",
 			"detail_link_title": null,
 			"id": "3d9c3087-f37a-4691-8bd1-343fe95cd71a",
@@ -689,7 +589,7 @@
 				"contents": [
 				{
 					"description": "Благодаря увеличенной колесной базе\nв салоне KIA K5 появилось больше места для ног, а покатая линия крыши в сочетании с пониженным полом кабины не ограничивает пространство для головы и плеч.",
-					"file": "/img/other/k5-4-1.jpg",
+					"file": "\/media-data\/infographics\/k5\/comfort-1.jpg",
 					"name": "Больше пространства",
 					"sort": null,
 					"teasers": [],
@@ -701,7 +601,7 @@
 				},
 				{
 					"description": "Акустическая система объединяет 12 оптимально настроенных динамиков и уникальные технологии Bose для высококачественного и “богатого” звучания.",
-					"file": "/img/other/k5-4-2.jpg",
+					"file": "\/media-data\/infographics\/k5\/comfort-2.jpg",
 					"name": "Премиум-аудиосистема Bose с 12 динамиками",
 					"sort": null,
 					"teasers": [],
@@ -713,7 +613,7 @@
 				},
 				{
 					"description": "При парковке в ограниченном пространстве несколько камер обеспечивают масштабируемый 360-градусный обзор пространства вокруг автомобиля, чтобы Вы могли уверенно совершить маневр, не выходя из автомобиля.",
-					"file": "/img/other/k5-4-3.jpg",
+					"file": "\/media-data\/infographics\/k5\/comfort-3.jpg",
 					"name": "Система кругового обзора (SVM)",
 					"sort": null,
 					"teasers": [],
@@ -725,7 +625,7 @@
 				},
 				{
 					"description": "Функция удаленного запуска Smart key позволяет дистанционно запустить и прогреть двигатель и активировать систему климат-контроля.",
-					"file": "/img/other/k5-4-4.jpg",
+					"file": "\/media-data\/infographics\/k5\/comfort-4.jpg",
 					"name": "Дистанционный запуск двигателя",
 					"sort": null,
 					"teasers": [],
@@ -737,7 +637,7 @@
 				},
 				{
 					"description": "Передние сиденья с электроприводом оснащены поясничным подпором, подогревом и вентиляцией.",
-					"file": "/img/other/k5-4-5.jpg",
+					"file": "\/media-data\/infographics\/k5\/comfort-5.jpg",
 					"name": "Электропривод и вентиляция передних сидений",
 					"sort": null,
 					"teasers": [],
@@ -749,7 +649,7 @@
 				},
 				{
 					"description": "Функция наклона и сдвига дает максимальную свободу и ощущение пространства.",
-					"file": "/img/other/k5-4-6.jpg",
+					"file": "\/media-data\/infographics\/k5\/comfort-6.jpg",
 					"name": "Панорамная крыша",
 					"sort": null,
 					"teasers": [],
@@ -761,7 +661,7 @@
 				},
 				{
 					"description": "Для повышенного комфорта переднего пассажира доступны дополнительные настройки перевода положения сиденья в положение релаксации.",
-					"file": "/img/other/k5-4-7.jpg",
+					"file": "\/media-data\/infographics\/k5\/comfort-7.jpg",
 					"name": "Сиденье пассажира \"Relaxation seat\"",
 					"sort": null,
 					"teasers": [],
@@ -794,7 +694,7 @@
 			"description": "Автомобили KIA произведены по самым высоким стандартам автомобильной промышленности. Именно это исключительное качество позволяет KIA предложить уникальные условия гарантии.",
 			"detail_link_title": null,
 			"id": "ce720aea-0a4e-4c96-8ac5-4ec9d113a21f",
-			"image": "/img/other/k5-warranty.png",
+			"image": "\/media-data\/infographics\/stinger\/warranty.png",
 			"link":
 			{
 				"title": null,

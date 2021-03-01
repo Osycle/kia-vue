@@ -21,15 +21,15 @@
               <div class="list-add-sub">
                 <ul>
                   <!-- <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link :to="item.link" :target="item.in_new_window?'_blank':'_self'">{{item.title}}</nuxt-link></li> -->
-                  <li><nuxt-link to="/models/k5/desc/" class="">Обзор</nuxt-link></li>
-                  <li><nuxt-link to="/models/k5/options/">Комплектации и цены</nuxt-link></li>
-                  <li><nuxt-link to="/models/k5/properties/" class="">Характеристики</nuxt-link></li>
-                  <li><nuxt-link to="/models/k5/calc/" class="">Рассчитать кредит</nuxt-link></li>
-                  <li><nuxt-link to="/models/k5/cars/" class="">Авто в наличии</nuxt-link></li>
-                  <li><nuxt-link to="/models/k5/special/" class="">Спецпредложения</nuxt-link></li>
-                  <li><nuxt-link to="/models/k5/configurator/" class="">Конфигуратор</nuxt-link></li>
-                  <li><nuxt-link to="/models/k5/callback/" class="">Заявка дилеру</nuxt-link></li>
-                  <li><nuxt-link to="/models/k5/testdrive/" class="">Тест-драйв</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/desc/'" class="">Обзор</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/options/'">Комплектации и цены</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/properties/'" class="">Характеристики</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/calc/'" class="">Рассчитать кредит</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/cars/'" class="">Авто в наличии</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/special/'" class="">Спецпредложения</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/configurator/'" class="">Конфигуратор</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/callback/'" class="">Заявка дилеру</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/testdrive/'" class="">Тест-драйв</nuxt-link></li>
                 </ul>
               </div>
             </div>
@@ -45,7 +45,7 @@
     <div class="card-bnr card-top relative" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'model'">
       <div class="bg-video-content cover">
         <video :src="bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-        <div class="img-xs absolute" :style="'background-image: url('+bnr.images.mobile+');'"></div>
+        <div class="img-xs absolute" :style="'background-image: url(https://cdn.kia.ru/resize/770x442/'+bnr.images.mobile+');'"></div>
       </div>
       <div class="container-p relative">
         <div class="breadcrumb-container">
@@ -122,7 +122,7 @@
                     </template>
                     <template v-else>
                       <div class="img-content">
-                        <img :src="preview.file">
+                        <img :src="'https://cdn.kia.ru/resize/1440x720/'+preview.file">
                       </div>
                       <div class="desc-content m-auto box-md-9 m-t-25">
                         <p>{{preview.description}}</p>
@@ -148,7 +148,7 @@
                 <div class="tab-content">
                   <div class="tab-pane fade" :id="'card-tech-'+keyParent+'-'+key" v-for="(preview, key) in info.preview_block.contents" :key="key" :class="{'active in': key == 0}">
                     <div class="img-content text-center m-v-30">
-                      <img :src="preview.file">
+                      <img :src="'https://cdn.kia.ru/resize/1440x720/'+preview.file">
                     </div>
                     <div class="desc-content box-lg-6">
                       <p>{{preview.description}}</p>
@@ -372,20 +372,23 @@
     
     <div class="card-gar bg-color-gray-1" v-for="(info, key) in page.infographics" :key="key" v-if="info.type == 'img_left'">
       <div class="container-p p-v-45">
-        <div class="entry-content flex-adaptive align-center justify-c-between">
-          <div class="img-content m-v-30 flex-s-0">
-            <img :src="info.image">
-          </div>
-          <div class="entry-header m-v-30 box-md-4">
-            <h4 class="color-2 text-n1">{{info.title}}</h4>
-            <h2>{{info.name}}</h2>
-            <p>{{info.description}}</p>
+        <div class="container">
+          <div class="entry-content flex-adaptive align-center justify-c-between">
+            <div class="img-content m-v-30 flex-s-0">
+              <img :src="'https://cdn.kia.ru/resize/790x442/'+info.image">
+            </div>
+            <div class="entry-header m-v-30 box-md-4">
+              <h4 class="color-2 text-n1">{{info.title}}</h4>
+              <h2>{{info.name}}</h2>
+              <p>{{info.description}}</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="card-fb" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'center'" :style="'background-image: url('+bnr.bg_images.desktop+');'">
+    <div class="card-fb" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'center'" 
+        :style="'background-image: url(https://cdn.kia.ru/resize/1920x960/'+bnr.bg_images.desktop+');'">
       <div class="container-p text-center">
         <div class="entry-content">
           <div class="entry-header color-white p-v-30">
@@ -399,8 +402,8 @@
           </div>
           <div class="img-content">
             <picture>
-              <source :srcset="bnr.images.mobile" media="(max-width: 768px)">
-              <img :src="bnr.images.desktop">
+              <source :srcset="'https://cdn.kia.ru/resize/770x442'+bnr.images.mobile" media="(max-width: 768px)">
+              <img :src="'https://cdn.kia.ru/resize/1020x480/'+bnr.images.desktop">
             </picture>
           </div>
         </div>
