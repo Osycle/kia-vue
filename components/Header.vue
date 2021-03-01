@@ -175,6 +175,7 @@
                           <li><nuxt-link to="/about/brand/">Компания KIA Motors</nuxt-link></li>
                           <li><nuxt-link to="/about/history/">История</nuxt-link></li>
                           <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
+                          <li><a href="https://worldwide.kia.com/int/our-movement" target="_blank">Kia worldwide</a></li>
                         </ul>
                       </div>
                       <div class="item">
@@ -191,6 +192,15 @@
                         <ul>
                           <li><nuxt-link to="/about/design/">Дизайн</nuxt-link></li>
                           <li><nuxt-link to="/about/concept/">Концепт-кары</nuxt-link></li>
+                          <li><nuxt-link to="/about/technologies">Технологии</nuxt-link></li>
+                        </ul>
+                      </div>
+                      <div class="item">
+                        <div class="color-gray-4 title-content">Медиа</div>
+                        <ul>
+                          <li><nuxt-link to="/press/news">Новости</nuxt-link></li>
+                          <li><nuxt-link to="/press/reviews">Обзоры</nuxt-link></li>
+                          <li><nuxt-link to="/press/magazine">Журнал</nuxt-link></li>
                         </ul>
                       </div>
                     </div>
@@ -234,10 +244,7 @@
     <div class="hide">
       <div id="min-menu">
         <ul>
-          <li><nuxt-link to="/">Главная</nuxt-link></li>
           <li><nuxt-link to="/models">Модели</nuxt-link></li>
-          <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
-          <li><nuxt-link to="/buy/cars">Авто в наличии</nuxt-link></li>
           <li>
             <a href="javascript:;">Выбор и покупка</a>
             <ul>
@@ -250,16 +257,30 @@
               <li><nuxt-link to="/feedback">Записть на тест-драйв</nuxt-link></li>
             </ul>
           </li>
+          <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
+          <li><nuxt-link to="/buy/cars">Авто в наличии</nuxt-link></li>
           <li>
             <nuxt-link to="/about">Мир KIA</nuxt-link>
-            <ul>
-              <li><nuxt-link to="/about/brand/">Компания KIA Motors</nuxt-link></li>
-              <li><nuxt-link to="/about/history/">История</nuxt-link></li>
-              <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
-              <li><nuxt-link to="/service/booking/">Обратная связь</nuxt-link></li>
-              <li><nuxt-link to="/about/dealers/">Дилеры</nuxt-link></li>
-              <li><nuxt-link to="/about/design/">Дизайн</nuxt-link></li>
-              <li><nuxt-link to="/about/concept/">Концепт-кары</nuxt-link></li>
+            <ul class="sub-menu-item">
+              <div class="wrapper">
+                <div class="menu-item-cap">Бренд KIA</div>
+                <li><nuxt-link to="/about/brand/">Компания KIA Motors</nuxt-link></li>
+                <li><nuxt-link to="/about/history/">История</nuxt-link></li>
+                <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
+                <li><nuxt-link to="https://worldwide.kia.com/int/our-movement" target="_blank">Kia worldwide</nuxt-link></li>
+              </div>
+              <div class="wrapper">
+                <div class="menu-item-cap">KIA в Узбекистане</div>
+                <li><nuxt-link to="/about">О нас</nuxt-link></li>
+                <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
+                <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
+              </div>
+              <div class="wrapper">
+                <div class="menu-item-cap">Инновации</div>
+                <li><nuxt-link to="/about/design">Дизайн</nuxt-link></li>
+                <li><nuxt-link to="/about/concept">Концепт-кары</nuxt-link></li>
+                <li><nuxt-link to="/about/technologies">Технологии</nuxt-link></li>
+              </div>
             </ul>
           </li>
           <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>

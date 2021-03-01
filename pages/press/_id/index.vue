@@ -16,7 +16,7 @@
 					<div class="press-content m-v-20">
 						<div class="short-news-items boxes-4 figure-m-v-15">
 							<figure v-for="(item, key) in page.media_center[$route.params.id]" :key="key" v-if="page.media_center[$route.params.id].length != 0">
-								<nuxt-link :to="'/press/news/'+item.code">
+								<nuxt-link :to="'/press/'+$route.params.id+'/'+item.code">
 									<div class="fig-wrapper">
 										<div class="img-content">
 											<div class="img" :style="'background-image: url(https://cdn.kia.ru/resize/410x277/'+item.image+');'"></div>
