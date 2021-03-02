@@ -1,0 +1,219 @@
+{
+	"error": 0,
+	"content":
+	{
+		"meta":
+		{
+			"current_page": 1,
+			"from": 1,
+			"last_page": 3,
+			"per_page": 12,
+			"to": 12,
+			"total": 33
+		},
+		"technologies": [
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "f55ce731-dbc8-4137-88ea-ffef208a8d0e",
+			"image": "\/media-data\/technologies\/75.jpg",
+			"name": "Интеллектуальный круиз-контроль (SCC)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "b8b0ad36-deda-450d-86df-ed9eda0e7059",
+			"image": "\/media-data\/technologies\/3.jpg",
+			"name": "Интеллектуальный круиз-контроль (SCC) с функцией Stop&Go"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "882bec53-f5f1-43fa-a21e-093c17153c85",
+			"image": "\/media-data\/technologies\/11.jpg",
+			"name": "Система распознавания дорожных знаков (SLIF)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "adb18898-32da-42e6-afe6-1f85838971f7",
+			"image": "\/media-data\/technologies\/4.jpg",
+			"name": "Система предотвращения фронтального столкновения (FCA)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "38756dea-eed9-4cc8-982e-ede3ed10c144",
+			"image": "\/media-data\/technologies\/5.jpg",
+			"name": "Система предотвращения выезда из полосы движения (LKA)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "9a0877db-ec1a-4052-8b17-e6d5557ff5cb",
+			"image": "\/media-data\/technologies\/6.jpg",
+			"name": "Ассистент движения в полосе (LFA)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "06e40a3a-6593-4646-a89a-99225e81a018",
+			"image": "\/media-data\/technologies\/7.jpg",
+			"name": "Система контроля слепых зон (BCW)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "74696b8b-2e3d-4225-a196-d6edfffbbc44",
+			"image": "\/media-data\/technologies\/8.jpg",
+			"name": "Система предотвращения столкновения с автомобилем в слепой зоне (BCA)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "58fa29bd-fb0e-47b5-a798-9aecb78e7825",
+			"image": "\/media-data\/technologies\/76.jpg",
+			"name": "Камеры контроля слепых зон \/ Камеры, отображающие изображение в слепых зонах на панели\nприборов (BVM)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "f963afc5-d664-4897-bd10-0542bd4895e1",
+			"image": "\/media-data\/technologies\/12.jpg",
+			"name": "Система предупреждения при выезде с парковки задним ходом (RCCW)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "07d70a7e-ae8b-4fee-9e43-2951aa107e89",
+			"image": "\/media-data\/technologies\/9.jpg",
+			"name": "Система контроля внимания водителя (DAW)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "366b6336-775a-4e6d-881d-1408b1e51f13",
+			"image": "\/media-data\/technologies\/10.jpg",
+			"name": "Ассистент управления дальним светом (HBA)"
+		}],
+		"technology_groups": [
+		{
+			"id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"model_lines": ["af200bf5-ad49-46b6-a2c8-91166930e857", "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9", "b9568e27-e57f-4b73-af9c-e271c7215b83", "d4439731-d411-4b49-815f-0c24e66e46f9", "a5899871-d971-415e-89e1-aa7a1ce47dee", "378f0511-b41a-487d-86b3-2d7db87a2cdf", "933b4317-3cd4-4949-961d-674ee6d6fad6", "ae7982d3-d9a0-4a97-bac5-db54e184741c", "4174eee0-ddcc-4edf-9a75-ff0ece055e2a", "cef2036b-ab02-4bc2-bc8c-dded81e45e4d", "a4b97ef9-0efb-4a37-8c06-118177588b35", "d9fb43e6-4e75-4372-b361-a279dede090e", "dad9bcf8-8ee6-4469-af87-67df7c5ebac6", "88b88d67-ed36-4566-b52e-f6e4237def68", "ac02f0f6-2580-40c3-af47-25573b56eaa8", "e6d76b78-a116-4127-a6ca-e856a6a6b651"],
+			"name": "Drive Wise"
+		},
+		{
+			"id": "89228b4c-c32d-45ee-bb22-7792ce233aa1",
+			"model_lines": ["dad9bcf8-8ee6-4469-af87-67df7c5ebac6", "ac02f0f6-2580-40c3-af47-25573b56eaa8", "7eb56cca-6cb5-4b58-b396-ca6413035839", "88b88d67-ed36-4566-b52e-f6e4237def68", "e6d76b78-a116-4127-a6ca-e856a6a6b651", "b9568e27-e57f-4b73-af9c-e271c7215b83", "d9fb43e6-4e75-4372-b361-a279dede090e", "4174eee0-ddcc-4edf-9a75-ff0ece055e2a", "933b4317-3cd4-4949-961d-674ee6d6fad6", "686bf528-4e50-4d57-86d2-cc2626c4417d", "ae7982d3-d9a0-4a97-bac5-db54e184741c", "0a6fda20-1488-443d-acf7-791340390002", "cef2036b-ab02-4bc2-bc8c-dded81e45e4d", "a5899871-d971-415e-89e1-aa7a1ce47dee", "af200bf5-ad49-46b6-a2c8-91166930e857", "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9", "378f0511-b41a-487d-86b3-2d7db87a2cdf"],
+			"name": "Мультимедиа"
+		},
+		{
+			"id": "770dad9b-8322-4b19-a7c6-f7acbcc4f85d",
+			"model_lines": ["686bf528-4e50-4d57-86d2-cc2626c4417d", "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9", "378f0511-b41a-487d-86b3-2d7db87a2cdf", "d4439731-d411-4b49-815f-0c24e66e46f9", "d9fb43e6-4e75-4372-b361-a279dede090e", "933b4317-3cd4-4949-961d-674ee6d6fad6", "cef2036b-ab02-4bc2-bc8c-dded81e45e4d", "ae7982d3-d9a0-4a97-bac5-db54e184741c", "af200bf5-ad49-46b6-a2c8-91166930e857", "e6d76b78-a116-4127-a6ca-e856a6a6b651", "88b88d67-ed36-4566-b52e-f6e4237def68", "ac02f0f6-2580-40c3-af47-25573b56eaa8", "0a6fda20-1488-443d-acf7-791340390002", "dad9bcf8-8ee6-4469-af87-67df7c5ebac6", "a5899871-d971-415e-89e1-aa7a1ce47dee", "7eb56cca-6cb5-4b58-b396-ca6413035839", "b9568e27-e57f-4b73-af9c-e271c7215b83", "4174eee0-ddcc-4edf-9a75-ff0ece055e2a"],
+			"name": "Комфорт"
+		},
+		{
+			"id": "d4526a80-518b-46a9-b6f4-06dacc5e51dd",
+			"model_lines": ["cef2036b-ab02-4bc2-bc8c-dded81e45e4d", "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9", "4174eee0-ddcc-4edf-9a75-ff0ece055e2a", "d9fb43e6-4e75-4372-b361-a279dede090e", "378f0511-b41a-487d-86b3-2d7db87a2cdf", "88b88d67-ed36-4566-b52e-f6e4237def68", "ac02f0f6-2580-40c3-af47-25573b56eaa8", "ae7982d3-d9a0-4a97-bac5-db54e184741c", "dad9bcf8-8ee6-4469-af87-67df7c5ebac6", "e6d76b78-a116-4127-a6ca-e856a6a6b651", "933b4317-3cd4-4949-961d-674ee6d6fad6", "af200bf5-ad49-46b6-a2c8-91166930e857", "b9568e27-e57f-4b73-af9c-e271c7215b83"],
+			"name": "Двигатели и трансмиссии"
+		}],
+		"model_lines": [
+		{
+			"code": "rio-x-line",
+			"external_id": "H0S6",
+			"id": "0a6fda20-1488-443d-acf7-791340390002",
+			"image": "\/master-data\/models\/rio_x_line.png",
+			"name": "Rio X-Line",
+			"sort": 1400
+		},
+		{
+			"code": "ceed",
+			"external_id": "J7S6",
+			"id": "933b4317-3cd4-4949-961d-674ee6d6fad6",
+			"image": "\/master-data\/models\/ceed.png",
+			"name": "Ceed",
+			"sort": 1300
+		},
+		{
+			"code": "ceed_sw",
+			"external_id": "J7W5",
+			"id": "ae7982d3-d9a0-4a97-bac5-db54e184741c",
+			"image": "\/master-data\/models\/ceedsw.png",
+			"name": "Ceed SW",
+			"sort": 1200
+		},
+		{
+			"code": "proceed",
+			"external_id": "J7Q1",
+			"id": "e6d76b78-a116-4127-a6ca-e856a6a6b651",
+			"image": "\/master-data\/models\/proceed.png",
+			"name": "ProCeed",
+			"sort": 1100
+		},
+		{
+			"code": "cerato",
+			"external_id": "DJ",
+			"id": "cef2036b-ab02-4bc2-bc8c-dded81e45e4d",
+			"image": "\/master-data\/models\/cerato.png",
+			"name": "Cerato",
+			"sort": 900
+		},
+		{
+			"code": "k5",
+			"external_id": "EXS4",
+			"id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+			"image": "\/master-data\/models\/K5_half.png",
+			"name": "K5",
+			"sort": 750
+		},
+		{
+			"code": "stinger_ck",
+			"external_id": "J5",
+			"id": "4174eee0-ddcc-4edf-9a75-ff0ece055e2a",
+			"image": "\/master-data\/models\/stinger.png",
+			"name": "Stinger",
+			"sort": 700
+		},
+		{
+			"code": "k900",
+			"external_id": "J6",
+			"id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
+			"image": "\/master-data\/models\/k900.png",
+			"name": "K900",
+			"sort": 600
+		},
+		{
+			"code": "soul",
+			"external_id": "SK",
+			"id": "88b88d67-ed36-4566-b52e-f6e4237def68",
+			"image": "\/master-data\/models\/soul.png",
+			"name": "Soul",
+			"sort": 550
+		},
+		{
+			"code": "seltos",
+			"external_id": "TH",
+			"id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+			"image": "\/master-data\/models\/seltos.png",
+			"name": "Seltos",
+			"sort": 500
+		},
+		{
+			"code": "xceed",
+			"external_id": "J7S8",
+			"id": "dad9bcf8-8ee6-4469-af87-67df7c5ebac6",
+			"image": "\/master-data\/models\/xceed.png",
+			"name": "XCeed",
+			"sort": 450
+		},
+		{
+			"code": "sportage",
+			"external_id": "F1",
+			"id": "d9fb43e6-4e75-4372-b361-a279dede090e",
+			"image": "\/master-data\/models\/sportage.png",
+			"name": "Sportage",
+			"sort": 400
+		},
+		{
+			"code": "sorento_xm",
+			"external_id": "GM",
+			"id": "d4439731-d411-4b49-815f-0c24e66e46f9",
+			"image": null,
+			"name": "Sorento",
+			"sort": 300
+		}],
+		"seo":
+		{
+			"title": "Технологии KIA",
+			"description": "Kia Motors"
+		}
+	}
+}
