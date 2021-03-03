@@ -1,15 +1,17 @@
 
 
-import Vue from 'vue'
-import Vuex from 'vuex'
-import _ from 'lodash'
-import Notifications from 'vue-notification/dist/ssr.js'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import _ from 'lodash';
+import Notifications from 'vue-notification/dist/ssr.js';
+import Multiselect from 'vue-multiselect';
 
 
 Vue.use(Vuex);
 Vue.use(_);
 Vue.use(Notifications);
 
+Vue.component('multiselect', Multiselect)
 
 import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
 Vue.use(VueFilterDateFormat, {

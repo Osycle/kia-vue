@@ -625,6 +625,7 @@ $heightSlider: auto;
 		//display: none;
 		.flex-adaptive{
 			flex-direction: row;
+			flex-wrap: wrap;
 		}
 		// padding-top: 15px;
 		// padding-bottom: 15px;
@@ -1982,6 +1983,10 @@ $heightSlider: auto;
 }
 .bnr-style-1{
 	@extend .kiaworld-bnr;	
+}
+.bnr-height-auto{
+	height: 100%;
+	padding-bottom: 80px;
 }
 .kiaworld-bnr-header{
 	p{
@@ -4048,5 +4053,27 @@ dt{
 				margin-bottom: 20px;
 			}
 		}
+	}
+}
+
+
+.multiselect{
+	border: 1px solid $color-gray-3;
+	.multiselect__tags{
+		border-radius: 0;
+		border: 0;
+	}
+	&, .multiselect__input, .multiselect__single{
+		font-size: 14px !important;
+	}
+	.multiselect__option--highlight{
+		background-color: $color-gray-1;
+		color: black;
+	}
+	.multiselect__option--selected.multiselect__option--highlight{
+		background-color: $color-1;
+	}
+	.multiselect__content-wrapper{
+		border-radius: 0 !important;
 	}
 }

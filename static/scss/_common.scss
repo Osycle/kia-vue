@@ -516,7 +516,6 @@ table {
 	.boxes-#{$i}{
 		figure, .cell{
 			width: #{100%/$i};
-
 			@media (max-width: 1200px){
 				@if $i >= 3{
 					width: 50%;
@@ -528,9 +527,18 @@ table {
 		}
 	}
 }
+@media (min-width: 1440px){
+	@for $i from 1 through 6 {
+		.boxes-ex-#{$i}{
+			figure, .cell{
+				width: #{100%/$i};
+			}
+		}
+	}
+}
 
 [class*="boxes-"]{
-		margin-left: -15px;
+	margin-left: -15px;
 	margin-right: -15px;
 	&:not(.serried){
 		figure, .cell{

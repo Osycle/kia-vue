@@ -83,6 +83,132 @@
 			"id": "366b6336-775a-4e6d-881d-1408b1e51f13",
 			"image": "\/media-data\/technologies\/10.jpg",
 			"name": "Ассистент управления дальним светом (HBA)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "02c6153a-f5d1-4d72-8c6c-fa75485a1510",
+			"image": "\/media-data\/technologies\/59.jpg",
+			"name": "Система безопасного выхода (SEA)"
+		},
+		{
+			"group_id": "3f101665-3a24-4807-9145-cc9f5ed3bc24",
+			"id": "16c63807-8ca1-439a-905f-1d8340e707c2",
+			"image": "\/media-data\/technologies\/13.jpg",
+			"name": "Интеллектуальная система автоматической парковки (SPAS)"
+		},
+		{
+			"group_id": "89228b4c-c32d-45ee-bb22-7792ce233aa1",
+			"id": "68813cf0-9537-4bb4-bfdd-0564dc86a21e",
+			"image": "\/media-data\/technologies\/82.jpg",
+			"name": "Мультимедийные системы KIA без встроенной навигации (AV)"
+		},
+		{
+			"group_id": "89228b4c-c32d-45ee-bb22-7792ce233aa1",
+			"id": "70ca6092-90f2-48c1-ac8d-f344ad5876d3",
+			"image": "\/media-data\/technologies\/77.jpg",
+			"name": "Мультимедийные системы KIA со встроенной навигацией (AVN)"
+		},
+		{
+			"group_id": "89228b4c-c32d-45ee-bb22-7792ce233aa1",
+			"id": "0008c086-d9bf-435a-bf3e-ca372aa77bb7",
+			"image": "\/media-data\/technologies\/78.jpg",
+			"name": "Мультимедийная система AVN с широкоформатным дисплеем и встроенной навигацией"
+		},
+		{
+			"group_id": "89228b4c-c32d-45ee-bb22-7792ce233aa1",
+			"id": "ceee9a98-2707-442b-8b68-8dc7653c65fc",
+			"image": "\/media-data\/technologies\/28.jpg",
+			"name": "Сервисы платформы Яндекс.Авто"
+		},
+		{
+			"group_id": "89228b4c-c32d-45ee-bb22-7792ce233aa1",
+			"id": "521a6f45-5a5b-420e-8165-889bd6aa5421",
+			"image": "\/media-data\/technologies\/63.jpg",
+			"name": "Беспроводная зарядка для мобильных устройств"
+		},
+		{
+			"group_id": "89228b4c-c32d-45ee-bb22-7792ce233aa1",
+			"id": "6042f93e-df6f-41f5-a509-8d10373db83b",
+			"image": "\/media-data\/technologies\/64.jpg",
+			"name": "Динамическая подсветка интерьера Mood Lamp"
+		},
+		{
+			"group_id": "89228b4c-c32d-45ee-bb22-7792ce233aa1",
+			"id": "b8a87938-ec61-4d11-ad25-0bca4c35751e",
+			"image": "\/media-data\/technologies\/65.jpg",
+			"name": "Аудиосистемы премиум-класса"
+		},
+		{
+			"group_id": "d4526a80-518b-46a9-b6f4-06dacc5e51dd",
+			"id": "bfbb0b7c-2c0f-4ef8-b281-9ce22ae99291",
+			"image": "\/media-data\/technologies\/transmission.jpg",
+			"name": "Роботизированная трансмиссия 8DCT"
+		},
+		{
+			"group_id": "770dad9b-8322-4b19-a7c6-f7acbcc4f85d",
+			"id": "6acf27eb-5059-460d-a0fd-da94d85447eb",
+			"image": "\/media-data\/technologies\/66.jpg",
+			"name": "Система кругового обзора (SVM) "
+		},
+		{
+			"group_id": "770dad9b-8322-4b19-a7c6-f7acbcc4f85d",
+			"id": "75530e70-a1e8-4cee-9791-59de3793d1fd",
+			"image": "\/media-data\/technologies\/69.jpg",
+			"name": "Проекционный дисплей (HUD)"
+		},
+		{
+			"group_id": "770dad9b-8322-4b19-a7c6-f7acbcc4f85d",
+			"id": "187f292e-4519-4009-a5e8-00235bf1489f",
+			"image": "\/media-data\/technologies\/67.jpg",
+			"name": "Приборная панель Supervision 12.3\""
+		},
+		{
+			"group_id": "770dad9b-8322-4b19-a7c6-f7acbcc4f85d",
+			"id": "be5df88f-ad5d-4d19-ae7c-e7567e747601",
+			"image": "\/media-data\/technologies\/37.jpg",
+			"name": "Система бесключевого доступа Smart Key и запуск двигателя кнопкой"
+		},
+		{
+			"group_id": "770dad9b-8322-4b19-a7c6-f7acbcc4f85d",
+			"id": "96972a20-b0da-4c6a-8a94-b08434abb9eb",
+			"image": "\/media-data\/technologies\/73.jpg",
+			"name": "Электронноуправляемая адаптивная подвеска (ECS)"
+		},
+		{
+			"group_id": "770dad9b-8322-4b19-a7c6-f7acbcc4f85d",
+			"id": "a63922c9-9401-4245-b505-1d90567d25fb",
+			"image": "\/media-data\/technologies\/87.jpg",
+			"name": "Дистанционный запуск двигателя с ключа"
+		},
+		{
+			"group_id": "d4526a80-518b-46a9-b6f4-06dacc5e51dd",
+			"id": "c377b10e-96e1-43b1-a080-eec7ed60f3b3",
+			"image": "\/media-data\/technologies\/79.jpg",
+			"name": "Современные двигатели KIA"
+		},
+		{
+			"group_id": "d4526a80-518b-46a9-b6f4-06dacc5e51dd",
+			"id": "8142136a-1db5-42e4-a2ea-b30b0baf9930",
+			"image": "\/media-data\/technologies\/80.jpg",
+			"name": "Современные коробки передач KIA"
+		},
+		{
+			"group_id": "d4526a80-518b-46a9-b6f4-06dacc5e51dd",
+			"id": "22ef8f92-0764-4bd5-98ae-c580b9f61f1b",
+			"image": "\/media-data\/technologies\/81.jpg",
+			"name": "Современные системы полного привода KIA"
+		},
+		{
+			"group_id": "d4526a80-518b-46a9-b6f4-06dacc5e51dd",
+			"id": "4e424688-121e-4c5a-812d-10bd03500d21",
+			"image": "\/media-data\/technologies\/71.jpg",
+			"name": "Электронное управление трансмиссией (Shift by Wire)"
+		},
+		{
+			"group_id": "d4526a80-518b-46a9-b6f4-06dacc5e51dd",
+			"id": "6376f00e-31ab-4411-89c0-437d4c4641e3",
+			"image": "\/media-data\/technologies\/72.jpg",
+			"name": "Система выбора режима движения Drive Mode Select"
 		}],
 		"technology_groups": [
 		{

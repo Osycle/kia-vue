@@ -1,6 +1,6 @@
 <template>
   <div class="main-body offset-header" header-opacity>
-    <div class="bnr-style-1 color-white bg-shadow-none" :style="'background-image: url(https://cdn.kia.ru/media-data/landing/technologies/1920_tech_banner.jpg);'">
+    <div class="bnr-style-1 bnr-height-auto color-white bg-shadow-none" :style="'background-image: url(https://cdn.kia.ru/media-data/landing/technologies/1920_tech_banner.jpg);'">
       <div class="breadcrumb-container">
         <div class="container-p">
           <ol class="breadcrumb">
@@ -29,17 +29,38 @@
     </div>
     <div class="block-content">
       <div class="container-p">
-        <div class="wrapper">
-          <div class="short-models-nav m-v-10">
+        <hr>
+        <div class="wrapper pv-5">
+          <div class="select-def mb-6">
+            <link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.1.0/dist/vue-multiselect.min.css">
+            <multiselect 
+              v-model="modelsSelectValue" 
+              :options="modelsSelectOptions"
+              track-by="name"
+              deselect-label=""
+              selectLabel=""
+              selectedLabel=""
+              placeholder="Выберите"
+              label="name">
+              <template slot-scope="{ option }">
+                <span>{{ option.name }}</span>
+              </template>
+            </multiselect>
+          </div>
+          <div class="short-models-nav mv-4 row">
             <ul class="list flex-adaptive justify-c-start li-m-v-15">
-              <li class="active"><a href="#" data-toggle="tab">Все технологии</a></li>
-              <li v-for="(item, key) in page.technology_groups" :key="key">
-                <a href="#" data-toggle="tab">{{item.name}}</a>
+              <li @click="currentGroup = {}"
+                  :class="{'active': !currentGroup.id}"><a href="#" data-toggle="tab">Все технологии</a></li>
+              <li v-for="(item, key) in page.technology_groups" :key="key"
+                  :class="{'active': currentGroup.id == item.id}"
+                  @click="currentGroup = item">
+                  <a href="javascript:;">{{item.name}}</a>
               </li>
             </ul>
           </div>
-          <div class="short-news-items boxes-4 figure-m-v-15">
-            <figure v-for="(item, key) in page.technologies" :key="key">
+          <div class="short-news-items boxes-4 boxes-ex-6 figure-m-v-15">
+            <figure v-for="(item, key) in page.technologies" :key="key" 
+              v-if="(!modelsSelectValue || currentGroup.model_lines.indexOf(modelsSelectValue.id) > 0 ) && (item.group_id == currentGroup.id || !currentGroup.id)">
               <nuxt-link :to="'/about/technologies/'+item.id">
                 <div class="fig-wrapper">
                   <div class="img-content">
@@ -47,6 +68,9 @@
                   </div>
                   <div class="desc-content">
                     <h4>{{item.name}}</h4>
+                    <template v-for="(group, key) in page.technology_groups" v-if="item.group_id == group.id">
+                      <div :key="key" class="color-gray-4 mv-3">{{group.name}}</div>
+                    </template>
                   </div>
                 </div>
               </nuxt-link>
@@ -55,21 +79,42 @@
         </div>
       </div>
     </div>
+
+    <KiaworldOther />
+
   </div>
 </template>
 
 
 <script>
+
+
+import KiaworldOther from "@/components/kiaworld/KiaworldOther";
 export default {
   head() {
     return {
-      //title: this.page.seo.title,
+      title: this.page.seo.title,
       meta: [
         {
-          //content: this.page.seo.description
+          content: this.page.seo.description
         }
       ],
     }
+  },
+  components:{
+    KiaworldOther,
+  },
+  data(){
+    return {
+      modelsSelectValue: null,
+      modelsSelectOptions: [],
+      currentGroup: {},
+      currentModel: {},
+    }
+  },
+  created(){ 
+    //page.technology_groups
+    this.modelsSelectOptions = this.page.model_lines;
   },
   async asyncData(context){
     try{
@@ -87,3 +132,10 @@ export default {
 }
 </script>
 
+
+
+<style lang="scss" scoped>
+  .select-def{
+    width: 310px;
+  }
+</style>

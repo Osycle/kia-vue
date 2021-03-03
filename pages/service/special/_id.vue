@@ -1,6 +1,6 @@
 <template>
   <div class="main-body offset-header special" header-opacity>
-    <div class="bnr-style-1 color-white bg-shadow-none" :style="'background-image: url(https://cdn.kia.ru/'+page.offer.detail_image+');'">
+    <div class="bnr-style-1 bnr-height-auto color-white bg-shadow-none" :style="'background-image: url(https://cdn.kia.ru/'+page.offer.detail_image+');'">
       <div class="breadcrumb-container">
         <div class="container-p">
           <ol class="breadcrumb">
@@ -58,10 +58,3 @@ export default {
 }
 </script>
 
-
-<style lang="scss" scoped>
-  .kiaworld-bnr, .bnr-style-1{
-    height: 100%;
-    padding-bottom: 80px;
-  }
-</style>
