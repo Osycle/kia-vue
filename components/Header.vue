@@ -59,7 +59,7 @@
                     <div class="item">
                       <div class="color-gray-4 title-content">KIA в Узбекистане</div>
                       <ul>
-                        <li><nuxt-link to="/callback">Обратная связь</nuxt-link></li>
+                        <li><nuxt-link to="/feedback">Обратная связь</nuxt-link></li>
                         <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
                       </ul>
                     </div>
@@ -181,8 +181,11 @@
                       <div class="item">
                         <div class="color-gray-4 title-content">KIA в Узбекистане</div>
                         <ul>
+                          <li><nuxt-link to="/about/">О нас</nuxt-link></li>
                           <li><nuxt-link to="/service/booking/">Обратная связь</nuxt-link></li>
                           <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
+                          <li><nuxt-link to="/about/dealer/">Как стать дилером</nuxt-link></li>
+                          <li><nuxt-link to="/feedback">Заказать звонок дилера</nuxt-link></li>
                         </ul>
                       </div>
                     </div>
@@ -200,7 +203,7 @@
                         <ul>
                           <li><nuxt-link to="/press/news">Новости</nuxt-link></li>
                           <li><nuxt-link to="/press/reviews">Обзоры</nuxt-link></li>
-                          <li><nuxt-link to="/press/magazine">Журнал</nuxt-link></li>
+                          <li><nuxt-link to="/press/magazine">Журнал Kia WAY</nuxt-link></li>
                         </ul>
                       </div>
                     </div>
@@ -273,13 +276,20 @@
                 <div class="menu-item-cap">KIA в Узбекистане</div>
                 <li><nuxt-link to="/about">О нас</nuxt-link></li>
                 <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
-                <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
+                <li><nuxt-link to="/about/dealer/">Как стать дилером</nuxt-link></li>
+                <li><nuxt-link to="/feedback">Заказать звонок дилера</nuxt-link></li>
               </div>
               <div class="wrapper">
                 <div class="menu-item-cap">Инновации</div>
                 <li><nuxt-link to="/about/design">Дизайн</nuxt-link></li>
                 <li><nuxt-link to="/about/concept">Концепт-кары</nuxt-link></li>
                 <li><nuxt-link to="/about/technologies">Технологии</nuxt-link></li>
+              </div>
+              <div class="wrapper">
+                <div class="menu-item-cap">Медиа</div>
+                <li><nuxt-link to="/press/news">Новости</nuxt-link></li>
+                <li><nuxt-link to="/press/reviews">Обзоры</nuxt-link></li>
+                <li><nuxt-link to="/press/magazine">Журнал Kia WAY</nuxt-link></li>
               </div>
             </ul>
           </li>
