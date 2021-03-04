@@ -56,10 +56,10 @@ Vue.mixin({
 	methods:{
 		sortedUniq(ob) {
 			return _.uniqWith(ob, _.isEqual);
-		},
-		
+    },
 	}
 })
+
 
 
 

@@ -960,3 +960,51 @@ img[auto]{
 	}
 }
 
+@media (max-width: 991px){
+
+	@for $i from 0 through 20{
+		.mobile\:mt-#{$i}{
+			margin-top: $i*5px;
+		}
+		.mobile\:mr-#{$i}{
+			margin-right: $i*5px;
+		}
+		.mobile\:mb-#{$i}{
+			margin-bottom: $i*5px;
+		}
+		.mobile\:ml-#{$i}{
+			margin-left: $i*5px;
+		}
+		.mobile\:mv-#{$i}{
+			margin-top: $i*5px;
+			margin-bottom: $i*5px;
+		}
+		.mobile\:mh-#{$i}{
+			margin-left: $i*5px;
+			margin-right: $i*5px;
+		}
+	}
+	@for $i from 0 through 20{
+		.mobile\:pt-#{$i}{
+			padding-top: $i*5px;
+		}
+		.mobile\:pr-#{$i}{
+			padding-right: $i*5px;
+		}
+		.mobile\:pb-#{$i}{
+			padding-bottom: $i*5px;
+		}
+		.mobile\:pl-#{$i}{
+			padding-left: $i*5px;
+		}
+		.mobile\:pv-#{$i}{
+			padding-top: $i*5px;
+			padding-bottom: $i*5px;
+		}
+		.mobile\:ph-#{$i}{
+			padding-left: $i*5px;
+			padding-right: $i*5px;
+		}
+	}
+}
+

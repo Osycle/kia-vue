@@ -34,6 +34,7 @@
           <div class="select-def mb-6">
             <link rel="stylesheet" href="https://unpkg.com/vue-multiselect@2.1.0/dist/vue-multiselect.min.css">
             <multiselect 
+              class="hide"
               v-model="modelsSelectValue" 
               :options="modelsSelectOptions"
               track-by="name"
@@ -59,22 +60,23 @@
             </ul>
           </div>
           <div class="short-news-items boxes-4 boxes-ex-6 figure-m-v-15">
-            <figure v-for="(item, key) in page.technologies" :key="key" 
-              v-if="(!modelsSelectValue || currentGroup.model_lines.indexOf(modelsSelectValue.id) > 0 ) && (item.group_id == currentGroup.id || !currentGroup.id)">
-              <nuxt-link :to="'/about/technologies/'+item.id">
-                <div class="fig-wrapper">
-                  <div class="img-content">
-                    <div class="img" :style="'background-image: url(https://cdn.kia.ru/resize/410x277/'+item.image+');'"></div>
+            <template v-for="(item, key) in page.technologies" v-if="(item.group_id == currentGroup.id || !currentGroup.id)">
+              <figure :key="key">
+                <nuxt-link :to="'/about/technologies/'+item.id">
+                  <div class="fig-wrapper">
+                    <div class="img-content">
+                      <div class="img" :style="'background-image: url(https://cdn.kia.ru/resize/410x277/'+item.image+');'"></div>
+                    </div>
+                    <div class="desc-content">
+                      <h4>{{item.name}}</h4>
+                      <template v-for="(group, key) in page.technology_groups" v-if="item.group_id == group.id">
+                        <div :key="key" class="color-gray-4 mv-3">{{group.name}}</div>
+                      </template>
+                    </div>
                   </div>
-                  <div class="desc-content">
-                    <h4>{{item.name}}</h4>
-                    <template v-for="(group, key) in page.technology_groups" v-if="item.group_id == group.id">
-                      <div :key="key" class="color-gray-4 mv-3">{{group.name}}</div>
-                    </template>
-                  </div>
-                </div>
-              </nuxt-link>
-            </figure>
+                </nuxt-link>
+              </figure>
+            </template>
           </div>
         </div>
       </div>
@@ -109,12 +111,35 @@ export default {
       modelsSelectValue: null,
       modelsSelectOptions: [],
       currentGroup: {},
-      currentModel: {},
     }
   },
   created(){ 
     //page.technology_groups
     this.modelsSelectOptions = this.page.model_lines;
+  },
+  mounted(){
+    //currentGroup.model_lines.check(modelsSelectValue)
+    console.log(this.currentGroup.model_lines)
+  },
+  methods: {
+    checkArr(param){
+      console.log(param);
+      if(this.modelsSelectValue){
+        //if( currentGroup.id )
+        //this.modelsSelectValue.id == 
+        if( this.currentGroup ){
+          for (let i = 0; i < this.currentGroup.model_lines.length; i++) {
+            if(this.currentGroup.model_lines[i] === this.modelsSelectValue.id){
+              return true;
+              break;
+            }else
+              return false;
+          }
+        }
+      }
+      else
+        return true;
+    }
   },
   async asyncData(context){
     try{

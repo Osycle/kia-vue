@@ -33,13 +33,23 @@ module.exports = {
     '@nuxt/http',
   ],
   axios: {
-    //baseURL: 'https://html.lifestyle.uz/kia-api/',
-    baseURL: 'http://kia-api-php/',
+    baseURL: 'https://html.lifestyle.uz/kia-api/',
+    //baseURL: 'http://kia-api-php/',
   },
 
   build: {
     extend(config, ctx) {
       
+    }
+  }
+}
+
+Array.prototype.check = function(param){
+  for (let i = 0; i < this.length; i++) {
+    const element = this[i];
+    if(element === param){
+      break;
+      return true;
     }
   }
 }
