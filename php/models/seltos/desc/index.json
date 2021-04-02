@@ -15,10 +15,10 @@
 			"logo_white": "\/master-data\/models\/logo\/seltos-logo-white.svg",
 			"max_benefit": 45000,
 			"min_credit_price": 5960,
-			"min_price": 229900000,
+			"min_price": 239900000,
 			"model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
 			"name": "Seltos",
-			"price": 229900000,
+			"price": 239900000,
 			"price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
 			"overview_default_color_id": "96e40eb5-9bea-49a6-9273-38fdd8f1a398"
 		},
@@ -1307,7 +1307,7 @@
 				"gallery": null,
 				"id": "3648b119-7ea0-4566-81b2-2c40b1e20aef",
 				"label": null,
-				"min_price": 229900000,
+				"min_price": 239900000,
 				"modifications": [
 				{
 					"acceleration_to_100": 9.6,
@@ -1318,53 +1318,58 @@
 				"name": "Luxe",
 				"name_en": "Luxe",
 				"options": ["a742c73a-6059-4e56-9a65-d17ae402dfb7", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "90596dad-b569-4f34-b59d-57a20baa90d7", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"],
-				"price": 229900000
+				"price": 239900000
 			},
 			{
 				"gallery": null,
 				"id": "2c5dccb3-f15e-4c05-acd4-a3c2134629e3",
 				"label": null,
-				"min_price": 252900000,
+				"min_price": 264900000,
 				"modifications": [
 				{
 					"acceleration_to_100": 9.6,
 					"consumption_per_100": 6.8,
 					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831"
-				},
-				{
-					"acceleration_to_100": 10.4,
-					"consumption_per_100": 7.3,
-					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
-					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257"
 				}],
 				"name": "Style",
 				"name_en": "Style",
 				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "90596dad-b569-4f34-b59d-57a20baa90d7"],
-				"price": 252900000
+				"price": 264900000
 			},
 			{
 				"gallery": null,
 				"id": "6e985191-1656-4d73-87ac-8fc49a319a61",
 				"label": null,
-				"min_price": 279900000,
+				"min_price": 291900000,
 				"modifications": [
 				{
 					"acceleration_to_100": 9.6,
 					"consumption_per_100": 6.8,
 					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831"
-				},
-				{
-					"acceleration_to_100": 10.4,
-					"consumption_per_100": 7.3,
-					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
-					"transmission_id": "cd745fa8-1ea5-42e2-8948-4e2cc22b9257"
 				}],
 				"name": "Prestige",
 				"name_en": "Prestige",
 				"options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
-				"price": 279900000
+				"price": 291900000
+			},
+			{
+				"gallery": null,
+				"id": "685dabc0-fec1-4a31-a9ff-9e242d2d4074",
+				"label": null,
+				"min_price": 311900000,
+				"modifications": [
+				{
+					"acceleration_to_100": 9.6,
+					"consumption_per_100": 6.8,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831"
+				}],
+				"name": "Premium",
+				"name_en": "Premium",
+				"options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
+				"price": 311900000
 			}],
 			"engines": [
 			{

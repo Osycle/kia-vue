@@ -16,10 +16,10 @@
 			"logo_white": "\/master-data\/models\/logo\/k5-logo-white.svg",
 			"max_benefit": 40000,
 			"min_credit_price": 8030,
-			"min_price": 249900000,
+			"min_price": 259900000,
 			"model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
 			"name": "K5",
-			"price": 249900000,
+			"price": 259900000,
 			"price_list": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf",
 			"unique_id": "EXS420212020"
 		},
@@ -37,13 +37,13 @@
 					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
 					"external_name": "COMFORT",
 					"id": "7be5053b-9ef0-4d7b-b6b0-367daa774285",
-					"min_price": 249900000,
+					"min_price": 259900000,
 					"modification_code": "EXS42G61F",
 					"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
 					"name": "Comfort",
 					"name_en": "Comfort",
 					"ocn": "D646",
-					"price": 249900000,
+					"price": 259900000,
 					"specifications": [
 					{
 						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
@@ -207,13 +207,13 @@
 					"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
 					"external_name": "LUXE",
 					"id": "ea939986-7735-4b5e-b6a0-52694b4b20e7",
-					"min_price": 269900000,
+					"min_price": 297900000,
 					"modification_code": "EXS42G61F",
 					"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
 					"name": "Luxe",
 					"name_en": "Luxe",
 					"ocn": "G466",
-					"price": 269900000,
+					"price": 297900000,
 					"specifications": [
 					{
 						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
@@ -371,189 +371,19 @@
 					"unique_id": "EXS4202120202G61FGG466",
 					"year": 2020
 				},
-				"08316f44-3d28-4eff-9705-3f1108d12778":
-				{
-					"base_complectation_id": null,
-					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-					"external_name": "LUXE",
-					"id": "08316f44-3d28-4eff-9705-3f1108d12778",
-					"min_price": 279900000,
-					"modification_code": "EXS4L9A1J",
-					"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
-					"name": "Luxe",
-					"name_en": "Luxe",
-					"ocn": "G466",
-					"price": 279900000,
-					"specifications": [
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Седан"
-					},
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "230"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.5 GDI"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4905 \/ 1860 \/ 1465"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "124"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "194"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "246"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "163"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2850"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "155"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 95"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "510"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.5"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "2497"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Автомат (8AT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "Передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "8.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "7.1"
-					}],
-					"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
-					"unique_id": "EXS420212020L9A1JGG466",
-					"year": 2020
-				},
 				"a6b865eb-0723-4448-915c-be924a9c8e02":
 				{
 					"base_complectation_id": null,
 					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
 					"external_name": "PRESTIGE",
 					"id": "a6b865eb-0723-4448-915c-be924a9c8e02",
-					"min_price": 293900000,
+					"min_price": 324900000,
 					"modification_code": "EXS4L9A1J",
 					"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
 					"name": "Prestige",
 					"name_en": "Prestige",
 					"ocn": "G473",
-					"price": 293900000,
+					"price": 324900000,
 					"specifications": [
 					{
 						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
@@ -717,13 +547,13 @@
 					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
 					"external_name": "STYLE",
 					"id": "cc2c0fba-4dbe-4cc3-b80f-13c716b51017",
-					"min_price": 343900000,
+					"min_price": 358900000,
 					"modification_code": "EXS4L9A1J",
 					"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
 					"name": "Style",
 					"name_en": "Style",
 					"ocn": "G468",
-					"price": 343900000,
+					"price": 358900000,
 					"specifications": [
 					{
 						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
@@ -887,13 +717,13 @@
 					"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
 					"external_name": "GT LINE",
 					"id": "478e1dd1-b192-42c9-84f3-5c786088f540",
-					"min_price": 369900000,
+					"min_price": 386900000,
 					"modification_code": "EXS4L9A1J",
 					"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
 					"name": "GT Line",
 					"name_en": "GT Line",
 					"ocn": "P005",
-					"price": 369900000,
+					"price": 386900000,
 					"specifications": [
 					{
 						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",

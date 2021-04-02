@@ -16,10 +16,10 @@
 			"logo_white": "\/master-data\/models\/logo\/seltos-logo-white.svg",
 			"max_benefit": 45000,
 			"min_credit_price": 5960,
-			"min_price": 229900000,
+			"min_price": 239900000,
 			"model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
 			"name": "Seltos",
-			"price": 229900000,
+			"price": 239900000,
 			"price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
 			"unique_id": "THW520202020"
 		},
@@ -31,113 +31,19 @@
 		{
 			"complectations":
 			{
-				"3411d0ee-a003-4efd-bcb0-d1b63acba6ac":
-				{
-					"base_complectation_id": null,
-					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
-					"external_name": "STYLE",
-					"id": "3411d0ee-a003-4efd-bcb0-d1b63acba6ac",
-					"min_price": 252900000,
-					"modification_code": "THW52G61V",
-					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
-					"name": "Style",
-					"name_en": "Style",
-					"ocn": "G422",
-					"price": 252900000,
-					"specifications": [
-					{
-						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
-						"value": "205"
-					},
-					{
-						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
-						"value": "2.0 MPI"
-					},
-					{
-						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
-						"value": "Кроссовер"
-					},
-					{
-						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
-						"value": "4370 \/ 1800 \/ 1635"
-					},
-					{
-						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
-						"value": "130"
-					},
-					{
-						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
-						"value": "149"
-					},
-					{
-						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
-						"value": "180"
-					},
-					{
-						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
-						"value": "157"
-					},
-					{
-						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
-						"value": "2630"
-					},
-					{
-						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
-						"value": "190"
-					},
-					{
-						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
-						"value": "Бензин, АИ 92-95"
-					},
-					{
-						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
-						"value": "2.0"
-					},
-					{
-						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
-						"value": "433"
-					},
-					{
-						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
-						"value": "1999"
-					},
-					{
-						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
-						"value": "Евро-5"
-					},
-					{
-						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
-						"value": "Вариатор (IVT)"
-					},
-					{
-						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
-						"value": "передний"
-					},
-					{
-						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
-						"value": "9.6"
-					},
-					{
-						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
-						"value": "6.8"
-					}],
-					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
-					"unique_id": "THW5202020202G61VGG422",
-					"year": 2020
-				},
 				"54ff7d06-ab5c-495c-81ed-76011f97dd2c":
 				{
 					"base_complectation_id": null,
 					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 					"external_name": "LUXE",
 					"id": "54ff7d06-ab5c-495c-81ed-76011f97dd2c",
-					"min_price": 229900000,
+					"min_price": 239900000,
 					"modification_code": "THW52G61V",
 					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
 					"name": "Luxe",
 					"name_en": "Luxe",
 					"ocn": "G368",
-					"price": 229900000,
+					"price": 239900000,
 					"specifications": [
 					{
 						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
@@ -219,19 +125,207 @@
 					"unique_id": "THW5202020202G61VGG368",
 					"year": 2020
 				},
+				"3411d0ee-a003-4efd-bcb0-d1b63acba6ac":
+				{
+					"base_complectation_id": null,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"external_name": "STYLE",
+					"id": "3411d0ee-a003-4efd-bcb0-d1b63acba6ac",
+					"min_price": 264900000,
+					"modification_code": "THW52G61V",
+					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
+					"name": "Style",
+					"name_en": "Style",
+					"ocn": "G422",
+					"price": 264900000,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "205"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "2.0 MPI"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "130"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "149"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "180"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "157"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "2.0"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1999"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Вариатор (IVT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "9.6"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "6.8"
+					}],
+					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+					"unique_id": "THW5202020202G61VGG422",
+					"year": 2020
+				},
 				"5e39a2d0-5bd0-4a76-86a3-30d186bef99d":
 				{
 					"base_complectation_id": null,
 					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 					"external_name": "PRESTIGE",
 					"id": "5e39a2d0-5bd0-4a76-86a3-30d186bef99d",
-					"min_price": 279900000,
+					"min_price": 291900000,
 					"modification_code": "THW52G61V",
 					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
 					"name": "Prestige",
 					"name_en": "Prestige",
 					"ocn": "G193",
-					"price": 279900000,
+					"price": 291900000,
+					"specifications": [
+					{
+						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
+						"value": "205"
+					},
+					{
+						"id": "2f259430-f641-44ad-a98f-ac5119f5fc1e",
+						"value": "Кроссовер"
+					},
+					{
+						"id": "7fa11e7a-e06c-467d-88c8-acc6bbdf9b85",
+						"value": "2.0 MPI"
+					},
+					{
+						"id": "893fa9c7-6c18-4449-942d-69f09197e941",
+						"value": "130"
+					},
+					{
+						"id": "6b0c12bf-f6e1-4afa-a326-95f17cb5c844",
+						"value": "4370 \/ 1800 \/ 1635"
+					},
+					{
+						"id": "b825efba-3335-44ba-8507-b029b1eebfed",
+						"value": "149"
+					},
+					{
+						"id": "5284dcb1-4697-42dc-9ce9-947fa662a632",
+						"value": "2630"
+					},
+					{
+						"id": "1e2ba61c-cf36-4803-ab85-1c3af048bfff",
+						"value": "157"
+					},
+					{
+						"id": "7ca925ba-eec9-4bf4-b6ae-eccc8345e614",
+						"value": "180"
+					},
+					{
+						"id": "fdf6ab64-4f90-4dd4-9e80-3315dffc9fba",
+						"value": "Бензин, АИ 92-95"
+					},
+					{
+						"id": "47340383-ec25-4698-b596-6d527bbfa3c9",
+						"value": "190"
+					},
+					{
+						"id": "98699b0a-6a3a-4a1f-a870-ee8feae8d144",
+						"value": "433"
+					},
+					{
+						"id": "517812a4-fad4-433f-8a0b-79419f42ffaa",
+						"value": "2.0"
+					},
+					{
+						"id": "8e625121-25eb-4a3d-bd81-f36be9b88c5f",
+						"value": "1999"
+					},
+					{
+						"id": "f49639db-e8d4-40c8-823a-c85bdd5f114b",
+						"value": "Евро-5"
+					},
+					{
+						"id": "136a4cdd-4af0-4539-8e6f-f02e2bc3e7fa",
+						"value": "Вариатор (IVT)"
+					},
+					{
+						"id": "4096ae76-9e7d-43e8-8e34-19cd70269a4a",
+						"value": "передний"
+					},
+					{
+						"id": "4347ccab-a9f0-4b17-b31b-1ae2dbcb0c4c",
+						"value": "9.6"
+					},
+					{
+						"id": "9c8e042b-7abd-4629-8216-47ac1d17e000",
+						"value": "6.8"
+					}],
+					"transmission_id": "a2d3f222-a077-4c2c-9cff-a4e4d42ac831",
+					"unique_id": "THW5202020202G61VGG193",
+					"year": 2020
+				},
+				"4455a2d0-5bd0-4a76-86a3-30d186bef99d":
+				{
+					"base_complectation_id": null,
+					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
+					"external_name": "PREMIUM",
+					"id": "4455a2d0-5bd0-4a76-86a3-30d186bef99d",
+					"min_price": 311900000,
+					"modification_code": "THW52G61V",
+					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
+					"name": "Premium",
+					"name_en": "Premium",
+					"ocn": "G193",
+					"price": 311900000,
 					"specifications": [
 					{
 						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",

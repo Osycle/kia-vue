@@ -71,10 +71,10 @@
 			"logo_white": "\/master-data\/models\/logo\/seltos-logo-white.svg",
 			"max_benefit": 45000,
 			"min_credit_price": 5670,
-			"min_price": 229900000,
+			"min_price": 239900000,
 			"model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
 			"name": "Seltos",
-			"price": 229900000,
+			"price": 239900000,
 			"price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
 			"unique_id": "THW520202020"
 		},

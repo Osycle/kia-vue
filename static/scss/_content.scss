@@ -1237,7 +1237,7 @@ $heightSlider: auto;
 	}
 }
 .card-bnr-advantages{
-	display: none !important;
+	//display: none !important;
 	.img-content{
 		height: 50px;
 		margin-bottom: 10px;
@@ -1613,6 +1613,11 @@ $heightSlider: auto;
 	}
 }
 .showroom-colorselect{
+	.title-content{
+		span:not([class]){
+			display: none;
+		}
+	}
 	a{
 		position: relative;
 		display: flex;
@@ -1687,6 +1692,10 @@ $heightSlider: auto;
 	overflow: hidden;
 }
 .card-sets-items{
+	&.owl-carousel{
+		opacity: 1;
+		display: block;
+	}
 	.owl-stage{
 		display: flex;
 	}

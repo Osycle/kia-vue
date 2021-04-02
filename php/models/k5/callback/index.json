@@ -71,10 +71,10 @@
 			"logo_white": "\/master-data\/models\/logo\/k5-logo-white.svg",
 			"max_benefit": 40000,
 			"min_credit_price": 7690,
-			"min_price": 249900000,
+			"min_price": 259900000,
 			"model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
 			"name": "K5",
-			"price": 249900000,
+			"price": 259900000,
 			"price_list": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf",
 			"unique_id": "EXS420212020"
 		},

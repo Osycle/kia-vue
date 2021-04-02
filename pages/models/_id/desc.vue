@@ -75,7 +75,7 @@
               <div class="card-bnr-advantages box-md-5 flex row">
                 <div class="item p-h-15" v-for="(teaser, key) in bnr.teasers" :key="key">
                   <div class="img-content">
-                    <img :src="teaser.icon">
+                    <img :src="'https://cdn.kia.ru/'+teaser.icon">
                   </div>
                   <p><small>{{teaser.description}}</small></p>
                 </div>
