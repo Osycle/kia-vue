@@ -35,8 +35,10 @@
                 <small class="color-gray">Поля, отмеченные *, обязательны для заполнения</small>
               </p>
               <div class="form-content box-md-6">
-                <form>
+                <form action="https://kia-motors.uz/models/k5/configurator" type="POST">
                   <input type="text" :value="page.model.id" name="model" class="hide">
+                  <input type="text" name="anti-bot-a" value="2021">
+                  <input type="text" name="type" value="carBook">
                   <div class="input-content m-v-30">
                     <input type="text" name="name" placeholder="Имя *"  class="form-control">
                   </div>
