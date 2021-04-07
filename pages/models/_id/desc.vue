@@ -182,7 +182,7 @@
       </div>
     </div>
 
-    <div class="card-video">
+    <div class="card-video" v-if="false">
       <div class="container-p p-v-80">
         <div class="entry-header text-center">
           <h4 class="color-2 text-n1">ОБЗОРЫ</h4>
@@ -434,12 +434,12 @@ export default {
       const page = await context.store.dispatch("models/fetchPageData", {
         path: path,
       })
-      const videoGroup = await context.store.dispatch("models/fetchVideo", {
-        model: page.content.model.model_line_id,
-      })
+      // const videoGroup = await context.store.dispatch("models/fetchVideo", {
+      //   model: page.content.model.model_line_id,
+      // })
       return {
-        page: page.content,
-        videoGroup,
+        page: page.content
+        //videoGroup,
       }
     }catch(e){
       context.error(e);
