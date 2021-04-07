@@ -44,7 +44,7 @@
 
     <div class="card-bnr card-top relative" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'model'">
       <div class="bg-video-content cover">
-        <video :src="bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+        <video :src="'https://cdn.kia.ru/'+bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
         <div class="img-xs absolute" :style="'background-image: url(https://cdn.kia.ru/resize/770x442/'+bnr.images.mobile+');'"></div>
       </div>
       <div class="container-p relative">
