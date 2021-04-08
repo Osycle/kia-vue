@@ -65,7 +65,7 @@
           <div class="card-bnr-bottom">
             <div class="flex-adaptive align-center justify-c-between">
               <div class="card-bnr-name">
-                <div class="text-n1 m-b-15">{{bnr.logo.label}}</div>
+                <div class="text-n1 m-b-15"><span v-if="!page.model.min_price">Скоро </span>{{bnr.logo.label}}</div>
                 <img :src="'https://cdn.kia.ru/'+bnr.logo.image">
                 <div class="font-size-nm m-t-10">{{bnr.logo.signature}}</div>
               </div>

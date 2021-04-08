@@ -27,8 +27,9 @@
                   </div>
                   <div class="desc-content">
                     <div class="car-card__name">
+                      <div v-if="modelLine.cars_in_stock">Скоро</div>
                       <nuxt-link exact :to="$route.path+'/'+modelLine.code+'/desc/'">{{modelLine.name}}</nuxt-link>
-                      <span class="car-card-new" v-if="modelLine.cars_in_stock">Новинка</span>
+                      <!-- <span class="car-card-new" v-if="modelLine.cars_in_stock">Новинка</span> -->
                     </div>
                     <div class="car-card-price m-v-5" v-if="model.min_price">
                       <p><span class="p-r-10">от {{ model.min_price | spaceBetweenNum }} сум</span><a class="flex" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></p>
