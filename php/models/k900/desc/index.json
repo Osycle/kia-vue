@@ -1,0 +1,1621 @@
+{
+	"error": 0,
+	"content":
+	{
+		"model":
+		{
+			"accessory": null,
+			"brochure": "\/master-data\/brochures\/Kia_K900_pre.pdf",
+			"code": "k900",
+			"external_id": "J6",
+			"id": "db9a1d19-fdbd-47c1-84d7-5cb70677f1c9",
+			"image": "\/master-data\/models\/k900.png",
+			"image_side_view": "\/master-data\/models\/image_side\/k900.png",
+			"is_coming_soon": 0,
+			"logo_black": "\/master-data\/models\/logo\/k900-logo-black.png",
+			"logo_white": "\/master-data\/models\/logo\/k900-logo-white.png",
+			"max_benefit": 0,
+			"min_credit_price": 19820,
+			"min_price": 0,
+			"model_line_id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
+			"name": "K900",
+			"price": 0,
+			"price_list": "\/master-data\/pdf\/model\/k900_2021.pdf",
+			"unique_id": "J6S420192021",
+			"overview_default_color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50"
+		},
+		"banners": [
+		{
+			"bg_color": null,
+			"bg_images":
+			{
+				"desktop": "\/media-data\/banners\/models\/k900\/main_footer\/bg.jpg",
+				"mobile": "\/media-data\/banners\/models\/k900\/main_footer\/bg.jpg",
+				"retina": "\/media-data\/banners\/models\/k900\/main_footer\/bg.jpg"
+			},
+			"description": null,
+			"group_code": "models_k900_main_footer",
+			"images":
+			{
+				"desktop": "\/media-data\/banners\/models\/k900\/main_footer\/desktop.png",
+				"mobile": "\/media-data\/banners\/models\/k900\/main_footer\/mobile.png",
+				"retina": "\/media-data\/banners\/models\/k900\/main_footer\/desktop.png"
+			},
+			"link":
+			{
+				"title": "Заказать звонок дилера",
+				"url": "\/models\/k900\/callback\/"
+			},
+			"logo":
+			{
+				"image": null,
+				"label": null,
+				"signature": null
+			},
+			"name": "Узнайте больше о KIA K900",
+			"teasers": [],
+			"title": "Консультация",
+			"type_code": "center",
+			"video": null
+		},
+		{
+			"bg_color": null,
+			"bg_images":
+			{
+				"desktop": null,
+				"mobile": null,
+				"retina": null
+			},
+			"description": null,
+			"group_code": "models_k900_main_header",
+			"images":
+			{
+				"desktop": "\/media-data\/banners\/models\/k900\/main\/model-hero.jpg",
+				"mobile": "\/media-data\/banners\/models\/k900\/main\/model-hero-small.jpg",
+				"retina": "\/media-data\/banners\/models\/k900\/main\/model-hero.jpg"
+			},
+			"link":
+			{
+				"title": "Авто в наличии",
+				"url": "\/models\/k900\/cars\/"
+			},
+			"logo":
+			{
+				"image": "\/media-data\/banners\/models\/k900\/main\/k900-logo.svg",
+				"label": "НОВЫЙ Kia",
+				"signature": "Мой путь Мой выбор"
+			},
+			"name": "Баннер на обзорной странице K900",
+			"teasers": [
+			{
+				"description": "Полный привод и автомат 8АТ",
+				"icon": "\/media-data\/banners\/models\/k900\/main\/drive.svg",
+				"title": null,
+				"title_desc": null
+			},
+			{
+				"description": "Двигатели 3.3 V6 и 5.0 V8",
+				"icon": "\/media-data\/banners\/models\/k900\/main\/engine.svg",
+				"title": null,
+				"title_desc": null
+			},
+			{
+				"description": "Максимальный комфорт для всех пассажирова",
+				"icon": "\/media-data\/banners\/models\/k900\/main\/comfort.svg",
+				"title": null,
+				"title_desc": null
+			}],
+			"title": null,
+			"type_code": "model",
+			"video": null
+		}],
+		"infographics": [
+		{
+			"description": "Сбалансированный, энергичный, солидный и при этом совсем не скучный. Новый повод для чьей-то зависти? Новое представление о роскоши! Впечатляющий дизайн интерьера, скульптурные линии кузова, умные технологии и убедительная динамика. KIA K900 — эталон роскошного седана.",
+			"detail_link_title": "Больше о дизайне",
+			"id": "5121a810-56b6-4a9c-a711-d8f4fc4a530b",
+			"image": "\/media-data\/infographics\/k900\/design.jpg",
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Впечатляющая роскошь",
+			"preview_block": null,
+			"sort": 100,
+			"teasers": [],
+			"theme": "black",
+			"title": "Дизайн",
+			"type": "base",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "В городском режиме приходится думать о многих вещах, отвлекающих от удовольствия за рулем — но только не в KIA K900! Продуманные до нюансов функции предугадывают Ваши желания и позволяют сосредоточиться на приятных ощущениях от поездки.",
+			"detail_link_title": "Больше о салоне",
+			"id": "03105ba1-ada0-4ddf-8af2-224d431db3eb",
+			"image": "\/media-data\/infographics\/k900\/comfort.jpg",
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Остров спокойствия",
+			"preview_block": null,
+			"sort": 120,
+			"teasers": [],
+			"theme": "black",
+			"title": "Комфорт",
+			"type": "base",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Современный подход к безопасности заключается в комплексном отслеживании опасных ситуаций и принятии мер по предупреждению столкновений, а также в защите водителя и пассажиров от травм. Посмотрите, насколько эффективно оснащен KIA K900: это подлинная забота о безопасности, которую Вы ощущаете каждое мгновение поездки.",
+			"detail_link_title": "Больше о безопасности",
+			"id": "fcfb9006-bb76-4a29-8480-a5f1bdc7dea4",
+			"image": "\/media-data\/infographics\/k900\/security.png",
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "На страже вашей безопасности",
+			"preview_block": null,
+			"sort": 130,
+			"teasers": [],
+			"theme": "dark",
+			"title": "Безопасность",
+			"type": "base",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Позвольте технике делать свою работу. Технологии Drive Wise делают максимум, чтобы находиться за рулем автомобиля KIA K900 стало еще приятнее. На парковке, на городских улицах и на шоссе — Drive Wise везде защитит Вас от неприятностей, предупредит об опасности и даже вмешается, если Вам потребуется помощь.",
+			"detail_link_title": null,
+			"id": "7aee351c-c11b-4ad2-9cdd-52b2f60dbc24",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Внимание и забота через высокие технологии",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "С помощью камеры и радара интеллектуальная система круиз-контроля SCC способна поддерживать скорость KIA K900 и расстояние до впереди идущего автомобиля. Система соблюдает дистанцию до машины спереди, автоматически снижая скорость движения. Если впереди идущий автомобиль вновь начнет ускоряться, так же сделает и KIA K900. Если же автомобиль впереди затормозит, система сбросит скорость вплоть до полной остановки. Данная опция особенно удобна при движении в пробке.",
+					"file": "\/media-data\/infographics\/k900\/drive-1.jpg",
+					"name": "Интеллектуальный круиз-контроль (SCC) ",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Не бойтесь случайно выехать из своего ряда — система удержания автомобиля в полосе постоянно следит за дорожной разметкой с помощью камеры в верхней части лобового стекла. Если Вы выйдете за границу полосы, система подаст сигнал, а при необходимости поможет Вам вернуть автомобиль в занимаемый ряд.",
+					"file": "\/media-data\/infographics\/k900\/drive-2.jpg",
+					"name": "Система удержания автомобиля в полосе ",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Если Вы выезжаете с парковки или из гаража, система помощи RCCW предупредит Вас о приближающихся сзади автомобилях, которые она обнаружит с помощью радара.",
+					"file": "\/media-data\/infographics\/k900\/drive-3.jpg",
+					"name": "Система помощи при выезде с парковки задним ходом (RCCW)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Система BCW использует датчики-радары, чтобы просканировать «слепую зону» и предупредить водителя световым сигналом на боковом зеркале, если там находится другой автомобиль.",
+					"file": "\/media-data\/infographics\/k900\/drive-4.png",
+					"name": "Система контроля «мертвых зон» (BCW)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Система FCA использует камеру и радар для распознавания автомобилей на пути следования и предотвращает возможное столкновение. Если риск ДТП станет реальным, система сделает предупреждение, после чего автоматически задействует тормоза.",
+					"file": "\/media-data\/infographics\/k900\/drive-5.jpg",
+					"name": "Система предотвращения фронтальных столкновений (FCA) ",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "При включении сигнала поворота на приборной панели появится изображение пространства рядом с автомобилем, полученное с помощью широкоугольной камеры. Эта функция обеспечивает комфорт и безопасность во время движения.",
+					"file": "\/media-data\/infographics\/k900\/drive-6.png",
+					"name": "Изображение «мертвой зоны» (BVM) ",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Во время парковки система совмещает данные с четырех широкоугольных камер, расположенных спереди, сзади и по бокам автомобиля, и демонстрирует Вам актуальное изображение происходящего вокруг KIA K900 как бы сверху. Изображения высокого разрешения можно увеличить и уменьшить с помощью центрального панорамного экрана с диагональю 12.3 дюйма.",
+					"file": "\/media-data\/infographics\/k900\/drive-7.jpg",
+					"name": "Система кругового обзора (SVM)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Центральный 12.3-дюймовый экран способен выводить текущее изображение с камеры заднего вида прямо во время движения автомобиля.",
+					"file": "\/media-data\/infographics\/k900\/drive-8.jpg",
+					"name": "Камера заднего вида (DRM)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "С помощью цветных пиктограмм на лобовом стекле водителю демонстрируется скорость автомобиля, подсказки системы навигации и другая важная информация.",
+					"file": "\/media-data\/infographics\/k900\/drive-9.jpg",
+					"name": "Проекционный дисплей (HUD)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "20c6b08d-066a-4b36-8800-a0150fff6c25",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "tabs"
+			},
+			"sort": 140,
+			"teasers": [],
+			"theme": "black",
+			"title": "Drive Wise",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Двигатели KIA K900 демонстрируют надежность, экономичность и потрясающую динамику. Изменение фаз газораспределения в широком диапазоне оборотов позволяет добиться низкого расхода топлива как для 413-сильного двигателя V8, так и для 249-сильного V6. А за счет взаимной интеграции систем управления двигателя, режимов работы полного привода и электронных ассистентов помощи водителю (ADAS) мощные моторы KIA K900 легко адаптируются к дорожной ситуации и характеру Вашего вождения.",
+			"detail_link_title": null,
+			"id": "59d85128-3ab0-4fe7-91ed-c5b0b66b2fce",
+			"image": null,
+			"link":
+			{
+				"title": "Характеристики",
+				"url": "\/models\/k900\/properties\/"
+			},
+			"name": "Энергичный и плавный ход",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": null,
+					"file": "\/media-data\/infographics\/k900\/engine-1.jpg",
+					"name": "3.3 V6 GDI",
+					"sort": null,
+					"teasers": [
+					{
+						"description": "Мощность",
+						"icon": null,
+						"title": "249",
+						"title_desc": "л.с."
+					},
+					{
+						"description": "Крутящий момент",
+						"icon": null,
+						"title": "347",
+						"title_desc": "Н·м "
+					},
+					{
+						"description": "Разгон от 0 до 100 км\/ч (с минимальным значением для данного двигателя)",
+						"icon": null,
+						"title": "8,4",
+						"title_desc": "с"
+					}],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": null,
+					"file": "\/media-data\/infographics\/k900\/engine-2.jpg",
+					"name": "5.0 V8 GDI",
+					"sort": null,
+					"teasers": [
+					{
+						"description": "Мощность",
+						"icon": null,
+						"title": "413",
+						"title_desc": "л.с."
+					},
+					{
+						"description": "Крутящий момент",
+						"icon": null,
+						"title": "505",
+						"title_desc": "Н·м "
+					},
+					{
+						"description": "Разгон от 0 до 100 км\/ч (с минимальным значением для данного двигателя)",
+						"icon": null,
+						"title": "5,7",
+						"title_desc": "с"
+					}],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "6e262db5-b0cd-4ec8-9a34-c0dc18bd2939",
+				"is_not_slider_in_mobile": true,
+				"name": null,
+				"type": "accordion_left"
+			},
+			"sort": 150,
+			"teasers": [],
+			"theme": "dark",
+			"title": "Двигатель",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Автомобили KIA произведены по самым высоким стандартам автомобильной промышленности. Именно это исключительное качество позволяет KIA предложить уникальные условия гарантии.",
+			"detail_link_title": null,
+			"id": "f9881227-ced9-43a5-b057-4eff01d6532c",
+			"image": "\/media-data\/infographics\/k900\/warranty.png",
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Гарантия и сервис",
+			"preview_block": null,
+			"sort": 999,
+			"teasers": [],
+			"theme": "pale_beige",
+			"title": "Обслуживание",
+			"type": "img_left",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		}],
+		"overviews":
+		{
+			"colors": [
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "MSL",
+				"id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+				"image": "\/master-data\/colors\/69275bf9-e790-437b-bfc1-072335219e6a.svg",
+				"name": "Marsala",
+				"name_en": "Marsala",
+				"price": null,
+				"sort": 1500
+			},
+			{
+				"code": "MSL",
+				"id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+				"image": "\/master-data\/colors\/69275bf9-e790-437b-bfc1-072335219e6a.svg",
+				"name": "Marsala",
+				"name_en": "Marsala",
+				"price": null,
+				"sort": 1500
+			},
+			{
+				"code": "MSL",
+				"id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+				"image": "\/master-data\/colors\/69275bf9-e790-437b-bfc1-072335219e6a.svg",
+				"name": "Marsala",
+				"name_en": "Marsala",
+				"price": null,
+				"sort": 1500
+			},
+			{
+				"code": "MSL",
+				"id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+				"image": "\/master-data\/colors\/69275bf9-e790-437b-bfc1-072335219e6a.svg",
+				"name": "Marsala",
+				"name_en": "Marsala",
+				"price": null,
+				"sort": 1500
+			},
+			{
+				"code": "MSL",
+				"id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+				"image": "\/master-data\/colors\/69275bf9-e790-437b-bfc1-072335219e6a.svg",
+				"name": "Marsala",
+				"name_en": "Marsala",
+				"price": null,
+				"sort": 1500
+			},
+			{
+				"code": "MSL",
+				"id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+				"image": "\/master-data\/colors\/69275bf9-e790-437b-bfc1-072335219e6a.svg",
+				"name": "Marsala",
+				"name_en": "Marsala",
+				"price": null,
+				"sort": 1500
+			},
+			{
+				"code": "MSL",
+				"id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+				"image": "\/master-data\/colors\/69275bf9-e790-437b-bfc1-072335219e6a.svg",
+				"name": "Marsala",
+				"name_en": "Marsala",
+				"price": null,
+				"sort": 1500
+			},
+			{
+				"code": "MSL",
+				"id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+				"image": "\/master-data\/colors\/69275bf9-e790-437b-bfc1-072335219e6a.svg",
+				"name": "Marsala",
+				"name_en": "Marsala",
+				"price": null,
+				"sort": 1500
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			}],
+			"complectations": [
+			{
+				"id": "e218b23d-6181-44fa-a99f-78a3c32f7540",
+				"name": "Prestige",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/SWP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/MSL\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/ABP\/"
+				}]
+			},
+			{
+				"id": "105dc95d-e43e-461d-a6e1-06a86d5e3625",
+				"name": "Premium",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/SWP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/MSL\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/ABP\/"
+				}]
+			},
+			{
+				"id": "69415acb-3a26-40cf-9780-2cceec24faf7",
+				"name": "Premium",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/SWP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/MSL\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/ABP\/"
+				}]
+			},
+			{
+				"id": "da2b3dc7-87a7-4607-9a66-4a06a3dcb8f2",
+				"name": "Premium",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/G288\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/G288\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/G288\/MSL\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/G288\/SWP\/"
+				}]
+			},
+			{
+				"id": "f0580851-9745-48a9-ad27-d4076946a441",
+				"name": "Luxe",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/SWP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/MSL\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/ABP\/"
+				}]
+			},
+			{
+				"id": "05589c09-d942-4d59-92a6-2bd3143f009c",
+				"name": "Premium",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/H158\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/H158\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/H158\/SWP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/H158\/MSL\/"
+				}]
+			},
+			{
+				"id": "382ed25a-788c-46e3-85f7-931d3e707891",
+				"name": "Prestige",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/G288\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/G288\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/G288\/SWP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/G288\/MSL\/"
+				}]
+			},
+			{
+				"id": "8b7b4cf5-5e5b-4ba9-8914-6e94548e5980",
+				"name": "Luxe",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/SWP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "c8ea9d33-c2bc-4d91-8baa-994f98768b25",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/MSL\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J6S4\/20192019\/D159\/ABP\/"
+				}]
+			}]
+		},
+		"panoramas":
+		{
+			"colors": [
+			{
+				"code": "RBQ",
+				"id": "bd4f0155-13d5-43fa-8424-ada5cdceb784",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Натуральная кожа",
+				"name_en": "Black, Genuine leather",
+				"price": null,
+				"sort": 12700
+			},
+			{
+				"code": "LBR",
+				"id": "05131bf1-aa7a-4f6b-8f9e-8a72486a8984",
+				"image": "\/master-data\/colors\/d9998f58-463f-4bb3-bda3-bb983e3731ad.svg",
+				"name": "Коричневый, Натуральная кожа",
+				"name_en": "Brown, Genuine leather",
+				"price": null,
+				"sort": 12500
+			},
+			{
+				"code": "RBQ",
+				"id": "a318116b-f5a9-40cd-81f8-b43453e0d74d",
+				"image": "\/master-data\/colors\/342a4b6b-4653-41c2-8996-d0449455f89c.svg",
+				"name": "Черный, Премиальная кожа Nappa",
+				"name_en": "Black, Nappa Premium leather",
+				"price": null,
+				"sort": 11400
+			},
+			{
+				"code": "LBR",
+				"id": "bfd83a2b-9806-453f-a7d9-7d3252869b71",
+				"image": "\/master-data\/colors\/acccaf58-8f5a-408d-8e00-2a603aa2dbf2.svg",
+				"name": "Коричневый, Премиальная кожа Nappa",
+				"name_en": "Brown, Premium Nappa leather",
+				"price": null,
+				"sort": 11200
+			}],
+			"complectations": [
+			{
+				"id": "69415acb-3a26-40cf-9780-2cceec24faf7",
+				"name": "Premium",
+				"panoramas": [
+				{
+					"color_id": "bfd83a2b-9806-453f-a7d9-7d3252869b71",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				},
+				{
+					"color_id": "a318116b-f5a9-40cd-81f8-b43453e0d74d",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				}]
+			},
+			{
+				"id": "05589c09-d942-4d59-92a6-2bd3143f009c",
+				"name": "Premium",
+				"panoramas": [
+				{
+					"color_id": "bfd83a2b-9806-453f-a7d9-7d3252869b71",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				},
+				{
+					"color_id": "a318116b-f5a9-40cd-81f8-b43453e0d74d",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				}]
+			},
+			{
+				"id": "105dc95d-e43e-461d-a6e1-06a86d5e3625",
+				"name": "Premium",
+				"panoramas": [
+				{
+					"color_id": "bfd83a2b-9806-453f-a7d9-7d3252869b71",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				},
+				{
+					"color_id": "a318116b-f5a9-40cd-81f8-b43453e0d74d",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				}]
+			},
+			{
+				"id": "da2b3dc7-87a7-4607-9a66-4a06a3dcb8f2",
+				"name": "Premium",
+				"panoramas": [
+				{
+					"color_id": "bfd83a2b-9806-453f-a7d9-7d3252869b71",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				},
+				{
+					"color_id": "a318116b-f5a9-40cd-81f8-b43453e0d74d",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				}]
+			},
+			{
+				"id": "e218b23d-6181-44fa-a99f-78a3c32f7540",
+				"name": "Prestige",
+				"panoramas": [
+				{
+					"color_id": "bfd83a2b-9806-453f-a7d9-7d3252869b71",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				},
+				{
+					"color_id": "a318116b-f5a9-40cd-81f8-b43453e0d74d",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				}]
+			},
+			{
+				"id": "382ed25a-788c-46e3-85f7-931d3e707891",
+				"name": "Prestige",
+				"panoramas": [
+				{
+					"color_id": "bfd83a2b-9806-453f-a7d9-7d3252869b71",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				},
+				{
+					"color_id": "a318116b-f5a9-40cd-81f8-b43453e0d74d",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				}]
+			},
+			{
+				"id": "f0580851-9745-48a9-ad27-d4076946a441",
+				"name": "Luxe",
+				"panoramas": [
+				{
+					"color_id": "05131bf1-aa7a-4f6b-8f9e-8a72486a8984",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				},
+				{
+					"color_id": "bd4f0155-13d5-43fa-8424-ada5cdceb784",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				}]
+			},
+			{
+				"id": "8b7b4cf5-5e5b-4ba9-8914-6e94548e5980",
+				"name": "Luxe",
+				"panoramas": [
+				{
+					"color_id": "05131bf1-aa7a-4f6b-8f9e-8a72486a8984",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				},
+				{
+					"color_id": "bd4f0155-13d5-43fa-8424-ada5cdceb784",
+					"path": "\/master-data\/panorama\/J6\/2019\/D159\/1K\/"
+				}]
+			}]
+		},
+		"complectations":
+		{
+			"complectations": [
+			{
+				"gallery": null,
+				"id": "e218b23d-6181-44fa-a99f-78a3c32f7540",
+				"label": null,
+				"min_price": 4594900,
+				"modifications": [
+				{
+					"acceleration_to_100": 8.4,
+					"consumption_per_100": 10.5,
+					"engine_id": "2975ab44-90c0-498f-9525-d89c49a8ee7f",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "Prestige",
+				"name_en": "Prestige",
+				"options": ["c81f947f-07ed-49d0-96f3-b6023cac9d32", "7a0430d1-94f7-481f-bbac-cf7fccca0219", "2b7459df-d3ef-411d-bf6e-62559ef07c89", "804a1f0f-e22d-4fe6-9b3b-416396945da8", "c7049a87-8fe7-4d69-8319-3d309a1b376b", "801dd692-d79e-49e2-b4ea-b98745f83698", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d"],
+				"price": 4594900
+			},
+			{
+				"gallery": null,
+				"id": "105dc95d-e43e-461d-a6e1-06a86d5e3625",
+				"label": null,
+				"min_price": 4994900,
+				"modifications": [
+				{
+					"acceleration_to_100": 8.4,
+					"consumption_per_100": 10.5,
+					"engine_id": "2975ab44-90c0-498f-9525-d89c49a8ee7f",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				},
+				{
+					"acceleration_to_100": 5.7,
+					"consumption_per_100": 12.2,
+					"engine_id": "ed0e9205-bd58-4b44-95cb-83b7d2a46194",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "Premium",
+				"name_en": "Premium",
+				"options": ["ff48b710-a0eb-42de-ba1c-2bf8029fe39b", "e056ff95-cfef-431a-b7eb-21430eb7f75d", "21a86e7c-c462-47c2-a2f8-994b40b0d724", "0794fe46-bb7e-4c7d-a804-716d326be781", "e8781848-282d-4956-a81e-01a08564ac72", "9b8feb3a-22d5-4c78-baf8-95e20f1ddfa1", "031fcb3b-65af-4871-9970-2b79dc2c6424", "8aae5b21-7e43-4c78-b218-f7f10333eafb"],
+				"price": 4994900
+			},
+			{
+				"gallery": null,
+				"id": "f0580851-9745-48a9-ad27-d4076946a441",
+				"label": null,
+				"min_price": 4064900,
+				"modifications": [
+				{
+					"acceleration_to_100": 8.4,
+					"consumption_per_100": 10.5,
+					"engine_id": "2975ab44-90c0-498f-9525-d89c49a8ee7f",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "Luxe",
+				"name_en": "Luxe",
+				"options": ["5912e193-6112-4da3-a2c6-7cc6f622c3c3", "719c3f12-6b05-4787-80d0-51285fba4af4", "f298c982-c242-490a-8eaf-509a46806f4c", "e79f5215-6531-4196-affa-c0da17d8021e", "88b83bf9-76aa-4be4-b32a-67031835a564", "0ad58ced-00d7-48e2-a266-b1747685e400", "4bb6ec27-c1d4-4e35-b107-9807f4ddc48d", "003c8abb-c8ac-44bf-bf59-d64d3e0188ca"],
+				"price": 4064900
+			}],
+			"engines": [
+			{
+				"engine_type_name": "GDI",
+				"fuel_type_name": "Бензин",
+				"fuel_type_name_en": "Petrol",
+				"id": "2975ab44-90c0-498f-9525-d89c49a8ee7f",
+				"name": "3.3 GDI",
+				"name_en": null,
+				"power_hp": "249",
+				"volume": "3.3"
+			},
+			{
+				"engine_type_name": "GDI",
+				"fuel_type_name": "Бензин",
+				"fuel_type_name_en": "Petrol",
+				"id": "ed0e9205-bd58-4b44-95cb-83b7d2a46194",
+				"name": "5.0 GDI",
+				"name_en": null,
+				"power_hp": "413",
+				"volume": "5.0"
+			}],
+			"options": [
+			{
+				"id": "c81f947f-07ed-49d0-96f3-b6023cac9d32",
+				"name": "Люк с электроприводом"
+			},
+			{
+				"id": "7a0430d1-94f7-481f-bbac-cf7fccca0219",
+				"name": "Вставки из натурального дерева"
+			},
+			{
+				"id": "2b7459df-d3ef-411d-bf6e-62559ef07c89",
+				"name": "Сиденья и рулевое колесо с комбинированной отделкой премиальной кожей Nappa*"
+			},
+			{
+				"id": "ff48b710-a0eb-42de-ba1c-2bf8029fe39b",
+				"name": "Интерьер с комбинированной отделкой премиальной кожей Nappa*"
+			},
+			{
+				"id": "f298c982-c242-490a-8eaf-509a46806f4c",
+				"name": "Светодиодные фары ближнего и дальнего света"
+			},
+			{
+				"id": "e056ff95-cfef-431a-b7eb-21430eb7f75d",
+				"name": "Электронноуправляемая адаптивная подвеска (ECS)"
+			},
+			{
+				"id": "804a1f0f-e22d-4fe6-9b3b-416396945da8",
+				"name": "Проекционный дисплей на лобовое стекло"
+			},
+			{
+				"id": "c7049a87-8fe7-4d69-8319-3d309a1b376b",
+				"name": "Система кругового обзора с 4 камерами"
+			},
+			{
+				"id": "801dd692-d79e-49e2-b4ea-b98745f83698",
+				"name": "Аудиосистема Lexicon: 16 динамиков, сабвуфер и внешний усилитель, DVD плеер"
+			},
+			{
+				"id": "21a86e7c-c462-47c2-a2f8-994b40b0d724",
+				"name": "Фоновая подсветка интерьера (64 оттенка)"
+			},
+			{
+				"id": "0794fe46-bb7e-4c7d-a804-716d326be781",
+				"name": "Электрорегулировка сиденья водителя в 20 направлениях и сиденья переднего пассажира в 16 направлениях с памятью настроек"
+			},
+			{
+				"id": "e8781848-282d-4956-a81e-01a08564ac72",
+				"name": "Электрорегулировка задних сидений в 14 (справа) и 12 (слева) направлениях"
+			},
+			{
+				"id": "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d",
+				"name": "Вентиляция передних сидений"
+			},
+			{
+				"id": "e79f5215-6531-4196-affa-c0da17d8021e",
+				"name": "Сиденья с комбинированной кожаной отделкой*"
+			},
+			{
+				"id": "88b83bf9-76aa-4be4-b32a-67031835a564",
+				"name": "Аналоговые часы 'Maurice Lacroix'"
+			},
+			{
+				"id": "9b8feb3a-22d5-4c78-baf8-95e20f1ddfa1",
+				"name": "Мультимедийная система для пассажиров задних сидений"
+			},
+			{
+				"id": "0ad58ced-00d7-48e2-a266-b1747685e400",
+				"name": "Навигационная система с 12,3'' дисплеем; поддержка Apple Carplay и Android Auto"
+			},
+			{
+				"id": "5912e193-6112-4da3-a2c6-7cc6f622c3c3",
+				"name": "Аудиосистема Krell: 13 динамиков, сабвуфер и внешний усилитель"
+			},
+			{
+				"id": "4bb6ec27-c1d4-4e35-b107-9807f4ddc48d",
+				"name": "Трехзонный климат-контроль"
+			},
+			{
+				"id": "003c8abb-c8ac-44bf-bf59-d64d3e0188ca",
+				"name": "Интеллектуальная система открывания багажника"
+			},
+			{
+				"id": "719c3f12-6b05-4787-80d0-51285fba4af4",
+				"name": "Приборная панель Supervision c цветным дисплеем TFT 7''"
+			},
+			{
+				"id": "031fcb3b-65af-4871-9970-2b79dc2c6424",
+				"name": "Приборная панель Supervision c цветным дисплеем TFT 12.3''"
+			},
+			{
+				"id": "8aae5b21-7e43-4c78-b218-f7f10333eafb",
+				"name": "Передние и задние двери с доводчиком"
+			}],
+			"transmissions": [
+			{
+				"drive_name": "Полный",
+				"drive_name_en": "All-wheel drive",
+				"gearbox_code": "AT",
+				"gearbox_name": "Автомат",
+				"gearbox_name_en": "Automatic",
+				"gears_number": 8,
+				"id": "d4090dc4-2d64-4169-a67b-f282671378c2",
+				"name": "4WD 8AT"
+			}]
+		},
+		"model_videos":
+		{
+			"reviews": [
+			{
+				"author": "Бородатая Езда",
+				"date": 1565643600,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "fbdedf74-9a12-4ca8-b6d0-ccce70c54cd6",
+				"name": "KIA К900 2019",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_e0I1eOUiYgs.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/e0I1eOUiYgs?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=e0I1eOUiYgs",
+				"video_time": "25:24"
+			},
+			{
+				"author": "Алан Енилеев",
+				"date": 1558904400,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "3335f4d1-9249-4324-aea9-5eafa4390095",
+				"name": "KIA К900 2019",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_7MGyioGIlDw.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/7MGyioGIlDw?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=7MGyioGIlDw",
+				"video_time": "34:02"
+			},
+			{
+				"author": "Рустам Вахитов, Большой тест-драйв",
+				"date": 1555362000,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "656fcae0-1b8f-4afe-b390-0342e02edb51",
+				"name": "KIA К900 2019",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_5k_zafuVXjI.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/5k_zafuVXjI?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=5k_zafuVXjI",
+				"video_time": "39:21"
+			},
+			{
+				"author": "Вячеслава Субботин, Минтранс. РЕН ТВ",
+				"date": 1553979600,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "3f7a11b7-353a-44a2-af9f-d4af0129dbc2",
+				"name": "KIA К900 2019",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_JZ-DztLsdAg.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/JZ-DztLsdAg?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=JZ-DztLsdAg",
+				"video_time": "09:48"
+			},
+			{
+				"author": "Михаил Кульдяев, Clickoncar",
+				"date": 1550005200,
+				"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"id": "600a207d-0ae4-4f95-8a2c-0bd5093bdb67",
+				"name": "KIA К900 2019",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_Epn6viYXPd4.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/Epn6viYXPd4?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=Epn6viYXPd4",
+				"video_time": "32:15"
+			}],
+			"opinions": [
+			{
+				"author": "Kia Motors Russia",
+				"date": 1551042000,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "07fcd199-d712-4271-a1ec-3b534f444944",
+				"name": "Полный обзор флагманского седана",
+				"preview_image": "\/media-data\/video_bank\/opinions\/k900\/4_Rustam_Vahitov_Bolshoj_test_drajv.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/SHNNM0la2wM?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=6",
+				"video_time": "6:15"
+			},
+			{
+				"author": "Бородатая Езда",
+				"date": 1565643600,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "574dee04-b318-4e4c-9fb8-fe080ecec02b",
+				"name": "Бородатая Езда",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_e0I1eOUiYgs.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/e0I1eOUiYgs?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=e0I1eOUiYgs",
+				"video_time": "25:24"
+			},
+			{
+				"author": "Алан Енилеев",
+				"date": 1558904400,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "f5ddde73-9796-4c9a-a8e4-432867ffc2a1",
+				"name": "Алан Енилеев",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_7MGyioGIlDw.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/7MGyioGIlDw?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=7MGyioGIlDw",
+				"video_time": "34:02"
+			},
+			{
+				"author": "Рустам Вахитов, Большой тест-драйв",
+				"date": 1555362000,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "2bfcd823-5f4f-4f64-9ba6-dfa35f0a92a3",
+				"name": "Рустам Вахитов, Большой тест-драйв",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_5k_zafuVXjI.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/5k_zafuVXjI?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=5k_zafuVXjI",
+				"video_time": "39:21"
+			},
+			{
+				"author": "Вячеслава Субботин, Минтранс. РЕН ТВ",
+				"date": 1553979600,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "633ba246-0f09-4aa8-9e53-7a2724febf6f",
+				"name": "Вячеслава Субботин, Минтранс. РЕН ТВ",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_JZ-DztLsdAg.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/JZ-DztLsdAg?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=JZ-DztLsdAg",
+				"video_time": "09:48"
+			},
+			{
+				"author": "Михаил Кульдяев, Clickoncar",
+				"date": 1550005200,
+				"group_id": "99881c64-8137-44f8-91a5-d533bfab51c9",
+				"id": "9bd3de80-60bd-4485-9473-a8d424a1f543",
+				"name": "Михаил Кульдяев, Clickoncar",
+				"preview_image": "\/media-data\/review\/KIA_K900_2019_Epn6viYXPd4.jpg",
+				"source": "",
+				"video_link": "https:\/\/www.youtube.com\/embed\/Epn6viYXPd4?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=Epn6viYXPd4",
+				"video_time": "32:15"
+			}]
+		},
+		"disclaimers":
+		{
+			"footer":
+			{
+				"name": "Footer K900 Desc",
+				"text": "                Сведения о ценах на продукцию бренда Kia, содержащиеся на сайте, носят исключительно информационный характер. \n        Указанные цены могут отличаться от действительных цен дилеров Kia. Для получения подробной информации об актуальных \n        ценах на продукцию Kia обращайтесь к дилерам Kia. Приобретение любой продукции бренда Kia осуществляется в соответствии \n        с условиями индивидуального договора купли-продажи. Представленное изображение автомобиля может отличаться от реализуемого. \n    <br\/><br\/>\n        На данном сайте используются зарегистрированные товарные знаки, перечисленные в разделе Правовая информация https:\/\/www.kia.ru\/info\/trademarks\/\n    <br\/><br\/>\n        Данные по времени разгона получены в эталонных условиях с применением специального измерительного оборудования, при использовании эталонного топлива. Реальное время разгона может отличаться в силу воздействия различных объективных и субъективных факторов: влажности, давления и температуры окружающего воздуха, фракционного состава используемого топлива, рельефа местности, характеристик дорожного покрытия, направления и скорости ветра, атмосферных осадков, давления в шинах а также их размерности, марки и модели, массы перевозимого груза (включая водителя и пассажиров) и навыков вождения. Из-за различий в комплектациях автомобилей и требованиях на разных рынках, характеристики моделей могут отличаться от указанных выше. Компания Kia оставляет за собой право на внесение изменений в конструкцию и комплектацию автомобилей без предварительного уведомления.\n    <br\/><br\/>\n        Luxe - Люкс, Prestige - Престиж, Premium - Премиум.\n    <br\/><br\/>\n        GDI (Gasoline Direct Injection) - двигатель с непосредственным впрыском топлива.\n    <br\/><br\/>\n        Auto - Авто, \n        TFT (Thin Film Transistor) - Тиэфти,  \n        Engine (Start-Stop) - Двигатель (Старт-Стоп), \n        LCD (Liquid Crystal Display) - Жидкокристаллический дисплей, \n        Supervision - Супервижн,\n        USB (Universal Serial Bus) - интерфейс для подключения,  \n        AUX (auxiliary) -  интерфейс для подключения, \n        SD (Secure Digital) - формат карт памяти, \n        Bluetooth (Блютус) - спецификация беспроводных персональных сетей, \n        Apple Carplay - Эппл Карплей, \n        Android Auto - Андройд Авто, \n        Smart Key - Смарт Кей, \n        AHSS(Advanced-high-strength steel) - прогрессивная высокопрочная сталь,\n        Maurice Lacroix (Морис Лакруа) — марка швейцарских часов, \n        ABS (Anti-lock braking system) -  Антиблокировочная система торможения, \n        Krell - Крелл,\n\t\tNappa - наппа\n\t\tDRL (Daytime running lights) - Дневные ходовые огни.\n    <br\/><br\/>\n        Технические характеристики уточняйте у дилеров Kia."
+			},
+			"min_price":
+			{
+				"name": "Min Price K900",
+				"text": "Цена 4 064 900 руб. указана на новый автомобиль Kia K900 2021 г. выпуска в комплектации 3.3 AT Luxe. \n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.04.2021 по 30.04.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам Kia."
+			},
+			"credit":
+			{
+				"name": "Credit K900",
+				"text": "Ежемесячный платеж – 19 820 р. на Киа К900. Кредит предоставляется ПАО «Совкомбанк» (далее «Банк») Генеральная лицензия ЦБ РФ № 963 от 05.12.2014 г., рассчитан по условиям программы Киа Легко! (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko\/) по кредитному тарифу Kia Finance Indirect исходя из параметров: цена Киа К900 3.3 АТ Люкс 2021 года производства, стоимостью 4 064 900 руб., срок кредита 36 мес., первоначального взноса 2 235 695 р., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.04.2021 по 30.04.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам Kia."
+			}
+		},
+		"buystrips": [
+		{
+			"link": "\/models\/k900\/calc\/",
+			"is_file": false,
+			"icon": "\/site-data\/menu\/strip_icons\/credit.svg",
+			"link_title": "В кредит"
+		},
+		{
+			"link": "\/models\/k900\/cars\/",
+			"is_file": false,
+			"icon": "\/site-data\/menu\/specials.svg",
+			"link_title": "Авто в наличии"
+		},
+		{
+			"link": "\/models\/k900\/testdrive\/",
+			"is_file": false,
+			"icon": "\/site-data\/menu\/test-drive.svg",
+			"link_title": "Тест-драйв"
+		},
+		{
+			"link": "\/master-data\/brochures\/Kia_K900_pre.pdf",
+			"is_file": true,
+			"icon": "\/site-data\/menu\/strip_icons\/files.svg",
+			"link_title": "Загрузить брошюру"
+		}],
+		"model_menu": [
+		{
+			"title": "Обзор",
+			"link": "\/models\/k900\/desc\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 400
+		},
+		{
+			"title": "Комплектации и цены",
+			"link": "\/models\/k900\/options\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 450
+		},
+		{
+			"title": "Характеристики",
+			"link": "\/models\/k900\/properties\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 500
+		},
+		{
+			"title": "Рассчитать кредит",
+			"link": "\/models\/k900\/calc\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 1,
+			"show_in_calculator": 0,
+			"sort": 900
+		},
+		{
+			"title": "Рассчитать трейд-ин",
+			"link": "\/buy\/trade-in\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 1,
+			"show_in_calculator": 1,
+			"sort": 1450
+		},
+		{
+			"title": "Авто в наличии",
+			"link": "\/models\/k900\/cars\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 1,
+			"show_in_calculator": 1,
+			"sort": 1500
+		},
+		{
+			"title": "Конфигуратор",
+			"link": "\/models\/k900\/configurator\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1600
+		},
+		{
+			"title": "Заявка дилеру",
+			"link": "\/models\/k900\/callback\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1650
+		},
+		{
+			"title": "Тест-драйв",
+			"link": "\/models\/k900\/testdrive\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1650
+		},
+		{
+			"title": "Технологии",
+			"link": "\/models\/k900\/technologies\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1660
+		},
+		{
+			"title": "Брошюра",
+			"link": "https:\/\/cdn.kia.ru\/master-data\/brochures\/Kia_K900_pre.pdf",
+			"code": "broshure",
+			"in_new_window": 1,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1700
+		}],
+		"seo":
+		{
+			"title": "KIA K900 – обзор нового седана представительского класса КИА К900 2019\/2020 (приемник KIA Quoris)",
+			"description": "Новый флагманский седан представительского класса KIA K900 поразит вас премиальным комфортом, универсальностью и инновациями. Новое представление о роскоши."
+		}
+	}
+}

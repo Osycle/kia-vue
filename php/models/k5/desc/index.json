@@ -18,7 +18,7 @@
 			"min_price": 259900000,
 			"model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
 			"name": "K5",
-			"price": 1519900,
+			"price": 259900000,
 			"price_list": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf",
 			"overview_default_color_id": "c6b0db20-1031-4c9f-a8fc-30de475245a5"
 		},
@@ -79,7 +79,7 @@
 			},
 			"logo":
 			{
-				"image": "https://www.kia.ru/static/media-data/banners/models/k5/main/logo.svg",
+				"image": "/media-data/banners/models/k5/main/logo.svg",
 				"label": "KIA",
 				"signature": "Сверхчеловеческие возможности"
 			},
@@ -105,34 +105,9 @@
 			}],
 			"title": null,
 			"type_code": "model",
-			"video": "media-data/banner/video/55d1cae9-69aa-4172-b426-cc43a417eb48.mp4"
+			"video": "/media-data/banner/video/55d1cae9-69aa-4172-b426-cc43a417eb48.mp4"
 		}],
 		"infographics": [
-		{
-			"description": "Дизайн К5 впечатляет даже притязательных профессионалов, представляя актуальный и запоминающийся облик",
-			"detail_link_title": null,
-			"id": "41d49081-0ea3-42cb-8124-80d4d06d4285",
-			"image": "\/media-data\/infographics\/k5\/770_design-min.jpg",
-			"link":
-			{
-				"title": null,
-				"url": null
-			},
-			"name": "Артемий Лебедев и Тимур Бурбаев о дизайне К5",
-			"preview_block": null,
-			"sort": 100,
-			"teasers": [],
-			"theme": "dark",
-			"title": "Дизайн",
-			"type": "base",
-			"video":
-			{
-				"link": "https:\/\/www.youtube.com\/embed\/2QOuOXUVkz0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=2QOuOXUVkz0",
-				"video_preview": "/video/k5-overview-1.mp4",
-				"video_time": "1:09"
-			},
-			"video_bank": null
-		},
 		{
 			"description": "KIA K5 открывает новую эпоху дизайна автомобилей KIA. В этом инновационном седане сочетаются динамика и комфорт, дополненные дерзким и уверенным профилем. Его элегантность считывается в пристальном внимании к деталям.",
 			"detail_link_title": null,
@@ -218,31 +193,6 @@
 				"link": null,
 				"video_preview": null,
 				"video_time": null
-			},
-			"video_bank": null
-		},
-		{
-			"description": "К5 дарит эмоции даже тем, кто привык к очень динамичной езде",
-			"detail_link_title": null,
-			"id": "b31c7e58-57a0-4caf-93af-b527b53f4f70",
-			"image": "\/media-data\/infographics\/k5\/770_drive-min.jpg",
-			"link":
-			{
-				"title": null,
-				"url": null
-			},
-			"name": "Автогонщик Михаил Алешин о драйве К5",
-			"preview_block": null,
-			"sort": 120,
-			"teasers": [],
-			"theme": "dark",
-			"title": "ДРАЙВ",
-			"type": "base",
-			"video":
-			{
-				"link": "https:\/\/www.youtube.com\/embed\/RVai0ZUa598?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=RVai0ZUa598",
-				"video_preview": "/video/k5-overview-4.mp4",
-				"video_time": "0:47"
 			},
 			"video_bank": null
 		},
@@ -429,31 +379,6 @@
 			"video_bank": null
 		},
 		{
-			"description": "Насыщенность технологиями комфорта и безопасности впечатляет даже самых искушенных",
-			"detail_link_title": null,
-			"id": "15fc81fc-9988-43ec-9a93-2cfa2670f342",
-			"image": "\/media-data\/infographics\/k5\/770_tech-min.jpg",
-			"link":
-			{
-				"title": null,
-				"url": null
-			},
-			"name": "Wylsacom о технологиях К5",
-			"preview_block": null,
-			"sort": 140,
-			"teasers": [],
-			"theme": "dark",
-			"title": "Технологии",
-			"type": "base",
-			"video":
-			{
-				"link": "https:\/\/www.youtube.com\/embed\/54EZrym5rCo?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=54EZrym5rCo",
-				"video_preview": "/video/k5-overview-2.mp4",
-				"video_time": "5:00"
-			},
-			"video_bank": null
-		},
-		{
 			"description": "Отражая спортивный дух автомобиля, салон K5 ориентирован на водителя, все элементы управления легкодоступны. Помимо выверенной эргономики, интерьер K5 вызывает шквал «технологических» эмоций. Продуманный интеллектуальный интерфейс предоставляет доступ к различным настройкам коммуникаций, комфорта и развлечений.",
 			"detail_link_title": null,
 			"id": "d501a908-6014-4d90-a4fa-e8f112e3155d",
@@ -632,31 +557,6 @@
 			"video_bank": null
 		},
 		{
-			"description": "Новый взгляд на комфорт бизнес-седана с эргономично организованным пространством, качественными материалами и высоким уровнем оснащения",
-			"detail_link_title": null,
-			"id": "3f256661-962a-45f9-90b0-79635906c7f3",
-			"image": "\/media-data\/infographics\/k5\/770_comfort-min.jpg",
-			"link":
-			{
-				"title": null,
-				"url": null
-			},
-			"name": "Юлия Паршута о комфорте K5",
-			"preview_block": null,
-			"sort": 170,
-			"teasers": [],
-			"theme": "dark",
-			"title": "Комфорт",
-			"type": "base",
-			"video":
-			{
-				"link": "https:\/\/www.youtube.com\/embed\/fkn3VJAA5Os?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=fkn3VJAA5Os",
-				"video_preview": "/video/k5-overview-3.mp4",
-				"video_time": "0:39"
-			},
-			"video_bank": null
-		},
-		{
 			"description": "На первый взгляд обычные решения, применённые в KIA K5, обретают истинный смысл, когда они становятся частью Вашей повседневной жизни. Выберите свой вариант K5 для оформления, расширения функционала или повышения комфорта, чтобы каждый день автомобиль радовал Вас своей неповторимостью.",
 			"detail_link_title": null,
 			"id": "3d9c3087-f37a-4691-8bd1-343fe95cd71a",
@@ -798,7 +698,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -807,7 +707,7 @@
 			{
 				"code": "UD",
 				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
 				"name": "Clear White",
 				"name_en": "Clear White",
 				"price": null,
@@ -816,7 +716,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -825,7 +725,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -834,7 +734,7 @@
 			{
 				"code": "UD",
 				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
 				"name": "Clear White",
 				"name_en": "Clear White",
 				"price": null,
@@ -843,7 +743,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -852,7 +752,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -861,7 +761,7 @@
 			{
 				"code": "UD",
 				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
 				"name": "Clear White",
 				"name_en": "Clear White",
 				"price": null,
@@ -870,7 +770,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -879,7 +779,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -888,7 +788,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -897,7 +797,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -906,7 +806,7 @@
 			{
 				"code": "UD",
 				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
 				"name": "Clear White",
 				"name_en": "Clear White",
 				"price": null,
@@ -915,7 +815,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -924,7 +824,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -933,7 +833,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -942,7 +842,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -951,7 +851,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -960,7 +860,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -969,7 +869,7 @@
 			{
 				"code": "UD",
 				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
 				"name": "Clear White",
 				"name_en": "Clear White",
 				"price": null,
@@ -978,7 +878,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -987,7 +887,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -996,7 +896,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -1005,7 +905,7 @@
 			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
+				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
 				"price": 15000,
@@ -1014,7 +914,7 @@
 			{
 				"code": "UD",
 				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
 				"name": "Clear White",
 				"name_en": "Clear White",
 				"price": null,
@@ -1023,7 +923,7 @@
 			{
 				"code": "DU3",
 				"id": "c6b0db20-1031-4c9f-a8fc-30de475245a5",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
+				"image": "\/master-data\/colors\/7be5370a-0358-4fe5-a083-d9f5dcb07830.svg",
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
 				"price": 15000,
@@ -1032,7 +932,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1041,7 +941,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1050,7 +950,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1059,7 +959,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1068,7 +968,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1077,7 +977,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1086,7 +986,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1095,7 +995,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1104,7 +1004,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1113,7 +1013,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 15000,
@@ -1122,7 +1022,7 @@
 			{
 				"code": "4SS",
 				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
 				"price": 15000,
@@ -1131,7 +1031,7 @@
 			{
 				"code": "4SS",
 				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
 				"price": 15000,
@@ -1140,7 +1040,7 @@
 			{
 				"code": "4SS",
 				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
 				"price": 15000,
@@ -1149,7 +1049,7 @@
 			{
 				"code": "4SS",
 				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
 				"price": 15000,
@@ -1158,7 +1058,7 @@
 			{
 				"code": "4SS",
 				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
 				"price": 15000,
@@ -1167,7 +1067,7 @@
 			{
 				"code": "4SS",
 				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
 				"price": 15000,
@@ -1176,7 +1076,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1185,7 +1085,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1194,7 +1094,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1203,7 +1103,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1212,7 +1112,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1221,7 +1121,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1230,7 +1130,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1239,7 +1139,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1248,7 +1148,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1257,7 +1157,7 @@
 			{
 				"code": "B4U",
 				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
 				"price": 15000,
@@ -1266,7 +1166,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1275,7 +1175,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1284,7 +1184,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1293,7 +1193,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1302,7 +1202,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1311,7 +1211,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1320,7 +1220,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1329,7 +1229,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1338,7 +1238,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1347,7 +1247,7 @@
 			{
 				"code": "ABP",
 				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
 				"price": 15000,
@@ -1901,7 +1801,7 @@
 			{
 				"code": "WK",
 				"id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
 				"name": "Черный, Тканевая отделка",
 				"name_en": "Black, Fabric finish",
 				"price": null,
@@ -1910,7 +1810,7 @@
 			{
 				"code": "WK",
 				"id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
 				"name": "Черный, Натуральная кожа",
 				"name_en": "Black, Genuine leather",
 				"price": null,
@@ -1919,7 +1819,7 @@
 			{
 				"code": "DNN",
 				"id": "f2105db2-4a6e-473b-8505-5f125ea9adb3",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/08d1a1e3-e235-4e71-a5c0-293aa86da978.svg",
+				"image": "\/master-data\/colors\/08d1a1e3-e235-4e71-a5c0-293aa86da978.svg",
 				"name": "Бежевый, Натуральная кожа",
 				"name_en": "Beige, Genuine leather",
 				"price": null,

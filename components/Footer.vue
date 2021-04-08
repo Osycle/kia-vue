@@ -16,7 +16,6 @@
             <ul class="item">
               <li><nuxt-link to="/models">Модели</nuxt-link></li>
               <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
-              <li><nuxt-link to="/buy/cars">Авто в наличии</nuxt-link></li>
               <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
             </ul>
             <ul class="item">

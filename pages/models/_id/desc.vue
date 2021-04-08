@@ -6,11 +6,11 @@
         <div class="model-header-panel">
           <div class="align-center">
             <span class="name-content">{{page.model.name}}</span>
-            <span class="price-content">от {{page.model.min_price | spaceBetweenNum}} сум</span>
+            <span class="price-content" v-if="page.model.min_price">от {{page.model.min_price | spaceBetweenNum}} сум</span>
             <a class="flex m-l-15 hidden-xs hidden-sm" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a>
             <a href=".list-add-sub" class="btn-options visible-xs visible-sm" data-toggle="dropdown"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg></a>
           </div>
-          <div class="model-header-nav">
+          <div class="model-header-nav" v-if="page.model.min_price">
             <ul class="list list-main">
               <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link active-class="active" :to="item.link">{{item.title}}</nuxt-link></li>
             </ul>
@@ -44,7 +44,8 @@
 
     <div class="card-bnr card-top relative" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'model'">
       <div class="bg-video-content cover">
-        <video :src="'https://cdn.kia.ru/'+bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+        <video v-if="bnr.video" :src="'https://cdn.kia.ru/'+bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+        <div class="img-md absolute" v-else :style="'background-image: url(https://cdn.kia.ru/resize/1920x960/'+bnr.images.desktop+');'"></div>
         <div class="img-xs absolute" :style="'background-image: url(https://cdn.kia.ru/resize/770x442/'+bnr.images.mobile+');'"></div>
       </div>
       <div class="container-p relative">
@@ -52,24 +53,24 @@
           <ol class="breadcrumb">
             <li><nuxt-link to="/">Главная</nuxt-link></li>
             <li><nuxt-link to="/models">Модели</nuxt-link></li>
-            <li><nuxt-link :to="'/models/'+$route.params.id">{{page.model.name}}</nuxt-link></li>
+            <li><nuxt-link :to="'/models/'+$route.params.id+'/desc'">{{page.model.name}}</nuxt-link></li>
           </ol>
         </div>
         <div class="wrapper-content">
           <div class="desc-content justify-c-end hidden-xs hidden-sm">
-            <span class="text align-center"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span> <a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
-            <span class="p-h-5">·</span>
-            <span class="btn-def style-2 m-l-20"><nuxt-link :to="'/models/'+$route.params.id+'/callback'">Связаться с нами</nuxt-link></span>
+            <span class="text align-center" v-if="page.model.min_price"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span> <a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
+            <span class="p-h-5" v-if="page.model.min_price">·</span>
+            <span class="btn-def style-2 m-l-20" v-if="page.model.min_price"><nuxt-link :to="'/models/'+$route.params.id+'/callback'">Связаться с нами</nuxt-link></span>
           </div>
           <div class="card-bnr-bottom">
             <div class="flex-adaptive align-center justify-c-between">
               <div class="card-bnr-name">
                 <div class="text-n1 m-b-15">{{bnr.logo.label}}</div>
-                <img :src="bnr.logo.image">
+                <img :src="'https://cdn.kia.ru/'+bnr.logo.image">
                 <div class="font-size-nm m-t-10">{{bnr.logo.signature}}</div>
               </div>
-              <div class="desc-content hidden-md hidden-lg">
-                <span class="text align-center"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span><a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
+              <div class="desc-content hidden-md hidden-lg" v-if="page.model.min_price">
+                <span class="text align-center" v-if="page.model.min_price"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span><a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
                 <div class="btn-opacity"><nuxt-link to="callback">Связаться с нами</nuxt-link></div>
               </div>
               <div class="card-bnr-advantages box-md-5 flex row">
@@ -172,9 +173,14 @@
             </div>
             <br class="hidden-sm hidden-xs">
             <div class="video-content m-t-30 relative">
-              <div class="bg-video-content-2">
-                <a :href="info.video.link" data-fancybox><div class="btn-play"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg></div></a>
-                <video :src="info.video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+              <div v-if="info.video.video_preview">
+                <div class="bg-video-content-2">
+                  <a :href="info.video.link" data-fancybox><div class="btn-play"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg></div></a>
+                  <video :src="'https://cdn.kia.ru/'+info.video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+                </div>
+              </div>
+              <div v-else class="img-content">
+                <img :src="'https://cdn.kia.ru/'+info.image" alt="">
               </div>
             </div>
           </div>
@@ -281,7 +287,7 @@
                       <template v-if="overview.color_id == color.id" >
                         <li :class="{'active': selectOverview.color_id == color.id}">
                           <a href="javascript:;" @click.stop.prevent="showroomChanger(color)" >
-                            <div class="color-select" :style="'background-image: url('+color.image+')'"></div>
+                            <div class="color-select" :style="'background-image: url(https://cdn.kia.ru'+color.image+')'"></div>
                           </a>
                         </li>
                       </template>
@@ -301,7 +307,7 @@
                       <template v-if="panorama.color_id == color.id">
                         <li :class="{'active': selectInteriorColor.id == color.id}">
                           <a href="javascript:;" @click.stop.prevent="showroomInChanger(color)" >
-                            <div class="color-select" :style="'background-image: url('+color.image+')'"></div>
+                            <div class="color-select" :style="'background-image: url(https://cdn.kia.ru'+color.image+')'"></div>
                           </a>
                         </li>
                       </template>
@@ -310,7 +316,7 @@
                 </ul>
               </div>
             </div>
-            <span class="btn-def">
+            <span class="btn-def" v-if="page.model.min_price">
               <nuxt-link :to="'/models/'+page.model.code+'/configurator'" class="p-v-20">Конфигуратор</nuxt-link>	
             </span>
           </div>
@@ -318,7 +324,7 @@
       </div>
     </div>
 
-    <div class="card-sets bg-color-gray-1">
+    <div class="card-sets bg-color-gray-1" v-if="page.model.min_price">
       <div class="container-p p-v-45">
         <div class="entry-header text-center m-v-30">
           <h4 class="color-2 text-n1">КОМПЛЕКТАЦИИ</h4>
@@ -389,7 +395,7 @@
 
     <div class="card-fb" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'center'" 
         :style="'background-image: url(https://cdn.kia.ru/resize/1920x960/'+bnr.bg_images.desktop+');'">
-      <div class="container-p text-center">
+      <div class="container-p text-center" v-if="page.model.min_price">
         <div class="entry-content">
           <div class="entry-header color-white p-v-30">
             <h4 class="text-n1">{{bnr.title}}</h4>
@@ -456,8 +462,11 @@ export default {
         this.panoramasComplectation = complectation;
     })
     this.selectComplectation.overviews.forEach(overview => {
-      if(overview.color_id == this.page.model.overview_default_color_id)
+      if(overview.color_id == this.page.model.overview_default_color_id){
         this.selectOverview = overview;
+      }else if(!this.selectOverview){
+        this.selectOverview = this.selectComplectation.overviews[0];
+      }
     });
 
     this.page.overviews.colors.forEach(color => {
@@ -474,8 +483,8 @@ export default {
     
   },
   mounted(){
-    //$(window).scrollTop(400);
-    //$(window).scrollTop(0);
+    $(window).scrollTop(400);
+    $(window).scrollTop(0);
     
     // Активация экстерер 360
     $(document).on("click", ".showroom-item-cover", ()=>{

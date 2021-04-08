@@ -46,7 +46,7 @@
 			},
 			"logo":
 			{
-				"image": "https://www.kia.ru/static/media-data/banners/models/seltos/main/seltos-logo.svg",
+				"image": "/media-data/banners/models/seltos/main/seltos-logo.svg",
 				"label": "\u041d\u043e\u0432\u044b\u0439 KIA",
 				"signature": "\u0421\u043c\u0435\u043b\u0435\u0439!"
 			},
@@ -72,7 +72,7 @@
 			}],
 			"title": null,
 			"type_code": "model",
-			"video": "/video/seltos.mp4"
+			"video": "/media-data/banners/models/seltos/desc/1920_desktop.mp4"
 		},
 		{
 			"bg_color": null,
@@ -826,7 +826,7 @@
 			{
 				"code": "UD",
 				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
 				"name": "Clear White",
 				"name_en": "Clear White",
 				"price": null,
@@ -835,7 +835,7 @@
 			{
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
 				"price": 10000,
@@ -844,7 +844,7 @@
 			{
 				"code": "KDG",
 				"id": "209938ed-171f-404c-8e74-75f76907225f",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/f0193540-687d-4474-8db2-43c0801bb0c3.svg",
+				"image": "\/master-data\/colors\/f0193540-687d-4474-8db2-43c0801bb0c3.svg",
 				"name": "Gravity Gray",
 				"name_en": "Gravity Gray",
 				"price": 10000,
@@ -853,7 +853,7 @@
 			{
 				"code": "KLG",
 				"id": "b137d001-169e-42c9-ba72-797e8262c82d",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
+				"image": "\/master-data\/colors\/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
 				"name": "Steel Gray",
 				"name_en": "Steel Gray",
 				"price": 10000,
@@ -862,7 +862,7 @@
 			{
 				"code": "B4Y",
 				"id": "0d2e2289-e975-4b5a-a7e2-7876ad2edf56",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/B4Y.svg",
+				"image": "\/master-data\/colors\/B4Y.svg",
 				"name": "Stargright Yellow",
 				"name_en": "Stargright Yellow",
 				"price": 10000,
@@ -871,7 +871,7 @@
 			{
 				"code": "B3A",
 				"id": "d014cc71-0410-49c7-806e-ef940eea2ffc",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/d850fd73-31fb-4508-b26b-5cd100939e74.svg",
+				"image": "\/master-data\/colors\/d850fd73-31fb-4508-b26b-5cd100939e74.svg",
 				"name": "Neptune Blue",
 				"name_en": "Neptune Blue",
 				"price": 10000,
@@ -880,7 +880,7 @@
 			{
 				"code": "M3R",
 				"id": "96e40eb5-9bea-49a6-9273-38fdd8f1a398",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/e24a69f7-32a0-432c-a848-c01d023281cd.svg",
+				"image": "\/master-data\/colors\/e24a69f7-32a0-432c-a848-c01d023281cd.svg",
 				"name": "Mars Orange",
 				"name_en": "Mars Orange",
 				"price": 10000,
@@ -889,7 +889,7 @@
 			{
 				"code": "BU3",
 				"id": "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/BU3.svg",
+				"image": "\/master-data\/colors\/BU3.svg",
 				"name": "Dark Ocean Blue",
 				"name_en": "Dark Ocean Blue",
 				"price": 10000,
@@ -898,7 +898,7 @@
 			{
 				"code": "9H",
 				"id": "27b380f5-62bd-4c46-ae58-c0b8f528c40a",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/bc555e24-fa5d-45a8-8020-2a6225e76fc0.svg",
+				"image": "\/master-data\/colors\/bc555e24-fa5d-45a8-8020-2a6225e76fc0.svg",
 				"name": "Cherry Black",
 				"name_en": "Cherry Black",
 				"price": 10000,
@@ -907,7 +907,7 @@
 			{
 				"code": "GA6",
 				"id": "c2884aab-45bf-4576-b9ba-22e23da17129",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/3ebff914-a151-4f63-9f9b-d5f422692fc0.svg",
+				"image": "\/master-data\/colors\/3ebff914-a151-4f63-9f9b-d5f422692fc0.svg",
 				"name": "Starbright Yellow \/ Clear White",
 				"name_en": "Starbright Yellow \/ Clear White",
 				"price": 20000,
@@ -916,7 +916,7 @@
 			{
 				"code": "GA7",
 				"id": "03531178-ae44-4318-a4e6-32aeb415cd4f",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/6a094b2e-993a-415f-bc14-c4fa7b4bc132.svg",
+				"image": "\/master-data\/colors\/6a094b2e-993a-415f-bc14-c4fa7b4bc132.svg",
 				"name": "Starbright Yellow \/ Cherry Black",
 				"name_en": "Starbright Yellow \/ Cherry Black",
 				"price": 20000,
@@ -925,7 +925,7 @@
 			{
 				"code": "SE1",
 				"id": "e5094c34-9d95-4e67-b78a-ec53588fb01f",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/afe82e9b-eca9-4b02-acb7-d50f44b959b2.svg",
+				"image": "\/master-data\/colors\/afe82e9b-eca9-4b02-acb7-d50f44b959b2.svg",
 				"name": "Gravity Gray \/ Platinum Gold",
 				"name_en": "Gravity Gray \/ Platinum Gold",
 				"price": 20000,
@@ -934,7 +934,7 @@
 			{
 				"code": "GA4",
 				"id": "f2703162-c445-4812-9506-64972a2604b7",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/3fe5fffa-3bd8-4301-8f23-e710f02540a2.svg",
+				"image": "\/master-data\/colors\/3fe5fffa-3bd8-4301-8f23-e710f02540a2.svg",
 				"name": "Dark Ocean Blue \/ Clear White",
 				"name_en": "Dark Ocean Blue \/ Clear White",
 				"price": 20000,
@@ -943,7 +943,7 @@
 			{
 				"code": "GA5",
 				"id": "6eb4524d-05a2-46ca-ac6f-993a4600a51b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/361992a7-8b6b-4200-92db-ed167a3a2eb6.svg",
+				"image": "\/master-data\/colors\/361992a7-8b6b-4200-92db-ed167a3a2eb6.svg",
 				"name": "Dark Ocean Blue \/ Cherry Black",
 				"name_en": "Dark Ocean Blue \/ Cherry Black",
 				"price": 20000,
@@ -952,7 +952,7 @@
 			{
 				"code": "GA3",
 				"id": "0bf9f742-677b-4db9-86a5-a30bab9e2829",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/8798dc64-afab-4afe-9207-720ce7651053.svg",
+				"image": "\/master-data\/colors\/8798dc64-afab-4afe-9207-720ce7651053.svg",
 				"name": "Mars Orange \/ Clear White",
 				"name_en": "Mars Orange \/ Clear White",
 				"price": 20000,
@@ -1076,7 +1076,7 @@
 			{
 				"code": "WK",
 				"id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
 				"name": "\u0427\u0435\u0440\u043d\u044b\u0439, \u0422\u043a\u0430\u043d\u0435\u0432\u0430\u044f \u043e\u0442\u0434\u0435\u043b\u043a\u0430",
 				"name_en": "Black, Fabric finish",
 				"price": null,
@@ -1085,7 +1085,7 @@
 			{
 				"code": "WK",
 				"id": "bd0c8ca6-ff2d-4b18-8cc7-ed295cb1cddc",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/dfab6f76-5f73-49c5-a1d1-88bce428b937.svg",
+				"image": "\/master-data\/colors\/dfab6f76-5f73-49c5-a1d1-88bce428b937.svg",
 				"name": "\u0427\u0435\u0440\u043d\u044b\u0439 \u0441 \u0441\u0435\u0440\u044b\u043c\u0438 \u0432\u0441\u0442\u0430\u0432\u043a\u0430\u043c\u0438, \u0422\u043a\u0430\u043d\u0435\u0432\u0430\u044f \u043e\u0442\u0434\u0435\u043b\u043a\u0430",
 				"name_en": "Black with gray accents, Fabric finish",
 				"price": null,
@@ -1094,7 +1094,7 @@
 			{
 				"code": "WK",
 				"id": "d69acc7e-c755-4fa0-94e3-5eca4020fd8a",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
 				"name": "\u0427\u0435\u0440\u043d\u044b\u0439, \u041a\u043e\u043c\u0431\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043e\u0442\u0434\u0435\u043b\u043a\u0430 \u0442\u043a\u0430\u043d\u044c \u0438 \u044d\u043a\u043e\u043a\u043e\u0436\u0430",
 				"name_en": "Black, Fabric and faux leather combo",
 				"price": null,
@@ -1103,7 +1103,7 @@
 			{
 				"code": "WK",
 				"id": "82edc531-8701-44bd-9f4b-55dda4095bb9",
-				"image": "https://www.kia.ru/static\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
 				"name": "\u0427\u0435\u0440\u043d\u044b\u0439, \u042d\u043a\u043e\u043a\u043e\u0436\u0430",
 				"name_en": "Black, Eco leather",
 				"price": null,

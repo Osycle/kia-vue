@@ -4,41 +4,6 @@
 	{
 		"models": [
 		{
-			"name": "Новый Rio",
-			"code": "rio",
-			"image": "\/master-data\/models\/rio_new.png"
-		},
-		{
-			"name": "Rio X",
-			"code": "rio-x",
-			"image": "\/master-data\/models\/rio-x.png"
-		},
-		{
-			"name": "Rio X-Line",
-			"code": "rio-x-line",
-			"image": "\/master-data\/models\/rio_x_line.png"
-		},
-		{
-			"name": "Ceed",
-			"code": "ceed",
-			"image": "\/master-data\/models\/ceed.png"
-		},
-		{
-			"name": "Ceed SW",
-			"code": "ceed_sw",
-			"image": "\/master-data\/models\/ceedsw.png"
-		},
-		{
-			"name": "ProCeed",
-			"code": "proceed",
-			"image": "\/master-data\/models\/proceed.png"
-		},
-		{
-			"name": "Cerato",
-			"code": "cerato",
-			"image": "\/master-data\/models\/cerato.png"
-		},
-		{
 			"name": "K5",
 			"code": "k5",
 			"image": "\/master-data\/models\/K5_half.png"
@@ -64,24 +29,14 @@
 			"image": "\/master-data\/models\/seltos.png"
 		},
 		{
-			"name": "XCeed",
-			"code": "xceed",
-			"image": "\/master-data\/models\/xceed.png"
-		},
-		{
-			"name": "Sportage",
-			"code": "sportage",
-			"image": "\/master-data\/models\/sportage.png"
+			"name": "Carnival",
+			"code": "carnival",
+			"image": "/master-data/models/Carnival_half.png"
 		},
 		{
 			"name": "Sorento",
 			"code": "sorento",
 			"image": "\/master-data\/models\/sorento_new.png"
-		},
-		{
-			"name": "Mohave",
-			"code": "mohave",
-			"image": "\/master-data\/models\/mohave_new.png"
 		}],
 		"disclaimers":
 		{

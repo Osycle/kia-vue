@@ -49,7 +49,7 @@
     }],
     "model_lines": [
     {
-      "cars_in_stock": 1,
+      "cars_in_stock": 0,
       "code": "k5",
       "external_id": "EXS4",
       "group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
@@ -60,7 +60,7 @@
       "sort": 750
     },
     {
-      "cars_in_stock": 1,
+      "cars_in_stock": 0,
       "code": "seltos",
       "external_id": "TH",
       "group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
@@ -69,6 +69,61 @@
       "label_name": null,
       "name": "Seltos",
       "sort": 500
+    },
+    {
+      "cars_in_stock": 1,
+      "code": "sorento",
+      "external_id": "GZ",
+      "group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+      "id": "259f93e4-313c-450f-a575-a479d9b82133",
+      "is_coming_soon": 0,
+      "label_name": null,
+      "name": "Sorento",
+      "sort": 350
+    },
+    {
+      "cars_in_stock": 1,
+      "code": "stinger",
+      "external_id": "J5S6",
+      "group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+      "id": "48265c16-efbc-4cea-9d2b-8b971808a518",
+      "is_coming_soon": 0,
+      "label_name": "Новинка",
+      "name": "Stinger",
+      "sort": 740
+    },
+    {
+      "cars_in_stock": 1,
+      "code": "soul",
+      "external_id": "SK",
+      "group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+      "id": "88b88d67-ed36-4566-b52e-f6e4237def68",
+      "is_coming_soon": 0,
+      "label_name": null,
+      "name": "Soul",
+      "sort": 550
+    },
+    {
+      "cars_in_stock": 1,
+      "code": "carnival",
+      "external_id": "HS",
+      "group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+      "id": "c70a9df0-5046-45be-a4db-82bc83b76547",
+      "is_coming_soon": 0,
+      "label_name": "Новинка",
+      "name": "Carnival",
+      "sort": 140
+    },
+    {
+      "cars_in_stock": 1,
+      "code": "k900",
+      "external_id": "J6",
+      "group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+      "id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
+      "is_coming_soon": 0,
+      "label_name": null,
+      "name": "K900",
+      "sort": 600
     }],
     "models": [
     {
@@ -104,6 +159,91 @@
       "price_list": "\/master-data\/pdf\/model\/k5_2021.pdf",
       "unique_id": "EXS420212021",
       "landing_link": "https:\/\/www.kia.ru\/models\/k5\/teaser\/"
+    },
+    {
+      "accessories": null,
+      "brochure": "\/master-data\/brochures\/Kia_Sorento_new.pdf",
+      "carcass_type_id": "86917747-762f-48ba-a6bb-61136751ceeb",
+      "id": "6c872f78-bd7d-4a0a-a195-908413672efc",
+      "image": "\/master-data\/models\/sorento_new.png",
+      "image_left": "\/master-data\/models\/sorento_new.png",
+      "image_right": "\/master-data\/models\/sorento_new.png",
+      "image_side_view": "\/master-data\/models\/image_side\/sorento_new.png",
+      "max_benefit": 130000,
+      "min_credit_month_price": 11070,
+      "min_price": 0,
+      "model_line_id": "259f93e4-313c-450f-a575-a479d9b82133",
+      "price_list": "\/master-data\/pdf\/model\/sorento_2021.pdf",
+      "unique_id": "GZW520212021",
+      "landing_link": "\/models\/sorento\/teaser\/"
+    },
+    {
+      "accessories": null,
+      "brochure": "\/master-data\/brochures\/Kia_Stinger.pdf",
+      "carcass_type_id": "6de41930-0b7f-4535-8537-4965c7bd4887",
+      "id": "ca1503aa-9068-4327-a71d-bd15f98b72bf",
+      "image": "\/master-data\/models\/new_stinger.png",
+      "image_left": "\/master-data\/models\/new_stinger.png",
+      "image_right": "\/master-data\/models\/new_stinger.png",
+      "image_side_view": "\/master-data\/models\/image_side\/new_stinger_side.png",
+      "max_benefit": 0,
+      "min_credit_month_price": 11750,
+      "min_price": 0,
+      "model_line_id": "48265c16-efbc-4cea-9d2b-8b971808a518",
+      "price_list": "\/master-data\/pdf\/model\/stinger_2021.pdf",
+      "unique_id": "J5S620212021",
+      "landing_link": "\/models\/stinger\/teaser\/"
+    },
+    {
+      "accessories": "\/master-data\/accessories\/KIA_brochure_Soul.pdf",
+      "brochure": "\/master-data\/brochures\/Kia_Soul_pre.pdf",
+      "carcass_type_id": "86917747-762f-48ba-a6bb-61136751ceeb",
+      "id": "997324eb-9a97-4fa4-b3bb-afe637caa2a1",
+      "image": "\/master-data\/models\/soul.png",
+      "image_left": "\/master-data\/models\/soul.png",
+      "image_right": "\/master-data\/models\/soul.png",
+      "image_side_view": "\/master-data\/models\/image_side\/soul.png",
+      "max_benefit": 95000,
+      "min_credit_month_price": 5540,
+      "min_price": 0,
+      "model_line_id": "88b88d67-ed36-4566-b52e-f6e4237def68",
+      "price_list": "\/master-data\/pdf\/model\/soul_2021.pdf",
+      "unique_id": "SKW520212021",
+      "landing_link": null
+    },
+    {
+      "accessories": null,
+      "brochure": "\/master-data\/brochures\/Kia_Carnival_Preview.pdf",
+      "carcass_type_id": "2826c6ca-72e3-42d3-8521-c60d803962be",
+      "id": "c541a2f0-d98e-48f9-ac24-cb6e11e2b98d",
+      "image": "\/master-data\/models\/Carnival_half.png",
+      "image_left": "\/master-data\/models\/Carnival_half.png",
+      "image_right": "\/master-data\/models\/Carnival_half.png",
+      "image_side_view": "\/master-data\/models\/image_side\/Carnival_side.png",
+      "max_benefit": 0,
+      "min_credit_month_price": 12680,
+      "min_price": 0,
+      "model_line_id": "c70a9df0-5046-45be-a4db-82bc83b76547",
+      "price_list": "\/master-data\/pdf\/model\/carnival_2021.pdf",
+      "unique_id": "HSB720212021",
+      "landing_link": "\/models\/carnival\/teaser\/"
+    },
+    {
+      "accessories": null,
+      "brochure": "\/master-data\/brochures\/Kia_K900_pre.pdf",
+      "carcass_type_id": "f01665e8-1b78-48cf-8729-8c206c4de6d3",
+      "id": "db9a1d19-fdbd-47c1-84d7-5cb70677f1c9",
+      "image": "\/master-data\/models\/k900.png",
+      "image_left": "\/master-data\/models\/k900.png",
+      "image_right": "\/master-data\/models\/k900.png",
+      "image_side_view": "\/master-data\/models\/image_side\/k900.png",
+      "max_benefit": 0,
+      "min_credit_month_price": 19820,
+      "min_price": 0,
+      "model_line_id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
+      "price_list": "\/master-data\/pdf\/model\/k900_2021.pdf",
+      "unique_id": "J6S420192021",
+      "landing_link": null
     }],
     "disclaimers":
     {

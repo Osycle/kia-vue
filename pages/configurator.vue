@@ -45,7 +45,7 @@
           <div class="conf-crs m-v-45">
             <div class="owl-carousel owl-btn-2">
               <template v-for="(modelLine) in page.model_lines">
-                <figure v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id" :model-line-id="modelLine.id">
+                <figure v-for="(model, key) in page.models" :key="key" v-if="model.min_price && model.model_line_id == modelLine.id" :model-line-id="modelLine.id">
                   <a href="javascript:;">
                     <div class="fig-wrapper">
                       <div class="img-content">

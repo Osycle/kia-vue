@@ -1,0 +1,2513 @@
+{
+	"error": 0,
+	"content":
+	{
+		"model":
+		{
+			"accessory": null,
+			"brochure": "\/master-data\/brochures\/Kia_Stinger.pdf",
+			"code": "stinger",
+			"external_id": "J5S6",
+			"id": "ca1503aa-9068-4327-a71d-bd15f98b72bf",
+			"image": "\/master-data\/models\/new_stinger.png",
+			"image_side_view": "\/master-data\/models\/image_side\/new_stinger_side.png",
+			"is_coming_soon": 0,
+			"logo_black": "\/master-data\/models\/logo\/stinger-logo-black.svg",
+			"logo_white": "\/master-data\/models\/logo\/stinger-logo-white.svg",
+			"max_benefit": 0,
+			"min_credit_price": 11750,
+			"min_price": 0,
+			"model_line_id": "48265c16-efbc-4cea-9d2b-8b971808a518",
+			"name": "Stinger",
+			"price": 0,
+			"price_list": "\/master-data\/pdf\/model\/stinger_2021.pdf",
+			"unique_id": "J5S620212021",
+			"overview_default_color_id": null
+		},
+		"banners": [
+		{
+			"bg_color": null,
+			"bg_images":
+			{
+				"desktop": null,
+				"mobile": null,
+				"retina": null
+			},
+			"description": null,
+			"group_code": "models_stinger_main_header",
+			"images":
+			{
+				"desktop": "\/media-data\/banners\/models\/stinger_new\/main\/new-bg.jpg",
+				"mobile": "\/media-data\/banners\/models\/stinger_new\/main\/new-bg-mobile.jpg",
+				"retina": "\/media-data\/banners\/models\/stinger_new\/main\/new-bg.jpg"
+			},
+			"link":
+			{
+				"title": "Конфигуратор",
+				"url": "\/models\/stinger\/configurator\/"
+			},
+			"logo":
+			{
+				"image": "\/media-data\/banners\/models\/stinger\/main\/stinger-logo.svg",
+				"label": "НОВЫЙ Kia",
+				"signature": "Заводи мечту"
+			},
+			"name": "Баннер на обзорной странице Stigner",
+			"teasers": [
+			{
+				"description": "Системы безопасности Drive Wise",
+				"icon": "\/media-data\/banners\/models\/stinger_new\/main\/drive-wise.svg",
+				"title": null,
+				"title_desc": null
+			},
+			{
+				"description": "Полный привод: сочетание комфорта и безопасности",
+				"icon": "\/media-data\/banners\/models\/stinger_new\/main\/awd.svg",
+				"title": null,
+				"title_desc": null
+			},
+			{
+				"description": "Двигатель 3.3 V6 T-GDI мощностью 370 л.с.",
+				"icon": "\/media-data\/banners\/models\/stinger_new\/main\/engine.svg",
+				"title": null,
+				"title_desc": null
+			}],
+			"title": null,
+			"type_code": "model",
+			"video": "\/media-data\/banners\/models\/stinger_new\/main\/new-stinger-desc.mp4"
+		},
+		{
+			"bg_color": null,
+			"bg_images":
+			{
+				"desktop": "\/media-data\/banners\/models\/stinger_new\/main_footer\/bg.jpg",
+				"mobile": "\/media-data\/banners\/models\/stinger_new\/main_footer\/bg-mobile.jpg",
+				"retina": "\/media-data\/banners\/models\/stinger_new\/main_footer\/bg.jpg"
+			},
+			"description": null,
+			"group_code": "models_stinger_main_footer",
+			"images":
+			{
+				"desktop": "\/media-data\/banners\/models\/stinger_new\/main_footer\/desktop.png",
+				"mobile": "\/media-data\/banners\/models\/stinger_new\/main_footer\/mobile.png",
+				"retina": "\/media-data\/banners\/models\/stinger_new\/main_footer\/desktop.png"
+			},
+			"link":
+			{
+				"title": "Заказать звонок дилера",
+				"url": "\/models\/stinger\/callback\/"
+			},
+			"logo":
+			{
+				"image": null,
+				"label": null,
+				"signature": null
+			},
+			"name": "Узнайте больше о Kia Stinger",
+			"teasers": [],
+			"title": "КОНСУЛЬТАЦИЯ",
+			"type_code": "center",
+			"video": null
+		}],
+		"infographics": [
+		{
+			"description": "Новый Kia Stinger создан как воплощение страсти к вождению, которая живет в сердце любого ценителя автомобилей. Откройте для себя новую эру мощности и стиля, управляемости и динамики, а также незабываемых ощущений в лице нового Kia Stinger!",
+			"detail_link_title": null,
+			"id": "7ab9dc66-8caf-4a4b-ab2a-2c56b838d3d5",
+			"image": "\/media-data\/infographics\/stinger_new\/drive.jpg",
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Революционный драйв",
+			"preview_block": null,
+			"sort": 100,
+			"teasers": [],
+			"theme": "black",
+			"title": null,
+			"type": "base",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Классические пропорции соседствуют с новейшими разработками в области аэродинамики и шумопоглощения, в то время как облик автомобиля обеспечивает минимальное сопротивление и максимальную управляемость.",
+			"detail_link_title": null,
+			"id": "d48e5d51-6540-4774-aae2-dc322d029e3c",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Мчитесь навстречу ветру",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "Воздухозаборники направляют воздушный поток к радиатору и передним тормозам, уменьшая сопротивление, а отверстия\nв нижней части бампера направляют воздух к колесным аркам, что снижает сопротивление и охлаждает тормоза.",
+					"file": "\/media-data\/infographics\/stinger_new\/aero-1.jpg",
+					"name": "Передний бампер со встроенными воздухозаборниками",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Встроенный диффузор\nпод задним бампером не только помогает контролировать воздушный поток, но и предотвращает срывы потока на сдвоенных выхлопных трубах.",
+					"file": "\/media-data\/infographics\/stinger_new\/aero-2.jpg",
+					"name": "Задний диффузор",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Для повышения устойчивости автомобиля\nи оптимизации воздушного потока на высоких скоростях, задний край багажника нового Kia Stinger изогнут, создавая эффект спойлера и дополняя великолепный силуэт автомобиля.",
+					"file": "\/media-data\/infographics\/stinger_new\/aero-3.jpg",
+					"name": "Крышка багажника со спойлером",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Благодаря комплексу прочных слоев защиты под двигателем и трансмиссией, с каждой стороны салона и каждой стороны задней подвески, при движении на высокой скорости значительно уменьшается аэродинамическое сопротивление под кузовом автомобиля.",
+					"file": "\/media-data\/infographics\/stinger_new\/aero-4.jpg",
+					"name": "Многослойная защита и аэродинамическая эффективность",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Каждый элемент конструкции внутри\nи снаружи нового Kia Stinger был спроектирован так, чтобы уменьшить шум, вибрацию и тряску. Использование новых изоляционных материалов, измененная конфигурация выхлопной системы и усиленная задняя поперечная балка способствуют тихой и плавной езде.",
+					"file": "\/media-data\/infographics\/stinger_new\/aero-5.jpg",
+					"name": "Подход «Шум-вибрация-тряска» (NVH)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "88f8222e-2ff4-4136-b094-dfa45ee81f06",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "accordion_left"
+			},
+			"sort": 120,
+			"teasers": [],
+			"theme": "dark",
+			"title": "АЭРОДИНАМИКА",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Чистый и утонченный дизайн интерьера нового Kia Stinger черпает вдохновение в традициях стиля GT в сочетании с новейшими технологиями. Круглые диффузоры вентиляционной системы, шкалы приборов с металлическими кольцами и элементы отделки из матового хрома придают салону авиационные нотки.",
+			"detail_link_title": null,
+			"id": "1767d937-db5a-4dd7-8171-6ca3b5fa1570",
+			"image": "\/media-data\/infographics\/stinger_new\/interior-slide-1.jpg",
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Добро пожаловать в кресло пилота",
+			"preview_block": null,
+			"sort": 140,
+			"teasers": [],
+			"theme": "black",
+			"title": "ИНТЕРЬЕР",
+			"type": "base",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Новый Kia Stinger — это бескомпромиссный автомобиль для водителя. Здесь Все сделано специально для Вас, от сидений со спортивной поддержкой до современных технологий. Вы сможете совершать самые продолжительные поездки, не чувствуя усталости.",
+			"detail_link_title": null,
+			"id": "eefc22ea-7dfd-4d6b-9082-fc95fb5585a8",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Все под контролем",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "Система мониторинга BVM улучшает обзорность слепых зон, используя боковые камеры. При включении поворотного сигнала на цифровой приборной панели появляется изображение в слепой зоне.",
+					"file": "\/media-data\/infographics\/stinger_new\/comfort-1.jpg",
+					"name": "Камеры контроля слепых зон (BVM)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Система включит электрические замки и подаст звуковой и визуальный сигналы при возникновении опасного приближения другого автомобиля. ",
+					"file": "\/media-data\/infographics\/stinger_new\/comfort-2.jpg",
+					"name": "Система безопасного выхода (SEW)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Двухзонный климат-контроль на переднем ряду и дополнительная климатическая система сзади позволят насладиться комфортом абсолютно всем пассажирам.",
+					"file": "\/media-data\/infographics\/stinger_new\/comfort-3.jpg",
+					"name": "3-х зонный климат-контроль ",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Опциональные вентилируемые передние сиденья обеспечат приятный поток прохладного воздуха в жаркие дни и обогрев в зимнее время.",
+					"file": "\/media-data\/infographics\/stinger_new\/comfort-4.jpg",
+					"name": "Вентилируемые передние сиденья ",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Встроенная память сохраняет две предустановки для сиденья водителя, положения боковых зеркал, проекционного дисплея и цифровой приборной панели.",
+					"file": "\/media-data\/infographics\/stinger_new\/comfort-5.jpg",
+					"name": "Память настроек (IMS)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "С помощью одного касания приведите в движение широкий люк, чтобы наполнить салон воздухом и солнечным светом.",
+					"file": "\/media-data\/infographics\/stinger_new\/comfort-6.jpg",
+					"name": "Люк с электроприводом",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "491a55f1-c115-4002-9dd5-1c7e9508bd6e",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "accordion_right"
+			},
+			"sort": 160,
+			"teasers": [],
+			"theme": "dark",
+			"title": "КОМФОРТ",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Когда Вы увлечены дорогой, Kia Stinger помогает Вам сосредоточиться на вождении. Продуманные и интуитивно понятные высокотехнологичные решения всегда под рукой и удобны в использовании.",
+			"detail_link_title": null,
+			"id": "340fed6c-dbf1-4f6f-97ca-e0156bf66d91",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Настройтесь на мир по-своему",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "Стильная навигационная система, интегрированная с аудиосистемой, оснащена большим сенсорным экраном с технологией «парящего касания» для удобного доступа к мультимедиа.",
+					"file": "\/media-data\/infographics\/stinger_new\/multimedia-1.jpg",
+					"name": "Навигационная система с 10,25” безрамочным дисплеем",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "7-дюймовый ЖК-экран TFT с высоким разрешением транслирует основные данные о поездке в соответствии с Вашими настройками — от расхода топлива до пошаговой навигационной информации.",
+					"file": "\/media-data\/infographics\/stinger_new\/multimedia-2.jpg",
+					"name": "Цифровая приборная панель с 7” дисплеем",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Поместите совместимый смартфон на опциональное беспроводное устройство на центральной консоли и наслаждайтесь удобной зарядкой без кабеля. Устройство известит Вас, если Вы оставили смартфон, покидая автомобиль.",
+					"file": "\/media-data\/infographics\/stinger_new\/multimedia-3.jpg",
+					"name": "Беспроводное зарядное устройство для смартфона",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Проекционное изображение на лобовое стекло транслирует всю необходимую информацию. Вы всегда в курсе событий, сохраняя концентрацию на дороге.",
+					"file": "\/media-data\/infographics\/stinger_new\/multimedia-4.jpg",
+					"name": "Проекция на лобовое стекло (HUD)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Наслаждайтесь фантастическим звучанием с помощью аудиосистемы Harman Kardon® с 15 динамиками и первым сабвуфером в истории Kia, расположенным снизу между сиденьями водителя и переднего пассажира.",
+					"file": "\/media-data\/infographics\/stinger_new\/multimedia-5.jpg",
+					"name": "Акустическая система Harman Kardon®",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "ec4b3459-e3a8-4c39-b099-19e3f414c2b3",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "accordion_left"
+			},
+			"sort": 180,
+			"teasers": [],
+			"theme": "black",
+			"title": "МУЛЬТИМЕДИА",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Это комплекс разработанных Kia систем помощи водителю (ADAS), представляющих собой интеллектуальные инновации в области безопасности, призванные снизить стресс и риски при вождении на современных дорогах. Системы Drive Wise помогают повысить безопасность за рулем и способствуют приятному вождению без лишних хлопот.",
+			"detail_link_title": null,
+			"id": "4fb120de-9809-4999-9d4e-5c93366cecfb",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Drive Wise",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "С помощью камеры и радара система анализирует дорожную ситуацию впереди автомобиля и помогает соблюдать безопасную дистанцию.",
+					"file": "\/media-data\/infographics\/stinger_new\/technoligies-1.jpg",
+					"name": "Интеллектуальный круиз-контроль (SCC) с функцией Stop&Go",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "С помощью камеры и радаров система поддерживает безопасное расстояние до впередиидущего автомобиля и отслеживает разметку, чтобы Вы оставались в центре полосы.",
+					"file": "\/media-data\/infographics\/stinger_new\/technoligies-2.jpg",
+					"name": "Ассистент движения в полосе (LFA)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "При смене полосы движения система обнаруживает транспортные средства\nв Вашей слепой зоне и включает предупреждающий сигнал на боковом зеркале и проекционном дисплее внутри автомобиля.",
+					"file": "\/media-data\/infographics\/stinger_new\/technoligies-3.jpg",
+					"name": "Система предотвращения столкновения с автомобилем в слепой зоне (BCA)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Система FCA-JT анализирует информацию\nо препятствиях и в случае опасности на приборной панели появляется предупреждающий сигнал и в автомобиле применяется экстренное торможение.",
+					"file": "\/media-data\/infographics\/stinger_new\/technoligies-4.jpg",
+					"name": "Система предотвращения фронтального столкновения (FCA)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "0340044d-8b00-4878-9749-f6407414f6a1",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "accordion_right"
+			},
+			"sort": 200,
+			"teasers": [],
+			"theme": "dark",
+			"title": "ТЕХНОЛОГИИ",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": null,
+			"detail_link_title": null,
+			"id": "2d74ee6a-9c5e-49e9-a55b-f07b8e5a0c7e",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Уверенно управляйте в любую погоду",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": "За счет автоматического распределения тормозного усилия на каждое колесо на основе оценки крутящего момента и условий движения система ESC оптимально замедляет автомобиль и сохраняет контроль над направлением движения.",
+					"file": "\/media-data\/infographics\/stinger_new\/safety-1.jpg",
+					"name": "Электронный контроль устойчивости (ESC)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "В зависимости от выбранного режима движения система меняет настройки двигателя, трансмиссии, подвески, рулевого управления и полного привода.",
+					"file": "\/media-data\/infographics\/stinger_new\/safety-2.jpg",
+					"name": "Выбор режима движения (DMS)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Вы можете включить электронный стояночный тормоз с помощью переключателя EPB на центральной консоли. В режиме Auto Hold тормоз автоматически включается всякий раз, когда педаль тормоза отпущена.",
+					"file": "\/media-data\/infographics\/stinger_new\/safety-3.jpg",
+					"name": "Электронный стояночный тормоз (EPB)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "В конструкции нового Kia Stinger используется масса элементов из высокопрочной стали AHSS для обеспечения исключительной жесткости. Элементы подвергаются горячей штамповке для повышения прочности в наиболее важных частях автомобиля.",
+					"file": "\/media-data\/infographics\/stinger_new\/safety-4.jpg",
+					"name": "Улучшенная высокопрочная сталь (AHSS)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Новый Kia Stinger оснащен подушками для водителя и переднего пассажира, двумя передними боковыми подушками, двумя боковыми шторками на всю длину салона и подушкой для защиты коленей водителя.",
+					"file": "\/media-data\/infographics\/stinger_new\/safety-5.jpg",
+					"name": "7 подушек безопасности",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": "Система AHLS, определив характер столкновения, автоматически поднимает капот, тем самым смягчая удар для пешехода и значительно снижая риск травмы.",
+					"file": "\/media-data\/infographics\/stinger_new\/safety-6.jpg",
+					"name": "Активная система поднятия капота при столкновении с пешеходом (AHLS)",
+					"sort": null,
+					"teasers": [],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "a8e430e4-a320-47e5-a4b0-c9a637a5de56",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "tabs"
+			},
+			"sort": 220,
+			"teasers": [],
+			"theme": "black",
+			"title": "БЕЗОПАСНОСТЬ",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Новый Kia Stinger сочетает в себе высокую маневренность и превосходную динамику с изысканным спортивным духом вождения, который Вас несомненно удивит.",
+			"detail_link_title": null,
+			"id": "44f495b7-182b-4ccb-9999-b9d86e8deddd",
+			"image": null,
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Ускорьте биение Вашего сердца",
+			"preview_block":
+			{
+				"contents": [
+				{
+					"description": null,
+					"file": null,
+					"name": "3.3 T-GDI, бензин",
+					"sort": null,
+					"teasers": [
+					{
+						"description": "Мощность двигателя",
+						"icon": null,
+						"title": "370",
+						"title_desc": "л.с"
+					},
+					{
+						"description": "Максимальный крутящий момент",
+						"icon": null,
+						"title": "510",
+						"title_desc": "н.м"
+					},
+					{
+						"description": "Разгон от 0 до 100 км\/ч с (минимальным значением для данного двигателя)",
+						"icon": null,
+						"title": "5,4",
+						"title_desc": "с"
+					}],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": null,
+					"file": null,
+					"name": "2.0 T-GDI, бензин",
+					"sort": null,
+					"teasers": [
+					{
+						"description": "Мощность двигателя",
+						"icon": null,
+						"title": "247",
+						"title_desc": "л.с"
+					},
+					{
+						"description": "Максимальный крутящий момент",
+						"icon": null,
+						"title": "353",
+						"title_desc": "н.м"
+					},
+					{
+						"description": "Разгон от 0 до 100 км\/ч с (минимальным значением для данного двигателя)",
+						"icon": null,
+						"title": "6,8",
+						"title_desc": "с"
+					}],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				},
+				{
+					"description": null,
+					"file": null,
+					"name": "2.0 T-GDI, бензин",
+					"sort": null,
+					"teasers": [
+					{
+						"description": "Мощность двигателя",
+						"icon": null,
+						"title": "197",
+						"title_desc": "л.с"
+					},
+					{
+						"description": "Максимальный крутящий момент",
+						"icon": null,
+						"title": "353",
+						"title_desc": "н.м"
+					},
+					{
+						"description": "Разгон от 0 до 100 км\/ч с (минимальным значением для данного двигателя)",
+						"icon": null,
+						"title": "8,0",
+						"title_desc": "с"
+					}],
+					"video":
+					{
+						"link": null
+					},
+					"video_bank": null
+				}],
+				"description": null,
+				"id": "dc8beefd-ca9c-46c9-8a2c-1057c1c16566",
+				"is_not_slider_in_mobile": false,
+				"name": null,
+				"type": "accordion_left"
+			},
+			"sort": 240,
+			"teasers": [],
+			"theme": "dark",
+			"title": "ДВИГАТЕЛЬ",
+			"type": "inherit",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		},
+		{
+			"description": "Автомобили Kia произведены по самым высоким стандартам автомобильной промышленности. Именно это исключительное качество позволяет Kia предложить уникальные условия гарантии.",
+			"detail_link_title": null,
+			"id": "914f2be0-ab6d-4251-b974-b40face0577b",
+			"image": "\/media-data\/infographics\/stinger\/warranty.png",
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"name": "Гарантия и сервис",
+			"preview_block": null,
+			"sort": 999,
+			"teasers": [],
+			"theme": "pale_beige",
+			"title": "ОБСЛУЖИВАНИЕ",
+			"type": "img_left",
+			"video":
+			{
+				"link": null,
+				"video_preview": null,
+				"video_time": null
+			},
+			"video_bank": null
+		}],
+		"overviews":
+		{
+			"colors": [
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": null,
+				"sort": 6100
+			},
+			{
+				"code": "N2O",
+				"id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+				"image": "\/master-data\/colors\/90f41c1d-8630-4961-a700-fb9ffea64383.svg",
+				"name": "Neon Orange",
+				"name_en": "Neon Orange",
+				"price": null,
+				"sort": 4900
+			},
+			{
+				"code": "N2O",
+				"id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+				"image": "\/master-data\/colors\/90f41c1d-8630-4961-a700-fb9ffea64383.svg",
+				"name": "Neon Orange",
+				"name_en": "Neon Orange",
+				"price": null,
+				"sort": 4900
+			},
+			{
+				"code": "N2O",
+				"id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+				"image": "\/master-data\/colors\/90f41c1d-8630-4961-a700-fb9ffea64383.svg",
+				"name": "Neon Orange",
+				"name_en": "Neon Orange",
+				"price": null,
+				"sort": 4900
+			},
+			{
+				"code": "N2O",
+				"id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+				"image": "\/master-data\/colors\/90f41c1d-8630-4961-a700-fb9ffea64383.svg",
+				"name": "Neon Orange",
+				"name_en": "Neon Orange",
+				"price": null,
+				"sort": 4900
+			},
+			{
+				"code": "N2O",
+				"id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+				"image": "\/master-data\/colors\/90f41c1d-8630-4961-a700-fb9ffea64383.svg",
+				"name": "Neon Orange",
+				"name_en": "Neon Orange",
+				"price": null,
+				"sort": 4900
+			},
+			{
+				"code": "N2O",
+				"id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+				"image": "\/master-data\/colors\/90f41c1d-8630-4961-a700-fb9ffea64383.svg",
+				"name": "Neon Orange",
+				"name_en": "Neon Orange",
+				"price": null,
+				"sort": 4900
+			},
+			{
+				"code": "N2O",
+				"id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+				"image": "\/master-data\/colors\/90f41c1d-8630-4961-a700-fb9ffea64383.svg",
+				"name": "Neon Orange",
+				"name_en": "Neon Orange",
+				"price": null,
+				"sort": 4900
+			},
+			{
+				"code": "N2O",
+				"id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+				"image": "\/master-data\/colors\/90f41c1d-8630-4961-a700-fb9ffea64383.svg",
+				"name": "Neon Orange",
+				"name_en": "Neon Orange",
+				"price": null,
+				"sort": 4900
+			},
+			{
+				"code": "N2O",
+				"id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+				"image": "\/master-data\/colors\/90f41c1d-8630-4961-a700-fb9ffea64383.svg",
+				"name": "Neon Orange",
+				"name_en": "Neon Orange",
+				"price": null,
+				"sort": 4900
+			},
+			{
+				"code": "M6B",
+				"id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+				"image": "\/master-data\/colors\/f0d8a47c-64c9-4678-9a6f-8160e58f919f.svg",
+				"name": "Micro Blue",
+				"name_en": "Micro Blue",
+				"price": null,
+				"sort": 4300
+			},
+			{
+				"code": "M6B",
+				"id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+				"image": "\/master-data\/colors\/f0d8a47c-64c9-4678-9a6f-8160e58f919f.svg",
+				"name": "Micro Blue",
+				"name_en": "Micro Blue",
+				"price": null,
+				"sort": 4300
+			},
+			{
+				"code": "M6B",
+				"id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+				"image": "\/master-data\/colors\/f0d8a47c-64c9-4678-9a6f-8160e58f919f.svg",
+				"name": "Micro Blue",
+				"name_en": "Micro Blue",
+				"price": null,
+				"sort": 4300
+			},
+			{
+				"code": "M6B",
+				"id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+				"image": "\/master-data\/colors\/f0d8a47c-64c9-4678-9a6f-8160e58f919f.svg",
+				"name": "Micro Blue",
+				"name_en": "Micro Blue",
+				"price": null,
+				"sort": 4300
+			},
+			{
+				"code": "M6B",
+				"id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+				"image": "\/master-data\/colors\/f0d8a47c-64c9-4678-9a6f-8160e58f919f.svg",
+				"name": "Micro Blue",
+				"name_en": "Micro Blue",
+				"price": null,
+				"sort": 4300
+			},
+			{
+				"code": "M6B",
+				"id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+				"image": "\/master-data\/colors\/f0d8a47c-64c9-4678-9a6f-8160e58f919f.svg",
+				"name": "Micro Blue",
+				"name_en": "Micro Blue",
+				"price": null,
+				"sort": 4300
+			},
+			{
+				"code": "M6B",
+				"id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+				"image": "\/master-data\/colors\/f0d8a47c-64c9-4678-9a6f-8160e58f919f.svg",
+				"name": "Micro Blue",
+				"name_en": "Micro Blue",
+				"price": null,
+				"sort": 4300
+			},
+			{
+				"code": "M6B",
+				"id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+				"image": "\/master-data\/colors\/f0d8a47c-64c9-4678-9a6f-8160e58f919f.svg",
+				"name": "Micro Blue",
+				"name_en": "Micro Blue",
+				"price": null,
+				"sort": 4300
+			},
+			{
+				"code": "M6B",
+				"id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+				"image": "\/master-data\/colors\/f0d8a47c-64c9-4678-9a6f-8160e58f919f.svg",
+				"name": "Micro Blue",
+				"name_en": "Micro Blue",
+				"price": null,
+				"sort": 4300
+			},
+			{
+				"code": "H4R",
+				"id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+				"image": "\/master-data\/colors\/534aef5f-89fd-4bd6-8674-a838db23f0d1.svg",
+				"name": "Hi Chroma Red",
+				"name_en": "Hi Chroma Red",
+				"price": null,
+				"sort": 2800
+			},
+			{
+				"code": "H4R",
+				"id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+				"image": "\/master-data\/colors\/534aef5f-89fd-4bd6-8674-a838db23f0d1.svg",
+				"name": "Hi Chroma Red",
+				"name_en": "Hi Chroma Red",
+				"price": null,
+				"sort": 2800
+			},
+			{
+				"code": "H4R",
+				"id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+				"image": "\/master-data\/colors\/534aef5f-89fd-4bd6-8674-a838db23f0d1.svg",
+				"name": "Hi Chroma Red",
+				"name_en": "Hi Chroma Red",
+				"price": null,
+				"sort": 2800
+			},
+			{
+				"code": "H4R",
+				"id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+				"image": "\/master-data\/colors\/534aef5f-89fd-4bd6-8674-a838db23f0d1.svg",
+				"name": "Hi Chroma Red",
+				"name_en": "Hi Chroma Red",
+				"price": null,
+				"sort": 2800
+			},
+			{
+				"code": "H4R",
+				"id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+				"image": "\/master-data\/colors\/534aef5f-89fd-4bd6-8674-a838db23f0d1.svg",
+				"name": "Hi Chroma Red",
+				"name_en": "Hi Chroma Red",
+				"price": null,
+				"sort": 2800
+			},
+			{
+				"code": "H4R",
+				"id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+				"image": "\/master-data\/colors\/534aef5f-89fd-4bd6-8674-a838db23f0d1.svg",
+				"name": "Hi Chroma Red",
+				"name_en": "Hi Chroma Red",
+				"price": null,
+				"sort": 2800
+			},
+			{
+				"code": "H4R",
+				"id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+				"image": "\/master-data\/colors\/534aef5f-89fd-4bd6-8674-a838db23f0d1.svg",
+				"name": "Hi Chroma Red",
+				"name_en": "Hi Chroma Red",
+				"price": null,
+				"sort": 2800
+			},
+			{
+				"code": "H4R",
+				"id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+				"image": "\/master-data\/colors\/534aef5f-89fd-4bd6-8674-a838db23f0d1.svg",
+				"name": "Hi Chroma Red",
+				"name_en": "Hi Chroma Red",
+				"price": null,
+				"sort": 2800
+			},
+			{
+				"code": "H4R",
+				"id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+				"image": "\/master-data\/colors\/534aef5f-89fd-4bd6-8674-a838db23f0d1.svg",
+				"name": "Hi Chroma Red",
+				"name_en": "Hi Chroma Red",
+				"price": null,
+				"sort": 2800
+			},
+			{
+				"code": "D9B",
+				"id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+				"image": "\/master-data\/colors\/a47be544-9cd8-42c1-8ba7-de65284a00ba.svg",
+				"name": "Deep Chroma Blue",
+				"name_en": "Deep Chroma Blue",
+				"price": null,
+				"sort": 2600
+			},
+			{
+				"code": "D9B",
+				"id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+				"image": "\/master-data\/colors\/a47be544-9cd8-42c1-8ba7-de65284a00ba.svg",
+				"name": "Deep Chroma Blue",
+				"name_en": "Deep Chroma Blue",
+				"price": null,
+				"sort": 2600
+			},
+			{
+				"code": "D9B",
+				"id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+				"image": "\/master-data\/colors\/a47be544-9cd8-42c1-8ba7-de65284a00ba.svg",
+				"name": "Deep Chroma Blue",
+				"name_en": "Deep Chroma Blue",
+				"price": null,
+				"sort": 2600
+			},
+			{
+				"code": "D9B",
+				"id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+				"image": "\/master-data\/colors\/a47be544-9cd8-42c1-8ba7-de65284a00ba.svg",
+				"name": "Deep Chroma Blue",
+				"name_en": "Deep Chroma Blue",
+				"price": null,
+				"sort": 2600
+			},
+			{
+				"code": "D9B",
+				"id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+				"image": "\/master-data\/colors\/a47be544-9cd8-42c1-8ba7-de65284a00ba.svg",
+				"name": "Deep Chroma Blue",
+				"name_en": "Deep Chroma Blue",
+				"price": null,
+				"sort": 2600
+			},
+			{
+				"code": "D9B",
+				"id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+				"image": "\/master-data\/colors\/a47be544-9cd8-42c1-8ba7-de65284a00ba.svg",
+				"name": "Deep Chroma Blue",
+				"name_en": "Deep Chroma Blue",
+				"price": null,
+				"sort": 2600
+			},
+			{
+				"code": "D9B",
+				"id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+				"image": "\/master-data\/colors\/a47be544-9cd8-42c1-8ba7-de65284a00ba.svg",
+				"name": "Deep Chroma Blue",
+				"name_en": "Deep Chroma Blue",
+				"price": null,
+				"sort": 2600
+			},
+			{
+				"code": "D9B",
+				"id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+				"image": "\/master-data\/colors\/a47be544-9cd8-42c1-8ba7-de65284a00ba.svg",
+				"name": "Deep Chroma Blue",
+				"name_en": "Deep Chroma Blue",
+				"price": null,
+				"sort": 2600
+			},
+			{
+				"code": "D9B",
+				"id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+				"image": "\/master-data\/colors\/a47be544-9cd8-42c1-8ba7-de65284a00ba.svg",
+				"name": "Deep Chroma Blue",
+				"name_en": "Deep Chroma Blue",
+				"price": null,
+				"sort": 2600
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "P2M",
+				"id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+				"image": "\/master-data\/colors\/8ab3fa7c-a430-447f-a0fb-db1a37c82a1b.svg",
+				"name": "Pantera Metal",
+				"name_en": "Pantera Metal",
+				"price": null,
+				"sort": 1800
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
+			}],
+			"complectations": [
+			{
+				"id": "072f75fd-9a08-4247-8d9c-20217bbc2bc3",
+				"name": "Luxe",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/D9B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/H4R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/M6B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/N2O\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/SWP\/"
+				}]
+			},
+			{
+				"id": "424eefa6-117b-48aa-a11c-784f5583adf4",
+				"name": "Luxe",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/D9B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/H4R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/M6B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/N2O\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/SWP\/"
+				}]
+			},
+			{
+				"id": "ab48a61f-8807-4526-b933-3d5854b99b15",
+				"name": "Prestige",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/D9B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/H4R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/M6B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/N2O\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/SWP\/"
+				}]
+			},
+			{
+				"id": "99659ba0-cdca-4c4a-9744-dce5872cfc71",
+				"name": "Style",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/D9B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/H4R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/M6B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/N2O\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/SWP\/"
+				}]
+			},
+			{
+				"id": "53e459ba-9c8e-4632-8421-b9828a19cdef",
+				"name": "GT Line",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/D9B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/H4R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/M6B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/N2O\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/SWP\/"
+				}]
+			},
+			{
+				"id": "1a82a068-4d6d-442a-9ea2-703c4025d75b",
+				"name": "GT Line Red",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/D9B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/H4R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/M6B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/N2O\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/SWP\/"
+				}]
+			},
+			{
+				"id": "09c27645-bfcb-459e-9894-203f8945d9bc",
+				"name": "GT Line Suede",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/D9B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/H4R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/M6B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/N2O\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/SWP\/"
+				}]
+			},
+			{
+				"id": "9910d955-bac8-40e0-a7e0-61b344319724",
+				"name": "GT",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/D9B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/H4R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/M6B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/N2O\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/SWP\/"
+				}]
+			},
+			{
+				"id": "3e544c14-1ed1-475b-b207-6d622eb02cba",
+				"name": "GT Suede",
+				"overviews": [
+				{
+					"amount": "72",
+					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/ABP\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7a7e0d75-2665-4eb2-8ed7-546f7913df2b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/D9B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "1cc0597d-67bd-40aa-8031-3aebb4d8ac8b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/H4R\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "9d3f2fb5-74f4-4705-b277-0763585620f9",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/M6B\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "d835be1c-c18e-4e64-8157-37f4370fada3",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/N2O\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "515adc4d-337a-4d98-bd25-2150afaeb05b",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/P2M\/"
+				},
+				{
+					"amount": "72",
+					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+					"color_price": null,
+					"is_color_metallic": 1,
+					"path": "\/master-data\/overviews\/\/J5S6\/20212021\/D610\/SWP\/"
+				}]
+			}]
+		},
+		"panoramas":
+		{
+			"colors": [
+			{
+				"code": "WK",
+				"id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Натуральная кожа",
+				"name_en": "Black, Genuine leather",
+				"price": null,
+				"sort": 12600
+			},
+			{
+				"code": "WK",
+				"id": "040e054d-7869-476a-8aaa-b98e1faa1baf",
+				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Искусственная кожа",
+				"name_en": "Black, Faux leather",
+				"price": null,
+				"sort": 12600
+			},
+			{
+				"code": "WK",
+				"id": "af689637-5362-441d-a2af-9dbd90fd2aca",
+				"image": "\/master-data\/colors\/5b67188e-682d-4cb2-b8a3-47e29e7f4d09.svg",
+				"name": "Красный, Натуральная кожа",
+				"name_en": "Red, Genuine leather",
+				"price": null,
+				"sort": 12300
+			},
+			{
+				"code": "WK",
+				"id": "e7088ef9-0f42-4f0e-acb8-859f8d5243c8",
+				"image": "\/master-data\/colors\/400c6103-d3e5-4ca2-ac27-6df03a036eb2.svg",
+				"name": "Черный с красной прострочкой, Алькантара",
+				"name_en": "Black with red stitching, Аlcantara",
+				"price": null,
+				"sort": 11700
+			},
+			{
+				"code": "RBQ",
+				"id": "a318116b-f5a9-40cd-81f8-b43453e0d74d",
+				"image": "\/master-data\/colors\/342a4b6b-4653-41c2-8996-d0449455f89c.svg",
+				"name": "Черный, Премиальная кожа Nappa",
+				"name_en": "Black, Nappa Premium leather",
+				"price": null,
+				"sort": 11400
+			}],
+			"complectations": [
+			{
+				"id": "3e544c14-1ed1-475b-b207-6d622eb02cba",
+				"name": "GT Suede",
+				"panoramas": [
+				{
+					"color_id": "e7088ef9-0f42-4f0e-acb8-859f8d5243c8",
+					"path": "\/master-data\/panorama\/J5\/2020\/H352\/1K\/"
+				}]
+			},
+			{
+				"id": "9910d955-bac8-40e0-a7e0-61b344319724",
+				"name": "GT",
+				"panoramas": [
+				{
+					"color_id": "a318116b-f5a9-40cd-81f8-b43453e0d74d",
+					"path": "\/master-data\/panorama\/J5\/2020\/H352\/1K\/"
+				}]
+			},
+			{
+				"id": "09c27645-bfcb-459e-9894-203f8945d9bc",
+				"name": "GT Line Suede",
+				"panoramas": [
+				{
+					"color_id": "e7088ef9-0f42-4f0e-acb8-859f8d5243c8",
+					"path": "\/master-data\/panorama\/J5\/2020\/H352\/1K\/"
+				}]
+			},
+			{
+				"id": "53e459ba-9c8e-4632-8421-b9828a19cdef",
+				"name": "GT Line",
+				"panoramas": [
+				{
+					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
+					"path": "\/master-data\/panorama\/J5\/2020\/H352\/1K\/"
+				}]
+			},
+			{
+				"id": "1a82a068-4d6d-442a-9ea2-703c4025d75b",
+				"name": "GT Line Red",
+				"panoramas": [
+				{
+					"color_id": "af689637-5362-441d-a2af-9dbd90fd2aca",
+					"path": "\/master-data\/panorama\/J5\/2020\/H352\/1K\/"
+				}]
+			},
+			{
+				"id": "99659ba0-cdca-4c4a-9744-dce5872cfc71",
+				"name": "Style",
+				"panoramas": [
+				{
+					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
+					"path": "\/master-data\/panorama\/J5\/2020\/H352\/1K\/"
+				}]
+			},
+			{
+				"id": "ab48a61f-8807-4526-b933-3d5854b99b15",
+				"name": "Prestige",
+				"panoramas": [
+				{
+					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
+					"path": "\/master-data\/panorama\/J5\/2020\/H352\/1K\/"
+				}]
+			},
+			{
+				"id": "424eefa6-117b-48aa-a11c-784f5583adf4",
+				"name": "Luxe",
+				"panoramas": [
+				{
+					"color_id": "040e054d-7869-476a-8aaa-b98e1faa1baf",
+					"path": "\/master-data\/panorama\/J5\/2020\/H352\/1K\/"
+				}]
+			},
+			{
+				"id": "072f75fd-9a08-4247-8d9c-20217bbc2bc3",
+				"name": "Luxe",
+				"panoramas": [
+				{
+					"color_id": "040e054d-7869-476a-8aaa-b98e1faa1baf",
+					"path": "\/master-data\/panorama\/J5\/2020\/H352\/1K\/"
+				}]
+			}]
+		},
+		"complectations":
+		{
+			"complectations": [
+			{
+				"gallery": null,
+				"id": "072f75fd-9a08-4247-8d9c-20217bbc2bc3",
+				"label": null,
+				"min_price": 2409900,
+				"modifications": [
+				{
+					"acceleration_to_100": 8,
+					"consumption_per_100": 8.8,
+					"engine_id": "5430387b-3fb9-451e-b5f8-1c61db9778ae",
+					"transmission_id": "c59de46b-a233-41d2-866b-8bfd7b11e248"
+				},
+				{
+					"acceleration_to_100": 6.7,
+					"consumption_per_100": 9.2,
+					"engine_id": "5430387b-3fb9-451e-b5f8-1c61db9778ae",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "Luxe",
+				"name_en": "Luxe",
+				"options": ["12ef1125-0fb2-408b-8162-0585b8c1ad60", "3ec32b42-1bbc-4097-81dc-53ef1bd675b1", "7df682df-4133-4b8b-9625-42dd14d179f1", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34", "af1f5e5c-f25a-4643-872b-abb944a87cdd", "4bb6ec27-c1d4-4e35-b107-9807f4ddc48d"],
+				"price": 2409900
+			},
+			{
+				"gallery": null,
+				"id": "ab48a61f-8807-4526-b933-3d5854b99b15",
+				"label": null,
+				"min_price": 2744900,
+				"modifications": [
+				{
+					"acceleration_to_100": 6.7,
+					"consumption_per_100": 9.2,
+					"engine_id": "5251d93d-7dc4-481a-a72f-b3f3f7cfa0fe",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "Prestige",
+				"name_en": "Prestige",
+				"options": ["1cf47ecd-a328-47a9-9e25-2b95d6b24703", "e79f5215-6531-4196-affa-c0da17d8021e", "fe2a9f88-67f1-4dca-92fe-462474cab7c0", "dc6c137b-475c-4ef6-a44b-5ea8c73fccfd", "3ec32b42-1bbc-4097-81dc-53ef1bd675b1", "5aa10560-688c-4316-a4b0-121965bc33f7", "54c7f401-ade8-4169-9e52-8baad712e6a6"],
+				"price": 2744900
+			},
+			{
+				"gallery": null,
+				"id": "99659ba0-cdca-4c4a-9744-dce5872cfc71",
+				"label": null,
+				"min_price": 2959900,
+				"modifications": [
+				{
+					"acceleration_to_100": 6.7,
+					"consumption_per_100": 9.2,
+					"engine_id": "5251d93d-7dc4-481a-a72f-b3f3f7cfa0fe",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "Style",
+				"name_en": "Style",
+				"options": ["59a9ae30-834a-4f74-8f58-d7a2668c9b56", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "95df11ef-c34a-4a5c-8897-6c1031c6800e", "3ec32b42-1bbc-4097-81dc-53ef1bd675b1", "239a18af-6571-4649-885d-520035b6c84f", "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0"],
+				"price": 2959900
+			},
+			{
+				"gallery": null,
+				"id": "53e459ba-9c8e-4632-8421-b9828a19cdef",
+				"label": null,
+				"min_price": 3139900,
+				"modifications": [
+				{
+					"acceleration_to_100": 6.7,
+					"consumption_per_100": 9.2,
+					"engine_id": "5251d93d-7dc4-481a-a72f-b3f3f7cfa0fe",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "GT Line",
+				"name_en": "GT Line",
+				"options": ["cdb506d8-ee90-4e1a-8e2f-d6d568547b12", "9dfcef96-dfd4-458a-8333-bb135009656a", "f402e1dd-a15c-4731-898f-c0b5f91d3b0d", "804a1f0f-e22d-4fe6-9b3b-416396945da8", "3fe66ebe-4ebf-4315-8956-1215a9dabe0a", "5befd412-b7a4-430e-baa4-ef1451cb5e13"],
+				"price": 3139900
+			},
+			{
+				"gallery": null,
+				"id": "1a82a068-4d6d-442a-9ea2-703c4025d75b",
+				"label": null,
+				"min_price": 3139900,
+				"modifications": [
+				{
+					"acceleration_to_100": 6.7,
+					"consumption_per_100": 9.2,
+					"engine_id": "5251d93d-7dc4-481a-a72f-b3f3f7cfa0fe",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "GT Line Red",
+				"name_en": "GT Line Red",
+				"options": ["a71bfc9a-168a-4177-a96a-8f7799e922ac", "cdb506d8-ee90-4e1a-8e2f-d6d568547b12", "ccf45f59-9f27-43be-bde3-74d2d017d195", "9dfcef96-dfd4-458a-8333-bb135009656a", "fa415be6-9188-4c90-9f6c-0b60b0cf1e14", "76f74c06-efe1-4c10-99c4-f0eaaee2e8a8"],
+				"price": 3139900
+			},
+			{
+				"gallery": null,
+				"id": "09c27645-bfcb-459e-9894-203f8945d9bc",
+				"label": null,
+				"min_price": 3199900,
+				"modifications": [
+				{
+					"acceleration_to_100": 6.7,
+					"consumption_per_100": 9.2,
+					"engine_id": "5251d93d-7dc4-481a-a72f-b3f3f7cfa0fe",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "GT Line Suede",
+				"name_en": "GT Line Suede",
+				"options": ["92e6c410-eb12-4aa2-87d9-daf73fa8375c", "83e799f0-8a9e-4076-8809-82981c95a84b", "ea6aa88e-693e-429f-bdf5-f1419860754e", "5e42ff20-ce11-4d83-8741-d72d6bedfac5", "cdb506d8-ee90-4e1a-8e2f-d6d568547b12", "9dfcef96-dfd4-458a-8333-bb135009656a", "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0", "f7b313ff-3137-4251-ad5d-fc0807cd67ec"],
+				"price": 3199900
+			},
+			{
+				"gallery": null,
+				"id": "9910d955-bac8-40e0-a7e0-61b344319724",
+				"label": null,
+				"min_price": 3799900,
+				"modifications": [
+				{
+					"acceleration_to_100": 5.3,
+					"consumption_per_100": 11,
+					"engine_id": "ab2354b5-198f-42a6-98ec-25aa03421096",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "GT",
+				"name_en": "GT",
+				"options": ["3bf00edb-d35b-42ae-931f-d92ca3f3f8ea", "7238c2e8-cb5f-4534-810f-0e6279563013", "cdb506d8-ee90-4e1a-8e2f-d6d568547b12", "74096779-44bc-4c75-a9b4-4e304d40a407", "1ca665fc-303c-40c1-8cbb-4eb5b33b5343", "4a80baad-e19d-45af-b351-472b7f619763", "93cf54e9-2978-4fd1-9ff2-bf96dbc4be7d"],
+				"price": 3799900
+			},
+			{
+				"gallery": null,
+				"id": "3e544c14-1ed1-475b-b207-6d622eb02cba",
+				"label": null,
+				"min_price": 3799900,
+				"modifications": [
+				{
+					"acceleration_to_100": 5.3,
+					"consumption_per_100": 11,
+					"engine_id": "ab2354b5-198f-42a6-98ec-25aa03421096",
+					"transmission_id": "d4090dc4-2d64-4169-a67b-f282671378c2"
+				}],
+				"name": "GT Suede",
+				"name_en": "GT Suede",
+				"options": ["630000e9-027c-4e0d-baa5-4b92400c306c", "5e42ff20-ce11-4d83-8741-d72d6bedfac5", "cdb506d8-ee90-4e1a-8e2f-d6d568547b12", "f30067c0-722c-4b5f-92a8-246d26d083ca", "cded72ff-1a5f-4b68-bc39-bef9ec43d64c", "71cbfc91-a55b-4cb6-8d17-fbbdbe368543", "2c5a8957-ff1b-47ee-86e3-f759397cd604"],
+				"price": 3799900
+			}],
+			"engines": [
+			{
+				"engine_type_name": "T-GDI",
+				"fuel_type_name": "Бензин",
+				"fuel_type_name_en": "Petrol",
+				"id": "5430387b-3fb9-451e-b5f8-1c61db9778ae",
+				"name": "2.0 T-GDI",
+				"name_en": null,
+				"power_hp": "197",
+				"volume": "2.0"
+			},
+			{
+				"engine_type_name": "T-GDI",
+				"fuel_type_name": "Бензин",
+				"fuel_type_name_en": "Petrol",
+				"id": "5251d93d-7dc4-481a-a72f-b3f3f7cfa0fe",
+				"name": "2.0 T-GDI",
+				"name_en": null,
+				"power_hp": "247",
+				"volume": "2.0"
+			},
+			{
+				"engine_type_name": "T-GDI",
+				"fuel_type_name": "Бензин",
+				"fuel_type_name_en": "Petrol",
+				"id": "ab2354b5-198f-42a6-98ec-25aa03421096",
+				"name": "3.3 V6 T-GDI",
+				"name_en": null,
+				"power_hp": "370",
+				"volume": "3.3"
+			}],
+			"options": [
+			{
+				"id": "1cf47ecd-a328-47a9-9e25-2b95d6b24703",
+				"name": "Электронное управление трансмиссией (Shift by Wire)"
+			},
+			{
+				"id": "59a9ae30-834a-4f74-8f58-d7a2668c9b56",
+				"name": "Электрорегулируемое сиденье переднего пассажира в 8-ми направлениях"
+			},
+			{
+				"id": "92e6c410-eb12-4aa2-87d9-daf73fa8375c",
+				"name": "Электрорегулируемое сиденье водителя в 12-ти направлениях с функцией памяти"
+			},
+			{
+				"id": "83e799f0-8a9e-4076-8809-82981c95a84b",
+				"name": "Электрорегулируемая рулевая колонка с функцией памяти"
+			},
+			{
+				"id": "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d",
+				"name": "Вентиляция передних сидений"
+			},
+			{
+				"id": "ea6aa88e-693e-429f-bdf5-f1419860754e",
+				"name": "Монитор контроля слепых зон (BVM)"
+			},
+			{
+				"id": "e79f5215-6531-4196-affa-c0da17d8021e",
+				"name": "Сиденья с комбинированной кожаной отделкой*"
+			},
+			{
+				"id": "fe2a9f88-67f1-4dca-92fe-462474cab7c0",
+				"name": "Аудиосистема с радио, USB и AUX входы + 9 динамиков"
+			},
+			{
+				"id": "12ef1125-0fb2-408b-8162-0585b8c1ad60",
+				"name": "Дистанционный запуск двигателя с ключа"
+			},
+			{
+				"id": "95df11ef-c34a-4a5c-8897-6c1031c6800e",
+				"name": "Аудиосистема премиум класса Harman\/Kardon, AUX\/USB входы + 15 динамиков"
+			},
+			{
+				"id": "3bf00edb-d35b-42ae-931f-d92ca3f3f8ea",
+				"name": "Сиденья с комбинированной отделкой премиальной кожей Nappa с дизайном \"звенья цепи\"*"
+			},
+			{
+				"id": "dc6c137b-475c-4ef6-a44b-5ea8c73fccfd",
+				"name": "Система активного звукового сопровождения (ASD)"
+			},
+			{
+				"id": "630000e9-027c-4e0d-baa5-4b92400c306c",
+				"name": "Интеллектуальный круиз-контроль (SCC) c функцией Stop & Go"
+			},
+			{
+				"id": "5e42ff20-ce11-4d83-8741-d72d6bedfac5",
+				"name": "Сиденья и двери с комбинированной кожаной отделкой и алькантарой с красной прострочкой*"
+			},
+			{
+				"id": "3ec32b42-1bbc-4097-81dc-53ef1bd675b1",
+				"name": "Легкосплавные диски 18\" с шинами: 225\/45R18"
+			},
+			{
+				"id": "a71bfc9a-168a-4177-a96a-8f7799e922ac",
+				"name": "Сиденья и двери с комбинированной кожаной отделкой темно-красного цвета*"
+			},
+			{
+				"id": "7238c2e8-cb5f-4534-810f-0e6279563013",
+				"name": "Система предотвращения фронтального столкновения (FCA) с распознаванием пешеходов и велосипедистов"
+			},
+			{
+				"id": "7df682df-4133-4b8b-9625-42dd14d179f1",
+				"name": "Мультимедийная система с 8'' цветным дисплеем с беспроводной поддержкой Android Auto и Apple Carplay "
+			},
+			{
+				"id": "cdb506d8-ee90-4e1a-8e2f-d6d568547b12",
+				"name": "Легкосплавные диски 19\" (дизайн GT) с шинами: передние 225\/40R19, задние 255\/35R19"
+			},
+			{
+				"id": "239a18af-6571-4649-885d-520035b6c84f",
+				"name": "Навигационная система с 10,25'' с цветным дисплеем с поддержкой Android Auto и Apple Carplay "
+			},
+			{
+				"id": "ccf45f59-9f27-43be-bde3-74d2d017d195",
+				"name": "Дизайнерская прострочка дверей"
+			},
+			{
+				"id": "f30067c0-722c-4b5f-92a8-246d26d083ca",
+				"name": "Система предотвращения фронтального столкновения с функцией предупреждения столкновения при повороте на перекрестке (FCA-JT)"
+			},
+			{
+				"id": "74096779-44bc-4c75-a9b4-4e304d40a407",
+				"name": "Ассистент движения в полосе (LFA)"
+			},
+			{
+				"id": "e1265686-4ca6-4132-b7e9-62f6b3d2bf34",
+				"name": "Боковые подушки и шторки безопасности"
+			},
+			{
+				"id": "af1f5e5c-f25a-4643-872b-abb944a87cdd",
+				"name": "Приборная панель Supervision с дисплеем 4.2''"
+			},
+			{
+				"id": "9dfcef96-dfd4-458a-8333-bb135009656a",
+				"name": "Приборная панель Supervision c дисплеем 7''"
+			},
+			{
+				"id": "4bb6ec27-c1d4-4e35-b107-9807f4ddc48d",
+				"name": "Трехзонный климат-контроль"
+			},
+			{
+				"id": "f402e1dd-a15c-4731-898f-c0b5f91d3b0d",
+				"name": "Центральная консоль с отделкой алюминием"
+			},
+			{
+				"id": "5aa10560-688c-4316-a4b0-121965bc33f7",
+				"name": "Проекционные светодиодные фары ближнего и дальнего света (LED)"
+			},
+			{
+				"id": "804a1f0f-e22d-4fe6-9b3b-416396945da8",
+				"name": "Проекционный дисплей на лобовое стекло"
+			},
+			{
+				"id": "cded72ff-1a5f-4b68-bc39-bef9ec43d64c",
+				"name": "Дифференциал повышенного трения (4WD)"
+			},
+			{
+				"id": "1ca665fc-303c-40c1-8cbb-4eb5b33b5343",
+				"name": "Адаптивные светодиодные фары ближнего и дальнего света (LED)"
+			},
+			{
+				"id": "71cbfc91-a55b-4cb6-8d17-fbbdbe368543",
+				"name": "Система предотвращения столкновения с автомобилем в слепой зоне (BCA)"
+			},
+			{
+				"id": "5a13ec7f-8329-45a1-a1b2-7d94193aa3c0",
+				"name": "Система предупреждения при выезде с парковки задним ходом (RCCW)"
+			},
+			{
+				"id": "4a80baad-e19d-45af-b351-472b7f619763",
+				"name": "Электронно-управляемая подвеска (ECS)"
+			},
+			{
+				"id": "93cf54e9-2978-4fd1-9ff2-bf96dbc4be7d",
+				"name": "Тормоза Brembo"
+			},
+			{
+				"id": "fa415be6-9188-4c90-9f6c-0b60b0cf1e14",
+				"name": "Решетка радиатора и передний бампер с отделкой темным хромом"
+			},
+			{
+				"id": "54c7f401-ade8-4169-9e52-8baad712e6a6",
+				"name": "Беспроводная зарядка мобильного телефона в центральной консоли"
+			},
+			{
+				"id": "76f74c06-efe1-4c10-99c4-f0eaaee2e8a8",
+				"name": "Декоративные вставки на переднем и заднем бамперах"
+			},
+			{
+				"id": "3fe66ebe-4ebf-4315-8956-1215a9dabe0a",
+				"name": "Панорамная крыша и люк с электроприводом"
+			},
+			{
+				"id": "5befd412-b7a4-430e-baa4-ef1451cb5e13",
+				"name": "Цветовая подсветка интерьера Mood Lamp с возможностью персонализации настроек"
+			},
+			{
+				"id": "f7b313ff-3137-4251-ad5d-fc0807cd67ec",
+				"name": "Трехспицевый руль с перфорированной кожей и металлическими вставками*"
+			},
+			{
+				"id": "2c5a8957-ff1b-47ee-86e3-f759397cd604",
+				"name": "Ассистент управления дальним светом (HBA)"
+			}],
+			"transmissions": [
+			{
+				"drive_name": "Полный",
+				"drive_name_en": "All-wheel drive",
+				"gearbox_code": "AT",
+				"gearbox_name": "Автомат",
+				"gearbox_name_en": "Automatic",
+				"gears_number": 8,
+				"id": "d4090dc4-2d64-4169-a67b-f282671378c2",
+				"name": "4WD 8AT"
+			},
+			{
+				"drive_name": "Задний",
+				"drive_name_en": "Rear-wheel drive",
+				"gearbox_code": "AT",
+				"gearbox_name": "Автомат",
+				"gearbox_name_en": "Automatic",
+				"gears_number": 8,
+				"id": "c59de46b-a233-41d2-866b-8bfd7b11e248",
+				"name": "RWD 8AT"
+			}]
+		},
+		"model_videos":
+		{
+			"reviews": [],
+			"opinions": []
+		},
+		"disclaimers":
+		{
+			"footer":
+			{
+				"name": "Footer New Stinger Desc",
+				"text": "Сведения о ценах на продукцию бренда Kia, содержащиеся на сайте, носят исключительно информационный характер. Указанные цены могут отличаться от действительных цен дилеров Kia. Для получения подробной информации об актуальных ценах на продукцию Kia обращайтесь к дилерам Kia. Приобретение любой продукции бренда Kia осуществляется в соответствии с условиями индивидуального договора купли-продажи. Представленные изображения автомобиля могут отличаться от реализуемого. Актуальную цену с учетом действующих спецпредложений уточняйте на сайте kia.ru в разделе \"Спецпредложения\" и у дилеров Kia.\n<br\/><br\/>\nНа данном сайте используются зарегистрированные товарные знаки, перечисленные в разделе Правовая информация https:\/\/www.kia.ru\/info\/trademarks\/\n<br\/><br\/>\nДанные по времени разгона получены в эталонных условиях с применением специального измерительного оборудования, при использовании эталонного топлива. Реальное время разгона может отличаться в силу воздействия различных объективных и субъективных факторов: влажности, давления и температуры окружающего воздуха, фракционного состава используемого топлива, рельефа местности, характеристик дорожного покрытия, направления и скорости ветра, атмосферных осадков, давления в шинах а также их размерности, марки и модели, массы перевозимого груза (включая водителя и пассажиров) и навыков вождения. Из-за различий в комплектациях автомобилей и требованиях на разных рынках, характеристики моделей могут отличаться от указанных выше. Компания Kia оставляет за собой право на внесение изменений в конструкцию и комплектацию автомобилей без предварительного уведомления.\n<br\/><br\/>\nStinger - Стингер, Comfort - Комфорт, Luxe - Люкс, Prestige - Престиж, Style - Стайл, GT Line - Джити Лайн, GT - Джити.\n<br\/><br\/>\nSupervision - Супервижн\nApple Carplay - Эппл Карплей\nAndroid Auto - Андройд Авто\n<br\/><br\/>\nDRIVE WISE - Драйв Вайс (Современные системы помощи водителю)\nHUD (Head-up display) - Проекционный дисплей на лобовое стекло\nIMS (Intelligent memory system) - Память настроек сидений\nDMS (Drive Mode Select) - Система выбора режима движения\nBCA (Blind-spot Collision Avoidance Assist) - Система предотвращения столкновения с автомобилем в слепой зоне\nESC (Electronic Stability Control) - Система курсовой устойчивости\nEPB (Electromechanical Parking Brake) - Электрический стояночный тормоз\nLED (Light-emitting diode) - Светодиод\nLFA (Lane Following Assist) Система 2ого поколения удержания в полосе\nBVM (Blind-spot View Monitor) - Камеры для контроля слепых зон с отображением на панель приборов\nFCA (Forward Collision-Avoidance Assist) Автоматическая система экстренного торможения\nAHSS(Advanced-high-strength steel) - прогрессивная высокопрочная сталь\n<br\/><br\/>\nТехнические характеристики уточняйте у дилеров Kia.\n<br\/><br\/>\n000 «Киа Моторс Россия и СНГ» ведет деятельность на территории Российской Федерации в соответствии с законодательством Российской Федерации. Реализуемые товары доступны к получению на территории Российской Федерации. Мониторинг потребительского поведения субъектов, находящихся за пределами Российской Федерации, не ведется. Информация о соответствующих моделях и комплектациях, возможности приобретения моделей автомобилей в указанных комплектациях, ценах, возможных выгодах и условиях приобретения доступна у Дилеров. Товар сертифицирован. Не является публичной офертой."
+			},
+			"min_price":
+			{
+				"name": "Min Price New Stinger",
+				"text": "Цена 2 409 900 руб. указана на новый автомобиль Kia Stinger 2021 г. выпуска в комплектации 2.0 AT Luxe.\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует c 01.04.2021 по 30.04.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам Kia."
+			},
+			"credit":
+			{
+				"name": "Credit New Stinger",
+				"text": "Ежемесячный платеж – 11 750 р. на Киа Стингер. Кредит предоставляется ПАО «Совкомбанк» (далее «Банк») Генеральная лицензия ЦБ РФ № 963 от 05.12.2014 г., рассчитан по условиям программы Киа Легко! (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko\/) по кредитному тарифу Kia Finance Indirect исходя из параметров: цена Киа Стингер 2.0 АТ Люкс 2021 года производства, стоимостью 2 409 900 руб., срок кредита 36 мес., первоначального взноса 1 325 445 р., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует c 01.04.2021 по 30.04.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам Kia."
+			}
+		},
+		"buystrips": [
+		{
+			"link": "\/models\/stinger\/calc\/",
+			"is_file": false,
+			"icon": "\/site-data\/menu\/strip_icons\/credit.svg",
+			"link_title": "Рассчитать кредит"
+		},
+		{
+			"link": "\/models\/stinger\/configurator\/",
+			"is_file": false,
+			"icon": "\/site-data\/aa3b2e77-0067-4145-8f30-ea4331ee647f.svg",
+			"link_title": "Конфигуратор"
+		},
+		{
+			"link": "\/models\/stinger\/options\/",
+			"is_file": false,
+			"icon": "\/site-data\/00b3ce8b-d1d4-4d98-bc32-83e9aaaebf27.svg",
+			"link_title": "Комплектации и цены"
+		},
+		{
+			"link": "\/master-data\/brochures\/Kia_Stinger.pdf",
+			"is_file": true,
+			"icon": "\/site-data\/menu\/strip_icons\/files.svg",
+			"link_title": "Скачать брошюру"
+		}],
+		"model_menu": [
+		{
+			"title": "Обзор",
+			"link": "\/models\/stinger\/desc\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 400
+		},
+		{
+			"title": "Комплектации и цены",
+			"link": "\/models\/stinger\/options\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 450
+		},
+		{
+			"title": "Характеристики",
+			"link": "\/models\/stinger\/properties\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 500
+		},
+		{
+			"title": "Рассчитать кредит",
+			"link": "\/models\/stinger\/calc\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 1,
+			"show_in_calculator": 0,
+			"sort": 900
+		},
+		{
+			"title": "Рассчитать трейд-ин",
+			"link": "\/buy\/trade-in\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1000
+		},
+		{
+			"title": "Авто в наличии",
+			"link": "\/models\/stinger\/cars\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 1,
+			"show_in_calculator": 1,
+			"sort": 1500
+		},
+		{
+			"title": "Спецпредложения",
+			"link": "\/models\/stinger\/special\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1550
+		},
+		{
+			"title": "Конфигуратор",
+			"link": "\/models\/stinger\/configurator\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1600
+		},
+		{
+			"title": "Тест-драйв",
+			"link": "\/models\/stinger\/testdrive\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1650
+		},
+		{
+			"title": "Заявка дилеру",
+			"link": "\/models\/stinger\/callback\/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1650
+		},
+		{
+			"title": "Брошюра",
+			"link": "https:\/\/cdn.kia.ru\/master-data\/brochures\/Kia_Stinger.pdf",
+			"code": null,
+			"in_new_window": 1,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1700
+		}],
+		"seo":
+		{
+			"title": "Новый Kia Stinger 2021- Заводи мечту!",
+			"description": "Новый Kia Stinger создан как воплощение страсти к вождению, которая живет в сердце любого ценителя автомобилей. Откройте для себя новую эру мощности и стиля, управляемости и динамики, а также незабываемых ощущений в лице нового Kia Stinger!"
+		}
+	}
+}
