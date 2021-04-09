@@ -3,25 +3,26 @@
     <div class="bnr-carousel">
       <div class="bnr-carousel-items owl-carousel owl-btn-2">
 
-        <figure v-for="(model, key) in page.banners" :key="key">
+        <figure v-for="(bnr, key) in page.banners" :key="key">
           <div class="container-p">
             <div class="desc-content">
               <div class="box-xs-10 box-md-9 m-auto">
                 <div class="wrapper">
-                  <h5>{{model.title}}</h5>
-                  <h1>{{model.name}}</h1>
+                  <h5>{{bnr.title}}</h5>
+                  <h1>{{bnr.name}}</h1>
+                  <div v-if="bnr.logo.signature" class="text-s1 pt-4 fw-5">{{bnr.logo.signature}}</div>
                 </div>
                 <div class="carimgs">
                   <picture>
-                    <source :srcset="model.images.mobile" media="(max-width: 500px)" sizes="272px">
-                    <img :src="model.images.desktop" sizes="272px">
+                    <source :srcset="'https://cdn.kia.ru/'+bnr.images.mobile" media="(max-width: 500px)" sizes="272px">
+                    <img :src="'https://cdn.kia.ru/'+bnr.images.desktop" sizes="272px">
                   </picture>
                 </div>
                 <div class="info-content">
-                  <p>{{model.description}}</p>
+                  <p>{{bnr.description}}</p>
                   <div class="btn-content">
                     <span class="btn-def">
-                      <nuxt-link :to="model.link.url">{{model.link.title}}</nuxt-link>
+                      <nuxt-link :to="bnr.link.url">{{bnr.link.title}}</nuxt-link>
                     </span>
                   </div>
                 </div>
@@ -30,7 +31,12 @@
           </div>
           <div class="img-content">
             <div class="bg-shadow"></div>
-            <video :src="model.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+            <video v-if="bnr.video" :src="'https://cdn.kia.ru/'+bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+            <picture v-else>
+              <source :data-srcset="'https://cdn.kia.ru/resize/375x211'+bnr.bg_images.mobile">
+              <source :data-srcset="'https://cdn.kia.ru/resize/1440x810'+bnr.bg_images.retina">
+              <img sizes="auto" :src="'https://cdn.kia.ru/resize/1920x1080'+bnr.bg_images.desktop">
+            </picture>
           </div>
         </figure>
         

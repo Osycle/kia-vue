@@ -1,135 +1,209 @@
 {
   "error": 0,
-  "content": {
+  "content":
+  {
     "banners": [
+    {
+      "bg_color": null,
+      "bg_images":
       {
-        "bg_color": "red",
-        "bg_images": {
-            "desktop": "",
-            "mobile": "",
-            "retina": ""
+        "desktop": "\/media-data\/banner\/desktop_bg\/781a9d82-ca14-4909-9c46-2336e099f422.jpeg",
+        "mobile": "\/media-data\/banner\/mobile_bg\/d3e1d1ae-52b4-497c-aa99-ba740f27bdff.jpeg",
+        "retina": "\/media-data\/banner\/retina_bg\/295a0491-fe20-47dd-ae61-d71f0aa7a4b5.jpeg"
+      },
+      "description": "Системы безопасности Drive Wise • Полный привод: сочетание комфорта и безопасности • Двигатель 3.3 V6 T-GDI мощностью 370 л.с.",
+      "group_code": "main_page_header",
+      "images":
+      {
+        "desktop": "\/media-data\/f3d8fd1c-fc09-41a8-b1fa-86b3fdaa9b9d.png",
+        "mobile": "\/media-data\/banner\/mobile\/4c9f4d7e-c52a-4162-85f2-16507879f5ee.png",
+        "retina": "\/media-data\/banner\/retina\/1e5735a7-eb52-4cb5-ad63-75ad855221d5.png"
+      },
+      "link":
+      {
+        "title": "Подробнее",
+        "url": "\/models\/stinger\/desc\/"
+      },
+      "logo":
+      {
+        "image": null,
+        "label": null,
+        "signature": "Заводи мечту"
+      },
+      "name": "Новый Kia Stinger",
+      "teasers": [],
+      "title": "ВСТРЕЧАЙТЕ",
+      "type_code": "center",
+      "video": "\/media-data\/banner\/video\/stinger-main.mp4"
+    },
+    {
+      "bg_color": "red",
+      "bg_images":
+      {
+        "desktop": "\/media-data\/banner\/desktop_bg\/0d591ced-05c2-422f-962f-531994f8a952.jpeg",
+        "mobile": "\/media-data\/banner\/mobile_bg\/74a7ecc4-6153-4c75-8cd3-2660ffd5281e.jpeg",
+        "retina": "\/media-data\/banner\/retina_bg\/fdcc371c-0989-41f4-99ad-46eef0653191.jpeg"
+      },
+      "description": "7-ми и 8-ми местная компоновка салона • Двигатели 2.2 CRDI и 3.5 MPI, 8-ступенчатый автомат • Интеллектуальные системы безопасности и помощи водителю",
+      "group_code": "main_page_header",
+      "images":
+      {
+        "desktop": "\/media-data\/9231196e-31a3-47c4-a1d1-9a946b638f98.png",
+        "mobile": "\/media-data\/banner\/mobile\/0693a9fc-0a88-41d8-bd39-43af7a5cf6ee.png",
+        "retina": "\/media-data\/banner\/retina\/06f698c8-5095-43c9-af34-0dcf5417cb8c.png"
+      },
+      "link":
+      {
+        "title": "Подробнее",
+        "url": "\/models\/carnival\/desc\/"
+      },
+      "logo":
+      {
+        "image": null,
+        "label": null,
+        "signature": "На все случаи жизни"
+      },
+      "name": "Новый Kia Carnival",
+      "teasers": [],
+      "title": "СКОРО В УЗБЕКИСТАНЕ",
+      "type_code": "center",
+      "video": null
+    },
+    {
+      "bg_color": "red",
+      "bg_images":
+      {
+        "desktop": "\/media-data\/banner\/desktop_bg\/9358fe38-f775-4f9c-842c-fd7247ee8740.jpeg",
+        "mobile": "\/media-data\/banner\/mobile_bg\/88340121-038f-4a6f-a7dc-409a3906a238.jpeg",
+        "retina": "\/media-data\/banner\/retina_bg\/735e6487-484e-4665-9a12-633e69068888.jpeg"
+      },
+      "description": "Спортивный силуэт •  Дорожный просвет 155 мм • Объём багажника 510 л • Комплекс систем Drive Wise",
+      "group_code": "main_page_header",
+      "images":
+      {
+        "desktop": "\/media-data\/banners\/main_header\/k5\/K5_side.png",
+        "mobile": "\/media-data\/banners\/main_header\/k5\/K5_front.png",
+        "retina": "\/media-data\/banners\/main_header\/k5\/K5_side.png"
+      },
+      "link":
+      {
+        "title": "Подробнее",
+        "url": "/models/k5/desc/"
+      },
+      "logo":
+      {
+        "image": null,
+        "label": null,
+        "signature": "Сверхчеловеческие возможности"
+      },
+      "name": "Новый KIA K5",
+      "teasers": [],
+      "title": "Встречайте",
+      "type_code": "center",
+      "video": "\/media-data\/banner\/video\/a6efa924-3fd4-4eb2-8b48-b5eda29be47b.mp4"
+    },
+    {
+      "bg_color": "red",
+      "bg_images":
+      {
+        "desktop": "",
+        "mobile": "",
+        "retina": ""
+      },
+      "description": "Мультимедиа 10,25” с навигацией и камерой заднего вида • Электрообогрев лобового стекла, рулевого колеса и сидений • Drive Wise – комплекс систем безопасности и помощи водителю",
+      "group_code": "main_page_header",
+      "images":
+      {
+        "desktop": "media-data/banners/main_header/models/seltos/Seltos_sideview.png",
+        "mobile": "media-data/banners/main_header/models/seltos/Seltos_fullface.png",
+        "retina": "media-data/banners/main_header/models/seltos/Seltos_sideview.png"
+      },
+      "link":
+      {
+        "title": "Подробнее",
+        "url": "/models/seltos/desc/"
+      },
+      "logo":
+      {
+        "image": null,
+        "label": null,
+        "signature": null
+      },
+      "name": "Новый KIA Seltos",
+      "teasers": [],
+      "title": "Встречайте",
+      "type_code": "center",
+      "video": "/media-data/banners/main_header/models/seltos/seltos_unveiling_cut_200124_v1_1920x600.mp4"
+    }],
+    "model_list_info":
+    {
+      "models": [
+      {
+        "accessories": "\/master-data\/accessories\/KIA_brochure_Brand.pdf",
+        "brochure": "\/master-data\/brochures\/Kia_K5_Preview.pdf",
+        "carcass_type_id": "86917747-762f-48ba-a6bb-61136751ceeb",
+        "id": "7dc5ba2d-e214-4746-9e61-6a79812987dd",
+        "image": "img/other/model-tab-k5.png",
+        "image_left": "img/other/model-tab-k5.png",
+        "image_right": "img/other/model-tab-k5.png",
+        "image_side_view": "img/other/model-tab-k5.png",
+        "label_name": "Новинка",
+        "min_credit_month_price": 7870,
+        "min_price": 1479900,
+        "model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+        "price_list": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf",
+        "bg_images":
+        {
+          "retina": "img/other/model-tab-k5-bg.jpg",
+          "desktop": "img/other/model-tab-k5-bg.jpg",
+          "mobile": "img/other/model-tab-k5-bg.jpg"
         },
-        "description": "Спортивный силуэт •  Дорожный просвет 155 мм • Объём багажника 510 л • Комплекс систем Drive Wise",
-        "group_code": "main_page_header",
-        "images": {
-          "desktop": "img/other/bnr-k5.png",
-          "mobile": "img/other/bnr-k5-xs.png",
-          "retina": "img/other/bnr-k5.png"
-        },
-        "link": {
-          "title": "Подробнее",
-          "url": "/models/k5/desc/"
-        },
-        "logo": {
-          "image": null,
-          "label": null,
-          "signature": null
-        },
-        "name": "Новый KIA K5",
-        "teasers": [],
-        "title": "Встречайте",
-        "type_code": "center",
-        "video": "video/bnr-k5.mp4"
+        "landing_link": "/models/k5/desc"
       },
       {
-        "bg_color": "red",
-        "bg_images": {
-            "desktop": "",
-            "mobile": "",
-            "retina": ""
-        },
-        "description": "Мультимедиа 10,25” с навигацией и камерой заднего вида • Электрообогрев лобового стекла, рулевого колеса и сидений • Drive Wise – комплекс систем безопасности и помощи водителю",
-        "group_code": "main_page_header",
-        "images": {
-          "desktop": "img/other/bnr-seltos.png",
-          "mobile": "img/other/bnr-seltos-xs.png",
-          "retina": "img/other/bnr-seltos.png"
-        },
-        "link": {
-          "title": "Подробнее",
-          "url": "/models/seltos/desc/"
-        },
-        "logo": {
-          "image": null,
-          "label": null,
-          "signature": null
-        },
-        "name": "Новый KIA Seltos",
-        "teasers": [],
-        "title": "Встречайте",
-        "type_code": "center",
-        "video": "img/slider/video-1.mp4"
-      }
-    ],
-    "model_list_info": {
-      "models": [
+        "accessories": "\/master-data\/accessories\/KIA_brochure_Brand.pdf",
+        "brochure": "\/master-data\/brochures\/Kia_Seltos.pdf",
+        "carcass_type_id": "a878925e-3029-4f66-8571-aed6f8656cff",
+        "id": "3515cd01-a834-4112-89b1-604fcfb6c71e",
+        "image": "img/other/model-tab-seltos.png",
+        "image_left": "img/other/model-tab-seltos.png",
+        "image_right": "img/other/model-tab-seltos.png",
+        "image_side_view": "img/other/model-tab-seltos.png",
+        "label_name": null,
+        "min_credit_month_price": 5960,
+        "min_price": 1104900,
+        "model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+        "price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
+        "bg_images":
         {
-          "accessories": "\/master-data\/accessories\/KIA_brochure_Brand.pdf",
-          "brochure": "\/master-data\/brochures\/Kia_K5_Preview.pdf",
-          "carcass_type_id": "86917747-762f-48ba-a6bb-61136751ceeb",
-          "id": "7dc5ba2d-e214-4746-9e61-6a79812987dd",
-          "image": "img/other/model-tab-k5.png",
-          "image_left": "img/other/model-tab-k5.png",
-          "image_right": "img/other/model-tab-k5.png",
-          "image_side_view": "img/other/model-tab-k5.png",
-          "label_name": "Новинка",
-          "min_credit_month_price": 7870,
-          "min_price": 1479900,
-          "model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
-          "price_list": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf",
-          "bg_images":
-          {
-              "retina": "img/other/model-tab-k5-bg.jpg",
-              "desktop": "img/other/model-tab-k5-bg.jpg",
-              "mobile": "img/other/model-tab-k5-bg.jpg"
-          },
-          "landing_link": "/models/k5/desc"
+          "retina": "img/other/model-tab-seltos-bg.jpg",
+          "desktop": "img/other/model-tab-seltos-bg.jpg",
+          "mobile": "img/other/model-tab-seltos-bg.jpg"
         },
-        {
-          "accessories": "\/master-data\/accessories\/KIA_brochure_Brand.pdf",
-          "brochure": "\/master-data\/brochures\/Kia_Seltos.pdf",
-          "carcass_type_id": "a878925e-3029-4f66-8571-aed6f8656cff",
-          "id": "3515cd01-a834-4112-89b1-604fcfb6c71e",
-          "image": "img/other/model-tab-seltos.png",
-          "image_left": "img/other/model-tab-seltos.png",
-          "image_right": "img/other/model-tab-seltos.png",
-          "image_side_view": "img/other/model-tab-seltos.png",
-          "label_name": null,
-          "min_credit_month_price": 5960,
-          "min_price": 1104900,
-          "model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
-          "price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
-          "bg_images":
-          {
-              "retina": "img/other/model-tab-seltos-bg.jpg",
-              "desktop": "img/other/model-tab-seltos-bg.jpg",
-              "mobile": "img/other/model-tab-seltos-bg.jpg"
-          },
-          "landing_link": "/models/seltos/desc"
-        }
-      ],
+        "landing_link": "/models/seltos/desc"
+      }],
       "model_lines": [
-        {
-            "code": "k5",
-            "external_id": "EXS4",
-            "group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
-            "id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
-            "is_coming_soon": 0,
-            "name": "K5",
-            "sort": 750
-        },
-        {
-            "code": "seltos",
-            "external_id": "TH",
-            "group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
-            "id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
-            "is_coming_soon": 0,
-            "name": "Seltos",
-            "sort": 500
-        }
-      ]
+      {
+        "code": "k5",
+        "external_id": "EXS4",
+        "group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+        "id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+        "is_coming_soon": 0,
+        "name": "K5",
+        "sort": 750
+      },
+      {
+        "code": "seltos",
+        "external_id": "TH",
+        "group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+        "id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+        "is_coming_soon": 0,
+        "name": "Seltos",
+        "sort": 500
+      }]
     },
-    "video_bank":{
+    "video_bank":
+    {
       "groups": [
       {
         "code": "reviews",
@@ -145,141 +219,145 @@
           "total": 65
         }
       }],
-      "list":[
-        {
-          "author": "Clickoncar",
-          "date": 1599070221,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "b8b8152a-75e3-4899-8d13-d59fff5e7145",
-          "name": "Тест-драйв К5",
-          "preview_image": "img/other/news-video-k5-1.png",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/ge5uzcI2Y60?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
-          "video_time": "38:40"
-        },
-        {
-          "author": "Лиса Рулит",
-          "date": 1599070041,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "867f5d7b-32dd-45d8-9658-c6072c534e90",
-          "name": "Тест-драйв К5",
-          "preview_image": "img/other/news-video-k5-2.png",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/fZuAL_61wSM?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
-          "video_time": "31:07"
-        },
-        {
-          "author": "Игорь Бурцев",
-          "date": 1599069621,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "19401f3f-b4a0-4ae9-8075-794978e15bbd",
-          "name": "Тест-драйв К5",
-          "preview_image": "img/other/news-video-k5-3.png",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/3caA2Qs6yqg?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
-          "video_time": "28:26"
-        },
-        {
-          "author": "Autonews",
-          "date": 1599069260,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "aa3bbd5f-e2bf-45ab-9150-6fc1c6aadefd",
-          "name": "Тест-драйв К5",
-          "preview_image": "img/other/news-video-k5-4.png",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/Yzct5epKsH0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
-          "video_time": "17:02"
-        },
-        {
-          "author": "AUTONEWS",
-          "date": 1584711000,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "e6e2b2ad-1996-4ffd-bbe8-45d9f26f5bdf",
-          "name": "KIA Seltos 2020",
-          "preview_image": "img/other/news-video-seltos-1.jpg",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/WQtCOokv7U8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=WQtCOokv7U8",
-          "video_time": "29:55"
-        },
-        {
-          "author": "MOTOR.ru",
-          "date": 1583926200,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "217cb492-c0a2-4b17-86da-28afef7ad313",
-          "name": "KIA Seltos 2020",
-          "preview_image": "img/other/news-video-seltos-2.jpg",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/ZBrLRyYN0Tc?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=ZBrLRyYN0Tc",
-          "video_time": "18:40"
-        },
-        {
-          "author": "Авто.ру",
-          "date": 1582185217,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "faaa85c4-1505-40bf-89da-b7a256c0c0dd",
-          "name": "KIA Seltos 2020",
-          "preview_image": "img/other/news-video-seltos-3.png",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/X309pPVoZm0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=X309pPVoZm0",
-          "video_time": "10:36"
-        },
-        {
-          "author": "Антон Воротников",
-          "date": 1581349207,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "cf647a31-2145-484f-97bb-7aa6d328d10f",
-          "name": "KIA Seltos 2020",
-          "preview_image": "img/other/news-video-seltos-4.png",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/rXbhPoT_wiY?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=rXbhPoT_wiY",
-          "video_time": "29:40"
-        },
-        {
-          "author": "Большой тест-драйв",
-          "date": 1581262807,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "e54aa18f-4330-4f48-b490-c44e12a74211",
-          "name": "KIA Seltos 2020",
-          "preview_image": "img/other/news-video-seltos-5.png",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/Bhw4SA8JXCo?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=Bhw4SA8JXCo",
-          "video_time": "26:24"
-        },
-        {
-          "author": "AutoMPS",
-          "date": 1581176407,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "ccdb8242-9d1b-4adb-a969-99e0f9bed07b",
-          "name": "KIA Seltos 2020",
-          "preview_image": "img/other/news-video-seltos-6.png",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/CrNCemhyoLw?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=CrNCemhyoLw",
-          "video_time": "17:23"
-        },
-        {
-          "author": "Autonews",
-          "date": 1581090007,
-          "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
-          "id": "35296c33-254b-4890-be70-b8111d1704ae",
-          "name": "KIA Seltos 2020",
-          "preview_image": "img/other/news-video-seltos-7.png",
-          "source": "",
-          "video_link": "https:\/\/www.youtube.com\/embed\/zHK3oPUipA8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=zHK3oPUipA8",
-          "video_time": "12:08"
-        }
-      ]
+      "list": [
+      {
+        "author": "Clickoncar",
+        "date": 1599070221,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "b8b8152a-75e3-4899-8d13-d59fff5e7145",
+        "name": "Тест-драйв К5",
+        "preview_image": "img/other/news-video-k5-1.png",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/ge5uzcI2Y60?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+        "video_time": "38:40"
+      },
+      {
+        "author": "Лиса Рулит",
+        "date": 1599070041,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "867f5d7b-32dd-45d8-9658-c6072c534e90",
+        "name": "Тест-драйв К5",
+        "preview_image": "img/other/news-video-k5-2.png",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/fZuAL_61wSM?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+        "video_time": "31:07"
+      },
+      {
+        "author": "Игорь Бурцев",
+        "date": 1599069621,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "19401f3f-b4a0-4ae9-8075-794978e15bbd",
+        "name": "Тест-драйв К5",
+        "preview_image": "img/other/news-video-k5-3.png",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/3caA2Qs6yqg?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+        "video_time": "28:26"
+      },
+      {
+        "author": "Autonews",
+        "date": 1599069260,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "aa3bbd5f-e2bf-45ab-9150-6fc1c6aadefd",
+        "name": "Тест-драйв К5",
+        "preview_image": "img/other/news-video-k5-4.png",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/Yzct5epKsH0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+        "video_time": "17:02"
+      },
+      {
+        "author": "AUTONEWS",
+        "date": 1584711000,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "e6e2b2ad-1996-4ffd-bbe8-45d9f26f5bdf",
+        "name": "KIA Seltos 2020",
+        "preview_image": "img/other/news-video-seltos-1.jpg",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/WQtCOokv7U8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=WQtCOokv7U8",
+        "video_time": "29:55"
+      },
+      {
+        "author": "MOTOR.ru",
+        "date": 1583926200,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "217cb492-c0a2-4b17-86da-28afef7ad313",
+        "name": "KIA Seltos 2020",
+        "preview_image": "img/other/news-video-seltos-2.jpg",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/ZBrLRyYN0Tc?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=ZBrLRyYN0Tc",
+        "video_time": "18:40"
+      },
+      {
+        "author": "Авто.ру",
+        "date": 1582185217,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "faaa85c4-1505-40bf-89da-b7a256c0c0dd",
+        "name": "KIA Seltos 2020",
+        "preview_image": "img/other/news-video-seltos-3.png",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/X309pPVoZm0?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=X309pPVoZm0",
+        "video_time": "10:36"
+      },
+      {
+        "author": "Антон Воротников",
+        "date": 1581349207,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "cf647a31-2145-484f-97bb-7aa6d328d10f",
+        "name": "KIA Seltos 2020",
+        "preview_image": "img/other/news-video-seltos-4.png",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/rXbhPoT_wiY?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=rXbhPoT_wiY",
+        "video_time": "29:40"
+      },
+      {
+        "author": "Большой тест-драйв",
+        "date": 1581262807,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "e54aa18f-4330-4f48-b490-c44e12a74211",
+        "name": "KIA Seltos 2020",
+        "preview_image": "img/other/news-video-seltos-5.png",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/Bhw4SA8JXCo?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=Bhw4SA8JXCo",
+        "video_time": "26:24"
+      },
+      {
+        "author": "AutoMPS",
+        "date": 1581176407,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "ccdb8242-9d1b-4adb-a969-99e0f9bed07b",
+        "name": "KIA Seltos 2020",
+        "preview_image": "img/other/news-video-seltos-6.png",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/CrNCemhyoLw?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=CrNCemhyoLw",
+        "video_time": "17:23"
+      },
+      {
+        "author": "Autonews",
+        "date": 1581090007,
+        "group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+        "id": "35296c33-254b-4890-be70-b8111d1704ae",
+        "name": "KIA Seltos 2020",
+        "preview_image": "img/other/news-video-seltos-7.png",
+        "source": "",
+        "video_link": "https:\/\/www.youtube.com\/embed\/zHK3oPUipA8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=zHK3oPUipA8",
+        "video_time": "12:08"
+      }]
     },
-    "disclaimers":{
-      "footer":{
+    "disclaimers":
+    {
+      "footer":
+      {
         "name": "Footer Index",
         "text": "Сведения о ценах на продукцию бренда KIA, содержащиеся на сайте, носят исключительно информационный характер. Указанные цены могут отличаться от действительных цен дилеров KIA. Для получения подробной информации об актуальных ценах на продукцию KIA обращайтесь к дилерам KIA. Приобретение любой продукции бренда KIA осуществляется в соответствии с условиями индивидуального договора купли-продажи. Представленные изображения автомобиля могут отличаться от реализуемого."
       },
-      "credit":{
-        "seltos":{
+      "credit":
+      {
+        "seltos":
+        {
           "name": "Credit Seltos",
           "text": "Ежемесячный платеж –  5 960 р. на КИА Сэлтос. Кредит предоставляется ПАО «Совкомбанк» (далее «Банк») Генеральная лицензия ЦБ РФ № 963 от 05.12.2014 г., рассчитан по условиям программы КИА Легко! (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko\/) по кредитному тарифу KIA Finance Indirect исходя из параметров: цена КИА Сэлтос 1.6 МТ Классик 2020 года производства, стоимостью 1 149 900 руб., срок кредита 36 мес., первоначального взноса 632 445 р., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13.8% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПолис КАСКО оформляется в САО «ВСК» (Лицензии ЦБ РФ - СЛ № 0621, СИ № 0621 от 11.09.2015 www.vsk.ru) на 3 года и предусматривает выплату страхового возмещения за вычетом безусловной франшизы в размере 18 000 р. по страховым случаям, определенным в полисе и с учетом положений Правил страхования, и связанным с утратой, гибелью, повреждением приобретенного автомобиля. Условия программы могут быть изменены в одностороннем порядке САО «ВСК».\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с  01.10.2020 по 31.10.2020. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA."
         },
-        "k5":{
+        "k5":
+        {
           "name": "Credit K5",
           "text": "Ежемесячный платеж –  7 870 р. на КИА K5. Кредит предоставляется ПАО «Совкомбанк» (далее «Банк») Генеральная лицензия ЦБ РФ № 963 от 05.12.2014 г., рассчитан по условиям программы КИА Легко! (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko\/) по кредитному тарифу KIA Finance Indirect исходя из параметров: цена КИА K5 2.0 АТ Классик 2020 года производства, стоимостью 1 519 900 руб., срок кредита 36 мес., первоначального взноса 835 945 р., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13.8% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПолис КАСКО оформляется в САО «ВСК» (Лицензии ЦБ РФ - СЛ № 0621, СИ № 0621 от 11.09.2015 www.vsk.ru) на 3 года и предусматривает выплату страхового возмещения за вычетом безусловной франшизы в размере 18 000 р. по страховым случаям, определенным в полисе и с учетом положений Правил страхования, и связанным с утратой, гибелью, повреждением приобретенного автомобиля. Условия программы могут быть изменены в одностороннем порядке САО «ВСК».\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.10.2020 по 31.10.2020. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA."
         }
@@ -299,17 +377,20 @@
       },
       "max_benefit":
       {
-        "k5":{
+        "k5":
+        {
           "name": "Max Benefit K5",
           "text": "Получение максимальной выгоды в размере 40 000 рублей возможно при покупке новых автомобилей KIA K5 2020 г. выпуска. Выгода формируется из: \n1) выгоды 40 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует c 01.10.2020 по 31.10.2020. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1]Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ\n РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита. Предложение носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует c 01.10.2020 по 31.10.2020. Подробные условия кредитования, требования к условиям страхования и требования к заемщикам уточняйте у официальных дилеров KIA."
         },
-        "seltos":{
+        "seltos":
+        {
           "name": "Max Benefit Seltos",
           "text": "Получение максимальной выгоды в размере 45 000 рублей возможно при покупке нового KIA Seltos 2020 г. выпуска. Выгода формируется из: \n1) выгоды 45 000 рублей по программе кредитования \"KIA Легко Plus\" [1] (Подробная информация: https:\/\/kia.ru\/buy\/special\/credit-legko-plus\/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.10.2020 по 31.10.2020. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам KIA.\n\n[1]Банки-партнеры KIA Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «Русфинанс Банк» ООО (лиц. ЦБ РФ № 1792 от 13.02.2013г.), ПАО «Совкомбанк (лиц. ЦБ\n РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера КИА 1 раз в год в течение срока действия кредита. Предложение носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.10.2020 по 31.10.2020. Подробные условия кредитования, требования к условиям страхования и требования к заемщикам уточняйте у официальных дилеров KIA."
         }
       }
     },
-    "seo":{
+    "seo":
+    {
       "title": "KIA в Узбекистане - официальный сайт «KIA Motors Uzbekistan»",
       "description": "Корпорация KIA Motors – производитель качественных автомобилей мирового уровня для тех, кто молод душой. Модели KIA специально адаптированы для России."
     }

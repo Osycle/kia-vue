@@ -418,6 +418,25 @@ $heightSlider: auto;
 		@media (max-width: 991px){
 			height: 290px;
 		}
+		picture{
+			position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: auto;
+    	min-height: 100%;
+    	-o-object-fit: cover;
+    	object-fit: cover;
+    	max-width: none;
+    	display: flex;
+			img{
+				width: 100%;
+    		max-width: 100%;
+    		display: block;
+				object-fit: cover;
+				height: auto;
+			}
+		}
 	}
 	.btn-content{
 		margin-top: 40px;
