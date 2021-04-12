@@ -7,6 +7,105 @@
       "bg_color": null,
       "bg_images":
       {
+        "desktop": "/media-data/banners/models/sorento_new/footer/1920_sorento_new_banner_footer_bg.jpg",
+        "mobile": "/media-data/banners/models/sorento_new/footer/375_sorento_new_banner_footer_bg.jpg",
+        "retina": "/media-data/banners/models/sorento_new/footer/1920_sorento_new_banner_footer_bg.jpg"
+      },
+      "description": "5-ти и 7-ми местная компоновка салона • Системы безопасности Drive Wise • Terrain mode",
+      "group_code": "main_page_header",
+      "images":
+      {
+        "desktop": "/media-data/banner/retina/30ba2c67-d6aa-487a-993e-fbfafd5bbd63.png",
+        "mobile": "/media-data/banner/mobile/9ca97557-3777-47c6-b751-a9f992a0cafb.png",
+        "retina": "/media-data/banner/retina/30ba2c67-d6aa-487a-993e-fbfafd5bbd63.png"
+      },
+      "link":
+      {
+        "title": "Подробнее",
+        "url": "\/models\/sorento\/desc\/"
+      },
+      "logo":
+      {
+        "image": null,
+        "label": null,
+        "signature": "Играя главную роль"
+      },
+      "name": "Новый Kia Sorento",
+      "teasers": [],
+      "title": "Скоро",
+      "type_code": "center",
+      "video": "/media-data/banner/video/c4b54edd-3f3d-4a2c-bf44-44e9ef2dc763.mp4"
+    },
+    {
+      "bg_color": null,
+      "bg_images":
+      {
+        "desktop": "/media-data/infographics/soul/comfort.jpg",
+        "mobile": "/media-data/infographics/soul/comfort.jpg",
+        "retina": "/media-data/infographics/soul/comfort.jpg"
+      },
+      "description": "Светодиодные фары (LED) • Системы безопасности и помощи водителю • Мультимедиасистема с диплеем 10.25\"",
+      "group_code": "main_page_header",
+      "images":
+      {
+        "desktop": "/media-data/banners/models/soul/main_footer/desktop.png",
+        "mobile": "/media-data/banners/models/soul/main_footer/mobile.png",
+        "retina": "/media-data/banners/models/soul/main_footer/desktop.png"
+      },
+      "link":
+      {
+        "title": "Подробнее",
+        "url": "\/models\/soul\/desc\/"
+      },
+      "logo":
+      {
+        "image": null,
+        "label": null,
+        "signature": "Отражение личности"
+      },
+      "name": "Новый Kia Soul",
+      "teasers": [],
+      "title": "Скоро",
+      "type_code": "center",
+      "video": "/media-data/banner/video/f40ef96f-6e3d-4796-9db0-a8286841bcce.mp4"
+    },
+    {
+      "bg_color": null,
+      "bg_images":
+      {
+        "desktop": "/media-data/infographics/k900/comfort.jpg",
+        "mobile": "/media-data/infographics/k900/comfort.jpg",
+        "retina": "/media-data/infographics/k900/comfort.jpg"
+      },
+      "description": "Полный привод и автомат 8АТ • Двигатели 3.3 V6 и 5.0 V8 • Максимальный комфорт для всех пассажирова",
+      "group_code": "main_page_header",
+      "images":
+      {
+        "desktop": "/media-data/banners/models/k900/main_footer/desktop.png",
+        "mobile": "/media-data/banners/models/k900/main_footer/mobile.png",
+        "retina": "/media-data/banners/models/k900/main_footer/desktop.png"
+      },
+      "link":
+      {
+        "title": "Подробнее",
+        "url": "\/models\/k900\/desc\/"
+      },
+      "logo":
+      {
+        "image": null,
+        "label": null,
+        "signature": "Мой путь Мой выбор"
+      },
+      "name": "Новый Kia K900",
+      "teasers": [],
+      "title": "Скоро",
+      "type_code": "center",
+      "video": null
+    },
+    {
+      "bg_color": null,
+      "bg_images":
+      {
         "desktop": "\/media-data\/banner\/desktop_bg\/781a9d82-ca14-4909-9c46-2336e099f422.jpeg",
         "mobile": "\/media-data\/banner\/mobile_bg\/d3e1d1ae-52b4-497c-aa99-ba740f27bdff.jpeg",
         "retina": "\/media-data\/banner\/retina_bg\/295a0491-fe20-47dd-ae61-d71f0aa7a4b5.jpeg"
@@ -32,7 +131,7 @@
       },
       "name": "Новый Kia Stinger",
       "teasers": [],
-      "title": "ВСТРЕЧАЙТЕ",
+      "title": "Скоро",
       "type_code": "center",
       "video": "\/media-data\/banner\/video\/stinger-main.mp4"
     },
@@ -65,7 +164,7 @@
       },
       "name": "Новый Kia Carnival",
       "teasers": [],
-      "title": "СКОРО В УЗБЕКИСТАНЕ",
+      "title": "Скоро",
       "type_code": "center",
       "video": null
     },

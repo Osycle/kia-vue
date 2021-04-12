@@ -4124,3 +4124,25 @@ dt{
 		border-radius: 0 !important;
 	}
 }
+
+.color-list{
+	margin: 0 0 -10px;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	li{
+		margin: 0 10px 10px 0;
+	}
+}
+.color-circle{
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	position: relative;
+	background: 50% no-repeat;
+	background-size: cover;
+	background-color: $color-gray-1;
+	border-radius: 100%;
+	overflow: visible;
+}

@@ -75,7 +75,7 @@
 				"base_complectation_id": null,
 				"consumption_per_100": 7.2,
 				"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
-				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "8bca6033-8a1c-4fb2-86c6-17badabced85", "b137d001-169e-42c9-ba72-797e8262c82d", "c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
 				"external_name": "COMFORT",
 				"id": "7be5053b-9ef0-4d7b-b6b0-367daa774285",
 				"interior_colors": ["cae82a1b-5815-4ca2-9b00-ee2bcfd3460b"],
@@ -99,7 +99,7 @@
 				"base_complectation_id": null,
 				"consumption_per_100": 7.2,
 				"engine_id": "9ffd7f35-804a-46d1-81da-ffdcc6f9cdf5",
-				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "8bca6033-8a1c-4fb2-86c6-17badabced85", "b137d001-169e-42c9-ba72-797e8262c82d", "c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
 				"external_name": "LUXE",
 				"id": "ea939986-7735-4b5e-b6a0-52694b4b20e7",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
@@ -123,7 +123,7 @@
 				"base_complectation_id": null,
 				"consumption_per_100": 7.1,
 				"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "8bca6033-8a1c-4fb2-86c6-17badabced85", "b137d001-169e-42c9-ba72-797e8262c82d", "c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
 				"external_name": "PRESTIGE",
 				"id": "a6b865eb-0723-4448-915c-be924a9c8e02",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
@@ -147,7 +147,7 @@
 				"base_complectation_id": null,
 				"consumption_per_100": 7.1,
 				"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-				"exterior_colors": ["c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "7854a364-8310-417b-9e7c-f35ee2f09b30", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "8bca6033-8a1c-4fb2-86c6-17badabced85", "b137d001-169e-42c9-ba72-797e8262c82d", "c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
 				"external_name": "STYLE",
 				"id": "cc2c0fba-4dbe-4cc3-b80f-13c716b51017",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
@@ -171,7 +171,7 @@
 				"base_complectation_id": null,
 				"consumption_per_100": 7.1,
 				"engine_id": "e52ec4ef-18a7-4643-bbdd-ba98ee25b394",
-				"exterior_colors": ["c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "7854a364-8310-417b-9e7c-f35ee2f09b30", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "8bca6033-8a1c-4fb2-86c6-17badabced85", "b137d001-169e-42c9-ba72-797e8262c82d", "c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
 				"external_name": "GT LINE",
 				"id": "478e1dd1-b192-42c9-84f3-5c786088f540",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464"],
@@ -233,6 +233,24 @@
 			}],
 			"exterior_colors": [
 			{
+				"code": "KLG",
+				"id": "b137d001-169e-42c9-ba72-797e8262c82d",
+				"image": "\/master-data\/colors\/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
+				"name": "Steel Gray",
+				"name_en": "Steel Gray",
+				"price": null,
+				"sort": 3600
+			},
+			{
+				"code": "CR5",
+				"id": "8bca6033-8a1c-4fb2-86c6-17badabced85",
+				"image": "\/master-data\/colors\/660c3a6d-69b3-4b03-a996-b8cd9d951fbc.svg",
+				"name": "Runway Red",
+				"name_en": "Runway Red",
+				"price": null,
+				"sort": 3400
+			},
+			{
 				"code": "AGT",
 				"id": "4764cbe2-0ea2-4a4e-bdef-678ccb571299",
 				"image": "\/master-data\/colors\/9d878c18-fdc8-4aa3-9085-0bd36fb2cdc7.svg",
@@ -240,7 +258,7 @@
 				"is_metallic": true,
 				"name": "Interstellar Gray",
 				"name_en": "Interstellar Gray",
-				"price": 15000,
+				"price": null,
 				"sort": 6200
 			},
 			{
@@ -262,7 +280,7 @@
 				"is_metallic": true,
 				"name": "Yacht Blue",
 				"name_en": "Yacht Blue",
-				"price": 15000,
+				"price": null,
 				"sort": 6200
 			},
 			{
@@ -273,7 +291,7 @@
 				"is_metallic": true,
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
-				"price": 15000,
+				"price": 3000000,
 				"sort": 6100
 			},
 			{
@@ -284,7 +302,7 @@
 				"is_metallic": true,
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
-				"price": 15000,
+				"price": null,
 				"sort": 5300
 			},
 			{
@@ -295,7 +313,7 @@
 				"is_metallic": true,
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
-				"price": 15000,
+				"price": null,
 				"sort": 2500
 			},
 			{
@@ -306,7 +324,7 @@
 				"is_metallic": true,
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
-				"price": 15000,
+				"price": 3000000,
 				"sort": 950
 			}],
 			"fuel_types": [
@@ -693,6 +711,7 @@
 			{
 				"code": "DNN",
 				"id": "f2105db2-4a6e-473b-8505-5f125ea9adb3",
+				"price": 5000000,
 				"image": "\/master-data\/colors\/08d1a1e3-e235-4e71-a5c0-293aa86da978.svg",
 				"name": "Бежевый, Натуральная кожа",
 				"name_en": "Beige, Genuine leather"

@@ -255,9 +255,9 @@ if ( $(".js-select").length )
 					el.closest(".item").addClass("hide");				
 			})
 		}
-
+		
 		$('[data-toggle="popover"]').popover();
-
+		$('[data-toggle="tooltip"]').tooltip();
 
 		/*FANCYBOX*/
 		if ($("[data-fancybox]").length != 0)

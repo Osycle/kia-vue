@@ -795,6 +795,62 @@
 							</div>
 						</div>
 					</section>
+					<section class="item exterior-color-section">
+						<a href=".item" class="title-click" tc tc-closest>Цвета кузова<i class="fa fa-angle-up"></i></a>
+						<div class="section-body">
+							<div class="section-body-wrapper">
+								<div class="config-param-item">
+									<div class="config-param-item-wrapper">
+										<div class="owl-table owl-carousel">
+											<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
+												
+												<div class="owl-table-item-box" v-for="(colors, key) in model.color_sorted" :key="key">
+													<div v-if="key == 0">Базовый</div>
+													<div v-else> + {{key | spaceBetweenNum}} сумм</div>
+													<ul class="color-list mv-2 pb-4">
+														<li v-for="(color, key) in colors" :key="key">
+															<a 
+																href="javascript:;" data-toggle="tooltip" data-placement="bottom" :title="color.name+' ('+color.code+')'">
+																<div class="color-circle" :style="'background-image: url('+'https://cdn.kia.ru/'+color.image+');'"></div>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="item interior-color-section">
+						<a href=".item" class="title-click" tc tc-closest>Варианты интерьера<i class="fa fa-angle-up"></i></a>
+						<div class="section-body">
+							<div class="section-body-wrapper">
+								<div class="config-param-item" v-for="(interiorСolor, key) in page.modifications.interior_colors" :key="key">
+									<div class="config-param-item-wrapper">
+										<div class="m-b-15 align-center">
+											<div class="color-circle" 
+											:style="'background-image: url('+'https://cdn.kia.ru/'+interiorСolor.image+');width:40px;height:40px;'">
+											</div>
+											<span class="ml-2">
+												{{interiorСolor.name}} 
+												<span v-if="interiorСolor.price"> +{{interiorСolor.price | spaceBetweenNum}} сумм</span>
+											</span>
+										</div>
+										<div class="owl-table owl-carousel">
+											<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
+												<div class="op-enable" v-for="(interiorColorId, key) in model.interior_colors" v-if="interiorColorId == interiorСolor.id" :key="key">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
+												</div>
+												<div><div>—</div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
 			</div>
 		</div>
@@ -842,6 +898,27 @@ export default {
   methods: {
 
   },
+	created(){
+
+		this.page.modifications.complectations.forEach(complectation=>{
+			var obj = {}
+			complectation.exterior_colors.forEach(complectationColorId=>{
+				this.page.modifications.exterior_colors.forEach(color=>{
+					if( color.id === complectationColorId ){
+						if(color.price === null)
+							color.price = 0;
+						if(!obj[color.price+""]){
+							obj[color.price+""] = [];
+						}
+						obj[color.price+""].push(color);
+					}
+				})
+			})
+			console.log(obj);
+			complectation['color_sorted'] = obj;
+		});
+		
+	},
   mounted() {
 		var configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
 				nav: true,
