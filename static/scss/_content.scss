@@ -2,6 +2,7 @@
 	_content.css
 */
 @import "../icomoon/style.scss";
+@import "fonts.scss";
 .icm{
 	vertical-align: middle;
 }
@@ -421,6 +422,7 @@ $heightSlider: auto;
 		picture{
 			position: absolute;
     	top: 0;
+			z-index: -1;
     	left: 0;
     	width: 100%;
     	height: auto;
@@ -458,6 +460,9 @@ $heightSlider: auto;
     object-fit: cover;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+		@media (max-width: 991px){
+			display: none;
+		}
 	}
 	img{
 		//height: 480px;
@@ -4142,7 +4147,7 @@ dt{
 	position: relative;
 	background: 50% no-repeat;
 	background-size: cover;
-	background-color: $color-gray-1;
+	//background-color: $color-gray-1;
 	border-radius: 100%;
 	overflow: visible;
 }

@@ -32,7 +32,7 @@
           <div class="img-content">
             <div class="bg-shadow"></div>
             <video v-if="bnr.video" :src="'https://cdn.kia.ru/'+bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-            <picture v-else>
+            <picture>
               <source :data-srcset="'https://cdn.kia.ru/resize/375x211'+bnr.bg_images.mobile">
               <source :data-srcset="'https://cdn.kia.ru/resize/1440x810'+bnr.bg_images.retina">
               <img sizes="auto" :src="'https://cdn.kia.ru/resize/1920x1080'+bnr.bg_images.desktop">
@@ -155,7 +155,7 @@ export default {
   mounted(){
   
     $(".bnr-carousel-items.owl-carousel").owlCarousel({
-      nav: true,
+      nav: !checkSm(),
       loop: true,
       //items: 3,
       dots: true,
