@@ -806,7 +806,7 @@
 												
 												<div class="owl-table-item-box" v-for="(colors, key) in model.color_sorted" :key="key">
 													<div v-if="key == 0">Базовый</div>
-													<div v-else> + {{key | spaceBetweenNum}} сумм</div>
+													<div v-else> + {{key | spaceBetweenNum}} сум</div>
 													<ul class="color-list mv-2 pb-4">
 														<li v-for="(color, key) in colors" :key="key">
 															<a 
@@ -835,7 +835,7 @@
 											</div>
 											<span class="ml-2">
 												{{interiorСolor.name}} 
-												<span v-if="interiorСolor.price"> +{{interiorСolor.price | spaceBetweenNum}} сумм</span>
+												<span v-if="interiorСolor.price"> +{{interiorСolor.price | spaceBetweenNum}} сум</span>
 											</span>
 										</div>
 										<div class="owl-table owl-carousel">

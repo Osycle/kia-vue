@@ -14,7 +14,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/img/favicon/favicon.ico' }
     ]
   },
 
@@ -33,8 +33,8 @@ module.exports = {
     '@nuxt/http',
   ],
   axios: {
-    //baseURL: 'https://html.lifestyle.uz/kia-api/',
-    baseURL: 'http://kia-api-php/',
+    baseURL: 'https://html.lifestyle.uz/kia-api/',
+    //baseURL: 'http://kia-api-php/',
   },
 
   build: {

@@ -1,0 +1,44 @@
+{
+	"error": 0,
+	"content":
+	{
+		"news":
+		{
+			"date": 1618313044,
+			"detail_text": "<div><img src=\"/img/news/1.jpg\" alt=\"\" width=\"1620\" height=\"1080\"></div><p>Обслуживайте свой автомобиль у профессионалов!</p><p>Всех клиентов Kia приглашаем в авторизованный сервисный центр в Сергелях.</p><p>Сервисный центр Kia - это современная техническая зона, оборудованная для удобной работы сотрудников и комфортного времяпровождения клиентов. Здесь есть все для качественного обслуживания вашего автомобиля: все необходимое оборудование для диагностики и ремонта автомобиля, большой ассортимент оригинальных запасных частей, аксессуаров и ГСМ. Наши сервисные специалисты регулярно проходят обучение и повышение квалификации. </p><p>Для комфорта наших клиентов в автоцентре есть удобная парковочная зона, автомойка с широким заездом и выездом, а также зал ожидания с детской зоной и кафе.</p><p>Доверяйте свой автомобиль только специалистам авторизованных центров и ваша машина прослужит вам долго.</p><p>Наш адрес: г. Ташкент, Сергелийский район, массив А.Навойи, ТКАД.</p><p>Ориентир: Напротив автосалона Drivers Village</p><p>Часы работы автосервиса: пн-сб с 09:00-19:00.</p><p>Обслуживание клиентов производится только по предварительной записи. Для записи обращайтесь в сервисный центр Kia по телефону: +998 71 215-70-07</p><hr><p>Avtomobilingizga faqat mutaxassislar tomonidan texnik xizmat ko‘rsating!</p><p>Barcha Kia mijozlarini Sergeli tumanidagi vakolatli servis markaziga taklif qilamiz.</p><p>Kia servis markazi — xodimlar bemalol ishlashi va mijozlar o‘z vaqtini qulay o‘tkazishi uchun monand jihozlangan zamonaviy texnik hudud. Sizning avtomobilingizga yuqori sifatli xizmat ko‘rsatish uchun bu yerda hamma narsa mavjud: avtomobillarni ta'mirlash va diagnostikasi uchun barcha zarur uskunalar, katta assortimentdagi original ehtiyot qismlar, aksessuarlar va yoqilg‘i-moylash materiallari. Xizmat ko‘rsatuvchi mutaxassislarimiz muntazam ravishda bilimlarini kengaytirib, malakalarini oshirib boradilar.</p><p>Mijozlarimiz qulayligi uchun avtomarkazimizda qulay to‘xtash joyi, kirish va chiqish joylari keng avtomobil yuvish shaxobchasi, shuningdek, bolalar hududi va kafega ega kutish xonasi mavjud.</p><p>Avtomobilingizni faqat vakolatli markazlarning mutaxassislariga ishonib topshiring, shunda u sizga uzoq vaqt xizmat qiladi.</p><p>Bizning manzil: Toshkent sh., Sergeli tumani, A. Navoiy mavzesi, TXAY.</p><p>Mo‘ljal: Drivers Village avtosaloni ro‘parasida</p><p>Avtoservis ish vaqti: dushanba-shanba 09:00-19:00.</p><p>Mijozlarga xizmat ko‘rsatish faqat oldindan yozilish orqali amalga oshiriladi. Navbatga yozilish uchun Kia servis markaziga telefon orqali murojaat qiling: +998 71 215-70-07</p>",
+			"id": "MYb17cc4-3244-453b-80d6-8c46d75cb236",
+			"name": "Обслуживайте свой автомобиль у профессионалов!",
+			"source": null
+		},
+		"featured": [
+		{
+			"code": "266",
+			"date": 1617785084,
+			"image": "\/media-data\/news\/preview\/237666a1-df2a-4d38-ae68-5821ccd0c7d8.jpeg",
+			"name": "Услуга «Kia Помощь на дороге» стала доступна на выгодных условиях при прохождении ТО",
+			"preview_text": "Услуга «Kia Помощь на дороге» стала доступна на выгодных условиях при прохождении ТО",
+			"source": null
+		},
+		{
+			"code": "264",
+			"date": 1617617044,
+			"image": "\/media-data\/news\/preview\/e8eb5c99-7a9c-45c7-b824-4e5dbc04d2bd.jpeg",
+			"name": "Электромобиль Kia EV6 демонстрирует высочайший спрос",
+			"preview_text": "Электромобиль Kia EV6 демонстрирует высочайший спрос",
+			"source": null
+		},
+		{
+			"code": "263",
+			"date": 1617360223,
+			"image": "\/media-data\/news\/preview\/e1079597-2d9b-4129-b966-44f15d1ea80d.jpeg",
+			"name": "Kia объявляет итоги мировых продаж за март 2021 года",
+			"preview_text": "Kia объявляет итоги мировых продаж за март 2021 года",
+			"source": null
+		}],
+		"seo":
+		{
+			"title": "Обслуживайте свой автомобиль у профессионалов в Узбекистане!",
+			"description": null
+		}
+	}
+}

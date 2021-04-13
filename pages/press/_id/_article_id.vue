@@ -23,7 +23,7 @@
 						</div>
 					</div>
 				</div>
-        <div class="container-p">
+        <div class="container-p hide">
           <div class="m-auto box-md-8 box-lg-7 mv-6 desktop:pb-3">
             <h2>Будьте вкурсе</h2>
 						<div class="short-news-items boxes-3 mt-3 figure-m-v-15">
@@ -68,14 +68,29 @@ export default {
     }
   },
   async asyncData(context){
-    var url = 'https://www.kia.ru/ajax/page/mediacenter/'+context.params.id+"/"+context.params.article_id;
+
+    var page;
     try{
-      const page = await context.$axios.$get(url, {
-        params:{
-          limit: 24,
-          page: 1
-        }
-      })
+      //console.log(context.params.article_id);
+      if(!context.params.article_id.match("news")){
+        var url = 'https://www.kia.ru/ajax/page/mediacenter/'+context.params.id+"/"+context.params.article_id;  
+        page = await context.$axios.$get(url, {
+          params:{
+            limit: 24,
+            page: 1
+          }
+        })
+      }else{
+        var url = context.params.id+"/"+context.params.article_id;
+        page = await context.$axios.$get("requireJson.php", {
+          params:{
+            path: url+".json"
+          }
+        }, {});
+      }
+
+
+      console.log(page.content);
       return {page: page.content}
     }catch(error){
       console.error(error);

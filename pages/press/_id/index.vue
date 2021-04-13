@@ -19,7 +19,8 @@
 								<nuxt-link :to="'/press/'+$route.params.id+'/'+item.code">
 									<div class="fig-wrapper">
 										<div class="img-content">
-											<div class="img" :style="'background-image: url(https://cdn.kia.ru/resize/410x277/'+item.image+');'"></div>
+											<div class="img" v-if="item.direct_link" :style="'background-image: url('+item.image+');'"></div>
+											<div class="img" v-else :style="'background-image: url(https://cdn.kia.ru/resize/410x277/'+item.image+');'"></div>
 										</div>
 										<div class="desc-content">
 											<h4>{{item.name}}</h4>
@@ -91,6 +92,17 @@ export default {
       console.error(error);
     }
   },
+	created(){
+		this.page.media_center.news[0] = {
+			code: "news-1",
+			direct_link: true,
+			date: 1618313044,
+			image: "/img/news/1.jpg",
+			name: "Обслуживайте свой автомобиль у профессионалов!",
+			preview_text: "Новая услуга",
+			source: null
+		}
+	}
 }
 
 </script>
