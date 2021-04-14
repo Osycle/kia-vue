@@ -242,20 +242,20 @@
         "brochure": "\/master-data\/brochures\/Kia_K5_Preview.pdf",
         "carcass_type_id": "86917747-762f-48ba-a6bb-61136751ceeb",
         "id": "7dc5ba2d-e214-4746-9e61-6a79812987dd",
-        "image": "img/other/model-tab-k5.png",
-        "image_left": "img/other/model-tab-k5.png",
-        "image_right": "img/other/model-tab-k5.png",
-        "image_side_view": "img/other/model-tab-k5.png",
+        "image": "/master-data/models/K5-half.png",
+        "image_left": "/master-data/models/K5-half.png",
+        "image_right": "/master-data/models/K5-half.png",
+        "image_side_view": "/master-data/models/K5-half.png",
         "label_name": "Новинка",
         "min_credit_month_price": 7870,
-        "min_price": 1479900,
+        "min_price": 259900000,
         "model_line_id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
         "price_list": "\/master-data\/pdf\/model\/Kia_K5_Preview.pdf",
         "bg_images":
         {
-          "retina": "img/other/model-tab-k5-bg.jpg",
-          "desktop": "img/other/model-tab-k5-bg.jpg",
-          "mobile": "img/other/model-tab-k5-bg.jpg"
+          "retina": "/site-data/models/background/retina/k5.jpg",
+          "desktop": "/site-data/models/background/desktop/k5.jpg",
+          "mobile": "/site-data/models/background/mobile/k5.jpg"
         },
         "landing_link": "/models/k5/desc"
       },
@@ -264,20 +264,20 @@
         "brochure": "\/master-data\/brochures\/Kia_Seltos.pdf",
         "carcass_type_id": "a878925e-3029-4f66-8571-aed6f8656cff",
         "id": "3515cd01-a834-4112-89b1-604fcfb6c71e",
-        "image": "img/other/model-tab-seltos.png",
-        "image_left": "img/other/model-tab-seltos.png",
-        "image_right": "img/other/model-tab-seltos.png",
-        "image_side_view": "img/other/model-tab-seltos.png",
+        "image": "/master-data/models/seltos.png",
+        "image_left": "/master-data/models/seltos.png",
+        "image_right": "/master-data/models/seltos.png",
+        "image_side_view": "/master-data/models/seltos.png",
         "label_name": null,
         "min_credit_month_price": 5960,
-        "min_price": 1104900,
+        "min_price": 239900000,
         "model_line_id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
         "price_list": "\/master-data\/pdf\/model\/Seltos.pdf",
         "bg_images":
         {
-          "retina": "img/other/model-tab-seltos-bg.jpg",
-          "desktop": "img/other/model-tab-seltos-bg.jpg",
-          "mobile": "img/other/model-tab-seltos-bg.jpg"
+          "retina": "/site-data/models/background/retina/seltos.jpg",
+          "desktop": "/site-data/models/background/desktop/seltos.jpg",
+          "mobile": "/site-data/models/background/mobile/seltos.jpg"
         },
         "landing_link": "/models/seltos/desc"
       }],

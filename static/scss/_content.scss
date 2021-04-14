@@ -685,6 +685,12 @@ $heightSlider: auto;
 			@media (max-width: 991px){
 				height: auto;
 			}
+			@media (min-width: 1800px){
+				height: 490px;
+				img{
+					max-width: 1000px;
+				}
+			}
 		}
 		img{
 			max-width: 800px;
