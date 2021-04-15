@@ -933,7 +933,7 @@
 				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
-				"price": 15000,
+				"price": null,
 				"sort": 6100
 			},
 			{
@@ -942,7 +942,7 @@
 				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
-				"price": 15000,
+				"price": null,
 				"sort": 6100
 			},
 			{
@@ -951,7 +951,7 @@
 				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
-				"price": 15000,
+				"price": null,
 				"sort": 6100
 			},
 			{
@@ -960,7 +960,7 @@
 				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
-				"price": 15000,
+				"price": null,
 				"sort": 5300
 			},
 			{
@@ -969,7 +969,7 @@
 				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
-				"price": 15000,
+				"price": null,
 				"sort": 5300
 			},
 			{
@@ -978,7 +978,7 @@
 				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
 				"name": "Silky Silver",
 				"name_en": "Silky Silver",
-				"price": 15000,
+				"price": null,
 				"sort": 5300
 			},
 			{
@@ -987,7 +987,7 @@
 				"image": "\/master-data\/colors\/5572adeb-fb0f-4e9e-abeb-2d65cba17c29.svg",
 				"name": "Essence Brown",
 				"name_en": "Essence Brown",
-				"price": 15000,
+				"price": null,
 				"sort": 5000
 			},
 			{
@@ -996,7 +996,7 @@
 				"image": "\/master-data\/colors\/5572adeb-fb0f-4e9e-abeb-2d65cba17c29.svg",
 				"name": "Essence Brown",
 				"name_en": "Essence Brown",
-				"price": 15000,
+				"price": null,
 				"sort": 5000
 			},
 			{
@@ -1005,7 +1005,7 @@
 				"image": "\/master-data\/colors\/5572adeb-fb0f-4e9e-abeb-2d65cba17c29.svg",
 				"name": "Essence Brown",
 				"name_en": "Essence Brown",
-				"price": 15000,
+				"price": null,
 				"sort": 5000
 			},
 			{
@@ -1014,7 +1014,7 @@
 				"image": "\/master-data\/colors\/524cc960-a84f-4240-8710-aa24bc302430.svg",
 				"name": "Mineral Blue",
 				"name_en": "Mineral Blue",
-				"price": 15000,
+				"price": null,
 				"sort": 4300
 			},
 			{
@@ -1023,7 +1023,7 @@
 				"image": "\/master-data\/colors\/524cc960-a84f-4240-8710-aa24bc302430.svg",
 				"name": "Mineral Blue",
 				"name_en": "Mineral Blue",
-				"price": 15000,
+				"price": null,
 				"sort": 4300
 			},
 			{
@@ -1032,7 +1032,7 @@
 				"image": "\/master-data\/colors\/524cc960-a84f-4240-8710-aa24bc302430.svg",
 				"name": "Mineral Blue",
 				"name_en": "Mineral Blue",
-				"price": 15000,
+				"price": null,
 				"sort": 4300
 			},
 			{
@@ -1041,7 +1041,7 @@
 				"image": "\/master-data\/colors\/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
 				"name": "Steel Gray",
 				"name_en": "Steel Gray",
-				"price": 15000,
+				"price": null,
 				"sort": 3600
 			},
 			{
@@ -1050,7 +1050,7 @@
 				"image": "\/master-data\/colors\/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
 				"name": "Steel Gray",
 				"name_en": "Steel Gray",
-				"price": 15000,
+				"price": null,
 				"sort": 3600
 			},
 			{
@@ -1059,7 +1059,7 @@
 				"image": "\/master-data\/colors\/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
 				"name": "Steel Gray",
 				"name_en": "Steel Gray",
-				"price": 15000,
+				"price": null,
 				"sort": 3600
 			},
 			{
@@ -1068,7 +1068,7 @@
 				"image": "\/master-data\/colors\/660c3a6d-69b3-4b03-a996-b8cd9d951fbc.svg",
 				"name": "Runway Red",
 				"name_en": "Runway Red",
-				"price": 15000,
+				"price": null,
 				"sort": 3400
 			},
 			{
@@ -1077,7 +1077,7 @@
 				"image": "\/master-data\/colors\/660c3a6d-69b3-4b03-a996-b8cd9d951fbc.svg",
 				"name": "Runway Red",
 				"name_en": "Runway Red",
-				"price": 15000,
+				"price": null,
 				"sort": 3400
 			},
 			{
@@ -1086,7 +1086,7 @@
 				"image": "\/master-data\/colors\/660c3a6d-69b3-4b03-a996-b8cd9d951fbc.svg",
 				"name": "Runway Red",
 				"name_en": "Runway Red",
-				"price": 15000,
+				"price": null,
 				"sort": 3400
 			},
 			{
@@ -1095,7 +1095,7 @@
 				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
-				"price": 15000,
+				"price": null,
 				"sort": 2500
 			},
 			{
@@ -1104,7 +1104,7 @@
 				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
-				"price": 15000,
+				"price": null,
 				"sort": 2500
 			},
 			{
@@ -1113,7 +1113,7 @@
 				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
 				"name": "Gravity Blue",
 				"name_en": "Gravity Blue",
-				"price": 15000,
+				"price": null,
 				"sort": 2500
 			},
 			{
@@ -1122,7 +1122,7 @@
 				"image": "\/master-data\/colors\/93255077-2aac-421c-ad35-12173a92916a.svg",
 				"name": "Platinum Graphite",
 				"name_en": "Platinum Graphite",
-				"price": 15000,
+				"price": null,
 				"sort": 1900
 			},
 			{
@@ -1131,7 +1131,7 @@
 				"image": "\/master-data\/colors\/93255077-2aac-421c-ad35-12173a92916a.svg",
 				"name": "Platinum Graphite",
 				"name_en": "Platinum Graphite",
-				"price": 15000,
+				"price": null,
 				"sort": 1900
 			},
 			{
@@ -1140,7 +1140,7 @@
 				"image": "\/master-data\/colors\/93255077-2aac-421c-ad35-12173a92916a.svg",
 				"name": "Platinum Graphite",
 				"name_en": "Platinum Graphite",
-				"price": 15000,
+				"price": null,
 				"sort": 1900
 			},
 			{
@@ -1149,7 +1149,7 @@
 				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
-				"price": 15000,
+				"price": null,
 				"sort": 950
 			},
 			{
@@ -1158,7 +1158,7 @@
 				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
-				"price": 15000,
+				"price": null,
 				"sort": 950
 			},
 			{
@@ -1167,7 +1167,7 @@
 				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
 				"name": "Aurora Black Pearl",
 				"name_en": "Aurora Black Pearl",
-				"price": 15000,
+				"price": null,
 				"sort": 950
 			}],
 			"complectations": [
@@ -1185,63 +1185,63 @@
 				{
 					"amount": "72",
 					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/SWP\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "388f9e44-ad5f-4a01-9f13-ce84487c9ff4",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/CRS\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "535ce759-0d5d-4bbd-91dd-051f5478838c",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/M4B\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "ff9345c0-b8a1-40e7-9cbd-573b9dea0043",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/BE2\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/4SS\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/B4U\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/ABP\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "4ed1c25d-fe60-44fc-8463-c87115f8d4b9",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/ABT\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "b137d001-169e-42c9-ba72-797e8262c82d",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/KLG\/"
 				}]
@@ -1260,63 +1260,63 @@
 				{
 					"amount": "72",
 					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/SWP\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "388f9e44-ad5f-4a01-9f13-ce84487c9ff4",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/CRS\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "535ce759-0d5d-4bbd-91dd-051f5478838c",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/M4B\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "ff9345c0-b8a1-40e7-9cbd-573b9dea0043",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/BE2\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/4SS\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/B4U\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/ABP\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "4ed1c25d-fe60-44fc-8463-c87115f8d4b9",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/ABT\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "b137d001-169e-42c9-ba72-797e8262c82d",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/KLG\/"
 				}]
@@ -1335,63 +1335,63 @@
 				{
 					"amount": "72",
 					"color_id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/SWP\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "388f9e44-ad5f-4a01-9f13-ce84487c9ff4",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/CRS\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "535ce759-0d5d-4bbd-91dd-051f5478838c",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/M4B\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "ff9345c0-b8a1-40e7-9cbd-573b9dea0043",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/BE2\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/4SS\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/B4U\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/ABP\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "4ed1c25d-fe60-44fc-8463-c87115f8d4b9",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/ABT\/"
 				},
 				{
 					"amount": "72",
 					"color_id": "b137d001-169e-42c9-ba72-797e8262c82d",
-					"color_price": 15000,
+					"color_price": null,
 					"is_color_metallic": 1,
 					"path": "\/master-data\/overviews\/\/GZW5\/20202021\/D098\/KLG\/"
 				}]
@@ -1400,15 +1400,6 @@
 		"panoramas":
 		{
 			"colors": [
-			{
-				"code": "WK",
-				"id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
-				"image": "\/master-data\/colors\/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
-				"name": "\u0427\u0435\u0440\u043d\u044b\u0439, \u0422\u043a\u0430\u043d\u0435\u0432\u0430\u044f \u043e\u0442\u0434\u0435\u043b\u043a\u0430",
-				"name_en": "Black, Fabric finish",
-				"price": null,
-				"sort": 14000
-			},
 			{
 				"code": "WK",
 				"id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
@@ -1425,7 +1416,7 @@
 				"panoramas": [
 				{
 					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
-					"path": "\/master-data\/panorama\/GZ\/2020\/G190\/1K\/"
+					"path": "/sorento/16000/"
 				}]
 			},
 			{
@@ -1433,8 +1424,8 @@
 				"name": "Comfort",
 				"panoramas": [
 				{
-					"color_id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
-					"path": "\/master-data\/panorama\/GZ\/2020\/G190\/1K\/"
+					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
+					"path": "/sorento/16000/"
 				}]
 			},
 			{
@@ -1442,8 +1433,8 @@
 				"name": "Classic",
 				"panoramas": [
 				{
-					"color_id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
-					"path": "\/master-data\/panorama\/GZ\/2020\/G190\/1K\/"
+					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
+					"path": "/sorento/16000/"
 				}]
 			}]
 		},

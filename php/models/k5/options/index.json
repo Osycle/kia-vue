@@ -174,7 +174,7 @@
 				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "8bca6033-8a1c-4fb2-86c6-17badabced85", "b137d001-169e-42c9-ba72-797e8262c82d", "c6b0db20-1031-4c9f-a8fc-30de475245a5", "4764cbe2-0ea2-4a4e-bdef-678ccb571299", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
 				"external_name": "GT LINE",
 				"id": "478e1dd1-b192-42c9-84f3-5c786088f540",
-				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464"],
+				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
 				"min_credit_amount": 10780,
 				"min_price": 386900000,
 				"model_year": 2021,
@@ -1108,6 +1108,20 @@
 				"sort": 500
 			}],
 			"options_base": [
+			{
+				"group_name": "Мультимедиа",
+				"group_sort": "790",
+				"id": "90596dad-b569-4f34-b59d-57a20baa90d7",
+				"name": "Мультимедиа с 8\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay",
+				"sort": 500
+			},
+			{
+				"group_name": "Мультимедиа",
+				"group_sort": "790",
+				"id": "82532e41-f6ca-4d9d-ae40-7fdf4404fb83",
+				"name": "2 USB разьема для зарядки мобильных устройств для пассажиров второго ряда",
+				"sort": 500
+			},
 			{
 				"group_name": "Экстерьер",
 				"group_sort": "1200",

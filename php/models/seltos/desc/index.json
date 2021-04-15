@@ -827,6 +827,8 @@
 				"code": "UD",
 				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
 				"image": "\/master-data\/colors\/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"is_double_color": false,
+				"is_metallic": false,
 				"name": "Clear White",
 				"name_en": "Clear White",
 				"price": null,
@@ -836,126 +838,209 @@
 				"code": "SWP",
 				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
 				"image": "\/master-data\/colors\/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"is_double_color": false,
+				"is_metallic": true,
 				"name": "Snow White Pearl",
 				"name_en": "Snow White Pearl",
-				"price": 10000,
+				"price": null,
 				"sort": 6100
+			},
+			{
+				"code": "4SS",
+				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
+				"image": "\/master-data\/colors\/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Silky Silver",
+				"name_en": "Silky Silver",
+				"price": null,
+				"sort": 5300
 			},
 			{
 				"code": "KDG",
 				"id": "209938ed-171f-404c-8e74-75f76907225f",
 				"image": "\/master-data\/colors\/f0193540-687d-4474-8db2-43c0801bb0c3.svg",
+				"is_double_color": false,
+				"is_metallic": true,
 				"name": "Gravity Gray",
 				"name_en": "Gravity Gray",
-				"price": 10000,
+				"price": null,
 				"sort": 3700
 			},
 			{
 				"code": "KLG",
 				"id": "b137d001-169e-42c9-ba72-797e8262c82d",
 				"image": "\/master-data\/colors\/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
+				"is_double_color": false,
+				"is_metallic": true,
 				"name": "Steel Gray",
 				"name_en": "Steel Gray",
-				"price": 10000,
+				"price": null,
 				"sort": 3600
 			},
 			{
 				"code": "B4Y",
 				"id": "0d2e2289-e975-4b5a-a7e2-7876ad2edf56",
 				"image": "\/master-data\/colors\/B4Y.svg",
+				"is_double_color": false,
+				"is_metallic": true,
 				"name": "Stargright Yellow",
 				"name_en": "Stargright Yellow",
-				"price": 10000,
+				"price": null,
 				"sort": 3550
 			},
 			{
 				"code": "B3A",
 				"id": "d014cc71-0410-49c7-806e-ef940eea2ffc",
 				"image": "\/master-data\/colors\/d850fd73-31fb-4508-b26b-5cd100939e74.svg",
+				"is_double_color": false,
+				"is_metallic": true,
 				"name": "Neptune Blue",
 				"name_en": "Neptune Blue",
-				"price": 10000,
+				"price": null,
 				"sort": 3500
+			},
+			{
+				"code": "CR5",
+				"id": "8bca6033-8a1c-4fb2-86c6-17badabced85",
+				"image": "\/master-data\/colors\/660c3a6d-69b3-4b03-a996-b8cd9d951fbc.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Runway Red",
+				"name_en": "Runway Red",
+				"price": null,
+				"sort": 3400
 			},
 			{
 				"code": "M3R",
 				"id": "96e40eb5-9bea-49a6-9273-38fdd8f1a398",
 				"image": "\/master-data\/colors\/e24a69f7-32a0-432c-a848-c01d023281cd.svg",
+				"is_double_color": false,
+				"is_metallic": true,
 				"name": "Mars Orange",
 				"name_en": "Mars Orange",
-				"price": 10000,
+				"price": null,
 				"sort": 3300
+			},
+			{
+				"code": "B4U",
+				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
+				"image": "\/master-data\/colors\/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Gravity Blue",
+				"name_en": "Gravity Blue",
+				"price": null,
+				"sort": 2500
 			},
 			{
 				"code": "BU3",
 				"id": "1371ab95-5bcc-4ad2-a6ef-715059d1bf5a",
 				"image": "\/master-data\/colors\/BU3.svg",
+				"is_double_color": false,
+				"is_metallic": true,
 				"name": "Dark Ocean Blue",
 				"name_en": "Dark Ocean Blue",
-				"price": 10000,
+				"price": null,
 				"sort": 2450
+			},
+			{
+				"code": "K3G",
+				"id": "96c0a8c8-c293-400a-9f28-ae7c101440ac",
+				"image": "\/master-data\/colors\/4c44e3c6-c375-4e2a-9a88-c58bf5790c16.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Glittering Metal",
+				"name_en": "Glittering Metal",
+				"price": null,
+				"sort": 2300
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "\/master-data\/colors\/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": null,
+				"sort": 950
 			},
 			{
 				"code": "9H",
 				"id": "27b380f5-62bd-4c46-ae58-c0b8f528c40a",
 				"image": "\/master-data\/colors\/bc555e24-fa5d-45a8-8020-2a6225e76fc0.svg",
+				"is_double_color": false,
+				"is_metallic": true,
 				"name": "Cherry Black",
 				"name_en": "Cherry Black",
-				"price": 10000,
+				"price": null,
 				"sort": 900
 			},
 			{
 				"code": "GA6",
 				"id": "c2884aab-45bf-4576-b9ba-22e23da17129",
 				"image": "\/master-data\/colors\/3ebff914-a151-4f63-9f9b-d5f422692fc0.svg",
+				"is_double_color": true,
+				"is_metallic": true,
 				"name": "Starbright Yellow \/ Clear White",
 				"name_en": "Starbright Yellow \/ Clear White",
-				"price": 20000,
+				"price": null,
 				"sort": 600
 			},
 			{
 				"code": "GA7",
 				"id": "03531178-ae44-4318-a4e6-32aeb415cd4f",
 				"image": "\/master-data\/colors\/6a094b2e-993a-415f-bc14-c4fa7b4bc132.svg",
+				"is_double_color": true,
+				"is_metallic": true,
 				"name": "Starbright Yellow \/ Cherry Black",
 				"name_en": "Starbright Yellow \/ Cherry Black",
-				"price": 20000,
+				"price": 5000000,
 				"sort": 550
 			},
 			{
 				"code": "SE1",
 				"id": "e5094c34-9d95-4e67-b78a-ec53588fb01f",
 				"image": "\/master-data\/colors\/afe82e9b-eca9-4b02-acb7-d50f44b959b2.svg",
+				"is_double_color": true,
+				"is_metallic": true,
 				"name": "Gravity Gray \/ Platinum Gold",
 				"name_en": "Gravity Gray \/ Platinum Gold",
-				"price": 20000,
+				"price": null,
 				"sort": 525
 			},
 			{
 				"code": "GA4",
 				"id": "f2703162-c445-4812-9506-64972a2604b7",
 				"image": "\/master-data\/colors\/3fe5fffa-3bd8-4301-8f23-e710f02540a2.svg",
+				"is_double_color": true,
+				"is_metallic": true,
 				"name": "Dark Ocean Blue \/ Clear White",
 				"name_en": "Dark Ocean Blue \/ Clear White",
-				"price": 20000,
+				"price": 5000000,
 				"sort": 500
 			},
 			{
 				"code": "GA5",
 				"id": "6eb4524d-05a2-46ca-ac6f-993a4600a51b",
 				"image": "\/master-data\/colors\/361992a7-8b6b-4200-92db-ed167a3a2eb6.svg",
+				"is_double_color": true,
+				"is_metallic": true,
 				"name": "Dark Ocean Blue \/ Cherry Black",
 				"name_en": "Dark Ocean Blue \/ Cherry Black",
-				"price": 20000,
+				"price": null,
 				"sort": 450
 			},
 			{
 				"code": "GA3",
 				"id": "0bf9f742-677b-4db9-86a5-a30bab9e2829",
 				"image": "\/master-data\/colors\/8798dc64-afab-4afe-9207-720ce7651053.svg",
+				"is_double_color": true,
+				"is_metallic": true,
 				"name": "Mars Orange \/ Clear White",
 				"name_en": "Mars Orange \/ Clear White",
-				"price": 20000,
+				"price": 5000000,
 				"sort": 150
 			}],
 			"complectations": [
@@ -1317,7 +1402,7 @@
 				}],
 				"name": "Luxe",
 				"name_en": "Luxe",
-				"options": ["a742c73a-6059-4e56-9a65-d17ae402dfb7", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "46b241ea-492d-46d6-ab8b-2fb847121587", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "90596dad-b569-4f34-b59d-57a20baa90d7", "e1265686-4ca6-4132-b7e9-62f6b3d2bf34"],
+				"options": ["c8170134-afd7-4067-b8e2-f014933629eb", "b913fb68-795a-4e24-845e-a518cbd82a54", "1802e164-0056-4a53-8b00-213f85bba4ad", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "3af93114-6d35-4623-b114-d1890c062014", "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad", "f760de13-d7b3-456f-a679-7d7d3d7faa29", "90596dad-b569-4f34-b59d-57a20baa90d7"],
 				"price": 239900000
 			},
 			{
@@ -1334,7 +1419,7 @@
 				}],
 				"name": "Style",
 				"name_en": "Style",
-				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "21d64663-7ab0-4587-a593-055f9fbf2494", "90596dad-b569-4f34-b59d-57a20baa90d7"],
+				"options": ["b913fb68-795a-4e24-845e-a518cbd82a54", "c8170134-afd7-4067-b8e2-f014933629eb", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "1d20faf0-0a7f-4b4d-9816-01d3e846c405", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "90596dad-b569-4f34-b59d-57a20baa90d7"],
 				"price": 264900000
 			},
 			{
@@ -1351,7 +1436,7 @@
 				}],
 				"name": "Prestige",
 				"name_en": "Prestige",
-				"options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
+				"options": ["b913fb68-795a-4e24-845e-a518cbd82a54", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "749900c0-a16f-4db3-ac1f-7770f9f56fe5", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "90596dad-b569-4f34-b59d-57a20baa90d7"],
 				"price": 291900000
 			},
 			{
@@ -1368,7 +1453,7 @@
 				}],
 				"name": "Premium",
 				"name_en": "Premium",
-				"options": ["ecc3f7a5-db63-4198-98d8-ed74a6402047", "df0a6ec9-18d7-4481-9d61-5abf89db70f0", "b913fb68-795a-4e24-845e-a518cbd82a54", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "0587d09e-7d5a-4f9d-b0b1-278c407a4252", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2814d7c0-ade7-4b0e-86a4-26509dc65c63", "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14"],
+				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "5a21f9ec-76f0-49e4-8cb1-fe18bafbdcd5", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "rav3bz68-zh8n-ab7n-ab7m-zb71njak1j6n", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "90596dad-b569-4f34-b59d-57a20baa90d7", "fdd88786-9079-42e3-8034-7407edb54e9c", "ar1xb1b1-ch1z-gb61-xb61-n8xn8m66n1n5", "5n79b617-z79z-11bh-gbj7-zbnma168n5b5"],
 				"price": 311900000
 			}],
 			"engines": [
@@ -1414,164 +1499,208 @@
 			}],
 			"options": [
 			{
+				"id": "5n79b617-z79z-11bh-gbj7-zbnma168n5b5",
+				"name": "Электрорегулировка сиденья водителя и переднего пассажира"
+			},
+			{
+				"id": "ar1xb1b1-ch1z-gb61-xb61-n8xn8m66n1n5",
+				"name": "Предупреждение столкновений слепых зон (BCW)"
+			},
+			{
+				"id": "fdd88786-9079-42e3-8034-7407edb54e9c",
+				"name": "Беспроводная зарядка для мобильных устройств в центральной консоли"
+			},
+			{
+				"id": "rav3bz68-zh8n-ab7n-ab7m-zb71njak1j6n",
+				"name": "Вентилируемые передние сиденья"
+			},
+			{
+				"id": "f2f31af0-9813-4e1e-b9ec-7a8769d54411",
+				"name": "Салонное зеркало с автоматическим затемнением (ECM)"
+			},
+			{
+				"id": "5a21f9ec-76f0-49e4-8cb1-fe18bafbdcd5",
+				"name": "Сиденья с отделкой эко кожей"
+			},
+			{
+				"id": "749900c0-a16f-4db3-ac1f-7770f9f56fe5",
+				"name": "Светодиодные (LED) фары"
+			},
+			{
+				"id": "1d20faf0-0a7f-4b4d-9816-01d3e846c405",
+				"name": "Электропривод складывания зеркал заднего вида"
+			},
+			{
+				"id": "e725ca2d-9cbf-4e22-b51d-f7f1f39500ad",
+				"name": "Приборная панель с дисплеем 3.5\""
+			},
+			{
+				"id": "690d98a7-d4d6-4da3-a9f8-f59653b5e57a",
+				"name": "Сиденья с отделкой тканью"
+			},
+			{
+				"id": "1802e164-0056-4a53-8b00-213f85bba4ad",
+				"name": "Решетка радиатора с черными глянцевыми вставками"
+			},
+			{
 				"id": "20edd792-c345-46e5-aa94-c3582e0d519d",
-				"name": "\u041f\u043e\u0434\u043e\u0433\u0440\u0435\u0432 \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439"
+				"name": "Подогрев передних сидений"
 			},
 			{
 				"id": "ecc3f7a5-db63-4198-98d8-ed74a6402047",
-				"name": "\u041f\u043e\u0434\u043e\u0433\u0440\u0435\u0432 \u0437\u0430\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439"
+				"name": "Подогрев задних сидений"
 			},
 			{
 				"id": "8e287a59-a6c8-4a46-bb83-b956869e2b90",
-				"name": "\u041f\u043e\u0434\u043e\u0433\u0440\u0435\u0432 \u0440\u0443\u043b\u0435\u0432\u043e\u0433\u043e \u043a\u043e\u043b\u0435\u0441\u0430"
+				"name": "Подогрев рулевого колеса"
 			},
 			{
 				"id": "df0a6ec9-18d7-4481-9d61-5abf89db70f0",
-				"name": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043e\u0431\u043e\u0433\u0440\u0435\u0432 \u0432\u0435\u0442\u0440\u043e\u0432\u043e\u0433\u043e \u0441\u0442\u0435\u043a\u043b\u0430"
+				"name": "Электрообогрев ветрового стекла"
 			},
 			{
 				"id": "d129184e-c14b-4658-89e7-bb79aaa4bc9c",
-				"name": "\u041f\u043e\u0434\u043e\u0433\u0440\u0435\u0432 \u0444\u043e\u0440\u0441\u0443\u043d\u043e\u043a \u0441\u0442\u0435\u043a\u043b\u043e\u043e\u043c\u044b\u0432\u0430\u0442\u0435\u043b\u044f"
+				"name": "Подогрев форсунок стеклоомывателя"
 			},
 			{
 				"id": "c8170134-afd7-4067-b8e2-f014933629eb",
-				"name": "\u0411\u043e\u043a\u043e\u0432\u044b\u0435 \u0437\u0435\u0440\u043a\u0430\u043b\u0430 \u0437\u0430\u0434\u043d\u0435\u0433\u043e \u0432\u0438\u0434\u0430 \u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043f\u0440\u0438\u0432\u043e\u0434\u043e\u043c \u0438 \u043f\u043e\u0434\u043e\u0433\u0440\u0435\u0432\u043e\u043c"
+				"name": "Боковые зеркала заднего вида с электроприводом и подогревом"
 			},
 			{
 				"id": "76a7a316-195b-4de1-9f89-d15bcea7a340",
-				"name": "\u0421\u0442\u0430\u043b\u044c\u043d\u044b\u0435 \u0434\u0438\u0441\u043a\u0438 16\"\u0441 \u0448\u0438\u043d\u0430\u043c\u0438 205\/60 R16"
+				"name": "Стальные диски 16\"с шинами 205/60 R16"
 			},
 			{
 				"id": "a742c73a-6059-4e56-9a65-d17ae402dfb7",
-				"name": "\u041b\u0435\u0433\u043a\u043e\u0441\u043f\u043b\u0430\u0432\u043d\u044b\u0435 \u0434\u0438\u0441\u043a\u0438 16\" \u0441 \u0448\u0438\u043d\u0430\u043c\u0438 205\/60 R16"
+				"name": "Легкосплавные диски 16\" с шинами 205/60 R16"
 			},
 			{
 				"id": "b913fb68-795a-4e24-845e-a518cbd82a54",
-				"name": "\u041b\u0435\u0433\u043a\u043e\u0441\u043f\u043b\u0430\u0432\u043d\u044b\u0435 \u0434\u0438\u0441\u043a\u0438 17\" \u0441 \u0448\u0438\u043d\u0430\u043c\u0438 215\/55 R17"
+				"name": "Легкосплавные диски 17\" с шинами 215/55 R17"
 			},
 			{
 				"id": "72002f02-268a-4b30-a0f3-9b119089344c",
-				"name": "\u041b\u0435\u0433\u043a\u043e\u0441\u043f\u043b\u0430\u0432\u043d\u044b\u0435 \u0434\u0438\u0441\u043a\u0438 18\" \u0441 \u0448\u0438\u043d\u0430\u043c\u0438 235\/45 R18"
+				"name": "Легкосплавные диски 18\" с шинами 235/45 R18"
 			},
 			{
 				"id": "83df224d-d805-4eba-a8ee-8e0ac96f2b94",
-				"name": "\u0421\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 \u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u0445\u043e\u0434\u043e\u0432\u044b\u0435 \u043e\u0433\u043d\u0438 (LED DRL)"
+				"name": "Светодиодные дневные ходовые огни (LED DRL)"
 			},
 			{
 				"id": "2ddbf2d6-81c9-498f-8898-060a73dadd8e",
-				"name": "\u0421\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 (LED) \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0442\u0443\u043c\u0430\u043d\u043d\u044b\u0435 \u0444\u0430\u0440\u044b"
+				"name": "Светодиодные (LED) противотуманные фары"
 			},
 			{
 				"id": "dda59a4f-7499-4c0b-a655-fee7f755e2cd",
-				"name": "\u0421\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 (LED) \u0437\u0430\u0434\u043d\u0438\u0435 \u0444\u043e\u043d\u0430\u0440\u0438"
+				"name": "Светодиодные (LED) задние фонари"
 			},
 			{
 				"id": "21d64663-7ab0-4587-a593-055f9fbf2494",
-				"name": "\u0421\u0432\u0435\u0442\u043e\u0434\u0438\u043e\u0434\u043d\u044b\u0435 (LED) \u0433\u0430\u0431\u0430\u0440\u0438\u0442\u043d\u044b\u0435 \u043e\u0433\u043d\u0438"
+				"name": "Светодиодные (LED) габаритные огни"
 			},
 			{
 				"id": "3af93114-6d35-4623-b114-d1890c062014",
-				"name": "\u0420\u0443\u043b\u0435\u0432\u043e\u0435 \u043a\u043e\u043b\u0435\u0441\u043e \u0438 \u0440\u0443\u0447\u043a\u0430 \u0441\u0435\u043b\u0435\u043a\u0442\u043e\u0440\u0430 \u0442\u0440\u0430\u043d\u0441\u043c\u0438\u0441\u0441\u0438\u0438 \u0441 \u043e\u0442\u0434\u0435\u043b\u043a\u043e\u0439 \u043a\u043e\u0436\u0435\u0439"
+				"name": "Рулевое колесо и ручка селектора трансмиссии с отделкой кожей"
 			},
 			{
 				"id": "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9",
-				"name": "\u0421\u0438\u0434\u0435\u043d\u044c\u044f \u0441 \u043a\u043e\u043c\u0431\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u043e\u0442\u0434\u0435\u043b\u043a\u043e\u0439 \u0442\u043a\u0430\u043d\u044c + \u044d\u043a\u043e \u043a\u043e\u0436\u0430"
+				"name": "Сиденья с комбинированной отделкой ткань + эко кожа"
 			},
 			{
 				"id": "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d",
-				"name": "\u0412\u0435\u043d\u0442\u0438\u043b\u044f\u0446\u0438\u044f \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439"
+				"name": "Вентиляция передних сидений"
 			},
 			{
 				"id": "cf530c4e-801b-4b6d-b8c1-e24d34463871",
-				"name": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043f\u0440\u0438\u0432\u043e\u0434 \u0440\u0435\u0433\u0443\u043b\u0438\u0440\u043e\u0432\u043e\u043a \u043f\u0435\u0440\u0435\u0434\u043d\u0438\u0445 \u0441\u0438\u0434\u0435\u043d\u0438\u0439"
+				"name": "Электропривод регулировок передних сидений"
 			},
 			{
 				"id": "bbe4cdd1-b23e-4473-ab19-8758807b9d87",
-				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0431\u0435\u0441\u043a\u043b\u044e\u0447\u0435\u0432\u043e\u0433\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430 Smart Key \u0438 \u0437\u0430\u043f\u0443\u0441\u043a\u0430 \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043b\u044f \u043a\u043d\u043e\u043f\u043a\u043e\u0439"
+				"name": "Система бесключевого доступа Smart Key и запуска двигателя кнопкой"
 			},
 			{
 				"id": "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b",
-				"name": "\u041a\u043b\u0438\u043c\u0430\u0442-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c"
+				"name": "Климат-контроль"
 			},
 			{
 				"id": "46b241ea-492d-46d6-ab8b-2fb847121587",
-				"name": "\u0417\u0430\u0434\u043d\u0438\u0435 \u0434\u0430\u0442\u0447\u0438\u043a\u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438"
+				"name": "Задние датчики парковки"
 			},
 			{
 				"id": "0587d09e-7d5a-4f9d-b0b1-278c407a4252",
-				"name": "\u041f\u0435\u0440\u0435\u0434\u043d\u0438\u0435 \u0434\u0430\u0442\u0447\u0438\u043a\u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438"
+				"name": "Передние датчики парковки"
 			},
 			{
 				"id": "dddd9087-ab14-4d0c-8261-4cb28af99dc6",
-				"name": "\u041a\u0430\u043c\u0435\u0440\u0430 \u0437\u0430\u0434\u043d\u0435\u0433\u043e \u0432\u0438\u0434\u0430 \u0441 \u0434\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u043b\u0438\u043d\u0438\u044f\u043c\u0438 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438"
+				"name": "Камера заднего вида с динамическими линиями парковки"
 			},
 			{
 				"id": "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c",
-				"name": "\u041f\u0440\u0438\u0431\u043e\u0440\u043d\u0430\u044f \u043f\u0430\u043d\u0435\u043b\u044c \u0441 \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c 7\" Supervision"
+				"name": "Приборная панель с дисплеем 7\" Supervision"
 			},
 			{
 				"id": "2f1258e6-1ba8-4c8d-8af5-372f123d30db",
-				"name": "\u041f\u0440\u043e\u0435\u043a\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d (HUD)"
+				"name": "Проекционный экран (HUD)"
 			},
 			{
 				"id": "f760de13-d7b3-456f-a679-7d7d3d7faa29",
-				"name": "\u041a\u0440\u0443\u0438\u0437-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c"
+				"name": "Круиз-контроль"
 			},
 			{
 				"id": "98e7502e-a301-4fa1-941e-b8dbbf9746f4",
-				"name": "\u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0443\u0438\u0437-\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c (SCC) \u0441 \u0444\u0443\u043d\u043a\u0446\u0438\u0435\u0439 Stop&Go"
+				"name": "Интеллектуальный круиз-контроль (SCC) с функцией Stop&Go"
 			},
 			{
 				"id": "71cbfc91-a55b-4cb6-8d17-fbbdbe368543",
-				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0441\u0442\u043e\u043b\u043a\u043d\u043e\u0432\u0435\u043d\u0438\u044f \u0441 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u043c \u0432 \u0441\u043b\u0435\u043f\u043e\u0439 \u0437\u043e\u043d\u0435 (BCA)"
+				"name": "Система предотвращения столкновения с автомобилем в слепой зоне (BCA)"
 			},
 			{
 				"id": "14881c3f-121b-4b8c-ae6c-1d7a37c754c2",
-				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0431\u043e\u043a\u043e\u0432\u043e\u0433\u043e \u0441\u0442\u043e\u043b\u043a\u043d\u043e\u0432\u0435\u043d\u0438\u044f \u043f\u0440\u0438 \u0432\u044b\u0435\u0437\u0434\u0435 \u0441 \u043f\u0430\u0440\u043a\u043e\u0432\u043a\u0438 \u0437\u0430\u0434\u043d\u0438\u043c \u0445\u043e\u0434\u043e\u043c (RCCA)"
+				"name": "Система предотвращения бокового столкновения при выезде с парковки задним ходом (RCCA)"
 			},
 			{
 				"id": "5ad85803-503b-4a51-9b80-fc7a2eaa14e1",
-				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u044f \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f (DAW)"
+				"name": "Система контроля внимания водителя (DAW)"
 			},
 			{
 				"id": "65e8c7b6-90d2-416d-bd7c-55eac74d8ff9",
-				"name": "\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0440\u0430\u0441\u043f\u043e\u0437\u043d\u0430\u0432\u0430\u043d\u0438\u044f \u0443\u0441\u0442\u0430\u043b\u043e\u0441\u0442\u0438 \u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044f (DAW)"
+				"name": "Система распознавания усталости водителя (DAW)"
 			},
 			{
 				"id": "a6758985-e2f1-402c-b50f-16f93bf7e41c",
-				"name": "\u0410\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441 3.8\" \u043c\u043e\u043d\u043e\u0445\u0440\u043e\u043c\u043d\u044b\u043c \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c"
+				"name": "Аудиосистема с 3.8\" монохромным дисплеем"
 			},
 			{
 				"id": "44c98cc0-3417-4f2e-933a-fc4db09d0f98",
-				"name": "\u0417\u0430\u0434\u043d\u0438\u0435 \u0441\u0438\u0434\u0435\u043d\u044c\u044f \u0441 \u0440\u0435\u0433\u0443\u043b\u0438\u0440\u043e\u0432\u043a\u043e\u0439 \u0443\u0433\u043b\u0430 \u043d\u0430\u043a\u043b\u043e\u043d\u0430"
+				"name": "Задние сиденья с регулировкой угла наклона"
 			},
 			{
 				"id": "90596dad-b569-4f34-b59d-57a20baa90d7",
-				"name": "\u041c\u0443\u043b\u044c\u0442\u0438\u043c\u0435\u0434\u0438\u0430 \u0441 8\" \u0446\u0432\u0435\u0442\u043d\u044b\u043c \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c, \u0441 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043e\u0439 Android Auto \u0438 Apple Carplay"
+				"name": "Мультимедиа с 8\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay"
 			},
 			{
 				"id": "2814d7c0-ade7-4b0e-86a4-26509dc65c63",
-				"name": "\u041d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441 10.25\" \u0446\u0432\u0435\u0442\u043d\u044b\u043c \u0434\u0438\u0441\u043f\u043b\u0435\u0435\u043c, \u0441 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043e\u0439 Android Auto \u0438 Apple Carplay"
+				"name": "Навигационная система с 10.25\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay"
 			},
 			{
 				"id": "defb3c9f-dfd6-46b7-b0a7-1ee95d4a4d14",
-				"name": "\u0410\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430 Bose"
+				"name": "Аудиосистема Bose"
 			},
 			{
 				"id": "44140984-8606-4aeb-a60f-9928abb52779",
-				"name": "\u041c\u0443\u043b\u044c\u0442\u0438\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u0440\u0443\u043b\u0435\u0432\u043e\u0435 \u043a\u043e\u043b\u0435\u0441\u043e"
+				"name": "Мультифункциональное рулевое колесо"
 			},
 			{
 				"id": "ae93d9b6-045a-4664-87d2-9845ba6b44b7",
-				"name": "Bluetooth \u0434\u043b\u044f \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432"
+				"name": "Bluetooth для подключения мобильных устройств"
 			},
 			{
 				"id": "8801a8be-dd81-4dcf-b4f3-ada1b8433b1e",
-				"name": "6 \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u043e\u0432"
+				"name": "6 динамиков"
 			},
 			{
 				"id": "e1265686-4ca6-4132-b7e9-62f6b3d2bf34",
-				"name": "\u0411\u043e\u043a\u043e\u0432\u044b\u0435 \u043f\u043e\u0434\u0443\u0448\u043a\u0438 \u0438 \u0448\u0442\u043e\u0440\u043a\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438"
+				"name": "Боковые подушки и шторки безопасности"
 			}],
 			"transmissions": [
 			{

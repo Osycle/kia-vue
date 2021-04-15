@@ -1595,6 +1595,7 @@ $heightSlider: auto;
 	max-width: 1000px;
 }
 .pano-active{
+	padding-top: 0 !important;
 	@media (min-width: 991px){
 		color: white;
 		.color-2{
@@ -1659,9 +1660,6 @@ $heightSlider: auto;
 }
 .showroom-colorselect{
 	.title-content{
-		span:not([class]){
-			display: none;
-		}
 	}
 	a{
 		position: relative;
@@ -4156,4 +4154,9 @@ dt{
 	//background-color: $color-gray-1;
 	border-radius: 100%;
 	overflow: visible;
+}
+#krpanoSWFObject{
+	div[style*="preserve-3d"]{
+		display: none;
+	}
 }

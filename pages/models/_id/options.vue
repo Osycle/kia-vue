@@ -728,6 +728,17 @@
 						<div class="section-body">
 							<div class="section-body-wrapper">
 								<div class="list-block-body">
+									<h4>Мультимедиа</h4>
+									<ul>
+									<template>
+										<li v-for="(options_base, key) in page.modifications.options_base" 
+												v-if="options_base.group_name == 'Мультимедиа'" :key="key">
+											<span>{{options_base.name}}</span>
+										</li>
+									</template>
+									</ul>
+								</div>
+								<div class="list-block-body">
 									<h4>Экстерьер</h4>
 									<ul>
 									<template>
@@ -738,7 +749,6 @@
 									</template>
 									</ul>
 								</div>
-								
 								<div class="list-block-body">
 									<h4>Интерьер</h4>
 									<ul>

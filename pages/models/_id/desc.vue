@@ -41,7 +41,6 @@
         </div>
       </div>
     </div>
-
     <div class="card-bnr card-top relative" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'model'">
       <div class="bg-video-content cover">
         <video v-if="bnr.video" :src="'https://cdn.kia.ru/'+bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
@@ -224,7 +223,6 @@
         </div>
       </div>
     </div>
-
     <div class="card-showroom car-showroom"> 
       <div class="showroom" :class="{'pano-active': panoActive}">
         <div class="container-p relative">
@@ -267,7 +265,8 @@
         </div>
         <div v-else>
           <div class="showroom-pano">
-            <iframe :src="'https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/'+panoramasComplectation.panoramas[0].path+'/pano.xml'" frameborder="0"></iframe>
+            <iframe v-if="!panoramasComplectation.panoramas[0].path.match('master-data')" :src="'/panoramas/'+panoramasComplectation.panoramas[0].path+'/tour.html'" frameborder="0"></iframe>
+            <iframe v-else :src="'https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/'+panoramasComplectation.panoramas[0].path+'/pano.xml'" frameborder="0"></iframe>
           </div>
         </div>
         
@@ -415,14 +414,12 @@
         </div>
       </div>
     </div>
-
+    
   </div>
 </template>
 
 
 <script>
-
-
 export default {
   head() {
     return {
@@ -548,7 +545,6 @@ export default {
         this.selectInteriorColor = color;
           parentClass = parentClass || ".showroom-pano";
           
-        console.log(color, $(parentClass).find("iframe"));
       },
 
     }

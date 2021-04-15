@@ -234,8 +234,7 @@ if ( $(".js-select").length )
 				navText : owlBtn,
 				margin: 30
 		});
-
-
+    
 		if(!window.mainJsActive)
 			$(document).on('click.toggle', '[tc]', function(e){
 				e.preventDefault();

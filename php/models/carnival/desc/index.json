@@ -1079,19 +1079,10 @@
 		{
 			"colors": [
 			{
-				"code": "BM1",
-				"id": "c0af59a2-7399-414b-bd7b-abd669288623",
-				"image": "\/master-data\/colors\/31fe4ca4-3591-4369-ba7c-e968a08798ae.svg",
-				"name": "\u041a\u043e\u043d\u044c\u044f\u0447\u043d\u043e-\u043a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439 \/ \u0447\u0435\u0440\u043d\u044b\u0439",
-				"name_en": null,
-				"price": null,
-				"sort": 13500
-			},
-			{
-				"code": "JY2",
-				"id": "c1c8b637-9177-41f0-a634-80d4e0eea86e",
-				"image": "\/master-data\/colors\/78503308-3650-45da-8a84-79c7cb60db0d.svg",
-				"name": "\u0413\u043e\u0440\u0447\u0438\u0447\u043d\u043e-\u0431\u0435\u0436\u0435\u0432\u044b\u0439 \/ \u0447\u0435\u0440\u043d\u044b\u0439",
+				"code": "GYT",
+				"id": "edf6a6b4-bf71-4587-9912-591c29ceaef4",
+				"image": "/master-data/colors/e77ffe0e-dd2d-4540-8c7c-ed40ed74de69.svg",
+				"name": "Черный / черный+ серый",
 				"name_en": null,
 				"price": null,
 				"sort": 13500
@@ -1102,12 +1093,8 @@
 				"name": "Premium+",
 				"panoramas": [
 				{
-					"color_id": "c1c8b637-9177-41f0-a634-80d4e0eea86e",
-					"path": "\/master-data\/panorama\/HS\/2021\/H199\/1K\/"
-				},
-				{
-					"color_id": "c0af59a2-7399-414b-bd7b-abd669288623",
-					"path": "\/master-data\/panorama\/HS\/2021\/H199\/1K\/"
+					"color_id": "edf6a6b4-bf71-4587-9912-591c29ceaef4",
+					"path": "/carnival/15000/"
 				}]
 			},
 			{
@@ -1115,12 +1102,8 @@
 				"name": "Premium+",
 				"panoramas": [
 				{
-					"color_id": "c1c8b637-9177-41f0-a634-80d4e0eea86e",
-					"path": "\/master-data\/panorama\/HS\/2021\/H199\/1K\/"
-				},
-				{
-					"color_id": "c0af59a2-7399-414b-bd7b-abd669288623",
-					"path": "\/master-data\/panorama\/HS\/2021\/H199\/1K\/"
+					"color_id": "edf6a6b4-bf71-4587-9912-591c29ceaef4",
+					"path": "/carnival/15000/"
 				}]
 			}]
 		},
