@@ -3983,6 +3983,17 @@ dt{
 
 
 .special-info{
+	
+	h4{
+		font-size: em(18);
+	}
+	ul{
+		margin-top: 25px;
+		margin-bottom: 25px;
+		li{
+			font-size: 15px;
+		}
+	}
 	@media (min-width: 991px){
 		ul{
 			max-width: 440px;
@@ -4155,15 +4166,78 @@ dt{
 	border-radius: 100%;
 	overflow: visible;
 }
-#krpanoSWFObject{
-	div[style*="preserve-3d"]{
-		display: none;
-	}
-}
+
 
 .services-items{
 	.item-wrapper{
+		height: 100%;
 		background-color: $color-gray-1;
 		padding: 30px;
+	}
+}
+.acc-def{
+}
+.acc-item{
+	.title-click{
+		font-weight: 600;
+		font-size: em(22);
+		display: block;
+		border-bottom: 1px solid $color-gray-3;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		position: relative;
+		padding-right: 20px;
+		i{
+			position: absolute;
+			right: 0;
+			transition: all 0.3s ease;
+			top: 50%;
+			font-weight: 900;
+			transform: translateY(-50%);
+		}
+	}
+	&:not(.active){
+		.acc-body{
+			//display: none;
+			height: 0;
+			overflow: hidden;
+			padding-bottom: 0;
+		}
+	}
+	&.active {
+		.title-click{
+			i{
+				transform: translateY(-50%) scale(-1);
+			}
+		}
+
+	}
+}
+.acc-body{
+	.acc-body-wrapper{
+		padding-top: 20px;
+		padding-bottom: 20px;	
+	}
+}
+
+.warranty-advantages{
+	.wrapper{
+		background-color: $color-gray-1;
+		padding: 30px;
+	}
+}
+.warranty-advantages-items{
+	i{
+		font-size: 25px;
+		color: $color-1;
+		font-weight: 100;
+	}
+	.cell-wrapper{
+		height: 100%;
+	}
+	.text{
+		line-height: 170%;
+		font-weight: 300;
+
 	}
 }
