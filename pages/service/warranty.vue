@@ -5,7 +5,7 @@
         <div class="container-p">
           <ol class="breadcrumb">
             <li><nuxt-link to="/">Главная</nuxt-link></li>
-            <li><nuxt-link to="/service/warranty/">Гарантия на автомобили KIA</nuxt-link></li>
+            <li><nuxt-link to="">Гарантия на автомобили KIA</nuxt-link></li>
           </ol>
         </div>
       </div>

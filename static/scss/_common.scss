@@ -243,6 +243,18 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 */
 .breadcrumb-container{
 	position: relative;
+	&.color-gray{
+		.breadcrumb{
+			a{
+				color: #666;
+			}
+			li{
+				&:before{
+					color: #666;
+				}
+			}
+		}
+	}
 }
 .breadcrumb{
 	padding: 20px 0;
