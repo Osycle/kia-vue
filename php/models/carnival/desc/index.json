@@ -1094,7 +1094,7 @@
 				"panoramas": [
 				{
 					"color_id": "edf6a6b4-bf71-4587-9912-591c29ceaef4",
-					"path": "/carnival/15000/"
+					"path": "/panoramas/carnival/15000/tourdata/tour.xml"
 				}]
 			},
 			{
@@ -1103,7 +1103,7 @@
 				"panoramas": [
 				{
 					"color_id": "edf6a6b4-bf71-4587-9912-591c29ceaef4",
-					"path": "/carnival/15000/"
+					"path": "/panoramas/carnival/15000/tourdata/tour.xml"
 				}]
 			}]
 		},

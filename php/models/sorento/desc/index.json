@@ -1416,7 +1416,7 @@
 				"panoramas": [
 				{
 					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
-					"path": "/sorento/16000/"
+					"path": "/panoramas/sorento/16000/tourdata/tour.xml"
 				}]
 			},
 			{
@@ -1425,7 +1425,7 @@
 				"panoramas": [
 				{
 					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
-					"path": "/sorento/16000/"
+					"path": "/panoramas/sorento/16000/tourdata/tour.xml"
 				}]
 			},
 			{
@@ -1434,7 +1434,7 @@
 				"panoramas": [
 				{
 					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
-					"path": "/sorento/16000/"
+					"path": "/panoramas/sorento/16000/tourdata/tour.xml"
 				}]
 			}]
 		},
