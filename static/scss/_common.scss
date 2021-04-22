@@ -177,7 +177,11 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 	}
 
 }
-
+.text-spacing{
+	line-height: 140%;
+  letter-spacing: -.02em;
+  font-weight: 700;
+}
 .list-style-1{
 	ul:not([class]){
 		font-size: 0.95em;
@@ -197,6 +201,13 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 }
 
 .list-check{
+	&.list-color-1{
+		li{
+			&:before{
+				background: url('../img/icons/check-red.svg') 50% no-repeat;
+			}
+		}
+	}
 	li{
 		list-style: none;
 		position: relative;
@@ -214,6 +225,12 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 			background-size: 13px;
 			content: "";
 		}
+	}
+}
+.lists-check{
+	@extend .list-check;
+	ul{
+		@extend .list-check;
 	}
 }
 

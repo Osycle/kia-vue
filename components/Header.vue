@@ -63,6 +63,12 @@
                         <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
                       </ul>
                     </div>
+                    <div class="item">
+                      <div class="color-gray-4 title-content">Владельцам</div>
+                      <ul>
+                        <li><nuxt-link to="/service/">Все сервисы</nuxt-link></li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
                 <div class="subdown-right hide">

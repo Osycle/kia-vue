@@ -113,17 +113,6 @@
       "label_name": "Новинка",
       "name": "Carnival",
       "sort": 140
-    },
-    {
-      "cars_in_stock": 1,
-      "code": "k900",
-      "external_id": "J6",
-      "group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
-      "id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
-      "is_coming_soon": 0,
-      "label_name": null,
-      "name": "K900",
-      "sort": 600
     }],
     "models": [
     {
@@ -227,23 +216,6 @@
       "price_list": "\/master-data\/pdf\/model\/carnival_2021.pdf",
       "unique_id": "HSB720212021",
       "landing_link": "\/models\/carnival\/teaser\/"
-    },
-    {
-      "accessories": null,
-      "brochure": "\/master-data\/brochures\/Kia_K900_pre.pdf",
-      "carcass_type_id": "f01665e8-1b78-48cf-8729-8c206c4de6d3",
-      "id": "db9a1d19-fdbd-47c1-84d7-5cb70677f1c9",
-      "image": "\/master-data\/models\/k900.png",
-      "image_left": "\/master-data\/models\/k900.png",
-      "image_right": "\/master-data\/models\/k900.png",
-      "image_side_view": "\/master-data\/models\/image_side\/k900.png",
-      "max_benefit": 0,
-      "min_credit_month_price": 19820,
-      "min_price": 0,
-      "model_line_id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
-      "price_list": "\/master-data\/pdf\/model\/k900_2021.pdf",
-      "unique_id": "J6S420192021",
-      "landing_link": null
     }],
     "disclaimers":
     {

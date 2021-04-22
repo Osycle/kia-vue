@@ -73,39 +73,6 @@
       "bg_color": null,
       "bg_images":
       {
-        "desktop": "/media-data/infographics/k900/comfort.jpg",
-        "mobile": "/media-data/infographics/k900/comfort.jpg",
-        "retina": "/media-data/infographics/k900/comfort.jpg"
-      },
-      "description": "Полный привод и автомат 8АТ • Двигатели 3.3 V6 и 5.0 V8 • Максимальный комфорт для всех пассажирова",
-      "group_code": "main_page_header",
-      "images":
-      {
-        "desktop": "/media-data/banners/models/k900/main_footer/desktop.png",
-        "mobile": "/media-data/banners/models/k900/main_footer/mobile.png",
-        "retina": "/media-data/banners/models/k900/main_footer/desktop.png"
-      },
-      "link":
-      {
-        "title": "Подробнее",
-        "url": "\/models\/k900\/desc\/"
-      },
-      "logo":
-      {
-        "image": null,
-        "label": null,
-        "signature": "Мой путь Мой выбор"
-      },
-      "name": "Новый Kia K900",
-      "teasers": [],
-      "title": "Скоро",
-      "type_code": "center",
-      "video": null
-    },
-    {
-      "bg_color": null,
-      "bg_images":
-      {
         "desktop": "\/media-data\/banner\/desktop_bg\/781a9d82-ca14-4909-9c46-2336e099f422.jpeg",
         "mobile": "\/media-data\/banner\/mobile_bg\/d3e1d1ae-52b4-497c-aa99-ba740f27bdff.jpeg",
         "retina": "\/media-data\/banner\/retina_bg\/295a0491-fe20-47dd-ae61-d71f0aa7a4b5.jpeg"

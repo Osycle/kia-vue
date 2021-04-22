@@ -265,6 +265,7 @@
         </div>
         <div v-else>
           <div class="showroom-pano">
+            <!-- <iframe src="/panoramas/seltos/1k/pano.xml" frameborder="0"></iframe> -->
             <iframe v-if="!panoramasComplectation.panoramas[0].path.match('master-data')" :src="'/panoramas/'+panoramasComplectation.panoramas[0].path+'/tour.html'" frameborder="0"></iframe>
             <iframe v-else :src="'https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/'+panoramasComplectation.panoramas[0].path+'/pano.xml'" frameborder="0"></iframe>
           </div>

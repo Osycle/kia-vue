@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+<!-- ********** -->
+<!-- Footer -->
+<!-- id : footer -->
+<!-- ********** -->
+
+  <layer name="footer"
+         keep="true"
+         url="%FIRSTXML%/graphics/footer/footer.png" 
+         bgalpha="0.40000000000000002"
+         align="bottom"
+         x="0"
+         y="0"
+         zorder="1"
+         enabled="false"
+         capture="true"
+         visible="false"
+         height="60"
+         width="100%"
+         accuracy="1"
+         />
+
+  <events name="footerevents" 
+    onTourStart="showfooter();"
+    hidetourcontrols="hidefooter();"
+    showtourcontrols="showfooter();"
+    keep="true" />
+
+  <action name="hidefooter">
+    set(layer[footer].visible, false);
+  </action>
+  <action name="showfooter">
+    set(layer[footer].visible, true);
+  </action>
+
+<!-- ********** -->
+<!-- Sans Control Bar -->
+<!-- id : SansControlBar -->
+<!-- ********** -->
+
+  <krpano SansControlBarbarbuilt="false" SansControlBarbackgroundwidthwhenclosed="0" SansControlBarbackgroundwidthwhenopened="0" SansControlBarIsOpened="false" />
+  <events name="SansControlBarevents" 
+    onxmlcomplete="SansControlBarbuildMenuBar();" 
+
+
+    keep="true" />
+
+
+
+  <action name="SansControlBarbuildMenuBar">
+    ifnot (SansControlBarbarbuilt, SansControlBarbuildMenu(); set(SansControlBarbarbuilt, true););
+  </action>
+
+  <style name="SansControlBar_btn_style"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="40" height="40"
+         crop="0|0|60|60"
+         onovercrop="0|60|60|60"
+         ondowncrop="0|120|60|60"
+         onhover="showTooltip('plugin', SansControlBarmenuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+         />
+  <style name="SansControlBar_btn_style_off"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="40" height="40"
+         onhover="showTooltip('plugin', SansControlBarmenuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+         />
+
+  <layer name="SansControlBar_menu_bg"
+         keep="true"
+         type="container"
+         zorder="2"
+         width="40"
+         height="40"
+         align="bottom"
+         x="0" y="10"
+         maskchildren="true"
+         rotate="0"
+         visible="false"
+         >
+
+
+    <layer name="SansControlBarbtn_ctrlmode_move_to"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_move_to.png"
+            style="SansControlBar_btn_style"
+            tooltip="SansControlBarctrlmodeMoveTip"
+            onclick="setControlModeMoveTo();
+"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="SansControlBarbtn_ctrlmode_drag_to"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_drag_to.png"
+            style="SansControlBar_btn_style"
+            tooltip="SansControlBarctrlmodeDragTip"
+            onclick="setControlModeDragTo();
+"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="SansControlBarbtn_in"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_zoom_in.png"
+            ondown="viewControlZoomIn(false);"
+            onup="viewControlZoomStop();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            tooltip="SansControlBarzoomInTip"
+            devices="desktop"
+            />
+    <layer name="SansControlBarbtn_out"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_zoom_out.png"
+            ondown="viewControlZoomOut(false);
+"
+            onup="viewControlZoomStop();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            tooltip="SansControlBarzoomOutTip"
+            devices="desktop"
+            />
+
+    <layer name="SansControlBarbtn_left"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_move_left.png"
+            ondown="viewControlMoveLeft(false);
+"
+            onup="viewControlMoveHoriStop();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            tooltip="SansControlBarmoveLeftTip"
+            devices="desktop"
+            />
+    <layer name="SansControlBarbtn_right"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_move_right.png"
+            ondown="viewControlMoveRight(false);
+"
+            onup="viewControlMoveHoriStop();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            tooltip="SansControlBarmoveRightTip"
+            devices="desktop"
+            />
+
+    <layer name="SansControlBarbtn_up"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_move_up.png"
+            ondown="viewControlMoveUp(false);
+"
+            onup="viewControlMoveVertStop();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            tooltip="SansControlBarmoveUpTip"
+            devices="desktop"
+            />
+    <layer name="SansControlBarbtn_down"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_move_down.png"
+            ondown="viewControlMoveDown(false);
+"
+            onup="viewControlMoveVertStop();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            tooltip="SansControlBarmoveDownTip"
+            devices="desktop"
+            />
+
+
+
+
+
+    <layer name="SansControlBarbtn_openfs"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_enter_fs.png"
+            onclick="enterFullscreen();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="SansControlBaropenFsTip"
+            />
+    <layer name="SansControlBarbtn_closefs"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_close_fs.png"
+            onclick="exitFullscreen();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="SansControlBarcloseFsTip"
+            />
+
+    <layer name="SansControlBarbtn_autorotate_on"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_start_autorotation.png"
+            onclick="resumeautorotation();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            tooltip="SansControlBarautorotateOnTip"
+            />
+    <layer name="SansControlBarbtn_autorotate_off"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_stop_autorotation.png"
+            onclick="pauseautorotation();
+"
+            style="SansControlBar_btn_style"
+            visible="false"
+            tooltip="SansControlBarautorotateOffTip"
+            />
+
+
+
+    <layer name="SansControlBarbtn_display_help"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_help.png"
+            onclick="SansControlBardisplayHelp();"
+            style="SansControlBar_btn_style"
+            devices="desktop"
+            visible="false"
+            tooltip="SansControlBardisplayHelpTip"
+            />
+    <layer name="SansControlBarbtn_close_help"
+            url="%FIRSTXML%/graphics/sans_controlbar/btn_help.png"
+            onclick="SansControlBarcloseHelp();"
+            style="SansControlBar_btn_style"
+            visible="false"
+            devices="desktop"
+            tooltip="SansControlBarhideHelpTip"
+            />
+
+
+
+ </layer>
+
+
+
+
+
+	<events name="SansControlBarcontrolmodechangedevent" 
+		oncontrolmodechanged="SansControlBarupdateControlModeButtons();" 
+		keep="true" />
+	<action name="SansControlBarHideControlModeButtons">
+		set(layer[SansControlBarbtn_ctrlmode_move_to].visible, false);
+		set(layer[SansControlBarbtn_ctrlmode_drag_to].visible, false);
+	</action>
+	<action name="SansControlBarShowControlModeButtons">
+		if (tour_controlmodemousetype == "moveto",
+			set(layer[SansControlBarbtn_ctrlmode_drag_to].visible, true);
+			set(layer[SansControlBarbtn_ctrlmode_move_to].visible, false);
+		,
+			set(layer[SansControlBarbtn_ctrlmode_move_to].visible, true);
+			set(layer[SansControlBarbtn_ctrlmode_drag_to].visible, false);
+		);
+	</action>
+	<action name="SansControlBarupdateControlModeButtons">
+	if (device.desktop,
+		if (tour_displaycontrols,
+			SansControlBarShowControlModeButtons();
+		,
+			SansControlBarHideControlModeButtons();
+		);
+	,
+		SansControlBarHideControlModeButtons();
+	);
+	</action>
+
+	<events name="SansControlBarhideshowcontrolsevent" 
+		hidetourcontrols="SansControlBarhideMenuControls();" 
+		showtourcontrols="SansControlBarshowMenuControls();" 
+		keep="true" />
+
+  <action name="SansControlBarhideMenuControls">
+    set(SansControlBarIsOpened, false);
+
+
+if (device.desktop,
+	set(layer[SansControlBarbtn_in].visible, false);
+	set(layer[SansControlBarbtn_out].visible, false);
+);
+if (device.desktop,
+	set(layer[SansControlBarbtn_up].visible, false);
+	set(layer[SansControlBarbtn_down].visible, false);
+);
+if (device.desktop,
+	set(layer[SansControlBarbtn_left].visible, false);
+	set(layer[SansControlBarbtn_right].visible, false);
+);
+	SansControlBarupdateFullscreenButtons();
+	SansControlBarupdateHelpButtons();
+
+
+	SansControlBarupdateAutorotationButtons();
+
+
+	SansControlBarupdateControlModeButtons();
+
+
+
+
+	set(layer[SansControlBar_menu_bg].width, get(SansControlBarbackgroundwidthwhenclosed));
+
+	set(layer[SansControlBar_menu_bg].visible, true);
+	set(layer[SansControlBar_menu_bg].alpha, 0.0);
+  </action>
+  <action name="SansControlBarshowMenuControls">
+    set(SansControlBarIsOpened, true);
+	set(layer[SansControlBar_menu_bg].visible, true);
+	set(layer[SansControlBar_menu_bg].alpha, 1.0);
+
+
+if (device.desktop,
+	set(layer[SansControlBarbtn_in].visible, true);
+	set(layer[SansControlBarbtn_out].visible, true);
+);
+if (device.desktop,
+	set(layer[SansControlBarbtn_up].visible, true);
+	set(layer[SansControlBarbtn_down].visible, true);
+);
+if (device.desktop,
+	set(layer[SansControlBarbtn_left].visible, true);
+	set(layer[SansControlBarbtn_right].visible, true);
+);
+	SansControlBarupdateFullscreenButtons();
+	SansControlBarupdateHelpButtons();
+
+
+	SansControlBarupdateAutorotationButtons();
+
+
+	SansControlBarupdateControlModeButtons();
+
+
+
+    set(layer[SansControlBar_menu_bg].width, get(SansControlBarbackgroundwidthwhenopened));
+  </action>
+
+  <layer name="SansControlBarhelpScreenBg"
+         align="center"
+         keep="true"
+         onclick="SansControlBarcloseHelp();"
+         url="%FIRSTXML%/graphics/sans_controlbar/help_screen_bg.png"
+         visible="false"
+         rotate="-90"
+         height="50%"
+         width="prop"
+         zorder="97"
+         x="100%" />
+  <layer name="SansControlBarhelpScreenFg"
+         align="center"
+         keep="true"
+         onclick="SansControlBarcloseHelp();"
+         url="%FIRSTXML%/graphics/sans_controlbar/help_screen_fg.png"
+         height="50%"
+         width="prop"
+         visible="false"
+         rotate="90"
+         zorder="98"
+         x="-100%"
+         displayed="false" />
+  <action name="SansControlBardisplayHelp">
+  if (device.desktop,
+    set(layer[SansControlBarhelpScreenFg].displayed,true);
+    set(layer[SansControlBarhelpScreenBg].visible,true);
+    set(layer[SansControlBarhelpScreenFg].visible,true);
+    tween(layer[SansControlBarhelpScreenFg].rotate,0, 1);
+    tween(layer[SansControlBarhelpScreenFg].x,0, 1);
+    tween(layer[SansControlBarhelpScreenBg].rotate,0, 1);
+    tween(layer[SansControlBarhelpScreenBg].x,0, 1);
+    SansControlBarupdateHelpButtons();
+  );
+  </action>
+  <action name="SansControlBarcloseHelp">
+  if (device.desktop,
+    set(layer[SansControlBarhelpScreenFg].displayed,false);
+    tween(layer[SansControlBarhelpScreenFg].rotate,  90, 1, easeOutQuad, set(layer[SansControlBarhelpScreenFg].visible,false););
+    tween(layer[SansControlBarhelpScreenFg].x, -100%, 1);
+    tween(layer[SansControlBarhelpScreenBg].rotate, -90, 1, easeOutQuad, set(layer[SansControlBarhelpScreenBg].visible,false););
+    tween(layer[SansControlBarhelpScreenBg].x, 100%, 1);
+    SansControlBarupdateHelpButtons();
+  );
+  </action>
+	<action name="SansControlBarHideHelpButtons">
+		set(layer[SansControlBarbtn_display_help].visible, false);
+		set(layer[SansControlBarbtn_close_help].visible, false);
+	</action>
+	<action name="SansControlBarShowHelpButtons">
+		if (layer[SansControlBarhelpScreenFg].displayed,
+			set(layer[SansControlBarbtn_close_help].visible, true);
+			set(layer[SansControlBarbtn_display_help].visible, false);
+		,
+			set(layer[SansControlBarbtn_display_help].visible, true);
+			set(layer[SansControlBarbtn_close_help].visible, false);
+		);
+	</action>
+	<action name="SansControlBarupdateHelpButtons">
+	if (device.desktop,
+		if (tour_displaycontrols,
+			SansControlBarShowHelpButtons();
+		,
+			SansControlBarHideHelpButtons();
+		);
+	,
+		SansControlBarHideHelpButtons();
+	);
+	</action>
+
+
+
+
+  <events name="SansControlBarmenufullscreenchangeevent"
+          onenterfullscreen="SansControlBarupdateFullscreenButtons();"
+          onexitfullscreen="SansControlBarupdateFullscreenButtons();"
+          keep="true"/>
+	<action name="SansControlBarHideFullscreenButtons">
+		set(layer[SansControlBarbtn_openfs].visible , false);
+		set(layer[SansControlBarbtn_closefs].visible, false);
+	</action>
+	<action name="SansControlBarShowFullscreenButtons">
+		if (device.fullscreensupport,
+			if(tour_fullscreen,
+				set(layer[SansControlBarbtn_openfs].visible , false);
+				set(layer[SansControlBarbtn_closefs].visible, true);
+			,
+				set(layer[SansControlBarbtn_openfs].visible ,true);
+				set(layer[SansControlBarbtn_closefs].visible,false);
+			);
+		,
+			SansControlBarHideFullscreenButtons();
+		);
+	</action>
+	<action name="SansControlBarupdateFullscreenButtons">
+		if (tour_displaycontrols,
+			SansControlBarShowFullscreenButtons();
+		,
+			SansControlBarHideFullscreenButtons();
+		);
+	</action>
+
+	<events name="SansControlBarAutorotationEvents"
+		onstartautorotation="SansControlBarupdateAutorotationButtons();"
+		onresumeautorotation="SansControlBarupdateAutorotationButtons();"
+		onstopautorotation="SansControlBarupdateAutorotationButtons();"
+		onpauseautorotation="SansControlBarupdateAutorotationButtons();"
+		keep="true"/>
+	<action name="SansControlBarHideAutorotationButtons">
+		set(layer[SansControlBarbtn_autorotate_off].visible, false);
+		set(layer[SansControlBarbtn_autorotate_on].visible , false);
+	</action>
+	<action name="SansControlBarShowAutorotationButtons">
+		if(autorotate.enabled == false,
+			set(layer[SansControlBarbtn_autorotate_off].visible, false);
+			set(layer[SansControlBarbtn_autorotate_on].visible , true);
+		,
+			set(layer[SansControlBarbtn_autorotate_off].visible, true);
+			set(layer[SansControlBarbtn_autorotate_on].visible , false);
+		);
+	</action>
+	<action name="SansControlBarupdateAutorotationButtons">
+		if (tour_displaycontrols,
+			SansControlBarShowAutorotationButtons();
+		,
+			SansControlBarHideAutorotationButtons();
+		);
+	</action>
+
+
+
+<layer name="SansControlBarmenuTooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	background="true"
+	backgroundcolor="0x0b0b0b"
+	backgroundalpha="0.7000076295109483"
+	border="false"
+	css="color:#f5f5f5;font-family:Helvetica;font-weight:bold;font-size:14px;text-align:left;"
+	height="20"
+	autoheight="true"
+	autowidth="auto"
+	xoffset="0"
+	yoffset="0"
+	padding="2"
+	selectable="false"
+	zorder="0"
+	visible="false"
+	html=""
+	edge="bottom"
+/>
+  <action name="SansControlBarbuildMenu">
+    
+    set(SansControlBarbutton_pos, 0);
+
+
+
+      if (device.desktop,
+        set(layer[SansControlBarbtn_display_help].x, get(SansControlBarbutton_pos));
+        set(layer[SansControlBarbtn_close_help].x  , get(SansControlBarbutton_pos));
+        inc(SansControlBarbutton_pos, 45);
+      );
+
+      if (device.fullscreensupport,
+        set(layer[SansControlBarbtn_openfs].x , get(SansControlBarbutton_pos));
+        set(layer[SansControlBarbtn_closefs].x, get(SansControlBarbutton_pos));
+        inc(SansControlBarbutton_pos, 45);
+      );
+
+
+
+      set(layer[SansControlBarbtn_autorotate_on].x , get(SansControlBarbutton_pos));
+      set(layer[SansControlBarbtn_autorotate_off].x, get(SansControlBarbutton_pos));
+      inc(SansControlBarbutton_pos, 45);
+
+
+
+    if (device.desktop,
+      set(layer[SansControlBarbtn_ctrlmode_drag_to].x, get(SansControlBarbutton_pos));
+      set(layer[SansControlBarbtn_ctrlmode_move_to].x, get(SansControlBarbutton_pos));
+      inc(SansControlBarbutton_pos, 45);
+    );
+
+
+
+
+
+      if (device.desktop,
+        set(layer[SansControlBarbtn_right].x, get(SansControlBarbutton_pos));
+        inc(SansControlBarbutton_pos, 45);
+        set(layer[SansControlBarbtn_left].x, get(SansControlBarbutton_pos));
+        inc(SansControlBarbutton_pos, 45);
+      );
+
+      if (device.desktop,
+        set(layer[SansControlBarbtn_down].x, get(SansControlBarbutton_pos));
+        inc(SansControlBarbutton_pos, 45);
+        set(layer[SansControlBarbtn_up].x, get(SansControlBarbutton_pos));
+        inc(SansControlBarbutton_pos, 45);
+      );
+
+      if (device.desktop,
+        set(layer[SansControlBarbtn_out].x, get(SansControlBarbutton_pos));
+        inc(SansControlBarbutton_pos, 45);
+        set(layer[SansControlBarbtn_in].x, get(SansControlBarbutton_pos));
+        inc(SansControlBarbutton_pos, 45);
+      );
+
+
+
+      dec(SansControlBarbutton_pos, 5);
+
+      set(SansControlBarbackgroundwidthwhenopened, get(SansControlBarbutton_pos));
+
+
+    
+      set(layer[SansControlBar_menu_bg].width, get(SansControlBarbackgroundwidthwhenopened));
+	
+	
+	
+    </action>
+
+	<events name="SansControlBarStartTourEvents" onTourStart="SansControlBarCallOnStartTour();" keep="true" />
+	
+	<action name="SansControlBarCallOnStartTour">
+		
+		showTourControls();
+
+	</action>
+
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);set(fullscreen,false);</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);set(fullscreen,true);</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+
+<action name="viewControlMoveUp">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(isfullvertical == false AND calc(view.vlookat-%2) LT view.vlookatmin,
+				moveto(get(view.hlookat), get(view.vlookatmin));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat-%2));
+			);
+		,
+			set(vlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveDown">
+	if(%1,
+		if(%2,
+			set(isfullvertical, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewvfov, panoview.vmax, panoview.vmin);
+				if (viewvfov == 180,
+					set(isfullvertical, true);
+				);
+			);
+			if(sceneisfull360 == false AND calc(view.vlookat+%2) GT view.vlookatmax,
+				moveto(get(view.hlookat), get(view.vlookatmax));
+			,
+				moveto(get(view.hlookat), calc(view.vlookat+%2));
+			);
+		,
+			set(vlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveVertStop());
+		);
+	,
+		set(vlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveLeft">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat-%2) LT view.hlookatmin,
+				moveto(get(view.hlookatmin), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat-%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, -1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+		);
+	,
+		set(hlookat_moveforce, -1);
+	);
+</action>
+<action name="viewControlMoveRight">
+	if(%1,
+		if(%2,
+			set(isfullhorizontal, false);
+			ifnot(scene[get(xml.scene)].planar,
+				sub(viewhfov, panoview.hmax, panoview.hmin);
+				if (viewhfov == 360,
+					set(isfullhorizontal, true);
+				);
+			);
+			if(isfullhorizontal == false AND calc(view.hlookat+%2) GT view.hlookatmax,
+				moveto(get(view.hlookatmax), get(view.vlookat));
+			,
+				moveto(calc(view.hlookat+%2), get(view.vlookat));
+			);
+		,
+			set(hlookat_moveforce, +1);
+			delayedcall(0.1, viewControlMoveHoriStop());
+			
+		);
+	,
+		set(hlookat_moveforce, +1);
+	);
+</action>
+<action name="viewControlMoveHoriStop">
+	set(hlookat_moveforce, 0);
+</action>
+<action name="viewControlMoveVertStop">
+	set(vlookat_moveforce, 0);
+</action>
+
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+<action name="viewControlZoomIn">
+	if(%1,
+		if(%2,
+			if(%2 LT view.fovmin,
+				zoomto(get(view.fovmin));
+			,
+				if(%2 LT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, -1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, -1);
+	);
+</action>
+<action name="viewControlZoomOut">
+	if(%1,
+		if(%2,
+			if(%2 GT view.fovmax,
+				zoomto(get(view.fovmax));
+			,
+				if(%2 GT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, +1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, +1);
+	);
+</action>
+<action name="viewControlZoomStop">
+	set(fov_moveforce, 0);
+</action>
+
+</krpano>
