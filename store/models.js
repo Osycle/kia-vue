@@ -18,5 +18,21 @@ export const actions = {
       throw e
     }
   },
-  
+  async fetchModels(context, params){
+    try{
+      const models = await this.$axios.$get('https://api.kia-motors.uz/configurator/get/1');
+      var selectModel;
+      
+      models.forEach(m => {
+        if (m.url == params.modelName) 
+          selectModel = m;
+      });
+      const model = await this.$axios.$get('https://api.kia-motors.uz/configurator/get/2/'+selectModel.id)
+      return {
+        model
+      };
+    }catch(e){
+      throw e
+    }
+  },
 }
