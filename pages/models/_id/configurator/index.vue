@@ -92,8 +92,9 @@
                     <h4>Двигатель</h4>
                     <ul class="flex-list">
                       <li v-for="(engine, key) in model.engines" :key="key" :class="{'active': engine.id == currentEngine.id}"
-                          :ref="'li-engine-'+key"
-                          @click.prevent.stop="selectParamItem(engine, 'li-engine-'+key, $event)">
+                          :ref="'paramEngine'"
+                          :car-param="engine.name"
+                          @click.prevent.stop="selectParamItem(engine, 'currentEngine', $event)">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -109,7 +110,10 @@
                   <div class="car-params-item">
                     <h4>Коробка передач</h4>
                     <ul class="flex-list">
-                      <li v-for="(gear, key) in model.gears" :key="key" :class="{'active': gear.name == currentGearbox.name}">
+                      <li v-for="(gear, key) in model.gears" :key="key" :class="{'active': gear.name == currentGearbox.name}" 
+                        :ref="'paramGearbox'"
+                        :car-param="gear.name"
+                        @click.prevent.stop="selectParamItem(gear, 'currentGearbox', $event)">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -138,48 +142,6 @@
                       </li>
                     </ul>
                   </div>
-                  <!-- <div class="car-params-item car-params-transmission">
-                    <h4>Коробка передач</h4>
-                    <ul class="flex-list">
-                      <li v-for="(transmission, key) in uniqueParams.transmissions" class="disabled" :key="key" @click.prevent.stop="carParamClickTransmission(transmission)" car-param>
-                        <div class="car-params-btn">
-                          <div class="flex">
-                            <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
-                            <div class="m-l-15" v-for="(gearbox, key) in page.gearboxes" :key="key" v-if="transmission.gearbox_id == gearbox.id"
-                              :param-uniq="transmission.gears_number+gearbox.code"
-                              >
-                              <div class="fw-6">
-                                {{gearbox.name}}
-                              </div>
-                              {{transmission.gears_number}}{{gearbox.code}}
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="car-params-item car-params-drive">
-                    <h4>Привод</h4>
-                    <ul class="flex-list">
-                      <li v-for="(drive, key) in page.drives" :key="key" class="disabled" car-param
-                        @click.prevent.stop="carParamClickDrive(drive)"
-                        :param-drive-id="drive.id"
-                        :param-drive-code="drive.code"
-                        >
-                        <div class="car-params-btn">
-                          <div class="flex">
-                            <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
-                            <div class="m-l-15">
-                              <div class="fw-6">
-                                {{drive.name}}
-                              </div>
-                              {{drive.code}}
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div> -->
                 </div>
               </div>
             </div>
@@ -241,9 +203,55 @@ export default {
         modelName
       })
       
-      console.log(page_data);
+      //console.log(page_data);
+      var ata = {
+        "id": 978,
+        "title": "K5",
+        "sideImage": "https://cdn.kia-motors.uz/uploads/gallery/original-20bc78.png",
+        "engines": [
+        {
+          "id": 0,
+          "name": "2.0 MPI",
+          "descr": "150 л.c., Бензин",
+          "allowedGears": ["6AT", "10AT"],
+          "allowedPrivodi": ["FWD"]
+        },
+        {
+          "id": 1,
+          "name": "2.5 GDI",
+          "descr": "194 л.c., Бензин",
+          "allowedGears": ["10AT", "8AT", "6AT"],
+          "allowedPrivodi": ["FWD"]
+        }],
+        "gears": [
+        {
+          "name": "6AT",
+          "value": "Автомат"
+        },
+        {
+          "name": "8AT",
+          "value": "Автомат"
+        },
+        {
+          "name": "10AT",
+          "value": "Автомат"
+        }],
+        "privodi": [
+        {
+          "name": "FWD",
+          "value": "Передний"
+        }],
+        "minPrices": [
+        {
+          "6AT":{"FWD": 269900000}
+        },
+        {
+          "8AT":{"FWD": 35890000},
+          "6AT":{"FWD": 5}
+        }]
+      }
       return {
-        model: page_data.model
+        model: ata
       }
     }catch(e){
       context.error(e);
@@ -297,8 +305,27 @@ export default {
     });
   },
   methods: {
-    selectParamItem(param, key, e){
-      console.log(this.$refs[key][0], param, e);
+    selectParamChange(){
+      this.$refs.paramGearbox.map(e => {
+        var paramValue = $(e).attr("car-param");
+        var boolVal = false;
+        for (let i = 0; i < this.currentEngine.allowedGears.length; i++) {
+          const gearItem = this.currentEngine.allowedGears[i];
+          if(paramValue === gearItem){
+            boolVal = true;break;
+          }
+        }
+        if(!boolVal)
+          $(e).addClass("disabled");
+        else
+          $(e).removeClass("disabled");
+      });
+    },
+    selectParamItem(param, nameParam, e){
+      console.log(param, e);
+      this[''+nameParam] = param;
+      console.log(this[''+nameParam])
+      this.selectParamChange();
     },
     scrollAnimate(elId, event){
       $('html, body').animate({ scrollTop: $(elId).offset().top-30}, 300);
