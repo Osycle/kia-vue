@@ -9,11 +9,6 @@
 			"name": "Новости"
 		},
 		{
-			"code": "magazine",
-			"count": 12,
-			"name": "Журнал"
-		},
-		{
 			"code": "reviews",
 			"count": 83,
 			"name": "Видео-обзоры"

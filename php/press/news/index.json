@@ -9,11 +9,6 @@
 			"name": "Новости"
 		},
 		{
-			"code": "magazine",
-			"count": 12,
-			"name": "Журнал"
-		},
-		{
 			"code": "reviews",
 			"count": 83,
 			"name": "Видео-обзоры"
@@ -31,6 +26,15 @@
 			},
 			"news": [
 			{
+				"code": "news-2",
+				"direct_link": true,
+				"date": 1619603003,
+				"image": "/img/news/2.jpg",
+				"name": "Автокредиты",
+				"preview_text": null,
+				"source": null
+			},
+			{
 				"code": "news-1",
 				"direct_link": true,
 				"date": 1618313044,
@@ -40,12 +44,20 @@
 				"source": null
 			},
 			{
-		    "code": "259",
-		    "date": 1616746271,
-		    "image": "/media-data/news/preview/223dbaf1-b17f-4460-88fe-b60021832ad7.jpeg",
-		    "name": "В Республике Узбекистан начались продажи автомобилей Kia, произведенных локально",
-		    "preview_text": "В Республике Узбекистан начались продажи автомобилей Kia, произведенных локально",
-		    "source": null
+			  "code": "258",
+			  "date": 1616499152,
+			  "image": "/media-data/news/preview/82c01fe2-8938-4fd4-87e4-fd22f494157b.jpeg",
+			  "name": "Kia K8: современный, высокотехнологичный, инновационный седан",
+			  "preview_text": "Kia K8: современный, высокотехнологичный, инновационный седан",
+			  "source": null
+			},
+			{
+			  "code": "252",
+			  "date": 1614870183,
+			  "image": "/media-data/news/preview/db484bd7-d243-4f26-9df1-808b6eea338b.jpeg",
+			  "name": "Kia K8: единство роскоши и современных технологий в интерьере спортивного седана",
+			  "preview_text": "Kia K8: единство роскоши и современных технологий в интерьере спортивного седана",
+			  "source": null
 			}]
 		},
 		"model_lines": [
