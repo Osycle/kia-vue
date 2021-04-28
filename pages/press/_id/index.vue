@@ -79,13 +79,11 @@ export default {
     }
   },
   async asyncData(context){
-    var url = 'https://www.kia.ru/ajax/page/mediacenter/'+context.params.id;
+    //var url = 'https://www.kia.ru/ajax/page/mediacenter/'+context.params.id;
     try{
-      const page = await context.$axios.$get(url, {
-        params:{
-          limit: 24,
-          page: 1
-        }
+      const path = context.route.path
+      const page = await context.store.dispatch("models/fetchPageData", {
+        path
       })
       return {page: page.content}
     }catch(error){
@@ -93,15 +91,7 @@ export default {
     }
   },
 	created(){
-		this.page.media_center.news[0] = {
-			code: "news-1",
-			direct_link: true,
-			date: 1618313044,
-			image: "/img/news/1.jpg",
-			name: "Обслуживайте свой автомобиль у профессионалов!",
-			preview_text: "Новая услуга",
-			source: null
-		}
+
 	}
 }
 

@@ -72,24 +72,14 @@ export default {
     var page;
     try{
       //console.log(context.params.article_id);
-      if(!context.params.article_id.match("news")){
-        var url = 'https://www.kia.ru/ajax/page/mediacenter/'+context.params.id+"/"+context.params.article_id;  
-        page = await context.$axios.$get(url, {
-          params:{
-            limit: 24,
-            page: 1
-          }
-        })
-      }else{
-        var url = context.params.id+"/"+context.params.article_id;
-        page = await context.$axios.$get("requireJson.php", {
-          params:{
-            path: url+".json"
-          }
-        }, {});
-      }
 
-
+      var url = "press/news/"+context.params.article_id;
+      page = await context.$axios.$get("requireJson.php", {
+        params:{
+          path: url+".json"
+        }
+      }, {});
+      
       console.log(page.content);
       return {page: page.content}
     }catch(error){

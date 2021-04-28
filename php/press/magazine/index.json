@@ -1,0 +1,324 @@
+{
+	"error": 0,
+	"content":
+	{
+		"media_center_groups": [
+		{
+			"code": "news",
+			"count": 267,
+			"name": "Новости"
+		},
+		{
+			"code": "magazine",
+			"count": 12,
+			"name": "Журнал"
+		},
+		{
+			"code": "reviews",
+			"count": 83,
+			"name": "Видео-обзоры"
+		}],
+		"media_center":
+		{
+			"magazine": [
+			{
+				"code": "j7",
+				"date": 1612872000,
+				"image": "/media-data/news/preview/919fc646-e43e-4e06-8ef5-a937234bc5b1.jpeg",
+				"name": "Seltos, классика, авангард",
+				"preview_text": "Вена была столицей последней империи в Европе. И остается оплотом великой музыки, которую не зря называют классической. Однако правят здесь не только традиции, но и любовь к смелым экспериментам во всем, от архитектуры до кулинарии. Поэтому мы едем по Австрии на новом KIA Seltos – кроссовере, который так же удачно совмещает внимание к вечным ценностям с прогрессивными, эффектными решениями.",
+				"source": null
+			},
+			{
+				"code": "j3",
+				"date": 1612868400,
+				"image": "/media-data/news/preview/f3c92fb5-5b5a-41a5-80ad-1c2f58626b99.jpeg",
+				"name": "Второй пилот по имени Drive Wise",
+				"preview_text": "Уверены, вы слышали термин «электронные помощники водителя». Возможно, знаете, что набор таких ассистентов в автомобилях KIA называется Drive Wise и обычно предлагается в топ-исполнениях моделей.",
+				"source": null
+			},
+			{
+				"code": "j6",
+				"date": 1612864800,
+				"image": "/media-data/news/preview/883ec7b1-95c8-4454-8cd3-e346d2091083.jpeg",
+				"name": "Rio с новым style",
+				"preview_text": "Rio – российская иномарка №1: суммарный тираж четырех поколений модели в РФ подбирается к миллиону. Но KIA не почивает на лаврах! Rio не только обновляется вдвое чаще конкурентов, но всякий раз меняется всерьез. Свежий апдейт принес приятные сюрпризы.",
+				"source": null
+			},
+			{
+				"code": "j9",
+				"date": 1612854000,
+				"image": "/media-data/news/preview/590d9c1f-1b09-46d5-ab48-a5670c46a6cc.jpeg",
+				"name": "Всюду свой",
+				"preview_text": "Чтобы понять, кто в России является бестселлером среди кроссоверов, не надо копаться в статистике продаж. Достаточно выйти на улицу и всмотреться в поток – в нем обязательно мелькнет знакомый силуэт. Но это в городе. А мы сейчас перенесемся к озеру Байкал – и посмотрим, как KIA Sportage 2020 модельного года заслужил величественный пьедестал из гигантских мраморных глыб.",
+				"source": null
+			},
+			{
+				"code": "j8",
+				"date": 1612854000,
+				"image": "/media-data/news/preview/65d3630f-568e-4a28-9a5c-1aa13324ad61.jpeg",
+				"name": "Соренто великолепный",
+				"preview_text": "Брутальный, престижный, уверенный в себе? Разумеется. Технологически продвинутый? Конечно. Насыщенный инновационными системами? Без сомнения. Высококачественный, просторный, универсальный? Да, да, да. Спорим, вы не сумеете придумать похвалу, которой новейший KIA Sorento окажется недостоин?",
+				"source": null
+			},
+			{
+				"code": "j5",
+				"date": 1612854000,
+				"image": "/media-data/news/preview/6bc6ac4a-48a2-417f-9bd3-8c559d6bebbe.jpeg",
+				"name": "Герой нашего времени",
+				"preview_text": "Повзрослев, мы не хотим суетиться и рисковать. Когда ты мудр и уже всем все доказал, от автомобиля ждешь статуса и отсутствия проблем в любых ситуациях. Создав семью, мы хотим открыть детям и близким наш чудный большой мир. Когда перед тобой сто дорог, от автомобиля ждешь комфорта для всех, кто на борту, и стойкости в рискованном приключении... Что ж, новый KIA Mohave готов оправдать любые ожидания. И мы не колеблясь свернули с асфальта на заповедные горные тропы в облаках над Сочи",
+				"source": null
+			},
+			{
+				"code": "j4",
+				"date": 1612854000,
+				"image": "/media-data/news/preview/93eb7987-a47d-4bf7-af7e-d0219a78104f.jpeg",
+				"name": "На территории комфорта и престижа",
+				"preview_text": "Флагман модельной линейки KIA сначала манил издалека – из Нью-Йорка, где в прошлом году состоялась его премьера. Затем он раскрыл нам свои достоинства на тест-драйвах в теплом Сеуле и холодном Стокгольме. И вот К900 ждет клиентов у российских дилеров. Добро пожаловать!",
+				"source": null
+			},
+			{
+				"code": "j2",
+				"date": 1612854000,
+				"image": "/media-data/news/preview/5ecbf0e4-8a89-4d36-9847-a793992fa76d.jpeg",
+				"name": "Прощай, Оптима. Да здравствует K5!",
+				"preview_text": "Новый бизнес-седан рожден как будто не в Корее, а в другой галактике. Но космическая внешность – не главное его отличие от популярной предшественницы, KIA Optima. K5 – первенец эпохи цифровых и сетевых автомобилей. «Интеллектуальная мобильность» – это значит всегда на связи и с опорой на могучий «электронный разум». Это значит – К5!",
+				"source": null
+			},
+			{
+				"code": "j12",
+				"date": 1612854000,
+				"image": "/media-data/news/preview/f23584e5-614a-42c3-97ec-3d5ccc8d9b9c.jpeg",
+				"name": "Kia ускоряет электрификацию",
+				"preview_text": "Современное общество требует экологически чистого транспорта. Оперативно удовлетворяя растущий спрос, KIA планирует выйти в лидеры мирового рынка электромобилей. В ближайшее время бренд выпустит целую линейку разнообразных BEV на специально спроектированных платформах, наладит сотрудничество с операторами инфраструктуры зарядных станций по всему миру, обновит систему продаж и послепродажного обслуживания.",
+				"source": null
+			},
+			{
+				"code": "j11",
+				"date": 1612854000,
+				"image": "/media-data/news/preview/5fb53491-48fd-4643-b3e5-1b3a73ecd726.jpeg",
+				"name": "Сердцем и душой",
+				"preview_text": "Самая яркая и необычная модель в линейке KIA не зря носит очень простое и понятное имя – Soul, в переводе с английского – ≪душа≫. Ведь машина ≪для души≫ должна быть как раз такой – игривой, радостной и в то же время щедро одаренной самыми разными талантами. Опробовать на ходу с иголочки новый Soul третьего поколения мы отправились в столицу мировой романтики – итальянскую Верону. Пускай тепло будет и на сердце!",
+				"source": null
+			},
+			{
+				"code": "j10",
+				"date": 1612854000,
+				"image": "/media-data/news/preview/133fc15b-e7a4-49d3-86cc-2e7fc3e90ff3.jpeg",
+				"name": "Kia XCeed не такой, как все. Лучше!",
+				"preview_text": "Летом в России появился свежий кроссовер, он дополнил обширное семейство Ceed. Но XCeed – не просто новая версия известного хэтчбека. И не просто дорожная машина с улучшенными внедорожными способностями. XCeed – это сплав стиля, темперамента и премиального оснащения, который полностью меняет представление о «типичном KIA».",
+				"source": null
+			},
+			{
+				"code": "j1",
+				"date": 1612818000,
+				"image": "/media-data/news/preview/2db02bf2-5789-45b4-8ca5-e81e2e545cb9.jpeg",
+				"name": "Когда мечты сбываются",
+				"preview_text": "Шеф-дизайнер KIA Карим Хабиб отвечает на наши вопросы о главных вызовах и тревогах современности, о том, что привнесет экологически чистое будущее в облик автомобилей KIA, и о том, почему в эпоху 3D и CAD поисковые макеты концепт-каров и массовых моделей по-прежнему лепят из глины.",
+				"source": null
+			}],
+			"meta":
+			{
+				"current_page": 1,
+				"from": 1,
+				"last_page": 1,
+				"per_page": 24,
+				"to": 12,
+				"total": 12
+			}
+		},
+		"model_lines": [
+		{
+			"cars_in_stock": 1,
+			"code": "picanto",
+			"external_id": "G6S6",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "224e47b5-c5d7-42f6-be5c-369b7ab9d7bf",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Picanto",
+			"sort": 1600
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "rio",
+			"external_id": "H0",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "a14527a8-20ef-4b4f-ba81-f4c5d47996ed",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Rio",
+			"sort": 1550
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "rio-x",
+			"external_id": "H0S",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "e3b21af4-46f7-44be-95dc-bc28827aa7c3",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Rio X",
+			"sort": 1500
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "ceed",
+			"external_id": "J7S6",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "933b4317-3cd4-4949-961d-674ee6d6fad6",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Ceed",
+			"sort": 1300
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "ceed_sw",
+			"external_id": "J7W5",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "ae7982d3-d9a0-4a97-bac5-db54e184741c",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Ceed SW",
+			"sort": 1200
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "proceed",
+			"external_id": "J7Q1",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "e6d76b78-a116-4127-a6ca-e856a6a6b651",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "ProCeed",
+			"sort": 1100
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "cerato",
+			"external_id": "DJ",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "cef2036b-ab02-4bc2-bc8c-dded81e45e4d",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Cerato",
+			"sort": 900
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "k5",
+			"external_id": "EXS4",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "K5",
+			"sort": 750
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "stinger",
+			"external_id": "J5S6",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "48265c16-efbc-4cea-9d2b-8b971808a518",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Stinger",
+			"sort": 740
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "k900",
+			"external_id": "J6",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "K900",
+			"sort": 600
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "soul",
+			"external_id": "SK",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "88b88d67-ed36-4566-b52e-f6e4237def68",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Soul",
+			"sort": 550
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "seltos",
+			"external_id": "TH",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Seltos",
+			"sort": 500
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "xceed",
+			"external_id": "J7S8",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "dad9bcf8-8ee6-4469-af87-67df7c5ebac6",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "XCeed",
+			"sort": 450
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "sportage",
+			"external_id": "F1",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "d9fb43e6-4e75-4372-b361-a279dede090e",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Sportage",
+			"sort": 400
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "sorento",
+			"external_id": "GZ",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "259f93e4-313c-450f-a575-a479d9b82133",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Sorento",
+			"sort": 350
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "mohave",
+			"external_id": "ENW",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "e1b6e4af-6fcf-4ba2-8149-fc24609774d2",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Mohave",
+			"sort": 150
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "carnival",
+			"external_id": "HS",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "c70a9df0-5046-45be-a4db-82bc83b76547",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Carnival",
+			"sort": 140
+		}],
+		"seo":
+		{
+			"title": "Журналы компании KIA Motors",
+			"description": "Журналы компании KIA Motors."
+		}
+	}
+}

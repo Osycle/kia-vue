@@ -1,0 +1,505 @@
+{
+	"error": 0,
+	"content":
+	{
+		"media_center_groups": [
+		{
+			"code": "news",
+			"count": 267,
+			"name": "Новости"
+		},
+		{
+			"code": "magazine",
+			"count": 12,
+			"name": "Журнал"
+		},
+		{
+			"code": "reviews",
+			"count": 83,
+			"name": "Видео-обзоры"
+		}],
+		"media_center":
+		{
+			"reviews": []
+		},
+		"video_bank":
+		{
+			"groups": [
+			{
+				"code": "reviews",
+				"id": "29daba39-f384-46fc-bd82-f73b058196e8",
+				"name": "Видео-обзоры",
+				"meta":
+				{
+					"current_page": 1,
+					"from": 1,
+					"last_page": 4,
+					"per_page": 24,
+					"to": 24,
+					"total": 82
+				}
+			}],
+			"list":
+			{
+				"29daba39-f384-46fc-bd82-f73b058196e8": [
+				{
+					"author": "Сергей Николаев Энергетик",
+					"date": 1614172916,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "6c426304-0a45-459b-a7f1-629889e56af5",
+					"name": "Почему Киа Спортейдж 2021, потому что улучшили МОТОР? Или потому что БЛЭК ЭДИШН?",
+					"preview_image": "/media-data/video_bank/preview/energetic-sportage-be-2021.jpg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/DBq4BMepik4?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=DBq4BMepik4",
+					"video_time": "24:32"
+				},
+				{
+					"author": "Эрик Давидыч",
+					"date": 1611840438,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "ac7f02fb-64eb-4f3c-8586-772b7dd0a038",
+					"name": "D3 KIA K5 Шах и Мат!",
+					"preview_image": "/media-data/video_bank/preview/d3-kia-k5.jpg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/O_kR2UCwD4w?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=O_kR2UCwD4w",
+					"video_time": "32:49"
+				},
+				{
+					"author": "Большой тест-драйв",
+					"date": 1611320123,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "78926c92-6aad-4b07-9c05-2c604605122d",
+					"name": "KIA MOHAVE - Большой тест-драйв",
+					"preview_image": "/media-data/video_bank/preview/big-test-drive-mohave.jpg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/THuJ49uYjWU?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=THuJ49uYjWU",
+					"video_time": "23:07"
+				},
+				{
+					"author": "Авторевю",
+					"date": 1610974263,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "09747ecb-2805-44ba-9f8d-8862e5664680",
+					"name": "Kia Mohave или Toyota Land Cruiser Prado? Проверка на автополигоне и на зимних дорогах",
+					"preview_image": "/media-data/video_bank/preview/autoreview-kia-toyota.jpg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/xgmc8ADqxKU?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=xgmc8ADqxKU",
+					"video_time": "23:15"
+				},
+				{
+					"author": "Лиса Рулит",
+					"date": 1608985885,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "8ad6ee2e-4785-4a71-9d2e-88b92e93c9ca",
+					"name": "ПОДАРИЛА ПАПЕ МАШИНУ! Реакция Бати и первые впечатления",
+					"preview_image": "/media-data/video_bank/preview/lisa-rulit-podarila-mashinu.jpg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/h325zPSAJig?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=h325zPSAJig",
+					"video_time": "25:14"
+				},
+				{
+					"author": "АВТО ПЛЮС",
+					"date": 1608814679,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "bc9bf9c1-fcc4-4f78-9884-a1de8d8f91d4",
+					"name": "Посторонись, Land Cruiser! Mohave идёт! Тойота Ленд Крузер 200 против Киа Мохав | Выбор есть!",
+					"preview_image": "/media-data/video_bank/preview/auto-plus-kia-toyota.jpg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/bna6_YJLXGc?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=bna6_YJLXGc",
+					"video_time": "27:30"
+				},
+				{
+					"author": "Clickoncar",
+					"date": 1607957389,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "fdf5f36e-29e4-4c6c-aa0c-c11f1fbfc9c0",
+					"name": "Сравнительный тест Kia Mohave и Lexus GX460",
+					"preview_image": "/media-data/video_bank/preview/7d405fa0-4438-4c75-ad5c-a41315a63589.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/dF-emzf45Gk?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=dF-emzf45Gk",
+					"video_time": "38:00"
+				},
+				{
+					"author": "Лиса Рулит",
+					"date": 1607957145,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "fd6675d6-41a7-4690-8bb7-e329faef1981",
+					"name": "Сравнительный тест Kia Mohave и Toyota Land Cruiser",
+					"preview_image": "/media-data/video_bank/preview/d9fb839a-3aad-4a70-99e6-c1ace0b72b76.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/mrgK4FP7B9g?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=mrgK4FP7B9g",
+					"video_time": "39:24"
+				},
+				{
+					"author": "AcademeG",
+					"date": 1607692023,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "b95944e0-effa-40a9-a16a-e153bdb20eba",
+					"name": "7 мест. 2,6 миллиона рублей. Kia Sorento",
+					"preview_image": "/media-data/video_bank/preview/akademeg-7-mest.jpg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/-giJxuSopM8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=-giJxuSopM8",
+					"video_time": "32:18"
+				},
+				{
+					"author": "За Рулем",
+					"date": 1605619780,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "3d0ced3d-35f0-432d-97e9-95276559beba",
+					"name": "Тест-драйв Kia Mohave",
+					"preview_image": "/media-data/video_bank/preview/df364484-e29c-46c8-8042-3df242258375.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/cMVSj-Xnm_8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=cMVSj-Xnm_8",
+					"video_time": "13:34"
+				},
+				{
+					"author": "Autonews",
+					"date": 1605619552,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "95224614-e86b-482d-885c-3e6e3448c3af",
+					"name": "Тест-драйв Kia Mohave",
+					"preview_image": "/media-data/video_bank/preview/cf2d70a8-a0cb-4f2f-9999-e79b6d08b7a2.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/T3yORxwew6w?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=T3yORxwew6w",
+					"video_time": "14:41"
+				},
+				{
+					"author": "Лиса Рулит",
+					"date": 1605619229,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "e1e56004-0f82-476f-a0c7-ca834964cf9d",
+					"name": "Тест-драйв Kia Mohave",
+					"preview_image": "/media-data/video_bank/preview/3763a27f-e4d3-450f-82ce-628bb12a36c2.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/ivMKQYxfCjE?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=ivMKQYxfCjE",
+					"video_time": "31:06"
+				},
+				{
+					"author": "Сергей Николаев Энергетик",
+					"date": 1605618802,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "d96341dd-e1a6-43dc-abe2-52bc7aef82f2",
+					"name": "Тест-драйв Kia Mohave",
+					"preview_image": "/media-data/video_bank/preview/e8314913-1b16-48f8-b013-51ad45cc8366.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/_3HHAdSp8I8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=_3HHAdSp8I8",
+					"video_time": "48:10"
+				},
+				{
+					"author": "Clickoncar",
+					"date": 1605618001,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "39a5d241-4833-4c1b-b35d-872b557e5a08",
+					"name": "Тест-драйв Kia Mohave",
+					"preview_image": "/media-data/video_bank/preview/6a298584-a51d-4013-b016-4d775e65c001.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/4l50yEJ5MqI?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=4l50yEJ5MqI",
+					"video_time": "39:22"
+				},
+				{
+					"author": "Игорь Бурцев",
+					"date": 1605620787,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "94e084b3-f933-4639-a57f-16a0c431cf66",
+					"name": "Тест-драйв Kia Sorento",
+					"preview_image": "/media-data/video_bank/preview/249f45f1-587e-453c-af60-0ccafa7c1b36.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/u8mf6tT6b-E?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=u8mf6tT6b-E",
+					"video_time": "41:41"
+				},
+				{
+					"author": "Clickoncar",
+					"date": 1605620614,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "f96ae6e0-bf29-4601-b2fe-4c8855a7e775",
+					"name": "Тест-драйв Kia Sorento",
+					"preview_image": "/media-data/video_bank/preview/877a4d1f-3a79-4237-a903-be72427cf2c0.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/j1IiaISj_uY?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=j1IiaISj_uY",
+					"video_time": "20:57"
+				},
+				{
+					"author": "Somanyhorses",
+					"date": 1605620350,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "10211aa4-7378-4f41-93a2-34ba1a04ae9d",
+					"name": "Тест-драйв Kia Sorento",
+					"preview_image": "/media-data/video_bank/preview/1af02370-a776-4656-a335-af6db62b23d1.jpeg",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/nv3fY7GxPCU?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=nv3fY7GxPCU",
+					"video_time": "32:04"
+				},
+				{
+					"author": "Лиса Рулит",
+					"date": 1601385310,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "d977015c-9ea2-4e41-a916-4ec536430192",
+					"name": "Тест-драйв KIA Rio",
+					"preview_image": "/media-data/video_bank/preview/dc12a9c0-510a-469b-bd05-471c89a91da6.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/HJzPsrL6jA8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=HJzPsrL6jA8",
+					"video_time": "20:47"
+				},
+				{
+					"author": "Autonews",
+					"date": 1601385250,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "9b057ae2-e016-4600-8168-6a107f751925",
+					"name": "Тест-драйв KIA Rio",
+					"preview_image": "/media-data/video_bank/preview/d523d4c0-50c7-4ecd-8dec-e8a398f31bea.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/SV_j8hk2kqk?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=SV_j8hk2kqk",
+					"video_time": "14:36"
+				},
+				{
+					"author": "Autospot",
+					"date": 1601385190,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "0c0e5843-9303-4fdf-9847-5f302637995e",
+					"name": "Тест-драйв KIA XCeed",
+					"preview_image": "/media-data/video_bank/preview/403eb11b-394e-487c-a9a5-dc4cfc169b79.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/Y1Ug9Vg84aE?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=Y1Ug9Vg84aE",
+					"video_time": "29:28"
+				},
+				{
+					"author": "Авторевю",
+					"date": 1601385130,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "6f8148d8-a767-46da-8238-e2b3d6c831c8",
+					"name": "Тест-драйв KIA Rio",
+					"preview_image": "/media-data/video_bank/preview/3129cd8e-8dd6-43ec-9430-c1588f87a3c5.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/2_gDUmyvT40?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=2_gDUmyvT40",
+					"video_time": "17:13"
+				},
+				{
+					"author": "Большой тест-драйв",
+					"date": 1601384580,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "6f829000-018b-45b3-b645-422ee126dea6",
+					"name": "Тест-драйв KIA Sportage",
+					"preview_image": "/media-data/video_bank/preview/2259b0b7-0e39-470c-804c-d5d0ef9377c9.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/Kn5SukWwZN8?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1&playlist=Kn5SukWwZN8",
+					"video_time": "27:48"
+				},
+				{
+					"author": "Clickoncar",
+					"date": 1599070221,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "b8b8152a-75e3-4899-8d13-d59fff5e7145",
+					"name": "Тест-драйв К5",
+					"preview_image": "/media-data/video_bank/preview/9e150ba4-007e-4fcd-bfe6-c28c80c3960c.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/ge5uzcI2Y60?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "38:40"
+				},
+				{
+					"author": "Лиса Рулит",
+					"date": 1599070041,
+					"group_id": "29daba39-f384-46fc-bd82-f73b058196e8",
+					"id": "867f5d7b-32dd-45d8-9658-c6072c534e90",
+					"name": "Тест-драйв К5",
+					"preview_image": "/media-data/video_bank/preview/5bc9bce0-0a54-48c4-bc70-349a46c62e80.png",
+					"source": "",
+					"video_link": "https://www.youtube.com/embed/fZuAL_61wSM?iv_load_policy=3&autoplay=1&rel=0&version=3&loop=1",
+					"video_time": "31:07"
+				}]
+			}
+		},
+		"model_lines": [
+		{
+			"cars_in_stock": 1,
+			"code": "picanto",
+			"external_id": "G6S6",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "224e47b5-c5d7-42f6-be5c-369b7ab9d7bf",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Picanto",
+			"sort": 1600
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "rio",
+			"external_id": "H0",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "a14527a8-20ef-4b4f-ba81-f4c5d47996ed",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Rio",
+			"sort": 1550
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "rio-x",
+			"external_id": "H0S",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "e3b21af4-46f7-44be-95dc-bc28827aa7c3",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Rio X",
+			"sort": 1500
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "ceed",
+			"external_id": "J7S6",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "933b4317-3cd4-4949-961d-674ee6d6fad6",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Ceed",
+			"sort": 1300
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "ceed_sw",
+			"external_id": "J7W5",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "ae7982d3-d9a0-4a97-bac5-db54e184741c",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Ceed SW",
+			"sort": 1200
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "proceed",
+			"external_id": "J7Q1",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "e6d76b78-a116-4127-a6ca-e856a6a6b651",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "ProCeed",
+			"sort": 1100
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "cerato",
+			"external_id": "DJ",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "cef2036b-ab02-4bc2-bc8c-dded81e45e4d",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Cerato",
+			"sort": 900
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "k5",
+			"external_id": "EXS4",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "K5",
+			"sort": 750
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "stinger",
+			"external_id": "J5S6",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "48265c16-efbc-4cea-9d2b-8b971808a518",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Stinger",
+			"sort": 740
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "k900",
+			"external_id": "J6",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "K900",
+			"sort": 600
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "soul",
+			"external_id": "SK",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "88b88d67-ed36-4566-b52e-f6e4237def68",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Soul",
+			"sort": 550
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "seltos",
+			"external_id": "TH",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Seltos",
+			"sort": 500
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "xceed",
+			"external_id": "J7S8",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "dad9bcf8-8ee6-4469-af87-67df7c5ebac6",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "XCeed",
+			"sort": 450
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "sportage",
+			"external_id": "F1",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "d9fb43e6-4e75-4372-b361-a279dede090e",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Sportage",
+			"sort": 400
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "sorento",
+			"external_id": "GZ",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "259f93e4-313c-450f-a575-a479d9b82133",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Sorento",
+			"sort": 350
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "mohave",
+			"external_id": "ENW",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "e1b6e4af-6fcf-4ba2-8149-fc24609774d2",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Mohave",
+			"sort": 150
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "carnival",
+			"external_id": "HS",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "c70a9df0-5046-45be-a4db-82bc83b76547",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Carnival",
+			"sort": 140
+		}],
+		"seo":
+		{
+			"title": "Обзоры компании KIA Motors",
+			"description": "Видео тест-драйвы, радиопередачи о компании КИА."
+		}
+	}
+}

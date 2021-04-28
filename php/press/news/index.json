@@ -1,0 +1,245 @@
+{
+	"error": 0,
+	"content":
+	{
+		"media_center_groups": [
+		{
+			"code": "news",
+			"count": 267,
+			"name": "Новости"
+		},
+		{
+			"code": "magazine",
+			"count": 12,
+			"name": "Журнал"
+		},
+		{
+			"code": "reviews",
+			"count": 83,
+			"name": "Видео-обзоры"
+		}],
+		"media_center":
+		{
+			"meta":
+			{
+				"current_page": 1,
+				"from": 1,
+				"last_page": 12,
+				"per_page": 24,
+				"to": 24,
+				"total": 267
+			},
+			"news": [
+			{
+				"code": "news-1",
+				"direct_link": true,
+				"date": 1618313044,
+				"image": "/img/news/1.jpg",
+				"name": "Обслуживайте свой автомобиль у профессионалов!",
+				"preview_text": "Новая услуга",
+				"source": null
+			},
+			{
+		    "code": "259",
+		    "date": 1616746271,
+		    "image": "/media-data/news/preview/223dbaf1-b17f-4460-88fe-b60021832ad7.jpeg",
+		    "name": "В Республике Узбекистан начались продажи автомобилей Kia, произведенных локально",
+		    "preview_text": "В Республике Узбекистан начались продажи автомобилей Kia, произведенных локально",
+		    "source": null
+			}]
+		},
+		"model_lines": [
+		{
+			"cars_in_stock": 1,
+			"code": "picanto",
+			"external_id": "G6S6",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "224e47b5-c5d7-42f6-be5c-369b7ab9d7bf",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Picanto",
+			"sort": 1600
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "rio",
+			"external_id": "H0",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "a14527a8-20ef-4b4f-ba81-f4c5d47996ed",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Rio",
+			"sort": 1550
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "rio-x",
+			"external_id": "H0S",
+			"group_id": "5cc2fc42-3872-4983-b358-4dfabfc0e727",
+			"id": "e3b21af4-46f7-44be-95dc-bc28827aa7c3",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Rio X",
+			"sort": 1500
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "ceed",
+			"external_id": "J7S6",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "933b4317-3cd4-4949-961d-674ee6d6fad6",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Ceed",
+			"sort": 1300
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "ceed_sw",
+			"external_id": "J7W5",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "ae7982d3-d9a0-4a97-bac5-db54e184741c",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Ceed SW",
+			"sort": 1200
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "proceed",
+			"external_id": "J7Q1",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "e6d76b78-a116-4127-a6ca-e856a6a6b651",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "ProCeed",
+			"sort": 1100
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "cerato",
+			"external_id": "DJ",
+			"group_id": "b7c28268-d900-4650-a8eb-acf2beefde47",
+			"id": "cef2036b-ab02-4bc2-bc8c-dded81e45e4d",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Cerato",
+			"sort": 900
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "k5",
+			"external_id": "EXS4",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "378f0511-b41a-487d-86b3-2d7db87a2cdf",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "K5",
+			"sort": 750
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "stinger",
+			"external_id": "J5S6",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "48265c16-efbc-4cea-9d2b-8b971808a518",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Stinger",
+			"sort": 740
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "k900",
+			"external_id": "J6",
+			"group_id": "92cdedad-068d-4629-b475-72d0a81cea5d",
+			"id": "ba5f24b7-244e-40d1-8edb-787e2a6a2eb9",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "K900",
+			"sort": 600
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "soul",
+			"external_id": "SK",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "88b88d67-ed36-4566-b52e-f6e4237def68",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Soul",
+			"sort": 550
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "seltos",
+			"external_id": "TH",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "b9568e27-e57f-4b73-af9c-e271c7215b83",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Seltos",
+			"sort": 500
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "xceed",
+			"external_id": "J7S8",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "dad9bcf8-8ee6-4469-af87-67df7c5ebac6",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "XCeed",
+			"sort": 450
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "sportage",
+			"external_id": "F1",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "d9fb43e6-4e75-4372-b361-a279dede090e",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Sportage",
+			"sort": 400
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "sorento",
+			"external_id": "GZ",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "259f93e4-313c-450f-a575-a479d9b82133",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Sorento",
+			"sort": 350
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "mohave",
+			"external_id": "ENW",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "e1b6e4af-6fcf-4ba2-8149-fc24609774d2",
+			"is_coming_soon": 0,
+			"label_name": null,
+			"name": "Mohave",
+			"sort": 150
+		},
+		{
+			"cars_in_stock": 1,
+			"code": "carnival",
+			"external_id": "HS",
+			"group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+			"id": "c70a9df0-5046-45be-a4db-82bc83b76547",
+			"is_coming_soon": 0,
+			"label_name": "Новинка",
+			"name": "Carnival",
+			"sort": 140
+		}],
+		"seo":
+		{
+			"title": "Новости компании KIA Motors",
+			"description": "Новости о компании KIA Motors."
+		}
+	}
+}
