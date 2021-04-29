@@ -94,7 +94,7 @@
                       <li v-for="(engine, key) in model.engines" :key="key" :class="{'active': engine.id == currentEngine.id}"
                           :ref="'paramEngine'"
                           :car-param="engine.name"
-                          @click.prevent.stop="selectParamItem(engine, 'currentEngine', $event)">
+                          @click.prevent.stop="selectParamEngine(engine, $event)">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -113,7 +113,7 @@
                       <li v-for="(gear, key) in model.gears" :key="key" :class="{'active': gear.name == currentGearbox.name}" 
                         :ref="'paramGearbox'"
                         :car-param="gear.name"
-                        @click.prevent.stop="selectParamItem(gear, 'currentGearbox', $event)">
+                        @click.prevent.stop="selectParamGearbox(gear, $event)">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -214,13 +214,13 @@ export default {
           "name": "2.0 MPI",
           "descr": "150 л.c., Бензин",
           "allowedGears": ["6AT", "10AT"],
-          "allowedPrivodi": ["FWD"]
+          "allowedPrivodi": ["FWD", "4WD"]
         },
         {
           "id": 1,
           "name": "2.5 GDI",
           "descr": "194 л.c., Бензин",
-          "allowedGears": ["10AT", "8AT", "6AT"],
+          "allowedGears": ["6AT", "8AT", "10AT"],
           "allowedPrivodi": ["FWD"]
         }],
         "gears": [
@@ -238,12 +238,24 @@ export default {
         }],
         "privodi": [
         {
+          "name": "4WD",
+          "value": "Полный"
+        },
+        {
           "name": "FWD",
           "value": "Передний"
         }],
         "minPrices": [
         {
-          "6AT":{"FWD": 269900000}
+          "6AT":{
+            "FWD": 269900000,
+            "4WD": 550000000
+          },
+          "10AT":{
+            "FWD": 269900000,
+            "4WD": 550000000
+          }
+
         },
         {
           "8AT":{"FWD": 35890000},
@@ -303,9 +315,15 @@ export default {
     $('.sidebar-wrapper').theiaStickySidebar({
       additionalMarginTop: 0
     });
+    this.selectParamEngine(this.currentEngine);
   },
   methods: {
     selectParamChange(){
+
+    },
+    async selectParamEngine(param, event){
+      this.currentEngine = param;
+
       this.$refs.paramGearbox.map(e => {
         var paramValue = $(e).attr("car-param");
         var boolVal = false;
@@ -315,18 +333,32 @@ export default {
             boolVal = true;break;
           }
         }
-        if(!boolVal)
+        if(!boolVal){
           $(e).addClass("disabled");
-        else
+          if(this.currentGearbox.name === paramValue){
+            this.model.gears.map(gear => {
+              if(gear.name === this.currentEngine.allowedGears[0])
+                this.currentGearbox = gear;
+                $(e).removeClass("disabled");
+            })
+          }
+
+          console.log((this.currentGearbox.name == paramValue))
+        }else{
           $(e).removeClass("disabled");
+        }
       });
-    },
-    selectParamItem(param, nameParam, e){
-      console.log(param, e);
-      this[''+nameParam] = param;
-      console.log(this[''+nameParam])
+
       this.selectParamChange();
     },
+    selectParamGearbox(param, event){
+      this.currentGearbox = param;
+
+
+
+      this.selectParamChange();
+    },
+
     scrollAnimate(elId, event){
       $('html, body').animate({ scrollTop: $(elId).offset().top-30}, 300);
     },
@@ -353,6 +385,7 @@ export default {
     /* Начальная выборка */
 
     this.currentEngine = this.model.engines[0];
+    
     this.model.gears.forEach(gear => {
       if(gear.name === this.currentEngine.allowedGears[0])
       this.currentGearbox = gear;

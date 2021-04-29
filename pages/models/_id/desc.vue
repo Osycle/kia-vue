@@ -14,14 +14,17 @@
             <ul class="list list-main">
               <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link active-class="active" :to="item.link">{{item.title}}</nuxt-link></li>
             </ul>
-            <div class="list-add">
+            <div class="list-add" :class="{'hide': page.model_menu.length <= 3}">
               <a href=".list-add-sub" class="btn-options hidden-xs hidden-sm" data-toggle="dropdown">
                 <div class="icm-area"><svg width="18" height="4" viewBox="0 0 18 4" fill="currentColor" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><circle cx="2" cy="2" r="2"></circle><circle cx="9" cy="2" r="2"></circle><circle cx="16" cy="2" r="2"></circle></svg></div>
               </a>
               <div class="list-add-sub">
                 <ul>
+                  <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link active-class="active" :to="item.link">{{item.title}}</nuxt-link></li>
+
                   <!-- <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link :to="item.link" :target="item.in_new_window?'_blank':'_self'">{{item.title}}</nuxt-link></li> -->
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/desc/'" class="">Обзор</nuxt-link></li>
+
+                  <!-- <li><nuxt-link :to="'/models/'+page.model.code+'/desc/'" class="">Обзор</nuxt-link></li>
                   <li><nuxt-link :to="'/models/'+page.model.code+'/options/'">Комплектации и цены</nuxt-link></li>
                   <li><nuxt-link :to="'/models/'+page.model.code+'/properties/'" class="">Характеристики</nuxt-link></li>
                   <li><nuxt-link :to="'/models/'+page.model.code+'/calc/'" class="">Рассчитать кредит</nuxt-link></li>
@@ -29,11 +32,11 @@
                   <li><nuxt-link :to="'/models/'+page.model.code+'/special/'" class="">Спецпредложения</nuxt-link></li>
                   <li><nuxt-link :to="'/models/'+page.model.code+'/configurator/'" class="">Конфигуратор</nuxt-link></li>
                   <li><nuxt-link :to="'/models/'+page.model.code+'/callback/'" class="">Заявка дилеру</nuxt-link></li>
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/testdrive/'" class="">Тест-драйв</nuxt-link></li>
+                  <li><nuxt-link :to="'/models/'+page.model.code+'/testdrive/'" class="">Тест-драйв</nuxt-link></li> -->
                 </ul>
               </div>
             </div>
-            <div class="list-last">
+            <div class="list-last" v-if="page.complectations.complectations[0].min_price">
               <nuxt-link :to="'/models/'+page.model.code+'/configurator'">Конфигуратор</nuxt-link>
             </div>
           </div>
@@ -58,8 +61,10 @@
         <div class="wrapper-content">
           <div class="desc-content justify-c-end hidden-xs hidden-sm">
             <span class="text align-center" v-if="page.model.min_price"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span> <a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
-            <span class="p-h-5" v-if="page.model.min_price">·</span>
-            <span class="btn-def style-2 m-l-20" v-if="page.model.min_price"><nuxt-link :to="'/models/'+$route.params.id+'/callback'">Связаться с нами</nuxt-link></span>
+            <span class="p-h-5" v-if="page.complectations.complectations[0].min_price">·</span>
+            <span class="btn-def style-2 m-l-20" v-if="page.complectations.complectations[0].min_price">
+              <nuxt-link :to="'/models/'+$route.params.id+'/callback'">Связаться с нами</nuxt-link>
+            </span>
           </div>
           <div class="card-bnr-bottom">
             <div class="flex-adaptive align-center justify-c-between">
@@ -317,7 +322,7 @@
                 </ul>
               </div>
             </div>
-            <span class="btn-def" v-if="page.model.min_price">
+            <span class="btn-def" v-if="page.complectations.complectations[0].min_price">
               <nuxt-link :to="'/models/'+page.model.code+'/configurator'" class="p-v-20">Конфигуратор</nuxt-link>	
             </span>
           </div>
@@ -325,7 +330,7 @@
       </div>
     </div>
 
-    <div class="card-sets bg-color-gray-1" v-if="page.model.min_price">
+    <div class="card-sets bg-color-gray-1" v-if="page.complectations.complectations[0].min_price">
       <div class="container-p p-v-45">
         <div class="entry-header text-center m-v-30">
           <h4 class="color-2 text-n1">КОМПЛЕКТАЦИИ</h4>
@@ -396,7 +401,7 @@
 
     <div class="card-fb" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'center'" 
         :style="'background-image: url(https://cdn.kia.ru/resize/1920x960/'+bnr.bg_images.desktop+');'">
-      <div class="container-p text-center" v-if="page.model.min_price">
+      <div class="container-p text-center" v-if="page.complectations.complectations[0].min_price">
         <div class="entry-content">
           <div class="entry-header color-white p-v-30">
             <h4 class="text-n1">{{bnr.title}}</h4>

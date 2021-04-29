@@ -1,0 +1,1676 @@
+{
+	"error": 0,
+	"content":
+	{
+		"model":
+		{
+			"accessory": null,
+			"brochure": "/master-data/brochures/Kia_Sorento_new.pdf",
+			"code": "sorento",
+			"external_id": "GZ",
+			"id": "6c872f78-bd7d-4a0a-a195-908413672efc",
+			"image": "/master-data/models/sorento_new.png",
+			"image_side_view": "/master-data/models/image_side/sorento_new.png",
+			"is_coming_soon": 0,
+			"logo_black": "/master-data/models/logo/sorento_new-logo-black.svg",
+			"logo_white": "/master-data/models/logo/sorento_new-logo-white.svg",
+			"max_benefit": 130000,
+			"min_credit_price": 11070,
+			"min_price": 439900000,
+			"model_line_id": "259f93e4-313c-450f-a575-a479d9b82133",
+			"name": "Sorento",
+			"exterior_hide": true,
+			"interior_hide": true,
+			"price": 439900000,
+			"price_list": "/master-data/pdf/model/sorento_2021.pdf",
+			"unique_id": "GZW520212021"
+		},
+		"years_price_lists":
+		{
+			"2021": "/master-data/pdf/model/sorento_2021.pdf"
+		},
+		"banner":
+		{
+			"bg_color": "red",
+			"bg_images":
+			{
+				"desktop": null,
+				"mobile": null,
+				"retina": null
+			},
+			"description": null,
+			"group_code": "models_sorento_options",
+			"images":
+			{
+				"desktop": "/media-data/banners/models/sorento_new/options/sorento_options_desktop.png",
+				"mobile": "/media-data/banners/models/sorento_new/options/sorento_options_mobile.png",
+				"retina": "/media-data/banners/models/sorento_new/options/sorento_options_desktop.png"
+			},
+			"link":
+			{
+				"title": null,
+				"url": null
+			},
+			"logo":
+			{
+				"image": null,
+				"label": null,
+				"signature": null
+			},
+			"name": "Баннер на странице комплектации и цены Sorento",
+			"teasers": [],
+			"title": null,
+			"type_code": "preview",
+			"video": null
+		},
+		"modifications":
+		{
+			"base_prices":
+			{
+				"from": 2349900,
+				"to": 3349900
+			},
+			"complectations": [
+			{
+				"acceleration_to_100": 10.3,
+				"advantage_options": ["c24ae6ed-aacf-455c-90ec-a976ce493cee", "b35fee71-abc8-49f8-bcf0-0c14511d8b9c", "b2bea6e0-0551-45e0-9057-e82ed8debb4d", "2b638382-a84f-4bf7-a8d5-c0184d95850f", "e79f5215-6531-4196-affa-c0da17d8021e", "617253e0-e5fd-4c4f-b6fa-28ef6971c22e", "9b7d2bb2-36d8-401e-8aa2-883719ece74b"],
+				"base_complectation_id": null,
+				"consumption_per_100": 8.9,
+				"engine_id": "e18eab30-0c35-44ab-a653-0621beb2bda9",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "ff9345c0-b8a1-40e7-9cbd-573b9dea0043", "535ce759-0d5d-4bbd-91dd-051f5478838c", "b137d001-169e-42c9-ba72-797e8262c82d", "388f9e44-ad5f-4a01-9f13-ce84487c9ff4", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "4ed1c25d-fe60-44fc-8463-c87115f8d4b9", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "LUXE",
+				"id": "55f9e405-f523-4b9b-9e11-27923c308748",
+				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464"],
+				"min_credit_amount": 12480,
+				"min_price": 2509900,
+				"model_year": 2021,
+				"modification_code": "GZW5L961G",
+				"modification_id": "16881c89-9a58-4f39-84f4-3f058506deb6",
+				"name": "Luxe",
+				"name_en": "Luxe",
+				"ocn": "G138",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "c8170134-afd7-4067-b8e2-f014933629eb", "bbcfa872-2f8c-4bd6-8d7a-9232edf80f1e", "438733e3-0473-4069-8319-d1d2cc74b74d", "990efcad-5e16-4e76-8b93-71649b348e33", "c23c76ed-b848-40ad-ba7d-c0877f8674d9", "21a04f22-0dab-40ed-b96b-67c675e2729d", "1e1e1f30-a84a-4be9-b687-e164859190e5", "617253e0-e5fd-4c4f-b6fa-28ef6971c22e", "a75f4786-9da2-448d-b65e-edecfcdd41a4", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "1fd3673e-c9c8-48a3-9f08-4035e2b33170", "9b7d2bb2-36d8-401e-8aa2-883719ece74b", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "2c013bde-6eaf-4a04-8bae-98466dafee25", "15edf079-c756-4713-9086-f92ce6b307db", "7771524f-41c2-432c-a1ca-0ca1f7e2a19f", "432da08d-bd8f-4cf0-90db-c1b00f117f8e"],
+				"price": 439900000,
+				"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"unique_id": "GZW520212021L961GGG138",
+				"year": 2021
+			},
+			{
+				"acceleration_to_100": 10.3,
+				"advantage_options": ["a4b57b68-0279-41ac-80e8-4efe992e3009", "2b63f2e5-8597-44c3-8b22-bd1008adcd25", "c7c3a860-9e39-4565-9b08-02b97e7f6c19", "7eaa8dc0-815f-4724-b816-27ed9a1facf2", "617253e0-e5fd-4c4f-b6fa-28ef6971c22e", "8e53bb1d-ae43-4b1f-8313-97c0c9bdf4e5"],
+				"base_complectation_id": null,
+				"consumption_per_100": 8.9,
+				"engine_id": "e18eab30-0c35-44ab-a653-0621beb2bda9",
+				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "ff9345c0-b8a1-40e7-9cbd-573b9dea0043", "535ce759-0d5d-4bbd-91dd-051f5478838c", "b137d001-169e-42c9-ba72-797e8262c82d", "388f9e44-ad5f-4a01-9f13-ce84487c9ff4", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "4ed1c25d-fe60-44fc-8463-c87115f8d4b9", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
+				"external_name": "PRESTIGE",
+				"id": "d1d5b9db-c8ac-4383-ad67-7609addb5b2c",
+				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464"],
+				"min_credit_amount": 13510,
+				"min_price": 519900000,
+				"model_year": 2021,
+				"modification_code": "GZW7L961G",
+				"modification_id": "1c9009a0-c96a-4405-b8c1-61e3803aa4a0",
+				"name": "Prestige",
+				"name_en": "Prestige",
+				"ocn": "G139",
+				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d" ,"ecc3f7a5-db63-4198-98d8-ed74a6402047" ,"8e287a59-a6c8-4a46-bb83-b956869e2b90" ,"c8170134-afd7-4067-b8e2-f014933629eb" ,"bbcfa872-2f8c-4bd6-8d7a-9232edf80f1e" ,"438733e3-0473-4069-8319-d1d2cc74b74d" ,"990efcad-5e16-4e76-8b93-71649b348e33" ,"c23c76ed-b848-40ad-ba7d-c0877f8674d9" ,"21a04f22-0dab-40ed-b96b-67c675e2729d" ,"1e1e1f30-a84a-4be9-b687-e164859190e5" ,"7b5effee-354f-4d3d-869c-00b1aba4f5c6" ,"8e53bb1d-ae43-4b1f-8313-97c0c9bdf4e5" ,"2ddbf2d6-81c9-498f-8898-060a73dadd8e" ,"1fd3673e-c9c8-48a3-9f08-4035e2b33170" ,"9b7d2bb2-36d8-401e-8aa2-883719ece74b" ,"777d98a7-d4d6-4da3-a9f8-f59653b5e57a" ,"c9c20b23-c95b-4d4c-8237-9800666d3f51" ,"15edf079-c756-4713-9086-f92ce6b307db" ,"67c71c6d-0a29-40c8-89ce-21d1d916b5dd" ,"7771524f-41c2-432c-a1ca-0ca1f7e2a19f" ,"432da08d-bd8f-4cf0-90db-c1b00f117f8e"],
+				"price": 2849900,
+				"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"unique_id": "GZW720212021L961GGG139",
+				"year": 2021
+			}],
+			"drives": [
+			{
+				"code": "FWD",
+				"id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"name": "Передний",
+				"name_en": "Front-wheel drive",
+				"sort": 500
+			},
+			{
+				"code": "4WD",
+				"id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"name": "Полный",
+				"name_en": "All-wheel drive",
+				"sort": 300
+			}],
+			"engine_types": [
+			{
+				"id": "c4aa995b-73d8-484a-85c2-1350f8dd3aba",
+				"name": "CRDi",
+				"sort": null
+			},
+			{
+				"id": "efbafa4f-3f6e-4c36-9e7d-7532de739180",
+				"name": "MPI",
+				"sort": null
+			}],
+			"engines": [
+			{
+				"engine_torque": "440",
+				"engine_type_id": "c4aa995b-73d8-484a-85c2-1350f8dd3aba",
+				"fuel_type_id": "eb9093c5-2174-48cb-a6b8-e3816fae2588",
+				"id": "d8f5ea26-7879-44e0-a59b-50d66471c745",
+				"name": "2.2 CRDi",
+				"name_en": null,
+				"power_hp": "199",
+				"power_rpm": "6000",
+				"volume": "2.2"
+			},
+			{
+				"engine_torque": "225",
+				"engine_type_id": "efbafa4f-3f6e-4c36-9e7d-7532de739180",
+				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"id": "e18eab30-0c35-44ab-a653-0621beb2bda9",
+				"name": "2.5 MPI",
+				"name_en": null,
+				"power_hp": "179",
+				"power_rpm": "6000",
+				"volume": "2.5"
+			}],
+			"exterior_colors": [
+			{
+				"code": "UD",
+				"id": "347d181f-7c14-49c9-8ad8-b85a1d24ce52",
+				"image": "/master-data/colors/7660e3d2-edcf-4033-a009-b924b59ff5aa.svg",
+				"is_double_color": false,
+				"is_metallic": false,
+				"name": "Clear White",
+				"name_en": "Clear White",
+				"price": null,
+				"sort": 6200
+			},
+			{
+				"code": "SWP",
+				"id": "7854a364-8310-417b-9e7c-f35ee2f09b30",
+				"image": "/master-data/colors/c30af640-9b17-4b3d-97cd-1eeeefc010b5.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Snow White Pearl",
+				"name_en": "Snow White Pearl",
+				"price": 15000,
+				"sort": 6100
+			},
+			{
+				"code": "4SS",
+				"id": "04a199a5-64d9-4e12-9ea0-ed213bf717dd",
+				"image": "/master-data/colors/0c60de86-c0dc-4f40-9b66-a91177ee79a7.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Silky Silver",
+				"name_en": "Silky Silver",
+				"price": 15000,
+				"sort": 5300
+			},
+			{
+				"code": "BE2",
+				"id": "ff9345c0-b8a1-40e7-9cbd-573b9dea0043",
+				"image": "/master-data/colors/5572adeb-fb0f-4e9e-abeb-2d65cba17c29.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Essence Brown",
+				"name_en": "Essence Brown",
+				"price": 15000,
+				"sort": 5000
+			},
+			{
+				"code": "M4B",
+				"id": "535ce759-0d5d-4bbd-91dd-051f5478838c",
+				"image": "/master-data/colors/524cc960-a84f-4240-8710-aa24bc302430.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Mineral Blue",
+				"name_en": "Mineral Blue",
+				"price": 15000,
+				"sort": 4300
+			},
+			{
+				"code": "KLG",
+				"id": "b137d001-169e-42c9-ba72-797e8262c82d",
+				"image": "/master-data/colors/f6913429-a68a-42e8-9bea-3d113a5378d6.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Steel Gray",
+				"name_en": "Steel Gray",
+				"price": 15000,
+				"sort": 3600
+			},
+			{
+				"code": "CR5",
+				"id": "388f9e44-ad5f-4a01-9f13-ce84487c9ff4",
+				"image": "/master-data/colors/660c3a6d-69b3-4b03-a996-b8cd9d951fbc.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Runway Red",
+				"name_en": "Runway Red",
+				"price": 15000,
+				"sort": 3400
+			},
+			{
+				"code": "B4U",
+				"id": "0a9c5af2-fa29-47c0-b975-aa8792ff974b",
+				"image": "/master-data/colors/eadb44bb-f41b-4750-a5a0-0e4ea2f093b9.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Gravity Blue",
+				"name_en": "Gravity Blue",
+				"price": 15000,
+				"sort": 2500
+			},
+			{
+				"code": "ABT",
+				"id": "4ed1c25d-fe60-44fc-8463-c87115f8d4b9",
+				"image": "/master-data/colors/93255077-2aac-421c-ad35-12173a92916a.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Platinum Graphite",
+				"name_en": "Platinum Graphite",
+				"price": 15000,
+				"sort": 1900
+			},
+			{
+				"code": "ABP",
+				"id": "9f140a57-8889-4502-9f82-cb3b19e8fb50",
+				"image": "/master-data/colors/ec09e01d-8f7e-4ad4-9c42-82c2b21753e3.svg",
+				"is_double_color": false,
+				"is_metallic": true,
+				"name": "Aurora Black Pearl",
+				"name_en": "Aurora Black Pearl",
+				"price": 15000,
+				"sort": 950
+			}],
+			"fuel_types": [
+			{
+				"id": "eb9093c5-2174-48cb-a6b8-e3816fae2588",
+				"name": "Дизель",
+				"name_en": "Diesel",
+				"sort": null
+			},
+			{
+				"id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"name": "Бензин",
+				"name_en": "Petrol",
+				"sort": null
+			}],
+			"gearboxes": [
+			{
+				"code": "AT",
+				"id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
+				"name": "Автомат",
+				"name_en": "Automatic",
+				"sort": 400
+			},
+			{
+				"code": "DCT",
+				"id": "50b4e48e-81c8-488b-9a1a-296786f6fc74",
+				"name": "Робот",
+				"name_en": "Robot",
+				"sort": 300
+			}],
+			"grouped_options": [
+			{
+				"name": "Интерьер",
+				"options": [
+				{
+					"description": null,
+					"file_id": null,
+					"id": "690d98a7-d4d6-4da3-a9f8-f59653b5e57a",
+					"name": "Сиденья с кожаной отделкой",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "777d98a7-d4d6-4da3-a9f8-f59653b5e57a",
+					"name": "Сиденья с отделкой премиальной кожей Nappa",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "2c013bde-6eaf-4a04-8bae-98466dafee25",
+					"name": "Элементы передней панели со вставками «под дерево»",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "1d107b62-88b7-450d-825d-f881da19f311",
+					"name": "Сиденья с комбинированной отделкой премиальной кожей Nappa*",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "c9c20b23-c95b-4d4c-8237-9800666d3f51",
+					"name": "Элементы передней панели с объёмным тиснением и узором",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "15edf079-c756-4713-9086-f92ce6b307db",
+					"name": "Отделка передних и центральных стоек кузова тканью",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "67c71c6d-0a29-40c8-89ce-21d1d916b5dd",
+					"name": "Сетка для крепления багажа",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "7771524f-41c2-432c-a1ca-0ca1f7e2a19f",
+					"name": "Акустическая плёнка для лобового стекла",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "432da08d-bd8f-4cf0-90db-c1b00f117f8e",
+					"name": "Разъём USB зарядки для второго ряда",
+					"sort": 500
+				}],
+				"sort": 1100
+			},
+			{
+				"name": "Экстерьер",
+				"options": [
+				{
+					"description": null,
+					"file_id": null,
+					"id": "990efcad-5e16-4e76-8b93-71649b348e33",
+					"name": "Электропривод складывания зеркал заднего вида",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "c23c76ed-b848-40ad-ba7d-c0877f8674d9",
+					"name": "Хромированные ручки дверей (внешние)",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "21a04f22-0dab-40ed-b96b-67c675e2729d",
+					"name": "Серебристая декоративная накладка на передний и задний бампер",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "1e1e1f30-a84a-4be9-b687-e164859190e5",
+					"name": "Рейлинги на крыше",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "617253e0-e5fd-4c4f-b6fa-28ef6971c22e",
+					"name": "Легкосплавные диски 18\" с шинами 235/60R",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "7b5effee-354f-4d3d-869c-00b1aba4f5c6",
+					"name": "Легкосплавные диски 19\" с шинами 235/55R",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "a75f4786-9da2-448d-b65e-edecfcdd41a4",
+					"name": "Рефлекторные светодиодные (LED) фары",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "8e53bb1d-ae43-4b1f-8313-97c0c9bdf4e5",
+					"name": "Проекционные светодиодные (LED) фары",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "2ddbf2d6-81c9-498f-8898-060a73dadd8e",
+					"name": "Светодиодные (LED) противотуманные фары",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "1fd3673e-c9c8-48a3-9f08-4035e2b33170",
+					"name": "Светодиодные (LED) задние фонари",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "9b7d2bb2-36d8-401e-8aa2-883719ece74b",
+					"name": "Глубокая тонировка стекол задних дверей и стекла пятой двери с подогревом",
+					"sort": 500
+				}],
+				"sort": 1200
+			},
+			{
+				"name": "Пакет \"Теплые опции\"",
+				"options": [
+				{
+					"description": null,
+					"file_id": null,
+					"id": "20edd792-c345-46e5-aa94-c3582e0d519d",
+					"name": "Подогрев передних сидений",
+					"sort": 400
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "ecc3f7a5-db63-4198-98d8-ed74a6402047",
+					"name": "Подогрев задних сидений",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "8e287a59-a6c8-4a46-bb83-b956869e2b90",
+					"name": "Подогрев рулевого колеса",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "c8170134-afd7-4067-b8e2-f014933629eb",
+					"name": "Боковые зеркала заднего вида с электроприводом и подогревом",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "bbcfa872-2f8c-4bd6-8d7a-9232edf80f1e",
+					"name": "Воздуховоды для второго ряда сидений",
+					"sort": 500
+				},
+				{
+					"description": null,
+					"file_id": null,
+					"id": "438733e3-0473-4069-8319-d1d2cc74b74d",
+					"name": "Индикатор низкого уровня омывающей жидкости",
+					"sort": 500
+				}],
+				"sort": 1300
+			}],
+			"interior_colors": [
+			{
+				"code": "WK",
+				"id": "cae82a1b-5815-4ca2-9b00-ee2bcfd3460b",
+				"image": "/master-data/colors/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Тканевая отделка",
+				"name_en": "Black, Fabric finish"
+			},
+			{
+				"code": "WK",
+				"id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
+				"image": "/master-data/colors/38606805-bcbe-4bbe-b0e1-156897462c56.svg",
+				"name": "Черный, Натуральная кожа",
+				"name_en": "Black, Genuine leather"
+			},
+			{
+				"code": "WK",
+				"id": "6928bcad-515a-4341-8575-01dcd8defbc2",
+				"image": "/master-data/colors/1df5b002-2f99-472e-998d-c57fc2721def.svg",
+				"name": "Черный, Натуральная кожа Nappa",
+				"name_en": "Black, Genuine Nappa leather"
+			}],
+			"options": [
+			{
+				"description": null,
+				"file_id": null,
+				"id": "c542811f-52e8-4d13-9388-82c36e8b63d2",
+				"name": "Передние и задние стеклоподъёмники с функцией Auto",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "c262037b-c5bc-4652-b4ec-d147db30da9d",
+				"name": "Атермальные лобовое и боковые передние стёкла",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "c24ae6ed-aacf-455c-90ec-a976ce493cee",
+				"name": "Интеллектуальная система открывания багажника (Smart Tailgate)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "b35fee71-abc8-49f8-bcf0-0c14511d8b9c",
+				"name": "Система бесключевого доступа Smartkey и запуск двигателя кнопкой",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "b2bea6e0-0551-45e0-9057-e82ed8debb4d",
+				"name": "Дистанционный запуск двигателя (для Smart Key)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "2b638382-a84f-4bf7-a8d5-c0184d95850f",
+				"name": "Мультимедиа система 8\" с поддержкой Apple Carplay / Android Auto",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "a4b57b68-0279-41ac-80e8-4efe992e3009",
+				"name": "Навигационная система 10,25\" с радио, MP3, RDS",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "bc444afb-0dbe-4d35-a74e-d1191c5fa8cb",
+				"name": "Система кругового обзора с 4-мя камерами (AVM)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "928adcb4-3aae-4097-9713-d9edaf812c6d",
+				"name": "Аудиосистема с 6 динамиками",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "2b63f2e5-8597-44c3-8b22-bd1008adcd25",
+				"name": "Аудиосистема BOSE c 12 динамиками",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "c7c3a860-9e39-4565-9b08-02b97e7f6c19",
+				"name": "Атмосферная подсветка интерьера Mood lamp",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "28b179fd-02cc-47ff-b275-fe42914242c6",
+				"name": "Электрохромное зеркало заднего вида (ECM)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "179c8334-4fee-4fc1-bf76-f259bbb117cf",
+				"name": "10 электрорегулировок сиденья водителя (включая 2 направления поясницы)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "5ea4c488-76c9-46a6-a88c-24013cf802bd",
+				"name": "14 электрорегулировок сиденья водителя (включая 4 направления поясницы) с функцией памяти",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "586dd878-9b82-4962-bc5a-cf1e9a79ac87",
+				"name": "Электрорегулировка сиденья пассажира по 10-и направлениям (включая 2 направления поясницы)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d",
+				"name": "Вентиляция передних сидений",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "a177ea43-e3ea-4838-a61d-25353a6f9d8c",
+				"name": "Дистанционное складывание сидений 2-го ряда со стороны багажника",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "50a174f1-db9d-441a-b86f-0743cbb6a8f4",
+				"name": "Складывание 50/50 сидений 3-го ряда",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "7ffdbe65-42a1-486f-a58b-eae4eaec2ee9",
+				"name": "Кондиционер для третьего ряда сидений",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "46802b3a-0121-4a29-ace4-18de935f7475",
+				"name": "Солнцезащитные шторки для 2-го ряда",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "7eaa8dc0-815f-4724-b816-27ed9a1facf2",
+				"name": "Беспроводная зарядка для мобильных устройств",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "116bb168-2b55-4de7-a957-c010db74c263",
+				"name": "Дополнительный электрический отопитель салона (PTC) (для 2.2 CRDI)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "70a9e1db-8eda-4768-bfda-d4f7c807f3b6",
+				"name": "Интеллектуальный круиз-контроль с функцией Stop&Go (SSC)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "d46c073c-f663-452c-9504-632a48e59269",
+				"name": "Система предотвращения фронтального столконовения (FCA) (уровень распознавания: автомобиль/пешеход)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "e73259a6-39dd-4042-b0de-746290dded83",
+				"name": "Система предотвращения фронтального столконовения (FCA) (уровень распознавания: автомобиль/пешеход/велосипедист)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "f5fe39b4-82f8-4da0-899b-25ca8b6871f5",
+				"name": "Система предотвращения столкновения при повороте на перекрестке (FCA-JT)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "7610bf26-c9b2-4f10-91c0-6a3a9b2ceb78",
+				"name": "Система предотвращения выезда из полосы движения (LKA)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "df3ca29d-de6e-46f2-ae18-c9eeaa4ba79c",
+				"name": "Ассистент движения в полосе (LFA)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "9ccd16b9-057b-4df7-9c3f-0148f63fda4b",
+				"name": "Система предотвращения столкновения с автомобилем в слепой зоне (BCA)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "04086677-9001-47d9-9441-eff60de6fbc2",
+				"name": "Камеры отображения изображения в слепых зонах на панель приборов (BVM)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "84b4aba6-b6f6-45a6-b814-5076c6706df1",
+				"name": "Система предупреждения бокового столкновения при выезде с парковки задним ходом (RCCA)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "c6127845-c816-4f97-9e28-7019566c5c25",
+				"name": "Система предотвращения столкновения при выезде с парковки задним ходом (PCA)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "4f30bddd-d99c-4e09-8484-a1f0f77b0872",
+				"name": "Интеллектуальная система дистанционной парковки (RSPA)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "f3e5b72b-2ce7-49a8-a584-10b2f25be8a7",
+				"name": "Система безопасного выхода из автомобиля (SEA)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "55cfc6e9-abbb-4159-950a-a11f7ffa1ccd",
+				"name": "Система контроля внимания водителя (DAW)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "34255a2b-c649-4745-a4ee-e33a62e2e7fa",
+				"name": "Ассистент управления дальним светом (HBA)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "777d98a7-d4d6-4da3-a9f8-f59653b5e57a",
+				"name": "Сиденья с отделкой премиальной кожей Nappa",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "690d98a7-d4d6-4da3-a9f8-f59653b5e57a",
+				"name": "Сиденья с кожаной отделкой",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "f4385e07-5286-49b0-848d-fc877afa51b2",
+				"name": "Сиденья с тканевой отделкой",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "e79f5215-6531-4196-affa-c0da17d8021e",
+				"name": "Сиденья с комбинированной кожаной отделкой*",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "1d107b62-88b7-450d-825d-f881da19f311",
+				"name": "Сиденья с комбинированной отделкой премиальной кожей Nappa*",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "e8c6c3b6-1621-4a92-b1e4-57470642aedb",
+				"name": "Элементы передней панели со вставками «под металлик»",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "2c013bde-6eaf-4a04-8bae-98466dafee25",
+				"name": "Элементы передней панели со вставками «под дерево»",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "c9c20b23-c95b-4d4c-8237-9800666d3f51",
+				"name": "Элементы передней панели с объёмным тиснением и узором",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "15edf079-c756-4713-9086-f92ce6b307db",
+				"name": "Отделка передних и центральных стоек кузова тканью",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "9754be4a-5308-48f4-9813-e1fe5bb5101f",
+				"name": "Электронный селектор КПП",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "5901bb5b-f45d-4e61-8782-36ed73a8f81e",
+				"name": "Подрулевые переключатели передач",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "01b430cf-62d1-445d-8251-9119adba8651",
+				"name": "Система выбора режимов для различных дорожных покрытий Terrain Mode (для 2.2 CRDI)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "9c036dfd-63f2-4e81-bdd1-bf397d515366",
+				"name": "Пакет светодиодного внутреннего освещения",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "906661b7-ed6f-4747-9d92-631cf324e8b9",
+				"name": "Приборная панель с дисплеем TFT 4,2\"",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "198ddb5c-ef87-4111-bdad-de663f838ccb",
+				"name": "Приборная панель Supervision c цветным дисплеем TFT 12,3''",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "6404ef78-995b-401a-ba1c-453c6e07ce1b",
+				"name": "Проекционный дисплей на лобовое стекло (HUD)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "67c71c6d-0a29-40c8-89ce-21d1d916b5dd",
+				"name": "Сетка для крепления багажа",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "7771524f-41c2-432c-a1ca-0ca1f7e2a19f",
+				"name": "Акустическая плёнка для лобового стекла",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "9791524f-41c2-432c-a1ca-0ca1f7e2a19f",
+				"name": "Акустическая плёнка для окон передних дверей",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "018894ba-5189-4d91-9704-729bf40e78be",
+				"name": "Передние датчики парковки",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "9cfe1d38-c131-47c6-b1dd-910baf0e8769",
+				"name": "Стальное запасное колесо временного использования",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "fa38aae5-e1c8-4645-938c-e8de29cfe6f6",
+				"name": "Полноразмерное легкосплавное запасное колесо",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "a1bc58ae-5e97-4430-ac8f-7d64855ca5d9",
+				"name": "Электрический Child Lock",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "66405d85-8793-416b-83f0-bf45ad946fa1",
+				"name": "Напоминание о пассажирах на заднем ряду (ROA)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "0891fa43-9494-40d0-988d-0d82199dce2b",
+				"name": "Система автоматического выравнивания высоты кузова",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "990efcad-5e16-4e76-8b93-71649b348e33",
+				"name": "Электропривод складывания зеркал заднего вида",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "c23c76ed-b848-40ad-ba7d-c0877f8674d9",
+				"name": "Хромированные ручки дверей (внешние)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "21a04f22-0dab-40ed-b96b-67c675e2729d",
+				"name": "Серебристая декоративная накладка на передний и задний бампер",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "1e1e1f30-a84a-4be9-b687-e164859190e5",
+				"name": "Рейлинги на крыше",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "dbacc22f-270a-411d-8fde-169f9b863c4e",
+				"name": "Легкосплавные диски 17\" с шинами 235/65R",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "617253e0-e5fd-4c4f-b6fa-28ef6971c22e",
+				"name": "Легкосплавные диски 18\" с шинами 235/60R",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "7b5effee-354f-4d3d-869c-00b1aba4f5c6",
+				"name": "Легкосплавные диски 19\" с шинами 235/55R",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "82d5ace8-89b2-4190-aa91-810cc54814e4",
+				"name": "Легкосплавные диски 20\" с шинами 255/45R",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "a75f4786-9da2-448d-b65e-edecfcdd41a4",
+				"name": "Рефлекторные светодиодные (LED) фары",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "8e53bb1d-ae43-4b1f-8313-97c0c9bdf4e5",
+				"name": "Проекционные светодиодные (LED) фары",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "2ddbf2d6-81c9-498f-8898-060a73dadd8e",
+				"name": "Светодиодные (LED) противотуманные фары",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "3fe66ebe-4ebf-4315-8956-1215a9dabe0a",
+				"name": "Панорамная крыша и люк с электроприводом",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "1fd3673e-c9c8-48a3-9f08-4035e2b33170",
+				"name": "Светодиодные (LED) задние фонари",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "9b7d2bb2-36d8-401e-8aa2-883719ece74b",
+				"name": "Глубокая тонировка стекол задних дверей и стекла пятой двери",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "20edd792-c345-46e5-aa94-c3582e0d519d",
+				"name": "Подогрев передних сидений",
+				"sort": 400
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "ecc3f7a5-db63-4198-98d8-ed74a6402047",
+				"name": "Подогрев задних сидений",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "8e287a59-a6c8-4a46-bb83-b956869e2b90",
+				"name": "Подогрев рулевого колеса",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "c8170134-afd7-4067-b8e2-f014933629eb",
+				"name": "Боковые зеркала заднего вида с электроприводом и подогревом",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "bbcfa872-2f8c-4bd6-8d7a-9232edf80f1e",
+				"name": "Воздуховоды для второго ряда сидений",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "438733e3-0473-4069-8319-d1d2cc74b74d",
+				"name": "Индикатор низкого уровня омывающей жидкости",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "577ddf5f-df45-4648-baec-d9d3758556c7",
+				"name": "Ножной стояночный тормоз",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "432da08d-bd8f-4cf0-90db-c1b00f117f8e",
+				"name": "Разъём USB зарядки для второго ряда",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "ae21ca1c-2c3a-4b74-b1f8-26c09fde16a0",
+				"name": "Pазъем USB зарядки в багажнике",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "17435476-193f-4264-b29d-60962708627a",
+				"name": "Улучшенная система рулевого управления: электроусилитель, установленный на рулевой рейке (R-MDPS)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"id": "bf739ca0-fce7-403a-9647-9812933b130a",
+				"name": "Электрический стояночный тормоз (EPB)",
+				"sort": 500
+			}],
+			"options_base": [
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Экстерьер",
+				"group_sort": "1200",
+				"id": "aaaa2c97-f58c-4f29-bd39-f60b3e126241",
+				"name": "Светодиодные (LED) дневные ходовые огни",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Экстерьер",
+				"group_sort": "1200",
+				"id": "54c176ab-105f-4a35-b91c-1c10a723e00b",
+				"name": "Дополнительный (LED) светодиодный стоп-сигнал",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "44140984-8606-4aeb-a60f-9928abb52779",
+				"name": "Мультифункциональное рулевое колесо",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "ec46a6c6-211f-419c-a584-41662fddd0b1",
+				"name": "Иммобилайзер и сигнализация",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "6b82b049-11bf-4996-9dd4-21fef6e86c92",
+				"name": "Антиблокировочная тормозная система (ABS)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "c46a9f66-ff6e-488d-87fc-6f639829371d",
+				"name": "Система курсовой устойчивости (ESC)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "521b77b4-848c-4877-8048-2353fadeb66e",
+				"name": "Система помощи при экстренном торможении (BAS)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "46f8b579-6346-4449-98c5-095431fc7c4d",
+				"name": "Система помощи при спуске (DBS)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "d9dede33-a689-4fdc-969f-3a58f1bb6759",
+				"name": "Cистема помощи при старте на подъёме (HAC)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "1b7a7a1a-9ce1-48d1-9de2-bebccd330ddd",
+				"name": "Круиз-контроль с ограничителем скорости",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "6220ec89-6fff-483f-8881-128ea85f244f",
+				"name": "Задние датчики парковки",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "5b39325a-48e1-4741-bd3d-84a822af340e",
+				"name": "Центральный подлокотник 2го ряда с подстаканниками",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "4898b078-de7c-4109-a392-ddd3d1727603",
+				"name": "Фронтальные подушки безопасности",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "0f1cd501-3e67-478a-aac2-400ff5f34dca",
+				"name": "Камера заднего вида",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "79b43b09-6e5b-417e-95b2-29e3e270cedc",
+				"name": "Функция задержки выключения света (Escort light)",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "c453e5ec-367a-415b-8446-5e4eccfc01b2",
+				"name": "Сиденья 2-го и 3-го (при наличии) ряда с креплением для детских сидений ISOFIX",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "79d01790-ffb1-4748-9ec9-5ff9558c7f7d",
+				"name": "Bluetooth для подключения мобильных устройств",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "1957f9ff-8f60-4395-af5d-3411a277edc6",
+				"name": "Раздельный климат-контроль для водителя и переднего пассажира",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "b09407a6-b7ac-4f1a-9793-9076a5f72e6d",
+				"name": "Регулировка рулевой колонки по высоте и вылету",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "760f7792-c8e7-4daf-9e94-b140bfaf91ec",
+				"name": "Датчик дождя",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "fb5715ea-c188-4a5e-9225-4923590fbe92",
+				"name": "Датчик света",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Интерьер",
+				"group_sort": "1100",
+				"id": "00d5e2ad-9238-4405-9c3f-88bba66127cb",
+				"name": "Отделка внутренних дверных ручек хромом",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Интерьер",
+				"group_sort": "1100",
+				"id": "cae074a2-92b4-418b-8180-34863ec9f624",
+				"name": "Шторка багажного отделения",
+				"sort": 600
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Интерьер",
+				"group_sort": "1100",
+				"id": "08a2bcfe-dca3-49d2-8b72-f9f7dbfdcfed",
+				"name": "Рулевое колесо и ручка селектора трансмиссии с отделкой кожей*",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Интерьер",
+				"group_sort": "1100",
+				"id": "6f10a8aa-370b-4fac-b914-a8730ad37a39",
+				"name": "Разъёмы USB зарядки (2 шт.) в передней панели",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Интерьер",
+				"group_sort": "1100",
+				"id": "fcb6986d-5b24-4bfe-87e1-d48f703387ad",
+				"name": "Разъем USB зарядки (2 шт.) в боковой части спинки передних сидений",
+				"sort": 500
+			},
+			{
+				"description": null,
+				"file_id": null,
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "fe0e0397-43a8-4447-8ff7-7e9e8cb64900",
+				"name": "Система выбора режимов движения (Drive Mode Select)",
+				"sort": 500
+			}],
+			"prices":
+			{
+				"from": 2219900,
+				"to": 3219900
+			},
+			"transmissions": [
+			{
+				"drive_id": "dcbcacc2-810f-4e11-b037-bc1eef56eeae",
+				"gearbox_id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
+				"gears_number": "6",
+				"id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
+				"name": "FWD 6AT"
+			},
+			{
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"gearbox_id": "64233379-8559-4ce2-b9b7-6f41c56a3c7b",
+				"gears_number": "6",
+				"id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
+				"name": "4WD 6AT"
+			},
+			{
+				"drive_id": "6c308a0f-e8bb-41bd-afae-e5c0c8e1c339",
+				"gearbox_id": "50b4e48e-81c8-488b-9a1a-296786f6fc74",
+				"gears_number": "8",
+				"id": "26dc002d-1b33-417a-9778-c972ff874642",
+				"name": "4WD 8DCT"
+			}],
+			"years": [
+			{
+				"year": 2021
+			}]
+		},
+		"offers":
+		{
+			"complectations": [
+			{
+				"id": "052b1baf-d95b-42b0-be08-9c33f86b52a1",
+				"max_discount_offers": ["41defc92-54e0-4abf-ba65-a8f0467454b4", "931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "41defc92-54e0-4abf-ba65-a8f0467454b4",
+					"price": 50000
+				},
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 80000
+				}]
+			},
+			{
+				"id": "7b07f20b-7ea1-49f1-bf59-068ca7680563",
+				"max_discount_offers": ["41defc92-54e0-4abf-ba65-a8f0467454b4", "931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "41defc92-54e0-4abf-ba65-a8f0467454b4",
+					"price": 50000
+				},
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 80000
+				}]
+			},
+			{
+				"id": "d1d5b9db-c8ac-4383-ad67-7609addb5b2c",
+				"max_discount_offers": ["41defc92-54e0-4abf-ba65-a8f0467454b4", "931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "41defc92-54e0-4abf-ba65-a8f0467454b4",
+					"price": 50000
+				},
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 80000
+				}]
+			},
+			{
+				"id": "bd56f389-b2c5-45fc-a3ae-6207aef91f86",
+				"max_discount_offers": ["41defc92-54e0-4abf-ba65-a8f0467454b4", "931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "41defc92-54e0-4abf-ba65-a8f0467454b4",
+					"price": 50000
+				},
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 80000
+				}]
+			},
+			{
+				"id": "5588b24c-3631-4ad6-83d0-f76820ad3dbc",
+				"max_discount_offers": ["41defc92-54e0-4abf-ba65-a8f0467454b4", "931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "41defc92-54e0-4abf-ba65-a8f0467454b4",
+					"price": 50000
+				},
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 80000
+				}]
+			},
+			{
+				"id": "55f9e405-f523-4b9b-9e11-27923c308748",
+				"max_discount_offers": ["41defc92-54e0-4abf-ba65-a8f0467454b4", "931eeb25-3221-4890-b1bd-9faa127e6044"],
+				"offers": [
+				{
+					"excludes": [],
+					"id": "41defc92-54e0-4abf-ba65-a8f0467454b4",
+					"price": 50000
+				},
+				{
+					"excludes": [],
+					"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+					"price": 80000
+				}]
+			}],
+			"offers": [
+			{
+				"active_from": 1612126800,
+				"active_to": 1640984399,
+				"advantage_text": "Ваша выгода достигается путем предоставления дополнительной скидки.",
+				"code": "trade-in-family-offer",
+				"condition_text": "<ul>\r\n<li>Вы владелец автомобиля с пробегом любой марки</li>\r\n<li>Срок владения автомобилем составляет не менее 6 месяцев к моменту сдачи в Трейд-ин</li>\r\n<li>Вы сдаете свой автомобиль в зачет стоимости нового Kia Sorento (Трейд-ин)</li>\r\n<li>В Вашей семье 3-е и более несовершеннолетних детей</li>\r\n<ul/>",
+				"description": null,
+				"id": "41defc92-54e0-4abf-ba65-a8f0467454b4",
+				"is_base": false,
+				"is_traid_in": true,
+				"name": "Программа «Семейный автомобиль»",
+				"preview_text": "Kia предоставляет возможность приобрести Sorento на выгодных условиях."
+			},
+			{
+				"active_from": 1575147600,
+				"active_to": 1640898000,
+				"advantage_text": "Вы получаете КАСКО на 3 года, а также сервисное обслуживание на 3 года. Ваша выгода достигается путем предоставления дополнительной скидки.",
+				"code": "credit-legko-plus",
+				"condition_text": "<ul>\r\n<li>Вы приобретаете новый автомобиль Kia</li>\r\n<li>Вы используете программу кредитования \"Kia Легко Plus\"</li>\r\n<li>Программа кредитования \"Kia Легко Plus\" включается в кредит и является частью ежемесячного платежа Клиента</li>\r\n</ul>",
+				"description": null,
+				"id": "931eeb25-3221-4890-b1bd-9faa127e6044",
+				"is_base": false,
+				"is_traid_in": false,
+				"name": "Программа кредитования \"Kia Легко Plus\"",
+				"preview_text": "Дополнительная выгода при оформлении программы."
+			}]
+		},
+		"disclaimers":
+		{
+			"footer":
+			{
+				"":
+				{
+					"name": "Footer New Sorento Options",
+					"text": "* Возможно использование комбинации натуральной и искусственной кожи для отделки отдельных элементов\r\n<br><br>\r\nСведения о ценах на продукцию бренда Kia, содержащиеся на сайте, носят исключительно информационный характер. Указанные цены могут отличаться от действительных цен дилеров Kia. Для получения подробной информации об актуальных ценах на продукцию Kia обращайтесь к дилерам Kia. Приобретение любой продукции бренда Kia осуществляется в соответствии с условиями индивидуального договора купли-продажи. Представленное изображение автомобиля может отличаться от реализуемого.\r\n<br/><br/>\r\nНа данном сайте используются зарегистрированные товарные знаки, перечисленные в разделе Правовая информация https://www.kia.ru/info/trademarks/\r\n<br/><br/>\r\nДанные по времени разгона получены в эталонных условиях с применением специального измерительного оборудования, при использовании эталонного топлива. Реальное время разгона может отличаться в силу воздействия различных объективных и субъективных факторов: влажности, давления и температуры окружающего воздуха, фракционного состава используемого топлива, рельефа местности, характеристик дорожного покрытия, направления и скорости ветра, атмосферных осадков, давления в шинах а также их размерности, марки и модели, массы перевозимого груза (включая водителя и пассажиров) и навыков вождения. Из-за различий в комплектациях автомобилей и требованиях на разных рынках, характеристики моделей могут отличаться от указанных выше. Компания Kia оставляет за собой право на внесение изменений в конструкцию и комплектацию автомобилей без предварительного уведомления.\r\n<br/><br/>\r\nSorento - Соренто, Classic - Классик, Comfort - Комфорт, Luxe - Люкс, Prestige - Престиж, Premium - Премиум, Premium+ - Премиум Плюс.\r\n<br/><br/>\r\nSmartstream 8DCT (Dual Clutch Transmission) - Роботизированная трансмиссия с двумя сцеплениями «мокрого» типа.\r\n<br/><br/>\r\nTerrain Mode Select - Система выбора режимов движения по различным покрытиям, Drive Wise (Драйв Вайс) -Современные системы помощи водителю, DMS (Drive Mode Select) - Система выбора режима движения, ECO - ЭКО (режим движения для оптимального расхода топлива), SPORT - СПОРТ (режим движения для более динамичной езды), SMART — СМАРТ (режим движения с интеллектуальным алгоритмом обучения), HUD (Head-up display) - Проекционный дисплей на лобовое стекло, BVM (Blind-spot View Monitor) - Камеры для контроля слепых зон с отображением на панель приборов, Bluetooth (Блютус) - спецификация беспроводных персональных сетей, Bose - (Боуз) аудиосистема, SCC (Smart Cruise Control ) Интеллектуальный круиз-контроль,  DAW ( Driving Attention Warning) - Система контроля внимания водителя, RSPA (Remote Smart Parking Assist) - Система дистанционного управления процессом парковки, SAE (Safety Exit Assist) - Система безопасного выхода из автомобиля, LFA (Lane Following Assist) - Система второго поколения удержания в полосе, BCA (Blind-spot Collision Avoidance Assist) - Система предотвращения столкновения с автомобилем в слепой зоне, FCA (Forward Collision-Avoidance Assist) Автоматическая система экстренного торможения, LED (Light-emitting diode) - Светодиод, IMS (Intelligent memory system)- Память настроек сидений., TFT (Thin Film Transistor) - Тиэфти, Supervision - Супервижн, Smart Key - Смарт Кей\r\n<br/><br/>\r\nAT - Автомат, 8DCT - Робот (Роботизированная трансмиссия с двумя сцеплениями «мокрого» типа).\r\n<br/><br/>\r\nOCN - Код комплектации.\r\n<br/><br/>\r\nVDA (Verband fuer Deutsche Automobilindustrie) - методика измерения объема.\r\n<br/><br/>\r\nТехнические характеристики уточняйте у дилеров Kia.",
+					"year": null,
+					"model_year": null
+				}
+			},
+			"min_price":
+			{
+				"name": "Min Price New Sorento",
+				"text": "Цена 2 219 900 руб. указана на новый автомобиль Kia Sorento 2021 г. выпуска в комплектации 2.5 AT Classic c учетом максимальной выгоды 130 000 руб. Выгода формируется из: \n1) выгоды 80 000 рублей по программе кредитования \"\"Kia Легко Plus\"\" [1] (Подробная информация: https://kia.ru/buy/special/credit-legko-plus/).\n2) выгоды 50 000 рублей по программе \"\"Семейный автомобиль\"\" [1] (Подробная информация: https://www.kia.ru/buy/special/family-offer/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.04.2021 по 30.04.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам Kia."
+			},
+			"credit":
+			{
+				"name": "Credit New Sorento",
+				"text": "Ежемесячный платеж – 11 070 р. на Киа Соренто. Кредит предоставляется ПАО «РОСБАНК» (далее «Банк») Генеральная лицензия ЦБ РФ №2272 от 28.01.2015 г., рассчитан по условиям программы \"\"Kia Легко Plus\"\" (Подробная информация: https://kia.ru/buy/special/credit-legko-plus/) по кредитному тарифу Kia Finance Indirect исходя из параметров: цена Киа Соренто 2.5 АТ Классик 2021 года производства, стоимостью 2 349 900 руб. (и с условием предоставления дополнительной скидки в размере 80 000 р. по программе \"\"Kia Легко Plus\"\") срок кредита 36 мес., первоначального взноса 1 248 445 руб., остаточный платеж 45% от стоимости автомобиля, процентной ставки 13% годовых.\n\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Обязательно страхование автомобиля (полис КАСКО) по рискам «угон», «полная гибель», соответствующей требованиям Банка к страховым компаниям и условиям страхования. Условия и тарифы могут быть изменены Банком в одностороннем порядке. \n\nПолис КАСКО оформляется в САО «ВСК» (Лицензии ЦБ РФ - СЛ № 0621, СИ № 0621 от 11.09.2015 www.vsk.ru) на 3 года и предусматривает выплату страхового возмещения за вычетом безусловной франшизы в размере 18 000 р. по страховым случаям, определенным в полисе и с учетом положений Правил страхования, и связанным с утратой, гибелью, повреждением приобретенного автомобиля. Условия программы могут быть изменены в одностороннем порядке САО «ВСК».\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.04.2021 по 30.04.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам Kia."
+			},
+			"max_benefit":
+			{
+				"name": "Max Benefit New Sorento",
+				"text": "Получение максимальной выгоды в размере 130 000 рублей возможно при покупке нового Kia Sorento MQ4 2021 г. выпуска. Выгода формируется из: \n1) выгоды 80 000 рублей по программе кредитования \"\"Kia Легко Plus\"\" [1] (Подробная информация: https://kia.ru/buy/special/credit-legko-plus/).\n2) выгоды 50 000 рублей по программе \"\"Семейный автомобиль\"\" [1] (Подробная информация: https://www.kia.ru/buy/special/family-offer/).\n\nПредложение ограничено, носит информационный характер, не является публичной офертой (ст. 437 ГК РФ), действует с 01.04.2021 по 30.04.2021. Товар сертифицирован. Для получения подробной информации обращайтесь к официальным дилерам Kia.\n\n[1]Банки-партнеры Kia Finance: «Сетелем Банк» ООО (лиц. ЦБ РФ №2168 от 27.06.2013г.), «РОСБАНК» ПАО (лиц. ЦБ РФ № 2272 от 28.01.2015г.), ПАО «Совкомбанк (лиц. ЦБ РФ № 963 от 05.12.2014 г.). Общие условия кредитования: валюта кредита рубли РФ, первоначальный взнос от 0% до 55% от стоимости автомобиля; срок кредита: от 24 до 36 мес.; Обеспечение кредита – залог автомобиля. Предполагается возможность включения в сумму кредита страховых премий по страхованию жизни и здоровья заемщика.\nГарантированная остаточная стоимость автомобиля (часть стоимости автомобиля, подлежащая оплате в конце срока кредита, но не обязательно за счет собственных или кредитных средств, возможно за счет продажи автомобиля дилеру) от 45% от цены автомобиля на момент покупки. Условия и тарифы могут быть изменены Банком в одностороннем порядке. В кредит также включен полис КАСКО, включающей в себя риски: «Ущерб» (а именно: Дорожное происшествие по вине Страхователя, Допущенного лица или неустановленных третьих лиц, Дорожное происшествие по вине установленных третьих лиц, Природные и техногенные факторы, Действие третьих лиц), «Полная гибель», «Хищение», а также прохождение регулярного технического обслуживания у официального дилера Киа 1 раз в год в течение срока действия кредита."
+			}
+		},
+		"model_default_year": null,
+		"model_menu": [
+		{
+			"title": "Обзор",
+			"link": "/models/sorento/desc/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 400
+		},
+		{
+			"title": "Комплектации и цены",
+			"link": "/models/sorento/options/",
+			"code": "",
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 450
+		},
+		{
+			"title": "Характеристики",
+			"link": "/models/sorento/properties/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 500
+		},
+		{
+			"title": "Рассчитать кредит",
+			"link": "/models/sorento/calc/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 550
+		},
+		{
+			"title": "Расчет трейд-ин",
+			"link": "/buy/trade-in/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 560
+		},
+		{
+			"title": "Авто в наличии",
+			"link": "/models/sorento/cars/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 570
+		},
+		{
+			"title": "Спецпредложения",
+			"link": "/models/sorento/special/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 600
+		},
+		{
+			"title": "Тест-драйв",
+			"link": "/models/sorento/testdrive/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 650
+		},
+		{
+			"title": "Заявка дилеру",
+			"link": "/models/sorento/callback/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 700
+		},
+		{
+			"title": "Брошюра",
+			"link": "/static/master-data/brochures/Kia_Sorento_new.pdf",
+			"code": null,
+			"in_new_window": 1,
+			"is_base": 0,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 800
+		},
+		{
+			"title": "Конфигуратор",
+			"link": "/models/sorento/configurator/",
+			"code": null,
+			"in_new_window": 0,
+			"is_base": 1,
+			"show_in_configurator": 0,
+			"show_in_calculator": 0,
+			"sort": 1100
+		}],
+		"seo":
+		{
+			"title": "Kia Sorento 2021 – Цены и комплектации",
+			"description": "Продолжая традиции бескомпромиссной надежности, практичности и универсальности, новый KIA Sorento отличается повышенной безопасностью и впечатляющей управляемостью. Элегантный, просторный и многофункциональный, он поразит Вас уровнем технологий и комфорта. Не говоря уже об удовольствии от вождения."
+		}
+	}
+}

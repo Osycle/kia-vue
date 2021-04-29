@@ -805,7 +805,7 @@
 							</div>
 						</div>
 					</section>
-					<section class="item exterior-color-section">
+					<section class="item exterior-color-section" v-if="!page.model.exterior_hide">
 						<a href=".item" class="title-click" tc tc-closest>Цвета кузова<i class="fa fa-angle-up"></i></a>
 						<div class="section-body">
 							<div class="section-body-wrapper">
@@ -833,7 +833,7 @@
 							</div>
 						</div>
 					</section>
-					<section class="item interior-color-section">
+					<section class="item interior-color-section" v-if="!page.model.interior_hide">
 						<a href=".item" class="title-click" tc tc-closest>Варианты интерьера<i class="fa fa-angle-up"></i></a>
 						<div class="section-body">
 							<div class="section-body-wrapper">
@@ -909,7 +909,6 @@ export default {
 
   },
 	created(){
-
 		this.page.modifications.complectations.forEach(complectation=>{
 			var obj = {}
 			complectation.exterior_colors.forEach(complectationColorId=>{
