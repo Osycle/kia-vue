@@ -1153,7 +1153,7 @@
 				"gallery": null,
 				"id": "e218b23d-6181-44fa-a99f-78a3c32f7540",
 				"label": null,
-				"min_price": 4594900,
+				"min_price": 0,
 				"modifications": [
 				{
 					"acceleration_to_100": 8.4,

@@ -1,6 +1,5 @@
 <template>
   <div class="offset-model-header model-desc">
-
     <div class="model-header header-scroll scrolled-down down">
       <div class="container-p">
         <div class="model-header-panel">
@@ -21,18 +20,6 @@
               <div class="list-add-sub">
                 <ul>
                   <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link active-class="active" :to="item.link">{{item.title}}</nuxt-link></li>
-
-                  <!-- <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link :to="item.link" :target="item.in_new_window?'_blank':'_self'">{{item.title}}</nuxt-link></li> -->
-
-                  <!-- <li><nuxt-link :to="'/models/'+page.model.code+'/desc/'" class="">Обзор</nuxt-link></li>
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/options/'">Комплектации и цены</nuxt-link></li>
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/properties/'" class="">Характеристики</nuxt-link></li>
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/calc/'" class="">Рассчитать кредит</nuxt-link></li>
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/cars/'" class="">Авто в наличии</nuxt-link></li>
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/special/'" class="">Спецпредложения</nuxt-link></li>
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/configurator/'" class="">Конфигуратор</nuxt-link></li>
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/callback/'" class="">Заявка дилеру</nuxt-link></li>
-                  <li><nuxt-link :to="'/models/'+page.model.code+'/testdrive/'" class="">Тест-драйв</nuxt-link></li> -->
                 </ul>
               </div>
             </div>

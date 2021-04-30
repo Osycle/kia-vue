@@ -1114,7 +1114,7 @@
 				"gallery": null,
 				"id": "8440a2fa-2cad-4e5a-bddb-2d85ade41a49",
 				"label": null,
-				"min_price": 2599900,
+				"min_price": 0,
 				"modifications": [
 				{
 					"acceleration_to_100": 10.7,

@@ -1981,7 +1981,7 @@
 				"gallery": null,
 				"id": "072f75fd-9a08-4247-8d9c-20217bbc2bc3",
 				"label": null,
-				"min_price": 2409900,
+				"min_price": 0,
 				"modifications": [
 				{
 					"acceleration_to_100": 8,

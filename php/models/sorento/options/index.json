@@ -100,7 +100,7 @@
 				"advantage_options": ["a4b57b68-0279-41ac-80e8-4efe992e3009", "2b63f2e5-8597-44c3-8b22-bd1008adcd25", "c7c3a860-9e39-4565-9b08-02b97e7f6c19", "7eaa8dc0-815f-4724-b816-27ed9a1facf2", "617253e0-e5fd-4c4f-b6fa-28ef6971c22e", "8e53bb1d-ae43-4b1f-8313-97c0c9bdf4e5"],
 				"base_complectation_id": null,
 				"consumption_per_100": 8.9,
-				"engine_id": "e18eab30-0c35-44ab-a653-0621beb2bda9",
+				"engine_id": "7775ea26-7879-44e0-a59b-50d66471c745",
 				"exterior_colors": ["347d181f-7c14-49c9-8ad8-b85a1d24ce52", "7854a364-8310-417b-9e7c-f35ee2f09b30", "04a199a5-64d9-4e12-9ea0-ed213bf717dd", "ff9345c0-b8a1-40e7-9cbd-573b9dea0043", "535ce759-0d5d-4bbd-91dd-051f5478838c", "b137d001-169e-42c9-ba72-797e8262c82d", "388f9e44-ad5f-4a01-9f13-ce84487c9ff4", "0a9c5af2-fa29-47c0-b975-aa8792ff974b", "4ed1c25d-fe60-44fc-8463-c87115f8d4b9", "9f140a57-8889-4502-9f82-cb3b19e8fb50"],
 				"external_name": "PRESTIGE",
 				"id": "d1d5b9db-c8ac-4383-ad67-7609addb5b2c",
@@ -114,7 +114,7 @@
 				"name_en": "Prestige",
 				"ocn": "G139",
 				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d" ,"ecc3f7a5-db63-4198-98d8-ed74a6402047" ,"8e287a59-a6c8-4a46-bb83-b956869e2b90" ,"c8170134-afd7-4067-b8e2-f014933629eb" ,"bbcfa872-2f8c-4bd6-8d7a-9232edf80f1e" ,"438733e3-0473-4069-8319-d1d2cc74b74d" ,"990efcad-5e16-4e76-8b93-71649b348e33" ,"c23c76ed-b848-40ad-ba7d-c0877f8674d9" ,"21a04f22-0dab-40ed-b96b-67c675e2729d" ,"1e1e1f30-a84a-4be9-b687-e164859190e5" ,"7b5effee-354f-4d3d-869c-00b1aba4f5c6" ,"8e53bb1d-ae43-4b1f-8313-97c0c9bdf4e5" ,"2ddbf2d6-81c9-498f-8898-060a73dadd8e" ,"1fd3673e-c9c8-48a3-9f08-4035e2b33170" ,"9b7d2bb2-36d8-401e-8aa2-883719ece74b" ,"777d98a7-d4d6-4da3-a9f8-f59653b5e57a" ,"c9c20b23-c95b-4d4c-8237-9800666d3f51" ,"15edf079-c756-4713-9086-f92ce6b307db" ,"67c71c6d-0a29-40c8-89ce-21d1d916b5dd" ,"7771524f-41c2-432c-a1ca-0ca1f7e2a19f" ,"432da08d-bd8f-4cf0-90db-c1b00f117f8e"],
-				"price": 2849900,
+				"price": 519900000,
 				"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
 				"unique_id": "GZW720212021L961GGG139",
 				"year": 2021
@@ -146,6 +146,17 @@
 				"sort": null
 			}],
 			"engines": [
+			{
+				"engine_torque": "440",
+				"engine_type_id": "c4aa995b-73d8-484a-85c2-1350f8dd3aba",
+				"fuel_type_id": "eb5eb7db-7702-44ff-ab38-edfe9c2b5128",
+				"id": "7775ea26-7879-44e0-a59b-50d66471c745",
+				"name": "V6 3.5",
+				"name_en": null,
+				"power_hp": "249",
+				"power_rpm": "6000",
+				"volume": "3.5"
+			},
 			{
 				"engine_torque": "440",
 				"engine_type_id": "c4aa995b-73d8-484a-85c2-1350f8dd3aba",
@@ -1576,96 +1587,6 @@
 			"show_in_configurator": 0,
 			"show_in_calculator": 0,
 			"sort": 450
-		},
-		{
-			"title": "Характеристики",
-			"link": "/models/sorento/properties/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 1,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 500
-		},
-		{
-			"title": "Рассчитать кредит",
-			"link": "/models/sorento/calc/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 1,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 550
-		},
-		{
-			"title": "Расчет трейд-ин",
-			"link": "/buy/trade-in/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 560
-		},
-		{
-			"title": "Авто в наличии",
-			"link": "/models/sorento/cars/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 570
-		},
-		{
-			"title": "Спецпредложения",
-			"link": "/models/sorento/special/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 600
-		},
-		{
-			"title": "Тест-драйв",
-			"link": "/models/sorento/testdrive/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 650
-		},
-		{
-			"title": "Заявка дилеру",
-			"link": "/models/sorento/callback/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 700
-		},
-		{
-			"title": "Брошюра",
-			"link": "/static/master-data/brochures/Kia_Sorento_new.pdf",
-			"code": null,
-			"in_new_window": 1,
-			"is_base": 0,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 800
-		},
-		{
-			"title": "Конфигуратор",
-			"link": "/models/sorento/configurator/",
-			"code": null,
-			"in_new_window": 0,
-			"is_base": 1,
-			"show_in_configurator": 0,
-			"show_in_calculator": 0,
-			"sort": 1100
 		}],
 		"seo":
 		{

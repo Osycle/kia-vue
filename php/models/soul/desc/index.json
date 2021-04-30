@@ -9943,7 +9943,7 @@
 				"gallery": null,
 				"id": "f151f2f3-6b7b-4c7e-ba71-ecc4f0d32d05",
 				"label": null,
-				"min_price": 1734900,
+				"min_price": 0,
 				"modifications": [
 				{
 					"acceleration_to_100": 10.2,

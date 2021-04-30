@@ -64,7 +64,7 @@
           <div class="conf-crs-main">
             <div class="owl-carousel owl-btn-2">
               <template v-for="(modelLine) in page.model_lines">
-                <figure v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id" :model-line-id="modelLine.id">
+                <figure v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id && model.min_price" :model-line-id="modelLine.id">
                   <div class="fig-wrapper">
                     <div class="desc-content">
                       <div class="text-x5 desktop:text-x4">{{modelLine.name}}</div>
