@@ -35,20 +35,22 @@
                 <small class="color-gray">Поля, отмеченные *, обязательны для заполнения</small>
               </p>
               <div class="form-content box-md-6">
-                <form>
-                  <input type="text" :value="page.model.id" name="model" class="hide">
+                <form method="POST">
+                  <input type="text" :value="new Date().getFullYear()" name="anti-bot-a" class="hide">
+                  <input type="text" value="modelTestdrive" name="type" class="hide">
+                  <input type="text" :value="page.model.name" name="model" class="hide">
                   <div class="input-content m-v-30">
-                    <input type="text" name="name" placeholder="Имя *"  class="form-control">
+                    <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="phone" name="phone" placeholder="Телефон *"  class="form-control">
+                    <input type="phone" name="phone" placeholder="Телефон *"  class="form-control" required>
                   </div>
                   <div class="input-content">
-                    <textarea placeholder="Ваш комментарий или вопрос" class="form-control"></textarea>
+                    <textarea name="comment" placeholder="Ваш комментарий или вопрос" class="form-control"></textarea>
                   </div>
                   <div class="iagree m-v-30">
                     <label class="flex" role="button">
-                      <input type="checkbox" name="" class="hide">
+                      <input type="checkbox" name="iagree" class="hide" required>
                       <span class="checkbox-style-1"></span>
                       <span class="p-l-20">{{page.agreement.text}}</span>
                     </label>

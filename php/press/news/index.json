@@ -26,6 +26,15 @@
 			},
 			"news": [
 			{
+				"code": "news-3",
+				"direct_link": true,
+				"date": 1619813022,
+				"image": "http://html.lifestyle.uz/tokbor/img/kia-car.jpg",
+				"name": "Попробуйте автомобили Kia в деле!",
+				"preview_text": null,
+				"source": null
+			},
+			{
 				"code": "news-2",
 				"direct_link": true,
 				"date": 1619603003,

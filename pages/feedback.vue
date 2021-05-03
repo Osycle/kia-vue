@@ -19,13 +19,15 @@
           <div class="flex-wrapper">
             <div class="col-2 p-v-20">
               <div class="form-content box-md-5 m-auto">
-                <form>
+                <form action="" method="POST">
+                  <input type="text" name="anti-bot-a" :value="new Date().getFullYear()" class="hide">
+                  <input type="text" name="type" value="feedback" class="hide">
                   <p>Вы можете отправить ваше обращение дилеру. Оставьте ваши контакты и уточните тему запроса, и мы свяжемся с вами.</p>
                   <div class="input-content m-v-30">
                     <input type="text" name="name" placeholder="Имя"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="text" name="name" placeholder="Фамилия"  class="form-control" required>
+                    <input type="text" name="fam" placeholder="Фамилия"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
                     <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required>
@@ -34,12 +36,12 @@
                     <input type="email" name="email" placeholder="E-mail"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <textarea placeholder="Ваш комментарий или вопрос" class="form-control" required></textarea>
+                    <textarea placeholder="Ваш комментарий или вопрос" name="comment" class="form-control" required></textarea>
                   </div>
                   <div class="input-content m-v-30">
                     <div class="m-b-10">Тип вопроса</div>
                     <div class="models-filter">
-                      <select class="js-select">
+                      <select class="js-select" name="question">
                         <option>Выберите тип вопроса</option>
                         <option>Наличие и процесс поставки автомобиля KIA</option>
                         <option>Наличие и стоимость запасных частей и аксессуаров KIA</option>
