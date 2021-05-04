@@ -4352,3 +4352,13 @@ dt{
 		background-color: $color-gray-1;
 	}
 }
+
+.form-success-block{
+	display: none;
+	&.active{
+		display: block;
+	}
+}
+.pe-none{
+	pointer-events: none;
+}

@@ -26,10 +26,19 @@
 			},
 			"news": [
 			{
+				"code": "news-4",
+				"direct_link": true,
+				"date": 1620131832,
+				"image": "/img/news/20210504.jpg",
+				"name": "Завод ADM Jizzakh",
+				"preview_text": null,
+				"source": null
+			},
+			{
 				"code": "news-3",
 				"direct_link": true,
 				"date": 1619813022,
-				"image": "http://html.lifestyle.uz/tokbor/img/kia-car.jpg",
+				"image": "/img/news/3.jpg",
 				"name": "Попробуйте автомобили Kia в деле!",
 				"preview_text": null,
 				"source": null

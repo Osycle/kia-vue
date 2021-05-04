@@ -35,21 +35,29 @@
                 <small class="color-gray">Поля, отмеченные *, обязательны для заполнения</small>
               </p>
               <div class="form-content box-md-6">
-                <form action="" type="POST">
+                <form action="https://cdn.kia-motors.uz/feedback.php" method="POST" formaj>
                   <input type="text" name="anti-bot-a" :value="new Date().getFullYear()" class="hide">
                   <input type="text" name="type" value="modelCallBack" class="hide">
-                  <input type="text" :value="page.model.name" name="model" class="hide">
+                  <input type="text" :value="page.model.name" name="carName" class="hide">
                   <div class="input-content m-v-30">
-                    <input type="text" name="name" placeholder="Имя *"  class="form-control">
+                    <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="text" name="phone" placeholder="Телефон *"  class="form-control">
+                    <input type="text" name="phone" placeholder="Телефон *"  class="form-control" required pattern="[0-9]+" title="цифры">
                   </div>
                   <div class="input-content">
                     <div class="models-filter m-v-30">
-                      <select class="js-select" name="question">
-                        <option value="0">Выберите тип вопроса</option>
-                        <option v-for="(calltype, key) in page.call_types" :key="key" :value="calltype.code">{{calltype.name}}</option>
+                      <select class="js-select" name="question" required>
+                        <option value="">Выберите тип вопроса</option>
+                        <option>Наличие и процесс поставки автомобиля KIA</option>
+                        <option>Наличие и стоимость запасных частей и аксессуаров KIA</option>
+                        <option>Сервисное обслуживание (ТО, гарантия, эксплуатация)</option>
+                        <option>Условия кредитования и страхования</option>
+                        <option>Прохождение тест-драйва</option>
+                        <option>Другое</option>
+                        <option>Спецификация и стоимость автомобиля KIA</option>
+                        <option>Условия для корпоративных клиентов</option>
+                        <!-- <option v-for="(calltype, key) in page.call_types" :key="key" :value="calltype.code">{{calltype.name}}</option> -->
                       </select>
                     </div>
                   </div>
@@ -67,6 +75,16 @@
                     <button type="submit">Отправить заявку</button>
                   </span>
                 </form>
+                <div class="form-success-block">
+                  <div class="form-success-block-wrapper pv-10">
+                    <h3>Заявка успешно отправлена!</h3>
+                    <br>
+                    <p>Спасибо за заявку! Рассмотрение займет не больше одного рабочего дня, но обычно мы справляемся быстрее. Как только все будет готово, менеджер свяжется с вами.</p>
+                    <span class="btn-def mv-8">
+                      <nuxt-link :to="'/'" class="hover-aunderline"><b>Вернуться на главную</b></nuxt-link>
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>	
           </div>
@@ -92,6 +110,9 @@ export default {
     }catch(e){
       context.error(e);
     }
+  },
+  mounted(){
+    
   },
   head() {
     return {

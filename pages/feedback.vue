@@ -19,7 +19,7 @@
           <div class="flex-wrapper">
             <div class="col-2 p-v-20">
               <div class="form-content box-md-5 m-auto">
-                <form action="" method="POST">
+                <form action="https://cdn.kia-motors.uz/feedback.php" method="POST" formaj>
                   <input type="text" name="anti-bot-a" :value="new Date().getFullYear()" class="hide">
                   <input type="text" name="type" value="feedback" class="hide">
                   <p>Вы можете отправить ваше обращение дилеру. Оставьте ваши контакты и уточните тему запроса, и мы свяжемся с вами.</p>
@@ -30,19 +30,19 @@
                     <input type="text" name="fam" placeholder="Фамилия"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required>
+                    <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required pattern="[0-9]+" title="цифры">
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="email" name="email" placeholder="E-mail"  class="form-control" required>
+                    <input type="email" name="email" placeholder="E-mail"  class="form-control" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="my@email.com">
                   </div>
                   <div class="input-content m-v-30">
-                    <textarea placeholder="Ваш комментарий или вопрос" name="comment" class="form-control" required></textarea>
+                    <textarea placeholder="Ваш комментарий или вопрос" name="comment" class="form-control"></textarea>
                   </div>
                   <div class="input-content m-v-30">
                     <div class="m-b-10">Тип вопроса</div>
                     <div class="models-filter">
-                      <select class="js-select" name="question">
-                        <option>Выберите тип вопроса</option>
+                      <select class="js-select" name="question" required>
+                        <option value="">Выберите тип вопроса</option>
                         <option>Наличие и процесс поставки автомобиля KIA</option>
                         <option>Наличие и стоимость запасных частей и аксессуаров KIA</option>
                         <option>Сервисное обслуживание (ТО, гарантия, эксплуатация)</option>
@@ -67,6 +67,16 @@
                     <button type="submit">Отправить заявку</button>
                   </span>
                 </form>
+                <div class="form-success-block">
+                  <div class="form-success-block-wrapper pv-10">
+                    <h3>Заявка успешно отправлена!</h3>
+                    <br>
+                    <p>Спасибо за заявку! Рассмотрение займет не больше одного рабочего дня, но обычно мы справляемся быстрее. Как только все будет готово, менеджер свяжется с вами.</p>
+                    <span class="btn-def mv-8">
+                      <nuxt-link :to="'/'" class="hover-aunderline"><b>Вернуться на главную</b></nuxt-link>
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>	
           </div>

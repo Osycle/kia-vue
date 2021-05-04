@@ -19,12 +19,14 @@
           <div class="flex-wrapper">
             <div class="col-2 p-v-20">
               <div class="form-content box-md-5 m-auto">
-                <form>
+                <form action="https://cdn.kia-motors.uz/feedback.php" method="POST" formaj>
+                  <input type="text" :value="new Date().getFullYear()" name="anti-bot-a" class="hide">
+                  <input type="text" value="serviceBooking" name="type" class="hide">
                   <div class="text-s1">Данные автомобиля</div>
                   <div class="input-content">
                     <div class="models-filter m-v-30">
-                      <select class="js-select">
-                        <option value="0">Модельный ряд</option>
+                      <select class="js-select" name="carName" required>
+                        <option value="">Модельный ряд</option>
                         <option>K5</option>
                         <option>Seltos</option>
                       </select>
@@ -33,8 +35,8 @@
                   <div>Тип работы</div>
                   <div class="input-content">
                     <div class="models-filter m-v-30">
-                      <select class="js-select">
-                        <option value="0">Выберите тип работы</option>
+                      <select class="js-select" name="question" required>
+                        <option value="">Выберите тип работы</option>
                         <option>ТО</option>
                         <option>Механический ремонт</option>
                         <option>Кузовной ремонт</option>
@@ -47,10 +49,10 @@
                     <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="phone" name="phone" placeholder="Телефон *"  class="form-control" required>
+                    <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required pattern="[0-9]+" title="цифры">
                   </div>
                   <div class="input-content">
-                    <textarea placeholder="Ваш комментарий или вопрос" class="form-control"></textarea>
+                    <textarea type="comment" placeholder="Ваш комментарий или вопрос" class="form-control"></textarea>
                   </div>
                   <div class="iagree m-v-30">
                     <label class="flex" role="button">
@@ -65,6 +67,16 @@
                     <button type="submit">Отправить заявку</button>
                   </span>
                 </form>
+                <div class="form-success-block">
+                  <div class="form-success-block-wrapper pv-10">
+                    <h3>Заявка успешно отправлена!</h3>
+                    <br>
+                    <p>Спасибо за заявку! Рассмотрение займет не больше одного рабочего дня, но обычно мы справляемся быстрее. Как только все будет готово, менеджер свяжется с вами.</p>
+                    <span class="btn-def mv-8">
+                      <nuxt-link :to="'/'" class="hover-aunderline"><b>Вернуться на главную</b></nuxt-link>
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>	
           </div>

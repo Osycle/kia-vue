@@ -60,7 +60,7 @@ window.isEdge = /Edge/i.test(navigator.userAgent);
 /* SELECT2 */
 if ( $(".js-select").length )
 	$(".js-select").select2({
-		placeholder: "Выберите...",
+		placeholder: true,
 		minimumResultsForSearch: Infinity,
 		allowClear: false
 	});
@@ -280,6 +280,31 @@ if ( $(".js-select").length )
 				offset: 10
 			});
 
+		$(document).on("submit", "[formaj]", function(e){
+			e.preventDefault();
+			var that = $(this);
+			console.log(this)
+			var successEl = $(".form-success-block");
+			var url = that.attr("action");
+			var form_data = $(this).serialize(); // Собираем все данные из формы
+			that.find('[type="submit"]').addClass("pe-none")
+			$.ajax({
+        type: "POST", // Метод отправки
+        url: url, // Путь до php файла отправителя
+        data: form_data,
+        success: function(res) {
+					that.find('[type="submit"]').removeClass("pe-none");
+          // Код в этом блоке выполняется при успешной отправке сообщения
+					res = JSON.parse(res);
+					if (res.status == 200){
+						that.addClass("hide");
+						successEl.addClass("active");
+					}
+					console.log(res.status);
+          //alert("Ваше сообщение отправлено!");
+        }
+      });
+		})
 
 
 		// Адаптация хедера при скролле

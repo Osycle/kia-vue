@@ -445,7 +445,7 @@
                   <h3>Забронировать автомобиль {{currentModelLine.name}} {{selectComplectation.name}} {{currentEngine.name}}</h3>
                   <p>После отправки заявки выбранный дилер свяжется с вами для уточнения деталей.</p>
                 </div>
-                <form action="" method="POST">
+                <form action="https://cdn.kia-motors.uz/feedback.php" method="POST" formaj>
 
                   <input type="text" :value="new Date().getFullYear()" name="anti-bot-a" class="hide">
                   <input type="text" value="carBook" name="type" class="hide">
@@ -461,7 +461,7 @@
                       <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                     </div>
                     <div class="input-content m-v-30 col-md-6 p-h-15">
-                      <input type="phone" name="phone" placeholder="Телефон *"  class="form-control" required>
+                      <input type="text" name="phone" placeholder="Телефон *"  class="form-control" required pattern="[0-9]+" title="цифры">
                     </div>
                   </div>
                   <div class="iagree m-v-30">
@@ -475,6 +475,13 @@
                     <button type="submit">Забронировать</button>
                   </span>
                 </form>
+                <div class="form-success-block">
+                  <div class="form-success-block-wrapper pv-10">
+                    <h3>Заявка успешно отправлена!</h3>
+                    <br>
+                    <p>Спасибо за заявку! Рассмотрение займет не больше одного рабочего дня, но обычно мы справляемся быстрее. Как только все будет готово, менеджер свяжется с вами.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

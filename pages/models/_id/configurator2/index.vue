@@ -84,6 +84,7 @@
           </div>
         </div>
         <div class="conf-main-content col-md-9">
+
           <template v-if="currentStepNum === 2">
             <div class="conf-steps conf-step-2">
               <div class="entry-content">
@@ -94,7 +95,7 @@
                       <li v-for="(engine, key) in model.engines" :key="key" :class="{'active': engine.id == currentEngine.id}"
                           :ref="'paramEngine'"
                           :car-param="engine.name"
-                          @click.prevent.stop="selectParamEngine(engine, $event)">
+                          @click.prevent.stop="selectParamEngine(engine)">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -110,10 +111,14 @@
                   <div class="car-params-item">
                     <h4>Коробка передач</h4>
                     <ul class="flex-list">
-                      <li v-for="(gear, key) in model.gears" :key="key" :class="{'active': gear.name == currentGearbox.name}" 
+                      <li v-for="(gear, key) in model.gears" :key="key" 
+                        :class="{
+                          'active': gear.name == currentGearbox.name,
+                          'disabled': !validParams(gear.name, currentEngine.allowedGears)
+                        }" 
                         :ref="'paramGearbox'"
                         :car-param="gear.name"
-                        @click.prevent.stop="selectParamGearbox(gear, $event)">
+                        @click.prevent.stop="selectParamGearbox(gear)">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -129,7 +134,12 @@
                   <div class="car-params-item">
                     <h4>Привод</h4>
                     <ul class="flex-list">
-                      <li v-for="(drive, key) in model.privodi" :key="key" :class="{'active': drive.name == currentDrive.name}">
+                      <li v-for="(drive, key) in model.privodi" :key="key" 
+                          :class="{
+                            'active': drive.name == currentDrive.name,
+                            'disabled': !validParams(drive.name, currentEngine.allowedPrivodi)
+                          }"
+                          @click.prevent.stop="selectParamDrive(drive)">
                         <div class="car-params-btn">
                           <div class="flex">
                             <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
@@ -146,7 +156,103 @@
               </div>
             </div>
           </template>
- 
+           <template v-else-if="currentStepNum === 3">
+            <div class="conf-steps conf-step-3">
+              <div class="entry-content">
+                <div class="entry-title m-v-30">
+                  <h3>{{currentModelLine.name}} {{showroomComplectation.name}}</h3>
+                </div>
+                <div class="showroom-main m-v-10">
+                  <div
+                      class="cloudimage-360"
+                      :data-folder="'https://cdn.kia.ru'+showroomComplectation.overviews[0].path"
+                      data-filename="{index}.png"
+                      data-spin-reverse
+                      data-amount="72">
+                      <div class="showroom-item-cover flex align-center">
+                        <div class="flex box-xs-10 align-center">
+                          <img :src="'https://cdn.kia.ru'+showroomComplectation.overviews[0].path+'/1.png'" width="100%">
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <script>window.CI360 = { notInitOnLoad: true }</script>
+                <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+                <div class="color-gray-4 text-center m-b-30">
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="showroom__three-sixty-icon"><path d="M9.724 9.472c0-1.584-.912-2.28-2.82-2.28-.6 0-1.632.18-2.268.468v1.296c.816-.276 1.5-.396 2.268-.384.864.012 1.164.336 1.164.924 0 1.056-.948 1.284-1.752 1.284H5.68v1.392h.636c1.212 0 2.064.228 2.064 1.332-.036.816-.42 1.212-1.476 1.212-.768 0-1.344-.06-2.556-.348v1.308a8.962 8.962 0 002.7.444c1.848 0 2.988-.792 2.988-2.616 0-1.26-.552-1.896-1.416-2.196.672-.372 1.104-.96 1.104-1.836zM14.343 14.788c-1.488 0-1.584-1.2-1.584-2.988a5.527 5.527 0 011.572-.252c.972 0 1.38.384 1.38 1.548 0 1.116-.324 1.692-1.368 1.692zm.324-6.228c.612 0 1.308.108 2.124.312V7.6a7.966 7.966 0 00-2.436-.408c-1.668 0-3.264.744-3.264 4.764 0 2.628.912 4.176 3.264 4.176 2.064 0 3.012-1.272 3.012-3.156 0-1.776-.96-2.808-2.736-2.808-.528 0-1.176.096-1.836.3.132-1.548.924-1.908 1.872-1.908zM21.62 16.132c1.968 0 3.132-1.344 3.132-4.428 0-3.084-1.164-4.512-3.132-4.512-1.968 0-3.12 1.428-3.12 4.512 0 3.096 1.152 4.428 3.12 4.428zm0-1.344c-1.116 0-1.464-1.008-1.464-3.084 0-2.028.348-3.168 1.464-3.168s1.476 1.14 1.476 3.168c0 2.076-.36 3.084-1.476 3.084z" fill="currentColor"></path><path d="M15 23c-7.732 0-14-2.727-14-6.09 0-1.263.885-2.437 2.4-3.41m17.667 8.9C25.76 21.417 29 19.328 29 16.91c0-1.263-.885-2.437-2.4-3.41" stroke="currentColor" stroke-width="1.5"></path><circle cx="27.5" cy="6.5" r="1.75" stroke="currentColor" stroke-width="1.5"></circle><path d="M12 19l4 4-4 4" stroke="currentColor" stroke-width="1.5"></path></svg>
+                  <p><small>Изображение может не соответствовать выбранной комплектации. Цвет автомобиля может отличаться от представленного на данном сайте.</small></p>
+                </div>
+                <div class="hide">
+                  <div class="config-details config-details-modal conf-steps-modal" v-for="(complectation, index) in page.complectations" :key="index" :id="'config-details-'+complectation.id" :config-complectation-id="complectation.id">
+                    <section class="item active" v-for="(gOption, key) in page.grouped_options" :key="key">
+                      <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
+                      <div class="section-body">
+                        <div class="section-body-wrapper">
+                          <div class="list-block-body">
+                            <ul>
+                              <template v-for="(complectationOptionId) in complectation.options">
+                                <li v-for="(option, key) in gOption.options" :key="key" v-if="complectationOptionId == option.id">
+                                  {{option.name}}
+                                </li>
+                              </template>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="fw-7 conf-cnt-complectations">
+                  <span class="font-size-nm">
+                    {{selectComplectations.length}} 
+                    <span v-if="selectComplectations.length == 1">комплектация</span> 
+                    <span v-else>комплектации</span> 
+                  </span>
+                </div>
+                <div class="accordion-def m-t-30" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="accordion-def-item" 
+                      :class="{'active': complectation.id == selectComplectation.id}"
+                      v-for="(complectation, key) in selectComplectations" :key="key">
+                    <div class="title-content">
+                      
+                        <div class="car-params-btn">
+                          <div class="flex" click="selectComplectation" @click="selectComplectationAppend(complectation)" role="button">
+                            <figure class="check-sel"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M10 5v10M5 10h10" stroke="currentColor" stroke-width="2"></path></svg></figure>
+                            <div class="m-l-15">
+                              <b>{{complectation.name}}</b><br>
+                              <b>{{complectation.min_price | spaceBetweenNum}} сум</b>
+                            </div>
+                          </div>
+                          <a role="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" :href="'#step-3-complectation-'+key">
+                            <div class="align-center">
+                              <b>Что включено</b>
+                              <svg class="m-l-15" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg>
+                            </div>
+                          </a>
+                        </div>
+                    </div>
+                    <div :id="'step-3-complectation-'+key" class="drop-content collapse" :class="{'in': key == 0}" :aria-expanded="{'true': key == 0}">
+                      <div class="drop-content-body">
+                        <ul>
+                          <template v-for="(baseOption) in groupOptions">
+                            <li v-for="(optionId, key) in complectation.advantage_options" :key="key" v-if="baseOption.id == optionId">
+                              {{baseOption.name}}
+                            </li>
+                          </template>
+                        </ul>
+                        <a href="javascript:;" 
+                          :data-src="'#config-details-'+complectation.id" 
+                          class="link-btn-1 fw-6 align-center" data-fancybox>
+                          Показать всё 
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </template>
 
         </div>
       </div>
@@ -193,77 +299,14 @@ export default {
   async asyncData(context){
     try{
       
-      // const path = context.route.path
-      // const page = await context.store.dispatch("models/fetchPageData", {
-      //   path: "/models/"+context.route.params.id+"/full"
-      // })
       const modelName = context.route.params.id;
       
-      const page_data = await context.store.dispatch("models/fetchModels", {
+      var page_data = await context.store.dispatch("models/fetchModels", {
         modelName
       })
       
-      //console.log(page_data);
-      var ata = {
-        "id": 978,
-        "title": "K5",
-        "sideImage": "https://cdn.kia-motors.uz/uploads/gallery/original-20bc78.png",
-        "engines": [
-        {
-          "id": 0,
-          "name": "2.0 MPI",
-          "descr": "150 л.c., Бензин",
-          "allowedGears": ["6AT", "10AT"],
-          "allowedPrivodi": ["FWD", "4WD"]
-        },
-        {
-          "id": 1,
-          "name": "2.5 GDI",
-          "descr": "194 л.c., Бензин",
-          "allowedGears": ["6AT", "8AT", "10AT"],
-          "allowedPrivodi": ["FWD"]
-        }],
-        "gears": [
-        {
-          "name": "6AT",
-          "value": "Автомат"
-        },
-        {
-          "name": "8AT",
-          "value": "Автомат"
-        },
-        {
-          "name": "10AT",
-          "value": "Автомат"
-        }],
-        "privodi": [
-        {
-          "name": "4WD",
-          "value": "Полный"
-        },
-        {
-          "name": "FWD",
-          "value": "Передний"
-        }],
-        "minPrices": [
-        {
-          "6AT":{
-            "FWD": 269900000,
-            "4WD": 550000000
-          },
-          "10AT":{
-            "FWD": 269900000,
-            "4WD": 550000000
-          }
-
-        },
-        {
-          "8AT":{"FWD": 35890000},
-          "6AT":{"FWD": 5}
-        }]
-      }
       return {
-        model: ata
+        model: page_data.model
       }
     }catch(e){
       context.error(e);
@@ -318,45 +361,39 @@ export default {
     this.selectParamEngine(this.currentEngine);
   },
   methods: {
-    selectParamChange(){
-
+    validParams(val, arr){
+      return arr.find(function(arrItem){
+        return arrItem === val
+      })
     },
-    async selectParamEngine(param, event){
+    async selectParamEngine(param){
       this.currentEngine = param;
 
-      this.$refs.paramGearbox.map(e => {
-        var paramValue = $(e).attr("car-param");
-        var boolVal = false;
-        for (let i = 0; i < this.currentEngine.allowedGears.length; i++) {
-          const gearItem = this.currentEngine.allowedGears[i];
-          if(paramValue === gearItem){
-            boolVal = true;break;
-          }
-        }
-        if(!boolVal){
-          $(e).addClass("disabled");
-          if(this.currentGearbox.name === paramValue){
-            this.model.gears.map(gear => {
-              if(gear.name === this.currentEngine.allowedGears[0])
-                this.currentGearbox = gear;
-                $(e).removeClass("disabled");
-            })
-          }
-
-          console.log((this.currentGearbox.name == paramValue))
-        }else{
-          $(e).removeClass("disabled");
-        }
+      var statusAllowedGears = this.currentEngine.allowedGears.find(allowedName => {
+        return allowedName == this.currentGearbox.name
       });
+      if(!statusAllowedGears){
+        this.currentGearbox = this.model.gears.find(e=>{
+          if(this.currentEngine.allowedGears[0] == e.name)
+            return e;
+        }) 
+      }
 
-      this.selectParamChange();
+      var statusAllowedDrive = this.currentEngine.allowedPrivodi.find(allowedName => {
+        return allowedName == this.currentDrive.name
+      });
+      if(!statusAllowedDrive){
+        this.currentDrive = this.model.privodi.find(e=>{
+          if(this.currentEngine.allowedPrivodi[0] == e.name)
+            return e;
+        }) 
+      }
     },
-    selectParamGearbox(param, event){
+    selectParamGearbox(param){
       this.currentGearbox = param;
-
-
-
-      this.selectParamChange();
+    },
+    selectParamDrive(param){
+      this.currentDrive = param;
     },
 
     scrollAnimate(elId, event){
@@ -397,9 +434,6 @@ export default {
     
     this.currentPrice = this.model.minPrices[this.currentEngine.id][this.currentGearbox.name][this.currentDrive.name]
 
-    
-    //this.currentGearbox = this.model.gears[0];
-    //this.currentDrive = this.currentEngine;
   },
 }
 

@@ -35,15 +35,15 @@
                 <small class="color-gray">Поля, отмеченные *, обязательны для заполнения</small>
               </p>
               <div class="form-content box-md-6">
-                <form method="POST">
+                <form action="https://cdn.kia-motors.uz/feedback.php" method="POST" formaj>
                   <input type="text" :value="new Date().getFullYear()" name="anti-bot-a" class="hide">
-                  <input type="text" value="modelTestdrive" name="type" class="hide">
-                  <input type="text" :value="page.model.name" name="model" class="hide">
+                  <input type="text" value="testdrive" name="type" class="hide">
+                  <input type="text" :value="page.model.name" name="carName" class="hide">
                   <div class="input-content m-v-30">
                     <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="phone" name="phone" placeholder="Телефон *"  class="form-control" required>
+                    <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required pattern="[0-9]+" title="цифры">
                   </div>
                   <div class="input-content">
                     <textarea name="comment" placeholder="Ваш комментарий или вопрос" class="form-control"></textarea>
@@ -59,6 +59,16 @@
                     <button type="submit">Отправить заявку</button>
                   </span>
                 </form>
+                <div class="form-success-block">
+                  <div class="form-success-block-wrapper pv-10">
+                    <h3>Заявка успешно отправлена!</h3>
+                    <br>
+                    <p>Спасибо за заявку! Рассмотрение займет не больше одного рабочего дня, но обычно мы справляемся быстрее. Как только все будет готово, менеджер свяжется с вами.</p>
+                    <span class="btn-def mv-8">
+                      <nuxt-link :to="'/'" class="hover-aunderline"><b>Вернуться на главную</b></nuxt-link>
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>	
           </div>
