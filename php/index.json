@@ -247,6 +247,28 @@
           "mobile": "/site-data/models/background/mobile/seltos.jpg"
         },
         "landing_link": "/models/seltos/desc"
+      },
+      {
+        "accessories": null,
+        "brochure": "/master-data/brochures/Kia_Sorento_new.pdf",
+        "carcass_type_id": "86917747-762f-48ba-a6bb-61136751ceeb",
+        "id": "6c872f78-bd7d-4a0a-a195-908413672efc",
+        "image": "/master-data/models/sorento_new.png",
+        "image_left": "/master-data/models/sorento_new.png",
+        "image_right": "/master-data/models/sorento_new.png",
+        "image_side_view": "/master-data/models/image_side/sorento_new.png",
+        "max_benefit": 130000,
+        "min_credit_month_price": 11070,
+        "min_price": 449900000,
+        "model_line_id": "259f93e4-313c-450f-a575-a479d9b82133",
+        "price_list": "/master-data/pdf/model/sorento_2021.pdf",
+        "unique_id": "GZW520212021",
+        "bg_images": {
+          "retina": "/site-data/model_settings_photo/retina/bbc18a03-f1d1-4c9d-bc4b-14c4f53b0782.jpeg",
+          "desktop": "/site-data/model_settings_photo/desktop/fbe711ea-4303-48f8-b021-c2931ea5376c.jpeg",
+          "mobile": "/site-data/model_settings_photo/mobile/41153dc0-7ebf-4d24-816b-b536b4552b63.jpeg"
+        },
+        "landing_link": "/models/sorento/desc/"
       }],
       "model_lines": [
       {
@@ -266,6 +288,18 @@
         "is_coming_soon": 0,
         "name": "Seltos",
         "sort": 500
+      },
+      {
+        "cars_in_stock": 1,
+        "code": "sorento",
+        "external_id": "GZ",
+        "group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
+        "hide_in_test_drive": 0,
+        "id": "259f93e4-313c-450f-a575-a479d9b82133",
+        "is_coming_soon": 0,
+        "label_name": null,
+        "name": "Sorento",
+        "sort": 350
       }]
     },
     "video_bank":

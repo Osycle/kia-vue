@@ -16,10 +16,10 @@
 			"logo_white": "/master-data/models/logo/sorento_new-logo-white.svg",
 			"max_benefit": 130000,
 			"min_credit_price": 11070,
-			"min_price": 439900000,
+			"min_price": 449900000,
 			"model_line_id": "259f93e4-313c-450f-a575-a479d9b82133",
 			"name": "Sorento",
-			"price": 439900000,
+			"price": 449900000,
 			"price_list": "/master-data/pdf/model/sorento_2021.pdf",
 			"unique_id": "GZW520212021",
 			"overview_default_color_id": "535ce759-0d5d-4bbd-91dd-051f5478838c"
@@ -1456,7 +1456,7 @@
 				"name": "Luxe",
 				"name_en": "Luxe",
 				"options": ["c24ae6ed-aacf-455c-90ec-a976ce493cee", "b35fee71-abc8-49f8-bcf0-0c14511d8b9c", "b2bea6e0-0551-45e0-9057-e82ed8debb4d", "2b638382-a84f-4bf7-a8d5-c0184d95850f", "e79f5215-6531-4196-affa-c0da17d8021e", "617253e0-e5fd-4c4f-b6fa-28ef6971c22e", "9b7d2bb2-36d8-401e-8aa2-883719ece74b"],
-				"price": 439900000
+				"price": 449900000
 			},
 			{
 				"gallery": null,

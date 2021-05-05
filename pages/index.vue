@@ -52,7 +52,7 @@
         <div class="container">
           <div class="short-models-nav m-v-20 text-center">
             <ul class="list flex-adaptive justify-c-center li-m-v-15">
-              <template v-for="(model, key) in page.model_list_info.models">  
+              <template v-for="(model) in page.model_list_info.models">  
                 <li v-for="(model_line, key) in page.model_list_info.model_lines" v-if="model.model_line_id == model_line.id" :key="key" :class="{active: key == 0}">
                   <a :href="'#smodels-'+[key+1]" data-toggle="tab">{{model_line.name}}</a>
                 </li>
