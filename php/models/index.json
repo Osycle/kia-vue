@@ -71,7 +71,8 @@
       "sort": 500
     },
     {
-      "cars_in_stock": 1,
+      "noconfigurator": true,
+      "cars_in_stock": 0,
       "code": "sorento",
       "external_id": "GZ",
       "group_id": "8ae026de-7bff-40ce-a63d-59a5ae2728cd",
@@ -160,7 +161,7 @@
       "image_side_view": "\/master-data\/models\/image_side\/sorento_new.png",
       "max_benefit": 130000,
       "min_credit_month_price": 11070,
-      "min_price": 0,
+      "min_price": 449900000,
       "model_line_id": "259f93e4-313c-450f-a575-a479d9b82133",
       "price_list": "\/master-data\/pdf\/model\/sorento_2021.pdf",
       "unique_id": "GZW520212021",

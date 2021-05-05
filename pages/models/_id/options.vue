@@ -929,6 +929,10 @@ export default {
 		
 	},
   mounted() {
+		$(".list-block-body ul").map(function(i, el){
+			if($(el).find("li").length == 0)
+				$(el).closest(".list-block-body").addClass("hide");
+		})
 		var configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
 				nav: true,
 				loop: false,

@@ -131,13 +131,13 @@
 					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 					"external_name": "STYLE",
 					"id": "3411d0ee-a003-4efd-bcb0-d1b63acba6ac",
-					"min_price": 264900000,
+					"min_price": 269900000,
 					"modification_code": "THW52G61V",
 					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
 					"name": "Style",
 					"name_en": "Style",
 					"ocn": "G422",
-					"price": 264900000,
+					"price": 269900000,
 					"specifications": [
 					{
 						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
@@ -225,13 +225,13 @@
 					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 					"external_name": "PRESTIGE",
 					"id": "5e39a2d0-5bd0-4a76-86a3-30d186bef99d",
-					"min_price": 291900000,
+					"min_price": 296900000,
 					"modification_code": "THW52G61V",
 					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
 					"name": "Prestige",
 					"name_en": "Prestige",
 					"ocn": "G193",
-					"price": 291900000,
+					"price": 296900000,
 					"specifications": [
 					{
 						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",
@@ -319,13 +319,13 @@
 					"engine_id": "2cfba265-c3c9-46c2-beb7-4aa06e49fec5",
 					"external_name": "PREMIUM",
 					"id": "4455a2d0-5bd0-4a76-86a3-30d186bef99d",
-					"min_price": 311900000,
+					"min_price": 319900000,
 					"modification_code": "THW52G61V",
 					"modification_id": "1d3465e0-5948-43cf-81c1-4b983a997473",
 					"name": "Premium",
 					"name_en": "Premium",
 					"ocn": "G193",
-					"price": 311900000,
+					"price": 319900000,
 					"specifications": [
 					{
 						"id": "a5d142fc-4f66-4d4e-a51a-e95adec303e2",

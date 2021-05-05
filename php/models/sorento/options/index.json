@@ -16,12 +16,12 @@
 			"logo_white": "/master-data/models/logo/sorento_new-logo-white.svg",
 			"max_benefit": 130000,
 			"min_credit_price": 11070,
-			"min_price": 439900000,
+			"min_price": 449900000,
 			"model_line_id": "259f93e4-313c-450f-a575-a479d9b82133",
 			"name": "Sorento",
 			"exterior_hide": true,
 			"interior_hide": true,
-			"price": 439900000,
+			"price": 449900000,
 			"price_list": "/master-data/pdf/model/sorento_2021.pdf",
 			"unique_id": "GZW520212021"
 		},
@@ -90,7 +90,7 @@
 				"name_en": "Luxe",
 				"ocn": "G138",
 				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "c8170134-afd7-4067-b8e2-f014933629eb", "bbcfa872-2f8c-4bd6-8d7a-9232edf80f1e", "438733e3-0473-4069-8319-d1d2cc74b74d", "990efcad-5e16-4e76-8b93-71649b348e33", "c23c76ed-b848-40ad-ba7d-c0877f8674d9", "21a04f22-0dab-40ed-b96b-67c675e2729d", "1e1e1f30-a84a-4be9-b687-e164859190e5", "617253e0-e5fd-4c4f-b6fa-28ef6971c22e", "a75f4786-9da2-448d-b65e-edecfcdd41a4", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "1fd3673e-c9c8-48a3-9f08-4035e2b33170", "9b7d2bb2-36d8-401e-8aa2-883719ece74b", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "2c013bde-6eaf-4a04-8bae-98466dafee25", "15edf079-c756-4713-9086-f92ce6b307db", "7771524f-41c2-432c-a1ca-0ca1f7e2a19f", "432da08d-bd8f-4cf0-90db-c1b00f117f8e", "777ddb5c-ef87-4111-bdad-de663f838ccb", "198ddb5c-ef87-4111-bdad-de663f838ccb", "6404ef78-995b-401a-ba1c-453c6e07ce1b", "018894ba-5189-4d91-9704-729bf40e78be", "fa38aae5-e1c8-4645-938c-e8de29cfe6f6", "a1bc58ae-5e97-4430-ac8f-7d64855ca5d9", "bf739ca0-fce7-403a-9647-9812933b130a", "2b638382-a84f-4bf7-a8d5-c0184d95850f", "c542811f-52e8-4d13-9388-82c36e8b63d2", "c262037b-c5bc-4652-b4ec-d147db30da9d", "b35fee71-abc8-49f8-bcf0-0c14511d8b9c", "b2bea6e0-0551-45e0-9057-e82ed8debb4d", "28b179fd-02cc-47ff-b275-fe42914242c6", "179c8334-4fee-4fc1-bf76-f259bbb117cf", "586dd878-9b82-4962-bc5a-cf1e9a79ac87", "a177ea43-e3ea-4838-a61d-25353a6f9d8c", "50a174f1-db9d-441a-b86f-0743cbb6a8f4", "777dbe65-42a1-486f-a58b-eae4eaec2ee9", "46802b3a-0121-4a29-ace4-18de935f7475", "7eaa8dc0-815f-4724-b816-27ed9a1facf2"],
-				"price": 439900000,
+				"price": 449900000,
 				"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
 				"unique_id": "GZW520212021L961GGG138",
 				"year": 2021
@@ -114,7 +114,7 @@
 				"name_en": "Prestige",
 				"ocn": "G139",
 				"options": ["20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "c8170134-afd7-4067-b8e2-f014933629eb", "bbcfa872-2f8c-4bd6-8d7a-9232edf80f1e", "438733e3-0473-4069-8319-d1d2cc74b74d", "990efcad-5e16-4e76-8b93-71649b348e33", "c23c76ed-b848-40ad-ba7d-c0877f8674d9", "21a04f22-0dab-40ed-b96b-67c675e2729d", "1e1e1f30-a84a-4be9-b687-e164859190e5", "7b5effee-354f-4d3d-869c-00b1aba4f5c6", "8e53bb1d-ae43-4b1f-8313-97c0c9bdf4e5", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "1fd3673e-c9c8-48a3-9f08-4035e2b33170", "9b7d2bb2-36d8-401e-8aa2-883719ece74b", "777d98a7-d4d6-4da3-a9f8-f59653b5e57a", "c9c20b23-c95b-4d4c-8237-9800666d3f51", "15edf079-c756-4713-9086-f92ce6b307db", "67c71c6d-0a29-40c8-89ce-21d1d916b5dd", "7771524f-41c2-432c-a1ca-0ca1f7e2a19f", "432da08d-bd8f-4cf0-90db-c1b00f117f8e", "777ddb5c-ef87-4111-bdad-de663f838ccb", "198ddb5c-ef87-4111-bdad-de663f838ccb", "6404ef78-995b-401a-ba1c-453c6e07ce1b", "018894ba-5189-4d91-9704-729bf40e78be", "fa38aae5-e1c8-4645-938c-e8de29cfe6f6",  "a1bc58ae-5e97-4430-ac8f-7d64855ca5d9",  "66405d85-8793-416b-83f0-bf45ad946fa1",  "bf739ca0-fce7-403a-9647-9812933b130a",  "2b638382-a84f-4bf7-a8d5-c0184d95850f",  "c542811f-52e8-4d13-9388-82c36e8b63d2",  "c262037b-c5bc-4652-b4ec-d147db30da9d",  "c24ae6ed-aacf-455c-90ec-a976ce493cee",  "b35fee71-abc8-49f8-bcf0-0c14511d8b9c",  "b2bea6e0-0551-45e0-9057-e82ed8debb4d",  "77744afb-0dbe-4d35-a74e-d1191c5fa8cb",  "c7c3a860-9e39-4565-9b08-02b97e7f6c19",  "28b179fd-02cc-47ff-b275-fe42914242c6",  "586dd878-9b82-4962-bc5a-cf1e9a79ac87",  "5ea4c488-76c9-46a6-a88c-24013cf802bd",  "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d",  "a177ea43-e3ea-4838-a61d-25353a6f9d8c",  "50a174f1-db9d-441a-b86f-0743cbb6a8f4",  "777dbe65-42a1-486f-a58b-eae4eaec2ee9",  "46802b3a-0121-4a29-ace4-18de935f7475",  "7eaa8dc0-815f-4724-b816-27ed9a1facf2"],
-				"price": 519900000,
+				"price": 529900000,
 				"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5",
 				"unique_id": "GZW720212021L961GGG139",
 				"year": 2021
@@ -341,13 +341,6 @@
 					"file_id": null,
 					"id": "2c013bde-6eaf-4a04-8bae-98466dafee25",
 					"name": "Элементы передней панели со вставками «под дерево»",
-					"sort": 500
-				},
-				{
-					"description": null,
-					"file_id": null,
-					"id": "1d107b62-88b7-450d-825d-f881da19f311",
-					"name": "Сиденья с комбинированной отделкой премиальной кожей Nappa*",
 					"sort": 500
 				},
 				{
@@ -719,13 +712,6 @@
 			      "file_id": null,
 			      "id": "7eaa8dc0-815f-4724-b816-27ed9a1facf2",
 			      "name": "Беспроводная зарядка для мобильных устройств",
-			      "sort": 500
-			    },
-			    {
-			      "description": null,
-			      "file_id": null,
-			      "id": "116bb168-2b55-4de7-a957-c010db74c263",
-			      "name": "Дополнительный электрический отопитель салона (PTC) (для 2.2 CRDI)",
 			      "sort": 500
 			    }
 			  ],

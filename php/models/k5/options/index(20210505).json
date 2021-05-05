@@ -87,7 +87,7 @@
 				"name": "Comfort",
 				"name_en": "Comfort",
 				"ocn": "D646",
-				"options": ["c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "b122e29d-50de-4be9-932a-6980d3fb5593", "3af93114-6d35-4623-b114-d1890c062014", "690d98a7-d4d6-4da3-a9f8-f59653b5e57a", "d67c19f8-cae0-4757-8582-e1ed41f9f642", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "5a84asfr-21nb-r512-l654-87s181afdby1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "6f981468-c022-4d52-add5-0a3389c47d91", "6c4c70d1-0387-4d12-9881-476b8be73909"],
+				"options": ["c8170134-afd7-4067-b8e2-f014933629eb","20edd792-c345-46e5-aa94-c3582e0d519d","b122e29d-50de-4be9-932a-6980d3fb5593","3af93114-6d35-4623-b114-d1890c062014","690d98a7-d4d6-4da3-a9f8-f59653b5e57a","d67c19f8-cae0-4757-8582-e1ed41f9f642","b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2","82532e41-f6ca-4d9d-ae40-7fdf4404fb83","f8558b5d-8309-4ddc-9411-9e9ac90116d9","84980726-2c2d-4d1b-a864-e00f9ae70f5f","5a84asfr-21nb-r512-l654-87s181afdby1","dddd9087-ab14-4d0c-8261-4cb28af99dc6","6f981468-c022-4d52-add5-0a3389c47d91","6c4c70d1-0387-4d12-9881-476b8be73909"],
 				"price": 259900000,
 				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
 				"unique_id": "EXS4202120202G61FDD646",
@@ -104,15 +104,15 @@
 				"id": "ea939986-7735-4b5e-b6a0-52694b4b20e7",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
 				"min_credit_amount": 8780,
-				"min_price": 305900000,
+				"min_price": 297900000,
 				"model_year": 2021,
 				"modification_code": "EXS42G61F",
 				"modification_id": "38db484e-ecbc-4267-9a7d-bac450cf34d2",
 				"name": "Luxe +",
 				"name_en": "Luxe +",
 				"ocn": "G466",
-				"options": ["c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "b122e29d-50de-4be9-932a-6980d3fb5593", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "3t6x7yb6-92b4-43n4-a3b2-7623agz1ban4", "3fe66ebe-4ebf-4315-8956-1215a9dabe0a", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "d67c19f8-cae0-4757-8582-e1ed41f9f642", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "d314c083-c1f4-4100-8984-b64448a4613f", "582e25f1-1675-4720-927c-242d8f00a8dc", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "6c4c70d1-0387-4d12-9881-476b8be73909"],
-				"price": 305900000,
+				"options": ["c8170134-afd7-4067-b8e2-f014933629eb","20edd792-c345-46e5-aa94-c3582e0d519d","b122e29d-50de-4be9-932a-6980d3fb5593","2879a3e5-ff60-4e30-8923-5eb628c88c58","3t6x7yb6-92b4-43n4-a3b2-7623agz1ban4","3fe66ebe-4ebf-4315-8956-1215a9dabe0a","dda59a4f-7499-4c0b-a655-fee7f755e2cd","3af93114-6d35-4623-b114-d1890c062014","3c7e88e7-9334-4884-94ea-9919fc20deb5","d67c19f8-cae0-4757-8582-e1ed41f9f642","fa1f42bc-2c14-4dbb-a61d-af926d7030fa","d314c083-c1f4-4100-8984-b64448a4613f","582e25f1-1675-4720-927c-242d8f00a8dc","b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2","82532e41-f6ca-4d9d-ae40-7fdf4404fb83","760f7792-c8e7-4daf-9e94-b140bfaf91ec","f8558b5d-8309-4ddc-9411-9e9ac90116d9","84980726-2c2d-4d1b-a864-e00f9ae70f5f","7f1ce2ca-4cbc-40ba-b567-b5adc6581841","f731a4c1-cda1-4cd8-acc0-363456ee13d4","6ced1a8b-ef87-44f2-a0f4-350e22c44898","5a84aeaa-45f2-4762-a828-8771518ffba1","dddd9087-ab14-4d0c-8261-4cb28af99dc6","8bb2ddfe-1e1a-4599-9119-2b9c631be9f6","12ef1125-0fb2-408b-8162-0585b8c1ad60","f2f31af0-9813-4e1e-b9ec-7a8769d54411","6f981468-c022-4d52-add5-0a3389c47d91","7dae8dde-6584-45f9-a900-3fda13d25635","6c4c70d1-0387-4d12-9881-476b8be73909"],
+				"price": 297900000,
 				"transmission_id": "fb1ae03e-aa18-438b-8edd-7ed6f38c3611",
 				"unique_id": "EXS4202120202G61FGG466",
 				"year": 2020
@@ -128,15 +128,15 @@
 				"id": "a6b865eb-0723-4448-915c-be924a9c8e02",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
 				"min_credit_amount": 9880,
-				"min_price": 334900000,
+				"min_price": 324900000,
 				"model_year": 2021,
 				"modification_code": "EXS4L9A1J",
 				"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
 				"name": "Prestige +",
 				"name_en": "Prestige +",
 				"ocn": "G473",
-				"options": ["2b42zrxv-bn52-q624-2p2i-bs312av125r7","516r2u23-p25b-48nd-a5x6-bz4vdn57z1c6","8e287a59-a6c8-4a46-bb83-b956869e2b90","c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "b913fb68-795a-4e24-845e-a518cbd82a54", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "3t6x7yb6-92b4-43n4-a3b2-7623agz1ban4", "3fe66ebe-4ebf-4315-8956-1215a9dabe0a", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e88e7-9334-4884-94ea-9919fc20deb5", "d67c19f8-cae0-4757-8582-e1ed41f9f642", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "d314c083-c1f4-4100-8984-b64448a4613f", "582e25f1-1675-4720-927c-242d8f00a8dc", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "0a4f60db-3972-4404-9d0e-9570ca749f09", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "399d2db1-65ff-4dcd-b9b4-aa2c39af2812"],
-				"price": 334900000,
+				"options": ["c8170134-afd7-4067-b8e2-f014933629eb","20edd792-c345-46e5-aa94-c3582e0d519d","ecc3f7a5-db63-4198-98d8-ed74a6402047","b913fb68-795a-4e24-845e-a518cbd82a54","2879a3e5-ff60-4e30-8923-5eb628c88c58","3t6x7yb6-92b4-43n4-a3b2-7623agz1ban4","3fe66ebe-4ebf-4315-8956-1215a9dabe0a","dda59a4f-7499-4c0b-a655-fee7f755e2cd","3af93114-6d35-4623-b114-d1890c062014","3c7e88e7-9334-4884-94ea-9919fc20deb5","d67c19f8-cae0-4757-8582-e1ed41f9f642","fa1f42bc-2c14-4dbb-a61d-af926d7030fa","d314c083-c1f4-4100-8984-b64448a4613f","582e25f1-1675-4720-927c-242d8f00a8dc","b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2","82532e41-f6ca-4d9d-ae40-7fdf4404fb83","0a4f60db-3972-4404-9d0e-9570ca749f09","760f7792-c8e7-4daf-9e94-b140bfaf91ec","f8558b5d-8309-4ddc-9411-9e9ac90116d9","84980726-2c2d-4d1b-a864-e00f9ae70f5f","7f1ce2ca-4cbc-40ba-b567-b5adc6581841","f731a4c1-cda1-4cd8-acc0-363456ee13d4","6ced1a8b-ef87-44f2-a0f4-350e22c44898","5a84aeaa-45f2-4762-a828-8771518ffba1","dddd9087-ab14-4d0c-8261-4cb28af99dc6","8bb2ddfe-1e1a-4599-9119-2b9c631be9f6","12ef1125-0fb2-408b-8162-0585b8c1ad60","f2f31af0-9813-4e1e-b9ec-7a8769d54411","6f981468-c022-4d52-add5-0a3389c47d91","7dae8dde-6584-45f9-a900-3fda13d25635","399d2db1-65ff-4dcd-b9b4-aa2c39af2812"],
+				"price": 324900000,
 				"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
 				"unique_id": "EXS420212020L9A1JGG473",
 				"year": 2020
@@ -152,15 +152,15 @@
 				"id": "cc2c0fba-4dbe-4cc3-b80f-13c716b51017",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
 				"min_credit_amount": 10130,
-				"min_price": 368900000,
+				"min_price": 358900000,
 				"model_year": 2021,
 				"modification_code": "EXS4L9A1J",
 				"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
 				"name": "Style",
 				"name_en": "Style",
 				"ocn": "G468",
-				"options": ["2b42zrxv-bn52-q624-2p2i-bs312av125r7","516r2u23-p25b-48nd-a5x6-bz4vdn57z1c6","f2287862-3158-4845-b392-5e13ad841e20","c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "b913fb68-795a-4e24-845e-a518cbd82a54", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "3t6x7yb6-92b4-43n4-a3b2-7623agz1ban4", "3fe66ebe-4ebf-4315-8956-1215a9dabe0a", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e26q7-5b34-4v84-92ba-zz5b3n20de6x", "b4d2a9c6-7b15-47bc-8ce5-17ccc0f1d942", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "d314c083-c1f4-4100-8984-b64448a4613f", "36a41171-6d2f-4686-bd0f-bce430d94d14", "582e25f1-1675-4720-927c-242d8f00a8dc", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "8bd17b34-6289-4053-86a1-f8d6a29ba632", "f8a2e09f-3ea4-4041-a13e-203c4ef7ff08", "0a4f60db-3972-4404-9d0e-9570ca749f09", "b76b2bc1-343f-4982-85ae-956637101548", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "4e3ba590-09fb-4c8d-8822-e191218d9036", "166a1d55-d119-4ce8-825f-29740d38fe33", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "5a84asfr-21nb-r512-l654-87s181afdby1", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "c7049a87-8fe7-4d69-8319-3d309a1b376b", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "399d2db1-65ff-4dcd-b9b4-aa2c39af2812", "4e702cfa-452d-4991-bb83-245be872d21a"],
-				"price": 368900000,
+				"options": ["c8170134-afd7-4067-b8e2-f014933629eb","20edd792-c345-46e5-aa94-c3582e0d519d","ecc3f7a5-db63-4198-98d8-ed74a6402047","8e287a59-a6c8-4a46-bb83-b956869e2b90","b913fb68-795a-4e24-845e-a518cbd82a54","2879a3e5-ff60-4e30-8923-5eb628c88c58","3t6x7yb6-92b4-43n4-a3b2-7623agz1ban4","3fe66ebe-4ebf-4315-8956-1215a9dabe0a","2ddbf2d6-81c9-498f-8898-060a73dadd8e","dda59a4f-7499-4c0b-a655-fee7f755e2cd","3af93114-6d35-4623-b114-d1890c062014","3c7e26q7-5b34-4v84-92ba-zz5b3n20de6x","b4d2a9c6-7b15-47bc-8ce5-17ccc0f1d942","fa1f42bc-2c14-4dbb-a61d-af926d7030fa","d314c083-c1f4-4100-8984-b64448a4613f","36a41171-6d2f-4686-bd0f-bce430d94d14","582e25f1-1675-4720-927c-242d8f00a8dc","b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2","82532e41-f6ca-4d9d-ae40-7fdf4404fb83","8bd17b34-6289-4053-86a1-f8d6a29ba632","f8a2e09f-3ea4-4041-a13e-203c4ef7ff08","0a4f60db-3972-4404-9d0e-9570ca749f09","b76b2bc1-343f-4982-85ae-956637101548","760f7792-c8e7-4daf-9e94-b140bfaf91ec","f8558b5d-8309-4ddc-9411-9e9ac90116d9","84980726-2c2d-4d1b-a864-e00f9ae70f5f","7f1ce2ca-4cbc-40ba-b567-b5adc6581841","f731a4c1-cda1-4cd8-acc0-363456ee13d4","4e3ba590-09fb-4c8d-8822-e191218d9036","166a1d55-d119-4ce8-825f-29740d38fe33","f2a4bb0f-1049-4d6f-8b6f-423c732eb94d","6ced1a8b-ef87-44f2-a0f4-350e22c44898","5a84aeaa-45f2-4762-a828-8771518ffba1","5a84asfr-21nb-r512-l654-87s181afdby1","dddd9087-ab14-4d0c-8261-4cb28af99dc6","c7049a87-8fe7-4d69-8319-3d309a1b376b","8bb2ddfe-1e1a-4599-9119-2b9c631be9f6","12ef1125-0fb2-408b-8162-0585b8c1ad60","f2f31af0-9813-4e1e-b9ec-7a8769d54411","6f981468-c022-4d52-add5-0a3389c47d91","7dae8dde-6584-45f9-a900-3fda13d25635","399d2db1-65ff-4dcd-b9b4-aa2c39af2812","4e702cfa-452d-4991-bb83-245be872d21a"],
+				"price": 358900000,
 				"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
 				"unique_id": "EXS420212020L9A1JGG468",
 				"year": 2020
@@ -176,15 +176,15 @@
 				"id": "478e1dd1-b192-42c9-84f3-5c786088f540",
 				"interior_colors": ["bed37faa-cfb9-48b6-8f21-4276aaed4464", "f2105db2-4a6e-473b-8505-5f125ea9adb3"],
 				"min_credit_amount": 10780,
-				"min_price": 396900000,
+				"min_price": 386900000,
 				"model_year": 2021,
 				"modification_code": "EXS4L9A1J",
 				"modification_id": "661de949-6e60-4601-a106-30a37ede7dd6",
 				"name": "GT Line",
 				"name_en": "GT Line",
 				"ocn": "P005",
-				"options": ["c8170134-afd7-4067-b8e2-f014933629eb", "20edd792-c345-46e5-aa94-c3582e0d519d", "ecc3f7a5-db63-4198-98d8-ed74a6402047", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "2879a3e5-ff60-4e30-8923-5eb628c88c58", "3t6x7yb6-92b4-43n4-a3b2-7623agz1ban4", "3fe66ebe-4ebf-4315-8956-1215a9dabe0a", "f2287862-3158-4845-b392-5e13ad841e20", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "dda59a4f-7499-4c0b-a655-fee7f755e2cd", "3af93114-6d35-4623-b114-d1890c062014", "3c7e26q7-5b34-4v84-92ba-zz5b3n20de6x", "a75e848f-4399-47a1-b4e8-ff8fa0ad2460", "fa1f42bc-2c14-4dbb-a61d-af926d7030fa", "d314c083-c1f4-4100-8984-b64448a4613f", "36a41171-6d2f-4686-bd0f-bce430d94d14", "516r2u23-p25b-48nd-a5x6-bz4vdn57z1c6", "582e25f1-1675-4720-927c-242d8f00a8dc", "b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2", "82532e41-f6ca-4d9d-ae40-7fdf4404fb83", "8bd17b34-6289-4053-86a1-f8d6a29ba632", "f8a2e09f-3ea4-4041-a13e-203c4ef7ff08", "0a4f60db-3972-4404-9d0e-9570ca749f09", "b76b2bc1-343f-4982-85ae-956637101548", "760f7792-c8e7-4daf-9e94-b140bfaf91ec", "f8558b5d-8309-4ddc-9411-9e9ac90116d9", "84980726-2c2d-4d1b-a864-e00f9ae70f5f", "7f1ce2ca-4cbc-40ba-b567-b5adc6581841", "f731a4c1-cda1-4cd8-acc0-363456ee13d4", "4e3ba590-09fb-4c8d-8822-e191218d9036", "166a1d55-d119-4ce8-825f-29740d38fe33", "a8ed9a16-e6e2-48e7-80fe-99089327f8ab", "f2a4bb0f-1049-4d6f-8b6f-423c732eb94d", "6ced1a8b-ef87-44f2-a0f4-350e22c44898", "5a84aeaa-45f2-4762-a828-8771518ffba1", "5a84asfr-21nb-r512-l654-87s181afdby1", "2b42zrxv-bn52-q624-2p2i-bs312av125r7", "dddd9087-ab14-4d0c-8261-4cb28af99dc6", "c7049a87-8fe7-4d69-8319-3d309a1b376b", "8bb2ddfe-1e1a-4599-9119-2b9c631be9f6", "12ef1125-0fb2-408b-8162-0585b8c1ad60", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "6f981468-c022-4d52-add5-0a3389c47d91", "7dae8dde-6584-45f9-a900-3fda13d25635", "399d2db1-65ff-4dcd-b9b4-aa2c39af2812", "4e702cfa-452d-4991-bb83-245be872d21a", "268a8241-e190-4deb-bcab-27a7a6ce4d45", "b7daa006-d5f5-4e0e-93a2-70ab2e926fcd", "5828ad6b-e2b3-41dd-bc9b-fbbd886386f6", "591cefe7-cd58-4fae-95a9-8f72b70d9ec3", "f733e2eb-5b63-4a52-9e5e-9b449c428d8c", "62bdecfb-97b8-40d9-b16f-c5bfa3e91a6d", "b1b9fd89-204f-4378-8156-bf560d009ad6", "f6aafc9b-3b6e-47e2-abbb-270a0f52c860", "9ecc66bb-48f4-4325-904e-91d347727212"],
-				"price": 396900000,
+				"options": ["c8170134-afd7-4067-b8e2-f014933629eb","20edd792-c345-46e5-aa94-c3582e0d519d","ecc3f7a5-db63-4198-98d8-ed74a6402047","8e287a59-a6c8-4a46-bb83-b956869e2b90","2879a3e5-ff60-4e30-8923-5eb628c88c58","3t6x7yb6-92b4-43n4-a3b2-7623agz1ban4","3fe66ebe-4ebf-4315-8956-1215a9dabe0a","f2287862-3158-4845-b392-5e13ad841e20","2ddbf2d6-81c9-498f-8898-060a73dadd8e","dda59a4f-7499-4c0b-a655-fee7f755e2cd","3af93114-6d35-4623-b114-d1890c062014","3c7e26q7-5b34-4v84-92ba-zz5b3n20de6x","a75e848f-4399-47a1-b4e8-ff8fa0ad2460","fa1f42bc-2c14-4dbb-a61d-af926d7030fa","d314c083-c1f4-4100-8984-b64448a4613f","36a41171-6d2f-4686-bd0f-bce430d94d14","516r2u23-p25b-48nd-a5x6-bz4vdn57z1c6","582e25f1-1675-4720-927c-242d8f00a8dc","b37a15f5-b5d6-44f7-9b6d-e8d5ae6bb7d2","82532e41-f6ca-4d9d-ae40-7fdf4404fb83","8bd17b34-6289-4053-86a1-f8d6a29ba632","f8a2e09f-3ea4-4041-a13e-203c4ef7ff08","0a4f60db-3972-4404-9d0e-9570ca749f09","b76b2bc1-343f-4982-85ae-956637101548","760f7792-c8e7-4daf-9e94-b140bfaf91ec","f8558b5d-8309-4ddc-9411-9e9ac90116d9","84980726-2c2d-4d1b-a864-e00f9ae70f5f","7f1ce2ca-4cbc-40ba-b567-b5adc6581841","f731a4c1-cda1-4cd8-acc0-363456ee13d4","4e3ba590-09fb-4c8d-8822-e191218d9036","166a1d55-d119-4ce8-825f-29740d38fe33","a8ed9a16-e6e2-48e7-80fe-99089327f8ab","f2a4bb0f-1049-4d6f-8b6f-423c732eb94d","6ced1a8b-ef87-44f2-a0f4-350e22c44898","5a84aeaa-45f2-4762-a828-8771518ffba1","5a84asfr-21nb-r512-l654-87s181afdby1","2b42zrxv-bn52-q624-2p2i-bs312av125r7","dddd9087-ab14-4d0c-8261-4cb28af99dc6","c7049a87-8fe7-4d69-8319-3d309a1b376b","8bb2ddfe-1e1a-4599-9119-2b9c631be9f6","12ef1125-0fb2-408b-8162-0585b8c1ad60","f2f31af0-9813-4e1e-b9ec-7a8769d54411","6f981468-c022-4d52-add5-0a3389c47d91","7dae8dde-6584-45f9-a900-3fda13d25635","399d2db1-65ff-4dcd-b9b4-aa2c39af2812","4e702cfa-452d-4991-bb83-245be872d21a","268a8241-e190-4deb-bcab-27a7a6ce4d45","b7daa006-d5f5-4e0e-93a2-70ab2e926fcd","5828ad6b-e2b3-41dd-bc9b-fbbd886386f6","591cefe7-cd58-4fae-95a9-8f72b70d9ec3","f733e2eb-5b63-4a52-9e5e-9b449c428d8c","62bdecfb-97b8-40d9-b16f-c5bfa3e91a6d","b1b9fd89-204f-4378-8156-bf560d009ad6","f6aafc9b-3b6e-47e2-abbb-270a0f52c860","9ecc66bb-48f4-4325-904e-91d347727212"],
+				"price": 386900000,
 				"transmission_id": "5807c53c-ad09-4f3e-8025-a90c97ea008e",
 				"unique_id": "EXS420212020L9A1JPP005",
 				"year": 2020
@@ -435,7 +435,7 @@
 					"id": "3c7e26q7-5b34-4v84-92ba-zz5b3n20de6x",
 					"name": "Сиденья с отделкой кожей «Премиум»",
 					"sort": 500
-				},
+				}, 
 				{
 					"id": "d67c19f8-cae0-4757-8582-e1ed41f9f642",
 					"name": "Отделка передней панели и дверей вставками под металл (Metal Paint)",
@@ -801,7 +801,7 @@
 				"id": "3c7e26q7-5b34-4v84-92ba-zz5b3n20de6x",
 				"name": "Сиденья с отделкой кожей «Премиум»",
 				"sort": 500
-			},
+			}, 
 			{
 				"id": "3t6x7yb6-92b4-43n4-a3b2-7623agz1ban4",
 				"name": "Атермальное остекление",
@@ -1109,6 +1109,20 @@
 			}],
 			"options_base": [
 			{
+				"group_name": "Мультимедиа",
+				"group_sort": "790",
+				"id": "90596dad-b569-4f34-b59d-57a20baa90d7",
+				"name": "Мультимедиа с 8\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay",
+				"sort": 500
+			},
+			{
+				"group_name": "Мультимедиа",
+				"group_sort": "790",
+				"id": "82532e41-f6ca-4d9d-ae40-7fdf4404fb83",
+				"name": "2 USB разьема для зарядки мобильных устройств для пассажиров второго ряда",
+				"sort": 500
+			},
+			{
 				"group_name": "Экстерьер",
 				"group_sort": "1200",
 				"id": "749900c0-a16f-4db3-ac1f-7770f9f56fe5",
@@ -1123,10 +1137,24 @@
 				"sort": 500
 			},
 			{
+				"group_name": "Экстерьер",
+				"group_sort": "1200",
+				"id": "2eb6f689-8d96-42b8-8df1-5282dc6b5f95",
+				"name": "Спортивный задний бампер с диффузором",
+				"sort": 500
+			},
+			{
 				"group_name": "Интерьер",
 				"group_sort": "1100",
 				"id": "e620a101-b002-4409-8b93-5cdece1839cb",
 				"name": "Задние сиденья со спинками, складывающимися в соотношении 60\/40",
+				"sort": 500
+			},
+			{
+				"group_name": "Интерьер",
+				"group_sort": "1100",
+				"id": "67c71c6d-0a29-40c8-89ce-21d1d916b5dd",
+				"name": "Сетка для крепления багажа",
 				"sort": 500
 			},
 			{
@@ -1139,15 +1167,8 @@
 			{
 				"group_name": "Безопасность",
 				"group_sort": "1000",
-				"id": "5741cc80-706b-4c4d-8277-64113b88a7e0",
-				"name": "Cистема помощи при трогании на подъеме (HAC)",
-				"sort": 500
-			},
-			{
-				"group_name": "Безопасность",
-				"group_sort": "1000",
-				"id": "0d55168a-967c-4692-bf2f-66aad4a7d3ac",
-				"name": "Крепления ISOFIX для детского кресла",
+				"id": "e1265686-4ca6-4132-b7e9-62f6b3d2bf34",
+				"name": "Боковые подушки и шторки безопасности",
 				"sort": 500
 			},
 			{
@@ -1160,6 +1181,20 @@
 			{
 				"group_name": "Безопасность",
 				"group_sort": "1000",
+				"id": "e63d05b6-0351-4024-a590-44bcd2bea668",
+				"name": "Интегрированная система активного управления (VSM)",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "5741cc80-706b-4c4d-8277-64113b88a7e0",
+				"name": "Cистема помощи при трогании на подъеме (HAC)",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
 				"id": "ef8e8bd9-96d2-4a4c-a41e-db720d6b796e",
 				"name": "Система предупреждения об экстренном торможении (ESS)",
 				"sort": 500
@@ -1167,15 +1202,29 @@
 			{
 				"group_name": "Безопасность",
 				"group_sort": "1000",
-				"id": "26e216ee-4fbc-4974-833c-f5b9748e0986",
-				"name": "Полноразмерное легкосплавное запасное колесо",
+				"id": "b50c76f6-1010-4f10-ab8f-6dae16d66808",
+				"name": "Система экстренной связи ЭРА-ГЛОНАСС",
 				"sort": 500
 			},
 			{
 				"group_name": "Безопасность",
 				"group_sort": "1000",
-				"id": "e63d05b6-0351-4024-a590-44bcd2bea668",
-				"name": "Интегрированная система активного управления (VSM)",
+				"id": "987c9c2b-aeec-4a9b-9b1a-ff4ad282a11c",
+				"name": "Система контроля давления в шинах (TPMS)",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "0d55168a-967c-4692-bf2f-66aad4a7d3ac",
+				"name": "Крепления ISOFIX для детского кресла",
+				"sort": 500
+			},
+			{
+				"group_name": "Безопасность",
+				"group_sort": "1000",
+				"id": "26e216ee-4fbc-4974-833c-f5b9748e0986",
+				"name": "Полноразмерное легкосплавное запасное колесо",
 				"sort": 500
 			},
 			{
@@ -1188,36 +1237,8 @@
 			{
 				"group_name": "Комфорт",
 				"group_sort": "800",
-				"id": "9ca1d11a-ac37-4af3-a196-b189b15b100c",
-				"name": "Передние и задние стеклоподъёмники с электроприводом",
-				"sort": 500
-			},
-			{
-				"group_name": "Комфорт",
-				"group_sort": "800",
-				"id": "bb7a92cf-30b2-49d7-ac97-fcfc1b640682",
-				"name": "Ключ с дистанционным управлением центральным замком",
-				"sort": 500
-			},
-			{
-				"group_name": "Комфорт",
-				"group_sort": "800",
 				"id": "a6cad079-1642-4ae9-958b-b8078f9c5eb7",
 				"name": "Bluetooth для подключения мобильного телефона",
-				"sort": 500
-			},
-			{
-				"group_name": "Комфорт",
-				"group_sort": "800",
-				"id": "7ab47624-c0cd-4060-a753-298d95ed47ea",
-				"name": "Стеклоподъемник водителя с функцией Auto",
-				"sort": 500
-			},
-			{
-				"group_name": "Комфорт",
-				"group_sort": "800",
-				"id": "7b7487e8-4381-4b87-a825-82fbe042e3e9",
-				"name": "Аудиосистема с радио, USB разъемом (6 динамиков)",
 				"sort": 500
 			},
 			{
@@ -1230,6 +1251,27 @@
 			{
 				"group_name": "Комфорт",
 				"group_sort": "800",
+				"id": "f760de13-d7b3-456f-a679-7d7d3d7faa29",
+				"name": "Круиз-контроль",
+				"sort": 500
+			},
+			{
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "9ca1d11a-ac37-4af3-a196-b189b15b100c",
+				"name": "Передние и задние стеклоподъёмники с электроприводом",
+				"sort": 500
+			},
+			{
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "7ab47624-c0cd-4060-a753-298d95ed47ea",
+				"name": "Стеклоподъемник водителя с функцией Auto",
+				"sort": 500
+			},
+			{
+				"group_name": "Комфорт",
+				"group_sort": "800",
 				"id": "fb5715ea-c188-4a5e-9225-4923590fbe92",
 				"name": "Датчик света",
 				"sort": 500
@@ -1237,15 +1279,22 @@
 			{
 				"group_name": "Комфорт",
 				"group_sort": "800",
-				"id": "f8558b5d-8309-4ddc-9411-9e9ac90116d9",
-				"name": "Климат-контроль",
+				"id": "bb7a92cf-30b2-49d7-ac97-fcfc1b640682",
+				"name": "Ключ с дистанционным управлением центральным замком",
 				"sort": 500
 			},
 			{
 				"group_name": "Комфорт",
 				"group_sort": "800",
-				"id": "f760de13-d7b3-456f-a679-7d7d3d7faa29",
-				"name": "Круиз-контроль",
+				"id": "7b7487e8-4381-4b87-a825-82fbe042e3e9",
+				"name": "Аудиосистема с радио, USB разъемом (6 динамиков)",
+				"sort": 500
+			},
+			{
+				"group_name": "Комфорт",
+				"group_sort": "800",
+				"id": "7f34325d-9fc2-447a-b602-1a970d90f27b",
+				"name": "Кондиционер",
 				"sort": 500
 			}],
 			"options_descriptions": [

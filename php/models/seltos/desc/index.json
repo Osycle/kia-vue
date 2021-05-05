@@ -1409,7 +1409,7 @@
 				"gallery": null,
 				"id": "2c5dccb3-f15e-4c05-acd4-a3c2134629e3",
 				"label": null,
-				"min_price": 264900000,
+				"min_price": 269900000,
 				"modifications": [
 				{
 					"acceleration_to_100": 9.6,
@@ -1420,13 +1420,13 @@
 				"name": "Style",
 				"name_en": "Style",
 				"options": ["b913fb68-795a-4e24-845e-a518cbd82a54", "c8170134-afd7-4067-b8e2-f014933629eb", "bc20cf0d-0928-4a72-aa7f-e0b90e75dff9", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "fc2bbbdc-e44a-476f-ba81-0a5ea99acf6b", "1d20faf0-0a7f-4b4d-9816-01d3e846c405", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "90596dad-b569-4f34-b59d-57a20baa90d7"],
-				"price": 264900000
+				"price": 269900000
 			},
 			{
 				"gallery": null,
 				"id": "6e985191-1656-4d73-87ac-8fc49a319a61",
 				"label": null,
-				"min_price": 291900000,
+				"min_price": 296900000,
 				"modifications": [
 				{
 					"acceleration_to_100": 9.6,
@@ -1437,13 +1437,13 @@
 				"name": "Prestige",
 				"name_en": "Prestige",
 				"options": ["b913fb68-795a-4e24-845e-a518cbd82a54", "8e287a59-a6c8-4a46-bb83-b956869e2b90", "749900c0-a16f-4db3-ac1f-7770f9f56fe5", "83df224d-d805-4eba-a8ee-8e0ac96f2b94", "2ddbf2d6-81c9-498f-8898-060a73dadd8e", "bbe4cdd1-b23e-4473-ab19-8758807b9d87", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "90596dad-b569-4f34-b59d-57a20baa90d7"],
-				"price": 291900000
+				"price": 296900000
 			},
 			{
 				"gallery": null,
 				"id": "685dabc0-fec1-4a31-a9ff-9e242d2d4074",
 				"label": null,
-				"min_price": 311900000,
+				"min_price": 319900000,
 				"modifications": [
 				{
 					"acceleration_to_100": 9.6,
@@ -1454,7 +1454,7 @@
 				"name": "Premium",
 				"name_en": "Premium",
 				"options": ["72002f02-268a-4b30-a0f3-9b119089344c", "5a21f9ec-76f0-49e4-8cb1-fe18bafbdcd5", "f2f31af0-9813-4e1e-b9ec-7a8769d54411", "rav3bz68-zh8n-ab7n-ab7m-zb71njak1j6n", "6aa0acb5-588f-4ae5-9ef5-90e7dd80e89c", "2f1258e6-1ba8-4c8d-8af5-372f123d30db", "90596dad-b569-4f34-b59d-57a20baa90d7", "fdd88786-9079-42e3-8034-7407edb54e9c", "ar1xb1b1-ch1z-gb61-xb61-n8xn8m66n1n5", "5n79b617-z79z-11bh-gbj7-zbnma168n5b5"],
-				"price": 311900000
+				"price": 319900000
 			}],
 			"engines": [
 			{
