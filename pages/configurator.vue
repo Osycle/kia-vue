@@ -44,7 +44,7 @@
         <div class="conf-steps conf-step-1" :class="{'active': currentStep == 1}">
           <div class="conf-crs m-v-45">
             <div class="owl-carousel owl-btn-2">
-              <template v-for="(modelLine) in page.model_lines">
+              <template v-for="(modelLine) in page.model_lines" v-if="!modelLine.noconfigurator">
                 <figure v-for="(model, key) in page.models" :key="key" v-if="model.min_price && model.model_line_id == modelLine.id" :model-line-id="modelLine.id">
                   <a href="javascript:;">
                     <div class="fig-wrapper">
@@ -63,7 +63,7 @@
           </div>
           <div class="conf-crs-main">
             <div class="owl-carousel owl-btn-2">
-              <template v-for="(modelLine) in page.model_lines">
+              <template v-for="(modelLine) in page.model_lines" v-if="!modelLine.noconfigurator">
                 <figure v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id && model.min_price" :model-line-id="modelLine.id">
                   <div class="fig-wrapper">
                     <div class="desc-content">

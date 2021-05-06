@@ -156,7 +156,7 @@
               </div>
             </div>
           </template>
-           <template v-else-if="currentStepNum === 3">
+           <template v-else-if="currentStepNum === 3 && false">
             <div class="conf-steps conf-step-3">
               <div class="entry-content">
                 <div class="entry-title m-v-30">
@@ -341,12 +341,6 @@ export default {
       selectOverview: {},
       selectPanorama: {},
 
-      panoActive: false,
-      showroomComplectations: [],
-      showroomComplectation: {},
-      panoramasComplectations: [],
-      panoramasComplectation: {},
-      summaryCode: "", //00U007
 
       groupOptions: [],
       uniqueParams: {},
@@ -410,9 +404,26 @@ export default {
       else if(stepNum >= 0){
         this.currentStepNum = stepNum;
       }
-      if(this.currentStepNum == 1){
-        
+      
+      // step 3
+      if(this.currentStepNum == 3){
+        //https://api.kia-motors.uz/api/public/configurator/get/3/978/0/6AT/FWD
+        var url = 
+          "https://api.kia-motors.uz/api/public/configurator/get/"+
+          this.currentStepNum+"/"+
+          this.model.id+"/"+
+          this.currentEngine.id+"/"+
+          this.currentGearbox.name+"/"+
+          this.currentDrive.name;
+
+
+        this.dataJson = await this.$axios.$get(url);
+        console.log(this.dataJson);
       }
+
+      
+
+
     },
   },
   async created(){
