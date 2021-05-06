@@ -53,7 +53,7 @@
                         <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li>
                         <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
                         <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>
-                        <li><nuxt-link to="/feedback">Запись на тест-драйв</nuxt-link></li>
+                        <li><nuxt-link to="/buy/testdrive">Запись на тест-драйв</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="item">
@@ -188,7 +188,7 @@
                         <div class="color-gray-4 title-content">KIA в Узбекистане</div>
                         <ul>
                           <li><nuxt-link to="/about/">О нас</nuxt-link></li>
-                          <li><nuxt-link to="/service/booking/">Обратная связь</nuxt-link></li>
+                          <li><nuxt-link to="/feedback/">Обратная связь</nuxt-link></li>
                           <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
                           <li><nuxt-link to="/about/dealer/">Как стать дилером</nuxt-link></li>
                           <li><nuxt-link to="/feedback">Заказать звонок дилера</nuxt-link></li>
@@ -263,7 +263,7 @@
               <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li>
               <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
               <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>
-              <li><nuxt-link to="/feedback">Запись на тест-драйв</nuxt-link></li>
+              <li><nuxt-link to="/buy/testdrive">Запись на тест-драйв</nuxt-link></li>
             </ul>
           </li>
           <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>

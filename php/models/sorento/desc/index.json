@@ -1173,7 +1173,7 @@
 			"complectations": [
 			{
 				"id": "55f9e405-f523-4b9b-9e11-27923c308748",
-				"name": "Luxe",
+				"name": "Comfort",
 				"overviews": [
 				{
 					"amount": "72",
@@ -1412,7 +1412,7 @@
 			"complectations": [
 			{
 				"id": "55f9e405-f523-4b9b-9e11-27923c308748",
-				"name": "Luxe",
+				"name": "Comfort",
 				"panoramas": [
 				{
 					"color_id": "bed37faa-cfb9-48b6-8f21-4276aaed4464",
@@ -1453,8 +1453,8 @@
 					"engine_id": "e18eab30-0c35-44ab-a653-0621beb2bda9",
 					"transmission_id": "7c5fbca0-e97b-4918-bf57-bf4de0cbbaf5"
 				}],
-				"name": "Luxe",
-				"name_en": "Luxe",
+				"name": "Comfort",
+				"name_en": "Comfort",
 				"options": ["c24ae6ed-aacf-455c-90ec-a976ce493cee", "b35fee71-abc8-49f8-bcf0-0c14511d8b9c", "b2bea6e0-0551-45e0-9057-e82ed8debb4d", "2b638382-a84f-4bf7-a8d5-c0184d95850f", "e79f5215-6531-4196-affa-c0da17d8021e", "617253e0-e5fd-4c4f-b6fa-28ef6971c22e", "9b7d2bb2-36d8-401e-8aa2-883719ece74b"],
 				"price": 449900000
 			},
