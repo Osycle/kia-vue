@@ -26,6 +26,15 @@
 			},
 			"news": [
 			{
+				"code": "news-5",
+				"direct_link": true,
+				"date": 1620392187,
+				"image": "/img/news/news-5.png",
+				"name": "Kia в кредит от 19%!",
+				"preview_text": null,
+				"source": null
+			},
+			{
 				"code": "news-4",
 				"direct_link": true,
 				"date": 1620131832,
