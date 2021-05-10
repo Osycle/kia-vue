@@ -26,6 +26,15 @@
 			},
 			"news": [
 			{
+				"code": "news-6",
+				"direct_link": true,
+				"date": 1620650930,
+				"image": "/img/news/news-6.jpg",
+				"name": "В модельном ряду Kia пополнение!",
+				"preview_text": null,
+				"source": null
+			},
+			{
 				"code": "news-5",
 				"direct_link": true,
 				"date": 1620392187,
