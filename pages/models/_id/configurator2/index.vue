@@ -160,9 +160,9 @@
             <div class="conf-steps conf-step-3">
               <div class="entry-content">
                 <div class="entry-title m-v-30">
-                  <h3>{{model.title}} {{currentComplectation.name}}</h3>
+                  <h3>{{model.title}} {{currentComplectation.name}}{{currentComplectation.bodyColors[0].colorFolder}}</h3>
                 </div>
-                <div class="showroom-main m-v-10">
+                <div class="showroom-main m-v-10" v-if="false">
                   <div
                       class="cloudimage-360"
                       :data-folder="currentComplectation.bodyColors[0].colorFolder"

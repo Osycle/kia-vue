@@ -258,7 +258,7 @@
         <div v-else>
           <div class="showroom-pano">
             <iframe v-if="!panoramasComplectation.panoramas[0].path.match('master-data')" 
-                    :src="'/panoramas/iframe.html?pano_xml=http://localhost:3000/'+panoramasComplectation.panoramas[0].path" frameborder="0"></iframe>
+                    :src="'/panoramas/iframe.html?pano_xml='+thatdomain+'/'+panoramasComplectation.panoramas[0].path" frameborder="0"></iframe>
             <iframe v-else 
                     :src="'https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/'+panoramasComplectation.panoramas[0].path+'/pano.xml'" frameborder="0"></iframe>
           </div>
@@ -446,6 +446,7 @@ export default {
    
   },
   created(){
+    //console.log(process);
     this.selectComplectation = this.page.overviews.complectations[0]
 
     this.page.panoramas.complectations.forEach(complectation => {
@@ -476,7 +477,7 @@ export default {
   mounted(){
     $(window).scrollTop(400);
     $(window).scrollTop(0);
-    
+    this.thatdomain = location.origin
     // Активация экстерер 360
     $(document).on("click", ".showroom-item-cover", ()=>{
       window.CI360.init();
