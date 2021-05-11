@@ -258,7 +258,7 @@
         <div v-else>
           <div class="showroom-pano">
             <iframe v-if="!panoramasComplectation.panoramas[0].path.match('master-data')" 
-                    :src="'/panoramas/iframe.html?pano_xml='+thatdomain+'/'+panoramasComplectation.panoramas[0].path" frameborder="0"></iframe>
+                    :src="'/panoramas/iframe.html?pano_xml=../'+panoramasComplectation.panoramas[0].path" frameborder="0"></iframe>
             <iframe v-else 
                     :src="'https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/'+panoramasComplectation.panoramas[0].path+'/pano.xml'" frameborder="0"></iframe>
           </div>
