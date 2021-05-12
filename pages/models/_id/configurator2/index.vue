@@ -391,7 +391,7 @@
                   <div class="item col-md-6">
                     <div class="fw-6 font-size-nm m-b-20">Двигатель и трансмиссия</div>
                     <div class="info-content">
-                      <dl><dt>Год производства</dt> <dd>{{ selectComplectation.year }}</dd></dl> 
+                      <dl><dt>Год производства</dt> <dd>{{ currentComplectation.year }}</dd></dl> 
                       <dl><dt>Двигатель</dt> <dd>{{currentEngine.name}} / {{currentEngine.descr}}</dd></dl> 
                       <dl><dt>Коробка передач</dt> <dd>{{currentGearbox.value}}, {{currentGearbox.name}}</dd></dl> 
                       <dl><dt>Привод</dt> <dd>{{currentDrive.value}}</dd></dl>
@@ -439,12 +439,12 @@
 
                   <input type="text" :value="new Date().getFullYear()" name="anti-bot-a" class="hide">
                   <input type="text" value="carBook" name="type" class="hide">
-                  <input type="text" name="carName" class="hide" :value="currentModelLine.name+' '+currentComplectation.name">
-                  <input type="text" name="engine" class="hide" :value="currentEngine.name+' / '+currentEngine.power_hp+' л.с / '+currentFuelType.name">
-                  <input type="text" name="transmission" class="hide" :value="currentGearbox.name+' '+currentTransmission.name">
-                  <input type="text" name="unit" class="hide" :value="currentDrive.name">
-                  <input type="text" name="bodyColor" class="hide" :value="selectExteriorColor.name">
-                  <input type="text" name="interColor" class="hide" :value="selectInteriorColor.name">
+                  <input type="text" name="carName" class="hide" :value="model.title+' '+currentComplectation.name">
+                  <input type="text" name="engine" class="hide" :value="currentEngine.name+' / '+currentEngine.descr">
+                  <input type="text" name="transmission" class="hide" :value="currentGearbox.value+', '+currentGearbox.name">
+                  <input type="text" name="unit" class="hide" :value="currentDrive.value">
+                  <input type="text" name="bodyColor" class="hide" :value="currentExterior.name">
+                  <input type="text" name="interColor" class="hide" :value="currentInterior.name">
 
                   <div class="row">
                     <div class="input-content m-v-30 col-md-6 p-h-15">

@@ -49,7 +49,7 @@
                       <ul>
                         <li><nuxt-link to="/buy">Онлайн-сервисы</nuxt-link></li>
                         <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
-                        <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li>
+                        <!-- <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li> -->
                         <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li>
                         <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
                         <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>
@@ -259,7 +259,7 @@
             <ul>
               <li><nuxt-link to="/buy">Онлайн-сервисы</nuxt-link></li>
               <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
-              <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li>
+              <!-- <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li> -->
               <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li>
               <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
               <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>

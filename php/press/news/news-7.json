@@ -1,0 +1,44 @@
+{
+	"error": 0,
+	"content":
+	{
+		"news":
+		{
+			"date": 1620820278,
+			"detail_text": "<div><img src=\"/img/news/news-7.jpg\"> </div><p>Уважаемые клиенты, сообщаем вам, что на предстоящих длинных выходных сервисный центр Kia работает по следующему графику:</p><br><p>13 мая - выходной день<br>14 и 15 мая  - автосервис работает с 9:00 до 18:00<br>16 мая - выходной день</p><br><p>Дилерский центр Kia работает с 9:00 до 18:00 без перерывов и выходных.</p><p>Наши контакты:</p><p>Дилерский центр - <a href=\"tel:998712157007\"><u>+99871 2157007</u></a></p><p>Автосервис - <a href=\"tel:998998547475\"><u>+998 99 8547475</u></a></p><br><hr><br><h3>Bayram kunlaridagi ish tartibi</h3><p>Hurmatli mijozlar, oldinda bizni kutayotgan uzun dam olish kunlarida Kia servis markazi quyidagi tartibda ishlashi haqida ma'lum qilamiz:</p><br><p>13-may — dam olish kuni<br>14 va 15-may — avtoservis 9:00 dan 18:00 gacha ishlaydi<br>16-may — dam olish kuni</p><br><p>Kia dilerlik markazi 9:00 dan 18:00 gacha dam olish kunlari va tanaffussiz ishlaydi.</p><p>Kontaktlarimiz:</p><p>Dilerlik markazi — <a href=\"tel:998712157007\"><u>+998 71 2157007</u></a></p><p>Аvtoservis — <a href=\"tel:998998547475\"><u>+998 99 8547475</u></a></p>",
+			"id": "news-7",
+			"name": "График работы в праздничные дни",
+			"source": null
+		},
+		"featured": [
+		{
+			"code": "266",
+			"date": 1617785084,
+			"image": "\/media-data\/news\/preview\/237666a1-df2a-4d38-ae68-5821ccd0c7d8.jpeg",
+			"name": "Услуга «Kia Помощь на дороге» стала доступна на выгодных условиях при прохождении ТО",
+			"preview_text": "Услуга «Kia Помощь на дороге» стала доступна на выгодных условиях при прохождении ТО",
+			"source": null
+		},
+		{
+			"code": "264",
+			"date": 1617617044,
+			"image": "\/media-data\/news\/preview\/e8eb5c99-7a9c-45c7-b824-4e5dbc04d2bd.jpeg",
+			"name": "Электромобиль Kia EV6 демонстрирует высочайший спрос",
+			"preview_text": "Электромобиль Kia EV6 демонстрирует высочайший спрос",
+			"source": null
+		},
+		{
+			"code": "263",
+			"date": 1617360223,
+			"image": "\/media-data\/news\/preview\/e1079597-2d9b-4129-b966-44f15d1ea80d.jpeg",
+			"name": "Kia объявляет итоги мировых продаж за март 2021 года",
+			"preview_text": "Kia объявляет итоги мировых продаж за март 2021 года",
+			"source": null
+		}],
+		"seo":
+		{
+			"title": "График работы в праздничные дни",
+			"description": null
+		}
+	}
+}

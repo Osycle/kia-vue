@@ -26,6 +26,15 @@
 			},
 			"news": [
 			{
+				"code": "news-7",
+				"direct_link": true,
+				"date": 1620820278,
+				"image": "/img/news/news-7.jpg",
+				"name": "График работы в праздничные дни",
+				"preview_text": null,
+				"source": null
+			},
+			{
 				"code": "news-6",
 				"direct_link": true,
 				"date": 1620650930,
