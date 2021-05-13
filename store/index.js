@@ -13,6 +13,7 @@ Vue.use(Notifications);
 Vue.component('multiselect', Multiselect)
 
 import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
+import consolaGlobalInstance from 'consola';
 Vue.use(VueFilterDateFormat, {
   dayOfWeekNames: [
     'Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг',
@@ -58,8 +59,6 @@ Vue.mixin({
     },
 	}
 })
-
-
 
 
 

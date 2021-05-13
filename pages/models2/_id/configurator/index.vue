@@ -522,7 +522,7 @@ export default {
       
       const modelName = context.route.params.id;
       
-      var page_data = await context.store.dispatch("models/fetchModels", {
+      var page_data = await context.store.dispatch("models/configuratorModels", {
         modelName
       })
       

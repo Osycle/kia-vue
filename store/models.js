@@ -18,21 +18,34 @@ export const actions = {
       throw e
     }
   },
-  async fetchModels(context, params){
+  async configuratorModels(context, params){
     try{
       const models = await this.$axios.$get('https://api.kia-motors.uz/configurator/get/1');
       var selectModel;
-      
+      if (Object.keys(params).length == 0) {
+        return {
+          models
+        }
+      }
       models.forEach(m => {
         if (m.url == params.modelName) 
           selectModel = m;
       });
       const model = await this.$axios.$get('https://api.kia-motors.uz/configurator/get/2/'+selectModel.id)
       return {
+        models,
         model
       };
     }catch(e){
       throw e
     }
   },
+  async modelsAll(context, params){
+    try {
+      const models = await this.$axios.$get("https://api.kia-motors.uz/api/public/model/all", { params });
+      return models;
+    } catch (e) {
+      throw e;
+    }
+  }
 }
