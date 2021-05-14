@@ -1,73 +1,83 @@
 <template>
   <div class="offset-model-header model-desc">
+
     <div class="model-header header-scroll scrolled-down down">
       <div class="container-p">
         <div class="model-header-panel">
           <div class="align-center">
-            <span class="name-content">{{page.model.name}}</span>
-            <span class="price-content" v-if="page.model.min_price">от {{page.model.min_price | spaceBetweenNum}} сум</span>
+            <span class="name-content">{{page_data.name}}</span>
+            <span class="price-content" v-if="page_data.minPrice">от {{page_data.minPrice | spaceBetweenNum}} сум</span>
             <a class="flex m-l-15 hidden-xs hidden-sm" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a>
             <a href=".list-add-sub" class="btn-options visible-xs visible-sm" data-toggle="dropdown"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg></a>
           </div>
-          <div class="model-header-nav" v-if="page.model.min_price">
+          <div class="model-header-nav" v-if="page_data.minPrice">
             <ul class="list list-main">
-              <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link active-class="active" :to="item.link">{{item.title}}</nuxt-link></li>
+              <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/desc/'">Обзор</nuxt-link></li>
+              <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/options/'">Комплектации и цены</nuxt-link></li>
+              <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/properties/'">Характеристики</nuxt-link></li>
             </ul>
-            <div class="list-add" :class="{'hide': page.model_menu.length <= 3}">
+            <div class="list-add">
               <a href=".list-add-sub" class="btn-options hidden-xs hidden-sm" data-toggle="dropdown">
                 <div class="icm-area"><svg width="18" height="4" viewBox="0 0 18 4" fill="currentColor" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><circle cx="2" cy="2" r="2"></circle><circle cx="9" cy="2" r="2"></circle><circle cx="16" cy="2" r="2"></circle></svg></div>
               </a>
               <div class="list-add-sub">
                 <ul>
-                  <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link active-class="active" :to="item.link">{{item.title}}</nuxt-link></li>
+                  <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/desc/'">Обзор</nuxt-link></li>
+                  <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/options/'">Комплектации и цены</nuxt-link></li>
+                  <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/properties/'">Характеристики</nuxt-link></li>
                 </ul>
               </div>
             </div>
-            <div class="list-last" v-if="page.complectations.complectations[0].min_price">
-              <nuxt-link :to="'/models/'+page.model.code+'/configurator'">Конфигуратор</nuxt-link>
+            <div class="list-last" v-if="page_data.minPrice">
+              <nuxt-link :to="'/models/'+page_data.name.toLowerCase()+'/configurator'">Конфигуратор</nuxt-link>
             </div>
           </div>
 
         </div>
       </div>
     </div>
-    <div class="card-bnr card-top relative" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'model'">
+
+    <div class="card-bnr card-top relative">
       <div class="bg-video-content cover">
-        <video v-if="bnr.video" :src="'https://cdn.kia.ru/'+bnr.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-        <div class="img-md absolute" v-else :style="'background-image: url(https://cdn.kia.ru/resize/1920x960/'+bnr.images.desktop+');'"></div>
-        <div class="img-xs absolute" :style="'background-image: url(https://cdn.kia.ru/resize/770x442/'+bnr.images.mobile+');'"></div>
+        <video v-if="page_data.header.video" :src="page_data.header.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+        <!-- <div class="img-md absolute" v-else :style="'background-image: url(https://cdn.kia.ru/resize/1920x960/'+bnr.images.desktop+');'"></div> -->
+        <!-- <div class="img-xs absolute" :style="'background-image: url(https://cdn.kia.ru/resize/770x442/'+bnr.images.mobile+');'"></div> -->
       </div>
       <div class="container-p relative">
         <div class="breadcrumb-container">
           <ol class="breadcrumb">
             <li><nuxt-link to="/">Главная</nuxt-link></li>
             <li><nuxt-link to="/models">Модели</nuxt-link></li>
-            <li><nuxt-link :to="'/models/'+$route.params.id+'/desc'">{{page.model.name}}</nuxt-link></li>
+            <li><nuxt-link :to="'/models/'+$route.params.id+'/desc'">{{page_data.name}}</nuxt-link></li>
           </ol>
         </div>
         <div class="wrapper-content">
           <div class="desc-content justify-c-end hidden-xs hidden-sm">
-            <span class="text align-center" v-if="page.model.min_price"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span> <a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
-            <span class="p-h-5" v-if="page.complectations.complectations[0].min_price">·</span>
-            <span class="btn-def style-2 m-l-20" v-if="page.complectations.complectations[0].min_price">
+            <span class="text align-center" v-if="page_data.minPrice"><span>от {{page_data.minPrice | spaceBetweenNum}} сум</span> <a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
+            <span class="p-h-5" v-if="page_data.minPrice">·</span>
+            <span class="btn-def style-2 m-l-20" v-if="page_data.minPrice">
               <nuxt-link :to="'/models/'+$route.params.id+'/callback'">Связаться с нами</nuxt-link>
             </span>
           </div>
           <div class="card-bnr-bottom">
             <div class="flex-adaptive align-center justify-c-between">
               <div class="card-bnr-name">
-                <div class="text-n1 m-b-15"><span v-if="!page.model.min_price">Скоро </span>{{bnr.logo.label}}</div>
-                <img :src="'https://cdn.kia.ru/'+bnr.logo.image">
-                <div class="font-size-nm m-t-10">{{bnr.logo.signature}}</div>
+                <div class="text-n1 m-b-15">
+                  <span v-if="!page_data.minPrice">Скоро </span>{{page_data.header.onLogoText}}
+                </div>
+                <img :src="page_data.header.logo">
+                <div class="font-size-nm m-t-10">{{page_data.header.underLogoText}}</div>
               </div>
-              <div class="desc-content hidden-md hidden-lg" v-if="page.model.min_price">
-                <span class="text align-center" v-if="page.model.min_price"><span>от {{page.model.min_price | spaceBetweenNum}} сум</span><a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
-                <div class="btn-opacity"><nuxt-link to="callback">Связаться с нами</nuxt-link></div>
+              <div class="desc-content hidden-md hidden-lg" v-if="page_data.minPrice">
+                <span class="text align-center" v-if="page_data.minPrice"><span>от {{page_data.minPrice | spaceBetweenNum}} сум</span><a class="p-l-5" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></span>
+                <div class="btn-opacity">
+                  <nuxt-link :to="'/models/'+$route.params.id+'/callback'">Связаться с нами</nuxt-link>
+                </div>
               </div>
               <div class="card-bnr-advantages box-md-5 flex row">
-                <div class="item p-h-15" v-for="(teaser, key) in bnr.teasers" :key="key">
+                <div class="item p-h-15" v-for="(teaser, key) in page_data.header.icons" :key="key">
                   <div class="img-content">
-                    <img :src="'https://cdn.kia.ru/'+teaser.icon">
+                    <img :src="teaser.icon">
                   </div>
                   <p><small>{{teaser.description}}</small></p>
                 </div>
@@ -80,29 +90,38 @@
     </div>
 
     <div class="card-media">
-      <div class="card-media-intro card-media-v" :class="'theme-'+info.theme" v-for="(info, keyParent) in page.infographics" :key="keyParent">
-        <template v-if="info.type == 'inherit'">
-          <div class="container-p-2 relative" :class="info.preview_block.type">
-            <template v-if="(info.preview_block.type == 'accordion_left') || (info.preview_block.type == 'accordion_right')">
+      <div class="card-media-intro card-media-v" :class="'theme-'+block.theme" v-for="(block, keyParent) in page_data.blocks" :key="keyParent">
+        <template v-if="block.type == 'block1'">
+          <div class="container-p-2 relative" :class="'accordion_'+block.direct">
+            <template v-if="(block.direct == 'left') || (block.direct == 'right')">
               <div class="flex-adaptive">
                 <div class="card-media-desc">
-                  <h4 class="color-2 text-n1">{{info.title}}</h4>
-                  <div class="h1 text-x5">{{info.name}}</div>
+                  <h4 class="color-2 text-n1">{{block.name}}</h4>
+                  <div class="h1 text-x5">{{block.title}}</div>
                   <br>
-                  <p class="opacity-5">{{info.description}}</p>
+                  <p class="opacity-5">{{block.summary}}</p>
                   <br>
                   <hr>
                   <div class="card-media-list m-t-40">
                     <ul class="list">
-                      <li v-for="(preview, key) in info.preview_block.contents" :key="key" :class="{active: key == 0}">
+                      <li v-for="(preview, key) in block.photos" :key="key" :class="{active: key == 0}">
                         <a :href="'#card-media-list-'+keyParent+'-'+key" data-toggle="tab">{{preview.name}}</a>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div class="card-media-imgs tab-content owl-img-4-3">
-                  <div class="tab-pane fade" :id="'card-media-list-'+keyParent+'-'+key" v-for="(preview, key) in info.preview_block.contents" :key="key" :class="{'active in': key == 0}">
-                    <template v-if="preview.teasers.length > 0">
+                  <div class="tab-pane fade" :id="'card-media-list-'+keyParent+'-'+key" 
+                    v-for="(preview, key) in block.photos"
+                    :class="{'active in': key == 0}"
+                    :key="key">
+                    <div class="img-content">
+                      <img :src="preview.url">
+                    </div>
+                    <div class="desc-content m-auto box-md-9 m-t-25">
+                      <p>{{preview.text}}</p>
+                    </div>
+                    <!-- <template v-if="preview.teasers.length > 0">
                       <ul class="card-list-engine">
                         <li v-for="(teaser, key) in preview.teasers" :key="key">
                           <div class="cnt-content"><big>{{teaser.title}}</big> <span>{{teaser.title_desc}}</span></div>
@@ -119,65 +138,73 @@
                       <div class="desc-content m-auto box-md-9 m-t-25">
                         <p>{{preview.description}}</p>
                       </div>
-                    </template>
+                    </template> -->
                   </div>
                 </div>
               </div>
             </template>
-            <template v-if="info.preview_block.type == 'tabs'">
+            <template v-if="block.type == 'block3'">
               <div class="entry-header box-md-4">
-                <h4 class="color-1 text-n1">{{info.title}}</h4>
-                <h2>{{info.name}}</h2>
+                <h4 class="color-1 text-n1">{{block.name}}</h4>
+                <h2>{{block.title}}</h2>
               </div>
               <div class="entry-content">
                 <div class="short-models-nav m-v-30">
                   <ul class="list flex-adaptive li-m-v-15">
-                    <li v-for="(preview, key) in info.preview_block.contents" :key="key" :class="{'active in': key == 0}">
+                    <li v-for="(preview, key) in block.photos" :key="key" :class="{'active in': key == 0}">
                       <a :href="'#card-tech-'+keyParent+'-'+key" data-toggle="tab">{{preview.name}}</a>
                     </li>
                   </ul>
                 </div>
                 <div class="tab-content">
-                  <div class="tab-pane fade" :id="'card-tech-'+keyParent+'-'+key" v-for="(preview, key) in info.preview_block.contents" :key="key" :class="{'active in': key == 0}">
+                  <div class="tab-pane fade" :id="'card-tech-'+keyParent+'-'+key" v-for="(preview, key) in block.photos" :key="key" :class="{'active in': key == 0}">
                     <div class="img-content text-center m-v-30">
-                      <img :src="'https://cdn.kia.ru/resize/1440x720/'+preview.file">
+                      <img :src="preview.url">
                     </div>
                     <div class="desc-content box-lg-6">
-                      <p>{{preview.description}}</p>
+                      <p>{{preview.text}}</p>
                     </div>
                   </div>
                 </div>
               </div>
             </template>
+
           </div>
         </template>
-        <template v-if="info.type == 'base'">
-          <div class="container-p-2 relative">
-            <div class="row-15 flex-adaptive justify-c-between">
-              <div class="col-md-6 p-h-15">
-                <h4 class="color-2 text-n1">{{info.title}}</h4>
-                <div class="h1 text-x5">{{info.name}}</div>
-              </div>
-              <div class="col-md-offset-1 p-h-15 col-md-4 m-t-50 opacity-5">
-                <p>{{info.description}}</p>
-              </div>
-            </div>
-            <br class="hidden-sm hidden-xs">
-            <div class="video-content m-t-30 relative">
-              <div v-if="info.video.video_preview">
-                <div class="bg-video-content-2">
-                  <a :href="info.video.link" data-fancybox><div class="btn-play"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg></div></a>
-                  <video :src="'https://cdn.kia.ru/'+info.video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+        <div v-if="false">          
+          <template v-if="info.type == 'base'">
+            <div class="container-p-2 relative">
+              <div class="row-15 flex-adaptive justify-c-between">
+                <div class="col-md-6 p-h-15">
+                  <h4 class="color-2 text-n1">{{info.title}}</h4>
+                  <div class="h1 text-x5">{{info.name}}</div>
+                </div>
+                <div class="col-md-offset-1 p-h-15 col-md-4 m-t-50 opacity-5">
+                  <p>{{info.description}}</p>
                 </div>
               </div>
-              <div v-else class="img-content">
-                <img :src="'https://cdn.kia.ru/'+info.image" alt="">
+              <br class="hidden-sm hidden-xs">
+              <div class="video-content m-t-30 relative">
+                <div v-if="info.video.video_preview">
+                  <div class="bg-video-content-2">
+                    <a :href="info.video.link" data-fancybox><div class="btn-play"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg></div></a>
+                    <video :src="'https://cdn.kia.ru/'+info.video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+                  </div>
+                </div>
+                <div v-else class="img-content">
+                  <img :src="'https://cdn.kia.ru/'+info.image" alt="">
+                </div>
               </div>
             </div>
-          </div>
-        </template>
+          </template>
+        </div>
       </div>
     </div>
+
+<div v-if="false">
+
+
+
 
     <div class="card-video" v-if="false">
       <div class="container-p p-v-80">
@@ -409,6 +436,11 @@
       </div>
     </div>
     
+</div>
+
+
+
+
   </div>
 </template>
 
@@ -417,26 +449,24 @@
 export default {
   head() {
     return {
-      title: this.page.seo.title,
+      title: this.page_data.seo.meta_title,
       meta: [
         {
-          content: this.page.seo.description
+          content: this.page_data.seo.meta_descr
         }
       ],
     }
   },
   async asyncData(context){
     try{
-      const path = context.route.path;
-      const page = await context.store.dispatch("models/fetchPageData", {
-        path: path,
-      })
-      // const videoGroup = await context.store.dispatch("models/fetchVideo", {
-      //   model: page.content.model.model_line_id,
-      // })
+      var model_name = context.route.params.id;
+      var path = context.route.path.split("/").reverse()[1];
+      const page_data = await context.store.dispatch("models/model", {
+        path, 
+        model_name
+      });
       return {
-        page: page.content
-        //videoGroup,
+        page_data
       }
     }catch(e){
       context.error(e);
@@ -446,67 +476,13 @@ export default {
    
   },
   created(){
-    //console.log(process);
-    this.selectComplectation = this.page.overviews.complectations[0]
 
-    this.page.panoramas.complectations.forEach(complectation => {
-      if(complectation.id === this.selectComplectation.id)
-        this.panoramasComplectation = complectation;
-    })
-    this.selectComplectation.overviews.forEach(overview => {
-      if(overview.color_id == this.page.model.overview_default_color_id){
-        this.selectOverview = overview;
-      }else if(!this.selectOverview){
-        this.selectOverview = this.selectComplectation.overviews[0];
-      }
-    });
-
-    this.page.overviews.colors.forEach(color => {
-      if(color.id == this.page.model.overview_default_color_id)
-        this.selectExteriorColor = color;
-    });
-    this.page.panoramas.colors.forEach(color => {
-      if(color.id == this.panoramasComplectation.panoramas[0].color_id)
-        this.selectInteriorColor = color;
-    });
-    
 
 
     
   },
   mounted(){
-    $(window).scrollTop(400);
-    $(window).scrollTop(0);
-    this.thatdomain = location.origin
-    // Активация экстерер 360
-    $(document).on("click", ".showroom-item-cover", ()=>{
-      window.CI360.init();
-    })
-    _.unionBy(this.page.overviews.colors, "id")
 
-    this.page.overviews.colors = _.unionBy(this.page.overviews.colors, "id");
-
-		$(".card-sets-items.owl-carousel").owlCarousel({
-      nav: !checkSm(),
-      loop: false,
-      //items: 3,
-      dots: false,
-      dotsEach: false,
-      //slideBy: 2,
-      autoplay: false,
-      autoplayTimeout: 5400,
-      touchDrag: true,
-      center: false,
-      autoheight: true,
-      responsive:{
-        0:{items:1.1},
-        991:{items:3},
-        1600:{items:4}
-      },
-      navText : owlBtn,
-      margin: 30
-    });
-    
 
   },
   data(){

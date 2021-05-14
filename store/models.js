@@ -42,8 +42,16 @@ export const actions = {
   },
   async modelsAll(context, params){
     try {
-      const models = await this.$axios.$get("https://api.kia-motors.uz/api/public/model/all", { params });
+      const models = await this.$axios.$get("https://api.kia-motors.uz/api/public/model/all");
       return models;
+    } catch (e) {
+      throw e;
+    }
+  },
+  async model(context, params){
+    try {
+      const model = await this.$axios.$get("https://api.kia-motors.uz/api/public/model/"+params.path+"/"+params.model_name);
+      return model;
     } catch (e) {
       throw e;
     }
