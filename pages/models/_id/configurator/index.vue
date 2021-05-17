@@ -291,7 +291,7 @@
                   <div v-else>
                     <div class="showroom-pano">
                       <iframe 
-                        :src="'/panoramas/iframe.html?pano_xml=../'+currentInterior.colorFolder" frameborder="0"></iframe>
+                        :src="'/panoramas/iframe.html?pano_xml='+currentInterior.colorFolder" frameborder="0"></iframe>
                     </div>
                   </div>
                   <script>window.CI360 = { notInitOnLoad: true }</script>

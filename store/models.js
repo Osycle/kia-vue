@@ -50,7 +50,7 @@ export const actions = {
   },
   async model(context, params){
     try {
-      const model = await this.$axios.$get("https://api.kia-motors.uz/model/desc/"+params.path);
+      const model = await this.$axios.$get("https://api.kia-motors.uz/model/desc/"+params.model_name);
       return model;
     } catch (e) {
       throw e;
