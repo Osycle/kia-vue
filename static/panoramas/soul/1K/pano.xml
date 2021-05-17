@@ -1,7 +1,0 @@
-﻿<krpano logkey="false"  showerrors="false" debugmode="false">
-	<view hlookat="0" vlookat="10" fovmax="75" fovmin="10" fov="60" />
-	
-	<display details="18" flash10="on" movequality10="BEST" stillquality10="BEST" />
-
-	<include url="soul_pano.xml" />
-</krpano>
