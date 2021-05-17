@@ -250,7 +250,7 @@
         </div>
       </div>
     </div>
-    <div class="card-showroom car-showroom"> 
+    <div class="card-showroom car-showroom" v-if="page_data.colors.bodyColors.length || page_data.colors.interiorColors.length">
       <div class="showroom" :class="{'pano-active': panoActive}">
         <div class="container-p relative">
           <div class="showroom-header">
@@ -260,11 +260,11 @@
             </div>
             <div class="showroom-typeselect">
               <ul class="list">
-                <li :class="{'active': !panoActive}">
+                <li :class="{'active': !panoActive}" v-if="page_data.colors.bodyColors.length">
                   <a @click="panoActive = false" href="javascript:;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
                   <span>Экстерьер</span>
                 </li>
-                <li :class="{'active': panoActive}">
+                <li :class="{'active': panoActive}" v-if="page_data.colors.interiorColors.length">
                   <a @click="panoActive = true" href="javascript:;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
                   <span>Интерьер</span>
                 </li>
@@ -273,75 +273,75 @@
           </div>
         </div>
         
-          <div class="container-p relative" v-if="!panoActive">
-            <div class="showroom-main m-v-10">
-              <div
-                  class="cloudimage-360"
-                  :data-folder="currentExterior.colorFolder"
-                  data-filename="{index}.png"
-                  data-spin-reverse
-                  data-amount="72">
-                  <div class="showroom-item-cover flex align-center">
-                    <div class="flex box-xs-10 align-center">
-                      <img :src="currentExterior.colorFolder+'/1.png'" width="100%">
-                    </div>
+        <div class="container-p relative" v-if="!panoActive && page_data.colors.bodyColors.length">
+          <div class="showroom-main m-v-10">
+            <div
+                class="cloudimage-360"
+                :data-folder="currentExterior.colorFolder"
+                data-filename="{index}.png"
+                data-spin-reverse
+                data-amount="72">
+                <div class="showroom-item-cover flex align-center">
+                  <div class="flex box-xs-10 align-center">
+                    <img :src="currentExterior.colorFolder+'/1.png'" width="100%">
                   </div>
-              </div>
-            </div>
-            <script>window.CI360 = { notInitOnLoad: true }</script>
-            <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
-          </div>
-          <div v-else>
-            <div class="showroom-pano">
-              <iframe v-if="currentInterior.colorFolder.length" 
-                :src="'/panoramas/iframe.html?pano_xml='+currentInterior.colorFolder" frameborder="0"></iframe>
-            </div>
-          </div>
-          <div class="container-p relative">
-            <div class="showroom-bottom justify-c-between align-center">
-              <div class="flex-adaptive">
-                <div class="showroom-colorselect">
-                  <div class="title-content">
-                    <span class="color-gray">Цвет:</span> 
-                    <b>{{currentExterior.name}}</b>
-                    <b v-if="currentExterior.metalic*1">метталик</b>
-                    <span v-if="currentExterior.price"> + {{currentExterior.price | spaceBetweenNum}} сум</span>
-                  </div>
-                  <ul class="list m-t-10">
-                    <li v-for="(color, key) in page_data.colors.bodyColors" 
-                      :class="{'active': currentExterior.id == color.id}"
-                      :key="key">
-                      <a href="javascript:;" @click.stop.prevent="colorChangeExterior(color)" >
-                        <div class="color-select" :style="'background-image: url(\''+color.icon+'\')'"></div>
-                      </a>
-                    </li>
-                  </ul>
                 </div>
-                <div class="showroom-colorselect">
-                  <div class="title-content">
-                    <span class="color-gray">Цвет:</span> 
-                    <b>{{currentInterior.name}}</b>
-                    <span v-if="currentInterior.price"> + {{currentInterior.price | spaceBetweenNum}} сум</span>
-                  </div>
-                  <ul class="list m-t-10">
-                    <li v-for="(color, key) in page_data.colors.interiorColors" 
-                      :class="{'active': currentInterior.id == color.id}"
-                      :key="key">
-                      <a href="javascript:;" @click.stop.prevent="colorChangeInterior(color)" >
-                        <div class="color-select" :style="'background-image: url(\''+color.icon+'\')'"></div>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <span class="btn-def" v-if="page_data.minPrice">
-                  <nuxt-link :to="'/models/'+page_data.name.toLowerCase()+'/configurator'" class="p-v-20">Конфигуратор</nuxt-link>	
-                </span>
-              </div>
             </div>
           </div>
-        
+          <script>window.CI360 = { notInitOnLoad: true }</script>
+          <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+        </div>
+        <div v-else-if="page_data.colors.interiorColors.length">
+          <div class="showroom-pano">
+            <iframe
+              :src="'/panoramas/iframe.html?pano_xml='+currentInterior.colorFolder" frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="container-p relative" v-if="page_data.colors.bodyColors.length || page_data.colors.interiorColors.length">
+          <div class="showroom-bottom justify-c-between align-center">
+            <div class="flex-adaptive">
+              <div class="showroom-colorselect" v-if="page_data.colors.bodyColors.length">
+                <div class="title-content">
+                  <span class="color-gray">Цвет:</span> 
+                  <b>{{currentExterior.name}}</b>
+                  <b v-if="currentExterior.metalic*1">метталик</b>
+                  <span v-if="currentExterior.price"> + {{currentExterior.price | spaceBetweenNum}} сум</span>
+                </div>
+                <ul class="list m-t-10">
+                  <li v-for="(color, key) in page_data.colors.bodyColors" 
+                    :class="{'active': currentExterior.id == color.id}"
+                    :key="key">
+                    <a href="javascript:;" @click.stop.prevent="colorChangeExterior(color)" >
+                      <div class="color-select" :style="'background-image: url(\''+color.icon+'\')'"></div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="showroom-colorselect" v-if="page_data.colors.interiorColors.length">
+                <div class="title-content">
+                  <span class="color-gray">Цвет:</span> 
+                  <b>{{currentInterior.name}}</b>
+                  <span v-if="currentInterior.price"> + {{currentInterior.price | spaceBetweenNum}} сум</span>
+                </div>
+                <ul class="list m-t-10">
+                  <li v-for="(color, key) in page_data.colors.interiorColors" 
+                    :class="{'active': currentInterior.id == color.id}"
+                    :key="key">
+                    <a href="javascript:;" @click.stop.prevent="colorChangeInterior(color)" >
+                      <div class="color-select" :style="'background-image: url(\''+color.icon+'\')'"></div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <span class="btn-def" v-if="page_data.minPrice">
+                <nuxt-link :to="'/models/'+page_data.name.toLowerCase()+'/configurator'" class="p-v-20">Конфигуратор</nuxt-link>	
+              </span>
+            </div>
+          </div>
+        </div>
+      
         
 
       </div>
@@ -419,7 +419,8 @@
         </div>
       </div>
     </div>
-    <div class="card-fb" :style="'background-image: url('+page_data.footer.image+');'">
+
+    <div v-if="page_data.footer" class="card-fb" :style="'background-image: url('+page_data.footer.image+');'">
       <div class="container-p text-center" v-if="page_data.minPrice">
         <div class="entry-content">
           <div class="entry-header color-white p-v-30">
