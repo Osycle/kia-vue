@@ -121,24 +121,6 @@
                     <div class="desc-content m-auto box-md-9 m-t-25">
                       <p>{{preview.text}}</p>
                     </div>
-                    <!-- <template v-if="preview.teasers.length > 0">
-                      <ul class="card-list-engine">
-                        <li v-for="(teaser, key) in preview.teasers" :key="key">
-                          <div class="cnt-content"><big>{{teaser.title}}</big> <span>{{teaser.title_desc}}</span></div>
-                          <div class="text-content">
-                            <span>{{teaser.description}}</span>
-                          </div>
-                        </li>
-                      </ul>
-                    </template>
-                    <template v-else>
-                      <div class="img-content">
-                        <img :src="'https://cdn.kia.ru/resize/1440x720/'+preview.file">
-                      </div>
-                      <div class="desc-content m-auto box-md-9 m-t-25">
-                        <p>{{preview.description}}</p>
-                      </div>
-                    </template> -->
                   </div>
                 </div>
               </div>
@@ -171,6 +153,74 @@
 
           </div>
         </template>
+        <template v-if="block.type == 'block2'">
+          <div class="container-p-2 relative" :class="'accordion_'+block.direct">
+            <template v-if="(block.direct == 'left') || (block.direct == 'right')">
+              <div class="flex-adaptive">
+                <div class="card-media-desc">
+                  <h4 class="color-2 text-n1">{{block.name}}</h4>
+                  <div class="h1 text-x5">{{block.title}}</div>
+                  <br>
+                  <p class="opacity-5">{{block.summary}}</p>
+                  <br>
+                  <hr>
+                  <div class="card-media-list m-t-40">
+                    <ul class="list">
+                      <li v-for="(enteas, key) in block.content" :key="key" :class="{active: key == 0}">
+                        <a :href="'#card-media-list-'+keyParent+'-'+key" data-toggle="tab">{{enteas.name}}</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-media-imgs tab-content owl-img-4-3">
+                  <div class="tab-pane fade" :id="'card-media-list-'+keyParent+'-'+key" 
+                    v-for="(enteas, key) in block.content"
+                    :class="{'active in': key == 0}"
+                    :key="key">
+                    <div class="desc-content m-auto box-md-9 m-t-25">
+                      <p>{{enteas.name}}</p>
+                    </div>
+                    <ul class="card-list-engine">
+                      <li v-for="(teaser, key) in enteas.options" :key="key">
+                        <div class="cnt-content"><big>{{teaser.value}}</big> <span>{{teaser.type}}</span></div>
+                        <div class="text-content">
+                          <span>{{teaser.title}}</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </template>
+          </div>
+        </template>
+        <template v-if="block.type == 'block3'">
+          <div class="container-p-2 relative">
+            <div class="entry-header box-md-4">
+              <h4 class="color-1 text-n1">{{block.name}}</h4>
+              <h2>{{block.title}}</h2>
+            </div>
+            <div class="entry-content">
+              <div class="short-models-nav m-v-30">
+                <ul class="list flex-adaptive li-m-v-15">
+                  <li v-for="(preview, key) in block.photos" :key="key" :class="{'active in': key == 0}">
+                    <a :href="'#card-tech-'+keyParent+'-'+key" data-toggle="tab">{{preview.name}}</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-content">
+                <div class="tab-pane fade" :id="'card-tech-'+keyParent+'-'+key" v-for="(preview, key) in block.photos" :key="key" :class="{'active in': key == 0}">
+                  <div class="img-content text-center m-v-30">
+                    <img :src="preview.url">
+                  </div>
+                  <div class="desc-content box-lg-6">
+                    <p>{{preview.text}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
         <div v-if="false">          
           <template v-if="info.type == 'base'">
             <div class="container-p-2 relative">
@@ -200,12 +250,101 @@
         </div>
       </div>
     </div>
+    <div class="card-showroom car-showroom"> 
+      <div class="showroom" :class="{'pano-active': panoActive}">
+        <div class="container-p relative">
+          <div class="showroom-header">
+            <div class="entry-header">
+              <h4 class="color-2 text-n1">ПРОСМОТР 360°</h4>
+              <h2>{{page_data.name}}</h2>
+            </div>
+            <div class="showroom-typeselect">
+              <ul class="list">
+                <li :class="{'active': !panoActive}">
+                  <a @click="panoActive = false" href="javascript:;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
+                  <span>Экстерьер</span>
+                </li>
+                <li :class="{'active': panoActive}">
+                  <a @click="panoActive = true" href="javascript:;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
+                  <span>Интерьер</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+          <div class="container-p relative" v-if="!panoActive">
+            <div class="showroom-main m-v-10">
+              <div
+                  class="cloudimage-360"
+                  :data-folder="currentExterior.colorFolder"
+                  data-filename="{index}.png"
+                  data-spin-reverse
+                  data-amount="72">
+                  <div class="showroom-item-cover flex align-center">
+                    <div class="flex box-xs-10 align-center">
+                      <img :src="currentExterior.colorFolder+'/1.png'" width="100%">
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <script>window.CI360 = { notInitOnLoad: true }</script>
+            <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
+          </div>
+          <div v-else>
+            <div class="showroom-pano">
+              <iframe v-if="currentInterior.colorFolder.length" 
+                :src="'/panoramas/iframe.html?pano_xml=../'+currentInterior.colorFolder" frameborder="0"></iframe>
+            </div>
+          </div>
+          <div class="container-p relative">
+            <div class="showroom-bottom justify-c-between align-center">
+              <div class="flex-adaptive">
+                <div class="showroom-colorselect">
+                  <div class="title-content">
+                    <span class="color-gray">Цвет:</span> 
+                    <b>{{currentExterior.name}}</b>
+                    <span v-if="currentExterior.price"> + {{currentExterior.price | spaceBetweenNum}} сум</span>
+                  </div>
+                  <ul class="list m-t-10">
+                    <li v-for="(color, key) in page_data.colors.bodyColors" 
+                      :class="{'active': currentExterior.id == color.id}"
+                      :key="key">
+                      <a href="javascript:;" @click.stop.prevent="colorChangeExterior(color)" >
+                        <div class="color-select" :style="'background-image: url(\''+color.icon+'\')'"></div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="showroom-colorselect">
+                  <div class="title-content">
+                    <span class="color-gray">Цвет:</span> 
+                    <b>{{currentInterior.name}}</b>
+                    <span v-if="currentInterior.price"> + {{currentInterior.price | spaceBetweenNum}} сум</span>
+                  </div>
+                  <ul class="list m-t-10">
+                    <li v-for="(color, key) in page_data.colors.interiorColors" 
+                      :class="{'active': currentInterior.id == color.id}"
+                      :key="key">
+                      <a href="javascript:;" @click.stop.prevent="colorChangeInterior(color)" >
+                        <div class="color-select" :style="'background-image: url(\''+color.icon+'\')'"></div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <span class="btn-def" v-if="page_data.minPrice">
+                  <nuxt-link :to="'/models/'+page_data.name.toLowerCase()+'/configurator'" class="p-v-20">Конфигуратор</nuxt-link>	
+                </span>
+              </div>
+            </div>
+          </div>
+        
+        
 
-<div v-if="false">
-
-
-
-
+      </div>
+    </div>
     <div class="card-video" v-if="false">
       <div class="container-p p-v-80">
         <div class="entry-header text-center">
@@ -242,148 +381,32 @@
         </div>
       </div>
     </div>
-    <div class="card-showroom car-showroom"> 
-      <div class="showroom" :class="{'pano-active': panoActive}">
-        <div class="container-p relative">
-          <div class="showroom-header">
-            <div class="entry-header">
-              <h4 class="color-2 text-n1">ПРОСМОТР 360°</h4>
-              <h2>{{page.model.name}}</h2>
-            </div>
-            <div class="showroom-typeselect">
-              <ul class="list">
-                <li :class="{'active': !panoActive}">
-                  <a @click="panoActive = false" href="javascript:;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
-                  <span>Экстерьер</span>
-                </li>
-                <li :class="{'active': panoActive}">
-                  <a @click="panoActive = true" href="javascript:;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M6 10l2.5 2.5L14 7" stroke="currentColor" stroke-width="2"></path></svg></a>
-                  <span>Интерьер</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="container-p relative" v-if="!panoActive">
-          <div class="showroom-main m-v-30">
-            <div
-                class="cloudimage-360"
-                :data-folder="'https://cdn.kia.ru'+selectOverview.path"
-                data-filename="{index}.png"
-                data-spin-reverse
-                data-amount="72">
-                <div class="showroom-item-cover flex align-center">
-                  <div class="flex box-xs-10 align-center">
-                    <img :src="'https://cdn.kia.ru'+selectOverview.path+'/1.png'" width="100%">
-                  </div>
-                </div>
-            </div>
-          </div>
-          <script>window.CI360 = { notInitOnLoad: true }</script>
-          <script src="/js/plugins/js-cloudimage-360-view.min.js"></script>
-        </div>
-        <div v-else>
-          <div class="showroom-pano">
-            <iframe v-if="!panoramasComplectation.panoramas[0].path.match('master-data')" 
-                    :src="'/panoramas/iframe.html?pano_xml=../'+panoramasComplectation.panoramas[0].path" frameborder="0"></iframe>
-            <iframe v-else 
-                    :src="'https://www.kia.ru/panorama/frame.html?pano_xml=https://cdn.kia.ru/'+panoramasComplectation.panoramas[0].path+'/pano.xml'" frameborder="0"></iframe>
-          </div>
-        </div>
-        
-        <div class="container-p relative">
-          <div class="showroom-bottom justify-c-between align-center">
-            <div class="flex-adaptive">
-              <div class="showroom-colorselect">
-                <div class="title-content">
-                  <span class="color-gray">Цвет:</span> 
-                  <b>{{selectExteriorColor.name}} ({{selectExteriorColor.code}}), </b>
-                  <b v-if="selectExteriorColor.is_metallic">метталик</b>
-                  <span v-if="selectExteriorColor.price"> + {{selectExteriorColor.price | spaceBetweenNum}} сум</span>
-                </div>
-                <ul class="list m-t-10">
-                  <template v-for="(overview) in selectComplectation.overviews">
-                    <template v-for="(color) in page.overviews.colors">
-                      <template v-if="overview.color_id == color.id" >
-                        <li :class="{'active': selectOverview.color_id == color.id}">
-                          <a href="javascript:;" @click.stop.prevent="showroomChanger(color)" >
-                            <div class="color-select" :style="'background-image: url(https://cdn.kia.ru'+color.image+')'"></div>
-                          </a>
-                        </li>
-                      </template>
-                    </template>
-                  </template>
-                </ul>
-              </div>
-              <div class="showroom-colorselect">
-                <div class="title-content">
-                  <span class="color-gray">Цвет:</span> 
-                  <b>{{selectInteriorColor.name}} ({{selectInteriorColor.code}})</b>
-                  <span v-if="selectInteriorColor.price"> + {{selectInteriorColor.price | spaceBetweenNum}} сум</span>
-                </div>
-                <ul class="list m-t-10">
-                  <template v-for="(panorama) in panoramasComplectation.panoramas">
-                    <template v-for="(color) in page.panoramas.colors">
-                      <template v-if="panorama.color_id == color.id">
-                        <li :class="{'active': selectInteriorColor.id == color.id}">
-                          <a href="javascript:;" @click.stop.prevent="showroomInChanger(color)" >
-                            <div class="color-select" :style="'background-image: url(https://cdn.kia.ru'+color.image+')'"></div>
-                          </a>
-                        </li>
-                      </template>
-                    </template>
-                  </template>
-                </ul>
-              </div>
-            </div>
-            <span class="btn-def" v-if="page.complectations.complectations[0].min_price">
-              <nuxt-link :to="'/models/'+page.model.code+'/configurator'" class="p-v-20">Конфигуратор</nuxt-link>	
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="card-sets bg-color-gray-1" v-if="page.complectations.complectations[0].min_price">
+    <div class="card-sets bg-color-gray-1" v-if="page_data.minPrice">
       <div class="container-p p-v-45">
         <div class="entry-header text-center m-v-30">
           <h4 class="color-2 text-n1">КОМПЛЕКТАЦИИ</h4>
-          <h2>Варианты {{page.model.name}}</h2>
-          <p>{{page.complectations.complectations.length}} доступных комплектаций</p>
+          <h2>Варианты {{page_data.name}}</h2>
+          <p>{{page_data.compls.length}} доступных комплектаций</p>
         </div>
         <div class="card-sets-items owl-carousel boxes-3 m-v-30 owl-nav-style-2-xs">
-          <figure v-for="(set, key) in page.complectations.complectations" :key="key">
+          <figure v-for="(set, key) in page_data.compls" :key="key">
             <div class="fig-wrapper">
               <div class="cap-content">
                 <h3>{{set.name}}</h3>
-                <h4>от {{set.min_price | spaceBetweenNum}} сум</h4>
+                <h4>от {{set.price | spaceBetweenNum}} сум</h4>
               </div>
               <div class="desc-content">
                 <div>
                   <p><b>Двигатель и трансмиссия</b></p>
-                  <p v-for="(modification, key) in set.modifications" :key="key">
-                    <template v-for="(engine) in page.complectations.engines">
-                      <template v-if="engine.id == modification.engine_id">
-                        {{engine.name+" / "+engine.power_hp+" л. с. / "+engine.fuel_type_name+" / "}}
-                      </template>
-                    </template>
-                    <template v-for="(transmission) in page.complectations.transmissions">
-                      <template v-if="transmission.id == modification.transmission_id">
-                        {{transmission.gearbox_name+" / "+transmission.drive_name}}
-                      </template>
-                    </template>
-                  </p>
+                  <p>{{set.engine}}</p>
                   <br>
                   <p><b>Основные опции</b></p>
-                  <p v-for="(optionId, key) in set.options" :key="'A'+key">
-                    <template v-for="(option) in page.complectations.options">
-                      <template v-if="option.id == optionId">
-                        {{option.name}}
-                      </template>
-                    </template>
+                  <p v-for="(option, key) in set.options" :key="'A'+key">
+                    {{option}}
                   </p>
                 </div>
-                <div class="link-content m-t-20">
+                <div class="link-content m-t-20" v-if="false">
                   <div class="align-center font-w-6">
                     <nuxt-link :to="'/models/'+page.model.code+'/options'"><b>Комплектации и цены</b></nuxt-link>
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
@@ -395,6 +418,32 @@
         </div>
       </div>
     </div>
+    <div class="card-fb" :style="'background-image: url('+page_data.footer.image+');'">
+      <div class="container-p text-center" v-if="page_data.minPrice">
+        <div class="entry-content">
+          <div class="entry-header color-white p-v-30">
+            <h4 class="text-n1">{{page_data.footer.title}}</h4>
+            <h2>{{page_data.footer.text}}</h2>
+            <span class="btn-def style-1 m-v-20">
+              <nuxt-link :to="'/models/'+$route.params.id+'/callback/'" class="p-v-20 p-h-25">
+                Заказать звонок дилера
+              </nuxt-link>
+            </span>
+          </div>
+          <div class="img-content">
+            <picture>
+              <source :srcset="page_data.footer.car" media="(max-width: 768px)">
+              <img :src="page_data.footer.car">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+<div v-if="false">
+
+
+
+
     
     <div class="card-gar bg-color-gray-1" v-for="(info, key) in page.infographics" :key="key" v-if="info.type == 'img_left'">
       <div class="container-p p-v-45">
@@ -476,46 +525,59 @@ export default {
    
   },
   created(){
-
-
+    this.currentExterior = this.page_data.colors.bodyColors[0];
+    this.currentInterior = this.page_data.colors.interiorColors[0];
 
     
   },
   mounted(){
-
+    // Активация showroom 360 при клике
+    $(document).on("click", ".showroom-item-cover", ()=>{
+      window.CI360.init();
+    })
+		$(".card-sets-items.owl-carousel").owlCarousel({
+      nav: !checkSm(),
+      loop: false,
+      //items: 3,
+      dots: false,
+      dotsEach: false,
+      //slideBy: 2,
+      autoplay: false,
+      autoplayTimeout: 5400,
+      touchDrag: true,
+      center: false,
+      autoheight: true,
+      responsive:{
+        0:{items:1.1},
+        991:{items:3},
+        1600:{items:4}
+      },
+      navText : owlBtn,
+      margin: 30
+    });
 
   },
   data(){
     return{
       panoActive: false,
-      selectOverview: "",
-      selectExteriorColor: "",
-      selectInteriorColor: "",
-      selectComplectation: "",
-      panoramasComplectation: "",
-      // События Изменение цвета 
-      async showroomChanger(color, parentClass){
+      currentExterior: {},
+      currentInterior: {},
+
+      /* События Изменение цвета  */
+      async colorChangeExterior(color, parentClass){
         parentClass = parentClass || ".showroom-main";
-        this.selectComplectation.overviews.map((overview)=>{
-          if( color.id == overview.color_id ){
-            this.selectExteriorColor = color;
-            this.selectOverview = overview;
-            window.CI360.destroy();
-            console.info(overview, $(parentClass+" [data-folder]"))
-            $(parentClass+" [data-folder]").attr('data-folder', "https://cdn.kia.ru"+overview.path)
-            $(parentClass+" [data-amount]").attr('data-amount', overview.amount)
-            if($(parentClass).find("canvas").length > 0)
-              window.CI360.init();
-            else{
-              $(parentClass).find(".showroom-item-cover").find("img").attr("src", "https://cdn.kia.ru"+overview.path+"/1.png")
-            }
-          }
-        }) 
+        this.currentExterior = color;
+        window.CI360.destroy();
+        $(parentClass+" [data-folder]").attr('data-folder', this.currentExterior.colorFolder)
+        $(parentClass+" [data-amount]").attr('data-amount', 72)
+        if($(parentClass).find("canvas").length > 0)
+          window.CI360.init();
+        else{
+          $(parentClass).find(".showroom-item-cover").find("img").attr("src", this.currentExterior.colorFolder+"/1.png")
+        }
       },
-      async showroomInChanger(color, parentClass){
-        this.selectInteriorColor = color;
-          parentClass = parentClass || ".showroom-pano";
-          
+      async colorChangeInterior(color){
+        this.currentInterior = color;
       },
 
     }
