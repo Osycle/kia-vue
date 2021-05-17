@@ -73,10 +73,10 @@ export default {
 </script>
 
 <style lang="scss">
-  .accordion_right{
+  .accordion_left{
     .card-media-desc{
-      padding-left: 10%;
-      padding-right: 0;
+      padding-left: 0;
+      padding-right: 10%;
     }
   }
 </style>

@@ -221,33 +221,31 @@
             </div>
           </div>
         </template>
-        <div v-if="false">          
-          <template v-if="info.type == 'base'">
-            <div class="container-p-2 relative">
-              <div class="row-15 flex-adaptive justify-c-between">
-                <div class="col-md-6 p-h-15">
-                  <h4 class="color-2 text-n1">{{info.title}}</h4>
-                  <div class="h1 text-x5">{{info.name}}</div>
-                </div>
-                <div class="col-md-offset-1 p-h-15 col-md-4 m-t-50 opacity-5">
-                  <p>{{info.description}}</p>
-                </div>
+        <template v-if="block.type == 'block4'">
+          <div class="container-p-2 relative" :class="'type-'+block.type">
+            <div class="row-15 flex-adaptive justify-c-between">
+              <div class="col-md-6 p-h-15">
+                <h4 class="color-2 text-n1">{{block.name}}</h4>
+                <div class="h1 text-x5">{{block.title}}</div>
               </div>
-              <br class="hidden-sm hidden-xs">
-              <div class="video-content m-t-30 relative">
-                <div v-if="info.video.video_preview">
-                  <div class="bg-video-content-2">
-                    <a :href="info.video.link" data-fancybox><div class="btn-play"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg></div></a>
-                    <video :src="'https://cdn.kia.ru/'+info.video.video_preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-                  </div>
-                </div>
-                <div v-else class="img-content">
-                  <img :src="'https://cdn.kia.ru/'+info.image" alt="">
-                </div>
+              <div class="col-md-offset-1 p-h-15 col-md-4 m-t-50 opacity-5">
+                <p>{{block.summary}}</p>
               </div>
             </div>
-          </template>
-        </div>
+            <br class="hidden-sm hidden-xs">
+            <div class="video-content m-t-30 relative">
+              <div v-if="block.video">
+                <div class="bg-video-content-2">
+                  <a :href="block.video" data-fancybox><div class="btn-play"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg></div></a>
+                  <video :src="block.preview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+                </div>
+              </div>
+              <div v-else class="img-content">
+                <img :src="block.image" alt="">
+              </div>
+            </div>
+          </div>
+        </template>
       </div>
     </div>
     <div class="card-showroom car-showroom" v-if="page_data.colors.bodyColors.length || page_data.colors.interiorColors.length">

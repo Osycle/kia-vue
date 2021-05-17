@@ -1444,7 +1444,13 @@ $heightSlider: auto;
 		}
 	}
 }
-
+.type-block4{
+	.img-content{
+		img{
+			width: 100%;
+		}
+	}
+}
 
 .bg-img-content{
 	height: 100%;
@@ -1733,7 +1739,6 @@ $heightSlider: auto;
 		}
 	}
 }
-
 
 .card-sets{
 	overflow: hidden;
