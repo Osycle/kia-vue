@@ -294,7 +294,7 @@
           <div v-else>
             <div class="showroom-pano">
               <iframe v-if="currentInterior.colorFolder.length" 
-                :src="'/panoramas/iframe.html?pano_xml=../'+currentInterior.colorFolder" frameborder="0"></iframe>
+                :src="'/panoramas/iframe.html?pano_xml='+currentInterior.colorFolder" frameborder="0"></iframe>
             </div>
           </div>
           <div class="container-p relative">
@@ -532,6 +532,8 @@ export default {
     
   },
   mounted(){
+    $(window).scrollTop(400);
+    $(window).scrollTop(0);
     // Активация showroom 360 при клике
     $(document).on("click", ".showroom-item-cover", ()=>{
       window.CI360.init();
