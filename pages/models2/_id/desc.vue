@@ -304,6 +304,7 @@
                   <div class="title-content">
                     <span class="color-gray">Цвет:</span> 
                     <b>{{currentExterior.name}}</b>
+                    <b v-if="currentExterior.metalic*1">метталик</b>
                     <span v-if="currentExterior.price"> + {{currentExterior.price | spaceBetweenNum}} сум</span>
                   </div>
                   <ul class="list m-t-10">
@@ -399,7 +400,7 @@
               <div class="desc-content">
                 <div>
                   <p><b>Двигатель и трансмиссия</b></p>
-                  <p>{{set.engine}}</p>
+                  <p v-for="(text, key) in set.engine" :key="key">{{text}}</p>
                   <br>
                   <p><b>Основные опции</b></p>
                   <p v-for="(option, key) in set.options" :key="'A'+key">

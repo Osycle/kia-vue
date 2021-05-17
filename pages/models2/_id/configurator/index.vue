@@ -291,7 +291,6 @@
                   <div v-else>
                     <div class="showroom-pano">
                       <iframe 
-                        v-if="currentInterior.colorFolder.length" 
                         :src="'/panoramas/iframe.html?pano_xml=../'+currentInterior.colorFolder" frameborder="0"></iframe>
                     </div>
                   </div>
