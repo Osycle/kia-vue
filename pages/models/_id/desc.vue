@@ -294,7 +294,7 @@
         <div v-else-if="page_data.colors.interiorColors.length">
           <div class="showroom-pano">
             <iframe
-              :src="'/panoramas/iframe.html?pano_xml='+currentInterior.colorFolder" frameborder="0"></iframe>
+              :src="'https://cdn.kia-motors.uz/panoramas/iframe.html?pano_xml='+currentInterior.colorFolder" frameborder="0"></iframe>
           </div>
         </div>
         <div class="container-p relative" v-if="page_data.colors.bodyColors.length || page_data.colors.interiorColors.length">
