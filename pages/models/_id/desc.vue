@@ -439,53 +439,26 @@
         </div>
       </div>
     </div>
-<div v-if="false">
 
 
-
-
-    
-    <div class="card-gar bg-color-gray-1" v-for="(info, key) in page.infographics" :key="key" v-if="info.type == 'img_left'">
-      <div class="container-p p-v-45">
-        <div class="container">
-          <div class="entry-content flex-adaptive align-center justify-c-between">
-            <div class="img-content m-v-30 flex-s-0">
-              <img :src="'https://cdn.kia.ru/resize/790x442/'+info.image">
-            </div>
-            <div class="entry-header m-v-30 box-md-4">
-              <h4 class="color-2 text-n1">{{info.title}}</h4>
-              <h2>{{info.name}}</h2>
-              <p>{{info.description}}</p>
+    <div v-if="false">
+      <div class="card-gar bg-color-gray-1" v-for="(info, key) in page.infographics" :key="key" v-if="info.type == 'img_left'">
+        <div class="container-p p-v-45">
+          <div class="container">
+            <div class="entry-content flex-adaptive align-center justify-c-between">
+              <div class="img-content m-v-30 flex-s-0">
+                <img :src="'https://cdn.kia.ru/resize/790x442/'+info.image">
+              </div>
+              <div class="entry-header m-v-30 box-md-4">
+                <h4 class="color-2 text-n1">{{info.title}}</h4>
+                <h2>{{info.name}}</h2>
+                <p>{{info.description}}</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="card-fb" v-for="(bnr, key) in page.banners" :key="key" v-if="bnr.type_code == 'center'" 
-        :style="'background-image: url(https://cdn.kia.ru/resize/1920x960/'+bnr.bg_images.desktop+');'">
-      <div class="container-p text-center" v-if="page.complectations.complectations[0].min_price">
-        <div class="entry-content">
-          <div class="entry-header color-white p-v-30">
-            <h4 class="text-n1">{{bnr.title}}</h4>
-            <h2>{{bnr.name}}</h2>
-            <span class="btn-def style-1 m-v-20">
-              <nuxt-link :to="bnr.link.url" class="p-v-20 p-h-25">
-                {{bnr.link.title}}
-              </nuxt-link>
-            </span>
-          </div>
-          <div class="img-content">
-            <picture>
-              <source :srcset="'https://cdn.kia.ru/resize/770x442'+bnr.images.mobile" media="(max-width: 768px)">
-              <img :src="'https://cdn.kia.ru/resize/1020x480/'+bnr.images.desktop">
-            </picture>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-</div>
 
 
 
@@ -509,7 +482,7 @@ export default {
   async asyncData(context){
     try{
       var model_name = context.route.params.id;
-      var path = context.route.path.split("/").reverse()[1];
+      var path = context.route.name.split("-").reverse()[0];
       const page_data = await context.store.dispatch("models/model", {
         path, 
         model_name

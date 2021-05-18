@@ -7,13 +7,16 @@
 					</div>
 					<div class="short-models-nav m-v-30">
 						<ul class="list flex-adaptive li-m-v-15">
-							<li v-for="(item, key) in page.media_center_groups" :key="key" :class="{'active': item.code == $route.params.id}">
-								<nuxt-link :to="'/press/'+item.code">{{item.name}}</nuxt-link>
+							<li :class="{'active': 'news' == $route.params.id}">
+								<nuxt-link to="/press/news">Новости</nuxt-link>
+							</li>
+							<li :class="{'active': 'reviews' == $route.params.id}">
+								<nuxt-link to="/press/reviews">Видео-обзоры</nuxt-link>
 							</li>
 						</ul>
 					</div>
 					<hr>
-					<div class="press-content m-v-20">
+					<div class="press-content m-v-20" v-if="false">
 						<div class="short-news-items boxes-4 figure-m-v-15">
 							<figure v-for="(item, key) in page.media_center[$route.params.id]" :key="key" v-if="page.media_center[$route.params.id].length != 0">
 								<nuxt-link :to="'/press/'+$route.params.id+'/'+item.code">
@@ -70,10 +73,10 @@
 export default {
   head() {
     return {
-      title: this.page.seo.title,
+      title: 'Новости',
       meta: [
         {
-          content: this.page.seo.content
+          content: 'Новости'
         }
       ],
     }
@@ -82,10 +85,12 @@ export default {
     //var url = 'https://www.kia.ru/ajax/page/mediacenter/'+context.params.id;
     try{
       const path = context.route.path
-      const page = await context.store.dispatch("models/fetchPageData", {
+      const page_data = await context.store.dispatch("storedispatcher/newsFetch", {
         path
       })
-      return {page: page.content}
+      return {
+				page_data
+			}
     }catch(error){
       console.error(error);
     }
