@@ -1,36 +1,42 @@
 <template>
   <div class="main-body model-options offset-model-header">
+
     <div class="model-header header-scroll scrolled-down down">
       <div class="container-p">
         <div class="model-header-panel">
           <div class="align-center">
-            <span class="name-content">{{page.model.name}}</span>
-            <span class="price-content">от {{page.model.min_price | spaceBetweenNum}} сум</span>
+            <span class="name-content">{{page_data.name}}</span>
+            <span class="price-content" v-if="page_data.minPrice">от {{page_data.minPrice | spaceBetweenNum}} сум</span>
             <a class="flex m-l-15 hidden-xs hidden-sm" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a>
             <a href=".list-add-sub" class="btn-options visible-xs visible-sm" data-toggle="dropdown"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2"></path></svg></a>
           </div>
-          <div class="model-header-nav">
+          <div class="model-header-nav" v-if="page_data.minPrice">
             <ul class="list list-main">
-              <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link active-class="active" :to="item.link">{{item.title}}</nuxt-link></li>
+              <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/desc/'">Обзор</nuxt-link></li>
+              <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/options/'">Комплектации и цены</nuxt-link></li>
+              <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/properties/'">Характеристики</nuxt-link></li>
             </ul>
-            <div class="list-add" :class="{'hide': page.model_menu.length <= 3}">
+            <div class="list-add">
               <a href=".list-add-sub" class="btn-options hidden-xs hidden-sm" data-toggle="dropdown">
                 <div class="icm-area"><svg width="18" height="4" viewBox="0 0 18 4" fill="currentColor" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><circle cx="2" cy="2" r="2"></circle><circle cx="9" cy="2" r="2"></circle><circle cx="16" cy="2" r="2"></circle></svg></div>
               </a>
               <div class="list-add-sub">
                 <ul>
-                  <li v-for="(item, key) in page.model_menu" :key="key"><nuxt-link active-class="active" :to="item.link">{{item.title}}</nuxt-link></li>
+                  <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/desc/'">Обзор</nuxt-link></li>
+                  <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/options/'">Комплектации и цены</nuxt-link></li>
+                  <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/properties/'">Характеристики</nuxt-link></li>
                 </ul>
               </div>
             </div>
-            <div class="list-last" v-if="page.modifications.complectations[0].min_price">
-							<nuxt-link :to="'/models/'+page.model.code+'/configurator'">Конфигуратор</nuxt-link>
+            <div class="list-last" v-if="page_data.minPrice">
+              <nuxt-link :to="'/models/'+page_data.name.toLowerCase()+'/configurator'">Конфигуратор</nuxt-link>
             </div>
           </div>
 
         </div>
       </div>
     </div>
+
     <div class="options-bnr relative card-top">
       <div class="container-p relative">
         <div class="flex-adaptive align-center justify-c-between">
@@ -38,25 +44,25 @@
 						<ol class="breadcrumb">
 							<li><nuxt-link to="/">Главная</nuxt-link></li>
 							<li><nuxt-link to="/models">Модели</nuxt-link></li>
-							<li><nuxt-link :to="'/models/'+$route.params.id+'/desc'">{{page.model.name}}</nuxt-link></li>
+							<li><nuxt-link :to="'/models/'+$route.params.id+'/desc'">{{page_data.name}}</nuxt-link></li>
 							<li><nuxt-link :to="'/models/'+$route.params.id+'/options'">Комплектации и цены</nuxt-link></li>
 						</ol>
 					</div>
         </div>
         <div class="entry-intro">
           <div class="relative">
-            <h2>Комплектации и цены {{page.model.name}}</h2>
+            <h2>Комплектации и цены {{page_data.name}}</h2>
             <div class="price-content flex-adaptive justify-c-between align-center">
               <div class="m-r-md-30">
                 <p class="color-gray">Цена от</p>
                 <div class="text-x3 fw-6 m-t-5 align-center">
-                  <span>{{page.model.min_price | spaceBetweenNum}} сум</span>
+                  <span>{{page_data.minPrice | spaceBetweenNum}} сум</span>
                   <a class="flex m-l-15" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a>
                 </div>
               </div>
-              <div class="btn-content" v-if="page.modifications.complectations[0].min_price">
+              <div class="btn-content" v-if="page_data.minPrice">
                 <span class="btn-def style-2 m-v-20">
-                  <nuxt-link :to="'/models/'+page.model.code+'/callback'" class="p-v-20">Связаться с нами</nuxt-link>
+                  <nuxt-link :to="'/models/'+page_data.name.toLowerCase()+'/callback'" class="p-v-20">Связаться с нами</nuxt-link>
                 </span>
               </div>
             </div>
@@ -64,12 +70,13 @@
         </div>
         <div class="img-content text-center m-auto box-md-7 box-lg-6 m-v-30">
           <picture>
-            <source :srcset="'https://cdn.kia.ru/'+page.banner.images.mobile" media="(max-width: 769px)">
-            <img :src="'https://cdn.kia.ru/'+page.banner.images.desktop">
+            <source :srcset="page_data.sideImage" media="(max-width: 769px)">
+            <img :src="page_data.sideImage">
           </picture>
         </div>
       </div>
     </div>
+
 		<div class="options-header scrolled-down">
 			<div class="options-header-content">
 				<div class="container-p">
@@ -81,8 +88,8 @@
 							</a>
 						</li>
 						<li>
-							{{page.modifications.complectations.length}}
-							<span v-if="page.modifications.complectations.length == 1">комплектация</span> 
+							{{complectations.length}}
+							<span v-if="complectations.length == 1">комплектация</span> 
 							<span v-else>комплектации</span> 
 						</li>
 						<li class="hide">
@@ -98,7 +105,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="options-entry scrolled-down filter-hidden">
+
+		<div class="options-entry scrolled-down">
 			<div class="container-p relative">
 				<div class="config-sidebar">	
 					<div class="config-filter">
@@ -106,105 +114,35 @@
 							<fieldset>
 								<h4>Двигатель</h4>
 								<div class="input-items">
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
+									<label role="button" class="align-center m-v-15" 
+										v-for="(engine, key) in page_data.engines"
+										:key="key">
+										<input type="checkbox" name="engineId" class="none" :value="engine.id">
 										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">1.6 MPI / 121 л.с. / Бензин</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">1.6 MPI / 123 л.с. / Бензин</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">2.0 MPI / 149 л.с. / Бензин</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">1.6 T-GDI / 177 л.с. / Бензин</span>
+										<span class="m-l-10">{{engine.name}}</span>
 									</label>
 								</div>
 							</fieldset>
 							<fieldset>
-								<h4>Коробка передач</h4>
+								<h4>Комплектации</h4>
 								<div class="input-items">
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
+									<label role="button" class="align-center m-v-15" 
+										v-for="(complectation, key) in page_data.compls"
+										:key="key">
+										<input type="checkbox" name="id" class="none" :value="complectation.id">
 										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Механика</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Автомат</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Робот</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Вариатор</span>
+										<span class="m-l-10">{{complectation.name}}</span>
 									</label>
 								</div>
 							</fieldset>
-							<fieldset>
+							<fieldset v-if="page_data.privodi.length > 1">
 								<h4>Привод</h4>
 								<div class="input-items">
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
+									<label role="button" class="align-center m-v-15"
+										v-for="(drive, key) in page_data.privodi" :key="key">
+										<input type="checkbox" name="drive" class="none" :value="drive.id">
 										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Передний</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Полный</span>
-									</label>
-								</div>
-							</fieldset>
-							<fieldset>
-								<h4>Комплектация</h4>
-								<div class="input-items">
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Classic</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Comfort</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Luxe</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Style</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Prestige</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Premium</span>
-									</label>
-									<label role="button" class="align-center m-v-15">
-										<input type="checkbox" name="" class="none" >
-										<span class="checkbox-style-1"></span>
-										<span class="m-l-10">Premium+</span>
+										<span class="m-l-10">{{drive.privod}}</span>
 									</label>
 								</div>
 							</fieldset>
@@ -222,457 +160,16 @@
 							<fieldset>
 								<h4 class="m-v-20">Опции</h4>
 								<div class="collapse-content">
-									<fieldset>
-										<a data-toggle="collapse" data-parent="#accordion" href="#prc-1" aria-expanded="true"><span>Пакет "Теплые опции"</span><i class="fa fa-angle-down"></i></a>
-										<ul id="prc-1" class="panel-collapse collapse" role="tabpanel">
-											<li>
+									<fieldset v-for="(parentOption, key) in page_data.options" :key="key">
+										<a data-toggle="collapse" data-parent="#accordion" :href="'#prc-'+key" aria-expanded="true">
+											<span>{{parentOption.name}}</span><i class="fa fa-angle-down"></i>
+										</a>
+										<ul :id="'prc-'+key" class="panel-collapse collapse" role="tabpanel">
+											<li v-for="(option, key) in parentOption.options" :key="key">
 												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
+													<input type="checkbox" name="options" class="none" :value="option.id">
 													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Подогрев передних сидений</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Подогрев задних сидений</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Подогрев рулевого колеса</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Электрообогрев ветрового стекла</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Подогрев форсунок стеклоомывателя</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Боковые зеркала заднего вида с электроприводом и подогревом</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Воздуховоды для задних пассажиров в центральной консоли</span>
-												</label>
-											</li>
-										</ul>
-									</fieldset>
-									<fieldset>
-										<a data-toggle="collapse" data-parent="#accordion" href="#prc-2" aria-expanded="true"><span>Экстерьер</span><i class="fa fa-angle-down"></i></a>
-										<ul id="prc-2" class="panel-collapse collapse" role="tabpanel">
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Стальные диски 16"с шинами 205/60 R16</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Легкосплавные диски 16" с шинами 205/60 R16</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Легкосплавные диски 17" с шинами 215/55 R17</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Легкосплавные диски 18" с шинами 235/45 R18</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Решетка радиатора с черными глянцевыми вставками</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Внешние дверные ручки с отделкой хромом</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Галогенные фары проекционного типа</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Светодиодные (LED) фары</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Светодиодные дневные ходовые огни (LED DRL)</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Противотуманные фары</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Светодиодные (LED) противотуманные фары</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Светодиодные (LED) задние фонари</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Светодиодные (LED) габаритные огни</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Люк с электроприводом</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Двухцветная окраска кузова (опционально)</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Рейлинги на крыше</span>
-												</label>
-											</li>
-										</ul>
-									</fieldset>
-									<fieldset>
-										<a data-toggle="collapse" data-parent="#accordion" href="#prc-3" aria-expanded="true"><span>Интерьер</span><i class="fa fa-angle-down"></i></a>
-										<ul id="prc-3" class="panel-collapse collapse" role="tabpanel">
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Вставки серого цвета</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Вставки из черного глянца с принтом</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Вставки с имитацией прострочки</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Рулевое колесо и ручка селектора трансмиссии с отделкой кожей</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Сиденья с отделкой тканью</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Сиденья с комбинированной отделкой ткань + эко кожа</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Сиденья с отделкой эко кожей</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Полка багажного отделения</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Светодиодная (LED) подсветка салона</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Декоративная подсветка интерьера Mood Lamp</span>
-												</label>
-											</li>
-										</ul>
-									</fieldset>
-									<fieldset>
-										<a data-toggle="collapse" data-parent="#accordion" href="#prc-4" aria-expanded="true"><span>Безопасность</span><i class="fa fa-angle-down"></i></a>
-										<ul id="prc-4" class="panel-collapse collapse" role="tabpanel">
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Фронтальные подушки безопасности</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Боковые подушки и шторки безопасности</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Стальное запасное колесо временного использования</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Полноразмерное запасное колесо</span>
-												</label>
-											</li>
-										</ul>
-									</fieldset>
-									<fieldset>
-										<a data-toggle="collapse" data-parent="#accordion" href="#prc-5" aria-expanded="true"><span>Мультимедиа</span><i class="fa fa-angle-down"></i></a>
-										<ul id="prc-5" class="panel-collapse collapse" role="tabpanel">
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Аудиосистема с 3.8" монохромным дисплеем</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Мультимедиа с 8" цветным дисплеем, с поддержкой Android Auto и Apple Carplay</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Навигационная система с 10.25" цветным дисплеем, с поддержкой Android Auto и Apple Carplay</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Аудиосистема Bose</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Дополнительные разъемы зарядки USB</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Беспроводная зарядка для мобильных устройств в центральной консоли</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Bluetooth для подключения мобильных устройств</span>
-												</label>
-											</li>
-										</ul>
-									</fieldset>
-									<fieldset>
-										<a data-toggle="collapse" data-parent="#accordion" href="#prc-6" aria-expanded="true"><span>Современные системы помощи водителю DRIVE WISE</span><i class="fa fa-angle-down"></i></a>
-										<ul id="prc-6" class="panel-collapse collapse" role="tabpanel">
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Аудиосистема с 3.8" монохромным дисплеем</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Мультимедиа с 8" цветным дисплеем, с поддержкой Android Auto и Apple Carplay</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Навигационная система с 10.25" цветным дисплеем, с поддержкой Android Auto и Apple Carplay</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Аудиосистема Bose</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Дополнительные разъемы зарядки USB</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Беспроводная зарядка для мобильных устройств в центральной консоли</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Bluetooth для подключения мобильных устройств</span>
-												</label>
-											</li>
-										</ul>
-									</fieldset>
-									<fieldset>
-										<a data-toggle="collapse" data-parent="#accordion" href="#prc-7" aria-expanded="true"><span>Комфорт</span><i class="fa fa-angle-down"></i></a>
-										<ul id="prc-7" class="panel-collapse collapse" role="tabpanel">
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Интеллектуальный круиз-контроль (SCC) с функцией Stop&amp;Go</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Система предотвращения фронтального столкновения (FCA)</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Система предотвращения выезда из полосы движения (LKA)</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Ассистент движения в полосе (LFA)</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Система предотвращения столкновения с автомобилем в слепой зоне (BCA)</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Система предотвращения бокового столкновения при выезде с парковки задним ходом (RCCA)</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Система безопасного выхода (SEA)</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Система контроля внимания водителя (DAW)</span>
-												</label>
-											</li>
-											<li>
-												<label role="button" class="align-center m-v-15">
-													<input type="checkbox" name="" class="none" >
-													<span class="checkbox-style-1"></span>
-													<span class="m-l-10">Система распознавания усталости водителя (DAW)</span>
+													<span class="m-l-10">{{option.name}}</span>
 												</label>
 											</li>
 										</ul>
@@ -688,28 +185,11 @@
 						<div class="config-content">
 							<div class="config-variants">
 								<div class="config-variants-items owl-carousel">
-									<div class="cell" v-for="(complectation, key) in page.modifications.complectations" :key="key">
+									<div class="cell" v-for="(complectation, key) in complectations" :key="key">
 										<div class="cell-wrapper">
 											<h4>{{complectation.name}} <i class="fa fa-angle-right fw-6"></i></h4>
 											<div>
-												<p>
-													<!-- Engine -->
-													<template v-for="(engine) in page.modifications.engines" v-if="complectation.engine_id == engine.id">
-														{{engine.volume}} / {{engine.power_hp}} л. с. /
-														<template v-for="(fuel_type) in page.modifications.fuel_types" v-if="engine.fuel_type_id == fuel_type.id">
-															{{fuel_type.name}}
-														</template>
-													</template>
-													<!-- Transmission -->
-													<template v-for="(transmission) in page.modifications.transmissions" v-if="complectation.transmission_id == transmission.id">
-														<template v-for="(gearbox) in page.modifications.gearboxes" v-if="transmission.gearbox_id == gearbox.id">
-															{{gearbox.name}} /
-														</template>
-														<template v-for="(drive) in page.modifications.drives" v-if="transmission.drive_id == drive.id">
-															{{drive.name}}
-														</template>
-													</template>
-												</p>
+												<p>{{complectation.engine}}</p>
 												<div class="price-content m-t-15">
 													{{complectation.price | spaceBetweenNum}} сум
 												</div>
@@ -721,80 +201,81 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="config-details">
-					<section class="item active">
-						<a href=".item" class="title-click" tc tc-closest>Стандартное оборудование<i class="fa fa-angle-up"></i></a>
-						<div class="section-body">
-							<div class="section-body-wrapper">
-								<div class="list-block-body">
-									<h4>Мультимедиа</h4>
-									<ul>
-									<template>
-										<li v-for="(options_base, key) in page.modifications.options_base" 
-												v-if="options_base.group_name == 'Мультимедиа'" :key="key">
-											<span>{{options_base.name}}</span>
-										</li>
-									</template>
-									</ul>
-								</div>
-								<div class="list-block-body">
-									<h4>Экстерьер</h4>
-									<ul>
-									<template>
-										<li v-for="(options_base, key) in page.modifications.options_base" 
-												v-if="options_base.group_name == 'Экстерьер'" :key="key">
-											<span>{{options_base.name}}</span>
-										</li>
-									</template>
-									</ul>
-								</div>
-								<div class="list-block-body">
-									<h4>Интерьер</h4>
-									<ul>
-									<template>
-										<li v-for="(options_base, key) in page.modifications.options_base" 
-												v-if="options_base.group_name == 'Интерьер'" :key="key">
-											<span>{{options_base.name}}</span>
-										</li>
-									</template>
-									</ul>
-								</div>
-								<div class="list-block-body">
-									<h4>Безопасность</h4>
-									<ul>
-									<template>
-										<li v-for="(options_base, key) in page.modifications.options_base" 
-												v-if="options_base.group_name == 'Безопасность'" :key="key">
-											<span>{{options_base.name}}</span>
-										</li>
-									</template>
-									</ul>
-								</div>
-								<div class="list-block-body">
-									<h4>Комфорт</h4>
-									<ul>
-									<template>
-										<li v-for="(options_base, key) in page.modifications.options_base" 
-												v-if="options_base.group_name == 'Комфорт'" :key="key">
-											<span>{{options_base.name}}</span>
-										</li>
-									</template>
-									</ul>
+					<div v-if="false">
+						<section class="item active">
+							<a href=".item" class="title-click" tc tc-closest>Стандартное оборудование<i class="fa fa-angle-up"></i></a>
+							<div class="section-body">
+								<div class="section-body-wrapper">
+									<div class="list-block-body">
+										<h4>Мультимедиа</h4>
+										<ul>
+										<template>
+											<li v-for="(options_base, key) in page.modifications.options_base" 
+													v-if="options_base.group_name == 'Мультимедиа'" :key="key">
+												<span>{{options_base.name}}</span>
+											</li>
+										</template>
+										</ul>
+									</div>
+									<div class="list-block-body">
+										<h4>Экстерьер</h4>
+										<ul>
+										<template>
+											<li v-for="(options_base, key) in page.modifications.options_base" 
+													v-if="options_base.group_name == 'Экстерьер'" :key="key">
+												<span>{{options_base.name}}</span>
+											</li>
+										</template>
+										</ul>
+									</div>
+									<div class="list-block-body">
+										<h4>Интерьер</h4>
+										<ul>
+										<template>
+											<li v-for="(options_base, key) in page.modifications.options_base" 
+													v-if="options_base.group_name == 'Интерьер'" :key="key">
+												<span>{{options_base.name}}</span>
+											</li>
+										</template>
+										</ul>
+									</div>
+									<div class="list-block-body">
+										<h4>Безопасность</h4>
+										<ul>
+										<template>
+											<li v-for="(options_base, key) in page.modifications.options_base" 
+													v-if="options_base.group_name == 'Безопасность'" :key="key">
+												<span>{{options_base.name}}</span>
+											</li>
+										</template>
+										</ul>
+									</div>
+									<div class="list-block-body">
+										<h4>Комфорт</h4>
+										<ul>
+										<template>
+											<li v-for="(options_base, key) in page.modifications.options_base" 
+													v-if="options_base.group_name == 'Комфорт'" :key="key">
+												<span>{{options_base.name}}</span>
+											</li>
+										</template>
+										</ul>
+									</div>
 								</div>
 							</div>
-						</div>
-					</section>
-					<section class="item" v-for="(item, key) in page.modifications.grouped_options" :key="key">
-						<a href=".item" class="title-click" tc tc-closest>{{item.name}}<i class="fa fa-angle-up"></i></a>
+						</section>
+					</div>
+					<section class="item" v-for="(parentOption, key) in page_data.options" :key="key">
+						<a href=".item" class="title-click" tc tc-closest>{{parentOption.name}}<i class="fa fa-angle-up"></i></a>
 						<div class="section-body">
 							<div class="section-body-wrapper">
-								<div class="config-param-item" v-for="(option, key) in item.options" :key="key">
+								<div class="config-param-item" v-for="(option, key) in parentOption.options" :key="key">
 									<div class="config-param-item-wrapper">
 										<p class="m-b-15 align-center">{{option.name}}</p>
 										<div class="owl-table owl-carousel">
-											<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
-												<div class="op-enable" v-for="(modelOptionId, key) in model.options" v-if="modelOptionId == option.id" :key="key">
+											<div class="owl-table-item" v-for="(complectation, key) in complectations" :key="key">
+												<div class="op-enable" v-for="(complectationOptionId, key) in complectation.options" v-if="complectationOptionId == option.id" :key="key">
 													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
 												</div>
 												<div><div>—</div></div>
@@ -805,65 +286,68 @@
 							</div>
 						</div>
 					</section>
-					<section class="item exterior-color-section" v-if="!page.model.exterior_hide">
-						<a href=".item" class="title-click" tc tc-closest>Цвета кузова<i class="fa fa-angle-up"></i></a>
-						<div class="section-body">
-							<div class="section-body-wrapper">
-								<div class="config-param-item">
-									<div class="config-param-item-wrapper">
-										<div class="owl-table owl-carousel">
-											<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
-												
-												<div class="owl-table-item-box" v-for="(colors, key) in model.color_sorted" :key="key">
-													<div v-if="key == 0">Базовый</div>
-													<div v-else> + {{key | spaceBetweenNum}} сум</div>
-													<ul class="color-list mv-2 pb-4">
-														<li v-for="(color, key) in colors" :key="key">
-															<a 
-																href="javascript:;" data-toggle="tooltip" data-placement="bottom" :title="color.name+' ('+color.code+')'">
-																<div class="color-circle" :style="'background-image: url('+'https://cdn.kia.ru/'+color.image+');'"></div>
-															</a>
-														</li>
-													</ul>
+					<div v-if="false">
+						<section class="item exterior-color-section" v-if="!page.model.exterior_hide">
+							<a href=".item" class="title-click" tc tc-closest>Цвета кузова<i class="fa fa-angle-up"></i></a>
+							<div class="section-body">
+								<div class="section-body-wrapper">
+									<div class="config-param-item">
+										<div class="config-param-item-wrapper">
+											<div class="owl-table owl-carousel">
+												<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
+													
+													<div class="owl-table-item-box" v-for="(colors, key) in model.color_sorted" :key="key">
+														<div v-if="key == 0">Базовый</div>
+														<div v-else> + {{key | spaceBetweenNum}} сум</div>
+														<ul class="color-list mv-2 pb-4">
+															<li v-for="(color, key) in colors" :key="key">
+																<a 
+																	href="javascript:;" data-toggle="tooltip" data-placement="bottom" :title="color.name+' ('+color.code+')'">
+																	<div class="color-circle" :style="'background-image: url('+'https://cdn.kia.ru/'+color.image+');'"></div>
+																</a>
+															</li>
+														</ul>
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</section>
-					<section class="item interior-color-section" v-if="!page.model.interior_hide">
-						<a href=".item" class="title-click" tc tc-closest>Варианты интерьера<i class="fa fa-angle-up"></i></a>
-						<div class="section-body">
-							<div class="section-body-wrapper">
-								<div class="config-param-item" v-for="(interiorСolor, key) in page.modifications.interior_colors" :key="key">
-									<div class="config-param-item-wrapper">
-										<div class="m-b-15 align-center">
-											<div class="color-circle" 
-											:style="'background-image: url('+'https://cdn.kia.ru/'+interiorСolor.image+');width:40px;height:40px;'">
-											</div>
-											<span class="ml-2">
-												{{interiorСolor.name}} 
-												<span v-if="interiorСolor.price"> +{{interiorСolor.price | spaceBetweenNum}} сум</span>
-											</span>
-										</div>
-										<div class="owl-table owl-carousel">
-											<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
-												<div class="op-enable" v-for="(interiorColorId, key) in model.interior_colors" v-if="interiorColorId == interiorСolor.id" :key="key">
-													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
+						</section>
+						<section class="item interior-color-section" v-if="!page.model.interior_hide">
+							<a href=".item" class="title-click" tc tc-closest>Варианты интерьера<i class="fa fa-angle-up"></i></a>
+							<div class="section-body">
+								<div class="section-body-wrapper">
+									<div class="config-param-item" v-for="(interiorСolor, key) in page.modifications.interior_colors" :key="key">
+										<div class="config-param-item-wrapper">
+											<div class="m-b-15 align-center">
+												<div class="color-circle" 
+												:style="'background-image: url('+'https://cdn.kia.ru/'+interiorСolor.image+');width:40px;height:40px;'">
 												</div>
-												<div><div>—</div></div>
+												<span class="ml-2">
+													{{interiorСolor.name}} 
+													<span v-if="interiorСolor.price"> +{{interiorСolor.price | spaceBetweenNum}} сум</span>
+												</span>
+											</div>
+											<div class="owl-table owl-carousel">
+												<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
+													<div class="op-enable" v-for="(interiorColorId, key) in model.interior_colors" v-if="interiorColorId == interiorСolor.id" :key="key">
+														<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
+													</div>
+													<div><div>—</div></div>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</section>
+						</section>
+					</div>
 				</div>
 			</div>
 		</div>
+
   </div>
 </template>
 
@@ -877,24 +361,21 @@
 export default {
   head() {
     return {
-      title: this.page.seo.title,
+      title: this.page_data.seo ? this.page_data.seo.meta_title : 'Комплектации и цены',
       meta: [
         {
-          content: this.page.seo.description
+          content: this.page_data.seo ? this.page_data.seo.meta_descr : 'Комплектации и цены'
         }
       ],
     }
   },
-  scrollToTop: true,
   async asyncData(context){
-    try{
-			const path = context.route.path;
-			//console.log(context);
-      const page = await context.store.dispatch("models/fetchPageData", {
-        path: path,
-      })
+    try{	
+      const page_data = await context.store.dispatch("other/fetchPath", {
+        path: context.route.path
+      });
       return {
-        page: page.content,
+        page_data
       }
     }catch(e){
       context.error(e);
@@ -903,37 +384,24 @@ export default {
   data(){
     return{
 			filterVisible: true,
+			complectations: [],
     }
   },
   methods: {
+		filter(){
 
+		}
   },
 	created(){
-		this.page.modifications.complectations.forEach(complectation=>{
-			var obj = {}
-			complectation.exterior_colors.forEach(complectationColorId=>{
-				this.page.modifications.exterior_colors.forEach(color=>{
-					if( color.id === complectationColorId ){
-						if(color.price === null)
-							color.price = 0;
-						if(!obj[color.price+""]){
-							obj[color.price+""] = [];
-						}
-						obj[color.price+""].push(color);
-					}
-				})
-			})
-			console.log(obj);
-			complectation['color_sorted'] = obj;
-		});
-		
+		this.complectations = this.page_data.compls
 	},
   mounted() {
+		var v = this;
 		$(".list-block-body ul").map(function(i, el){
 			if($(el).find("li").length == 0)
 				$(el).closest(".list-block-body").addClass("hide");
 		})
-		var configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
+		window.configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
 				nav: true,
 				loop: false,
 				items: 2,
@@ -944,8 +412,9 @@ export default {
 				autoplayTimeout: false,
 				autoWidth: true,
 				touchDrag: false,
-				mouseDrag: false,
+				mouseDrag: true, //TODO default: false
 				center: false,
+				//itemElement: ".cell",
 				autoheight: true,
 				merge: true,
 				responsive:{
@@ -958,7 +427,7 @@ export default {
 		});
 
 
-		var configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
+		window.configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
 				nav: false,
 				loop: false,
 				items: 2,
@@ -989,7 +458,10 @@ export default {
 		configCrs.find(".owl-prev").on('click', function(event) {
 			configTableCrs.trigger('prev.owl.carousel');
 		})
-
+		$('.owl-carousel').on('change.owl.carousel', function(e) {
+			if (!e.namespace) return
+			e.relatedTarget.update()
+		})
 		
 
 		$('.config-sidebar').theiaStickySidebar({
@@ -1006,7 +478,46 @@ export default {
 			defaultPosition: "absolute"
 		});
 
-				
+
+		function filter(e){
+			configCrs.find(".owl-stage-outer").remove();
+			configCrs.find(".owl-nav").remove();
+			configCrs.find(".owl-dots").remove();
+			var el = e.currentTarget;
+			var newComplectations;
+			//console.log(el.checked, el.value, el.name);
+			var checkeInputs = $(".config-filter-items input:checked");
+			checkeInputs.map((i, el)=>{
+				var name = el.name
+				var value = el.value
+				var obj = {}
+
+				if(name == "options")
+					obj[name] = [value];
+				else if( isNaN(value*1) ){
+					obj[name] = value;
+				}else{
+					obj[name] = value*1;
+				}
+
+				if(!newComplectations)
+					newComplectations = _.filter(v.complectations, obj);
+				else
+					newComplectations = _.concat(newComplectations, _.filter(v.complectations, obj))
+				//console.log(newComplectations);
+			})
+			var s = _.filter(v.complectations, {'engineId': [0, 1]})
+			console.log(newComplectations);
+			//var s = _.filter(this.complectations, {'engineId': 0,'options': ["986"]})
+			if(newComplectations)
+				v.complectations = newComplectations
+			else
+				v.complectations = v.page_data.compls;
+			
+			configCrs.trigger('refresh.owl.carousel')
+		}
+
+		$(document).on("change", ".config-filter-items input", filter)
 		
   },
 }
