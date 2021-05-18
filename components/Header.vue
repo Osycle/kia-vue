@@ -353,6 +353,8 @@ export default {
         this.opacityStyle = $('[header-opacity]').length
         mainjs(); 
         minMenu.close()
+        window.scrollTo(0, 0);
+
       }, 120);
     }
   },

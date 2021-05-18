@@ -6,24 +6,24 @@
             <ol class="breadcrumb">
               <li><nuxt-link to="/">Главная</nuxt-link></li>
               <li><nuxt-link :to="'/press/'+$route.params.id">Новости</nuxt-link></li>
-              <li><nuxt-link to="">{{page[$route.params.id].name}}</nuxt-link></li>
             </ol>
           </div>
         </div>
 				<div class="container-p">
 					<div class="entry-header text-center mv-6 desktop:pb-4 box-lg-8 m-auto">
             <div class="date-content text-center mb-3">
-              <p>{{ new Date(page[$route.params.id].date*1000) | dateFormat('D MMMM YYYY')}}</p>
+              <p>{{ new Date(page_data.date*1000) | dateFormat('D MMMM YYYY')}}</p>
             </div>
-						<h2>{{page[$route.params.id].name}}</h2>
+						<h2>{{page_data.title}}</h2>
 					</div>
 					<div class="entry-content box-lg-8 m-auto mv-6 text-item desktop:pb-4">
 						<div class="box-lg-7 m-auto">
-              <div v-html="page[$route.params.id].detail_text"></div>
+              <img :src="page_data.image" :alt="page_data.title">
+              <div v-html="page_data.content"></div>
 						</div>
 					</div>
 				</div>
-        <div class="container-p hide">
+        <div class="container-p" v-if="false">
           <div class="m-auto box-md-8 box-lg-7 mv-6 desktop:pb-3">
             <h2>Будьте вкурсе</h2>
 						<div class="short-news-items boxes-3 mt-3 figure-m-v-15">
@@ -59,10 +59,10 @@
 export default {
   head() {
     return {
-      title: this.page.seo.title,
+      title: this.page_data.seo ? this.page_data.seo.meta_title : 'Новость KIA',
       meta: [
         {
-          content: this.page.seo.content
+          content: this.page_data.seo ? this.page_data.seo.meta_description : 'Новость KIA',
         }
       ],
     }
@@ -71,17 +71,13 @@ export default {
 
     var page;
     try{
-      //console.log(context.params.article_id);
-
-      var url = "press/news/"+context.params.article_id;
-      page = await context.$axios.$get("requireJson.php", {
-        params:{
-          path: url+".json"
-        }
-      }, {});
-      
-      console.log(page.content);
-      return {page: page.content}
+      //var url = "press/news/"+context.params.article_id;
+      const page_data = await context.store.dispatch("other/fetchPath", {
+        path: context.route.path
+      });
+      return {
+        page_data
+      }
     }catch(error){
       console.error(error);
     }

@@ -1,5 +1,14 @@
 
 export const actions = {
+  async fetchPath(context, params){
+    try {
+      console.log(params.path);
+      const data = await this.$axios.$get("https://api.kia-motors.uz/"+params.path);
+      return data;
+    } catch (e) {
+      throw e;
+    }
+  },
   async newsFetch(context, params){
     try {
       var path;

@@ -65,7 +65,9 @@ export default {
   },
   async asyncData(context){
     try{
-      const models_types = await context.store.dispatch("models/modelsAll", {});
+      const models_types = await context.store.dispatch("other/fetchPath", {
+        path: context.route.path
+      });
       return {
         models_types
       }

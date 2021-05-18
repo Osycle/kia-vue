@@ -365,21 +365,18 @@
 export default {
   head() {
     return {
-      title: 'Комплектации и цены',
+      title: this.page_data.seo ? this.page_data.seo.meta_title : 'Комплектации и цены',
       meta: [
         {
-          content: 'Комплектации и цены'
+          content: this.page_data.seo ? this.page_data.seo.meta_descr : 'Комплектации и цены'
         }
       ],
     }
   },
   async asyncData(context){
     try{
-      var model_name = context.route.params.id;
-      var path = context.route.name.split("-").reverse()[0];
-      const page_data = await context.store.dispatch("models/model", {
-        path, 
-        model_name
+      const page_data = await context.store.dispatch("other/fetchPath", {
+        path: context.route.path
       });
       return {
         page_data

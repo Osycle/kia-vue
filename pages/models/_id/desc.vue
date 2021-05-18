@@ -471,21 +471,18 @@
 export default {
   head() {
     return {
-      title: this.page_data.seo.meta_title,
+      title: this.page_data.seo ? this.page_data.seo.meta_title : 'Обзор KIA',
       meta: [
         {
-          content: this.page_data.seo.meta_descr
+          content: this.page_data.seo ? this.page_data.seo.meta_descr : 'Обзор KIA'
         }
       ],
     }
   },
   async asyncData(context){
     try{
-      var model_name = context.route.params.id;
-      var path = context.route.name.split("-").reverse()[0];
-      const page_data = await context.store.dispatch("models/model", {
-        path, 
-        model_name
+      const page_data = await context.store.dispatch("other/fetchPath", {
+        path: context.route.path
       });
       return {
         page_data
