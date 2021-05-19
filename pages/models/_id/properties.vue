@@ -54,12 +54,6 @@
 			<div class="options-header-content">
 				<div class="container-p">
 					<ul class="list">
-						<li class="filter-btn">
-							<a href=".options-entry" class="align-center justify-center" tc="filter-hidden">
-								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 6.5a2 2 0 104 0 2 2 0 00-4 0zM0 6h3.035a3.5 3.5 0 016.93 0H20v1.5H9.855a3.502 3.502 0 01-6.71 0H0V6zm11.5 7.5a2 2 0 104 0 2 2 0 00-4 0zM0 13h10.035a3.501 3.501 0 016.93 0H20v1.5h-3.145a3.502 3.502 0 01-6.71 0H0V13z" fill="currentColor"></path></svg> 
-								<span class="m-l-15">Фильтры и опции</span>
-							</a>
-						</li>
 						<li>
 							{{this.complectations.length}}
 							<span v-if="this.complectations.length == 1">комплектация</span> 

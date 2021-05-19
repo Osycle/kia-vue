@@ -1570,7 +1570,7 @@ $heightSlider: auto;
 	.showroom-bottom{
 		position: absolute;
 		width: 100%;
-		left: 0;
+		left: 15px;
 		bottom: 0;
 		z-index: 1;
 	}
@@ -1664,8 +1664,12 @@ $heightSlider: auto;
 	}
 	@media (min-width: 992px){
 		position: absolute;
-		right: 0;
+		right: 15px;
 		top: 0;
+		&.left{
+			right: auto;
+			left: 15px;
+		}
 	}
 }
 .showroom-colorselect{
@@ -3860,7 +3864,12 @@ dt{
 	.form-content{
 		max-width: 840px;
 		margin: 0 auto;
+		@media (max-width: 991px){
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 	}
+
 }
 .conf-summary-id{
 	.wrapper-content{
@@ -4366,4 +4375,21 @@ dt{
 }
 .pe-none{
 	pointer-events: none;
+}
+
+
+.tech-list{
+	h4{
+		padding-bottom: 20px;
+	}
+	li{
+		list-style: none;
+		padding-bottom: 30px;
+	}
+}
+.model-options-compl{
+	.config-details .title-click{
+		padding-top: 25px;
+    padding-bottom: 25px;
+	}
 }

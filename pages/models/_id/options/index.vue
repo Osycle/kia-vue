@@ -106,7 +106,7 @@
 			</div>
 		</div>
 
-		<div class="options-entry scrolled-down">
+		<div class="options-entry scrolled-down filter-hidden">
 			<div class="container-p relative">
 				<div class="config-sidebar">	
 					<div class="config-filter">
@@ -187,7 +187,7 @@
 								<div class="config-variants-items owl-carousel">
 									<div class="cell" v-for="(complectation, key) in complectations" :key="key">
 										<div class="cell-wrapper">
-											<h4>{{complectation.name}} <i class="fa fa-angle-right fw-6"></i></h4>
+											<nuxt-link :to="'/models/'+$route.params.id+'/options/'+complectation.id"><h4>{{complectation.name}} <i class="fa fa-angle-right fw-6"></i></h4></nuxt-link>
 											<div>
 												<p>{{complectation.engine}}</p>
 												<div class="price-content m-t-15">
@@ -388,9 +388,6 @@ export default {
     }
   },
   methods: {
-		filter(){
-
-		}
   },
 	created(){
 		this.complectations = this.page_data.compls
@@ -480,6 +477,7 @@ export default {
 
 
 		function filter(e){
+			return;
 			configCrs.find(".owl-stage-outer").remove();
 			configCrs.find(".owl-nav").remove();
 			configCrs.find(".owl-dots").remove();
