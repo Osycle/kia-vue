@@ -3,7 +3,9 @@ export const actions = {
   async fetchPageData(context, params){
     try{
       //const models = await this.$axios.$get('http://kia-api-php/handler.php', {params})
+      console.log(context, params);
       const models = await this.$axios.$get('/handler.php', {params})
+      
       return models
     }catch(e){
       throw e

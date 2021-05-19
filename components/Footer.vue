@@ -30,7 +30,7 @@
           <div class="footer-info">
             <div>
               <p>Информационная линия KIA</p>
-              <h4 class="m-t-0"><a href="tel:+998712157007">+99871 2157007</a></h4>
+              <h4 class="m-t-0"><a href="tel:+998712157007">+998 71 215-70-07</a></h4>
             </div>
             <br><br>
             <div class="footer-soc">

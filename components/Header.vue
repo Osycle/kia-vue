@@ -218,7 +218,7 @@
                 <div class="subdown-info">
                   <div class="subdown-info-item m-b-30">
                     <div class="color-gray-4 m-b-10">Информационная линия KIA</div>
-                    <div class="text-x2 fw-6"><big>+99871 2157007</big></div>
+                    <div class="text-x2 fw-6"><a href="tel:998712157007"><big>+998 71 215-70-07</big></a></div>
                   </div>
                   <div class="footer-soc">
                     <div class="color-gray-4 m-b-10">KIA в соцсетях</div>

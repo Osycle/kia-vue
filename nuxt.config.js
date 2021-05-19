@@ -32,7 +32,9 @@ module.exports = {
     '@nuxt/http',
   ],
   axios: {
-    baseURL: 'https://html.lifestyle.uz/kia-api/',
+    baseURL: 'https://lada.uz/temp-api/',
+    //baseURL: 'https://lays.uz/tempphp/',
+    //baseURL: 'https://html.lifestyle.uz/kia-api/',
     //baseURL: 'http://kia-api-php/',
   },
 

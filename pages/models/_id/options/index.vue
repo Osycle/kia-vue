@@ -105,8 +105,8 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="options-entry scrolled-down filter-hidden">
+		
+		<div class="options-entry scrolled-down"><!-- TODO: add class .filter-hidden -->
 			<div class="container-p relative">
 				<div class="config-sidebar">	
 					<div class="config-filter">
@@ -398,6 +398,7 @@ export default {
 			if($(el).find("li").length == 0)
 				$(el).closest(".list-block-body").addClass("hide");
 		})
+		
 		window.configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
 				nav: true,
 				loop: false,
@@ -422,6 +423,7 @@ export default {
 				navText : owlBtn,
 				margin: 0
 		});
+		
 
 
 		window.configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
@@ -455,10 +457,7 @@ export default {
 		configCrs.find(".owl-prev").on('click', function(event) {
 			configTableCrs.trigger('prev.owl.carousel');
 		})
-		$('.owl-carousel').on('change.owl.carousel', function(e) {
-			if (!e.namespace) return
-			e.relatedTarget.update()
-		})
+
 		
 
 		$('.config-sidebar').theiaStickySidebar({
@@ -477,19 +476,22 @@ export default {
 
 
 		function filter(e){
-			return;
-			configCrs.find(".owl-stage-outer").remove();
-			configCrs.find(".owl-nav").remove();
-			configCrs.find(".owl-dots").remove();
+			
+			//configCrs.find(".owl-stage-outer").remove();
+			//configCrs.find(".owl-nav").remove();
+			//configCrs.find(".owl-dots").remove();
 			var el = e.currentTarget;
 			var newComplectations;
-			//console.log(el.checked, el.value, el.name);
+			//v.complectations = v.page_data.compls;
+			console.log(v.compls);
 			var checkeInputs = $(".config-filter-items input:checked");
+			var tempSlos;
 			checkeInputs.map((i, el)=>{
 				var name = el.name
 				var value = el.value
 				var obj = {}
-
+				tempSlos = name;
+				console.log(tempSlos);
 				if(name == "options")
 					obj[name] = [value];
 				else if( isNaN(value*1) ){
@@ -498,7 +500,7 @@ export default {
 					obj[name] = value*1;
 				}
 
-				if(!newComplectations)
+				if(!newComplectations || (tempSlos != name))
 					newComplectations = _.filter(v.complectations, obj);
 				else
 					newComplectations = _.concat(newComplectations, _.filter(v.complectations, obj))
