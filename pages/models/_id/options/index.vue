@@ -146,7 +146,7 @@
 									</label>
 								</div>
 							</fieldset>
-							<fieldset>
+							<fieldset v-if="false">
 								<div class="flex-adaptive row">
 									<div class="input-content p-h-15">
 										<input type="" name="" class="form-control" value="">
@@ -184,12 +184,16 @@
 					<div class="wrapper">
 						<div class="config-content">
 							<div class="config-variants">
-								<div class="config-variants-items owl-carousel">
-									<div class="cell" v-for="(complectation, key) in complectations" :key="key">
+								<div class="config-variants-items owl-carousel" v-if="statusCompl">
+									<div class="cell" v-for="(complectation, key) in complectations" :key="key" :filter-param="complectation.id">
 										<div class="cell-wrapper">
 											<nuxt-link :to="'/models/'+$route.params.id+'/options/'+complectation.id"><h4>{{complectation.name}} <i class="fa fa-angle-right fw-6"></i></h4></nuxt-link>
 											<div>
-												<p>{{complectation.engine}}</p>
+												<p>
+													<template v-for="(engine) in page_data.engines" v-if="engine.id == complectation.engineId">{{engine.name}}</template> / 
+													<template v-for="(gear) in page_data.gears" v-if="gear.id == complectation.gearId">{{gear.gear}}</template> /
+													<template v-for="(drive) in page_data.privodi" v-if="drive.id == complectation.privodId">{{drive.privod}}</template>
+												</p>
 												<div class="price-content m-t-15">
 													{{complectation.price | spaceBetweenNum}} сум
 												</div>
@@ -273,7 +277,7 @@
 								<div class="config-param-item" v-for="(option, key) in parentOption.options" :key="key">
 									<div class="config-param-item-wrapper">
 										<p class="m-b-15 align-center">{{option.name}}</p>
-										<div class="owl-table owl-carousel">
+										<div class="owl-table owl-carousel" v-if="statusCompl">
 											<div class="owl-table-item" v-for="(complectation, key) in complectations" :key="key">
 												<div class="op-enable" v-for="(complectationOptionId, key) in complectation.options" v-if="complectationOptionId == option.id" :key="key">
 													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
@@ -384,6 +388,7 @@ export default {
   data(){
     return{
 			filterVisible: true,
+			statusCompl: true,
 			complectations: [],
     }
   },
@@ -399,66 +404,67 @@ export default {
 				$(el).closest(".list-block-body").addClass("hide");
 		})
 		
-		window.configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
-				nav: true,
-				loop: false,
-				items: 2,
-				dots: false,
-				dotsEach: false,
-				//slideBy: 2,
-				autoplay: false,
-				autoplayTimeout: false,
-				autoWidth: true,
-				touchDrag: false,
-				mouseDrag: true, //TODO default: false
-				center: false,
-				//itemElement: ".cell",
-				autoheight: true,
-				merge: true,
-				responsive:{
-	        678:{
-	            mergeFit:true
-	        }
-				},
-				navText : owlBtn,
-				margin: 0
-		});
-		
+		function activeCarousel(){
+			window.configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
+					nav: true,
+					loop: false,
+					items: 2,
+					dots: false,
+					dotsEach: false,
+					//slideBy: 2,
+					autoplay: false,
+					autoplayTimeout: false,
+					autoWidth: true,
+					touchDrag: false,
+					mouseDrag: false,
+					center: false,
+					//itemElement: ".cell",
+					autoheight: true,
+					merge: true,
+					responsive:{
+						678:{
+								mergeFit:true
+						}
+					},
+					navText : owlBtn,
+					margin: 0
+			});
+			
 
 
-		window.configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
-				nav: false,
-				loop: false,
-				items: 2,
-				dots: false,
-				dotsEach: false,
-				//slideBy: 2,
-				autoplay: false,
-				autoplayTimeout: false,
-				autoWidth: true,
-				touchDrag: false,
-				mouseDrag: false,
-				center: false,
-				autoheight: true,
-				merge: true,
-				responsive:{
-	        678:{
-	            mergeFit:true
-	        }
-				},
-				navText : owlBtn,
-				margin: 0
-		});
+			window.configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
+					nav: false,
+					loop: false,
+					items: 2,
+					dots: false,
+					dotsEach: false,
+					//slideBy: 2,
+					autoplay: false,
+					autoplayTimeout: false,
+					autoWidth: true,
+					touchDrag: false,
+					mouseDrag: false,
+					center: false,
+					autoheight: true,
+					merge: true,
+					responsive:{
+						678:{
+								mergeFit:true
+						}
+					},
+					navText : owlBtn,
+					margin: 0
+			});
 
 
-		configCrs.find(".owl-next").on('click', function(event) {
-			configTableCrs.trigger('next.owl.carousel');
-		})
-		configCrs.find(".owl-prev").on('click', function(event) {
-			configTableCrs.trigger('prev.owl.carousel');
-		})
-
-		
+			configCrs.find(".owl-next").on('click', function(event) {
+				configTableCrs.trigger('next.owl.carousel');
+			})
+			configCrs.find(".owl-prev").on('click', function(event) {
+				configTableCrs.trigger('prev.owl.carousel');
+			})
+		}
+		activeCarousel();
 
 		$('.config-sidebar').theiaStickySidebar({
 			//additionalMarginBottom: -300,
@@ -480,18 +486,18 @@ export default {
 			//configCrs.find(".owl-stage-outer").remove();
 			//configCrs.find(".owl-nav").remove();
 			//configCrs.find(".owl-dots").remove();
+			v.statusCompl = false;
 			var el = e.currentTarget;
-			var newComplectations;
-			//v.complectations = v.page_data.compls;
-			console.log(v.compls);
+			var newComplectations = false;
+			v.complectations = v.page_data.compls;
 			var checkeInputs = $(".config-filter-items input:checked");
-			var tempSlos;
+			var tempSlos = false;
+			
 			checkeInputs.map((i, el)=>{
+				
 				var name = el.name
 				var value = el.value
 				var obj = {}
-				tempSlos = name;
-				console.log(tempSlos);
 				if(name == "options")
 					obj[name] = [value];
 				else if( isNaN(value*1) ){
@@ -500,21 +506,42 @@ export default {
 					obj[name] = value*1;
 				}
 
-				if(!newComplectations || (tempSlos != name))
+				//if(!newComplectations || (tempSlos != name)){
+				if(tempSlos != name){
+					//console.log(tempSlos,name)
+					tempSlos = name
+					if(newComplectations)
+						v.complectations = newComplectations
 					newComplectations = _.filter(v.complectations, obj);
-				else
+					//console.log('filter');
+				}else if(tempSlos == name){
+					//v.complectations = newComplectations
 					newComplectations = _.concat(newComplectations, _.filter(v.complectations, obj))
+					console.log('concat');
+				}
+				newComplectations = _.uniq(newComplectations)
 				//console.log(newComplectations);
 			})
-			var s = _.filter(v.complectations, {'engineId': [0, 1]})
-			console.log(newComplectations);
+			//var s = _.filter(v.complectations, {'engineId': [0, 1]})
 			//var s = _.filter(this.complectations, {'engineId': 0,'options': ["986"]})
-			if(newComplectations)
-				v.complectations = newComplectations
-			else
+
+			if(!newComplectations)
 				v.complectations = v.page_data.compls;
+			else
+				v.complectations = newComplectations
+			console.log(newComplectations);
+			setTimeout(() => {
+				v.statusCompl = true;
+				setTimeout(() => {
+					try{
+					activeCarousel();
+					}catch(e){
+						console.info(e)
+					}
+				}, 1);
+			}, 1);
+
 			
-			configCrs.trigger('refresh.owl.carousel')
 		}
 
 		$(document).on("change", ".config-filter-items input", filter)
