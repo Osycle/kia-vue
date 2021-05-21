@@ -113,10 +113,11 @@
 								<div class="config-param-item" v-for="(option, key) in parentOption.options" :key="key">
 									<div class="config-param-item-wrapper">
 										<p class="m-b-15 align-center">{{option.name}}</p>
-										<div class="owl-table owl-carousel" v-if="false">
-											<div class="owl-table-item" v-for="(complectation, key) in paga_data.compls" :key="key">
+										<div class="owl-table owl-carousel">
+											<div class="owl-table-item" v-for="(complectation, key) in page_data.compls" :key="key">
+												{{option.id}}
 												<template v-for="(property) in complectation.properties" v-if="option.id == property.id">
-													{{property.name}}
+													{{property.value}}
 												</template>
 											</div>
 										</div>

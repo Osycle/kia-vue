@@ -209,7 +209,7 @@
                         <ul>
                           <li><nuxt-link to="/press/news">Новости</nuxt-link></li>
                           <li><nuxt-link to="/press/reviews">Обзоры</nuxt-link></li>
-                          <li><nuxt-link to="/press/magazine">Журнал Kia WAY</nuxt-link></li>
+                          <li><nuxt-link to="/press/news">Журнал Kia WAY</nuxt-link></li>
                         </ul>
                       </div>
                     </div>
@@ -295,7 +295,7 @@
                 <div class="menu-item-cap">Медиа</div>
                 <li><nuxt-link to="/press/news">Новости</nuxt-link></li>
                 <li><nuxt-link to="/press/reviews">Обзоры</nuxt-link></li>
-                <li><nuxt-link to="/press/magazine">Журнал Kia WAY</nuxt-link></li>
+                <li><nuxt-link to="/press/news">Журнал Kia WAY</nuxt-link></li>
               </div>
             </ul>
           </li>
