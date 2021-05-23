@@ -22,13 +22,9 @@
       <div class="container">
         <div class="row-15 flex-adaptive justify-c-between desktop:mt-5">
           <div class="col-md-4 p-h-15">
-            <div class="h1 text-x5 m-t-0">Видение бренда</div>
+            <div class="h1 text-x5 m-t-0">{{page_data.blocks[0].name}}</div>
           </div> 
-          <div class="col-md-offset-1 p-h-15 col-md-7 text-item text-x1">
-            <p>Основа стратегии компании в России — предлагать потребителям уникальный опыт и яркие впечатления от использования автомобиля, которые выходят за рамки ожиданий, за счет применения инновационных подходов к созданию своей продукции.</p>
-            <p>Особенностью бренда KIA является предложение широкого модельного ряда высококачественных автомобилей с ярким дизайном, максимально учитывающих предпочтения покупателей на локальном рынке.</p>
-            <p>Ключевая ценность бренда заключается в стремлении создавать больше радостных моментов в жизни клиентов, предоставляя не просто возможность беспроблемного использования автомобиля, но и создавая уникальный опыт владения им на протяжении всего цикла.</p>
-          </div>
+          <div class="col-md-offset-1 p-h-15 col-md-7 text-item text-x1" v-html="page_data.blocks[0].text"></div>
         </div>
       </div>
     </div>
@@ -37,59 +33,22 @@
     <div class="about-desc">
       <div class="container">
         <div class="entry-header m-b-35">
-          <h4 class="color-2 text-n1">ЛИДЕРСТВО</h4>
-          <h1 class="text-x5">Показатели бренда</h1>
+          <h4 class="color-2 text-n1">{{page_data.blocks[1].alias}}</h4>
+          <h1 class="text-x5">{{page_data.blocks[1].name}}</h1>
         </div>
         <div class="desc-content">
           <div class="about-desc-list text-item">
-            <div class="item m-v-30 pv-4">
+            <div class="item m-v-30 pv-4" v-for="(content, key) in page_data.blocks[1].content" :key="key">
               <div class="flex desktop:jc-between">
                 <div class="item-header flexbasis-md-3">
-                  <h4>Лидер по объему продаж автомобилей</h4>
+                  <h4>{{content.name}}</h4>
                 </div>
-                <div class="item-desc flexbasis-md-8">
-                  <p>С 2014 года KIA занимает первое место по объему продаж автомобилей среди иностранных автомобильных брендов в России.</p>
-                  <p>По данным Ассоциации европейского бизнеса (АЕБ).</p>
-                </div>
-                <div class="item-media mt-6 desktop:mt-8 flexbasis-md-12">
-                  <video src="https://cdn.kia.ru/media-data/video/chart-animated.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline="" class="item-media-video"></video>
+                <div class="item-desc flexbasis-md-8" v-html="content.content"></div>
+                <div class="item-media mt-6 desktop:mt-8 flexbasis-md-12" v-if="content.video">
+                  <video :src="content.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline="" class="item-media-video"></video>
                 </div>
               </div>
             </div>
-            <div class="item m-v-30 pv-4">
-              <div class="flex desktop:jc-between">
-                <div class="item-header flexbasis-md-3">
-                  <h4>Лидер по уровню удовлетворенности сервисом официального дилера</h4>
-                </div>
-                <div class="item-desc flexbasis-md-8">
-                  <p>В 2018 г. KIA занял первое место среди массовых автомобильных брендов в России по уровню удовлетворенности обслуживанием на сервисе официального дилера.</p>
-                  <p>По результатам исследования «АВТОСТАТ ОМНИБУС – 2018. Новые автомобили: мнения автовладельцев» независимого аналитического агентства «Автостат», 2018 г.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item m-v-30 pv-4">
-              <div class="flex desktop:jc-between">
-                <div class="item-header flexbasis-md-3">
-                  <h4>Лидер по уровню удовлетворённости послепродажным обслуживанием</h4>
-                </div>
-                <div class="item-desc flexbasis-md-8">
-                  <p>В 2018 г. KIA занял первое место среди 13 массовых брендов по уровню удовлетворенности клиентов послепродажным обслуживанием.</p>
-                  <p>По результатам исследования IACS (International Aftersales Customer Satisfaction) международного аналитического агентства GFK Russia, 2018 г.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item m-v-30 pv-4">
-              <div class="flex desktop:jc-between">
-                <div class="item-header flexbasis-md-3">
-                  <h4>Остаточная стоимость автомобилей</h4>
-                </div>
-                <div class="item-desc flexbasis-md-8">
-                  <p>Ежегодно модели KIA входят в число лидеров рынка по показателю «Сохранность остаточной стоимости автомобилей».</p>
-                  <p>По данным рейтинга агентства «Автостат».</p>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
