@@ -2062,12 +2062,15 @@ $heightSlider: auto;
 	position: relative;
 	z-index: 1;
 	.img-entry-header{
-		max-height: auto;
+		max-height: none;
     background-color: black;
     min-height: 300px;
 		.text-content{
 			left: 50%;
 			transform: translateX(-50%);
+		}
+		.img-bg{
+			max-height: none;
 		}
 	}
 	.kiaworld-logo-wrapper{
@@ -2141,6 +2144,11 @@ $heightSlider: auto;
 			position: relative;
 		}
 	}
+}
+.kiaworld-designc{
+	z-index: 1;
+	position: relative;
+	background-color: white;
 }
 .kiaworld-designc-items{
 	.img{
@@ -4128,6 +4136,7 @@ dt{
 		padding-top: 35px;
 		padding-bottom: 35px;
 		.item-header{
+			min-width: 290px;
 			margin-right: 50px;
 		}
 		.num{

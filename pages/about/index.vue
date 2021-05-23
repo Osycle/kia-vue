@@ -1,7 +1,7 @@
 <template>
   <div class="main-body offset-header" header-opacity>
     <div class="kiaworld">
-      <div class="kiaworld-bnr color-white" style="background-image: url('https://www.kia.ru/images/landing/about/russia/bg-header.jpg');">
+      <div class="kiaworld-bnr color-white" :style="'background-image: url(\''+page_data.header.image+'\');'">
         <div class="breadcrumb-container">
           <div class="container-p">
             <ol class="breadcrumb">
@@ -12,8 +12,7 @@
         </div>
         <div class="container-p relative">
           <div class="kiaworld-bnr-header">
-            <h1>KIA в России</h1>
-            <p>О компании Киа Моторс Россия и СНГ</p>
+            <div v-html="page_data.header.text"></div>
           </div>
         </div>
       </div>
@@ -95,95 +94,60 @@
         </div>
       </div>
     </div>
-    <div class="about-stat">
-      <div class="g-padding">
-        <div class="g-container">
-          <div class="g-margin">
-            <div class="container">
-              <div class="about-stat-items boxes-3 text-s1 pb-8 flex-adaptive justify-between desktop:mt-10 mt-6">
-                <div class="cell">
-                  <h2>Дилерская <br>сеть KIA </h2>
-                  <div>Самая большая дилерская сеть в России среди иностранных брендов </div>
+    <template v-for="(block) in page_data.blocks" v-if="block.block == 'block3'">
+      <div class="about-stat" :key="key">
+        <div class="g-padding">
+          <div class="g-container">
+            <div class="g-margin">
+              <div class="container">
+                <div class="about-stat-items boxes-3 text-s1 pb-8 flex-adaptive justify-between desktop:mt-10 mt-6">
+                  <div class="cell" :key="key">
+                    <h2>{{block.name}}</h2>
+                    <div>{{block.text}}</div>
+                  </div>
+                  <div class="cell" v-for="(num, key) in block.numbers" :key="key">
+                    <div class="num-style">{{num.number}} </div>
+                    <div><b>{{num.content}}</b></div>
+                    <div class="color-gray-5">{{num.content_two[0]}}</div>
+                  </div>
                 </div>
-                <div class="cell">
-                  <div class="num-style">199 </div>
-                  <div><b>дилерских центров KIA</b></div>
-                  <div class="color-gray-5">по состоянию на 01.06.2020 </div>
-                </div>
-                <div class="cell">
-                  <div class="num-style">100 </div>
-                  <div><b>городов</b></div>
-                  <div class="color-gray-5">от Калининграда на западе<br> до Южно-Сахалинска на Дальнем Востоке </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img-content">
+          <img :src="block.image" alt="">
+        </div>
+      </div>
+      <div class="kiaworld-sponsorship text-x1" :key="key">
+        <div class="g-padding p-v-md-40">
+          <div class="g-container">
+            <div class="g-margin">
+              <div class="container">
+                <br>
+                <div class="kiaworld-sponsorship-items">
+                  <figure v-for="(content, key) in block.content" :key="key">
+                    <div class="flex-adaptive">
+                      <div class="desc-content text-item">
+                        <hr>
+                        <br>
+                        <div class="text-x4 m-v-20">{{content.name}}</div>
+                        <div v-html="content.text"></div>
+                      </div>
+                      <div class="img-content">
+                        <img :src="content.image">
+                      </div>
+                    </div>
+                  </figure>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="img-content">
-        <img src="https://www.kia.ru/images/landing/about/russia/img-stats.png" alt="">
-      </div>
-    </div>
+    </template>
 
-    <div class="kiaworld-sponsorship text-x1">
-      <div class="g-padding p-v-md-40">
-        <div class="g-container">
-          <div class="g-margin">
-            <div class="container">
-              <br>
-              <div class="kiaworld-sponsorship-items">
-                <figure>
-                  <div class="flex-adaptive">
-                    <div class="desc-content text-item">
-                      <hr>
-                      <br>
-                      <div class="text-x4 m-v-20">Центральный дизайн-центр</div>
-                      <p><b>Намьянг, Южная Корея</b></p>
-                      <p>Главный дизайн-центр компании занимается всеми аспектами автомобильного дизайна от изначальной задумки до подбора цветовой палитры и материалов. Выделенный канал спутниковой связи позволяет объединить его с дизайн-центрами KIA в других странах и в режиме реального времени обмениваться идеями и анализировать глобальные тренды.</p>
-                    </div>
-                    <div class="img-content">
-                      <img src="https://www.kia.ru/images/landing/about/design/img-ill-0.jpg">
-                    </div>
-                  </div>
-                </figure>
-                <figure>
-                  <div class="flex-adaptive">
-                    <div class="desc-content text-item">
-                      <hr>
-                      <br>
-                      <div class="text-x4 m-v-20">Европейский дизайн-центр</div>
-                      <p><b>Франкфурт-на-Майне, Германия</b></p>
-                      <p>Дизайн-центр играет ключевую роль в формировании нового стиля бренда KIA как на континенте, так и во всем мире. Специализированная команда дизайнеров создает концептуальные автомобили будущего, а также серийные модели для Европы и мирового рынка.</p>
-                    </div>
-                    <div class="img-content">
-                      <img src="https://www.kia.ru/images/landing/about/design/img-ill-1.jpg">
-                    </div>
-                  </div>
-                </figure>
-                <figure>
-                  <div class="flex-adaptive">
-                    <div class="desc-content text-item">
-                      <hr>
-                      <br>
-                      <div class="text-x4 m-v-20">Американский дизайн-центр</div>
-                      <p><b>Ирвайн, США</b></p>
-                      <p>Начал свою работу в 2008 году по соседству с региональной штаб-квартирой в Калифорнии. Местная команда помогает формировать будущее индустрии, создавая броские концептуальные модели. Здесь моделируют стилистические решения для моделей Kia по всему миру.</p>
-                    </div>
-                    <div class="img-content">
-                      <img src="https://www.kia.ru/images/landing/about/design/img-ill-2.jpg">
-                    </div>
-                  </div>
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <KiaworldOther />
-
+    <KiaworldOther :kiaworld-other-items="page_data.footer" />
 
   </div>
 </template>
@@ -196,12 +160,24 @@ import KiaworldOther from "@/components/kiaworld/KiaworldOther";
 export default {
   head() {
     return {
-      title: "KIA в Узбекистане",
+      title: this.page_data.seo.title,
       meta: [
         {
-          content: "О компании Киа Моторс в Узбекистане"
+          content: this.page_data.seo.description
         }
       ],
+    }
+  },
+  async asyncData(context){
+    try{
+      const page_data = await context.store.dispatch("other/fetchPath", {
+        path: context.route.path
+      });
+      return {
+        page_data
+      }
+    }catch(e){
+      context.error(e);
     }
   },
   components:{

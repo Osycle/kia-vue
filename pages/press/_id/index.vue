@@ -18,7 +18,7 @@
 					<hr>
 					<div class="press-content m-v-20">
 						<div class="short-news-items boxes-4 figure-m-v-15">
-							<figure v-for="(item, key) in newsItems" :key="key">
+							<figure v-if="$route.params.id == 'news'" v-for="(item, key) in newsItems" :key="key">
 								<nuxt-link :to="'/press/'+$route.params.id+'/'+item.id">
 									<div class="fig-wrapper">
 										<div class="img-content">
@@ -31,29 +31,23 @@
 									</div>
 								</nuxt-link>
 							</figure>
-							<div v-if="false">
-								<template v-if="page_data.video_bank">
-									<template v-for="(videogroup) in page.video_bank.groups">
-										<figure v-for="(overview, key) in page.video_bank.list[videogroup.id]" :key="key">
-											<div class="fig-wrapper">
-												<div class="img-content">
-													<a :href="[overview.video_link]" data-fancybox>
-														<div class="btn-play">
-															<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-														</div>
-														<div class="img" :style="'background-image: url(https://cdn.kia.ru/resize/410x277/'+[overview.preview_image]+');'"></div>
-													</a>
-												</div>
-												<div class="desc-content">
-													<h4>{{overview.name}}</h4>
-													<p>{{overview.author}}</p>
-													<p class="news-date">{{ new Date(overview.date*1000) | dateFormat('D MMMM YYYY')}}</p>
-												</div>
+							<figure v-if="$route.params.id == 'reviews'" v-for="(overview, key) in newsItems" :key="key">
+								<div class="fig-wrapper">
+									<div class="img-content">
+										<a :href="overview.video" data-fancybox>
+											<div class="btn-play">
+												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
 											</div>
-										</figure>
-									</template>
-								</template>
-							</div>
+											<div class="img" :style="'background-image: url('+overview.image+');'"></div>
+										</a>
+									</div>
+									<div class="desc-content">
+										<h4>{{overview.title}}</h4>
+										<p>{{overview.author}}</p>
+										<p class="news-date">{{ new Date(overview.date*1000) | dateFormat('D MMMM YYYY')}}</p>
+									</div>
+								</div>
+							</figure>
 						</div>
 						<div class="btn-opacity reverse m-v-30 hide">
 							<a href="" class="pv-2">Показать ещё</a>

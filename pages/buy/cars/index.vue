@@ -19,17 +19,15 @@
           <div class="models-items boxes-4 figure-m-v-30 desktop:mb-12">
             <figure v-for="(model, key) in page.models" :key="key">
               <div class="img-content">
-                <nuxt-link :to="'/models/'+model.code+'/cars'" class="hide"></nuxt-link>
-                <a href="javascript:;">
+                <nuxt-link :to="'/models/'+model.code+'/desc'">
                   <img :src="'https://cdn.kia.ru/resize/400x198/'+model.image">
-                </a>
+                </nuxt-link>
               </div>
               <div class="desc-content">
                 <div class="car-card__name">
-                  <nuxt-link :to="'/models/'+model.code+'/cars'" class="hide"></nuxt-link>
-                  <a href="javascript:;">
+                  <nuxt-link :to="'/models/'+model.code+'/desc'">
                     {{model.name}}
-                  </a>
+                  </nuxt-link>
                 </div>
               </div>
             </figure>

@@ -62,6 +62,12 @@
 			<div class="options-header-content">
 				<div class="container-p">
 					<ul class="list">
+						<li class="filter-btn">
+							<a href=".options-entry" class="align-center justify-center" tc="filter-hidden">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 6.5a2 2 0 104 0 2 2 0 00-4 0zM0 6h3.035a3.5 3.5 0 016.93 0H20v1.5H9.855a3.502 3.502 0 01-6.71 0H0V6zm11.5 7.5a2 2 0 104 0 2 2 0 00-4 0zM0 13h10.035a3.501 3.501 0 016.93 0H20v1.5h-3.145a3.502 3.502 0 01-6.71 0H0V13z" fill="currentColor"></path></svg> 
+								<span class="m-l-15">Фильтры и опции</span>
+							</a>
+						</li>
 						<li>
 							{{page_data.compls.length}}
 							<span v-if="page_data.compls.length == 1">комплектация</span> 
@@ -82,12 +88,30 @@
 		</div>
 		<div class="options-entry scrolled-down filter-hidden">
 			<div class="container-p relative">
+				<div class="config-sidebar">	
+					<div class="config-filter">
+						<div class="config-filter-items">
+							<fieldset>
+								<h4>Двигатель</h4>
+								<div class="input-items">
+									<label role="button" class="align-center m-v-15" 
+										v-for="(engine, key) in page_data.engines"
+										:key="key">
+										<input type="checkbox" name="engineId" class="none" :value="engine.id">
+										<span class="checkbox-style-1"></span>
+										<span class="m-l-10">{{engine.name}}</span>
+									</label>
+								</div>
+							</fieldset>
+						</div>
+					</div>
+				</div>
 				<div class="options-body">
 					<div class="wrapper">
 						<div class="config-content">
 							<div class="config-variants">
-								<div class="config-variants-items owl-carousel">
-									<div class="cell" v-for="(complectation, key) in page_data.compls" :key="key">
+								<div class="config-variants-items owl-carousel" v-if="statusCompl">
+									<div class="cell" v-for="(complectation, key) in page_data.compls" :key="key" :filter-param="complectation.id">
 										<div class="cell-wrapper" >
 											<nuxt-link :to="'/models/'+$route.params.id+'/options/'+complectation.id"><h4>{{complectation.name}} <i class="fa fa-angle-right fw-6"></i></h4></nuxt-link>
 											<div>
@@ -113,31 +137,11 @@
 								<div class="config-param-item" v-for="(option, key) in parentOption.options" :key="key">
 									<div class="config-param-item-wrapper">
 										<p class="m-b-15 align-center">{{option.name}}</p>
-										<div class="owl-table owl-carousel">
+										<div class="owl-table owl-carousel" v-if="statusCompl">
 											<div class="owl-table-item" v-for="(complectation, key) in page_data.compls" :key="key">
-												{{option.id}}
 												<template v-for="(property) in complectation.properties" v-if="option.id == property.id">
 													{{property.value}}
 												</template>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section class="item active" v-if="false">
-						<a href=".item" class="title-click" tc tc-closest>Спецификация<i class="fa fa-angle-up"></i></a>
-						<div class="section-body">
-							<div class="section-body-wrapper">
-								<div class="config-param-item">
-									<div class="config-param-item-wrapper">
-										<p class="m-b-15 align-center">Код модели</p>
-										<div class="owl-table owl-carousel">
-											<div class="owl-table-item" v-for="(model, key) in complectations" :key="key" >
-												<span>
-													{{model.modification_code}}
-												</span>
 											</div>
 										</div>
 									</div>
@@ -150,6 +154,7 @@
 
 			</div>
 		</div>
+
   </div>
 </template>
 
@@ -186,7 +191,7 @@ export default {
   data(){
     return{
       filterVisible: true,
-      complectationsAllLength: 0,
+      statusCompl: true,
       complectations: [],
     }
   },
@@ -194,62 +199,73 @@ export default {
 
 	},
   mounted() {
-		var configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
-				nav: true,
-				loop: false,
-				items: 2,
-				dots: false,
-				dotsEach: false,
-				//slideBy: 2,
-				autoplay: false,
-				autoplayTimeout: false,
-				autoWidth: true,
-				touchDrag: false,
-				mouseDrag: false,
-				center: false,
-				autoheight: true,
-				merge: true,
-				responsive:{
-	        678:{
-	            mergeFit:true
-	        }
-				},
-				navText : owlBtn,
-				margin: 0
-		});
-		var configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
-				nav: false,
-				loop: false,
-				items: 2,
-				dots: false,
-				dotsEach: false,
-				//slideBy: 2,
-				autoplay: false,
-				autoplayTimeout: false,
-				autoWidth: true,
-				touchDrag: false,
-				mouseDrag: false,
-				center: false,
-				autoheight: true,
-				merge: true,
-				responsive:{
-	        678:{
-	            mergeFit:true
-	        }
-				},
-				navText : owlBtn,
-				margin: 0
-		});
-
-
-		configCrs.find(".owl-next").on('click', function(event) {
-			configTableCrs.trigger('next.owl.carousel');
+		var v = this;
+		$(".list-block-body ul").map(function(i, el){
+			if($(el).find("li").length == 0)
+				$(el).closest(".list-block-body").addClass("hide");
 		})
-		configCrs.find(".owl-prev").on('click', function(event) {
-			configTableCrs.trigger('prev.owl.carousel');
-		})
+		
+		function activeCarousel(){
+			window.configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
+					nav: true,
+					loop: false,
+					items: 2,
+					dots: false,
+					dotsEach: false,
+					//slideBy: 2,
+					autoplay: false,
+					autoplayTimeout: false,
+					autoWidth: true,
+					touchDrag: false,
+					mouseDrag: false,
+					center: false,
+					//itemElement: ".cell",
+					autoheight: true,
+					merge: true,
+					responsive:{
+						678:{
+								mergeFit:true
+						}
+					},
+					navText : owlBtn,
+					margin: 0
+			});
+			
 
-    //console.log(configCrs, configTableCrs);
+
+			window.configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
+					nav: false,
+					loop: false,
+					items: 2,
+					dots: false,
+					dotsEach: false,
+					//slideBy: 2,
+					autoplay: false,
+					autoplayTimeout: false,
+					autoWidth: true,
+					touchDrag: false,
+					mouseDrag: false,
+					center: false,
+					autoheight: true,
+					merge: true,
+					responsive:{
+						678:{
+								mergeFit:true
+						}
+					},
+					navText : owlBtn,
+					margin: 0
+			});
+
+
+			configCrs.find(".owl-next").on('click', function(event) {
+				configTableCrs.trigger('next.owl.carousel');
+			})
+			configCrs.find(".owl-prev").on('click', function(event) {
+				configTableCrs.trigger('prev.owl.carousel');
+			})
+		}
+		activeCarousel();
 
 		$('.config-sidebar').theiaStickySidebar({
 			//additionalMarginBottom: -300,
@@ -259,11 +275,74 @@ export default {
 		
 		$('.options-body').theiaStickySidebar({
 			//updateSidebarHeight: true,
+			additionalMarginBottom: -200,
 			disableOnResponsiveLayouts: false,
 			additionalMarginTop: 60,
 			defaultPosition: "absolute"
 		});
-		
+
+
+		function filter(e){
+			
+			v.statusCompl = false;
+			var el = e.currentTarget;
+			var newComplectations = false;
+			v.complectations = v.page_data.compls;
+			var checkeInputs = $(".config-filter-items input:checked");
+			var tempSlos = false;
+			
+			checkeInputs.map((i, el)=>{
+				
+				var name = el.name
+				var value = el.value
+				var obj = {}
+				if(name == "options")
+					obj[name] = [value];
+				else if( isNaN(value*1) ){
+					obj[name] = value;
+				}else{
+					obj[name] = value*1;
+				}
+
+				//if(!newComplectations || (tempSlos != name)){
+				if(tempSlos != name){
+					//console.log(tempSlos,name)
+					tempSlos = name
+					if(newComplectations)
+						v.complectations = newComplectations
+					newComplectations = _.filter(v.complectations, obj);
+					//console.log('filter');
+				}else if(tempSlos == name){
+					//v.complectations = newComplectations
+					newComplectations = _.concat(newComplectations, _.filter(v.complectations, obj))
+					console.log('concat');
+				}
+				newComplectations = _.uniq(newComplectations)
+				//console.log(newComplectations);
+			})
+			//var s = _.filter(v.complectations, {'engineId': [0, 1]})
+			//var s = _.filter(this.complectations, {'engineId': 0,'options': ["986"]})
+
+			if(!newComplectations)
+				v.complectations = v.page_data.compls;
+			else
+				v.complectations = newComplectations
+			console.log(newComplectations);
+			setTimeout(() => {
+				v.statusCompl = true;
+				setTimeout(() => {
+					try{
+					activeCarousel();
+					}catch(e){
+						console.info(e)
+					}
+				}, 1);
+			}, 1);
+
+			
+		}
+
+		$(document).on("change", ".config-filter-items input", filter)
   },
 }
 </script>

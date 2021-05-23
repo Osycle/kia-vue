@@ -110,7 +110,7 @@
 			</div>
 		</div>
 		
-		<div class="options-entry scrolled-down"><!-- TODO: add class .filter-hidden -->
+		<div class="options-entry scrolled-down">
 			<div class="container-p relative">
 				<div class="config-sidebar">	
 					<div class="config-filter">
@@ -487,9 +487,6 @@ export default {
 
 		function filter(e){
 			
-			//configCrs.find(".owl-stage-outer").remove();
-			//configCrs.find(".owl-nav").remove();
-			//configCrs.find(".owl-dots").remove();
 			v.statusCompl = false;
 			var el = e.currentTarget;
 			var newComplectations = false;
