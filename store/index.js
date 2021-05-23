@@ -47,6 +47,10 @@ Vue.filter('spaceBetweenNum', (price)=>{
 	return price; 
 })
 
+Vue.filter('spacePhone', (price)=>{ 
+  price = price+"";
+	return price.replace("99871", "99871 "); 
+})
 
 
 

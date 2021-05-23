@@ -217,7 +217,7 @@
                 <div class="subdown-info">
                   <div class="subdown-info-item m-b-30">
                     <div class="color-gray-4 m-b-10">Информационная линия KIA</div>
-                    <div class="text-x2 fw-6"><a :href="'tel:'+mainmenu.phone"><big>{{mainmenu.phone.replace("99871", "99871 ")}}</big></a></div>
+                    <div class="text-x2 fw-6"><a :href="'tel:'+mainmenu.phone"><big>{{mainmenu.phone | spacePhone}}</big></a></div>
                   </div>
                   <div class="footer-soc">
                     <div class="color-gray-4 m-b-10">KIA в соцсетях</div>
