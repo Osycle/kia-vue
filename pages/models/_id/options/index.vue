@@ -294,64 +294,92 @@
 							</div>
 						</div>
 					</section>
-					<div v-if="false">
-						<section class="item exterior-color-section" v-if="!page.model.exterior_hide">
-							<a href=".item" class="title-click" tc tc-closest>Цвета кузова<i class="fa fa-angle-up"></i></a>
-							<div class="section-body">
-								<div class="section-body-wrapper">
-									<div class="config-param-item">
-										<div class="config-param-item-wrapper">
-											<div class="owl-table owl-carousel">
-												<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
-													
-													<div class="owl-table-item-box" v-for="(colors, key) in model.color_sorted" :key="key">
-														<div v-if="key == 0">Базовый</div>
-														<div v-else> + {{key | spaceBetweenNum}} сум</div>
-														<ul class="color-list mv-2 pb-4">
-															<li v-for="(color, key) in colors" :key="key">
-																<a 
-																	href="javascript:;" data-toggle="tooltip" data-placement="bottom" :title="color.name+' ('+color.code+')'">
-																	<div class="color-circle" :style="'background-image: url('+'https://cdn.kia.ru/'+color.image+');'"></div>
-																</a>
-															</li>
-														</ul>
-													</div>
+					<section class="item exterior-color-section">
+						<a href=".item" class="title-click" tc tc-closest>Цвета кузова<i class="fa fa-angle-up"></i></a>
+						<div class="section-body">
+							<div class="section-body-wrapper">
+								<div class="config-param-item">
+									<div class="config-param-item-wrapper">
+										<div class="owl-table owl-carousel">
+											<div class="owl-table-item" v-for="(complectation, keyParent) in page_data.compls" :key="keyParent">
+												<div class="owl-table-item-box" v-for="(colorPrice, key) in complectation.exteriorPrices" :key="key">
+													<div v-if="key == 0"> Базовый </div>
+													<div v-else> + {{key | spaceBetweenNum}} сум</div>
+													<ul class="color-list mv-2 pb-4">
+														<li v-for="(color, key) in colorPrice" :key="key">
+															<a v-if="keyParent == 0" href="javascript:;" data-toggle="tooltip" data-placement="right" :title="color.name">
+																<div class="color-circle" :style="'background-image: url('+color.icon+');'"></div>
+															</a>
+															<a v-else href="javascript:;" data-toggle="tooltip" data-placement="bottom" :title="color.name">
+																<div class="color-circle" :style="'background-image: url('+color.icon+');'"></div>
+															</a>
+														</li>
+													</ul>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</section>
-						<section class="item interior-color-section" v-if="!page.model.interior_hide">
-							<a href=".item" class="title-click" tc tc-closest>Варианты интерьера<i class="fa fa-angle-up"></i></a>
-							<div class="section-body">
-								<div class="section-body-wrapper">
-									<div class="config-param-item" v-for="(interiorСolor, key) in page.modifications.interior_colors" :key="key">
-										<div class="config-param-item-wrapper">
-											<div class="m-b-15 align-center">
-												<div class="color-circle" 
-												:style="'background-image: url('+'https://cdn.kia.ru/'+interiorСolor.image+');width:40px;height:40px;'">
-												</div>
-												<span class="ml-2">
-													{{interiorСolor.name}} 
-													<span v-if="interiorСolor.price"> +{{interiorСolor.price | spaceBetweenNum}} сум</span>
-												</span>
-											</div>
-											<div class="owl-table owl-carousel">
-												<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
-													<div class="op-enable" v-for="(interiorColorId, key) in model.interior_colors" v-if="interiorColorId == interiorСolor.id" :key="key">
-														<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
-													</div>
-													<div><div>—</div></div>
+						</div>
+					</section>
+					<section class="item exterior-color-section">
+						<a href=".item" class="title-click" tc tc-closest>Варианты интерьера<i class="fa fa-angle-up"></i></a>
+						<div class="section-body">
+							<div class="section-body-wrapper">
+								<div class="config-param-item">
+									<div class="config-param-item-wrapper">
+										<div class="owl-table owl-carousel">
+											<div class="owl-table-item" v-for="(complectation, keyParent) in page_data.compls" :key="keyParent">
+												<div class="owl-table-item-box" v-for="(colorPrice, key) in complectation.interiorPrices" :key="key">
+													<div v-if="key == 0"> Базовый </div>
+													<div v-else> + {{key | spaceBetweenNum}} сум</div>
+													<ul class="color-list mv-2 pb-4">
+														<li v-for="(color, key) in colorPrice" :key="key">
+															<a v-if="keyParent == 0" href="javascript:;" data-toggle="tooltip" data-placement="right" :title="color.name">
+																<div class="color-circle" :style="'background-image: url('+color.icon+');'"></div>
+															</a>
+															<a v-else href="javascript:;" data-toggle="tooltip" data-placement="bottom" :title="color.name">
+																<div class="color-circle" :style="'background-image: url('+color.icon+');'"></div>
+															</a>
+														</li>
+													</ul>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</section>
-					</div>
+						</div>
+					</section>
+					<section class="item interior-color-section" v-if="false">
+						<a href=".item" class="title-click" tc tc-closest>Варианты интерьера<i class="fa fa-angle-up"></i></a>
+						<div class="section-body">
+							<div class="section-body-wrapper">
+								<div class="config-param-item" v-for="(interiorСolor, key) in page.modifications.interior_colors" :key="key">
+									<div class="config-param-item-wrapper">
+										<div class="m-b-15 align-center">
+											<div class="color-circle" 
+											:style="'background-image: url('+'https://cdn.kia.ru/'+interiorСolor.image+');width:40px;height:40px;'">
+											</div>
+											<span class="ml-2">
+												{{interiorСolor.name}} 
+												<span v-if="interiorСolor.price"> +{{interiorСolor.price | spaceBetweenNum}} сум</span>
+											</span>
+										</div>
+										<div class="owl-table owl-carousel">
+											<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
+												<div class="op-enable" v-for="(interiorColorId, key) in model.interior_colors" v-if="interiorColorId == interiorСolor.id" :key="key">
+													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
+												</div>
+												<div><div>—</div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
 			</div>
 		</div>
@@ -364,6 +392,9 @@
 
 
 <script>
+import Vue from 'vue';
+import _ from 'lodash';
+Vue.use(_);
 
 
 export default {
@@ -399,7 +430,14 @@ export default {
   methods: {
   },
 	created(){
-		this.complectations = this.page_data.compls
+		this.complectations = this.page_data.compls;
+		
+		this.page_data.compls.map((complectation, index)=>{
+			var exteriors = complectation.colors.bodyColors;
+			var interior = complectation.colors.interiorColors;
+			complectation.exteriorPrices = _.groupBy(exteriors, "price")
+			complectation.interiorPrices = _.groupBy(interior, "price")
+		})
 	},
   mounted() {
 		var v = this;
@@ -407,6 +445,84 @@ export default {
 			if($(el).find("li").length == 0)
 				$(el).closest(".list-block-body").addClass("hide");
 		})
+		window.olo = [
+			{
+				"id": 1100,
+				"name": "Snow White Pearl (SWP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1100/article-original.svg",
+				"price": 10000,
+				"metalic": "1"
+			},
+			{
+				"id": 1101,
+				"name": "Gravity Gray (KDG)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1101/article-original.svg",
+				"price": 10000,
+				"metalic": "1"
+			},
+			{
+				"id": 1102,
+				"name": "Steel Gray (KLG)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1102/article-original.svg",
+				"price": 10000,
+				"metalic": "1"
+			},
+			{
+				"id": 1103,
+				"name": "Stargright Yellow (B4Y)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1103/article-original.svg",
+				"price": 10000,
+				"metalic": "1"
+			},
+			{
+				"id": 1104,
+				"name": "Neptune Blue (B3A)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1104/article-original.svg",
+				"price": 10000,
+				"metalic": "1"
+			},
+			{
+				"id": 1105,
+				"name": "Mars Orange (M3R)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1105/article-original.svg",
+				"price": 10000,
+				"metalic": "1"
+			},
+			{
+				"id": 1106,
+				"name": "Dark Ocean Blue (BU3)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1106/article-original.svg",
+				"price": 10000,
+				"metalic": "1"
+			},
+			{
+				"id": 1107,
+				"name": "Cherry Black (9H)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1107/article-original.svg",
+				"price": 10000,
+				"metalic": "1"
+			},
+			{
+				"id": 1109,
+				"name": "Starbright Yellow / Cherry Black (GA7)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1109/article-original.svg",
+				"price": 5000000,
+				"metalic": "0"
+			},
+			{
+				"id": 1111,
+				"name": "Dark Ocean Blue / Clear White (GA4)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1111/article-original.svg",
+				"price": 5000000,
+				"metalic": "0"
+			},
+			{
+				"id": 1113,
+				"name": "Mars Orange / Clear White (GA3)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1113/article-original.svg",
+				"price": 5000000,
+				"metalic": "0"
+			}]
 		
 		function activeCarousel(){
 			window.configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
