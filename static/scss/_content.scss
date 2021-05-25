@@ -1238,6 +1238,7 @@ $heightSlider: auto;
 			padding-left: 30px;
 			padding-right: 30px;
 			margin-top: 340px;
+			margin-bottom: -200px;
 		}
 		.card-bnr-name{
 			text-align: center;
@@ -3447,6 +3448,12 @@ ymaps .map-cluster{
 .theme-dark{
 	background-color: #1f1f1f;
 	color: white;
+	.carousel-dots .owl-dot{
+		background-color: rgba(white, 0.3);
+		&.active{
+			background-color: rgba(white, 1);
+		}
+	}
 }
 .theme-black{
 	background-color: black;

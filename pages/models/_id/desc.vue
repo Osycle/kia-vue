@@ -45,7 +45,7 @@
       <div class="bg-video-content cover">
         <video v-if="page_data.header.video" :src="page_data.header.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
         <!-- <div class="img-md absolute" v-else :style="'background-image: url(https://cdn.kia.ru/resize/1920x960/'+bnr.images.desktop+');'"></div> -->
-        <!-- <div class="img-xs absolute" :style="'background-image: url(https://cdn.kia.ru/resize/770x442/'+bnr.images.mobile+');'"></div> -->
+        <!-- <div class="img-xs absolute" :style="'background-image: url(https://cdn.kia.ru/resize/770x442/media-data/banners/models/k5/main/375_model_hero.jpg);'"></div> -->
       </div>
       <div class="container-p relative">
         <div class="breadcrumb-container">

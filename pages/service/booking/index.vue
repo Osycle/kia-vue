@@ -29,6 +29,10 @@
                         <option value="">Модельный ряд</option>
                         <option>K5</option>
                         <option>Seltos</option>
+                        <option>Stinger</option>
+                        <option>Sorento</option>
+                        <option>Soul</option>
+                        <option>Carnival</option>
                       </select>
                     </div>
                   </div>
