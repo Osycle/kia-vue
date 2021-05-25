@@ -582,6 +582,7 @@ export default {
     $(document).on("click", ".showroom-item-cover", ()=>{
       window.CI360.init();
     })
+    $('[style="transform: none;"]').removeAttr("style")
   },
   methods: {
     /* События Изменение цвета  */

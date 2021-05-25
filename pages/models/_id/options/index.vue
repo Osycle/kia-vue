@@ -662,7 +662,7 @@ export default {
 		}
 
 		$(document).on("change", ".config-filter-items input", filter)
-		
+		$('[style="transform: none;"]').removeAttr("style")
   },
 }
 </script>
