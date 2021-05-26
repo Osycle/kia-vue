@@ -4421,3 +4421,70 @@ dt{
     padding-bottom: 25px;
 	}
 }
+.bar-width{
+	width: 300px;
+}
+.accessories{
+	.options-entry{
+		border-top: 1px solid $color-gray-3;
+	}
+	.config-filter-items .collapse-content fieldset{
+		border-bottom: 1px solid $color-gray-3;
+		a{
+			border: none;
+		}
+	}
+	.config-details{
+		padding-top: 0;
+	}
+}
+
+.accessories-items{
+	.item{
+		margin-top: 20px;
+		.img-content{
+			position: relative;
+			&:before{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				z-index: 5;
+				left: 0;
+				right: 0;
+				background: rgba(0,0,0,0.05);
+				content: "";
+			}
+		}
+		figure{
+			position: relative;
+			padding-bottom: 75.86207%;
+		}
+		.desc-content{
+			padding: 20px 0;
+			a{
+				display: block;
+				margin-bottom: 10px;
+			}
+		}
+		.color-gray{
+			font-size: 12px;
+			margin-bottom: 10px;
+		}
+		.price{
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 139%;
+		}
+	}
+}
+
+.special-ap{
+
+}
+.special-ap-offer{
+	&.active{
+		.num-content{
+			color: #219653;
+		}
+	}
+}

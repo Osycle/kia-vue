@@ -1,0 +1,738 @@
+{
+	"name": "K5",
+	"minPrice": 259900000,
+	"maxPrice": 396900000,
+	"sideImage": "https://cdn.kia-motors.uz/uploads/gallery/original-0a635b.png",
+	"options": [
+	{
+		"name": "Пакет \"Теплые опции\"",
+		"options": [
+		{
+			"id": "980",
+			"name": "Боковые зеркала заднего вида с электроприводом и подогревом"
+		},
+		{
+			"id": "981",
+			"name": "Подогрев передних сидений"
+		},
+		{
+			"id": "982",
+			"name": "Подогрев рулевого колеса"
+		},
+		{
+			"id": "1017",
+			"name": "Подогрев задних сидений"
+		}]
+	},
+	{
+		"name": "Экстерьер",
+		"options": [
+		{
+			"id": "986",
+			"name": "Легкосплавные диски 16\" с шинами 215/60 R16"
+		},
+		{
+			"id": "1001",
+			"name": "Внешние дверные ручки с отделкой хромом"
+		},
+		{
+			"id": "1002",
+			"name": "Светодиодные (LED) задние фонари"
+		},
+		{
+			"id": "1018",
+			"name": "Панорамная крыша и люк с электроприводом"
+		},
+		{
+			"id": "1193",
+			"name": "Атермальное остекление"
+		},
+		{
+			"id": "1000",
+			"name": "Легкосплавные диски 17\" с шинами 215/55 R17"
+		},
+		{
+			"id": "987",
+			"name": "Светодиодные (LED) противотуманные фары"
+		},
+		{
+			"id": "1019",
+			"name": "Светодиодные (LED) фары ближнего и дальнего света проекционного типа"
+		}]
+	},
+	{
+		"name": "Интерьер",
+		"options": [
+		{
+			"id": "988",
+			"name": "Рулевое колесо и ручка селектора трансмиссии с отделкой кожей"
+		},
+		{
+			"id": "989",
+			"name": "Отделка передней панели и дверей вставками под металл (Metal Paint)"
+		},
+		{
+			"id": "990",
+			"name": "Сиденья с отделкой тканью"
+		},
+		{
+			"id": "1004",
+			"name": "Сиденья с отделкой кожей"
+		},
+		{
+			"id": "1006",
+			"name": "Дверные панели и центральная консоль с отделкой искусственной кожей"
+		},
+		{
+			"id": "1021",
+			"name": "Светодиодная (LED) подсветка салона"
+		},
+		{
+			"id": "1003",
+			"name": "Отделка передней панели и дверей вставками под текстуру дерева (Hydro Wood)"
+		},
+		{
+			"id": "1022",
+			"name": "Динамическая подсветка интерьера Mood lamp с возможностью персонализации настроек (64 цвета)"
+		},
+		{
+			"id": "1196",
+			"name": "Сиденья с отделкой кожей «Премиум»"
+		},
+		{
+			"id": "1020",
+			"name": "Отделка передней панели и дверей вставками с изящным узором из тонких линий (Hairline Pad)"
+		}]
+	},
+	{
+		"name": "Комфорт",
+		"options": [
+		{
+			"id": "991",
+			"name": "Двухзонный автоматический климат-контроль"
+		},
+		{
+			"id": "992",
+			"name": "Камера заднего вида с динамическими линиями парковки"
+		},
+		{
+			"id": "995",
+			"name": "Электропривод складывания боковых зеркал заднего вида"
+		},
+		{
+			"id": "996",
+			"name": "Передние и задние датчики парковки"
+		},
+		{
+			"id": "1008",
+			"name": "Дефлекторы обдува для пассажиров второго ряда"
+		},
+		{
+			"id": "1015",
+			"name": "Приборная панель Supervision c цветным TFT дисплеем 4.2''"
+		},
+		{
+			"id": "993",
+			"name": "Автоматическая система предотвращения запотевания лобового стекла"
+		},
+		{
+			"id": "994",
+			"name": "Салонное зеркало с автоматическим затемнением (ECM)"
+		},
+		{
+			"id": "1007",
+			"name": "Датчик дождя"
+		},
+		{
+			"id": "1009",
+			"name": "Сидение водителя с электроприводом регулировок и поясничного подпора"
+		},
+		{
+			"id": "1010",
+			"name": "Стеклоподъемники водителя и переднего пассажира с функцией Auto"
+		},
+		{
+			"id": "1011",
+			"name": "Система бесключевого доступа Smart Key и запуск двигателя кнопкой"
+		},
+		{
+			"id": "1013",
+			"name": "Дистанционный запуск двигателя с ключа"
+		},
+		{
+			"id": "1014",
+			"name": "Электрический стояночный тормоз (EPB) c функцией Autohold"
+		},
+		{
+			"id": "1030",
+			"name": "Полностью цифровая приборная панель Supervision с цветным TFT дисплеем 12.3''"
+		},
+		{
+			"id": "1195",
+			"name": "Датчик давления в шинах"
+		},
+		{
+			"id": "1025",
+			"name": "Память настроек положения сиденья водителя"
+		},
+		{
+			"id": "1026",
+			"name": "Сидение пассажира с электроприводом регулировок и поясничного подпора"
+		},
+		{
+			"id": "1028",
+			"name": "Вентиляция передних сидений"
+		},
+		{
+			"id": "1029",
+			"name": "Система кругового обзора с 4 камерами"
+		},
+		{
+			"id": "1197",
+			"name": "Проекционный дисплей 8\" (HUD)"
+		},
+		{
+			"id": "1027",
+			"name": "Комфортное пассажирское сиденье с дополнительной настройкой положения релаксации “Relaxation seat”"
+		}]
+	},
+	{
+		"name": "Мультимедия",
+		"options": [
+		{
+			"id": "998",
+			"name": "Мультимедийная система с 8\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay"
+		},
+		{
+			"id": "1016",
+			"name": "2 USB разьема для зарядки мобильных устройств для пассажиров второго ряда"
+		}]
+	},
+	{
+		"name": "Безопасность",
+		"options": [
+		{
+			"id": "1194",
+			"name": "Автоматическая (электронная) система блокировки замков задних дверей от случайного открывания детьми"
+		},
+		{
+			"id": "1076",
+			"name": "Боковые подушки и шторки безопасности"
+		}]
+	},
+	{
+		"name": "Мультимедиа",
+		"options": [
+		{
+			"id": "998",
+			"name": "Мультимедийная система с 8\" цветным дисплеем, с поддержкой Android Auto и Apple Carplay"
+		},
+		{
+			"id": "1016",
+			"name": "2 USB разьема для зарядки мобильных устройств для пассажиров второго ряда"
+		},
+		{
+			"id": "1033",
+			"name": "Беспроводная зарядка мобильного телефона"
+		}]
+	},
+	{
+		"name": "Современные системы помощи водителю DRIVE WISE",
+		"options": [
+		{
+			"id": "1036",
+			"name": "Камеры для контроля слепых зон с отображением на панель приборов (BVM)"
+		},
+		{
+			"id": "1034",
+			"name": "Система контроля слепых зон (BCW)"
+		},
+		{
+			"id": "1037",
+			"name": "Система безопасного выхода (SEA)"
+		}]
+	},
+	{
+		"name": "Пакет GT Line",
+		"options": [
+		{
+			"id": "1038",
+			"name": "Легкосплавные диски 18\" с шинами 235/45 R18"
+		},
+		{
+			"id": "1039",
+			"name": "Решётка радиатора спортивного дизайна"
+		},
+		{
+			"id": "1040",
+			"name": "Спортивный передний бампер"
+		},
+		{
+			"id": "1041",
+			"name": "Отделка потолка и стоек кузова чёрного цвета"
+		},
+		{
+			"id": "1042",
+			"name": "Спортивное рулевое колесо с эмблемой \"GT Line\""
+		},
+		{
+			"id": "1043",
+			"name": "Спойлер на крышке багажника (чёрного цвета)"
+		},
+		{
+			"id": "1044",
+			"name": "Алюминиевые накладки на педали и пороги"
+		},
+		{
+			"id": "1045",
+			"name": "Подрулевые \"лепестки\" переключения передач"
+		},
+		{
+			"id": "1046",
+			"name": "Эмблема GT Line"
+		}]
+	}],
+	"engines": [
+	{
+		"id": 0,
+		"name": "2.0 MPI / 150 л.c., Бензин"
+	},
+	{
+		"id": 1,
+		"name": "2.5 GDI / 194 л.c., Бензин"
+	}],
+	"compls": [
+	{
+		"id": "0-0",
+		"name": "Comfort",
+		"engine": "2.0 MPI / 150 л.c., Бензин",
+		"engineId": 0,
+		"gearId": 0,
+		"privodId": 0,
+		"price": 259900000,
+		"offers": [
+		{
+			"name": "Программа Трейд-ин",
+			"value": 50000
+		},
+		{
+			"name": "Программа \"3 ТО в комплекте\"",
+			"value": 32000
+		}],
+		"colors":
+		{
+			"bodyColors": [
+			{
+				"id": 1048,
+				"name": "Clear White (UD)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1048/article-original.svg",
+				"price": 0,
+				"metalic": "0"
+			},
+			{
+				"id": 1051,
+				"name": "Snow White Pearl (SWP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1051/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			},
+			{
+				"id": 1049,
+				"name": "Yacht Blue (DU3)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1049/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1050,
+				"name": "Interstellar Gray (AGT)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1050/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1052,
+				"name": "Silky Silver (4SS)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1052/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1053,
+				"name": "Gravity Blue (B4U)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1053/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1054,
+				"name": "Aurora Black Pearl (ABP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1054/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			}],
+			"interiorColors": [
+			{
+				"id": 1055,
+				"name": "Черный, Натуральная кожа (WK)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1055/article-original.svg",
+				"price": 0
+			}]
+		},
+		"options": ["980", "981", "986", "988", "989", "990", "991", "992", "995", "996", "1008", "1015", "998", "1016"]
+	},
+	{
+		"id": "0-1",
+		"name": "Luxe +",
+		"engine": "2.0 MPI / 150 л.c., Бензин",
+		"engineId": 0,
+		"gearId": 0,
+		"privodId": 0,
+		"price": 305900000,
+		"offers": [
+		{
+			"name": "Программа Трейд-ин",
+			"value": 50000
+		},
+		{
+			"name": "Программа \"3 ТО в комплекте\"",
+			"value": 32000
+		}],
+		"colors":
+		{
+			"bodyColors": [
+			{
+				"id": 1048,
+				"name": "Clear White (UD)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1048/article-original.svg",
+				"price": 0,
+				"metalic": "0"
+			},
+			{
+				"id": 1051,
+				"name": "Snow White Pearl (SWP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1051/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			},
+			{
+				"id": 1049,
+				"name": "Yacht Blue (DU3)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1049/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1050,
+				"name": "Interstellar Gray (AGT)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1050/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1052,
+				"name": "Silky Silver (4SS)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1052/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1053,
+				"name": "Gravity Blue (B4U)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1053/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1054,
+				"name": "Aurora Black Pearl (ABP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1054/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			}],
+			"interiorColors": [
+			{
+				"id": 1055,
+				"name": "Черный, Натуральная кожа (WK)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1055/article-original.svg",
+				"price": 0
+			},
+			{
+				"id": 1056,
+				"name": "Бежевый, Натуральная кожа (DNN)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1056/article-original.svg",
+				"price": 5000000
+			}]
+		},
+		"options": ["980", "981", "986", "1001", "1002", "1018", "1193", "988", "989", "1004", "1006", "1021", "1194", "991", "992", "993", "994", "995", "996", "1007", "1008", "1009", "1010", "1011", "1013", "1014", "1015", "998", "1016"]
+	},
+	{
+		"id": "1-0",
+		"name": "Prestige +",
+		"engine": "2.5 GDI / 194 л.c., Бензин",
+		"engineId": 1,
+		"gearId": 1,
+		"privodId": 0,
+		"price": 334900000,
+		"offers": [
+		{
+			"name": "Программа Трейд-ин",
+			"value": 50000
+		},
+		{
+			"name": "Программа \"3 ТО в комплекте\"",
+			"value": 32000
+		}],
+		"colors":
+		{
+			"bodyColors": [
+			{
+				"id": 1048,
+				"name": "Clear White (UD)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1048/article-original.svg",
+				"price": 0,
+				"metalic": "0"
+			},
+			{
+				"id": 1051,
+				"name": "Snow White Pearl (SWP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1051/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			},
+			{
+				"id": 1049,
+				"name": "Yacht Blue (DU3)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1049/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1050,
+				"name": "Interstellar Gray (AGT)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1050/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1052,
+				"name": "Silky Silver (4SS)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1052/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1053,
+				"name": "Gravity Blue (B4U)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1053/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1054,
+				"name": "Aurora Black Pearl (ABP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1054/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			}],
+			"interiorColors": [
+			{
+				"id": 1055,
+				"name": "Черный, Натуральная кожа (WK)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1055/article-original.svg",
+				"price": 0
+			},
+			{
+				"id": 1056,
+				"name": "Бежевый, Натуральная кожа (DNN)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1056/article-original.svg",
+				"price": 5000000
+			}]
+		},
+		"options": ["980", "981", "982", "1017", "1000", "1001", "1002", "1018", "1193", "988", "989", "1004", "1006", "1021", "1076", "1194", "991", "992", "993", "994", "995", "996", "1007", "1008", "1009", "1010", "1011", "1013", "1014", "1030", "1195", "998", "1016", "1036"]
+	},
+	{
+		"id": "1-1",
+		"name": "Style",
+		"engine": "2.5 GDI / 194 л.c., Бензин",
+		"engineId": 1,
+		"gearId": 1,
+		"privodId": 0,
+		"price": 368900000,
+		"offers": [
+		{
+			"name": "Программа Трейд-ин",
+			"value": 50000
+		},
+		{
+			"name": "Программа \"3 ТО в комплекте\"",
+			"value": 32000
+		}],
+		"colors":
+		{
+			"bodyColors": [
+			{
+				"id": 1048,
+				"name": "Clear White (UD)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1048/article-original.svg",
+				"price": 0,
+				"metalic": "0"
+			},
+			{
+				"id": 1051,
+				"name": "Snow White Pearl (SWP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1051/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			},
+			{
+				"id": 1049,
+				"name": "Yacht Blue (DU3)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1049/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1050,
+				"name": "Interstellar Gray (AGT)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1050/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1052,
+				"name": "Silky Silver (4SS)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1052/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1053,
+				"name": "Gravity Blue (B4U)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1053/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1054,
+				"name": "Aurora Black Pearl (ABP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1054/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			}],
+			"interiorColors": [
+			{
+				"id": 1055,
+				"name": "Черный, Натуральная кожа (WK)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1055/article-original.svg",
+				"price": 0
+			},
+			{
+				"id": 1056,
+				"name": "Бежевый, Натуральная кожа (DNN)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1056/article-original.svg",
+				"price": 5000000
+			}]
+		},
+		"options": ["980", "981", "982", "1017", "987", "1000", "1001", "1002", "1018", "1019", "1193", "988", "1003", "1006", "1021", "1022", "1196", "1076", "1194", "991", "992", "993", "994", "995", "1007", "1008", "1009", "1010", "1011", "1013", "1014", "1025", "1026", "1028", "1029", "1030", "1195", "1197", "998", "1016", "1033", "1034", "1036", "1037"]
+	},
+	{
+		"id": "1-2",
+		"name": "GT Line",
+		"engine": "2.5 GDI / 194 л.c., Бензин",
+		"engineId": 1,
+		"gearId": 1,
+		"privodId": 0,
+		"price": 396900000,
+		"offers": [
+		{
+			"name": "Программа Трейд-ин",
+			"value": 0
+		},
+		{
+			"name": "Программа \"3 ТО в комплекте\"",
+			"value": 0
+		}],
+		"colors":
+		{
+			"bodyColors": [
+			{
+				"id": 1048,
+				"name": "Clear White (UD)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1048/article-original.svg",
+				"price": 0,
+				"metalic": "0"
+			},
+			{
+				"id": 1051,
+				"name": "Snow White Pearl (SWP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1051/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			},
+			{
+				"id": 1049,
+				"name": "Yacht Blue (DU3)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1049/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1050,
+				"name": "Interstellar Gray (AGT)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1050/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1052,
+				"name": "Silky Silver (4SS)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1052/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1053,
+				"name": "Gravity Blue (B4U)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1053/article-original.svg",
+				"price": 0,
+				"metalic": "1"
+			},
+			{
+				"id": 1054,
+				"name": "Aurora Black Pearl (ABP)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1054/article-original.svg",
+				"price": 3000000,
+				"metalic": "1"
+			}],
+			"interiorColors": [
+			{
+				"id": 1055,
+				"name": "Черный, Натуральная кожа (WK)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1055/article-original.svg",
+				"price": 0
+			},
+			{
+				"id": 1056,
+				"name": "Бежевый, Натуральная кожа (DNN)",
+				"icon": "https://cdn.kia-motors.uz/uploads/articles/1056/article-original.svg",
+				"price": 5000000
+			}]
+		},
+		"options": ["980", "981", "982", "1017", "987", "1001", "1002", "1018", "1019", "1193", "988", "1006", "1020", "1021", "1022", "1196", "1076", "1194", "991", "992", "993", "994", "995", "1007", "1008", "1009", "1010", "1011", "1013", "1014", "1015", "1025", "1026", "1027", "1028", "1029", "1030", "1197", "998", "1016", "1033", "1034", "1036", "1037", "1038", "1039", "1040", "1041", "1042", "1043", "1044", "1045", "1046"]
+	}],
+	"gears": [
+	{
+		"id": 0,
+		"gear": "Автомат (6AT)"
+	},
+	{
+		"id": 1,
+		"gear": "Автомат (8AT)"
+	}],
+	"privodi": [
+	{
+		"id": 0,
+		"privod": "Передний"
+	}]
+}

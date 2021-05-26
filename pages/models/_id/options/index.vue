@@ -274,6 +274,70 @@
 							</div>
 						</section>
 					</div>
+					<!-- v-if="page_data.compls[0].offers" -->
+					<section class="item special-ap">
+						<a href=".item" class="title-click" tc tc-closest>Спецпредложения и цены<i class="fa fa-angle-up"></i></a>
+						<div class="section-body">
+							<div class="section-body-wrapper">
+								<div class="config-param-item">
+									<div class="config-param-item-wrapper">
+										<p class="m-b-15 align-center">Максимальная розничная цена перепродажи на автомобили ПТС 2021</p>
+										<div class="owl-table owl-carousel" v-if="statusCompl">
+											<div class="owl-table-item" v-for="(complectation, key) in complectations" :key="key">
+												<div class="num-content">
+													<span :price="complectation.price" class="item-price">
+														{{complectation.price | spaceBetweenNum}} сум
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="config-param-item special-ap-offer" 
+									:class="{'active': offer.status}"
+									v-for="(offer, keyParent) in offers" :key="keyParent">
+									<div class="config-param-item-wrapper">
+										<p class="align-center">
+											<label role="button" class="align-center m-v-15">
+												<input type="checkbox" class="none offers-input"
+													name="offers" :value="keyParent">
+												<span class="checkbox-style-1"></span> 
+												<span class="m-l-10">{{offer.name}}</span>
+											</label>
+										</p>
+										<div class="owl-table owl-carousel" v-if="statusCompl">
+											<div class="owl-table-item" v-for="(complectation, key) in complectations" :key="key">
+												<div class="num-content" v-if="complectation.offers[keyParent].value*1 != 0">
+													<span :price-minus="complectation.offers[keyParent].value" class="item-price">
+														- {{complectation.offers[keyParent].value | spaceBetweenNum}} сум
+													</span>
+												</div>
+												<div v-else>
+													<div>-</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="config-param-item special-ap-offer special-ap-offer-benefit">
+									<div class="config-param-item-wrapper">
+										<p class="align-center">Итоговая выгода</p>
+										<div class="owl-table owl-carousel" v-if="statusCompl">
+											<div class="owl-table-item" v-for="(complectation, key) in complectations" :key="key">
+												<div class="num-content">
+													<span :offer-complecation-id="complectation.id" class="item-price">
+														{{complectation.summaryPrice | spaceBetweenNum}} сум
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 					<section class="item" v-for="(parentOption, key) in page_data.options" :key="key">
 						<a href=".item" class="title-click" tc tc-closest>{{parentOption.name}}<i class="fa fa-angle-up"></i></a>
 						<div class="section-body">
@@ -352,34 +416,6 @@
 							</div>
 						</div>
 					</section>
-					<section class="item interior-color-section" v-if="false">
-						<a href=".item" class="title-click" tc tc-closest>Варианты интерьера<i class="fa fa-angle-up"></i></a>
-						<div class="section-body">
-							<div class="section-body-wrapper">
-								<div class="config-param-item" v-for="(interiorСolor, key) in page.modifications.interior_colors" :key="key">
-									<div class="config-param-item-wrapper">
-										<div class="m-b-15 align-center">
-											<div class="color-circle" 
-											:style="'background-image: url('+'https://cdn.kia.ru/'+interiorСolor.image+');width:40px;height:40px;'">
-											</div>
-											<span class="ml-2">
-												{{interiorСolor.name}} 
-												<span v-if="interiorСolor.price"> +{{interiorСolor.price | spaceBetweenNum}} сум</span>
-											</span>
-										</div>
-										<div class="owl-table owl-carousel">
-											<div class="owl-table-item" v-for="(model, key) in page.modifications.complectations" :key="key">
-												<div class="op-enable" v-for="(interiorColorId, key) in model.interior_colors" v-if="interiorColorId == interiorСolor.id" :key="key">
-													<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg> 
-												</div>
-												<div><div>—</div></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
 				</div>
 			</div>
 		</div>
@@ -422,6 +458,7 @@ export default {
   },
   data(){
     return{
+			offers: [],
 			filterVisible: true,
 			statusCompl: true,
 			complectations: [],
@@ -430,8 +467,18 @@ export default {
   methods: {
   },
 	created(){
+		var v = this;
 		this.complectations = this.page_data.compls;
-		
+
+
+		this.complectations.map(e=>{e.summaryPrice = e.price})
+		this.offers = this.page_data.compls[0].offers;
+		this.offers.map(e=>{
+			e.status = null;
+		})
+
+
+
 		this.page_data.compls.map((complectation, index)=>{
 			var exteriors = complectation.colors.bodyColors;
 			var interior = complectation.colors.interiorColors;
@@ -445,85 +492,34 @@ export default {
 			if($(el).find("li").length == 0)
 				$(el).closest(".list-block-body").addClass("hide");
 		})
-		window.olo = [
-			{
-				"id": 1100,
-				"name": "Snow White Pearl (SWP)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1100/article-original.svg",
-				"price": 10000,
-				"metalic": "1"
-			},
-			{
-				"id": 1101,
-				"name": "Gravity Gray (KDG)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1101/article-original.svg",
-				"price": 10000,
-				"metalic": "1"
-			},
-			{
-				"id": 1102,
-				"name": "Steel Gray (KLG)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1102/article-original.svg",
-				"price": 10000,
-				"metalic": "1"
-			},
-			{
-				"id": 1103,
-				"name": "Stargright Yellow (B4Y)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1103/article-original.svg",
-				"price": 10000,
-				"metalic": "1"
-			},
-			{
-				"id": 1104,
-				"name": "Neptune Blue (B3A)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1104/article-original.svg",
-				"price": 10000,
-				"metalic": "1"
-			},
-			{
-				"id": 1105,
-				"name": "Mars Orange (M3R)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1105/article-original.svg",
-				"price": 10000,
-				"metalic": "1"
-			},
-			{
-				"id": 1106,
-				"name": "Dark Ocean Blue (BU3)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1106/article-original.svg",
-				"price": 10000,
-				"metalic": "1"
-			},
-			{
-				"id": 1107,
-				"name": "Cherry Black (9H)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1107/article-original.svg",
-				"price": 10000,
-				"metalic": "1"
-			},
-			{
-				"id": 1109,
-				"name": "Starbright Yellow / Cherry Black (GA7)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1109/article-original.svg",
-				"price": 5000000,
-				"metalic": "0"
-			},
-			{
-				"id": 1111,
-				"name": "Dark Ocean Blue / Clear White (GA4)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1111/article-original.svg",
-				"price": 5000000,
-				"metalic": "0"
-			},
-			{
-				"id": 1113,
-				"name": "Mars Orange / Clear White (GA3)",
-				"icon": "https://cdn.kia-motors.uz/uploads/articles/1113/article-original.svg",
-				"price": 5000000,
-				"metalic": "0"
-			}]
-		
+
+		function offersChange(){
+			//v.statusCompl = false;
+			var that = $(this);
+			//var parentWrap = that.closest(".config-param-item");
+			var idNum  = that.val();
+
+			console.log(idNum);
+			v.offers[idNum]
+			if(this.checked){
+				console.log(v.offers[idNum]);
+				v.offers[idNum].status = true;	
+				v.complectations.map(e=>{
+					e.summaryPrice = e.summaryPrice-e.offers[idNum].value
+				})
+			}else{
+				v.offers[idNum].status = false
+				v.complectations.map(e=>{
+					e.summaryPrice = e.summaryPrice+e.offers[idNum].value
+				})
+			}
+			// setTimeout(() => {
+			// 	v.statusCompl = true;
+			// 	setTimeout(() => {
+			// 		activeCarousel();
+			// 	}, 1)
+			// }, 1);
+		}
 		function activeCarousel(){
 			window.configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
 					nav: true,
@@ -550,8 +546,6 @@ export default {
 					margin: 0
 			});
 			
-
-
 			window.configTableCrs = $(".owl-table.owl-carousel").owlCarousel({
 					nav: false,
 					loop: false,
@@ -584,25 +578,9 @@ export default {
 				configTableCrs.trigger('prev.owl.carousel');
 			})
 		}
-		activeCarousel();
-
-		$('.config-sidebar').theiaStickySidebar({
-			//additionalMarginBottom: -300,
-			additionalMarginTop: 60,
-			defaultPosition: "absolute"
-		});
-		
-		$('.options-body').theiaStickySidebar({
-			//updateSidebarHeight: true,
-			additionalMarginBottom: -200,
-			disableOnResponsiveLayouts: false,
-			additionalMarginTop: 60,
-			defaultPosition: "absolute"
-		});
-
 
 		function filter(e){
-			
+			console.log("filter");
 			v.statusCompl = false;
 			var el = e.currentTarget;
 			var newComplectations = false;
@@ -660,6 +638,33 @@ export default {
 
 			
 		}
+
+
+		/* Спецпредложения и цены */
+		$(document).on("change", ".offers-input", offersChange)
+
+		
+
+		window.activeCarousel = activeCarousel;
+		window.filter = filter;
+		filter({currentTarget: $(".config-filter-items input")[0]});
+		activeCarousel();
+
+		$('.config-sidebar').theiaStickySidebar({
+			//additionalMarginBottom: -300,
+			additionalMarginTop: 60,
+			defaultPosition: "absolute"
+		});
+		
+		$('.options-body').theiaStickySidebar({
+			//updateSidebarHeight: true,
+			additionalMarginBottom: -200,
+			disableOnResponsiveLayouts: false,
+			additionalMarginTop: 60,
+			defaultPosition: "absolute"
+		});
+
+
 
 		$(document).on("change", ".config-filter-items input", filter)
 		$('[style="transform: none;"]').removeAttr("style")

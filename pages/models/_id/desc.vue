@@ -279,7 +279,7 @@
           <div class="showroom-main m-v-10">
             <div
                 class="cloudimage-360"
-                :data-folder="currentExterior.colorFolder"
+                :data-folder="currentExterior.colorFolder+'/'"
                 data-filename="{index}.png"
                 data-spin-reverse
                 data-amount="72">

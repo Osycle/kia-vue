@@ -9,10 +9,14 @@
             <div class="header-top-content">
               <div class="menu p-h-15">
                 <ul class="menu-list">
-                  <li v-for="(item, key) in menu_data.menus" :key="key" v-if="key <= 3">
+                  <!-- <li v-for="(item, key) in menu_data.menus" :key="key" v-if="key <= 3">
                     <nuxt-link active-class="active" v-if="!item.subsections" :to="item.url">{{item.name}}</nuxt-link>
                     <a v-else href="javascript:;" :subdown-click="item.id">{{item.name}}</a>
-                  </li>
+                  </li> -->
+                  <li><nuxt-link active-class="active" to="/models">Модели</nuxt-link></li>
+                  <li><a href="javascript:;" subdown-click="1">Выбор и покупка</a></li>
+                  <li><nuxt-link active-class="active" to="/configurator">Конфигуратор</nuxt-link></li>
+                  <li><nuxt-link active-class="active" to="/buy/cars">Авто в наличии</nuxt-link></li>
                 </ul>
               </div>
               <div class="header-logo col-md-2 p-h-15">
@@ -26,10 +30,13 @@
               </div>
               <div class="menu p-h-15">
                 <ul class="menu-list justify-c-end">
-                  <li v-for="(item, key) in menu_data.menus" :key="key" v-if="key > 3">
+                  <!-- <li v-for="(item, key) in menu_data.menus" :key="key" v-if="key > 3">
                     <nuxt-link active-class="active" v-if="!item.subsections" :to="item.url">{{item.name}}</nuxt-link>
                     <a v-else href="javascript:;" :subdown-click="item.id">{{item.name}}</a>
-                  </li>
+                  </li> -->
+                  <li><nuxt-link to="/service/booking">Запись на сервис</nuxt-link></li>
+                  <li><a href="javascript:;" subdown-click="3">Мир KIA</a></li>
+                  <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
                 </ul>
               </div>
             </div>
@@ -37,73 +44,215 @@
         </div>
       </div>
 
+      <div class="subdown" subdown="1">
+        <div class="subdown-wrapper">
+          <div class="bg-shadow" subdown-click></div>
+          <div class="subdown-item">
+            <div class="container-p">
+              <div class="subdown-item-wrapper">
+                <div class="subdown-menu-items">
+                  <div>
+                    <div class="item">
+                      <div class="color-gray-4 title-content">Новые авто</div>
+                      <ul>
+                        <li><nuxt-link to="/buy">Онлайн-сервисы</nuxt-link></li>
+                        <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
+                        <!-- <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li> -->
+                        <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li>
+                        <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
+                        <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>
+                        <li><nuxt-link to="/buy/testdrive">Запись на тест-драйв</nuxt-link></li>
+                      </ul>
+                    </div>
+                    <div class="item">
+                      <div class="color-gray-4 title-content">KIA в Узбекистане</div>
+                      <ul>
+                        <li><nuxt-link to="/feedback">Обратная связь</nuxt-link></li>
+                        <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
+                      </ul>
+                    </div>
+                    <div class="item">
+                      <div class="color-gray-4 title-content">Владельцам</div>
+                      <ul>
+                        <li><nuxt-link to="/service/">Все сервисы</nuxt-link></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="subdown-right hide">
+                  <div class="subdown-ad">
+                    <a href="../">
+                      <div class="img-content">
+                        <div class="img" style="background-image: url('https://cdn.kia.ru/site-data/menu/banners/buy_banner.jpg');"></div>
+                      </div>
+                      <div class="desc-content">
+                        <span class="text-s1">Специальная серия Edition Plus</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subdown-footer">
+              <div class="subdown-footer-items">
+                <figure>
+                  <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/9de04711-0734-4618-ad3d-523c6b14d53b.jpg');"></div>
+                  <div class="desc-content">
+                    <h2>
+                      <nuxt-link to="/configurator">Конфигуратор</nuxt-link>
+                    </h2>
+                  </div>
+                </figure>
+                <figure>
+                  <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/af3343b2-d53a-49a6-aa11-4cf7e01aff81.jpg');"></div>
+                  <div class="desc-content">
+                    <h2>
+                      <nuxt-link to="/service/special">Спецпредложения</nuxt-link>
+                    </h2>
+                  </div>
+                </figure>
+                <figure>
+                  <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/57a17a2b-c237-4668-bcb6-9b2e0ea04370.jpg');"></div>
+                  <div class="desc-content">
+                    <h2>
+                      <nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link>
+                    </h2>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <template v-for="(item) in menu_data.menus" v-if="item.subsections">
-        <div class="subdown" :subdown="item.id">
-          <div class="subdown-wrapper">
-            <div class="bg-shadow" subdown-click></div>
-            <div class="subdown-item">
-              <div class="container-p">
-                <div class="subdown-item-wrapper">
+      <div class="subdown" subdown="2">
+        <div class="subdown-wrapper">
+          <div class="bg-shadow" subdown-click></div>
+          <div class="subdown-item">
+            <div class="container-p">
+              <div class="subdown-item-wrapper">
+                <div class="subdown-menu-items">
+                  <!-- clear -->
+                </div>
+                <div class="subdown-right">
+                  <div class="subdown-ad">
+                    <a href="../">
+                      <div class="img-content">
+                        <div class="img" style="background-image: url('https://cdn.kia.ru/site-data/menu/banners/mir_kia_banner.png');"></div>
+                      </div>
+                      <div class="desc-content">
+                        <span class="text-s1">Программы поддержки клиентов KIA</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subdown-footer" v-if="false">
+              <div class="subdown-footer-items">
+                <figure>
+                  <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/8abd3f03-c0bc-420d-9a74-d0a3980edcf9.png');"></div>
+                  <div class="desc-content">
+                    <h2><a href="../">Запись на сервис</a></h2>
+                  </div>
+                </figure>
+                <figure>
+                  <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/1f9b86ac-23ab-49ac-b98f-cf18b2514bcf.png');"></div>
+                  <div class="desc-content">
+                    <h2><a href="../">Аксессуары</a></h2>
+                  </div>
+                </figure>
+                <figure>
+                  <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/9d49bd85-f462-4f9e-a5ab-5f52329fc61f.png');"></div>
+                  <div class="desc-content">
+                    <h2><a href="../">Спецпредложения</a></h2>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="subdown" subdown="3">
+        <div class="subdown-wrapper">
+          <div class="bg-shadow subdown-click" subdown-click="3"></div>
+          <div class="subdown-item">
+            <div class="container-p">
+              <div class="subdown-item-wrapper">
+                <div>
                   <div class="subdown-menu-items">
                     <div>
-                      <div class="item" v-for="(sub, key) in item.subsections" :key="key">
-                        <div class="color-gray-4 title-content">{{sub.name}}</div>
+                      <div class="item">
+                        <div class="color-gray-4 title-content">Бренд KIA</div>
                         <ul>
-                          <li v-for="(subitem, key) in sub.values" :key="key">
-                            <nuxt-link :to="subitem.url">{{subitem.name}}</nuxt-link>
-                          </li>
+                          <li><nuxt-link to="/about/brand/">Компания KIA Motors</nuxt-link></li>
+                          <li><nuxt-link to="/about/history/">История</nuxt-link></li>
+                          <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
+                          <li><a href="https://worldwide.kia.com/int/our-movement" target="_blank">Kia worldwide</a></li>
+                        </ul>
+                      </div>
+                      <div class="item">
+                        <div class="color-gray-4 title-content">KIA в Узбекистане</div>
+                        <ul>
+                          <li><nuxt-link to="/about/">О нас</nuxt-link></li>
+                          <li><nuxt-link to="/feedback/">Обратная связь</nuxt-link></li>
+                          <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
+                          <li><nuxt-link to="/about/dealer/">Как стать дилером</nuxt-link></li>
+                          <li><nuxt-link to="/feedback">Заказать звонок дилера</nuxt-link></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div>          
+                      <div class="item">
+                        <div class="color-gray-4 title-content">Инновации</div>
+                        <ul>
+                          <li><nuxt-link to="/about/design/">Дизайн</nuxt-link></li>
+                          <li><nuxt-link to="/about/concept/">Концепт-кары</nuxt-link></li>
+                          <li><nuxt-link to="/about/technologies">Технологии</nuxt-link></li>
+                        </ul>
+                      </div>
+                      <div class="item">
+                        <div class="color-gray-4 title-content">Медиа</div>
+                        <ul>
+                          <li><nuxt-link to="/press/news">Новости</nuxt-link></li>
+                          <li><nuxt-link to="/press/reviews">Обзоры</nuxt-link></li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                  <div class="subdown-right hide">
-                    <div class="subdown-ad">
-                      <a href="../">
-                        <div class="img-content">
-                          <div class="img" style="background-image: url('https://cdn.kia.ru/site-data/menu/banners/buy_banner.jpg');"></div>
-                        </div>
-                        <div class="desc-content">
-                          <span class="text-s1">Специальная серия Edition Plus</span>
-                        </div>
-                      </a>
-                    </div>
+                </div>
+                <div class="subdown-info">
+                  <div class="subdown-info-item m-b-30">
+                    <div class="color-gray-4 m-b-10">Информационная линия KIA</div>
+                    <div class="text-x2 fw-6"><a :href="'tel:'+menu_data.phone"><big>{{menu_data.phone | spacePhone}}</big></a></div>
+                  </div>
+                  <div class="footer-soc">
+                    <div class="color-gray-4 m-b-10">KIA в соцсетях</div>
+                    <ul class="m-t-5">
+                      <li v-for="(item, key) in menu_data.socials" :key="key">
+                        <a :href="item.url" target="_blank" :title="item.name" v-html="item.icon"></a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-              </div>
-              <div class="subdown-footer">
-                <div class="subdown-footer-items">
-                  <figure>
-                    <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/9de04711-0734-4618-ad3d-523c6b14d53b.jpg');"></div>
-                    <div class="desc-content">
-                      <h2>
-                        <nuxt-link to="/configurator">Конфигуратор</nuxt-link>
-                      </h2>
-                    </div>
-                  </figure>
-                  <figure>
-                    <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/af3343b2-d53a-49a6-aa11-4cf7e01aff81.jpg');"></div>
-                    <div class="desc-content">
-                      <h2>
-                        <nuxt-link to="/service/special">Спецпредложения</nuxt-link>
-                      </h2>
-                    </div>
-                  </figure>
-                  <figure>
-                    <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/57a17a2b-c237-4668-bcb6-9b2e0ea04370.jpg');"></div>
-                    <div class="desc-content">
-                      <h2>
-                        <nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link>
-                      </h2>
-                    </div>
-                  </figure>
+                <div class="subdown-right">
+                  <div class="subdown-ad">
+                    <a href="../">
+                      <div class="img-content">
+                        <div class="img" style="background-image: url('https://cdn.kia.ru/site-data/menu/banners/mir_kia_banner.png');"></div>
+                      </div>
+                      <div class="desc-content">
+                        <span class="text-s1">Программа лояльности «Семья KIA»</span>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </template>
-
+      </div>
 
     </header>
 		<!-- MIN MENU -->
