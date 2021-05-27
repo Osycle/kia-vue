@@ -159,6 +159,21 @@
               </div>
             </div>
             <div class="config-details">
+              <section class="item active" v-if="page_data.standart">
+                <a href=".item" class="title-click" tc tc-closest>Стандартное оборудование<i class="fa fa-angle-up"></i></a>
+                <div class="section-body">
+                  <div class="section-body-wrapper">
+                    <div class="list-block-body" v-for="(item, key) in page_data.standart" :key="key">
+                      <h4>{{item.name}}</h4>
+                      <ul>
+                        <li v-for="(text, key) in item.values" :key="key">
+                          <span>{{text}}</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
               <section class="item">
                 <a href=".item" class="title-click" tc-closest tc>Основные опции {{page_data.name}} {{page_data.complName}}<i class="fa fa-angle-up"></i></a>
                 <div class="section-body">

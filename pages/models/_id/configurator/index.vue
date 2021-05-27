@@ -188,6 +188,21 @@
                     :key="index" 
                     :id="'config-details-'+complectation.name.replace(/ /, '-').toLowerCase()" 
                     :config-complectation-id="complectation.name.replace(/ /, '-').toLowerCase()">
+                    <section class="item active" v-if="model.standart">
+                      <a href=".item" class="title-click" tc tc-closest>Стандартное оборудование<i class="fa fa-angle-up"></i></a>
+                      <div class="section-body">
+                        <div class="section-body-wrapper">
+                          <div class="list-block-body" v-for="(item, key) in model.standart" :key="key">
+                            <h4>{{item.name}}</h4>
+                            <ul>
+                              <li v-for="(text, key) in item.values" :key="key">
+                                <span>{{text}}</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
                     <section  class="item active" v-for="(gOption, key) in complectation.options" :key="key">
                       <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
                       <div class="section-body">
@@ -412,6 +427,21 @@
                 </div>
               </div>
               <div class="config-details">
+                <section class="item active" v-if="model.standart">
+                  <a href=".item" class="title-click" tc tc-closest>Стандартное оборудование<i class="fa fa-angle-up"></i></a>
+                  <div class="section-body">
+                    <div class="section-body-wrapper">
+                      <div class="list-block-body" v-for="(item, key) in model.standart" :key="key">
+                        <h4>{{item.name}}</h4>
+                        <ul>
+                          <li v-for="(text, key) in item.values" :key="key">
+                            <span>{{text}}</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </section>
                 <section class="item" v-for="(gOption, key) in currentComplectation.options" :key="key">
                   <a href=".item" class="title-click" tc-closest tc>{{gOption.name}}<i class="fa fa-angle-up"></i></a>
                   <div class="section-body">
