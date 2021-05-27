@@ -9,10 +9,6 @@
             <div class="header-top-content">
               <div class="menu p-h-15">
                 <ul class="menu-list">
-                  <!-- <li v-for="(item, key) in menu_data.menus" :key="key" v-if="key <= 3">
-                    <nuxt-link active-class="active" v-if="!item.subsections" :to="item.url">{{item.name}}</nuxt-link>
-                    <a v-else href="javascript:;" :subdown-click="item.id">{{item.name}}</a>
-                  </li> -->
                   <li><nuxt-link active-class="active" to="/models">Модели</nuxt-link></li>
                   <li><a href="javascript:;" subdown-click="1">Выбор и покупка</a></li>
                   <li><nuxt-link active-class="active" to="/configurator">Конфигуратор</nuxt-link></li>
@@ -30,10 +26,6 @@
               </div>
               <div class="menu p-h-15">
                 <ul class="menu-list justify-c-end">
-                  <!-- <li v-for="(item, key) in menu_data.menus" :key="key" v-if="key > 3">
-                    <nuxt-link active-class="active" v-if="!item.subsections" :to="item.url">{{item.name}}</nuxt-link>
-                    <a v-else href="javascript:;" :subdown-click="item.id">{{item.name}}</a>
-                  </li> -->
                   <li><nuxt-link to="/service/booking">Запись на сервис</nuxt-link></li>
                   <li><a href="javascript:;" subdown-click="3">Мир KIA</a></li>
                   <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>

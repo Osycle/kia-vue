@@ -281,6 +281,17 @@
 							<div class="section-body-wrapper">
 								<div class="config-param-item">
 									<div class="config-param-item-wrapper">
+										<p class="align-center">
+											<label role="button" class="align-center m-v-15">
+												<input type="checkbox" class="none offers-all" name="offers" value="all">
+												<span class="checkbox-style-1"></span> 
+												<span class="m-l-10">Максимальная выгода</span>
+											</label>
+										</p>
+									</div>
+								</div>
+								<div class="config-param-item">
+									<div class="config-param-item-wrapper">
 										<p class="m-b-15 align-center">Максимальная розничная цена перепродажи на автомобили ПТС 2021</p>
 										<div class="owl-table owl-carousel" v-if="statusCompl">
 											<div class="owl-table-item" v-for="(complectation, key) in complectations" :key="key">
@@ -326,7 +337,25 @@
 										<p class="align-center">Итоговая выгода</p>
 										<div class="owl-table owl-carousel" v-if="statusCompl">
 											<div class="owl-table-item" v-for="(complectation, key) in complectations" :key="key">
-												<div class="num-content">
+												<div class="num-content color-green" v-if="complectation.price-complectation.summaryPrice != 0">
+													<span :offer-complecation-id="complectation.id" class="item-price">
+														{{complectation.price-complectation.summaryPrice | spaceBetweenNum}} сум
+													</span>
+												</div>
+												<div v-else>
+													<div>-</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="config-param-item special-ap-offer special-ap-offer-benefit">
+									<div class="config-param-item-wrapper">
+										<p class="align-center">Цена с учетом выгоды</p>
+										<div class="owl-table owl-carousel" v-if="statusCompl">
+											<div class="owl-table-item" v-for="(complectation, key) in complectations" :key="key">
+												<div class="num-content color-red">
 													<span :offer-complecation-id="complectation.id" class="item-price">
 														{{complectation.summaryPrice | spaceBetweenNum}} сум
 													</span>
@@ -335,6 +364,7 @@
 										</div>
 									</div>
 								</div>
+
 							</div>
 						</div>
 					</section>
@@ -499,10 +529,8 @@ export default {
 			//var parentWrap = that.closest(".config-param-item");
 			var idNum  = that.val();
 
-			console.log(idNum);
 			v.offers[idNum]
 			if(this.checked){
-				console.log(v.offers[idNum]);
 				v.offers[idNum].status = true;	
 				v.complectations.map(e=>{
 					e.summaryPrice = e.summaryPrice-e.offers[idNum].value
@@ -513,12 +541,6 @@ export default {
 					e.summaryPrice = e.summaryPrice+e.offers[idNum].value
 				})
 			}
-			// setTimeout(() => {
-			// 	v.statusCompl = true;
-			// 	setTimeout(() => {
-			// 		activeCarousel();
-			// 	}, 1)
-			// }, 1);
 		}
 		function activeCarousel(){
 			window.configCrs = $(".config-variants-items.owl-carousel").owlCarousel({
@@ -641,7 +663,15 @@ export default {
 
 
 		/* Спецпредложения и цены */
-		$(document).on("change", ".offers-input", offersChange)
+		$(".offers-input").on("change", offersChange)
+		$(".offers-all").on("change", function(){
+			console.log(this.checked);
+			if(this.checked)
+				$(".offers-input").prop("checked", true).trigger("change") 
+			else
+				$(".offers-input").prop("checked", false).trigger("change") 
+		})
+		$(".offers-all").prop("checked", true).trigger("change") 
 
 		
 

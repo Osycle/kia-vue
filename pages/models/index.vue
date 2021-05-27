@@ -21,22 +21,22 @@
               <figure v-for="(model, key) in type.models" :key="key">
                 <div>
                   <div class="img-content" >
-                    <nuxt-link exact :to="$route.path+'/'+model.url+'/desc/'">
+                    <nuxt-link exact :to="model.url+'/desc/'">
                       <img :src="model.image">
                     </nuxt-link>
                   </div>
                   <div class="desc-content">
                     <div class="car-card__name">
                       <div v-if="model.soon">Скоро</div>
-                      <nuxt-link exact :to="$route.path+'/'+model.url+'/desc/'">{{model.name}}</nuxt-link>
+                      <nuxt-link exact :to="model.url+'/desc/'">{{model.name}}</nuxt-link>
                       <span class="car-card-new" v-if="model.soon">Новинка</span>
                     </div>
                     <div class="car-card-price m-v-5" v-if="model.minPrice">
                       <p><span class="p-r-10">от {{ model.minPrice | spaceBetweenNum }} сум</span><a class="flex" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></p>
                     </div>
                     <div class="car-card-links" v-if="model.minPrice">
-                      <nuxt-link exact :to="$route.path+'/'+model.url+'/configurator/'" class="btn-link-1">Конфигуратор<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></nuxt-link>
-                      <nuxt-link exact :to="$route.path+'/'+model.url+'/options/'" class="btn-link-1">Цены<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></nuxt-link>
+                      <nuxt-link exact :to="model.url+'/configurator/'" class="btn-link-1">Конфигуратор<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></nuxt-link>
+                      <nuxt-link exact :to="model.url+'/options/'" class="btn-link-1">Цены<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></nuxt-link>
                     </div>
                   </div>
                 </div>
