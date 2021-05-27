@@ -1,11 +1,11 @@
 <template>
-  <div class="Kiaworld-other">
+  <div class="kiaworld-other">
     <div class="container-p p-v-md-60 p-v-30">
       <div class="entry-header m-v-30">
         <h3>Подробнее о Kia</h3>
       </div>
-      <div class="Kiaworld-other-items m-v-30 owl-carousel boxes-3 m-v-30 owl-btn-2">
-        <figure v-for="(item, key) in KiaworldOtherItems" :key="key">
+      <div class="kiaworld-other-items m-v-30 owl-carousel boxes-3 m-v-30 owl-btn-2">
+        <figure v-for="(item, key) in kiaworldOtherItems" :key="key">
           <nuxt-link :to="item.url">
             <div class="fig-wrapper">
               <div class="img-content">
@@ -25,7 +25,10 @@
 <script>
 export default {
   props: [
-    'Kiaworld-other-items'
-  ]
+    'kiaworld-other-items'
+  ],
+  mounted(){
+    
+  }
 }
 </script>
