@@ -210,64 +210,17 @@
 					</div>
 				</div>
 				<div class="config-details">
-					<div v-if="false">
-						<section class="item active">
+					<div>
+						<section class="item active" v-if="page_data.standart">
 							<a href=".item" class="title-click" tc tc-closest>Стандартное оборудование<i class="fa fa-angle-up"></i></a>
 							<div class="section-body">
 								<div class="section-body-wrapper">
-									<div class="list-block-body">
-										<h4>Мультимедиа</h4>
+									<div class="list-block-body" v-for="(item, key) in page_data.standart" :key="key">
+										<h4>{{item.name}}</h4>
 										<ul>
-										<template>
-											<li v-for="(options_base, key) in page.modifications.options_base" 
-													v-if="options_base.group_name == 'Мультимедиа'" :key="key">
-												<span>{{options_base.name}}</span>
+											<li v-for="(text, key) in item.values" :key="key">
+												<span>{{text}}</span>
 											</li>
-										</template>
-										</ul>
-									</div>
-									<div class="list-block-body">
-										<h4>Экстерьер</h4>
-										<ul>
-										<template>
-											<li v-for="(options_base, key) in page.modifications.options_base" 
-													v-if="options_base.group_name == 'Экстерьер'" :key="key">
-												<span>{{options_base.name}}</span>
-											</li>
-										</template>
-										</ul>
-									</div>
-									<div class="list-block-body">
-										<h4>Интерьер</h4>
-										<ul>
-										<template>
-											<li v-for="(options_base, key) in page.modifications.options_base" 
-													v-if="options_base.group_name == 'Интерьер'" :key="key">
-												<span>{{options_base.name}}</span>
-											</li>
-										</template>
-										</ul>
-									</div>
-									<div class="list-block-body">
-										<h4>Безопасность</h4>
-										<ul>
-										<template>
-											<li v-for="(options_base, key) in page.modifications.options_base" 
-													v-if="options_base.group_name == 'Безопасность'" :key="key">
-												<span>{{options_base.name}}</span>
-											</li>
-										</template>
-										</ul>
-									</div>
-									<div class="list-block-body">
-										<h4>Комфорт</h4>
-										<ul>
-										<template>
-											<li v-for="(options_base, key) in page.modifications.options_base" 
-													v-if="options_base.group_name == 'Комфорт'" :key="key">
-												<span>{{options_base.name}}</span>
-											</li>
-										</template>
 										</ul>
 									</div>
 								</div>
@@ -275,7 +228,7 @@
 						</section>
 					</div>
 					<!-- v-if="page_data.compls[0].offers" -->
-					<section class="item special-ap">
+					<section class="item special-ap" v-if="false">
 						<a href=".item" class="title-click" tc tc-closest>Спецпредложения и цены<i class="fa fa-angle-up"></i></a>
 						<div class="section-body">
 							<div class="section-body-wrapper">
