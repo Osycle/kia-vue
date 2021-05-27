@@ -12,7 +12,7 @@
     <div class="models">
       <div class="container-p">
         <div class="entry-header m-b-30">
-          <h1 class="text-x5">Все модели KIA</h1>
+          <h1 class="text-x5">Все модели Kia</h1>
         </div>
         <div class="entry-content">
           <section class="m-v-50" v-for="(type, key) in models_types" :key="key">
@@ -21,7 +21,7 @@
               <figure v-for="(model, key) in type.models" :key="key">
                 <div>
                   <div class="img-content" >
-                    <nuxt-link exact :to="model.url+'/desc/'">
+                    <nuxt-link exact :to="'/models/'+model.url+'/desc/'">
                       <img :src="model.image">
                     </nuxt-link>
                   </div>
@@ -35,8 +35,8 @@
                       <p><span class="p-r-10">от {{ model.minPrice | spaceBetweenNum }} сум</span><a class="flex" href="javascript:;" data-src="#textcredit" data-fancybox><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" role="button" class="color-gray-3 info-icon-gray info-icon"><circle cx="10" cy="10" r="9.25" stroke="currentColor" stroke-width="1.5"></circle><path d="M9 15h2V8.5H9V15z" fill="currentColor"></path><circle cx="10" cy="6.25" r="1.25" fill="currentColor"></circle></svg></a></p>
                     </div>
                     <div class="car-card-links" v-if="model.minPrice">
-                      <nuxt-link exact :to="model.url+'/configurator/'" class="btn-link-1">Конфигуратор<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></nuxt-link>
-                      <nuxt-link exact :to="model.url+'/options/'" class="btn-link-1">Цены<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></nuxt-link>
+                      <nuxt-link exact :to="'/models/'+model.url+'/configurator/'" class="btn-link-1">Конфигуратор<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></nuxt-link>
+                      <nuxt-link exact :to="'/models/'+model.url+'/options/'" class="btn-link-1">Цены<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg></nuxt-link>
                     </div>
                   </div>
                 </div>
@@ -55,10 +55,10 @@
 export default {
   head() {
     return {
-      title: "Модельный ряд KIA – комплектации и цены на новые автомобили КИА",
+      title: "Модельный ряд Kia – комплектации и цены на новые автомобили КИА",
       meta: [
         {
-          content: "Все модели автомобилей KIA в Узбекистане: субкомпактные и компактные, автомобили бизнес-класса и представительского класса, кроссоверы и внедорожники."
+          content: "Все модели автомобилей Kia в Узбекистане: субкомпактные и компактные, автомобили бизнес-класса и представительского класса, кроссоверы и внедорожники."
         }
       ]
     }

@@ -15,7 +15,7 @@
         <div class="entry-intro m-b-md-50 m-v-30">
           <div class="relative">
             <h1>{{page.model.name}} в Ташкенте</h1>
-            <p>Новые автомобили в наличии у официальных дилеров KIA</p>
+            <p>Новые автомобили в наличии у официальных дилеров Kia</p>
           </div>
         </div>
       </div>

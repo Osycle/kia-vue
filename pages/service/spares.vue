@@ -175,10 +175,10 @@
 export default {
   head() {
     return {
-      title: "Гарантия на автомобили KIA",
+      title: "Гарантия на автомобили Kia",
       meta: [
         {
-          content: "Гарантия на автомобили KIA",
+          content: "Гарантия на автомобили Kia",
         }
       ],
     }

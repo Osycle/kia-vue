@@ -13,7 +13,7 @@
       <div class="container-p">
         <div class="entry-header desktop:mb-12">
           <h1 class="text-x5">Автомобили в наличии</h1>
-          <p><big>Выберите автомобиль KIA с помощью онлайн-каталога.</big></p>
+          <p><big>Выберите автомобиль Kia с помощью онлайн-каталога.</big></p>
         </div>
         <div class="entry-content">
           <div class="models-items boxes-4 figure-m-v-30 desktop:mb-12">

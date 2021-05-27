@@ -475,10 +475,10 @@
 export default {
   head() {
     return {
-      title: this.page_data.seo ? this.page_data.seo.meta_title : 'Обзор KIA',
+      title: this.page_data.seo ? this.page_data.seo.meta_title : 'Обзор Kia',
       meta: [
         {
-          content: this.page_data.seo ? this.page_data.seo.meta_descr : 'Обзор KIA'
+          content: this.page_data.seo ? this.page_data.seo.meta_descr : 'Обзор Kia'
         }
       ],
     }

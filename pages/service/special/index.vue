@@ -4,12 +4,12 @@
       <div class="breadcrumb-container">
         <ol class="breadcrumb">
           <li><nuxt-link to="/">Главная</nuxt-link></li>
-          <li><nuxt-link to="">Спецпредложения на сервис KIA</nuxt-link></li>
+          <li><nuxt-link to="">Спецпредложения на сервис Kia</nuxt-link></li>
         </ol>
       </div>
       <div class="entry-header m-v-30">
         <div class="flex-adaptive justify-c-between">
-          <h1 class="text-x5">Спецпредложения на сервис KIA</h1>
+          <h1 class="text-x5">Спецпредложения на сервис Kia</h1>
         </div>
       </div>
       <div class="m-t-30 m-b-15">

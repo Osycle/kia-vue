@@ -11,7 +11,7 @@
     <div class="buy-main">
       <div class="container-p">
         <div class="entry-content">
-          <h1>Онлайн-сервисы KIA</h1>
+          <h1>Онлайн-сервисы Kia</h1>
           <p>Выберите подходящий авто, рассчитайте и получите кредит, не выходя из дома!</p>
         </div>
         <div class="buy-main-items boxes-3 m-v-30 figure-m-v-20">
@@ -42,7 +42,7 @@
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
               <br>
-              <p>Онлайн-каталог автомобилей KIA в наличии у официальных дилеров</p>
+              <p>Онлайн-каталог автомобилей Kia в наличии у официальных дилеров</p>
             </div>
           </figure>
           <figure>
@@ -87,7 +87,7 @@
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
               <br>
-              <p>Выберите официального дилера KIA</p>
+              <p>Выберите официального дилера Kia</p>
             </div>
           </figure>
           

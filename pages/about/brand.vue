@@ -6,8 +6,8 @@
           <div class="container-p">
             <ol class="breadcrumb">
               <li><nuxt-link to="/">Главная</nuxt-link></li>
-              <li><nuxt-link to="/about">Мир KIA</nuxt-link></li>
-              <li><nuxt-link to="">Компания KIA Motors</nuxt-link></li>
+              <li><nuxt-link to="/about">Мир Kia</nuxt-link></li>
+              <li><nuxt-link to="">Компания Kia Motors</nuxt-link></li>
             </ol>
           </div>
         </div>
@@ -42,7 +42,7 @@
                   <h1 class="m-b-5">{{content.name}}</h1>
                   <p>{{content.text}}</p>
                   <nuxt-link to="/about/history" class="hover-aunderline" v-if="key == 0">
-                    <b>История KIA</b><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path data-v-8a6d1ec4="" d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
+                    <b>История Kia</b><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path data-v-8a6d1ec4="" d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
                   </nuxt-link>
                 </div>
               </figure>

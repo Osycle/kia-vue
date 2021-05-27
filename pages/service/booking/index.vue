@@ -98,7 +98,7 @@ export default {
       title: "Запись на сервис",
       meta: [
         {
-          content: "Запись на сервис KIA"
+          content: "Запись на сервис Kia"
         }
       ],
     }

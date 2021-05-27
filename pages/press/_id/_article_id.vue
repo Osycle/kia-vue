@@ -59,10 +59,10 @@
 export default {
   head() {
     return {
-      title: this.page_data.seo ? this.page_data.seo.meta_title : 'Новость KIA',
+      title: this.page_data.seo ? this.page_data.seo.meta_title : 'Новость Kia',
       meta: [
         {
-          content: this.page_data.seo ? this.page_data.seo.meta_description : 'Новость KIA',
+          content: this.page_data.seo ? this.page_data.seo.meta_description : 'Новость Kia',
         }
       ],
     }

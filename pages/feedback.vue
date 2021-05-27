@@ -43,13 +43,13 @@
                     <div class="models-filter">
                       <select class="js-select" name="question" required>
                         <option value="">Выберите тип вопроса</option>
-                        <option>Наличие и процесс поставки автомобиля KIA</option>
-                        <option>Наличие и стоимость запасных частей и аксессуаров KIA</option>
+                        <option>Наличие и процесс поставки автомобиля Kia</option>
+                        <option>Наличие и стоимость запасных частей и аксессуаров Kia</option>
                         <option>Сервисное обслуживание (ТО, гарантия, эксплуатация)</option>
                         <option>Условия кредитования и страхования</option>
                         <option>Прохождение тест-драйва</option>
                         <option>Другое</option>
-                        <option>Спецификация и стоимость автомобиля KIA</option>
+                        <option>Спецификация и стоимость автомобиля Kia</option>
                         <option>Условия для корпоративных клиентов</option>
                       </select>
                     </div>
@@ -94,7 +94,7 @@ export default {
       title: "Запись на сервис",
       meta: [
         {
-          content: "Запись на сервис KIA"
+          content: "Запись на сервис Kia"
         }
       ],
     }

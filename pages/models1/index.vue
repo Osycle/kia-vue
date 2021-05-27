@@ -12,7 +12,7 @@
     <div class="models">
       <div class="container-p">
         <div class="entry-header m-b-30">
-          <h1 class="text-x5">Все модели KIA</h1>
+          <h1 class="text-x5">Все модели Kia</h1>
         </div>
         <div class="entry-content">
           <section class="m-v-50" v-for="(type, key) in page.groups" :key="key">

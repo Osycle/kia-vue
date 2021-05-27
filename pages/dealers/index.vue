@@ -11,7 +11,7 @@
     <div class="dealers">
       <div class="container-p">					
         <div class="entry-header">
-          <h2>Официальный дилер KIA в г. Ташкент</h2>
+          <h2>Официальный дилер Kia в г. Ташкент</h2>
         </div>
       </div>
       <br>
