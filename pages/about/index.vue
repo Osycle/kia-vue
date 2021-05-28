@@ -30,7 +30,7 @@
     </div>
 
 
-    <div class="about-desc">
+    <div class="about-desc" v-if="false">
       <div class="container">
         <div class="entry-header m-b-35">
           <h4 class="color-2 text-n1">{{page_data.blocks[1].alias}}</h4>
@@ -53,6 +53,42 @@
         </div>
       </div>
     </div>
+
+    <div class="card-media">
+      <div class="container pv-8 relative accordion_left"> <!-- DEF: container-p-2 -->
+        <div class="flex-adaptive">
+          <div class="card-media-desc">
+            <h4 class="color-2 text-n1">{{page_data.blocks[1].alias}}</h4>
+            <div class="h1 text-x5">{{page_data.blocks[1].name}}</div>
+            <br>
+            <p class="opacity-5" v-if="page_data.blocks[1].summary">{{page_data.blocks[1].summary}}</p>
+            <br>
+            <hr>
+            <div class="card-media-list m-t-40">
+              <ul class="list">
+                <li v-for="(preview, key) in page_data.blocks[1].photos" :key="key" :class="{active: key == 0}">
+                  <a :href="'#card-media-list-'+key" data-toggle="tab">{{preview.name}}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-media-imgs tab-content owl-img-4-3">
+            <div class="tab-pane fade" :id="'card-media-list-'+key" 
+              v-for="(preview, key) in page_data.blocks[1].photos"
+              :class="{'active in': key == 0}"
+              :key="key">
+              <div class="img-content">
+                <img :src="preview.url">
+              </div>
+              <div class="desc-content m-auto box-md-9 m-t-25">
+                <p>{{preview.text}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
     <template v-for="(block) in page_data.blocks" v-if="block.block == 'block3'">
       <div class="about-stat" :key="key">
         <div class="g-padding">
