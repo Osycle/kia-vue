@@ -1239,18 +1239,18 @@ main{
 		overflow: hidden;
 		
 	}
-	// ul:not([class]){
-	// 	text-align: left;
-	// 	margin-top: 10px;
-	// 	margin-bottom: 10px;
-	// 	list-style: disc;
-  //   padding-left: 15px;
-  //   li{
-  //   	margin-top: 5px;
-  //   	line-height: 130%;
-  //   	margin-bottom: 5px;
-  //   }
-	// }
+	ul:not([class]){
+		text-align: left;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		list-style: disc;
+    padding-left: 15px;
+    li{
+    	margin-top: 5px;
+    	line-height: 130%;
+    	margin-bottom: 5px;
+    }
+	}
 	*:not(figure):not(div){
 		
 	}
