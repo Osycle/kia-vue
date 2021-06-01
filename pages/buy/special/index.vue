@@ -17,15 +17,15 @@
     </div>
     <div class="container-p">
       <div class="short-news-items boxes-4 figure-m-v-15 p-b-30 m-v-30">
-        <figure v-for="(offer, key) in page.offers" :key="key">
-          <nuxt-link :to="'/buy/special/'+offer.code">
+        <figure v-for="(offer, key) in spacialItems" :key="key">
+          <nuxt-link :to="'/buy/special/'+offer.id">
             <div class="fig-wrapper">
               <div class="img-content">
-                <div class="img" :style="'background-image: url(\'https://cdn.kia.ru/resize/410x277'+offer.preview_image+'\');'"></div>
+                <div class="img" :style="'background-image: url(\''+offer.image+'\');'"></div>
               </div>
               <div class="desc-content">
                 <h4>{{offer.name}}</h4>
-                <p>{{offer.preview_text}}</p>
+                <p>{{offer.text}}</p>
                 <br>
               </div>
             </div>
@@ -37,25 +37,25 @@
   </div>
 </template>
 <script>
+
 export default {
   head() {
     return {
-      title: this.page.seo.title,
+      title: "Специальные предложения Kia Узбекистан",
       meta: [
         {
-          content: this.page.seo.description
+          content: "Специальные предложения Kia Узбекистан"
         }
       ],
     }
   },
   async asyncData(context){
     try{
-			const path = context.route.path;
-      const page = await context.store.dispatch("models/fetchPageData", {
-        path: path,
+      const spacialItems = await context.store.dispatch("other/fetchPath", {
+        path: context.route.path
       })
       return {
-        page: page.content,
+        spacialItems
       }
     }catch(e){
       context.error(e);

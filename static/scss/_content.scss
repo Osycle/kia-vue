@@ -2056,6 +2056,7 @@ $heightSlider: auto;
 .bnr-style-1{
 	@extend .kiaworld-bnr;	
 }
+
 .bnr-height-auto{
 	height: 100%;
 	padding-bottom: 80px;
@@ -4025,7 +4026,19 @@ dt{
 	}
 }
 
-
+.special{
+	.bnr-style-1{
+		padding-bottom: 30px;
+	}
+	.content-wrapper{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		@media (min-width: 992px){
+			min-height: 350px;
+		}
+	}
+}
 .special-info{
 	
 	h4{
