@@ -17,7 +17,7 @@
         </div>
         <div class="entry-content">
           <div class="models-items boxes-4 figure-m-v-30 desktop:mb-12">
-            <figure v-for="(model, key) in models" :key="key">
+            <figure v-for="(model, key) in models" :key="key" v-if="model.soon == 0">
               <div class="img-content">
                 <nuxt-link :to="'/models/'+model.url+'/desc'">
                   <img :src="model.image">
