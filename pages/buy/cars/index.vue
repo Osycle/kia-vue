@@ -17,15 +17,15 @@
         </div>
         <div class="entry-content">
           <div class="models-items boxes-4 figure-m-v-30 desktop:mb-12">
-            <figure v-for="(model, key) in page.models" :key="key">
+            <figure v-for="(model, key) in models" :key="key" v-if="model.soon == 0">
               <div class="img-content">
-                <nuxt-link :to="'/models/'+model.code+'/desc'">
-                  <img :src="'https://cdn.kia.ru/resize/400x198/'+model.image">
+                <nuxt-link :to="'/models/'+model.url+'/desc'">
+                  <img :src="model.image">
                 </nuxt-link>
               </div>
               <div class="desc-content">
                 <div class="car-card__name">
-                  <nuxt-link :to="'/models/'+model.code+'/desc'">
+                  <nuxt-link :to="'/models/'+model.url+'/desc'">
                     {{model.name}}
                   </nuxt-link>
                 </div>
@@ -44,22 +44,34 @@
 export default {
   head() {
     return {
-      title: this.page.seo.title,
+      title: "Автомобили в наличии",
       meta: [
         {
-          content: this.page.seo.description
+          content: "Автомобили Kia в наличии Узбекистане"
         }
       ]
     }
   },
+  data(){
+    return {
+      models: [],
+    }
+  },
+  created(){
+    this.page_data.map(e=>{
+      e.models.map(model=>{
+        this.models.push(model);
+      })
+    })
+  },
   async asyncData(context){
     try{
-      const path = context.route.path
-      const page = await context.store.dispatch("models/fetchPageData", {
-        path
+      //const path = context.route.path
+      const page_data = await context.store.dispatch("other/fetchPath", {
+        path: "models"
       })
       return {
-        page: page.content
+        page_data
       }
     }catch(e){
       context.error(e);
