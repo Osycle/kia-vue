@@ -17,7 +17,7 @@ module.exports = {
     ]
   },
 
-  loading: { color: '#bb162b' },
+  loading: { color: '#05141F' },
   css: [
     '@/static/fonts/Kia/stylesheet.css',
     '@/static/scss/plugins.scss',
