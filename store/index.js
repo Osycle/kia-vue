@@ -7,11 +7,11 @@ import Notifications from 'vue-notification/dist/ssr.js';
 import Multiselect from 'vue-multiselect';
 import vueAwesomeCountdown from 'vue-awesome-countdown'
 
-
-Vue.use(vueAwesomeCountdown, 'vac') // Component name, `countdown` and `vac` by default
 Vue.use(Vuex);
 Vue.use(_);
 Vue.use(Notifications);
+Vue.use(vueAwesomeCountdown, 'vac') // Component name, `countdown` and `vac` by default
+
 
 Vue.component('multiselect', Multiselect)
 
@@ -36,8 +36,7 @@ Vue.use(VueFilterDateFormat, {
   timezone: 5
 });
 
-// import ApiPlugin from '@/plugins/api'
-// Vue.use(ApiPlugin);
+
 
 
 /* GLOBAL FILTRES */

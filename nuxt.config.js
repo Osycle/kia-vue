@@ -25,7 +25,7 @@ module.exports = {
   ],
 
   plugins: [
-    
+    '@plugins/vue-input-facade.js',
   ],
 
   modules: [
