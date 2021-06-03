@@ -976,7 +976,7 @@ $heightSlider: auto;
 }
 .car-card-new{
 	vertical-align: middle;
-	background-color: #5D7D2B;
+	background-color: $color-4;
 	color: white;
 	line-height: 100%;
 	padding: 2px 5px;
@@ -1001,7 +1001,7 @@ $heightSlider: auto;
 
 
 .model-header{
-	background-color: black;
+	background-color: $color-1;
 	color: white;
 	font-size: em(18);
 	position: fixed;
@@ -3446,7 +3446,7 @@ ymaps .map-cluster{
  }
 
 .theme-dark{
-	background-color: #1f1f1f;
+	background-color: $color-1;
 	color: white;
 	.carousel-dots .owl-dot{
 		background-color: rgba(white, 0.3);
@@ -3454,9 +3454,15 @@ ymaps .map-cluster{
 			background-color: rgba(white, 1);
 		}
 	}
+	.h-style-3:after, 
+	.short-models-nav li:after, 
+	.list-models-item 
+	.img-content:after{
+		background-color: white;
+	}
 }
 .theme-black{
-	background-color: black;
+	background-color: $color-3;
 	color: white;
 }
 .theme-white{
@@ -3466,6 +3472,24 @@ ymaps .map-cluster{
 .theme-pale_beige{
 	background-color: $color-gray-1;
 	color: black;
+}
+.main{
+	.theme-white{
+		@extend .theme-dark;
+	}
+	.theme-pale_beige, .theme-gray{
+		@extend .theme-black;
+	}
+	.theme-dark, 
+	.theme-black{
+		.list li:after{
+			background-color: white;
+		}
+		.opacity-5{
+			opacity: 1;
+			color: white;
+		}
+	}
 }
 .accordion_left .card-media-desc{
 	order: 0;
@@ -3502,14 +3526,14 @@ ymaps .map-cluster{
 		border-top: 1px solid $color-gray-3;
 	}
 	li{
-		border-top: 4px solid transparent;
-		border-color: #4ba29a;
+		border-top: 6px solid transparent;
+		border-color: $color-4;
 		width: 100%;
 		padding-top: 5px;
 		margin-top: -1px;
-		color: #4ba29a;
+		color: $color-4;
 		b{
-			color: #4ba29a;;
+			color: $color-4;;
 			display: inline-block;
 			margin-top: 5px;
 			margin-bottom: 3px;
@@ -3716,11 +3740,14 @@ ymaps .map-cluster{
 		padding: 60px 60px 60px 0;
 		&:before{
 			@extend .clafclear;
-			background-color: $color-gray-2;
+			background-color: $color-gray-1;
 			top: 0;
 			right: 0;
 			width: 3000px;
-			z-index: -1;
+			z-index: 0;
+		}
+		&>*{
+			position: relative;
 		}
 	}
 	.wrapper-scroll{

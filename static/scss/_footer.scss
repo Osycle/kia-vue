@@ -96,26 +96,26 @@
 		margin-left: -5px;
 		margin-right: -5px;
 	}
+	.fa-paper-plane{
+		width: 30px;
+		height: 30px;
+		border: 2px solid white;
+		display: flex;
+		font-size: 12px;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+	}
 	li{
-		.fa-paper-plane{
-			width: 30px;
-			height: 30px;
-			border: 2px solid white;
-			display: flex;
-			font-size: 12px;
-			align-items: center;
-			justify-content: center;
-			border-radius: 50%;
-		}
 		margin-left: 5px;
 		margin-right: 5px;
 		&:hover{
-			i{
-				color: $color-gray-3;
-				border-color: $color-gray-3;
+			i, .fa-paper-plane{
+				color: $color-4;
+				border-color: $color-4;
 			}
 			svg{
-				color: $color-gray-3;
+				color: $color-4;
 			}
 		}
 	}

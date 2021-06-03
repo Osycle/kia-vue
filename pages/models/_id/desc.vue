@@ -257,7 +257,7 @@
         <div class="container-p relative">
           <div class="showroom-header">
             <div class="entry-header">
-              <h4 class="color-2 text-n1">ПРОСМОТР 360°</h4>
+              <h4 class="color-1 text-n1">ПРОСМОТР 360°</h4>
               <h2>{{page_data.name}}</h2>
             </div>
             <div class="showroom-typeselect">
@@ -388,7 +388,7 @@
     <div class="card-sets bg-color-gray-1" v-if="page_data.minPrice">
       <div class="container-p p-v-45">
         <div class="entry-header text-center m-v-30">
-          <h4 class="color-2 text-n1">КОМПЛЕКТАЦИИ</h4>
+          <h4 class="color-4 text-n1">КОМПЛЕКТАЦИИ</h4>
           <h2>Варианты {{page_data.name}}</h2>
           <p>{{page_data.compls.length}} доступных комплектаций</p>
         </div>
