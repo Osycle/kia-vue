@@ -2609,7 +2609,7 @@ $heightSlider: auto;
 	}
 }
 .config-filter{
-	background-color: $color-gray-2;
+	background-color: $color-gray-1;
 	z-index: 4;
 	flex-shrink: 0;
 	position: relative;
@@ -2619,7 +2619,7 @@ $heightSlider: auto;
 	min-height: calc(100vh - 40px);
 	&:before{
 		@extend .clafclear;
-		background-color: $color-gray-2;
+		background-color: $color-gray-1;
 		right: 100%;
 		top: 0;
 		width: 1500px;
