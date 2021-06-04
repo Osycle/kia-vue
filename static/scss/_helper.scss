@@ -774,6 +774,9 @@ img[auto]{
 	font-size: 18px;
 	line-height: 139%;
   font-weight: 400;
+	@media (max-width: 991px){
+		font-size: 15px;
+	}
 }
 .text-x3{
 	font-size: 25px;
@@ -802,6 +805,11 @@ img[auto]{
   font-size: 18px;
   line-height: 139%;
   font-weight: 700;
+}
+.text-s2{
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
 }
 
 @for $i from 0 through 20{
