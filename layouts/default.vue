@@ -1,7 +1,13 @@
 <template>
   <div>
 
-    <no-ssr>
+    <no-ssr v-if="false">
+
+
+
+
+
+      
       <!-- Yandex.Metrika counter -->
       <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -13,10 +19,13 @@
               accurateTrackBounce:true,
               webvisor:true,
               ecommerce:"dataLayer"
-        });
+        }); 
       </script>
       <noscript><div><img src="https://mc.yandex.ru/watch/80120311" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
       <!-- /Yandex.Metrika counter -->
+
+
+
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126548408-24"></script>
@@ -61,7 +70,7 @@ export default {
   head() {
     return {
       script: [
-        {content: "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K5HVG7K');"},
+        // {content: "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K5HVG7K');"},
         {src: '/js/plugins/jquery.min.js'},
         {src: '/js/plugins/bootstrap.min.js'},
         {src: '/js/plugins/jquery.fancybox.js'},
