@@ -30,7 +30,7 @@
                     <input type="text" name="fam" placeholder="Фамилия"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required pattern="[0-9]+" title="цифры">
+                    <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required title="цифры">
                   </div>
                   <div class="input-content m-v-30">
                     <input type="email" name="email" placeholder="E-mail"  class="form-control" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="my@email.com">

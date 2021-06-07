@@ -53,7 +53,7 @@
                     <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required pattern="[0-9]+" title="цифры">
+                    <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required title="цифры">
                   </div>
                   <div class="input-content">
                     <textarea type="comment" placeholder="Ваш комментарий или вопрос" class="form-control"></textarea>
