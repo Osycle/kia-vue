@@ -4587,6 +4587,9 @@ dt{
 }
 
 .img-fulled{
+	&.absolute{
+
+	}
 	img{
 		width: 100%;
 	}
@@ -4599,4 +4602,19 @@ dt{
 			padding-top: 50%;
 		}
 	}
+}
+.block-5{
+	position: relative;
+	// &:before{
+	// 	@extend .clafclear;
+	// 	background-color: white;
+	// }
+}
+.block-6{
+	.container-p{
+		position: relative;
+	}
+	.text-item{
+		margin-top: 50px;
+	}	
 }

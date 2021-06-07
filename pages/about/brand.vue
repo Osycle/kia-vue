@@ -191,9 +191,35 @@
             </div>
           </div>
         </div>
+        <div class="container-p pv-5 desktop:pv-13">
+          <div class="box-lg-5 entry-header">
+            <div class="text-x4">Движение вперед, постоянные усилия и совершенствование — вот наш менталитет роста</div>
+          </div>
+          <div class="flex-adaptive row-15">
+            <div class="flexbasis-md-6 ph-3 mv-6">
+              <div class="text-s2">
+                Движение является важной частью нашего менталитета в Kia. Его разделяют все сотрудники  на всех уровнях компании.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
+    <div class="block-6 hide">
+      <div class="wrapper">
+        <div class="container-p">
+          <div class="text-item">
+            <p>У Kia долгая история производства автомобилей. Но если быть точнее, мы начали в 1944 году с производства велосипедов.</p>
+            <p>С тех пор вот уже 75 лет мы приводим людей в движение. Мы с гордостью предоставляем решения, которые помогают людям перемещаться из одной точки в другую, объединяя людей друг с другом физически и эмоционально.</p>
+            <p>Как вы видите,  <span class="color-4">движение всегда было в сердце нашего бренда,</span> а передвижение людей в основе ншего бизнеса, и это так и останется в будущем, независимо от любых изменений в нашей отрасли.</p>
+          </div>
+        </div>
+        <div class="img-fulled absolute">
+          <img src="/img/brand/6.jpg" alt="">
+          <div class="img" style="background-image: url('/img/brand/6.jpg');"></div>
+        </div>
+      </div>
+    </div>
     <KiaworldOther :kiaworld-other-items="page_data.footer" />
     
   </div>
