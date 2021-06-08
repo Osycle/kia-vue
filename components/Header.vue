@@ -200,7 +200,7 @@
 						</div>	
 					</div>
 				</div>
-				<div class="col-xs-2 jc-end align-center p-h-5" style="height: 60px	;">
+				<div class="col-xs-2 jc-end align-center p-h-5" style="height: 60px;">
 					<div>
             <div class="header-phone-btn">
               <a :href="'tel:'+menu_data.phone">

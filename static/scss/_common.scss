@@ -1298,9 +1298,8 @@ hr{
 		font-size: em(15);
 	}
 	p:not([class*="color-"]){
-		line-height: 139%;
 		margin-bottom: 15px;
-		@media (min-width: 1600px){
+		@media (min-width: 1200px){
 			margin-bottom: 18px;
 		}
 		@media (max-width: 991px) {

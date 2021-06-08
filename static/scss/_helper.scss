@@ -777,7 +777,7 @@ img[auto]{
 // kia
 .text-x1{
 	font-size: 18px;
-	line-height: 139%;
+	line-height: 25px;
   font-weight: 400;
 	@media (max-width: 991px){
 		font-size: 15px;
@@ -785,12 +785,14 @@ img[auto]{
 }
 .text-x3{
 	font-size: 25px;
+	line-height: 35px;
 }
 .text-x4{
 	font-size: 35px;
 	font-weight: 600;
+	line-height: 40px;
 	@media (max-width: 991px){
-		font-size: em(18);
+		font-size: 30px;
 	}
 }
 .text-x5{
@@ -817,7 +819,7 @@ img[auto]{
   font-weight: 400;
 }
 
-@for $i from 0 through 20{
+@for $i from 0 through 25{
 	.pt-#{$i}{
 		padding-top: $i*5px;
 	}
@@ -839,7 +841,7 @@ img[auto]{
 		padding-right: $i*5px;
 	}
 }
-@for $i from 0 through 20{
+@for $i from 0 through 25{
 	.mt-#{$i}{
 		margin-top: $i*5px;
 	}
@@ -878,7 +880,7 @@ img[auto]{
     letter-spacing: -.02em;
     font-weight: 700;
 	}
-	@for $i from 0 through 20{
+	@for $i from 0 through 25{
 		.desktop\:mt-#{$i}{
 			margin-top: $i*5px;
 		}
@@ -900,7 +902,7 @@ img[auto]{
 			margin-right: $i*5px;
 		}
 	}
-	@for $i from 0 through 20{
+	@for $i from 0 through 25{
 		.desktop\:pt-#{$i}{
 			padding-top: $i*5px;
 		}
@@ -927,7 +929,7 @@ img[auto]{
 
 @media (min-width: 80em){
 
-	@for $i from 0 through 20{
+	@for $i from 0 through 25{
 		.desktop1440\:mt-#{$i}{
 			margin-top: $i*5px;
 		}
@@ -949,7 +951,7 @@ img[auto]{
 			margin-right: $i*5px;
 		}
 	}
-	@for $i from 0 through 20{
+	@for $i from 0 through 25{
 		.desktop1440\:pt-#{$i}{
 			padding-top: $i*5px;
 		}
@@ -975,7 +977,7 @@ img[auto]{
 
 @media (max-width: 991px){
 
-	@for $i from 0 through 20{
+	@for $i from 0 through 25{
 		.mobile\:mt-#{$i}{
 			margin-top: $i*5px;
 		}
@@ -997,7 +999,7 @@ img[auto]{
 			margin-right: $i*5px;
 		}
 	}
-	@for $i from 0 through 20{
+	@for $i from 0 through 25{
 		.mobile\:pt-#{$i}{
 			padding-top: $i*5px;
 		}
