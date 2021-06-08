@@ -4618,3 +4618,88 @@ dt{
 		margin-top: 50px;
 	}	
 }
+.header-phone-btn{
+	a:before{
+		display: none;
+	}
+	.icon-content{
+		color: $color-1;
+		position: relative;
+		svg{
+			overflow: visible;
+		}
+		path{
+			fill: transparent;
+		}
+	}
+	.icon{
+		animation: 5s ease 0s normal none 1 running shake;
+		animation-iteration-count: infinite;
+		z-index: 1;
+		position: relative;
+	}
+	.dropwater{
+		left: 0;
+		top: 0;
+		animation: 5s ease 0s normal none 1 running shake;
+		position: absolute;
+		animation-iteration-count: infinite;
+		z-index: 0;
+		path{
+			opacity: 0;
+			transform-origin: center;
+			animation: 2s ease 4s normal none 1 running dropwater;
+			animation-iteration-count: infinite;
+		}
+	}
+	li{
+		&:hover{
+
+		}
+	}
+}
+@keyframes shake {
+	0% {
+		transform: rotateZ(0deg);
+	}
+	10% {
+		transform: rotateZ(-30deg);
+	}
+	20% {
+		transform: rotateZ(15deg);
+	}
+	30% {
+		transform: rotateZ(-10deg);
+	}
+	40% {
+		transform: rotateZ(7.5deg);
+	}
+	50% {
+		transform: rotateZ(-6deg);
+	}
+	60% {
+		transform: rotateZ(5deg);
+	}
+	70% {
+		transform: rotateZ(-4.28571deg);
+	}
+	80% {
+		transform: rotateZ(3.75deg);
+	}
+	90% {
+		transform: rotateZ(-3.33333deg);
+	}
+	100% {
+		transform: rotateZ(0deg);
+	}
+}
+@keyframes dropwater {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.8);
+		opacity: 0;
+	}
+}

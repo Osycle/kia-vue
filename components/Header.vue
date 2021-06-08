@@ -26,6 +26,14 @@
                     <nuxt-link active-class="active" v-if="!item.subsections" :to="item.url">{{item.name}}</nuxt-link>
                     <a v-else href="javascript:;" :subdown-click="item.id">{{item.name}}</a>
                   </li>
+                  <li class="header-phone-btn">
+                    <a :href="'tel:'+menu_data.phone">
+                      <div class="icon-content">
+                        <svg class="icon" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M2.494 3.506l1.299-1.299a1 1 0 011.414 0l2.66 2.66A1 1 0 017.941 6.2l-.681.851c-.467.584-.583 1.388-.203 2.032 1.318 2.23 3.191 3.5 4.511 4.086.57.254 1.218.103 1.706-.287l1.027-.822a1 1 0 011.332.074l2.603 2.603a1 1 0 01-.056 1.467l-1.691 1.45c-.63.54-1.46.82-2.286.734-1.801-.19-4.602-.786-7.703-3.887-3.716-3.716-4.577-6.634-4.855-8.603-.125-.882.219-1.761.849-2.39z" stroke="currentColor" stroke-width="1.5"></path></svg>
+                        <svg class="dropwater" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M2.494 3.506l1.299-1.299a1 1 0 011.414 0l2.66 2.66A1 1 0 017.941 6.2l-.681.851c-.467.584-.583 1.388-.203 2.032 1.318 2.23 3.191 3.5 4.511 4.086.57.254 1.218.103 1.706-.287l1.027-.822a1 1 0 011.332.074l2.603 2.603a1 1 0 01-.056 1.467l-1.691 1.45c-.63.54-1.46.82-2.286.734-1.801-.19-4.602-.786-7.703-3.887-3.716-3.716-4.577-6.634-4.855-8.603-.125-.882.219-1.761.849-2.39z" stroke="currentColor" stroke-width="1.5"></path></svg>
+                      </div>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -192,8 +200,16 @@
 						</div>	
 					</div>
 				</div>
-				<div class="col-xs-2 justify-c-center align-center p-h-5" style="height: 60px	;">
+				<div class="col-xs-2 jc-end align-center p-h-5" style="height: 60px	;">
 					<div>
+            <div class="header-phone-btn">
+              <a :href="'tel:'+menu_data.phone">
+                <div class="icon-content">
+                  <svg class="icon" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M2.494 3.506l1.299-1.299a1 1 0 011.414 0l2.66 2.66A1 1 0 017.941 6.2l-.681.851c-.467.584-.583 1.388-.203 2.032 1.318 2.23 3.191 3.5 4.511 4.086.57.254 1.218.103 1.706-.287l1.027-.822a1 1 0 011.332.074l2.603 2.603a1 1 0 01-.056 1.467l-1.691 1.45c-.63.54-1.46.82-2.286.734-1.801-.19-4.602-.786-7.703-3.887-3.716-3.716-4.577-6.634-4.855-8.603-.125-.882.219-1.761.849-2.39z" stroke="currentColor" stroke-width="1.5"></path></svg>
+                  <svg class="dropwater" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M2.494 3.506l1.299-1.299a1 1 0 011.414 0l2.66 2.66A1 1 0 017.941 6.2l-.681.851c-.467.584-.583 1.388-.203 2.032 1.318 2.23 3.191 3.5 4.511 4.086.57.254 1.218.103 1.706-.287l1.027-.822a1 1 0 011.332.074l2.603 2.603a1 1 0 01-.056 1.467l-1.691 1.45c-.63.54-1.46.82-2.286.734-1.801-.19-4.602-.786-7.703-3.887-3.716-3.716-4.577-6.634-4.855-8.603-.125-.882.219-1.761.849-2.39z" stroke="currentColor" stroke-width="1.5"></path></svg>
+                </div>
+              </a>
+            </div>
 					</div>
 				</div>
 			</div>
