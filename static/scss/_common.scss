@@ -10,6 +10,7 @@ $color-3: #0F1D28 ;
 $color-4: #5D7D2B;
 $color-5: #05141F; // #000
 $color-special-1: #2e1c11;
+$color-font-def: $color-1;
 
 $color-red: #EA0029;
 $color-green: #219653;
@@ -208,7 +209,7 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 	&.list-color-1{
 		li{
 			&:before{
-				background: url('../img/icons/check-red.svg') 50% no-repeat;
+				background: url('../img/icons/check-blackblue.svg') 50% no-repeat;
 			}
 		}
 	}
@@ -225,7 +226,7 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 			left: 0;
 			width: 20px;
 			height: 20px;
-			background: url('../img/icons/check-black.svg') 50% no-repeat;
+			background: url('../img/icons/check-blackblue.svg') 50% no-repeat;
 			background-size: 13px;
 			content: "";
 		}
@@ -804,6 +805,9 @@ div.btn-style{
 	//hover
 	&:hover:not(.changecolor-none){
 		background-color: lighten($color-1, 2%);
+		a, button, .this-btn{
+			text-decoration: underline;	
+		}
 	}
 	&.style-2{
 		&:hover{
@@ -1059,7 +1063,7 @@ body{
 	text-size-adjust: none;
 	font: $fs-def#{px} $font-family-1;
 	overflow-x: hidden;
-	color: #000;
+	color: $color-font-def;
 	//height: auto;
 	//background-image: url('../img/bg/bg-body.jpg');
 	//background-color: $color-gray-1;
@@ -1315,10 +1319,10 @@ html{
 		border: 0;
 		border-bottom: 1px solid $color-gray-3;
 		border-radius: 0;
-		color: black;
+		color: $color-font-def;
 		box-shadow: none;
 		&:focus{
-			border-color: black;
+			border-color: $color-font-def;
 			box-shadow: none;
 		}
 		@include placeholder-color(gray);

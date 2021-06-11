@@ -53,7 +53,7 @@
               <figure class="text-center m-v-20">
                 <img :src="model.sideImage" alt="">
               </figure>
-              <div class="conf-result-section">
+              <div class="conf-result-section hide">
                 <dl>
                   <dt>{{currentComplectation.year}} год производства</dt>
                 </dl>
@@ -541,7 +541,7 @@ export default {
       title: "Kia K5 – конфигуратор седана, старт продаж в России",
       meta: [
         {
-          content: "Сконфигурируйте Kia K5. Возможность выбрать доступный двигатель, настроить внешний вид и подобрать аксессуары для вашего седана КИА К5."
+          content: "Сконфигурируйте Kia K5. Возможность выбрать доступный двигатель, настроить внешний вид и подобрать аксессуары для вашего седана Kia К5."
         }
       ],
     }

@@ -71,7 +71,7 @@ $header-min-menu: 60px;
 		fill: $color-1;
 	}
 	a{
-		color: black;
+		color: $color-font-def;
 	}	
 }
 
@@ -149,7 +149,7 @@ $header-min-menu: 60px;
 				}
 			}
 			a{
-				color: black;
+				color: $color-font-def;
 			}
 		}
 	}
@@ -232,7 +232,7 @@ $header-min-menu: 60px;
 }
 .subdown{
 	//background-color: white;
-	color: black;
+	color: $color-font-def;
 	position: absolute;
 	left: 0;
 	top: 80px;
@@ -252,7 +252,7 @@ $header-min-menu: 60px;
 	}
 	.bg-shadow{
 		@extend .clafclear;
-		background-color: rgba(black, 0.4);
+		background-color: rgba($color-1, 0.4);
 		left: 0;
 		top: 0;
 		z-index: -1;
@@ -297,10 +297,10 @@ $header-min-menu: 60px;
 			top: 0;
 			background-position: center;
 			background-size: cover;
-			padding-bottom: 35%;
+			padding-bottom: 25%;
 		}
 		.desc-content{
-			padding: 45px 80px;
+			padding: 65px 80px;
 		}
 	}
 	@media (max-width: 1600px){
@@ -347,7 +347,7 @@ $header-min-menu: 60px;
 			bottom: -1px;
 		}
 		&:hover{
-			color: black !important;
+			color: $color-font-def !important;
 		}
 	}
 	&.boxes-2{
@@ -424,7 +424,7 @@ body{
 	background-position: right;
 }
 #mm-blocker{
-	background-color: rgba(black, 0.3);
+	background-color: rgba($color-1, 0.3);
 }
 .min-menu-lang{
 	li{
@@ -445,7 +445,7 @@ body{
 	position: fixed;
 	top: 0;
 	z-index: 100;
-	color: black;
+	color: $color-font-def;
 	//box-shadow: 0 0 20px 0 black;
 	background-color: white;
 	font-size: 0.9em;
@@ -551,16 +551,16 @@ body{
 	}
 	.mm-title{
 		font-weight: 700;
-		color: black;
+		color: $color-font-def;
 		font-size: 18px;
 	}
 	.mm-btn{
-		border-color: black;
+		border-color: $color-1;
 	}
 	.mm-next{
 		background-color: $color-gray-1;
 		&:after{
-			border-color: black;
+			border-color: $color-1;
 		}
 	}
 }
@@ -639,7 +639,7 @@ body{
 		position: relative;
 		float: right;
 		display: block;
-		color: black;
+		color: $color-font-def;
 		width: 42px;
 		height: 50px;
 		right: -5px;
@@ -661,7 +661,7 @@ body{
 
 .form-def{
 	background-color: white;
-	color: black;
+	color: $color-font-def;
 	overflow: visible;
 	max-width: 960px;
 	border-radius: 10px;

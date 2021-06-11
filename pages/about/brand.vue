@@ -1,305 +1,172 @@
 <template>
-  <div class="main-body brand offset-model-header">
-    
-    <div class="model-header header-scroll scrolled-down down">
-      <div class="container-p">
-        <div class="model-header-panel">
-          <div class="brand-menu">
-            <ul class="list-inline">
-              <li><a href="#block-1" scroll-link>Логотип</a></li>
-              <li><a href="#block-3" scroll-link>Философия</a></li>
-              <li><a href="#block-4" scroll-link>Манифест</a></li>
-              <li><a href="#block-5" scroll-link>Вдохновение</a></li>
-              <li><a href="#block-7" scroll-link>Ценности</a></li>
-              <li><a href="#block-8" scroll-link>Цель</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="brand-bnr color-white">
-      <div class="brand-bnr-video">
-        <div class="bg-shadow"></div>
-        <div class="video-content bg-video-content cover">
-          <video src="/img/brand/video-1.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-        </div>
-        <div class="desc-content trans-center">
-          <div class="btn-content">
-            <a href="https://www.youtube.com/watch?v=YPkDx93tca8" data-fancybox="">
-              <div class="btn-play">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-              </div>
-            </a>
-          </div>
-          <div class="text-content text-center">
-            <h1>Movement that inspires</h1>
-            <p>Движение, которое вдохновляет</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <div class="brand-logo bg-color-1 color-white" id="block-1">
-      <div class="container pv-5 desktop:pv-13">
-        <div class="img-content mv-12 text-center">
-          <img src="/img/brand/logo-new.svg" alt="" class="box-xs-10">
-        </div>
-        <div class="entry-content">
-          <div class="desc-content mv-5 desktop:mt-18">
-            <div class="flex-adaptive text-center-sm">
-              <div class="title-content flexbasis-md-6 mv-2 desktop:pr-13">
-                <div class="text-x4">Источник вдохновения: значение нового логотипа</div>
-              </div>
-              <div class="text-x1 text-content flexbasis-md-6 mv-2">
-                <p>Новый логотип как воплощение <br>полной трансформации бренда</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="block-2 bg-color-1 color-white">
-      <div class="container-p pv-1">
-        <div class="video-content relative">
-          <div class="bg-video-content-2">
-            <a href="https://www.youtube.com/watch?v=l3b2SOMolhU" data-fancybox="">
-              <div class="btn-play">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-              </div>
-            </a>
-            <video src="/img/brand/video-2.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
-          </div>
-        </div>
-        <div class="desc-content mv-10 desktop:mv-16">
-          <div class="text-s2 ctext-2 mv-4 desktop:mv-8">
-            Эволюция человечества происходила посредством миграции. По ходу истории люди мигрировали, открывали новые континенты. 
-            <span class="color-2">Это желание и потребность в движении заложены в ДНК всего человечества. </span>
-            Когда мы в движении, мы открываем новые миры, получаем новые впечатления, знакомимся с новыми людьми, открываем новые перспективы. 
-            <span class="color-2">Мы вдохновляемся. </span>
-            <span class="color-2">Движение связано с концепцией постоянных изменений </span>
-            - изменений окружающей среды, пространства, и, как следствие, изменений в нас самих.Когда вы в движении, у вас есть время подумать. 
-            <span class="color-2">Движение стимулирует мышление, творчество и новые идеи.</span>
-          </div>
-        </div>
-      </div>
-      <div class="img-fulled">
-        <img src="/img/brand/2.jpg" alt="">
-        <div class="img" style="background-image: url('/img/brand/2.jpg');"></div>
-      </div>
-    </div>
-
-    <div class="block-3 bg-color-1 color-white" id="block-3">
-      <div class="wrapper">
-        <div class="container-p pv-5 desktop:pv-13">
-          <div class="desc-content">
-            <div class="box-lg-5 entry-header">
-              <div class="color-gray-4 mb-2">Философия</div>
-              <div class="text-x4">Единство противоположностей</div>
-            </div>
-            <div class="text-content">
-              <div class="text-s2 ctext-2 mv-4 desktop:mv-8">
-                Представляем вам нашу новую философию дизайна — <span class="color-2"> единство противоположностей. </span>В основе идея противопоставления, которую мы используем для формирования уникального стиля Kia. Мы применяем концепции разрушения связей и контраста, чтобы создавать ярко выраженный дизайн.
-                Философия <span class="color-2">единства противоположностей</span> позволяет нам выделяться и символизирует наступление новой эры бренда. Kia адаптируется к меняющемуся миру вокруг нас. Мы вдохновлены изменениями, которые происходят вокруг нас, и приглашаем вас вместе с нами создавать будущее.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="img-fulled">
-          <img src="/img/brand/3.jpg" alt="">
-          <div class="img" style="background-image: url('/img/brand/3.jpg');"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="block-4 bg-color-1 color-white" id="block-4">
-      <div class="wrapper">
-        <div class="container-p">
-          <div class="desc-content mv-10">
-            <div class="box-lg-5 entry-header">
-              <div class="color-gray-4 mb-2">Манифест</div>
-              <div class="text-x4">Любое творчество начинается с движения</div>
-            </div>
-            <div class="text-s2 ctext-2 mv-4 desktop:mv-8">
-              Как дизайнеры, создающие для потребителей, местных сообществ и общества в целом устойчивые мобильные решения, 
-              <span class="color-2">наша цель в Kia заключается в создании инновационных продуктов, </span>
-              которые вдохновляют вас, когда вы находитесь в движении, и в предоставлении востребованных и удобных услуг, демонстрируя нашу веру в то, что самый ценный ресурс для каждого человека — это его время.
-              Мы рождены в центре вдохновения, страсти и энтузиазма. 
-              <span class="color-2">Наш настрой на рост и прогресс проявляется </span>
-              в каждом сотруднике Kia по всему миру. 
-              <span class="color-2">И мы стремимся реализовывать цель бренда каждый день.</span>
-            </div>
-          </div>
-          <div class="img-fulled desktop:mt-20">
-            <img src="/img/brand/4.jpg" alt="">
-            <div class="img" style="background-image: url('/img/brand/4.jpg');"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="block-5" id="block-5">
-      <div class="wrapper">
-        <div class="container-p pv-5 desktop:pv-13">
-          <div class="box-lg-5 entry-header">
-            <div class="color-gray-4 mb-2">Вдохновение</div>
-            <div class="text-x4">Движение вдохновляет на идеи</div>
-          </div>
-          <div class="text-s2 mv-4 desktop:mv-8">
-            В Kia, сотрудничая с художниками и нейробиологами, мы создали анимацию, которая разработана для того, чтобы вдохновить каждого, кто смотрит на нее. В результате многочисленных исследований, мы выявили, что произведения искусства раскрывают сущность движения в природе за счет упрощения формы с помощью таких методов, как изменение цвета в зависимости от скорости.
-          </div>
-        </div>
-        <div class="swiper">
-          <div class="wrapper-block">
-            <div class="swiper-items">
-              <div class="item">
-                <div class="img-content">
-                  <div class="img" style="background-image: url('/img/brand/block-5-1.png');"></div>
-                </div>
-                <div class="desc-content">
-                  <div class="text-x3 mb-2 fw-6">Движение в океане</div>
-                  <div class="text-s2">Движение волн создает ощущение полного погружения.</div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="img-content">
-                  <div class="img" style="background-image: url('/img/brand/block-5-2.png');"></div>
-                </div>
-                <div class="desc-content">
-                  <div class="text-x3 mb-2 fw-6">Движение на земле</div>
-                  <div class="text-s2">Движение частиц в природе способствует умиротворению.</div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="img-content">
-                  <div class="img" style="background-image: url('/img/brand/block-5-3.png');"></div>
-                </div>
-                <div class="desc-content">
-                  <div class="text-x3 mb-2 fw-6">Движение в воздухе</div>
-                  <div class="text-s2">Завораживающее движение частиц создает ощущение присутствия.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-p pv-5 desktop:pv-13">
-          <div class="box-lg-5 entry-header">
-            <div class="text-x4">Движение вперед, постоянные усилия и совершенствование — вот наш менталитет роста</div>
-          </div>
-          <div class="flex-adaptive row-15">
-            <div class="flexbasis-md-6 ph-3 mv-6">
-              <div class="text-s2">
-                Движение является важной частью нашего менталитета в Kia. Его разделяют все сотрудники  на всех уровнях компании.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="block-6 mobile:mb-15 mb-25">
-      <div class="wrapper">
-        <div class="desc-content">
+  <div class="main-body offset-header" header-opacity>
+    <div class="kiaworld">
+      <div class="kiaworld-bnr color-white" :style="'background-image: url(\''+page_data.header.image+'\');'">
+        <div class="breadcrumb-container">
           <div class="container-p">
-            <div class="box-md-5 box-lg-4 text-item text-x1">
-              <p>У Kia долгая история производства автомобилей. Но если быть точнее, мы начали в 1944 году с производства велосипедов.</p>
-              <p>С тех пор вот уже 75 лет мы приводим людей в движение. Мы с гордостью предоставляем решения, которые помогают людям перемещаться из одной точки в другую, объединяя людей друг с другом физически и эмоционально.</p>
-              <p>Как вы видите,  <span class="color-4">движение всегда было в сердце нашего бренда,</span> а передвижение людей в основе ншего бизнеса, и это так и останется в будущем, независимо от любых изменений в нашей отрасли.</p>
-            </div>
+            <ol class="breadcrumb">
+              <li><nuxt-link to="/">Главная</nuxt-link></li>
+              <li><nuxt-link to="/about">Мир Kia</nuxt-link></li>
+              <li><nuxt-link to="">Компания Kia Motors</nuxt-link></li>
+            </ol>
           </div>
         </div>
-        <div class="img-fulled">
-          <img src="/img/brand/6.jpg" alt="">
-          <div class="img" style="background-image: url('/img/brand/6.jpg');"></div>
+        <div class="container-p relative">
+          <div class="kiaworld-bnr-header" v-html="page_data.header.text"></div>
         </div>
       </div>
-    </div>
-
-    <div class="block-7 color-white" id="block-7">
-      <div class="wrapper relative">
-        <div class="desc-content">
-          <div class="container-p">
-            <div class="box-md-8 box-lg-5">
-              <div class="entry-header">
-                <div class="color-gray-4 mb-3">Ценности</div>
-                <div class="text-x4">Креативное мышление, инновации и прогресс — наш жизненный менталитет</div>
-              </div>
-              <div class="text-content mv-8 desktop:mb-15 text-x1 text-item">
-                <p>Мы верим в то, что эти ценности находят отклик в наших потребителях. Людях с прогрессивным мировоззрением, оптимистичных и позитивных, готовых меняться и адаптироваться к будущему, которые движимы новыми идеями и во всем видят возможности.</p>
-                <p>Честно отвечать на вопрос «Для чего» —  это критически важно, чтобы достигать цель нашего бренда. Быть брендом, который воплощает это видение и следовать ему каждый день – это то, с чего мы все начинаем. </p>
-              </div>
+      <template v-for="(block) in page_data.blocks" v-if="block.block == 'block1'">
+        <div class="container p-v-30 p-t-md-80" :key="key">
+          <div class="row-15 flex-adaptive justify-c-between">
+            <div class="col-md-4 p-h-15">
+              <div class="h1 text-x5 m-t-0">{{block.name}}</div>
             </div>
+            <div class="col-md-offset-1 p-h-15 col-md-7" v-html="block.text"></div>
           </div>
-        </div>
-        <div class="img-fulled">
-          <img src="/img/brand/7.jpg" alt="">
-        </div>
-      </div>
-    </div>
-
-    <div class="block-8" id="block-8">
-      <div class="wrapper">
-        <div class="container-p pv-5 desktop:pv-13">
-          <div class="box-md-8 box-lg-5">
-            <div class="entry-header">
-              <div class="color-gray-4 mb-2">Цель</div>
-              <div class="text-x3 fw-6">В Kia мы верим, что движение вдохновляет на идеи. Именно поэтому мы создаем пространство, где вы можете обретать вдохновение и получать больше времени на воплощение своих идей в жизнь</div>
-            </div>
-            <div class="text-content mv-8 text-x1 text-item">
-              <p>Это и есть цель существования нашего бренда. Мы создаем пространства, где вы сможете вдохновляться, и не только благодаря нашим продуктам, но и находясь в наших шоурумах, где вы получите опыт взаимодействия с нашими продуктами. </p>
-              <p>Кроме того, мы существуем, чтобы предоставлять значимые и удобные услуги, которые освобождают вам время на то, что вас больше всего вдохновляет, например, общение с семьей и друзьями, путешествия или просто отдых.</p>
-            </div>
-          </div>
-          <div class="video-content relative mv-8 desktop:mv-20">
+          <div class="video-content m-t-30 m-t-md-80 relative">
             <div class="bg-video-content-2">
-              <a href="https://www.youtube.com/watch?v=l3b2SOMolhU" data-fancybox="">
+              <a :href="block.video" data-fancybox="">
                 <div class="btn-play">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
                 </div>
               </a>
-              <div class="img-fulled">
-                <img src="/img/brand/10.jpg" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="box-md-8 box-lg-5">
-            <div class="entry-header">
-              <div class="text-x4">С новым Kia мы выходим за рамки производителя автомобилей и становимся брендом новой эпохи мобильности</div>
-            </div>
-            <div class="text-content mv-8 text-x1 text-item">
-              <p>Брендом, который понимает потребности людей в решениях мобильности не только с точки зрения продуктов, но и с точки зрения услуг,  и предлагает удобные услуги, учитывая самый ценный ресурс каждого человека — время.</p>
-              <p class="color-4 fw-6">И это не просто слова,  это цель бренда, которую мы будем реализовывать и руководствоваться ей во всем, что мы делаем.</p>
+              <video :src="block.videoPreview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
             </div>
           </div>
         </div>
+        <div class="kiaworld-cnt p-b-20" :key="key">
+          <div class="container-p">
+            <div class="cnt-items boxes-3 boxes-xs-2 figure-m-v-20 m-v-30">
+              <figure v-for="(content, key) in block.content" :key="key">
+                <div class="fig-wrapper">
+                  <h1 class="m-b-5">{{content.name}}</h1>
+                  <p>{{content.text}}</p>
+                  <nuxt-link to="/about/history" class="hover-aunderline" v-if="key == 0">
+                    <b>История Kia</b><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path data-v-8a6d1ec4="" d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
+                  </nuxt-link>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </template>
+      <div class="kiaworld-logo">
+        <template v-for="(block) in page_data.blocks" v-if="block.block == 'block2'">
+          <div class="kiaworld-logo-wrapper" :key="key">
+            <div class="container-p">
+              <div class="box-md-10 box-lg-6 m-auto">
+                <h1>{{block.name}}</h1>
+                <br>
+                <div v-html="block.text"></div>
+                <br>
+                <img class="m-auto m-b-md-30" :src="block.image">
+              </div>
+            </div>
+          </div>
+        </template>
+        <template v-for="(block) in page_data.blocks" v-if="block.block == 'block3'">
+          <div class="img-entry-header relative">
+            <div class="container text-content color-white m-t-md-40">
+              <h4 class="color-2 text-n1">{{block.alias}}</h4>
+              <div class="row-15 flex-adaptive justify-c-between">
+                <div class="col-md-4 p-h-15">
+                  <div class="h1 text-x5 m-t-0">{{block.name}}</div>
+                </div>
+                <div class="col-md-offset-1 p-h-15 text-x1 col-md-7" v-html="block.text"></div>
+              </div>
+            </div>
+            <div class="img-bg">
+              <img :src="block.image">
+            </div>
+          </div>
+        </template>
       </div>
+      
     </div>
-    <div class="block">
-      <div class="img-fulled">
-        <img src="/img/brand/8.jpg" alt="">
-      </div>
+
+    <div class="kiaworld-designc">
+      <template v-for="(block) in page_data.blocks" v-if="block.block == 'block4'">
+        <div class="container-p p-v-md">
+          <div class="entry-header text-center m-v-30 box-md-6 m-auto">
+            <div class="h1 m-b-30">{{block.name}}</div>
+            <p class="text-x1">{{block.text}}</p>
+          </div>
+          <div class="kiaworld-designc-items boxes-3 figure-m-v-20">
+            <figure v-for="(content, key) in block.content" :key="key">
+              <div class="fig-wrapper">
+                <div class="img-content">
+                  <div class="img" :style="'background-image: url('+content.image+');'"></div>
+                </div>
+                <div class="desc-content text-x1 m-t-10" v-html="content.name"></div>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </template>
+    </div>
+    
+    <div class="kiaworld-cars">
+      <template v-for="(block) in page_data.blocks" v-if="block.block == 'block5'">
+        <div class="img-entry-header relative">
+          <div class="container text-content m-t-md-70">
+            <div class="row-15 flex-adaptive justify-c-between">
+              <div class="col-md-4 p-h-15">
+                <div class="h1 text-x5 m-t-0">{{block.name}}</div>
+              </div>
+              <div class="col-md-offset-1 p-h-15 text-x1 col-md-7">
+                <p>{{block.text}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="img-bg">
+            <img :src="block.image">
+          </div>
+        </div>
+      </template>
+    </div>
+    <div class="kiaworld-plan">
+      <template v-for="(block) in page_data.blocks" v-if="block.block == 'block6'">
+        <div class="g-padding">
+          <div class="g-container">
+            <div class="g-margin">
+              <div class="kiaworld-plan-body color-white">
+                <div class="img-content">
+                  <img :src="block.image">
+                </div>
+                <div class="h1 text-x5">{{block.name}}</div>
+                <div v-html="block.text"></div>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+    <div class="kiaworld-rating">
+      <template v-for="(block) in page_data.blocks" v-if="block.block == 'block7'">
+        <div class="g-padding">
+          <div class="g-container">
+            <div class="g-margin flex-adaptive justify-c-between p-v-30 p-v-md-90">
+              <div class="desc-content m-v-30 box-md-4">
+                <div class="h1 text-x5">{{block.name}}</div>
+                <br>
+                <div class="text-x1">{{block.text}}</div>
+                <br><br>
+                <div class="fw-6 text-x5">{{block.content.code[0]}} <span class="text-x3">{{block.content.code[1]}}</span></div>
+                <div class="text-x1">{{block.content.content}}</div>
+              </div>
+              <div class="img-content m-v-30 box-md-5">
+                <img :src="block.image">
+              </div>
+            </div>
+            <hr>
+          </div>
+        </div>
+      </template>
     </div>
 
     <KiaworldOther :kiaworld-other-items="page_data.footer" />
     
-    <div class="block-9 color-white">
-      <div class="wrapper relative">
-        <div class="desc-content pb-10">
-          <div class="container-p">
-            <div class="box-md-8 box-lg-5 m-l-auto">
-              <div class="entry-header">
-                <div class="text-x3">Kia адаптируется к меняющемуся миру вокруг нас. Мы вдохновлены изменениями, которые происходят вокруг нас, и приглашаем вас присоединиться к нам для создания будущего</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="img-fulled">
-          <img src="/img/brand/9.jpg" alt="">
-        </div>
-      </div>
-    </div>
-
-
   </div>
 </template>
 
@@ -325,7 +192,7 @@ export default {
   async asyncData(context){
     try{
       const page_data = await context.store.dispatch("other/fetchPath", {
-        path: context.route.path
+        path: "/about/brand"
       });
       return {
         page_data
