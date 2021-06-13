@@ -23,7 +23,7 @@
             </div>
             <div class="desc-content">
               <nuxt-link :to="'/configurator/'" class="hover-aunderline">
-                <span class="text-s1">Конфигуратор</span>
+                <span class="text-s1-b">Конфигуратор</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
               <br>
@@ -38,7 +38,7 @@
             </div>
             <div class="desc-content">
               <nuxt-link :to="'/buy/cars/'" class="hover-aunderline">
-                <span class="text-s1">Новые автомобили в наличии</span>
+                <span class="text-s1-b">Новые автомобили в наличии</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
               <br>
@@ -53,7 +53,7 @@
             </div>
             <div class="desc-content">
               <nuxt-link :to="'/buy/calc/'" class="hover-aunderline">
-                <span class="text-s1">Онлайн кредитование</span>
+                <span class="text-s1-b">Онлайн кредитование</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
               <br>
@@ -68,7 +68,7 @@
             </div>
             <div class="desc-content">
               <nuxt-link :to="'/feedback'" class="hover-aunderline">
-                <span class="text-s1">Запись на тест-драйв</span>
+                <span class="text-s1-b">Запись на тест-драйв</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
               <br>
@@ -83,7 +83,7 @@
             </div>
             <div class="desc-content">
               <nuxt-link :to="'/dealers/'" class="hover-aunderline">
-                <span class="text-s1">Поиск дилера</span>
+                <span class="text-s1-b">Поиск дилера</span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
               </nuxt-link>
               <br>

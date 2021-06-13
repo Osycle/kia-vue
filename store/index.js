@@ -1,19 +1,38 @@
 
 
 import Vue from 'vue';
-import Vuex from 'vuex';
-import _ from 'lodash';
-import Notifications from 'vue-notification/dist/ssr.js';
-import Multiselect from 'vue-multiselect';
 
+
+
+
+//
+import Vuex from 'vuex';
 Vue.use(Vuex);
+
+/* lodash для работы с массивами */
+import _ from 'lodash';
 Vue.use(_);
+
+/* Всплывающее подсказки */
+import Notifications from 'vue-notification/dist/ssr.js';
 Vue.use(Notifications);
 
+
+/* Обратный отчёт */
+import vueAwesomeCountdown from 'vue-awesome-countdown'
+Vue.use(vueAwesomeCountdown, 'vac') // Component name, `countdown` and `vac` by default
+
+/* Мульти селект */
+import Multiselect from 'vue-multiselect';
 Vue.component('multiselect', Multiselect)
 
+
+/* Валидатор  */
+import Vuelidate from 'vuelidate'
+Vue.use(Vuelidate)
+
+/* Форматирование даты */
 import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
-import consolaGlobalInstance from 'consola';
 Vue.use(VueFilterDateFormat, {
   dayOfWeekNames: [
     'Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг',
@@ -33,8 +52,7 @@ Vue.use(VueFilterDateFormat, {
   timezone: 5
 });
 
-// import ApiPlugin from '@/plugins/api'
-// Vue.use(ApiPlugin);
+
 
 
 /* GLOBAL FILTRES */

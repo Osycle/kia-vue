@@ -70,14 +70,14 @@
               <div class="conf-result-summary">
                 <dl>
                   <dt>Итоговая стоимость</dt> 
-                  <dd><strong class="text-s1">от {{currentPrice | spaceBetweenNum}} сум</strong></dd>
+                  <dd><strong class="text-s1-b">от {{currentPrice | spaceBetweenNum}} сум</strong></dd>
                 </dl>
               </div>
               <div class="conf-result-summary hide">
                 <p>Кредитный расчет</p>
                 <dl>
                   <dt>Ежемесячный платеж</dt> 
-                  <dd><strong class="text-s1">10 900 ₽/мес</strong></dd>
+                  <dd><strong class="text-s1-b">10 900 ₽/мес</strong></dd>
                 </dl>
               </div>
             </div>
@@ -480,7 +480,7 @@
                       <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                     </div>
                     <div class="input-content m-v-30 col-md-6 p-h-15">
-                      <input type="text" name="phone" placeholder="Телефон *"  class="form-control" required pattern="[0-9]+" title="цифры">
+                      <input value="" name="phone" type="text" class="form-control" v-facade="'+### (##) ###-##-##'" placeholder="+998 (__) ___−__−__" required minlength="19">
                     </div>
                   </div>
                   <div class="iagree m-v-30">
@@ -531,7 +531,7 @@
 </template>
 
 <script>
-
+import mainjs from '@/static/js/main';
 
 
 
@@ -703,6 +703,12 @@ export default {
         this.currentExterior = this.currentComplectation.bodyColors[0];
         this.currentInterior = this.currentComplectation.interiorColors[0];
         console.log(this.selectComplectations);
+      }
+      if(this.currentStepNum == 5){
+        setTimeout(() => {
+          mainjs()  
+        }, 50);
+        
       }
 
     },

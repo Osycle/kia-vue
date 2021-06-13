@@ -13,7 +13,7 @@ $color-special-1: #2e1c11;
 $color-font-def: $color-1;
 
 $color-red: #EA0029;
-$color-green: #219653;
+$color-green: #5D7D2B;
 
 $font-family-1: "Kia Signature";
 $font-family-2: $font-family-1;
@@ -1328,11 +1328,12 @@ html{
 		@include placeholder-color(gray);
 	}
 	input.form-control{
-		height: 45px;
+		height: 40px;
+		padding: 6px 10px;
 	}
 	textarea.form-control{
 		height: 130px;
-		padding: 10px 15px;
+		padding: 10px 10px;
 		border: 1px solid $color-gray-3;
 		resize: none;
 	}
@@ -1480,3 +1481,36 @@ label{
 
 
 
+
+label.error{
+	color: $color-red;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.form-control.error{
+	border: 1px solid $color-red;
+	&:focus{
+		border-color: $color-red;
+	}
+}
+[name="iagree"]{
+	
+	&.error~span{
+		&:before{
+			border-color: $color-red;
+		}
+	}
+}
+#iagree-error{
+	@media (max-width: 991px){
+		display: none !important;
+	}
+	@media (min-width: 992px){
+		position: absolute;
+		transform: translateX(-100%);
+		width: 120px;
+		margin-top: 3px;
+		margin-bottom: 0;
+	}
+}

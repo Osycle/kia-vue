@@ -22,7 +22,7 @@
                 <form action="https://cdn.kia-motors.uz/feedback.php" method="POST" formaj>
                   <input type="text" :value="new Date().getFullYear()" name="anti-bot-a" class="hide">
                   <input type="text" value="serviceBooking" name="type" class="hide">
-                  <div class="text-s1">Данные автомобиля</div>
+                  <div class="text-s1-b">Данные автомобиля</div>
                   <div class="input-content">
                     <div class="models-filter m-v-30">
                       <select class="js-select" name="carName" required>
@@ -53,7 +53,7 @@
                     <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                   </div>
                   <div class="input-content m-v-30">
-                    <input type="phone" name="phone" placeholder="Телефон"  class="form-control" required title="цифры">
+                    <input value="" name="phone" type="text" class="form-control" v-facade="'+### (##) ###-##-##'" placeholder="+998 (__) ___−__−__" required minlength="19">
                   </div>
                   <div class="input-content">
                     <textarea type="comment" placeholder="Ваш комментарий или вопрос" class="form-control"></textarea>

@@ -163,6 +163,9 @@
               <div class="item">
                 <div class="img-content">
                   <div class="img" style="background-image: url('/img/brand/block-5-1.jpg');"></div>
+                  <div class="video-content">
+                    <video src="/img/brand/block-5-1-full.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+                  </div>
                 </div>
                 <div class="desc-content">
                   <div class="text-x3 mb-2 fw-6">Движение в океане</div>
@@ -172,6 +175,9 @@
               <div class="item">
                 <div class="img-content">
                   <div class="img" style="background-image: url('/img/brand/block-5-2.jpg');"></div>
+                  <div class="video-content">
+                    <video src="/img/brand/block-5-2-full.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+                  </div>
                 </div>
                 <div class="desc-content">
                   <div class="text-x3 mb-2 fw-6">Движение на земле</div>
@@ -181,6 +187,9 @@
               <div class="item">
                 <div class="img-content">
                   <div class="img" style="background-image: url('/img/brand/block-5-3.jpg');"></div>
+                  <div class="video-content">
+                    <video src="/img/brand/block-5-3-full.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+                  </div>
                 </div>
                 <div class="desc-content">
                   <div class="text-x3 mb-2 fw-6">Движение в воздухе</div>

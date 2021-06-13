@@ -95,7 +95,7 @@
           <div class="g-container">
             <div class="g-margin">
               <div class="container">
-                <div class="about-stat-items boxes-3 text-s1 pb-8 flex-adaptive justify-between desktop:mt-10 mt-6">
+                <div class="about-stat-items boxes-3 text-s1-b pb-8 flex-adaptive justify-between desktop:mt-10 mt-6">
                   <div class="cell" :key="key">
                     <h2>{{block.name}}</h2>
                     <div>{{block.text}}</div>

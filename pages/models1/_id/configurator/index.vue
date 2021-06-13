@@ -70,14 +70,14 @@
               <div class="conf-result-summary">
                 <dl>
                   <dt>Итоговая стоимость</dt> 
-                  <dd><strong class="text-s1">от {{currentComplectation.min_price | spaceBetweenNum}} сум</strong></dd>
+                  <dd><strong class="text-s1-b">от {{currentComplectation.min_price | spaceBetweenNum}} сум</strong></dd>
                 </dl>
               </div>
               <div class="conf-result-summary hide">
                 <p>Кредитный расчет</p>
                 <dl>
                   <dt>Ежемесячный платеж</dt> 
-                  <dd><strong class="text-s1">10 900 ₽/мес</strong></dd>
+                  <dd><strong class="text-s1-b">10 900 ₽/мес</strong></dd>
                 </dl>
               </div>
             </div>

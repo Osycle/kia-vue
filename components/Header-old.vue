@@ -78,7 +78,7 @@
                         <div class="img" style="background-image: url('https://cdn.kia.ru/site-data/menu/banners/buy_banner.jpg');"></div>
                       </div>
                       <div class="desc-content">
-                        <span class="text-s1">Специальная серия Edition Plus</span>
+                        <span class="text-s1-b">Специальная серия Edition Plus</span>
                       </div>
                     </a>
                   </div>
@@ -133,7 +133,7 @@
                         <div class="img" style="background-image: url('https://cdn.kia.ru/site-data/menu/banners/mir_kia_banner.png');"></div>
                       </div>
                       <div class="desc-content">
-                        <span class="text-s1">Программы поддержки клиентов Kia</span>
+                        <span class="text-s1-b">Программы поддержки клиентов Kia</span>
                       </div>
                     </a>
                   </div>
@@ -235,7 +235,7 @@
                         <div class="img" style="background-image: url('https://cdn.kia.ru/site-data/menu/banners/mir_kia_banner.png');"></div>
                       </div>
                       <div class="desc-content">
-                        <span class="text-s1">Программа лояльности «Семья Kia»</span>
+                        <span class="text-s1-b">Программа лояльности «Семья Kia»</span>
                       </div>
                     </a>
                   </div>

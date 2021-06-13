@@ -69,7 +69,7 @@
                           <div class="img" style="background-image: url('https://cdn.kia.ru/site-data/menu/banners/buy_banner.jpg');"></div>
                         </div>
                         <div class="desc-content">
-                          <span class="text-s1">Специальная серия Edition Plus</span>
+                          <span class="text-s1-b">Специальная серия Edition Plus</span>
                         </div>
                       </a>
                     </div>
@@ -137,7 +137,7 @@
               <li><nuxt-link to="/buy">Онлайн-сервисы</nuxt-link></li>
               <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
               <!-- <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li> -->
-              <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li>
+              <!-- <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li> -->
               <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
               <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>
               <li><nuxt-link to="/buy/testdrive">Запись на тест-драйв</nuxt-link></li>

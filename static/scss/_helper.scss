@@ -801,22 +801,55 @@ img[auto]{
 		font-size: 35px;
 	}
 }
-.text-n1{
-	font-size: 12px;
-  line-height: 125%;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  font-weight: 700;
-}
+
+
+
 .text-s1{
   font-size: 18px;
-  line-height: 139%;
+  line-height: 25px;
+}
+.text-s1-b{
+  font-size: 18px;
+  line-height: 25px;
   font-weight: 700;
 }
 .text-s2{
   font-size: 15px;
-  line-height: 25px;
+  line-height: 20px;
   font-weight: 400;
+}
+.text-s2-b{
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.text-s2i{
+  font-size: 15px;
+  line-height: 25px;
+}
+.text-s2i-b{
+  font-size: 15px;
+  line-height: 25px;
+}
+.text-s3{
+	font-size: 12px;
+	line-height: 15px;
+}
+.text-s3i{
+	font-size: 12px;
+	line-height: 20px;
+}
+.text-s3i-b{
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 600;
+}
+.text-n1{
+	font-size: 12px;
+  line-height: 15px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 @for $i from 0 through 25{

@@ -9,7 +9,7 @@
               <div class="box-xs-10 box-md-9 m-auto">
                 <div class="wrapper">
                   <div v-html="slide.content"></div>
-                  <div v-if="slide.underContent" class="text-s1 pt-4 fw-5">{{slide.underContent}}</div>
+                  <div v-if="slide.underContent" class="text-s1-b pt-4 fw-5">{{slide.underContent}}</div>
                 </div>
                 <div class="carimgs">
                   <picture>

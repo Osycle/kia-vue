@@ -7,6 +7,9 @@ module.exports = {
   target: 'server',
   head: {
     title: process.env.npm_package_name || '',
+    script: [
+      // {src: "@/static/metrix.js"}
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -25,13 +28,39 @@ module.exports = {
   ],
 
   plugins: [
-    
+    '@plugins/vue-input-facade.js',
   ],
 
   modules: [
+    // Накст
     '@nuxtjs/axios',
     '@nuxt/http',
+
+    // Метрики
+    // ['@nuxtjs/google-analytics', { ua: 'UA-126548408-24' }],
+    // '@nuxtjs/gtm',
+    // ['@nuxtjs/yandex-metrika',
+    //   {
+    //     id: '80120311',
+    //     webvisor: true,
+    //     clickmap:true,
+    //     trackLinks:true,
+    //     accurateTrackBounce:true,
+    //     webvisor:true,
+    //     ecommerce:"dataLayer",
+    //     // useCDN:false,
+    //   }
+    // ],
+
   ],
+  // gtm: {
+  //   id: 'GTM-K5HVG7K'
+  // },
+  // publicRuntimeConfig: {
+  //   gtm: {
+  //     id: process.env.GOOGLE_TAG_MANAGER_ID
+  //   }
+  // },
   axios: {
     //baseURL: 'https://lada.uz/temp-api/',
     baseURL: 'https://lays.uz/tempphp/',
