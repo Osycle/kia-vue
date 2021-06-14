@@ -1176,7 +1176,7 @@ $heightSlider: auto;
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
-		height: calc(100vh - 200px);
+		//height: calc(100vh - 200px);
 	}
 	.breadcrumb{
 		li{
@@ -1248,12 +1248,15 @@ $heightSlider: auto;
 		.container-p{
 			padding-left: 30px;
 			padding-right: 30px;
-			margin-top: 340px;
-			margin-bottom: -200px;
+			margin-top: 20px;
+			//margin-top: 340px;
+			//margin-bottom: -200px;
 		}
 		.card-bnr-name{
 			text-align: center;
 			margin-bottom: 20px;
+			margin-top: 20px;
+
 		}
 		.text{
 			justify-content: center;
@@ -1266,10 +1269,6 @@ $heightSlider: auto;
 			justify-content: center;
 			display: block;
 			width: 100%;
-		}
-		.card-bnr-name{
-			margin-top: 20px;
-			margin-bottom: 20px;
 		}
 		.card-bnr-bottom{
 			margin-bottom: 60px;
@@ -4159,6 +4158,9 @@ dt{
 	.showroom{
 		padding-top: 40px;
 	}	
+	.text-n1{
+		text-transform: none;
+	}
 }
 .about-desc{
 	.item{
