@@ -243,7 +243,7 @@
                   <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                 </div>
                 <div class="input-content m-v-30 col-md-6 p-h-15">
-                  <input type="text" name="phone" placeholder="Телефон *"  class="form-control" required pattern="[0-9]+" title="цифры">
+                  <input value="" name="phone" type="text" class="form-control" v-facade="'+### (##) ###-##-##'" placeholder="+998 (__) ___−__−__" required minlength="19">
                 </div>
               </div>
               <div class="iagree m-v-30">

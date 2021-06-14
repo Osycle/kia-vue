@@ -2,7 +2,7 @@
   <div class="main-body brand offset-model-header">
     
     <div class="model-header header-scroll scrolled-down down">
-      <div class="container-p">
+      <div class="container-r">
         <div class="model-header-panel">
           <div class="brand-menu">
             <ul class="list-inline">
@@ -60,7 +60,7 @@
       </div>
     </div>
     <div class="block-2 bg-color-1 color-white">
-      <div class="container-p pv-1">
+      <div class="container-r pv-1">
         <div class="video-content relative">
           <div class="bg-video-content-2">
             <a href="https://www.youtube.com/watch?v=l3b2SOMolhU" data-fancybox="">
@@ -92,7 +92,7 @@
 
     <div class="block-3 bg-color-1 color-white" id="block-3">
       <div class="wrapper">
-        <div class="container-p pv-5 desktop:pv-13">
+        <div class="container-r pv-5 desktop:pv-13">
           <div class="desc-content">
             <div class="box-md-8 box-lg-6 entry-header">
               <div class="color-gray-4 mb-2">Философия</div>
@@ -116,7 +116,7 @@
 
     <div class="block-4 bg-color-1 color-white" id="block-4">
       <div class="wrapper">
-        <div class="container-p">
+        <div class="container-r">
           <div class="desc-content mv-10">
             <div class="box-md-8 box-lg-6 entry-header">
               <div class="color-gray-4 mb-2">Манифест</div>
@@ -144,7 +144,7 @@
 
     <div class="block-5" id="block-5">
       <div class="wrapper">
-        <div class="container-p pv-5 desktop:pv-13">
+        <div class="container-r pv-5 desktop:pv-13">
           <div class="box-md-8 box-lg-6">
             <div class="entry-header">
               <div class="color-gray-4 mb-2">Вдохновение</div>
@@ -159,7 +159,7 @@
         </div>
         <div class="swiper">
           <div class="wrapper-block">
-            <div class="swiper-items">
+            <div class="swiper-items owl-carousel">
               <div class="item">
                 <div class="img-content">
                   <div class="img" style="background-image: url('/img/brand/block-5-1.jpg');"></div>
@@ -199,7 +199,7 @@
             </div>
           </div>
         </div>
-        <div class="container-p pv-8 desktop:pv-18">
+        <div class="container-r pv-8 desktop:pv-18">
           <div class="box-md-12 box-lg-8 entry-header">
             <div class="text-x4">Движение вперед, постоянные усилия и совершенствование — вот наш менталитет роста</div>
           </div>
@@ -219,7 +219,7 @@
     <div class="block-6 mobile:mb-15 mb-25">
       <div class="wrapper">
         <div class="desc-content">
-          <div class="container-p">
+          <div class="container-r">
             <div class="text-item text-x1">
               <p>У Kia долгая история производства автомобилей. Но если быть точнее, мы начали в 1944 году с производства велосипедов.</p>
               <p>С тех пор вот уже 75 лет мы приводим людей в движение. Мы с гордостью предоставляем решения, которые помогают людям перемещаться из одной точки в другую, объединяя людей друг с другом физически и эмоционально.</p>
@@ -238,7 +238,7 @@
     <div class="block-7 color-white" id="block-7">
       <div class="wrapper relative">
         <div class="desc-content">
-          <div class="container-p">
+          <div class="container-r">
             <div class="box-md-8 box-lg-5">
               <div class="entry-header">
                 <div class="color-gray-4 mb-3">Ценности</div>
@@ -259,7 +259,7 @@
 
     <div class="block-8" id="block-8">
       <div class="wrapper">
-        <div class="container-p pv-5 desktop:pv-13">
+        <div class="container-r pv-5 desktop:pv-13">
           <div class="box-md-9 box-lg-7 desktop:pr-15">
             <div class="entry-header">
               <div class="color-gray-4 mb-2">Цель</div>
@@ -306,12 +306,80 @@
       </div>
     </div>
 
-    <KiaworldOther :kiaworld-other-items="page_data.footer" />
+    <div class="short-news">
+      <div class="container-p p-v-md-60 p-v-30">
+        <div class="entry-header m-v-30 text-center box-md-8 box-lg-5 m-auto">
+          <div class="h3-size">Представители компании про новый бренд Kia</div>
+        </div>
+        <div class="short-news-items boxes-4 owl-carousel owl-btn-2 mv-10 desktop:mv-20">
+          <figure>
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <a href="https://www.youtube.com/watch?v=FVLMYjWl8KI" data-fancybox>
+                  <div class="btn-play">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                  </div>
+                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-1.jpg\');'"></div>
+                </a>
+              </div>
+              <div class="desc-content">
+                <div class="text-s2i-b">Часть I: Полная трансформация</div>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <a href="https://www.youtube.com/watch?v=FVLMYjWl8KI" data-fancybox>
+                  <div class="btn-play">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                  </div>
+                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-2.jpg\');'"></div>
+                </a>
+              </div>
+              <div class="desc-content">
+                <div class="text-s2i-b">Часть II: Новая цель бренда</div>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <a href="https://www.youtube.com/watch?v=FVLMYjWl8KI" data-fancybox>
+                  <div class="btn-play">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                  </div>
+                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-3.jpg\');'"></div>
+                </a>
+              </div>
+              <div class="desc-content">
+                <div class="text-s2i-b">Часть III: Новый облик бренда</div>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <a href="https://www.youtube.com/watch?v=FVLMYjWl8KI" data-fancybox>
+                  <div class="btn-play">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                  </div>
+                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-4.jpg\');'"></div>
+                </a>
+              </div>
+              <div class="desc-content">
+                <div class="text-s2i-b">Часть IV: Дизайн для будущего</div>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
     
     <div class="block-9 color-white">
       <div class="wrapper relative">
         <div class="desc-content pb-10 desktop:pb-20">
-          <div class="container-p">
+          <div class="container-r">
             <div class="box-md-8 box-lg-5 m-l-auto">
               <div class="entry-header">
                 <div class="text-x3">Kia адаптируется к меняющемуся миру вокруг нас. Мы вдохновлены изменениями, которые происходят вокруг нас, и приглашаем вас присоединиться к нам для создания будущего</div>
@@ -347,6 +415,30 @@ export default {
   },
   components:{
     KiaworldOther
+  },
+  mounted(){
+    if(checkSm()){
+      $(".brand .swiper-items").addClass("owl-carousel");
+      $(".brand .swiper-items").owlCarousel({
+        nav: !checkSm(),
+        loop: false,
+        //items: 3,
+        dots: true,
+        dotsEach: false,
+        slideBy: 2,
+        //autoHeight: true,
+        autoplay: false,
+        //autoplayTimeout: 5400,
+        touchDrag: checkSm(),
+        //center: true,
+        responsive:{
+          0:{items:1},
+          991:{items:4}
+        },
+        navText : owlBtn,
+        margin: 0
+      })
+    }
   },
   async asyncData(context){
     try{

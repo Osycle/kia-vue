@@ -1233,7 +1233,31 @@ blockquote{
 		font-size: 0.8em;
 	}
 }
-
+.h1-size{
+	font-size: 90px;
+	line-height: 100px;
+}
+.h2-size{
+	font-size: 70px;
+	line-height: 75px;
+}
+.h3-size{
+	font-size: 50px;
+	line-height: 55px;
+	font-weight: 700;
+	@media (max-width: 991px){
+		font-size: 35px;
+		line-height: 40px;
+	}
+}
+.h4-size{
+	font-size: 35px;
+	line-height: 40px;
+}
+.h5-size{
+	font-size: 25px;
+	line-height: 35px;
+}
 main{
 	//position: relative;
 	overflow: inherit;
