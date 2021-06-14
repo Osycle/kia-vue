@@ -4737,9 +4737,9 @@ dt{
 	}
 	.block-9{
 		.desc-content{
-			position: relative;
-			z-index: 1;
 			@media (max-width: 991px){
+				position: relative;
+				z-index: 1;
 				color: white;
 			}
 		}
@@ -4767,7 +4767,7 @@ dt{
 	}
 }
 .brand-bnr{
-	height: 100vh;
+	height: calc(100vh - 140px);
 }
 .brand-logo{
 	.entry-content{
@@ -4805,7 +4805,7 @@ dt{
     height: 100%;
 	}
 	.text-content{
-		margin-top: calc(100vh - 230px);
+		margin-top: calc(100vh - 340px);
 		@media (max-width: 991px){
 			
 		}
