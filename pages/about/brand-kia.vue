@@ -42,12 +42,12 @@
   
     <div class="brand-logo bg-color-1 color-white" id="block-1">
       <div class="container pv-5 desktop:pv-13">
-        <div class="img-content mv-12 text-center">
+        <div class="img-content mv-12 text-center-md mobile:ph-6">
           <img src="/img/brand/logo-new.svg" alt="" class="box-xs-10">
         </div>
         <div class="entry-content">
           <div class="desc-content mv-5 desktop:mt-18">
-            <div class="flex-adaptive text-center-sm">
+            <div class="flex-adaptive">
               <div class="title-content flexbasis-md-6 mv-2 desktop:pr-13">
                 <div class="text-x4">Источник вдохновения: значение нового логотипа</div>
               </div>
@@ -73,14 +73,17 @@
         </div>
         <div class="desc-content mv-10 desktop:mv-16">
           <div class="text-s2 ctext-2 mv-4 desktop:mv-8">
-            Эволюция человечества происходила посредством миграции. По ходу истории люди мигрировали, открывали новые континенты. 
-            <b class="color-2">Это желание и потребность в движении заложены в ДНК всего человечества. </b>
-            Когда мы в движении, мы открываем новые миры, получаем новые впечатления, знакомимся с новыми людьми, открываем новые перспективы. 
-            <b class="color-2">Мы вдохновляемся. </b><br>
-            <b class="color-2">Движение связано с концепцией постоянных изменений </b>
-            - изменений окружающей среды, пространства, и, как следствие, изменений в нас самих.Когда вы в движении, у вас есть время подумать. 
-            <b class="color-2">Движение стимулирует мышление, творчество, новые идеи и прогресс.</b>
-            <br><br>
+            <p>
+              Эволюция человечества происходила посредством миграции. По ходу истории люди мигрировали, открывали новые континенты. 
+              <b class="color-2">Это желание и потребность в движении заложены в ДНК всего человечества. </b>
+              Когда мы в движении, мы открываем новые миры, получаем новые впечатления, знакомимся с новыми людьми, открываем новые перспективы. 
+              <b class="color-2">Мы вдохновляемся. </b>
+            </p>
+            <p>
+              <b class="color-2">Движение связано с концепцией постоянных изменений </b>
+              - изменений окружающей среды, пространства, и, как следствие, изменений в нас самих.Когда вы в движении, у вас есть время подумать. 
+              <b class="color-2">Движение стимулирует мышление, творчество, новые идеи и прогресс.</b>
+            </p>
           </div>
         </div>
       </div>
@@ -92,17 +95,17 @@
 
     <div class="block-3 bg-color-1 color-white" id="block-3">
       <div class="wrapper">
-        <div class="container-r pv-5 desktop:pv-13">
+        <div class="container-r pv-10 desktop:pv-13">
           <div class="desc-content">
             <div class="box-md-8 box-lg-6 entry-header">
-              <div class="color-gray-4 mb-2">Философия</div>
+              <div class="color-gray-4 text-uppercase mb-2">Философия</div>
               <div class="text-x4">Единство противоположностей</div>
             </div>
             <div class="text-content">
               <div class="text-s2 ctext-2 mv-4 desktop:mv-8">
-                Представляем вам нашу новую философию дизайна — <span class="color-2"> единство противоположностей. <br>
-                </span>В основе идея противопоставления, которую мы используем для формирования уникального стиля Kia. Мы применяем концепции разрушения связей и контраста, чтобы создавать ярко выраженный дизайн. <br>
-                Философия <span class="color-2">единства противоположностей</span> позволяет нам выделяться и символизирует наступление новой эры бренда. Kia адаптируется к меняющемуся миру вокруг нас. Мы вдохновлены изменениями, которые происходят вокруг нас, и приглашаем вас вместе с нами создавать будущее.
+                <p>Представляем вам нашу новую философию дизайна — <span class="color-2"> единство противоположностей.</span></p>
+                <p>В основе идея противопоставления, которую мы используем для формирования уникального стиля Kia. Мы применяем концепции разрушения связей и контраста, чтобы создавать ярко выраженный дизайн.</p>
+                <p>Философия <span class="color-2">единства противоположностей</span> позволяет нам выделяться и символизирует наступление новой эры бренда. Kia адаптируется к меняющемуся миру вокруг нас. Мы вдохновлены изменениями, которые происходят вокруг нас, и приглашаем вас вместе с нами создавать будущее.</p>
               </div>
             </div>
           </div>
@@ -119,19 +122,21 @@
         <div class="container-r">
           <div class="desc-content mv-10">
             <div class="box-md-8 box-lg-6 entry-header">
-              <div class="color-gray-4 mb-2">Манифест</div>
+              <div class="color-gray-4 text-uppercase mb-2">Манифест</div>
               <div class="text-x4">Любое творчество начинается с движения</div>
             </div>
             <div class="text-s2 ctext-2 mv-4 desktop:mv-8">
-              Как дизайнеры, создающие для потребителей, местных сообществ и общества в целом устойчивые мобильные решения, 
-              <span class="color-2">наша цель в Kia заключается в создании инновационных продуктов, </span>
-              которые вдохновляют вас, когда вы находитесь в движении, и в предоставлении востребованных и удобных услуг, демонстрируя нашу веру в то, что самый ценный ресурс для каждого человека — это его время.
-              <br>
-              Мы рождены в центре вдохновения, страсти и энтузиазма. 
-              <span class="color-2">Наш настрой на рост и прогресс проявляется </span>
-              в каждом сотруднике Kia по всему миру. 
-              <span class="color-2">И мы стремимся реализовывать цель бренда каждый день.</span>
-              <br><br>
+              <p>
+                Как дизайнеры, создающие для потребителей, местных сообществ и общества в целом устойчивые мобильные решения, 
+                <span class="color-2">наша цель в Kia заключается в создании инновационных продуктов, </span>
+                которые вдохновляют вас, когда вы находитесь в движении, и в предоставлении востребованных и удобных услуг, демонстрируя нашу веру в то, что самый ценный ресурс для каждого человека — это его время.
+              </p>
+              <p>
+                Мы рождены в центре вдохновения, страсти и энтузиазма. 
+                <span class="color-2">Наш настрой на рост и прогресс проявляется </span>
+                в каждом сотруднике Kia по всему миру. 
+                <span class="color-2">И мы стремимся реализовывать цель бренда каждый день.</span>
+              </p>
             </div>
           </div>
           <div class="img-fulled desktop:mt-20">
@@ -144,16 +149,18 @@
 
     <div class="block-5" id="block-5">
       <div class="wrapper">
-        <div class="container-r pv-5 desktop:pv-13">
+        <div class="container-r pv-10 desktop:pv-13">
           <div class="box-md-8 box-lg-6">
             <div class="entry-header">
-              <div class="color-gray-4 mb-2">Вдохновение</div>
+              <div class="color-gray-4 text-uppercase mb-2">Вдохновение</div>
               <div class="text-x4">Движение вдохновляет на идеи</div>
             </div>
             <div class="text-s2 mv-4 desktop:mv-8">
-              В Kia, сотрудничая с художниками и нейробиологами, мы создали анимацию, которая разработана для того, чтобы вдохновить каждого, кто смотрит на нее. 
-              <br>
-              В результате многочисленных исследований, мы выявили, что произведения искусства раскрывают сущность движения в природе за счет упрощения формы с помощью таких методов, как изменение цвета в зависимости от скорости.
+              <p>
+                В Kia, сотрудничая с художниками и нейробиологами, мы создали анимацию, которая разработана для того, чтобы вдохновить каждого, кто смотрит на нее. 
+                <br>
+                В результате многочисленных исследований, мы выявили, что произведения искусства раскрывают сущность движения в природе за счет упрощения формы с помощью таких методов, как изменение цвета в зависимости от скорости.
+              </p>
             </div>
           </div>
         </div>
@@ -216,9 +223,13 @@
       </div>
     </div>
 
-    <div class="block-6 mobile:mb-15 mb-25">
+    <div class="block-6 desktop:mb-25">
       <div class="wrapper">
-        <div class="desc-content">
+        <div class="img-fulled">
+          <img src="/img/brand/6.jpg" alt="">
+          <div class="img" style="background-image: url('/img/brand/6.jpg');"></div>
+        </div>
+        <div class="desc-content mobile:mv-8">
           <div class="container-r">
             <div class="text-item text-x1">
               <p>У Kia долгая история производства автомобилей. Но если быть точнее, мы начали в 1944 году с производства велосипедов.</p>
@@ -228,41 +239,37 @@
             </div>
           </div>
         </div>
-        <div class="img-fulled">
-          <img src="/img/brand/6.jpg" alt="">
-          <div class="img" style="background-image: url('/img/brand/6.jpg');"></div>
-        </div>
       </div>
     </div>
 
     <div class="block-7 color-white" id="block-7">
       <div class="wrapper relative">
-        <div class="desc-content">
+        <div class="img-fulled">
+          <img src="/img/brand/7.jpg" alt="">
+        </div>
+        <div class="desc-content mobile:pv-8 mobile:bg-color-gray-1">
           <div class="container-r">
             <div class="box-md-8 box-lg-5">
               <div class="entry-header">
-                <div class="color-gray-4 mb-3">Ценности</div>
+                <div class="color-gray-4 text-uppercase mb-2">Ценности</div>
                 <div class="text-x4">Креативное мышление, инновации и прогресс — наш жизненный менталитет</div>
               </div>
-              <div class="text-content mv-8 desktop:mb-15 text-x1 text-item">
+              <div class="text-content mt-8 desktop:mb-15 text-x1 text-item">
                 <p>Мы верим в то, что эти ценности находят отклик в наших потребителях. Людях с прогрессивным мировоззрением, оптимистичных и позитивных, готовых меняться и адаптироваться к будущему, которые движимы новыми идеями и во всем видят возможности.</p>
                 <p>Честно отвечать на вопрос «Для чего» —  это критически важно, чтобы достигать цель нашего бренда. Быть брендом, который воплощает это видение и следовать ему каждый день – это то, с чего мы все начинаем. </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="img-fulled">
-          <img src="/img/brand/7.jpg" alt="">
-        </div>
       </div>
     </div>
 
     <div class="block-8" id="block-8">
       <div class="wrapper">
-        <div class="container-r pv-5 desktop:pv-13">
+        <div class="container-r pv-10 desktop:pv-13">
           <div class="box-md-9 box-lg-7 desktop:pr-15">
             <div class="entry-header">
-              <div class="color-gray-4 mb-2">Цель</div>
+              <div class="color-gray-4 text-uppercase mb-2">Цель</div>
               <div class="text-x3 fw-6">В Kia мы верим, что движение вдохновляет на идеи. Именно поэтому мы создаем пространство, где вы можете обретать вдохновение и получать больше времени на воплощение своих идей в жизнь</div>
             </div>
             <div class="text-content mv-8 text-x1 text-item box-lg-8">
@@ -378,7 +385,7 @@
     
     <div class="block-9 color-white">
       <div class="wrapper relative">
-        <div class="desc-content pb-10 desktop:pb-20">
+        <div class="desc-content pv-20">
           <div class="container-r">
             <div class="box-md-8 box-lg-5 m-l-auto">
               <div class="entry-header">
@@ -387,7 +394,7 @@
             </div>
           </div>
         </div>
-        <div class="img-fulled">
+        <div class="img-fulled absolute-xs">
           <img src="/img/brand/9.jpg" alt="">
         </div>
       </div>

@@ -73,8 +73,14 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 
 .bg-color-white{background-color: white;}
 .bg-color-black{background-color: $bg-color-black;}
+
 .bg-color-gray-1{background-color: $color-gray-1;}
+.bg-color-gray-2{background-color: $color-gray-6;}
+.bg-color-gray-3{background-color: $color-gray-1;}
+.bg-color-gray-4{background-color: $color-gray-6;}
+.bg-color-gray-5{background-color: $color-gray-6;}
 .bg-color-gray-6{background-color: $color-gray-6;}
+
 
 .bg-color-1{background-color: $color-1;}
 .bg-color-2{background-color: $color-2;}
@@ -86,6 +92,39 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 
 .hr-color-1{
 	border-color: #c4c4c4;
+}
+
+@media (max-width: 991px){
+
+	.mobile\:bg-color-gray-1{background-color: $color-gray-1;}
+	.mobile\:bg-color-gray-2{background-color: $color-gray-6;}
+	.mobile\:bg-color-gray-3{background-color: $color-gray-1;}
+	.mobile\:bg-color-gray-4{background-color: $color-gray-6;}
+	.mobile\:bg-color-gray-5{background-color: $color-gray-6;}
+	.mobile\:bg-color-gray-6{background-color: $color-gray-6;}
+
+	.mobile\:color-1{color: $color-1;}
+	.mobile\:color-2{color: $color-2;}
+	.mobile\:color-3{color: $color-3;}
+	.mobile\:color-4{color: $color-4;}
+	.mobile\:color-5{color: $color-5;}
+
+}
+@media (max-width: 991px){
+
+	.desktop\:bg-color-gray-1{background-color: $color-gray-1;}
+	.desktop\:bg-color-gray-2{background-color: $color-gray-6;}
+	.desktop\:bg-color-gray-3{background-color: $color-gray-1;}
+	.desktop\:bg-color-gray-4{background-color: $color-gray-6;}
+	.desktop\:bg-color-gray-5{background-color: $color-gray-6;}
+	.desktop\:bg-color-gray-6{background-color: $color-gray-6;}
+
+	.desktop\:color-1{color: $color-1;}
+	.desktop\:color-2{color: $color-2;}
+	.desktop\:color-3{color: $color-3;}
+	.desktop\:color-4{color: $color-4;}
+	.desktop\:color-5{color: $color-5;}
+
 }
 
 /*
@@ -1246,8 +1285,8 @@ blockquote{
 	line-height: 55px;
 	font-weight: 700;
 	@media (max-width: 991px){
-		font-size: 35px;
-		line-height: 40px;
+		font-size: 25px;
+		line-height: 35px;
 	}
 }
 .h4-size{
@@ -1325,14 +1364,14 @@ hr{
 	p, li{
 		font-size: em(15);
 	}
-	p:not([class*="color-"]){
+	p{
 		margin-bottom: 15px;
 		@media (min-width: 1200px){
 			margin-bottom: 18px;
 		}
 		@media (max-width: 991px) {
 			//text-align: justify;
-			line-height: 125%;
+			line-height: 20px;
 		}
 	}
 }
