@@ -124,56 +124,25 @@
     </header>
 		<!-- MIN MENU -->
     <div class="hide">
+
+
       <div id="min-menu">
         <ul>
-          <li><nuxt-link to="/models">Модели</nuxt-link></li>
-          <li>
-            <a href="javascript:;">Выбор и покупка</a>
-            <ul>
-              <li><nuxt-link to="/buy">Онлайн-сервисы</nuxt-link></li>
-              <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
-              <!-- <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li> -->
-              <!-- <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li> -->
-              <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
-              <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>
-              <li><nuxt-link to="/buy/testdrive">Запись на тест-драйв</nuxt-link></li>
-            </ul>
-          </li>
-          <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
-          <!-- <li><nuxt-link to="/buy/cars">Авто в наличии</nuxt-link></li> -->
-          <li>
-            <nuxt-link to="/about">Мир Kia</nuxt-link>
-            <ul class="sub-menu-item">
-              <div class="wrapper">
-                <div class="menu-item-cap">Бренд Kia</div>
-                <li><nuxt-link to="/about/brand/">Компания Kia Motors</nuxt-link></li>
-                <li><nuxt-link to="/about/history/">История</nuxt-link></li>
-                <li><nuxt-link to="/about/sponsorship/">Спонсорство</nuxt-link></li>
-                <li><nuxt-link to="https://worldwide.kia.com/int/our-movement" target="_blank">Kia worldwide</nuxt-link></li>
-              </div>
-              <div class="wrapper">
-                <div class="menu-item-cap">Kia в Узбекистане</div>
-                <li><nuxt-link to="/about">О нас</nuxt-link></li>
-                <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
-                <li><nuxt-link to="/about/dealer/">Как стать дилером</nuxt-link></li>
-                <li><nuxt-link to="/feedback">Заказать звонок дилера</nuxt-link></li>
-              </div>
-              <div class="wrapper">
-                <div class="menu-item-cap">Инновации</div>
-                <li><nuxt-link to="/about/design">Дизайн</nuxt-link></li>
-                <li><nuxt-link to="/about/concept">Концепт-кары</nuxt-link></li>
-                <li><nuxt-link to="/about/technologies">Технологии</nuxt-link></li>
-              </div>
-              <div class="wrapper">
-                <div class="menu-item-cap">Медиа</div>
-                <li><nuxt-link to="/press/news">Новости</nuxt-link></li>
-                <li><nuxt-link to="/press/reviews">Обзоры</nuxt-link></li>
+          <li v-for="(item, key) in menu_data.menus" :key="key">
+            <nuxt-link :to="item.url">{{item.name}}</nuxt-link>
+            <ul v-if="item.subsections" class="sub-menu-item">
+              <div class="wrapper" v-for="(sub, key) in item.subsections" :key="key" v-if="sub.values.length">
+                <div class="menu-item-cap">{{sub.name}}</div>
+                <li v-for="(subItem, key) in sub.values" :key="key">
+                  <nuxt-link :to="subItem.url">{{subItem.name}}</nuxt-link>
+                </li>
               </div>
             </ul>
           </li>
-          <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
         </ul>
       </div>
+
+
 		</div>
 		<!-- MIN MENU HEADER -->
 		<div class="min-menu-header hidden-md hidden-lg header-scroll scrolled-down">
@@ -291,7 +260,9 @@ export default {
     })
 
     //init main js
-    mainjs();
+    setTimeout(() => {
+      mainjs();
+    }, 10);
   }
 }
 </script>
