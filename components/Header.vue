@@ -189,18 +189,6 @@ export default {
       opacityStyle: false,
     }
   },
-  // async asyncData(context){
-  //   try{
-  //     const menu_data = await context.store.dispatch("other/fetchPath", {
-  //       path: "/menu"
-  //     });
-  //     return {
-  //       menu_data
-  //     }
-  //   }catch(e){
-  //     context.error(e);
-  //   }
-  // },
   async created(){
     this.menu_data = await this.$axios.$get('https://api.kia-motors.uz/menu')
   },
