@@ -79,6 +79,8 @@ export default {
   async asyncData(context){
     //var url = 'https://www.kia.ru/ajax/page/mediacenter/'+context.params.id;
     try{
+			if(context.route.path.substring(context.route.path.length-1) == "/")
+        context.route.path = context.route.path.substring(0, context.route.path.length-1)
       const newsItems = await context.store.dispatch("other/fetchPath", {
         path: context.route.path+"?offset=0"
       })
