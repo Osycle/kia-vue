@@ -242,6 +242,18 @@ export default {
   // },
   async created(){
     this.menu_data = await this.$axios.$get('https://api.kia-motors.uz/menu');
+    // this.menu_data = await this.$axios.$get('https://api.kia-motors.uz/menu', { 
+    //   crossdomain: true,
+    //   contentType: "application/jsonp",
+    //   dataType: "jsonp",
+    //   withCredentials: true,
+    //   headers: {
+    //     Accept: 'application/jsonp',
+    //     'Content-Type': 'application/jsonp',
+    //     'Access-Control-Expose-Headers': "OPTIONS",
+    //     'Access-Control-Allow-Origin': '*'
+    //   },
+    // });
   },
   watch:{
     $route (to, from){
@@ -254,8 +266,8 @@ export default {
       }, 120);
     }
   },
-  mounted(){
-    
+  async mounted(){
+
     // owl Carousel btn
     window.owlBtn = [
       '<span class="owl-btn previous">'+

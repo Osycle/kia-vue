@@ -66,6 +66,11 @@ module.exports = {
     baseURL: 'https://lays.uz/tempphp/',
     //baseURL: 'https://html.lifestyle.uz/kia-api/',
     //baseURL: 'http://kia-api-php/',
+    withCredentials: true,
+    headers: {
+      //Accept: 'application/x-www-form-urlencoded',
+      //'Content-Type': 'application/x-www-form-urlencoded'
+    }
   },
 
   build: {

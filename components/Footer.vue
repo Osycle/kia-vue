@@ -79,7 +79,7 @@
       }
     },
     async created(){
-      this.menu_data = await this.$axios.$get('https://api.kia-motors.uz/menu');
+      //this.menu_data = await this.$axios.$get('https://api.kia-motors.uz/menu');
     },
   }
 </script>
