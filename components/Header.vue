@@ -189,20 +189,20 @@ export default {
       opacityStyle: false,
     }
   },
-  async asyncData(context){
-    try{
-      const menu_data = await context.store.dispatch("other/fetchPath", {
-        path: "/menu"
-      });
-      return {
-        menu_data
-      }
-    }catch(e){
-      context.error(e);
-    }
-  },
+  // async asyncData(context){
+  //   try{
+  //     const menu_data = await context.store.dispatch("other/fetchPath", {
+  //       path: "/menu"
+  //     });
+  //     return {
+  //       menu_data
+  //     }
+  //   }catch(e){
+  //     context.error(e);
+  //   }
+  // },
   async created(){
-    this.menu_data = await this.$axios.$get('https://api.kia-motors.uz/menu');
+    this.menu_data = await this.$axios.$get('https://api.kia-motors.uz/menu')
   },
   watch:{
     $route (to, from){
@@ -259,10 +259,36 @@ export default {
 				$("[subdown-click].subdown-active").trigger("click");
     })
 
-    //init main js
     setTimeout(() => {
-      mainjs();
-    }, 10);
+      $("#min-menu").mmenu({
+        extensions: [
+          "wrapper-bg",
+          "theme-white",
+          "listview-50",
+          "fx-panels-slide-up",
+          "fx-listitems-drop",
+          "border-offset",
+          "position-front",
+          "position-right"
+        ],
+        navbar: {
+          title: "Меню"
+        },
+        navbars: [{
+            height: 0,
+            content: [
+            ]
+          },
+          {
+            content: ["prev", "title"]
+          }
+        ]
+      }, {});
+      window.minMenu = $("#min-menu").data("mmenu");
+    }, 500);
+
+    //init main js
+    mainjs();
   }
 }
 </script>
