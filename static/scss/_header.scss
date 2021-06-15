@@ -530,6 +530,10 @@ body{
 		padding-left: 15px;
 		padding-right: 15px;
 		padding-top: 20px;
+		&:first-child{
+			padding-top: 0;
+			border-top: none;
+		}
 	}
 	li{
 		margin-top: 15px;

@@ -61,7 +61,7 @@
           </nuxt-link>
         </div>
         <div class="cell">
-          <nuxt-link to="/service/special/">
+          <nuxt-link to="/buy/special/">
             <div class="item-wrapper">
               <div class="icon-content mb-4">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"  class=""><circle cx="25" cy="25" r="22.25" stroke="currentColor" stroke-width="1.5" ></circle><path d="M25.5 10l4.19 9.732 10.551.978-7.96 6.993 2.33 10.337-9.111-5.41-9.11 5.41 2.329-10.337-7.96-6.993 10.55-.978L25.5 10z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" ></path></svg>
