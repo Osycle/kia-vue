@@ -404,32 +404,6 @@ if ( $(".js-select").length )
 			}
 		})
 
-		//MIN-MENU
-		$("#min-menu").mmenu({
-			extensions: [
-				"wrapper-bg",
-				"theme-white",
-				"listview-50",
-				"fx-panels-slide-up",
-				"fx-listitems-drop",
-				"border-offset",
-				"position-front",
-				"position-right"
-			],
-			navbar: {
-				title: "Меню"
-			},
-			navbars: [{
-					height: 0,
-					content: [
-					]
-				},
-				{
-					content: ["prev", "title"]
-				}
-			]
-		}, {});
-		window.minMenu = $("#min-menu").data("mmenu");
 
 
 	window.mainJsActive = true;

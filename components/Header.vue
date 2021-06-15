@@ -251,10 +251,38 @@ export default {
 				$("[subdown-click].subdown-active").trigger("click");
     })
 
-    //init main js
+
     setTimeout(() => {
-      mainjs();
-    }, 1);
+      $("#min-menu").mmenu({
+        extensions: [
+          "wrapper-bg",
+          "theme-white",
+          "listview-50",
+          "fx-panels-slide-up",
+          "fx-listitems-drop",
+          "border-offset",
+          "position-front",
+          "position-right"
+        ],
+        navbar: {
+          title: "Меню"
+        },
+        navbars: [{
+            height: 0,
+            content: [
+            ]
+          },
+          {
+            content: ["prev", "title"]
+          }
+        ]
+      }, {});
+      window.minMenu = $("#min-menu").data("mmenu");
+    }, 500);
+
+    //init main js
+    mainjs();
+    
   }
 }
 </script>
