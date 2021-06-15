@@ -133,14 +133,14 @@
               <li><nuxt-link to="/buy">Онлайн-сервисы</nuxt-link></li>
               <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
               <!-- <li><nuxt-link to="/service/special">Спецпредложения</nuxt-link></li> -->
-              <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li>
+              <!-- <li><nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link></li> -->
               <li><nuxt-link to="/dealers">Поиск дилера</nuxt-link></li>
               <li><nuxt-link to="/feedback">Запрос предложения</nuxt-link></li>
               <li><nuxt-link to="/buy/testdrive">Запись на тест-драйв</nuxt-link></li>
             </ul>
           </li>
           <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
-          <li><nuxt-link to="/buy/cars">Авто в наличии</nuxt-link></li>
+          <!-- <li><nuxt-link to="/buy/cars">Авто в наличии</nuxt-link></li> -->
           <li>
             <nuxt-link to="/about">Мир Kia</nuxt-link>
             <ul class="sub-menu-item">
