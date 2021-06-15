@@ -68,7 +68,7 @@ export default {
     try{
       //const path = context.route.path
       const page_data = await context.store.dispatch("other/fetchPath", {
-        path: "models"
+        path: "/models"
       })
       return {
         page_data
