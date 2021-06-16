@@ -1298,14 +1298,14 @@ hr{
 		font-size: em(15);
 	}
 	p:not([class*="color-"]){
-		line-height: 139%;
+		//line-height: 139%;
 		margin-bottom: 15px;
 		@media (min-width: 1600px){
 			margin-bottom: 18px;
 		}
 		@media (max-width: 991px) {
 			//text-align: justify;
-			line-height: 125%;
+			//line-height: 125%;
 		}
 	}
 }

@@ -284,6 +284,11 @@ html{
 
 
 
+.jc-center{ justify-content: center; }
+.jc-between{ justify-content: space-between; }
+.jc-start{ justify-content: flex-start; }
+.jc-end{ justify-content: flex-end; }
+.fd-columm{ flex-direction: column; }
 
 @media (min-width: 992px){
 
@@ -802,6 +807,16 @@ img[auto]{
   font-size: 18px;
   line-height: 139%;
   font-weight: 700;
+}
+.text-s2i, .text-s2i-b{
+	font-size: 15px;
+	line-height: 167%;
+}
+.text-s2i-b{
+	font-weight: 700;
+}
+.text-s2i{
+	font-weight: 400;
 }
 
 @for $i from 0 through 20{
