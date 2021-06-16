@@ -21,7 +21,7 @@
           <div class="box-lg-8 m-auto m-v-30 p-h-15">
             <div class="text-item mv-10">
               <div class="entry-header">
-                <div class="text-n1 color-red mb-2">ОБСЛУЖИВАНИЕ</div>
+                <div class="text-n1 color-1 mb-2">ОБСЛУЖИВАНИЕ</div>
                 <div class="fw-6 text-x5 mb-4 desktop:mb-6">Гарантия и сервис</div>
               </div>
               <div class="text-s2i">
@@ -77,34 +77,39 @@
           <div class="text-x5 fw-7">Ключевые преимущества</div>
         </div>
         <div class="wa-advantages-items boxes-3">
-          <div class="cell mv-6">
-            <div class="flex fd-columm">
-              <div class="img-content">
+          <div class="cell desktop:mv-6">
+            <div class="flex desktop:fd-columm">
+              <div class="img-content mv-4">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M16.737 9.676L10.5 16.48l-3.237-3.532 1.474-1.351L10.5 13.52l4.763-5.196 1.474 1.352z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M18 6H5v13h13V6zM3 4v17h17V4H3z" fill="currentColor"></path><path d="M10 41H4.5S4 39.453 4 36.358c0-3.095 3.5-7.221 3.5-7.221S19 27.59 24 28.105c5 .516 10 4.127 10 4.127s10 1.92 11 3.094.5 5.674.5 5.674h-6.688M14 41h19.719" stroke="currentColor" stroke-width="2"></path><circle cx="12" cy="41" r="3" stroke="currentColor" stroke-width="2"></circle><circle cx="36" cy="41" r="3" stroke="currentColor" stroke-width="2"></circle></svg>
               </div>
-              <div class="desc-content text-s2i mv-4 box-md-6 box-lg-5">
-                Автомобили Kia произведены согласно высоким стандартам производства в автомобильной промышленности. Именно это дает Kia возможность предложить Вам такой срок гарантии.
+              <div class="desc-content mv-4 mobile:ml-5 box-md-8 box-lg-6">
+                <div class="text-s2i">
+                  Автомобили Kia произведены согласно высоким стандартам производства в автомобильной промышленности. Именно это дает Kia возможность предложить Вам такой срок гарантии.
+                </div>
               </div>
             </div>
           </div>
-          <div class="cell mv-6">
-            <div class="flex fd-columm">
-              <div class="img-content">
+          <div class="cell desktop:mv-6">
+            <div class="flex desktop:fd-columm">
+              <div class="img-content mv-4">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M10.387 7.535C14.047 4.695 18.691 3 23.757 3c5.293 0 10.137 1.85 13.878 4.929l-1.27 1.544C32.974 6.683 28.577 5 23.757 5c-4.613 0-8.828 1.542-12.144 4.115l-1.226-1.58z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M36.071 8.07V2h2v8.07H30v-2h6.071zM38.613 41.589c-3.66 2.84-8.304 4.535-13.37 4.535-5.293 0-10.137-1.85-13.878-4.928l1.27-1.545c3.391 2.79 7.788 4.473 12.608 4.473 4.613 0 8.828-1.542 12.144-4.115l1.226 1.58z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12.535 40.536v6.07h-2v-8.07h8.07v2h-6.07z" fill="currentColor"></path><path d="M11.075 16.877c4.198-.835 8.521-.877 12.832-.877 2.53 0 5.087.74 7.304 1.667.873.364 1.74.9 2.526 1.387.242.15.476.294.7.428 1.019.606 1.92 1.045 2.84 1.148 1.353.15 5.146.883 6.33 1.18 1.343.336 2.334 1.005 2.953 1.47.605.455.907 1.196 1.078 1.809.183.654.274 1.384.32 2.04.046.663.047 1.288.038 1.744-.011.57-.057 1.136-.096 1.704l-6.933-.049a4.04 4.04 0 00-.246-2.001l5.28.037c.002-.376-.006-.829-.039-1.296-.041-.592-.12-1.172-.25-1.642-.143-.51-.297-.704-.354-.747-.534-.401-1.273-.888-2.236-1.13-1.122-.28-4.824-.993-6.066-1.131-1.375-.154-2.59-.791-3.642-1.418-.292-.174-.57-.345-.836-.51-.752-.464-1.425-.88-2.138-1.178C28.352 18.64 26.07 18 23.907 18c-4.344 0-8.495.047-12.487.847l-.05.01-.051.005c-.435.042-1.076.172-1.686.307a102.586 102.586 0 00-.796.177l-.084.017a17.07 17.07 0 00-1.89 3.249c-.837 1.916-1.238 3.99-.396 5.674l2.909.02a3.97 3.97 0 00-.364 1.998l-3.66-.026-.294-.443c-1.762-2.65-1.002-5.793-.029-8.023a19.061 19.061 0 011.562-2.845 18.627 18.627 0 01.76-1.064l.063-.08.307-.378h.425l.025-.005c.057-.01.137-.027.243-.05l.39-.086.4-.089c.575-.126 1.304-.28 1.871-.338z" fill="currentColor"></path><path d="M33.302 28.474l-16.653-.117a3.965 3.965 0 01.291.949l.004.022v.001a6.381 6.381 0 01.024.156v.008a3.67 3.67 0 01.033.507c0 .121-.006.241-.016.36l16.044.113a3.988 3.988 0 01.274-1.998z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16.944 29.328l-.003-.022a4.006 4.006 0 000 0c0 .008.002.015.004.023zM16.969 29.493l.004.033-.004-.033z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M13 32a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 100-8.001A4 4 0 0013 34zM37 32a2 2 0 100-4 2 2 0 000 4zm0 2a4 4 0 100-8 4 4 0 000 8z" fill="currentColor"></path></svg>
               </div>
-              <div class="desc-content text-s2i mv-4 box-md-6 box-lg-5">
-                Гарантия на автомобиль сохраняется после продажи автомобиля новому владельцу.
+              <div class="desc-content mv-4 mobile:ml-5 box-md-8 box-lg-6">
+                <div class="text-s2i">
+                  Гарантия на автомобиль сохраняется после продажи автомобиля новому владельцу.
+                </div>
               </div>
             </div>
           </div>
-          <div class="cell mv-6">
-            <div class="flex fd-columm">
-              <div class="img-content">
+          <div class="cell desktop:mv-6">
+            <div class="flex desktop:fd-columm">
+              <div class="img-content mv-4">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M9 10h27v35H9V10z" stroke="currentColor" stroke-width="2"></path><path d="M15 10V5h26v37h-6" stroke="currentColor" stroke-width="2"></path><path d="M17.756 39V28.425m0 0V17h5.556a5.712 5.712 0 015.712 5.712v0a5.712 5.712 0 01-5.712 5.713h-5.556zM14 34.097h12.341" stroke="currentColor" stroke-width="2"></path></svg>
               </div>
-              <div class="desc-content text-s2i mv-4 box-md-6 box-lg-5">
-                При наступлении гарантийного случая, ремонт будет выполнен без взимания дополнительной платы в любой точке мира, где есть дилеры Kia.
-                <sup>1,2</sup>
+              <div class="desc-content mv-4 mobile:ml-5 box-md-8 box-lg-6">
+                <div class="text-s2i">
+                  При наступлении гарантийного случая, ремонт будет выполнен без взимания дополнительной платы в любой точке мира, где есть дилеры Kia.<sup>1,2</sup>
+                </div>
               </div>
             </div>
           </div>
@@ -321,26 +326,6 @@ export default {
           @media (min-width: 991px){
             width: 400px;
           }
-        }
-      }
-    }
-  }
-  .wa-advantages{
-    @media (min-width: 992px){
-      .cell{
-        border-left: 1px solid #cccccc;
-        .flex{
-          margin-left: 20px;
-        }
-        &:nth-child(1){
-          border-left: none;
-        }
-      }
-    }
-    @media (max-width: 991px){
-      .cell{
-        .img-content{
-          text-align: center;
         }
       }
     }
