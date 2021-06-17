@@ -280,6 +280,7 @@ if ( $(".js-select").length )
 			speedAsDuration: true
 		});
 		// Отправка формы с помощью Ajax
+		$(document).off("submit.uniq", "[formaj]");
 		$(document).on("submit", "[formaj]", function(e){
 			e.preventDefault();
 			var that = $(this);
