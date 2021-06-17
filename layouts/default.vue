@@ -77,7 +77,8 @@ export default {
         {src: '/js/plugins/theia-sticky-sidebar.min.js'},
         {src: '/js/plugins/select2.min.js'},
         {src: '/js/plugins/jquery.mmenu.all.js'},
-        {src: '/js/plugins/smooth-scroll-link.min.js'},
+        {src: '/js/plugins/smooth-scroll.js'},
+        {src: '/js/plugins/jquery.validate.js'},
         {src: '/js/plugins/owl.carousel.min.js'},
         {src: '/js/plugins/js-cloudimage-360-view.min.js'},
         {

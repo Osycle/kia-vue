@@ -705,6 +705,13 @@ export default {
         console.log(this.selectComplectations);
       }
 
+      // step 5
+      if(this.currentStepNum == 5){
+        setTimeout(() => {
+          mainjs()  
+        }, 50);
+      }
+
     },
   },
   async created(){

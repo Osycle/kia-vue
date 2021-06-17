@@ -4542,3 +4542,39 @@ dt{
 		}
 	}
 }
+
+
+// ДОПОЛНИТЕЛЬНЫЕ СТИЛИ ИЗ ВЕТКИ newd
+
+label.error{
+	color: $color-red;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.form-control.error{
+	border: 1px solid $color-red;
+	&:focus{
+		border-color: $color-red;
+	}
+}
+[name="iagree"]{
+	
+	&.error~span{
+		&:before{
+			border-color: $color-red;
+		}
+	}
+}
+#iagree-error{
+	@media (max-width: 991px){
+		display: none !important;
+	}
+	@media (min-width: 992px){
+		position: absolute;
+		transform: translateX(-100%);
+		width: 120px;
+		margin-top: 3px;
+		margin-bottom: 0;
+	}
+}

@@ -280,10 +280,8 @@ if ( $(".js-select").length )
 				offset: 10
 			});
 		
-		//console.log($("[formaj]:not(.formaj)"));
 		$(document).off("submit.uniq", "[formaj]");
 		$(document).on("submit.uniq", "[formaj]", function(e){
-			console.log(1111111111111155555555555);
 			e.preventDefault();
 			var that = $(this);
 			console.log(this)
@@ -308,7 +306,34 @@ if ( $(".js-select").length )
         }
       });
 		})
-		//$("[formaj]").addClass("formaj");
+
+		// Валидация
+		$("[formaj], form-content form").validate({
+			rules: {
+				name: {
+					required: true,
+					minlength: 2
+				}
+			},
+			messages: {
+				iagree:{
+					required: "Поставьте галочку",
+				},
+				phone: {
+					required: "Введите номер телефона",
+					minlength: "Не менее 12-ти цифр"
+				},
+				name: {
+					minlength: "Введите не менее 2-х символов в поле 'Имя'"
+				},
+				email: {
+					required: "Поле 'Email' обязательно к заполнению",
+					email: "Необходим формат адреса email"
+				},
+				url: "Поле 'Сайт' обязательно к заполнению"
+			}
+		});
+		$(document).on("change", "select.js-select", function(){this.click()})
 
 
 		// Адаптация хедера при скролле

@@ -82,18 +82,86 @@
         </div>
       </div>
     </div>
-    <div>
+
+    <div class="block">
       <div class="container-p pv-13">
         <div class="entry-header text-center mb-10">
           <div class="text-n1 color-1 mb-2">ПРЕИМУЩЕСТВА</div>
           <div class="text-x5 fw-7">Получение кредита в Kia</div>
         </div>
         <div class="items boxes-4">
-
+          <div class="cell mv-5">
+            <div class="wrapper">
+              <div class="img-content text-center">
+                <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" preserveAspectRatio="xMidYMid"  class=""><path d="M16.1 8.6l-1.5-1.4-4.7 5.2-1.8-1.9-1.5 1.3 3.3 3.6zM45.8 34.7c-1-1.2-7.5-2.6-11.4-3.4-1-.7-5.6-3.7-10.3-4.2-5.1-.5-16.3 1-16.7 1l-.4.1-.2.3c-.2.2-3.8 4.4-3.8 7.9 0 3.2.5 4.9.5 5l.3.6h4.4c.4 1.7 2 3 3.9 3s3.4-1.3 3.9-3h16.3c.4 1.7 2 3 3.9 3s3.4-1.3 3.9-3h6.5l.1-.9c-.1-1.1.2-5-.9-6.4zM12 43c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm24 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm8.6-3h-4.7c-.4-1.7-2-3-3.9-3s-3.4 1.3-3.9 3H15.9c-.4-1.7-2-3-3.9-3s-3.4 1.3-3.9 3H5.3c-.1-.7-.3-1.9-.3-3.6 0-2.1 2-5 3-6.3 2-.3 11.6-1.4 15.9-1 4.7.5 9.5 3.9 9.5 3.9l.2.1h.2c4.5.9 9.7 2.2 10.4 2.8.4.5.5 2.2.4 4.1z" ></path><path d="M19.6 2.8h-17v17h17v-17zm-2 15h-13v-13h13v13z" ></path></svg>
+              </div>
+              <hr>
+              <div class="desc-content flex flex-start">
+                <div class="num color-1 fw-7">01</div>
+                <div class="text-content pl-6 text-s2i">Выбираете автомобиль Kia</div>
+              </div>
+            </div>
+          </div>
+          <div class="cell mv-5">
+            <div class="wrapper">
+              <div class="img-content text-center">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"  class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M27.015 11H10v33h25V20.365L27.015 11zm.922-2H8v37h29V19.628L27.937 9z" fill="currentColor" ></path><path fill-rule="evenodd" clip-rule="evenodd" d="M26 10h2v10h8v2H26V10z" fill="currentColor" ></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3h28v39h-7v-2h5V5H17v5h-2V3z" fill="currentColor" ></path></svg>
+              </div>
+              <hr>
+              <div class="desc-content flex flex-start">
+                <div class="num color-1 fw-7">02</div>
+                <div class="text-content pl-6 text-s2i">Выбираете программу Kia Finance и комфортные условия кредитования</div>
+              </div>
+            </div>
+          </div>
+          <div class="cell mv-5">
+            <div class="wrapper">
+              <div class="img-content text-center">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"  class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M30 24a3 3 0 11-6 0 3 3 0 016 0zm-2 0a1 1 0 11-2 0 1 1 0 012 0z" fill="currentColor" ></path><path d="M23.814 30.58C24.484 29.643 25.648 29 27 29c1.351 0 2.516.642 3.186 1.58l1.628-1.16C30.764 27.946 28.988 27 27 27s-3.764.947-4.814 2.42l1.628 1.16zM33 25h7v-2h-7v2zM33 29h7v-2h-7v2z" fill="currentColor" ></path><path fill-rule="evenodd" clip-rule="evenodd" d="M18 19a2 2 0 012-2h23a2 2 0 012 2v14a2 2 0 01-2 2H20a2 2 0 01-2-2V19zm2 14V19h23v14H20z" fill="currentColor" ></path><path d="M8 43V10h25v7h2v-7a2 2 0 00-2-2H8a2 2 0 00-2 2v33a2 2 0 002 2h25a2 2 0 002-2v-8h-2v8H8z" fill="currentColor" ></path></svg>
+              </div>
+              <hr>
+              <div class="desc-content flex flex-start">
+                <div class="num color-1 fw-7">03</div>
+                <div class="text-content pl-6 text-s2i">Подаете заявку на одобрение кредита</div>
+              </div>
+            </div>
+          </div>
+          <div class="cell mv-5">
+            <div class="wrapper">
+              <div class="img-content text-center">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"  class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M32 4H4v39h7v-2H6V6h24v4h2V4z" fill="currentColor" ></path><path fill-rule="evenodd" clip-rule="evenodd" d="M33 19H16v-2h17v2zM33 24H16v-2h17v2zM27 29H16v-2h11v2zM27 34H16v-2h11v2z" fill="currentColor" ></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 12h25v13.678l2-2V10H10v37h29V32.163l-2 2V45H12V12z" fill="currentColor" ></path><path fill-rule="evenodd" clip-rule="evenodd" d="M44.183 21.324l1.414 1.414-11.704 11.704-1.414-1.415 11.704-11.703zm0-2.829l4.242 4.243L33.894 37.27l-4.242-4.243 14.532-14.532zM33 38l-4-4v4h4zM27 39H16v-2h11v2z" fill="currentColor" ></path></svg>
+              </div>
+              <hr>
+              <div class="desc-content flex flex-start">
+                <div class="num color-1 fw-7">04</div>
+                <div class="text-content pl-6 text-s2i">Оформляете страховку КАСКО и подписываете кредитный договор. Теперь автомобиль Ваш!</div>
+              </div>
+            </div>
+          </div>
         </div>
+        <hr>
       </div>
     </div>
 
+    <div class="landign-credits">
+      <div class="container-p pv-13">
+        
+        <div class="entry-header">
+          <div class="text-x5 fw-7">Выберите программу кредитования</div>
+          <div class="color-gray-4">3 программы</div>
+        </div>
+        <div class="landign-credits-items">
+          <div class="cell">
+            <div class="wrapper flex">
+              <div>
+                <div class="text-x5 fw-7">Kia Легко</div>
+                <div>Преимущества программы:</div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 </template>
