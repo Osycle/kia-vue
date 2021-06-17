@@ -704,11 +704,12 @@ export default {
         this.currentInterior = this.currentComplectation.interiorColors[0];
         console.log(this.selectComplectations);
       }
+
+      // step 5
       if(this.currentStepNum == 5){
         setTimeout(() => {
           mainjs()  
         }, 50);
-        
       }
 
     },
