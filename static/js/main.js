@@ -279,8 +279,11 @@ if ( $(".js-select").length )
 				easing: 'easeInOutCubic',
 				offset: 10
 			});
-
-		$(document).on("submit", "[formaj]", function(e){
+		
+		//console.log($("[formaj]:not(.formaj)"));
+		$(document).off("submit.uniq", "[formaj]");
+		$(document).on("submit.uniq", "[formaj]", function(e){
+			console.log(1111111111111155555555555);
 			e.preventDefault();
 			var that = $(this);
 			console.log(this)
@@ -305,6 +308,7 @@ if ( $(".js-select").length )
         }
       });
 		})
+		//$("[formaj]").addClass("formaj");
 
 
 		// Адаптация хедера при скролле

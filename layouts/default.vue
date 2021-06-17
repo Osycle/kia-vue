@@ -126,8 +126,6 @@ export default {
         'order_sum' : ''
       });
     });
-
-    console.log($);
   },
   components: {
     Header,

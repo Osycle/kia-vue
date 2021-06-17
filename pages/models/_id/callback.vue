@@ -116,10 +116,10 @@ export default {
   },
   head() {
     return {
-      title: this.page.seo.title,
+      title: this.page.seo.title ? this.page.seo.title : 'Заявка на модель Kia',
       meta: [
         {
-          content: this.page.seo.description
+          content: this.page.seo.description ? this.page.seo.description : 'Заявка на модель Kia'
         }
       ],
     }
