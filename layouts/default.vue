@@ -1,23 +1,5 @@
 <template>
   <div>
-      <!--  RTB  Counter -->
-      <script>
-      (function (w, d, n, u, s) {
-      w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};
-      var a=d.createElement(s),m=d.getElementsByTagName(s)[0];
-      a.async=true;a.src=u;m.parentNode.insertBefore(a,m)
-      })(window, document, 'DSPCounter', '//counter.reddigital.ru/DSPCounter.js', 'script');
-      </script>
-      <script type="text/javascript">
-      DSPCounter('send', {
-        'sid'       : '223159',
-        'site_area' : 'pyR98Eso',
-        'user_id'   : '',
-        'lead_id'   : '',
-        'order_sum' : ''
-      });
-      </script>
-      <!--  RTB  Counter end -->
     <no-ssr>
 
 
@@ -134,16 +116,16 @@ export default {
       });
     });
     
-    // $(document).on("click", "a[href]", function(){
-    //   // Отправить заявку
-    //   DSPCounter('send', {
-    //     'sid'       : '223159',
-    //     'site_area' : 'pyR98Eso',
-    //     'user_id'   : '',
-    //     'lead_id'   : '',
-    //     'order_sum' : ''
-    //   });
-    // });
+    $(document).on("click", "button[type='submit']", function(){
+      // Отправить заявку
+      DSPCounter('send', {
+        'sid'       : '223159',
+        'site_area' : 'pyR98Eso',
+        'user_id'   : '',
+        'lead_id'   : '',
+        'order_sum' : ''
+      });
+    });
 
     console.log($);
   },
