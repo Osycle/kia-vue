@@ -112,15 +112,39 @@ export default {
     }
   },
   mounted(){
-    $(document).on("click", "a[href]", function(){
+    $(document).on("click", ".link-more", function(){
+      // Подробнее
       DSPCounter('send', {
-        'sid'       : '000000',
-        'site_area' : '58mqabOe',
+        'sid'       : '223159',
+        'site_area' : 'unGjJ0ul',
         'user_id'   : '',
         'lead_id'   : '',
         'order_sum' : ''
       });
     });
+    
+    $(document).on("click", ".link-more-model", function(){
+      // Подробнее о моделях
+      DSPCounter('send', {
+        'sid'       : '223159',
+        'site_area' : 'kHVukoUA',
+        'user_id'   : '',
+        'lead_id'   : '',
+        'order_sum' : ''
+      });
+    });
+    
+    // $(document).on("click", "a[href]", function(){
+    //   // Отправить заявку
+    //   DSPCounter('send', {
+    //     'sid'       : '223159',
+    //     'site_area' : 'pyR98Eso',
+    //     'user_id'   : '',
+    //     'lead_id'   : '',
+    //     'order_sum' : ''
+    //   });
+    // });
+
     console.log($);
   },
   components: {

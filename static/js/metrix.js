@@ -6,10 +6,7 @@
   a.async=true;a.src=u;m.parentNode.insertBefore(a,m)
   })(window, document, 'DSPCounter', '//counter.reddigital.ru/DSPCounter.js', 'script');
   DSPCounter('send', {
-    'sid'       : '223159',
-    'site_area' : 'pyR98Eso',
-    'user_id'   : '',
-    'lead_id'   : '',
-    'order_sum' : ''
+    'sid'     : '223159',
+    'user_id' : ''
   });
 /* <!--  RTB  Counter end --> */

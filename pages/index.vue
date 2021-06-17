@@ -21,7 +21,7 @@
                   <p>{{slide.underModelPicText}}</p>
                   <div class="btn-content">
                     <span class="btn-def">
-                      <nuxt-link :to="slide.link">Подробнее</nuxt-link>
+                      <nuxt-link class="link-more" :to="slide.link">Подробнее</nuxt-link>
                     </span>
                   </div>
                 </div>
@@ -83,7 +83,7 @@
                       </div>
                       <div class="btn-content flexbasis-md-4 text-right-md mt-4">
                         <span class="btn-def">
-                          <nuxt-link :to="'/models/'+model.url+'/desc'" class="p-v-25">Подробнее о модели</nuxt-link>
+                          <nuxt-link :to="'/models/'+model.url+'/desc'" class="p-v-25 link-more-model">Подробнее о модели</nuxt-link>
                         </span>
                       </div>
                     </div>
