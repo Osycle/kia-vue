@@ -1176,7 +1176,9 @@ $heightSlider: auto;
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
-		//height: calc(100vh - 200px);
+		@media (min-width: 992px){
+			height: calc(100vh - 200px);
+		}
 	}
 	.breadcrumb{
 		li{
