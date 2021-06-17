@@ -7,9 +7,7 @@ module.exports = {
   target: 'server',
   head: {
     title: process.env.npm_package_name || '',
-    script: [
-      // {src: "@/static/metrix.js"}
-    ],
+    script: [],
     content:"<script olo='sdsd'></script>",
     meta: [
       { charset: 'utf-8' },

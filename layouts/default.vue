@@ -1,15 +1,32 @@
 <template>
   <div>
+      <!--  RTB  Counter -->
+      <script>
+      (function (w, d, n, u, s) {
+      w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};
+      var a=d.createElement(s),m=d.getElementsByTagName(s)[0];
+      a.async=true;a.src=u;m.parentNode.insertBefore(a,m)
+      })(window, document, 'DSPCounter', '//counter.reddigital.ru/DSPCounter.js', 'script');
+      </script>
+      <script type="text/javascript">
+      DSPCounter('send', {
+        'sid'       : '223159',
+        'site_area' : 'pyR98Eso',
+        'user_id'   : '',
+        'lead_id'   : '',
+        'order_sum' : ''
+      });
+      </script>
+      <!--  RTB  Counter end -->
+    <no-ssr>
 
-    <no-ssr v-if="false">
 
-
-
+      
 
 
       
       <!-- Yandex.Metrika counter -->
-      <script type="text/javascript" >
+      <!-- <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym")
 
@@ -21,21 +38,21 @@
               ecommerce:"dataLayer"
         }); 
       </script>
-      <noscript><div><img src="https://mc.yandex.ru/watch/80120311" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+      <noscript><div><img src="https://mc.yandex.ru/watch/80120311" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
       <!-- /Yandex.Metrika counter -->
 
 
 
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126548408-24"></script>
+      <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126548408-24"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-126548408-24');
-      </script>
+      </script> -->
     </no-ssr>
 
     <!-- Скрытые формы -->
@@ -81,11 +98,30 @@ export default {
         {src: '/js/plugins/smooth-scroll-link.min.js'},
         {src: '/js/plugins/owl.carousel.min.js'},
         {src: '/js/plugins/js-cloudimage-360-view.min.js'},
+        {
+          src: "/js/metrix.js",
+          async: true,
+          crossorigin: "anonymous",
+          body: false,
+        },
         {src: 'https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=f06d738e-1a2e-4ca2-91cc-d23a3bbb9e09'},
         {src: '/js/map.panel.js'},
+
         //{src: '/js/main.js'},
       ],
     }
+  },
+  mounted(){
+    $(document).on("click", "a[href]", function(){
+      DSPCounter('send', {
+        'sid'       : '000000',
+        'site_area' : '58mqabOe',
+        'user_id'   : '',
+        'lead_id'   : '',
+        'order_sum' : ''
+      });
+    });
+    console.log($);
   },
   components: {
     Header,
