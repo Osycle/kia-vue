@@ -22,7 +22,8 @@
       <div class="brand-bnr-video">
         <div class="bg-shadow"></div>
         <div class="video-content bg-video-content cover">
-          <div class="img" style="background-image: url('/img/brand/bnr.jpg');"></div>
+          <!-- <div class="img" style="background-image: url('/img/brand/bnr.jpg');"></div> -->
+          <video src="/img/brand/bnr.m4v" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
         </div>
         <div class="desc-content trans-center">
           <div class="btn-content">
@@ -68,7 +69,9 @@
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
               </div>
             </a>
-            <video src="/img/brand/video-2.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+            <img src="/img/brand/block-1.jpg" alt="">
+            <!-- <div class="img" style="background-image: url('/img/brand/block-1.jpg');"></div> -->
+            <!-- <video src="/img/brand/video-2.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video> -->
           </div>
         </div>
         <div class="desc-content mv-10 desktop:mv-16">
