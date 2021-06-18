@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="wa-advantages bg-color-gray-1">
-      <div class="container-p pv-13">
+      <div class="container-p pv-5 desktop:pv-13">
         <div class="entry-header text-center mb-10">
           <div class="text-n1 color-1 mb-2">ПРЕИМУЩЕСТВА</div>
           <div class="text-x5 fw-7">Kia Finance</div>
@@ -84,7 +84,7 @@
     </div>
 
     <div class="block">
-      <div class="container-p pv-13">
+      <div class="container-p pv-5 desktop:pv-13">
         <div class="entry-header text-center mb-10">
           <div class="text-n1 color-1 mb-2">ПРЕИМУЩЕСТВА</div>
           <div class="text-x5 fw-7">Получение кредита в Kia</div>
@@ -144,19 +144,108 @@
     </div>
 
     <div class="landign-credits">
-      <div class="container-p pv-13">
-        
+      <div class="container-p pv-5 desktop:pv-10">
         <div class="entry-header">
           <div class="text-x5 fw-7">Выберите программу кредитования</div>
-          <div class="color-gray-4">3 программы</div>
+          <div class="color-gray-4 mt-2">3 программы</div>
         </div>
-        <div class="landign-credits-items">
-          <div class="cell">
-            <div class="wrapper flex">
+        <div class="landign-credits-items list-check mv-8">
+          <div class="cell mv-1">
+            <div class="wrapper flex-adaptive bg-color-gray-1 ph-8 pv-8 li-m-v-15 jc-between relative">
               <div>
-                <div class="text-x5 fw-7">Kia Легко</div>
-                <div>Преимущества программы:</div>
-              </div>  
+                <div class="mb-3 text-x4 fw-7">Kia Легко</div>
+                <div class="mb-3">Программа с гарантированной остаточной стоимостью</div>
+                <div class="mb-5 color-gray-4">Преимущества программы:</div>
+                <ul class="list">
+                  <li>Платёж до 2-х раз ниже, чем по программе “Kia Стандарт”</li>
+                  <li>Гарантия банка партнера по выкупу автомобиля по окончанию кредита</li>
+                  <li>Возможность легко обменять автомобиль на новый по окончанию программы</li>
+                </ul>
+              </div>
+              <div class="btn-content flex-adaptive align-center">
+                <span class="btn-def mv-3">
+                  <a href="">Расчёт кредита</a>
+                </span>
+                <span class="link-content mv-3 desktop:ml-8 car-card-links desktop:mr-10">
+                  <a href="javascript:;" class="btn-link-1">
+                    Цены<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="cell mv-1">
+            <div class="wrapper flex-adaptive bg-color-gray-1 ph-8 pv-8 li-m-v-15 jc-between relative">
+              <div class="bg-color-1 color-white ph-1 pv-1 absolute" style="top:0;left:0;">Выбор покупателей</div>
+              <div>
+                <div class="mb-3 text-x4 fw-7">Kia Легко Plus</div>
+                <div class="mb-3">Платеж один, а плюсов много!</div>
+                <div class="mb-5 color-gray-4">Преимущества программы:</div>
+                <ul class="list">
+                  <li>Все преимущества программы “Kia Легко”</li>
+                  <li>Единый платеж за кредит КАСКО и ТО</li>
+                  <li>Расходы распределяются пропорционально, и через год не возникнет необходимость снова платить за КАСКО и ТО</li>
+                </ul>
+              </div>
+              <div class="btn-content flex-adaptive align-center">
+                <span class="btn-def mv-3">
+                  <a href="">Расчёт кредита</a>
+                </span>
+                <span class="link-content mv-3 desktop:ml-8 car-card-links desktop:mr-10">
+                  <a href="javascript:;" class="btn-link-1">
+                    Цены<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="cell mv-1">
+            <div class="wrapper flex-adaptive bg-color-gray-1 ph-8 pv-8 li-m-v-15 jc-between relative">
+              <div>
+                <div class="mb-3 text-x4 fw-7">Kia Стандарт</div>
+                <div class="mb-3">Классическая программа кредитования</div>
+                <div class="mb-5 color-gray-4">Преимущества программы:</div>
+                <ul class="list">
+                  <li>Первоначальный взнос от 0% до 90%</li>
+                  <li>Срок кредита от 1 года до 5 лет</li>
+                  <li>Возможность оформления с неполным пакетом документов</li>
+                </ul>
+              </div>
+              <div class="btn-content flex-adaptive align-center">
+                <span class="btn-def mv-3">
+                  <a href="">Расчёт кредита</a>
+                </span>
+                <span class="link-content mv-3 desktop:ml-8 car-card-links desktop:mr-10">
+                  <a href="javascript:;" class="btn-link-1">
+                    Цены<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="credits-partners">
+      <div class="container-p pv-5 desktop:pb-13">
+        <div class="entry-header mb-5">
+          <div class="text-x5 fw-7">Официальные банки-партнеры</div>
+        </div>
+        <div class="credits-partners-items figure-m-v-15">
+          <div class="cell align-center jc-center">
+            <div class="img-content">
+              <img src="https://www.kia.ru/images/logo_bank_rusfin.png">
+            </div>
+          </div>
+          <div class="cell align-center jc-center">
+            <div class="img-content">
+              <img src="https://cdn.kia.ru/sale-data/banks/logo/logo_setelem_color.jpg">
+            </div>
+          </div>
+          <div class="cell align-center jc-center">
+            <div class="img-content">
+              <img src="https://www.kia.ru/images/logo_bank_rusfin.png">
             </div>
           </div>
         </div>
