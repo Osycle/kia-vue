@@ -273,13 +273,7 @@ if ( $(".js-select").length )
 				transitionDuration : 366,
 				transitionEffect: "zoom-in-out"
 			});
-		// SMOTHSCROLL-LINK
-		if( "smoothScroll" in window )
-			smoothScroll.init({
-				easing: 'easeInOutCubic',
-				offset: 10
-			});
-		
+
 		$(document).off("submit.uniq", "[formaj]");
 		$(document).on("submit.uniq", "[formaj]", function(e){
 			e.preventDefault();
