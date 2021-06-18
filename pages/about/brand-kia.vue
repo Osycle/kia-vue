@@ -23,7 +23,7 @@
         <div class="bg-shadow"></div>
         <div class="video-content bg-video-content cover">
           <!-- <div class="img" style="background-image: url('https://kianewdesign.gq/img/brand/bnr.jpg');"></div> -->
-          <video src="https://kianewdesign.gq/img/brand/bnr.m4v" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+          <video src="https://kianewdesign.gq/img/brand/bnr.m4v" muted="muted" autoplay="autoplay" loop="loop" preload="" poster="https://kianewdesign.gq/img/brand/bnr.jpg" playsinline=""></video>
         </div>
         <div class="desc-content trans-center">
           <div class="btn-content">
