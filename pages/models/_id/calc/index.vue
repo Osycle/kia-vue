@@ -4,14 +4,16 @@
       <div class="container-p">
         <ol class="breadcrumb">
           <li><nuxt-link to="/">Главная</nuxt-link></li>
-          <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
+          <li><nuxt-link to="/models">Модели</nuxt-link></li>
+          <li><nuxt-link :to="'/models/'+$route.params.id+'/desc'">{{model.title}}</nuxt-link></li>
+          <li><nuxt-link to="">Расчет кредита {{model.title}}</nuxt-link></li>
         </ol>
       </div>
     </div>
     <div class="conf-header">
       <div class="container-p">
         <div class="entry-header">
-          <h2>Конфигуратор</h2>
+          <h2>Расчет кредита {{model.title}}</h2>
         </div>
         <div class="conf-progress-bar">
           <ul class="list">
@@ -343,9 +345,38 @@
               </div>
             </div>
           </template>
+          <template v-else-if="currentStepNum === 5">
+            <div class="conf-steps conf-step-credit">
+              <div class="entry-content">
+                  <form action="">
+
+                    <div class="mv-5">
+                      <div>Цена авто</div>
+                      <input type="text" class="form-control" v-model="cr_price">
+                    </div>
+                    <div class="mv-5">
+                      <div>Срок кредита</div>
+                      <input type="text" class="form-control" v-model="cr_count" @keypress.stop="cr_counter">
+                    </div>
+                    <div class="mv-5">
+                      <div>Процентная ставка</div>
+                      <input type="text" class="form-control" v-model="cr_rate">
+                    </div>
+                    <div>
+                      <div>Сумма в месяц</div>
+                      <h3>{{cr_mpay}}</h3>
+                    </div>
+                    
+                    <button type="button" @click="cr_counter">Расчитать</button>
+
+                  </form>
+              </div>
+            </div>
+          </template>
+
         </div>
       </div>
-      <template v-if="currentStepNum == 5">
+      <template v-if="currentStepNum == steps.length">
         <div class="conf-steps conf-step-result">
           <div class="entry-content container-p">
             <div class="conf-summary">
@@ -560,7 +591,14 @@ export default {
   },
   data(){
     return {
-      currentStepNum: 2,
+
+      cr_price: 909900,
+      cr_count: 12,
+      cr_rate: 14.8,
+      cr_mpay: 0,
+
+
+      currentStepNum: 5,
       currentEngine: {},
       currentGearbox: {},
       currentDrive: {},
@@ -612,6 +650,11 @@ export default {
         {
           num: 5,
           text: "05",
+          description: "Условия кредита"
+        },
+        {
+          num: 6,
+          text: "06",
           description: "Результаты"
         },
       ],
@@ -630,6 +673,20 @@ export default {
     $('[style="transform: none;"]').removeAttr("style")
   },
   methods: {
+
+    cr_counter(){
+      var price = this.cr_price*1
+      var countM = this.cr_count*1
+      var rate = this.cr_rate*1
+
+      var percent = rate/100/12;
+      var result = price*(percent + ( percent / (((1+percent)**countM) - 1) ) )
+      
+      this.cr_mpay = result;
+      console.log(percent, result);
+      //(0.148+( 0.148 / (1+0.148)*12-1 ))*909900
+    },
+
     /* События Изменение цвета  */
     async colorChangeExterior(color, parentClass){
       parentClass = parentClass || ".showroom-main";
@@ -721,7 +778,7 @@ export default {
       }
 
       // step 5
-      if(this.currentStepNum == 5){
+      if(this.currentStepNum == this.steps.length){
         setTimeout(() => {
           mainjs()  
         }, 50);
@@ -730,8 +787,6 @@ export default {
     },
   },
   async created(){
-    //this.dataJson = await this.$axios.$get('https://api.kia-motors.uz/configurator/get/1');
-    //console.log(this.dataJson);
 
     /* Начальная выборка */
 

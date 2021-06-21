@@ -3672,12 +3672,12 @@ ymaps .map-cluster{
 		padding-bottom: 100px;
 	}
 }
-.conf-step-1{
+.conf-step-engine{
 	@media (max-width: 991px){
 		padding-bottom: 30px;
 	}
 }
-.conf-step-4{
+.conf-step-overview{
 	.showroom-typeselect{
 		position: relative;
 	}
@@ -3699,8 +3699,12 @@ ymaps .map-cluster{
 		}
 	}
 }
-.conf-step-5{
+.conf-step-result{
 	padding-bottom: 60px;
+	.entry-content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 .wrapper-scroll{
 	overflow-y: auto;
@@ -3910,14 +3914,6 @@ dt{
 	font-weight: 700;
 }
 
-.conf-main[current-step="5"]{
-	.left-bar-def{
-		display: none;
-	}
-	.conf-main-content{
-		width: 100%;
-	}
-}
 
 .conf-summary-params{
 	.wrapper-content{
@@ -4578,6 +4574,8 @@ dt{
 	}
 
 }
+
+
 
 // ДОПОЛНИТЕЛЬНЫЕ СТИЛИ ИЗ ВЕТКИ newd
 
