@@ -39,8 +39,8 @@
             <div class="flex desktop:fd-columm">
               <div class="img-content mt-4" v-html="cell.icon"></div>
               <div class="desc-content mv-4 mobile:ml-5 box-md-8 box-lg-8">
-                <div class="text-x1 mb-3"><b>Выгодно</b></div>
-                <div class="text-s2i color-gray-5">{{cell.text}}</div>
+                <div class="text-x1 mb-3"><b>{{cell.text[0]}}</b></div>
+                <div class="text-s2i color-gray-5">{{cell.text[1]}}</div>
               </div>
             </div>
           </div>
