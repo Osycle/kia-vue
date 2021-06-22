@@ -93,7 +93,7 @@
                     <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/9de04711-0734-4618-ad3d-523c6b14d53b.jpg');"></div>
                     <div class="desc-content">
                       <h2>
-                        <!-- <nuxt-link to="/configurator">Конфигуратор</nuxt-link> -->
+                        <nuxt-link to="/configurator">Конфигуратор</nuxt-link>
                       </h2>
                     </div>
                   </figure>
@@ -101,7 +101,7 @@
                     <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/af3343b2-d53a-49a6-aa11-4cf7e01aff81.jpg');"></div>
                     <div class="desc-content">
                       <h2>
-                        <!-- <nuxt-link to="/service/special">Спецпредложения</nuxt-link> -->
+                        <nuxt-link to="/service/spares/">Запчасти</nuxt-link>
                       </h2>
                     </div>
                   </figure>
@@ -109,7 +109,7 @@
                     <div class="img-content" style="background-image: url('https://cdn.kia.ru/resize/640x225/site-data/menu/quick_links/57a17a2b-c237-4668-bcb6-9b2e0ea04370.jpg');"></div>
                     <div class="desc-content">
                       <h2>
-                        <!-- <nuxt-link to="/buy/calc">Расчёт кредита</nuxt-link> -->
+                        <nuxt-link to="/about/technologies">Технологии</nuxt-link>
                       </h2>
                     </div>
                   </figure>
