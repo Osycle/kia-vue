@@ -52,7 +52,7 @@
 							<li><nuxt-link :to="'/models/'+$route.params.id+'/options'">Комплектации и цены</nuxt-link></li>
 						</ol>
 					</div>
-					<div class="link-content">
+					<div class="link-content" v-if="page_data.pdf">
 						<ul class="list-inline font-size-1 mobile:mt-6">
 							<li>
 								<a :href="page_data.pdf" class="hover-aunderline" :download="page_data.name" target="_blank">

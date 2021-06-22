@@ -348,28 +348,50 @@
           <template v-else-if="currentStepNum === 5">
             <div class="conf-steps conf-step-credit">
               <div class="entry-content">
+                <div>
+                  <div class="text-x3">Выберите первый взнос</div>
+                  <div class="text-s2i">По умолчанию выбраны условия с самым низким ежемесячным платежом. Вы можете изменить их на более подходящие.</div>
+                </div>
+                <div class="credit-inputs mv-20">
                   <form action="">
-
-                    <div class="mv-5">
-                      <div>Цена авто</div>
-                      <input type="text" class="form-control" v-model="cr_price">
+                    <div class="wrapper-inputs mv-8">
+                      <div class="wrap">
+                        <div class="title-content">Первоначальный взнос</div>
+                        <div class="input-content">
+                          <input type="text" class="form-control" v-model="cr_price">
+                        </div>
+                      </div>
+                      <div class="wrap">
+                        <div class="title-content">Сумма в месяц</div>
+                        <div>{{cr_mpay}}</div>
+                      </div>
                     </div>
-                    <div class="mv-5">
-                      <div>Срок кредита</div>
+										<div class="flex-adaptive">
+											<div class="calc-range box-xs-10">
+												<input type="text" id="cr_term" name="" value="" />
+											</div>
+											<div class="calc-enter">
+												<input type="text" name="" id="sum_range_input" class="form-control">
+											</div>
+										</div>
+                    <div class="wrap">
+                      <div class="title-content">Цена авто</div>
+                      <input type="text" class="form-control" v-model="cr_anini">
+                    </div>
+                    <div class="wrap">
+                      <div class="title-content">Срок кредита</div>
                       <input type="text" class="form-control" v-model="cr_count" @keypress.stop="cr_counter">
                     </div>
-                    <div class="mv-5">
-                      <div>Процентная ставка</div>
+                    <div class="wrap">
+                      <div class="title-content">Процентная ставка</div>
                       <input type="text" class="form-control" v-model="cr_rate">
                     </div>
-                    <div>
-                      <div>Сумма в месяц</div>
-                      <h3>{{cr_mpay}}</h3>
-                    </div>
+    
                     
                     <button type="button" @click="cr_counter">Расчитать</button>
 
                   </form>
+                </div>
               </div>
             </div>
           </template>
@@ -592,9 +614,26 @@ export default {
   data(){
     return {
 
+      credit:{
+        term_min: 13,
+        term_max: 48,
+        rate_min: 19,
+        rate_max: 33.2,
+      },
+
+      payment:{
+        price: 0,
+        ante: 0,
+        term: 0,
+        rate: 0,
+        mpay: 0,
+      },
+
+
       cr_price: 909900,
       cr_count: 12,
       cr_rate: 14.8,
+      cr_anini: 100000,
       cr_mpay: 0,
 
 
@@ -661,6 +700,7 @@ export default {
     }
   },
   mounted(){
+    var v = this;
     $('.sidebar-wrapper').theiaStickySidebar({
       additionalMarginTop: 0
     });
@@ -670,22 +710,45 @@ export default {
     $(document).on("click", ".showroom-item-cover", ()=>{
       window.CI360.init();
     })
-    $('[style="transform: none;"]').removeAttr("style")
+    $('[style="transform: none;"]').removeAttr("style");
+
+    var mortgageAmount = $("#cr_term").ionRangeSlider({
+      //type: "double",
+      min: v.credit.term_min,
+      max: v.credit.term_max,
+      from: 0,
+      to: 0,
+      postfix: " мес",
+      step: 1,
+      grid: false,
+      onChange: function (data) {
+        console.log(data);
+        v.payment.term = data.from;
+        //$("#sum_range_input").val(data.from);
+        //monthlyFeeChange();
+      }
+    }).data("ionRangeSlider");
+
+
+
   },
   methods: {
 
     cr_counter(){
-      var price = this.cr_price*1
+      var price = (this.cr_price*1)-this.cr_anini;
       var countM = this.cr_count*1
       var rate = this.cr_rate*1
-
+      
       var percent = rate/100/12;
       var result = price*(percent + ( percent / (((1+percent)**countM) - 1) ) )
+      //var result = price*(percent + ( percent / (((1+percent)**countM) - 1) ) )
       
-      this.cr_mpay = result;
+      this.cr_mpay = Math.round(result);
       console.log(percent, result);
       //(0.148+( 0.148 / (1+0.148)*12-1 ))*909900
     },
+
+
 
     /* События Изменение цвета  */
     async colorChangeExterior(color, parentClass){
@@ -776,8 +839,16 @@ export default {
         this.currentInterior = this.currentComplectation.interiorColors[0];
         console.log(this.selectComplectations);
       }
-
+      
       // step 5
+      if(this.currentStepNum == 5){
+        setTimeout(() => {
+          console.log('asdasd');
+
+        }, 1000)
+      }
+
+
       if(this.currentStepNum == this.steps.length){
         setTimeout(() => {
           mainjs()  
