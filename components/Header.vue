@@ -51,7 +51,7 @@
                 <div class="subdown-item-wrapper">
                   <div class="subdown-menu-items">
                     
-                      <div class="item" v-for="(sub, key) in item.subsections" :key="key">
+                      <div class="item" v-for="(sub, key) in item.subsections" :key="key" v-if="sub.values.length">
                         <div class="color-gray-4 title-content">{{sub.name}}</div>
                         <ul>
                           <li v-for="(subitem, key) in sub.values" :key="key">
