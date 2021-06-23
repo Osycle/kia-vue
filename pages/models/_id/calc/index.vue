@@ -347,44 +347,54 @@
           </template>
           <template v-else-if="currentStepNum === 5">
             <div class="conf-steps conf-step-credit">
-              <div class="entry-content">
+              <div class="entry-content mv-8">
                 <div>
                   <div class="text-x3">Выберите первый взнос</div>
                   <div class="text-s2i">По умолчанию выбраны условия с самым низким ежемесячным платежом. Вы можете изменить их на более подходящие.</div>
                 </div>
-                <div class="credit-inputs mv-20">
+                <div class="credit-inputs mv-10">
                   <form action="">
                     <div class="wrapper-inputs mv-8">
                       <div class="wrap">
                         <div class="title-content">Первоначальный взнос</div>
                         <div class="input-content">
-                          <input type="text" class="form-control" v-model="cr_price">
+                          <div class="form-control credit-ante-label" >{{payment.ante | spaceBetweenNum}}</div>
+                          <input type="text" class="form-control credit-ante-input" id="antein" v-model="payment.ante" v-facade="'###########'">
                         </div>
                       </div>
                       <div class="wrap">
-                        <div class="title-content">Сумма в месяц</div>
-                        <div>{{cr_mpay}}</div>
+                        <div class="title-content font-size-1">Сумма в месяц</div>
+                        <div class="ph-2">
+                          <div>{{payment.mpay}}</div>
+                        </div>
                       </div>
                     </div>
-										<div class="flex-adaptive">
+										<div class="flex-adaptive mv-8">
+											<div class="calc-range box-xs-10">
+												<input type="text" id="cr_ante_percent" name="" v-model="payment.ante_percent">
+											</div>
+										</div>
+										<div class="flex-adaptive mv-8">
+											<div class="calc-range box-xs-10">
+												<input type="text" id="cr_ante" name="" v-model="payment.ante">
+											</div>
+										</div>
+										<div class="flex-adaptive mv-8">
 											<div class="calc-range box-xs-10">
 												<input type="text" id="cr_term" name="" value="" />
 											</div>
-											<div class="calc-enter">
-												<input type="text" name="" id="sum_range_input" class="form-control">
+										</div>
+										<div class="flex-adaptive mv-3">
+											<div class="calc-range box-xs-10">
+												<input type="text" id="cr_rate" name="" value="" />
 											</div>
 										</div>
-                    <div class="wrap">
-                      <div class="title-content">Цена авто</div>
-                      <input type="text" class="form-control" v-model="cr_anini">
-                    </div>
-                    <div class="wrap">
-                      <div class="title-content">Срок кредита</div>
-                      <input type="text" class="form-control" v-model="cr_count" @keypress.stop="cr_counter">
-                    </div>
-                    <div class="wrap">
-                      <div class="title-content">Процентная ставка</div>
-                      <input type="text" class="form-control" v-model="cr_rate">
+
+                    <hr>
+
+                    <div class="mt-10">
+                      <div class="title-content fw-6">Ежемесячный платёж</div>
+                      <div class="result-sum ph-5 mv-3">{{payment.mpay}}</div>
                     </div>
     
                     
@@ -614,29 +624,6 @@ export default {
   data(){
     return {
 
-      credit:{
-        term_min: 13,
-        term_max: 48,
-        rate_min: 19,
-        rate_max: 33.2,
-      },
-
-      payment:{
-        price: 0,
-        ante: 0,
-        term: 0,
-        rate: 0,
-        mpay: 0,
-      },
-
-
-      cr_price: 909900,
-      cr_count: 12,
-      cr_rate: 14.8,
-      cr_anini: 100000,
-      cr_mpay: 0,
-
-
       currentStepNum: 5,
       currentEngine: {},
       currentGearbox: {},
@@ -697,6 +684,27 @@ export default {
           description: "Результаты"
         },
       ],
+
+
+      credit:{
+        price: 909900,
+        term_min: 12, // default:13
+        term_max: 48,
+        rate_min: 14.8, // default:19
+        rate_max: 33.2,
+        ante_min: 0,
+        ante_max: 909900,
+        ante_percent: 0,
+      },
+
+      payment:{
+        price: 909900,
+        ante: 0,
+        term: 0,
+        rate: 0,
+        mpay: 0,
+      },
+
     }
   },
   mounted(){
@@ -712,7 +720,59 @@ export default {
     })
     $('[style="transform: none;"]').removeAttr("style");
 
-    var mortgageAmount = $("#cr_term").ionRangeSlider({
+
+
+    $(".credit-ante-input").on("change", function(){
+      var that = $(this);
+      console.log(that.val())
+      //this.payment.ante =   
+    })
+    
+    this.payment.ante = this.credit.ante_min
+    this.payment.term = this.credit.term_min
+    this.payment.rate = this.credit.rate_min
+
+
+    window.cr_ante = $("#cr_ante").ionRangeSlider({
+      min: 0,
+      max: 909900,
+      from: 0,
+      to: 0,
+      //to_min: v.payment.ante_min,
+      from_max: v.credit.ante_max,
+      postfix: " сум",
+      step: 1,
+      //grid: true,
+      //grid_snap: true,
+      onChange: function (data) {
+        v.payment.ante = data.from
+        console.log(data);
+        cr_ante_percent.update({from: data.from_percent,});
+        v.calc();
+      },
+    }).data("ionRangeSlider");
+    
+    var cr_ante_percent = $("#cr_ante_percent").ionRangeSlider({
+      min: 0,
+      max: 100,
+      from: 0,
+      to: 0,
+      from_max: Math.round(v.credit.ante_max/(v.credit.price/100)), 
+      postfix: " %",
+      step: 1,
+      onChange: function (data) {
+        var val = Math.round(cr_ante.result.max*(data.from/100))
+        v.payment.ante_percent = data.from;
+        v.payment.ante = val;
+        cr_ante.update({from: val,});
+        v.calc();
+      },
+
+    }).data("ionRangeSlider");
+
+
+
+    var cr_term = $("#cr_term").ionRangeSlider({
       //type: "double",
       min: v.credit.term_min,
       max: v.credit.term_max,
@@ -722,18 +782,42 @@ export default {
       step: 1,
       grid: false,
       onChange: function (data) {
-        console.log(data);
         v.payment.term = data.from;
-        //$("#sum_range_input").val(data.from);
-        //monthlyFeeChange();
+        v.calc();
+      }
+    }).data("ionRangeSlider");
+
+    var cr_rate = $("#cr_rate").ionRangeSlider({
+      //type: "double",
+      min: v.credit.rate_min,
+      max: v.credit.rate_max,
+      from: 0,
+      to: 0,
+      postfix: " %",
+      step: 0.1,
+      grid: false,
+      onChange: function (data) {
+        v.payment.rate = data.from;
+        v.calc();
       }
     }).data("ionRangeSlider");
 
 
-
   },
   methods: {
+    calc(){
 
+      var price = this.payment.price // Цена
+      var rate = this.payment.rate // Процентная ставка
+      var term = this.payment.term // Срок
+
+      price = price - this.payment.ante
+
+      var rateone = rate/100/12;
+
+      var result = price*(rateone + ( rateone / (((1+rateone)**term) - 1) ) )
+      this.payment.mpay = Math.round(result);
+    },
     cr_counter(){
       var price = (this.cr_price*1)-this.cr_anini;
       var countM = this.cr_count*1
@@ -742,7 +826,7 @@ export default {
       var percent = rate/100/12;
       var result = price*(percent + ( percent / (((1+percent)**countM) - 1) ) )
       //var result = price*(percent + ( percent / (((1+percent)**countM) - 1) ) )
-      
+
       this.cr_mpay = Math.round(result);
       console.log(percent, result);
       //(0.148+( 0.148 / (1+0.148)*12-1 ))*909900

@@ -4574,6 +4574,7 @@ dt{
 	}
 }
 .credit-inputs{
+	max-width: 600px;
 	.wrap{
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -4582,7 +4583,53 @@ dt{
 		justify-content: space-between;
 		align-items: center;
 	}
+	.form-control{
+		width: 160px;
+		text-align: right;
+		font-size: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
+		height: 40px;
+	}
 }
+.irs--flat {
+	.irs-from, .irs-to, .irs-single{
+    font-size: 15px;
+    background-color: $color-1;
+    border-radius: 0;
+    padding: 3px 9px;
+		top: -10px;
+	}
+	
+	.irs-bar--single{
+		border-radius: 0;
+		background-color: $color-1;
+	}
+	.irs-handle{
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background-color: white;
+		//box-shadow: 0 0 20px black;
+		border: 1px solid $color-1;
+		i{
+			display: none !important;
+		}
+	}
+	.irs-grid{
+		//height: 40px;
+	}
+	.irs-bar{
+
+	}
+	.irs-line{
+		//height: 40px;
+		border-radius: 0;
+		background-color: $color-gray-1;
+	}
+}
+
+
 
 
 // ДОПОЛНИТЕЛЬНЫЕ СТИЛИ ИЗ ВЕТКИ newd
