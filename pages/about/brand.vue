@@ -7,7 +7,7 @@
             <ol class="breadcrumb">
               <li><nuxt-link to="/">Главная</nuxt-link></li>
               <li><nuxt-link to="/about">Мир Kia</nuxt-link></li>
-              <li><nuxt-link to="">Компания Kia Motors</nuxt-link></li>
+              <li><nuxt-link to="">Компания Kia</nuxt-link></li>
             </ol>
           </div>
         </div>

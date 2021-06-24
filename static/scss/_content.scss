@@ -4575,6 +4575,11 @@ dt{
 }
 .credit-inputs{
 	max-width: 600px;
+	.input-ante{
+		input{
+			
+		}
+	}
 	.wrap{
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -4595,23 +4600,41 @@ dt{
 .irs--flat {
 	.irs-from, .irs-to, .irs-single{
     font-size: 15px;
-    background-color: $color-1;
     border-radius: 0;
     padding: 3px 9px;
 		top: -10px;
+		background-color: $color-special-1;
 	}
-	
+	.irs-min, .irs-max{
+		color: black;
+		background-color: transparent;
+		font-size: 15px;
+		font-weight: 600;
+	}
+	.irs-single{
+		background-color: transparent;
+		color: $color-special-1;
+		font-weight: 600;
+		&:before{
+			display: none;
+			border-top-color: $color-special-1;
+		}
+	}
 	.irs-bar--single{
-		border-radius: 0;
-		background-color: $color-1;
+		border-radius: 30px 0 0 30px;
+		background-color: $color-special-1;
 	}
 	.irs-handle{
-		width: 20px;
-		height: 20px;
+		top: 25px;
+		width: 40px;
+		height: 40px;
 		border-radius: 50%;
 		background-color: white;
 		//box-shadow: 0 0 20px black;
-		border: 1px solid $color-1;
+		border: 1px solid $color-special-1;
+		&:active{
+			cursor: grab;
+		}
 		i{
 			display: none !important;
 		}
@@ -4620,12 +4643,13 @@ dt{
 		//height: 40px;
 	}
 	.irs-bar{
-
+		height: 40px;
 	}
 	.irs-line{
-		//height: 40px;
-		border-radius: 0;
-		background-color: $color-gray-1;
+		height: 40px;
+		border-radius: 30px;
+		border: 1px solid $color-special-1;
+		background-color: rgba($color-gray-1, 0.2);
 	}
 }
 

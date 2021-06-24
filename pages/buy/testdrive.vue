@@ -15,19 +15,19 @@
           <h1 class="text-x5">Запись на тест-драйв</h1>
         </div>
         <div class="entry-content">
-          <section class="m-v-50" v-for="(type, key) in page.groups" :key="key">
+          <section class="m-v-50" v-for="(type, key) in page_data" :key="key">
             <h3 class="text-x4">{{type.name}}</h3>
             <div class="models-items boxes-4 figure-m-v-30">
-              <figure v-for="(modelLine, key) in page.model_lines" :key="key" v-if="type.id == modelLine.group_id && modelLine.testdrive" >
-                <div v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id">                
+              <figure v-for="(model, key) in type.models" :key="key" >
+                <div>
                   <div class="img-content" >
-                    <nuxt-link exact :to="'/models/'+modelLine.code+'/testdrive/'">
-                      <img :src="'https://cdn.kia.ru/resize/400x198/'+model.image">
+                    <nuxt-link exact :to="'/models/'+model.url+'/testdrive/'">
+                      <img :src="model.image">
                     </nuxt-link>
                   </div>
                   <div class="desc-content">
                     <div class="car-card__name">
-                      <nuxt-link exact :to="'/models/'+modelLine.code+'/testdrive/'">{{modelLine.name}}</nuxt-link>
+                      <nuxt-link exact :to="'/models/'+model.url+'/testdrive/'">{{model.name}}</nuxt-link>
                     </div>
                   </div>
                 </div>
@@ -46,22 +46,21 @@
 export default {
   head() {
     return {
-      title: this.page.seo.title,
+      title: "Запись на тест-драйв",
       meta: [
         {
-          content: this.page.seo.description
+          content: "Запись на тест-драйв"
         }
       ]
     }
   },
   async asyncData(context){
     try{
-      const path = context.route.path
-      const page = await context.store.dispatch("models/fetchPageData", {
-        path
-      })
+      const page_data = await context.store.dispatch("other/fetchPath", {
+        path: context.route.path
+      });
       return {
-        page: page.content
+        page_data
       }
     }catch(e){
       context.error(e);

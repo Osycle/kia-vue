@@ -358,14 +358,14 @@
                       <div class="wrap">
                         <div class="title-content">Первоначальный взнос</div>
                         <div class="input-content">
-                          <div class="form-control credit-ante-label" >{{payment.ante | spaceBetweenNum}}</div>
+                          <div class="form-control credit-ante-label hide" >{{payment.ante | spaceBetweenNum}}</div>
                           <input type="text" class="form-control credit-ante-input" id="antein" v-model="payment.ante" v-facade="'###########'">
                         </div>
                       </div>
                       <div class="wrap">
-                        <div class="title-content font-size-1">Сумма в месяц</div>
+                        <div class="title-content font-size-1">Сумма кредита</div>
                         <div class="ph-2">
-                          <div>{{payment.mpay}}</div>
+                          <div>{{payment.mpay | spaceBetweenNum}}</div>
                         </div>
                       </div>
                     </div>
@@ -700,7 +700,7 @@ export default {
       payment:{
         price: 909900,
         ante: 0,
-        term: 0,
+        term: 24,
         rate: 0,
         mpay: 0,
       },
@@ -729,7 +729,7 @@ export default {
     })
     
     this.payment.ante = this.credit.ante_min
-    this.payment.term = this.credit.term_min
+    //this.payment.term = this.credit.term_min
     this.payment.rate = this.credit.rate_min
 
 
@@ -752,7 +752,7 @@ export default {
       },
     }).data("ionRangeSlider");
     
-    var cr_ante_percent = $("#cr_ante_percent").ionRangeSlider({
+    window.cr_ante_percent = $("#cr_ante_percent").ionRangeSlider({
       min: 0,
       max: 100,
       from: 0,
@@ -764,15 +764,14 @@ export default {
         var val = Math.round(cr_ante.result.max*(data.from/100))
         v.payment.ante_percent = data.from;
         v.payment.ante = val;
-        cr_ante.update({from: val,});
+        cr_ante.update({from: v.payment.ante,});
         v.calc();
       },
 
     }).data("ionRangeSlider");
 
 
-
-    var cr_term = $("#cr_term").ionRangeSlider({
+    window.cr_term = $("#cr_term").ionRangeSlider({
       //type: "double",
       min: v.credit.term_min,
       max: v.credit.term_max,
@@ -787,7 +786,7 @@ export default {
       }
     }).data("ionRangeSlider");
 
-    var cr_rate = $("#cr_rate").ionRangeSlider({
+    window.cr_rate = $("#cr_rate").ionRangeSlider({
       //type: "double",
       min: v.credit.rate_min,
       max: v.credit.rate_max,
@@ -801,10 +800,23 @@ export default {
         v.calc();
       }
     }).data("ionRangeSlider");
+    
+    this.updateRange = function(){
+      cr_ante.update({from: v.payment.ante,});
+      cr_ante_percent.update({from: v.payment.ante_percent,});
+      cr_term.update({from: v.payment.term,});
+      cr_rate.update({from: v.payment.rate,});
+    }
+    
+    this.calc();
 
+    $(".credit-ante-input").on("change", function(){
+      
+    })
 
   },
   methods: {
+
     calc(){
 
       var price = this.payment.price // Цена
@@ -815,6 +827,7 @@ export default {
 
       var rateone = rate/100/12;
 
+      //this.updateRange();
       var result = price*(rateone + ( rateone / (((1+rateone)**term) - 1) ) )
       this.payment.mpay = Math.round(result);
     },
@@ -826,9 +839,9 @@ export default {
       var percent = rate/100/12;
       var result = price*(percent + ( percent / (((1+percent)**countM) - 1) ) )
       //var result = price*(percent + ( percent / (((1+percent)**countM) - 1) ) )
-
       this.cr_mpay = Math.round(result);
       console.log(percent, result);
+      this.updateRange();
       //(0.148+( 0.148 / (1+0.148)*12-1 ))*909900
     },
 
