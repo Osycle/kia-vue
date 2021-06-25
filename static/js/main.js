@@ -34,7 +34,7 @@ window.roundFix = function(num, cnt){
 }
 window.spaceBetweenNum = function(str, char){
 	str = str+"";
-	char = char || ","
+	char = char || " "
 	var pattern = /(-?\d+)(\d{3})/;
 	while (pattern.test(str))
 		str = str.replace(pattern, "$1"+char+"$2");

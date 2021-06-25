@@ -354,7 +354,7 @@
                 </div>
                 <div class="credit-inputs mv-10">
                   <form action="">
-                    <div class="wrapper-inputs mv-8">
+                    <div class="wrapper-inputs mv-8 cleargix">
                       <div class="wrap">
                         <div class="title-content">Первоначальный взнос</div>
                         <div class="input-content">
@@ -365,42 +365,59 @@
                       <div class="wrap">
                         <div class="title-content font-size-1">Сумма кредита</div>
                         <div class="ph-2">
-                          <div>{{payment.mpay | spaceBetweenNum}}</div>
+                          <div v-if="payment.credit_price < 0">0</div>
+                          <div v-else>{{payment.credit_price | spaceBetweenNum}}</div>
+                        </div>
+                      </div>
+                      <div class="irs-content flex-adaptive mv-8">
+                        <div class="calc-range box-xs-10">
+                          <input type="text" id="cr_ante_percent" name="" v-model="payment.ante_percent">
+                        </div>
+                      </div>
+                      <div class="hide irs-content flex-adaptive mv-8">
+                        <div class="calc-range box-xs-10">
+                          <input type="text" id="cr_ante" name="" v-model="payment.ante">
+                        </div>
+                      </div>
+                      <div class="irs-content flex-adaptive mv-8">
+                        <div class="calc-range box-xs-10">
+                          <input type="text" id="cr_term" name="" value="" />
+                        </div>
+                      </div>
+                      <div class="irs-content flex-adaptive mv-3">
+                        <div class="calc-range box-xs-10">
+                          <input type="text" id="cr_rate" name="" value="" />
                         </div>
                       </div>
                     </div>
-										<div class="flex-adaptive mv-8">
-											<div class="calc-range box-xs-10">
-												<input type="text" id="cr_ante_percent" name="" v-model="payment.ante_percent">
-											</div>
-										</div>
-										<div class="flex-adaptive mv-8">
-											<div class="calc-range box-xs-10">
-												<input type="text" id="cr_ante" name="" v-model="payment.ante">
-											</div>
-										</div>
-										<div class="flex-adaptive mv-8">
-											<div class="calc-range box-xs-10">
-												<input type="text" id="cr_term" name="" value="" />
-											</div>
-										</div>
-										<div class="flex-adaptive mv-3">
-											<div class="calc-range box-xs-10">
-												<input type="text" id="cr_rate" name="" value="" />
-											</div>
-										</div>
-
                     <hr>
 
                     <div class="mt-10">
                       <div class="title-content fw-6">Ежемесячный платёж</div>
-                      <div class="result-sum ph-5 mv-3">{{payment.mpay}}</div>
+                      <div class="result-sum mv-3 fw-6 text-s1">{{payment.mpay | spaceBetweenNum}} сум/мес</div>
                     </div>
     
                     
                     <button type="button" @click="cr_counter">Расчитать</button>
 
                   </form>
+                  <div class="credit-table-content">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Месяцы</th>
+                          <th>Остаток долга</th>
+                          <th>Платеж</th>
+                          <th>Процентная часть</th>
+                          <th>Долговая часть</th>
+                          <th>Остаток долга на конец периода</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -687,21 +704,23 @@ export default {
 
 
       credit:{
-        price: 909900,
-        term_min: 12, // default:13
+        price: 259900000,
+        term_min: 13, // default:13
         term_max: 48,
-        rate_min: 14.8, // default:19
+        rate_min: 19, // default:19
         rate_max: 33.2,
         ante_min: 0,
-        ante_max: 909900,
+        ante_max: 259900000,
         ante_percent: 0,
       },
 
       payment:{
-        price: 909900,
+        price: 259900000,
+        credit_price: 0,
         ante: 0,
-        term: 24,
+        term: 12,
         rate: 0,
+        rate_one: 0,
         mpay: 0,
       },
 
@@ -722,20 +741,17 @@ export default {
 
 
 
-    $(".credit-ante-input").on("change", function(){
-      var that = $(this);
-      console.log(that.val())
-      //this.payment.ante =   
-    })
+
     
     this.payment.ante = this.credit.ante_min
     //this.payment.term = this.credit.term_min
     this.payment.rate = this.credit.rate_min
 
+    
 
     window.cr_ante = $("#cr_ante").ionRangeSlider({
       min: 0,
-      max: 909900,
+      max: v.credit.price,
       from: 0,
       to: 0,
       //to_min: v.payment.ante_min,
@@ -801,17 +817,17 @@ export default {
       }
     }).data("ionRangeSlider");
     
-    this.updateRange = function(){
+    v.updateRange = function(){
       cr_ante.update({from: v.payment.ante,});
-      cr_ante_percent.update({from: v.payment.ante_percent,});
+      cr_ante.callOnChange()
       cr_term.update({from: v.payment.term,});
       cr_rate.update({from: v.payment.rate,});
     }
     
     this.calc();
-
+    v.updateRange();
     $(".credit-ante-input").on("change", function(){
-      
+      v.updateRange();
     })
 
   },
@@ -819,30 +835,74 @@ export default {
 
     calc(){
 
-      var price = this.payment.price // Цена
-      var rate = this.payment.rate // Процентная ставка
+      this.payment.credit_price = this.payment.price - this.payment.ante
+
+      this.payment.rate_one = this.payment.rate/100/12
+
+      //var price = this.payment.price // Цена
+      //var rate =  this.payment.rate // Процентная ставка
+
       var term = this.payment.term // Срок
+      var credit_price = this.payment.credit_price; // Сумма кредита
+      var rateone = this.payment.rate_one;
 
-      price = price - this.payment.ante
 
-      var rateone = rate/100/12;
 
       //this.updateRange();
-      var result = price*(rateone + ( rateone / (((1+rateone)**term) - 1) ) )
+      
+      var result = credit_price*(rateone + ( rateone / (((1+rateone)**term) - 1) ) )
       this.payment.mpay = Math.round(result);
     },
     cr_counter(){
-      var price = (this.cr_price*1)-this.cr_anini;
-      var countM = this.cr_count*1
-      var rate = this.cr_rate*1
-      
-      var percent = rate/100/12;
-      var result = price*(percent + ( percent / (((1+percent)**countM) - 1) ) )
-      //var result = price*(percent + ( percent / (((1+percent)**countM) - 1) ) )
-      this.cr_mpay = Math.round(result);
-      console.log(percent, result);
-      this.updateRange();
-      //(0.148+( 0.148 / (1+0.148)*12-1 ))*909900
+      var v = this;
+      var body = $(".credit-table-content table tbody")
+      console.log(body)
+      var tpl = ''
+      var remainder_all = this.payment.credit_price;
+      var payment = this.payment.mpay;
+      var summary = 0;
+      var summary_rate = 0;
+      var summary_payment = 0;
+      var debt_rate;
+      var remainder;
+      for (let i = 0; i < v.payment.term; i++) {
+        
+        var f_rate_one = remainder_all*this.payment.rate_one;
+        var f_dept = this.payment.mpay - f_rate_one;
+        var f_end_dept = remainder_all - f_dept;
+
+        summary_rate += f_rate_one;
+        summary_payment += payment;
+        summary += f_dept;
+
+        if(f_end_dept< 0)
+          f_end_dept = 0
+
+        tpl = tpl+`
+          <tr>
+            <td>${i+1}</td>
+            <td>${spaceBetweenNum(Math.round(remainder_all))}</td>
+            <td>${spaceBetweenNum(Math.round(payment))}</td>
+            <td>${spaceBetweenNum(Math.round(f_rate_one))}</td>
+            <td>${spaceBetweenNum(Math.round(f_dept))}</td>
+            <td>${spaceBetweenNum(Math.round(f_end_dept))}</td>
+          </tr>
+        `
+        if(i == v.payment.term-1){
+          tpl = tpl+`
+            <tr>
+              <td></td>
+              <td></td>
+              <td><b>Итого:</b><br>${spaceBetweenNum(Math.round(summary_payment))} сум</td>
+              <td><b>Итого:</b><br>${spaceBetweenNum(Math.round(summary_rate))} сум</td>
+              <td></td>
+              <td></td>
+            </tr>
+          `
+        }
+        remainder_all = remainder_all - f_dept
+      }
+      body.append(tpl)
     },
 
 

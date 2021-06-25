@@ -4574,7 +4574,7 @@ dt{
 	}
 }
 .credit-inputs{
-	max-width: 600px;
+	//max-width: 600px;
 	.input-ante{
 		input{
 			
@@ -4602,7 +4602,7 @@ dt{
     font-size: 15px;
     border-radius: 0;
     padding: 3px 9px;
-		top: -10px;
+		top: -2px;
 		background-color: $color-special-1;
 	}
 	.irs-min, .irs-max{
@@ -4652,9 +4652,26 @@ dt{
 		background-color: rgba($color-gray-1, 0.2);
 	}
 }
+.irs-content{
+	min-height: 65px;
+}
 
-
-
+table thead tr th{
+	background-color: black;
+}
+table td:nth-child(1), table th:nth-child(1),
+table td:nth-last-child(1), table th:nth-last-child(1){
+	border-radius: 0;
+}
+.credit-table-content{
+	tr{
+		&:last-child{
+			td{
+				white-space: nowrap;
+			}
+		}
+	}
+}
 
 // ДОПОЛНИТЕЛЬНЫЕ СТИЛИ ИЗ ВЕТКИ newd
 
