@@ -856,6 +856,7 @@ export default {
     cr_counter(){
       var v = this;
       var body = $(".credit-table-content table tbody")
+      body.find("tr").remove();
       console.log(body)
       var tpl = ''
       var remainder_all = this.payment.credit_price;
