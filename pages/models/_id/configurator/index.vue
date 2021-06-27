@@ -15,27 +15,16 @@
         </div>
         <div class="conf-progress-bar">
           <ul class="list">
-            <li>
-              <nuxt-link to="/configurator">
-                <b>01</b>
-                <p>Выбор модели</p>
+            <li v-for="(step, key) in steps" :key="key"
+               @click.stop="progressStepsBar(step.num)" :class="{'active': currentStepNum == step.num}">
+              <nuxt-link to="/configurator" v-if="step.num == 1">
+                <b>{{step.text}}</b>
+                <p>{{step.description}}</p>
               </nuxt-link>
-            </li>
-            <li @click.stop="progressStepsBar(2)" :class="{'active': currentStepNum == 2}">
-              <b>02</b>
-              <p>Двигатель и трансмиссия</p>
-            </li>
-            <li @click.stop="progressStepsBar(3)" :class="{'active': currentStepNum == 3}">
-              <b>03</b>
-              <p>Комплектация</p>
-            </li>
-            <li @click.stop="progressStepsBar(4)" :class="{'active': currentStepNum == 4}">
-              <b>04</b>
-              <p>Цвета и отделка</p>
-            </li>
-            <li @click.stop="progressStepsBar(5)" :class="{'active': currentStepNum == 5}">
-              <b>05</b>
-              <p>Результаты</p>
+              <template v-else>
+                <b>{{step.text}}</b>
+                <p>{{step.description}}</p>
+              </template>
             </li>
           </ul>
         </div>
@@ -43,7 +32,7 @@
     </div>
     <div class="conf-main" :current-step="currentStepNum">
       <div class="container-p clearfix">
-        <div class="left-bar-def sidebar-wrapper col-md-3 scrolled-down">
+        <div class="left-bar-def sidebar-wrapper col-md-3 scrolled-down" v-show="!(currentStepNum == steps.length)">
           <div class="wrapper-scroll">
             <div class="wrapper conf-result-content">
               <div class="cap-content">
@@ -70,14 +59,14 @@
               <div class="conf-result-summary">
                 <dl>
                   <dt>Итоговая стоимость</dt> 
-                  <dd><strong class="text-s1-b">от {{currentPrice | spaceBetweenNum}} сум</strong></dd>
+                  <dd><strong class="text-s1">от {{currentPrice | spaceBetweenNum}} сум</strong></dd>
                 </dl>
               </div>
               <div class="conf-result-summary hide">
                 <p>Кредитный расчет</p>
                 <dl>
                   <dt>Ежемесячный платеж</dt> 
-                  <dd><strong class="text-s1-b">10 900 ₽/мес</strong></dd>
+                  <dd><strong class="text-s1">10 900 ₽/мес</strong></dd>
                 </dl>
               </div>
             </div>
@@ -86,7 +75,7 @@
         <div class="conf-main-content col-md-9">
 
           <template v-if="currentStepNum === 2">
-            <div class="conf-steps conf-step-2">
+            <div class="conf-steps conf-step-engine">
               <div class="entry-content">
                 <div class="car-params">
                   <div class="car-params-item">
@@ -157,7 +146,7 @@
             </div>
           </template>
           <template v-else-if="currentStepNum === 3">
-            <div class="conf-steps conf-step-3">
+            <div class="conf-steps conf-step-complectation">
               <div class="entry-content">
                 <div class="entry-title m-v-30">
                   <h3>{{model.title}} {{currentComplectation.name}}</h3>
@@ -265,7 +254,7 @@
             </div>
           </template>
           <template v-else-if="currentStepNum === 4">
-            <div class="conf-steps conf-step-4">
+            <div class="conf-steps conf-step-overview">
               <div class="entry-content relative" :class="{'pano-active': panoActive}">
                 <div class="showroom">
                   <div class="showroom-header">
@@ -357,8 +346,8 @@
         </div>
       </div>
       <template v-if="currentStepNum == 5">
-        <div class="conf-steps conf-step-5">
-          <div class="entry-content">
+        <div class="conf-steps conf-step-result">
+          <div class="entry-content container-p">
             <div class="conf-summary">
               <div class="entry-title m-v-30">
                 <h3>{{model.title}} {{currentComplectation.name}}</h3>
@@ -480,7 +469,7 @@
                       <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                     </div>
                     <div class="input-content m-v-30 col-md-6 p-h-15">
-                      <input value="" name="phone" type="text" class="form-control" v-facade="'+### (##) ###-##-##'" placeholder="+998 (__) ___−__−__" required minlength="19">
+                      <input type="text" name="phone" placeholder="Телефон *"  class="form-control" required pattern="[0-9]+" title="цифры">
                     </div>
                   </div>
                   <div class="iagree m-v-30">
@@ -510,7 +499,7 @@
     <div class="conf-down">
       <div class="container-p">
         <div class="flex-wrapper">
-          <span class="btn-def btn-step-back" v-if="currentStepNum < 5">
+          <span class="btn-def btn-step-back" v-if="currentStepNum < steps.length">
             <nuxt-link to="/configurator" v-if="currentStepNum <= 2" class="flex align-center">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M12 5l-5 5 5 5" stroke="currentColor" stroke-width="2"></path></svg>
               Шаг назад
@@ -521,8 +510,8 @@
             </a>
           </span>
           <span class="btn-def">
-            <a href="javascript:;" v-if="currentStepNum == 5" @click.prevent.stop="scrollAnimate('#conf-feedback', $event)">Забронировать</a>
-            <a href="javascript:;" v-if="currentStepNum < 5" @click="progressStepsBar('next')">Далее</a>
+            <a href="javascript:;" v-if="currentStepNum == steps.length" @click.prevent.stop="scrollAnimate('#conf-feedback', $event)">Забронировать</a>
+            <a href="javascript:;" v-if="currentStepNum < steps.length" @click="progressStepsBar('next')">Далее</a>
           </span>
         </div>
       </div>
@@ -531,17 +520,17 @@
 </template>
 
 <script>
-import mainjs from '@/static/js/main';
 
+import mainjs from '@/static/js/main';
 
 
 export default {
   head() {
     return {
-      title: "Kia K5 – конфигуратор седана, старт продаж в России",
+      title: "Kia конфигуратор",
       meta: [
         {
-          content: "Сконфигурируйте Kia K5. Возможность выбрать доступный двигатель, настроить внешний вид и подобрать аксессуары для вашего седана Kia К5."
+          content: "Kia конфигуратор."
         }
       ],
     }
@@ -599,7 +588,33 @@ export default {
       groupOptions: [],
       uniqueParams: {},
 
-
+      steps: [
+        {
+          num: 1,
+          text: "01",
+          description: "Выбор модели"
+        },
+        {
+          num: 2,
+          text: "02",
+          description: "Двигатель и трансмиссия"
+        },
+        {
+          num: 3,
+          text: "03",
+          description: "Комплектация"
+        },
+        {
+          num: 4,
+          text: "04",
+          description: "Цвета и отделка"
+        },
+        {
+          num: 5,
+          text: "05",
+          description: "Результаты"
+        },
+      ],
     }
   },
   mounted(){
