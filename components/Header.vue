@@ -51,7 +51,8 @@
                         <div class="color-gray-4 title-content">{{sub.name}}</div>
                         <ul>
                           <li v-for="(subitem, key) in sub.values" :key="key">
-                            <nuxt-link :to="subitem.url">{{subitem.name}}</nuxt-link>
+                            <a v-if="subitem.url.match('https')" :href="subitem.url" target="_blank" >{{subitem.name}}</a>
+                            <nuxt-link v-else :to="subitem.url">{{subitem.name}}</nuxt-link>
                           </li>
                         </ul>
                       </div>
@@ -133,8 +134,9 @@
             <ul v-if="item.subsections" class="sub-menu-item">
               <div class="wrapper" v-for="(sub, key) in item.subsections" :key="key" v-if="sub.values.length">
                 <div class="menu-item-cap">{{sub.name}}</div>
-                <li v-for="(subItem, key) in sub.values" :key="key">
-                  <nuxt-link :to="subItem.url">{{subItem.name}}</nuxt-link>
+                <li v-for="(subitem, key) in sub.values" :key="key">
+                  <a v-if="subitem.url.match('https')" :href="subitem.url" target="_blank" >{{subitem.name}}</a>
+                  <nuxt-link v-else :to="subitem.url">{{subitem.name}}</nuxt-link>
                 </li>
               </div>
             </ul>

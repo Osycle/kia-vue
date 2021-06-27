@@ -521,16 +521,16 @@
 
 <script>
 
-
+import mainjs from '@/static/js/main';
 
 
 export default {
   head() {
     return {
-      title: "Kia K5 – конфигуратор седана, старт продаж в России",
+      title: "Kia конфигуратор",
       meta: [
         {
-          content: "Сконфигурируйте Kia K5. Возможность выбрать доступный двигатель, настроить внешний вид и подобрать аксессуары для вашего седана КИА К5."
+          content: "Kia конфигуратор."
         }
       ],
     }
@@ -692,6 +692,7 @@ export default {
     },
     async progressStepsBar(stepNum){
       const that = this;
+      window.scrollTo(0, 0);
       console.log(stepNum);
       if(stepNum == "next")
         this.currentStepNum++;
