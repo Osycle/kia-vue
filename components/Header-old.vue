@@ -27,7 +27,7 @@
               <div class="menu p-h-15">
                 <ul class="menu-list justify-c-end">
                   <li><nuxt-link to="/service/booking">Запись на сервис</nuxt-link></li>
-                  <li><a href="javascript:;" subdown-click="3">Мир Kia</a></li>
+                  <li><a href="javascript:;" subdown-click="3">Бренд Kia</a></li>
                   <li><nuxt-link to="/dealers">Дилеры</nuxt-link></li>
                 </ul>
               </div>
@@ -267,7 +267,7 @@
           <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
           <li><nuxt-link to="/buy/cars">Авто в наличии</nuxt-link></li>
           <li>
-            <nuxt-link to="/about">Мир Kia</nuxt-link>
+            <nuxt-link to="/about">Бренд Kia</nuxt-link>
             <ul class="sub-menu-item">
               <div class="wrapper">
                 <div class="menu-item-cap">Бренд Kia</div>

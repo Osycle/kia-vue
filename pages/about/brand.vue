@@ -1,13 +1,13 @@
 <template>
   <div class="main-body offset-header" header-opacity>
     <div class="kiaworld">
-      <div class="kiaworld-bnr color-white" :style="'background-image: url(\''+page_data.header.image+'\');'">
+      <div class="kiaworld-bnr color-white" :style="'background-image: url(\'/img/rebrand/about-brand/bnr.jpg\');'">
         <div class="breadcrumb-container">
           <div class="container-p">
             <ol class="breadcrumb">
               <li><nuxt-link to="/">Главная</nuxt-link></li>
-              <li><nuxt-link to="/about">Мир Kia</nuxt-link></li>
-              <li><nuxt-link to="">Компания Kia Motors</nuxt-link></li>
+              <li><nuxt-link to="/about">Бренд Kia</nuxt-link></li>
+              <li><nuxt-link to="">Компания Kia</nuxt-link></li>
             </ol>
           </div>
         </div>
@@ -51,53 +51,79 @@
         </div>
       </template>
       <div class="kiaworld-logo">
-        <template v-for="(block) in page_data.blocks" v-if="block.block == 'block2'">
-          <div class="kiaworld-logo-wrapper" :key="key">
-            <div class="container-p">
-              <div class="box-md-10 box-lg-6 m-auto">
-                <h1>{{block.name}}</h1>
-                <br>
-                <div v-html="block.text"></div>
-                <br>
-                <img class="m-auto m-b-md-30" :src="block.image">
+        <div class="kiaworld-logo-wrapper">
+          <div class="container-p desktop:mv-10">
+            <div class="box-md-10 box-lg-6 m-auto">
+              <h1>Логотип бренда</h1>
+              <br>
+              <div class="text-x1">
+                Новый логотип Kia символизирует возможности будущего и нашу уверенность в будущем. Симметрия логотипа воплощает эту четкую уверенность, а восходящие линии, вписанные в логотип, обозначают тот рост, которого мы желаем нашему бренду и, самое главное, нашим клиентам. Мы хотим, чтобы каждый, кто соприкасается с новым брендом Kia, чувствовал подъем вдохновения и прилив творческих сил.
+              </div>
+              <br>
+              <img class="m-auto desktop:mb-6 mv-9" :src="'/img/rebrand/about-brand/logo.png'">
+            </div>
+          </div>
+        </div>
+        <div class="img-entry-header relative">
+          <div class="container text-content color-white mt-8 desktop:mt-20">
+            <h4 class="color-2 text-n1">ДВИЖЕНИЕ, КОТОРОЕ ВДОХНОВЛЯЕТ</h4>
+            <div class="row-15 flex-adaptive justify-c-between">
+              <div class="col-md-4 p-h-15">
+                <div class="h1 text-x5 m-t-0">Movement that inspires</div>
+              </div>
+              <div class="col-md-offset-1 p-h-15 text-x1 col-md-7">
+                Движение вдохновляет наш бренд, и из этого вдохновения рождается всё, что мы делаем. Мы твердо верим, что бренд и дизайн должны развиваться симметрично и вести нас к будущему, в котором мы сможем оставить свой след. Мы гордимся тем, что наши решения помогают людям перемещаться из одной точки в другую, объединяться и преодолевать физические и эмоциональные барьеры. Движение всегда было основой нашего бренда, а передвижение людей – основой нашего бизнеса
               </div>
             </div>
           </div>
-        </template>
-        <template v-for="(block) in page_data.blocks" v-if="block.block == 'block3'">
-          <div class="img-entry-header relative">
-            <div class="container text-content color-white m-t-md-40">
-              <h4 class="color-2 text-n1">{{block.alias}}</h4>
-              <div class="row-15 flex-adaptive justify-c-between">
-                <div class="col-md-4 p-h-15">
-                  <div class="h1 text-x5 m-t-0">{{block.name}}</div>
-                </div>
-                <div class="col-md-offset-1 p-h-15 text-x1 col-md-7" v-html="block.text"></div>
-              </div>
-            </div>
-            <div class="img-bg">
-              <img :src="block.image">
-            </div>
+          <div class="img-bg mobile:mt-6">
+            <img :src="'/img/rebrand/about-brand/1.jpg'">
           </div>
-        </template>
+        </div>
+      
       </div>
       
     </div>
 
     <div class="kiaworld-designc">
-      <template v-for="(block) in page_data.blocks" v-if="block.block == 'block4'">
+      <template>
         <div class="container-p p-v-md">
           <div class="entry-header text-center m-v-30 box-md-6 m-auto">
-            <div class="h1 m-b-30">{{block.name}}</div>
-            <p class="text-x1">{{block.text}}</p>
+            <div class="h1 m-b-30">Дизайн-центры Kia</div>
+            <p class="text-x1">Три дизайн-центра Kia, расположенных в Южной Корее, США и Германии, позволяют объединить лучших специалистов отрасли и использовать их опыт для создания автомобилей, учитывающих потребности современных покупателей.</p>
           </div>
-          <div class="kiaworld-designc-items boxes-3 figure-m-v-20">
-            <figure v-for="(content, key) in block.content" :key="key">
+          <div class="kiaworld-designc-items boxes-3 figure-m-v-20 desktop:pb-8">
+            <figure>
               <div class="fig-wrapper">
                 <div class="img-content">
-                  <div class="img" :style="'background-image: url('+content.image+');'"></div>
+                  <div class="img" :style="'background-image: url(/img/rebrand/about-brand/design-home-1.jpg);'"></div>
                 </div>
-                <div class="desc-content text-x1 m-t-10" v-html="content.name"></div>
+                <div class="desc-content text-x1 m-t-10">
+                  Дизайн-центр в США <br>
+                  Ирвайн
+                </div>
+              </div>
+            </figure>
+            <figure>
+              <div class="fig-wrapper">
+                <div class="img-content">
+                  <div class="img" :style="'background-image: url(/img/rebrand/about-brand/design-home-2.jpg);'"></div>
+                </div>
+                <div class="desc-content text-x1 m-t-10">
+                  Дизайн-центр в Германии <br>
+                  Франкфурт-на-Майне
+                </div>
+              </div>
+            </figure>
+            <figure>
+              <div class="fig-wrapper">
+                <div class="img-content">
+                  <div class="img" :style="'background-image: url(/img/rebrand/about-brand/design-home-3.jpg);'"></div>
+                </div>
+                <div class="desc-content text-x1 m-t-10">
+                  Дизайн-центр в Южной Корее <br>
+                  Намьянг
+                </div>
               </div>
             </figure>
           </div>
@@ -118,13 +144,14 @@
               </div>
             </div>
           </div>
-          <div class="img-bg">
-            <img :src="block.image">
+          <div class="img-bg mobile:mt-6">
+            <!-- <div class="img" style="background-image:url('/img/rebrand/about-brand/2.jpg');"></div> -->
+            <img :src="'/img/rebrand/about-brand/2.jpg'">
           </div>
         </div>
       </template>
     </div>
-    <div class="kiaworld-plan">
+    <div class="kiaworld-plan hide">
       <template v-for="(block) in page_data.blocks" v-if="block.block == 'block6'">
         <div class="g-padding">
           <div class="g-container">
@@ -142,7 +169,7 @@
         </div>
       </template>
     </div>
-    <div class="kiaworld-rating">
+    <div class="kiaworld-rating hide">
       <template v-for="(block) in page_data.blocks" v-if="block.block == 'block7'">
         <div class="g-padding">
           <div class="g-container">

@@ -9,7 +9,8 @@
           <nuxt-link :to="item.url">
             <div class="fig-wrapper">
               <div class="img-content">
-                <div class="img" :style="'background-image: url('+item.image+');'"></div>
+                <div v-if="item.name == 'Дизайн'" class="img" :style="'background-image: url(/img/rebrand/design/card-video-3.jpg);'"></div>
+                <div v-else class="img" :style="'background-image: url('+item.image+');'"></div>
               </div>
               <div class="desc-content">
                 <h3>{{item.name}}</h3>

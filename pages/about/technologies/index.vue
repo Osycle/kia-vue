@@ -5,7 +5,7 @@
         <div class="container-p">
           <ol class="breadcrumb">
             <li><nuxt-link to="/">Главная</nuxt-link></li>
-            <li><nuxt-link to="/about/">Мир Kia</nuxt-link></li>
+            <li><nuxt-link to="/about/">Бренд Kia</nuxt-link></li>
             <li><nuxt-link to="">Технологии</nuxt-link></li>
           </ol>
         </div>
@@ -46,14 +46,14 @@
               <!-- <li :class="{'active': !currentGroup.id}">
                 <a href="#" data-toggle="tab">Все технологии</a>
               </li> -->
-              <li v-for="(item, key) in page_data.content" :key="key" :class="{'active in': key == 0}">
+              <li v-for="(item, key) in page_data.content" :key="key" :class="{'active in': key == 962}">
                 <a :href="'#news-tab-'+key" data-toggle="tab">{{item.name}}</a>
               </li>
             </ul>
           </div>
           <div class="tab-content">
             <div v-for="(content, keyParent) in page_data.content" 
-              class="tab-pane fade" :class="{'active in': keyParent == 0}"
+              class="tab-pane fade" :class="{'active in': keyParent == 962}"
               :id="'news-tab-'+keyParent"
               :key="keyParent">
               <div class="short-news-items boxes-4 boxes-ex-6 figure-m-v-15">

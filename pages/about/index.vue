@@ -6,7 +6,7 @@
           <div class="container-p">
             <ol class="breadcrumb">
               <li><nuxt-link to="/">Главная</nuxt-link></li>
-              <li><nuxt-link to="">Мир Kia</nuxt-link></li>
+              <li><nuxt-link to="">Бренд Kia</nuxt-link></li>
             </ol>
           </div>
         </div>
@@ -54,7 +54,7 @@
       </div>
     </div>
 
-    <div class="card-media">
+    <div class="card-media hide">
       <div class="container pv-8 relative accordion_left"> <!-- DEF: container-p-2 -->
         <div class="flex-adaptive">
           <div class="card-media-desc">
@@ -121,17 +121,43 @@
               <div class="container">
                 <br>
                 <div class="kiaworld-sponsorship-items">
-                  <figure v-for="(content, key) in block.content" :key="key">
+                  <figure>
                     <div class="flex-adaptive">
                       <div class="desc-content text-item">
-                        <hr>
-                        <br>
-                        <div class="text-x4 m-v-20">{{content.name}}</div>
-                        <div v-html="content.text"></div>
+                        <hr> <br>
+                        <div class="text-x4 m-v-20">Центральный дизайн-центр</div>
+                        <div>
+                          <p><strong>Намьянг, Южная Корея</strong></p>
+                          <p>Главный дизайн-центр компании занимается всеми аспектами автомобильного дизайна от изначальной задумки до подбора цветовой палитры и материалов. Выделенный канал спутниковой связи позволяет объединить его с дизайн-центрами Kia в других странах и в режиме реального времени обмениваться идеями и анализировать глобальные тренды.</p>
+                        </div>
                       </div>
-                      <div class="img-content">
-                        <img :src="content.image">
+                      <div class="img-content"><img src="/img/rebrand/about-brand/design-home-1.jpg"></div>
+                    </div>
+                  </figure>
+                  <figure>
+                    <div class="flex-adaptive">
+                      <div class="desc-content text-item">
+                        <hr> <br>
+                        <div class="text-x4 m-v-20">Европейский дизайн-центр</div>
+                        <div>
+                          <p><strong>Франкфурт-на-Майне, Германия</strong></p>
+                          <p>Дизайн-центр играет ключевую роль в формировании нового стиля бренда Kia как на континенте, так и во всем мире. Специализированная команда дизайнеров создает концептуальные автомобили будущего, а также серийные модели для Европы и мирового рынка.</p>
+                        </div>
                       </div>
+                      <div class="img-content"><img src="/img/rebrand/about-brand/design-home-2.jpg"></div>
+                    </div>
+                  </figure>
+                  <figure>
+                    <div class="flex-adaptive">
+                      <div class="desc-content text-item">
+                        <hr> <br>
+                        <div class="text-x4 m-v-20">Американский дизайн-центр</div>
+                        <div>
+                          <p><strong>Ирвайн, США</strong></p>
+                          <p>Начал свою работу в 2008 году по соседству с региональной штаб-квартирой в Калифорнии. Местная команда помогает формировать будущее индустрии, создавая броские концептуальные модели. Здесь моделируют стилистические решения для моделей Kia по всему миру.</p>
+                        </div>
+                      </div>
+                      <div class="img-content"><img src="/img/rebrand/about-brand/design-home-3.jpg"></div>
                     </div>
                   </figure>
                 </div>

@@ -304,14 +304,18 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 */
 .breadcrumb-container{
 	position: relative;
+	&.absolute{
+		position: absolute;
+		width: 100%;
+	}
 	&.color-gray{
 		.breadcrumb{
 			a{
-				color: #666;
+				color: inherit;
 			}
 			li{
 				&:before{
-					color: #666;
+					color: inherit;
 				}
 			}
 		}
@@ -347,7 +351,7 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 	}
 	a{
 		vertical-align: middle;
-		color: #666;
+		color: inherit;
 	}
 	.active{
 		a{
@@ -355,7 +359,7 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 		}
 	}
 	& > li + li:before{
-		color: #666;
+		color: inherit;
 		//font-family: FontAwesome;
 		content: ">";
 		font-weight: normal;
@@ -375,14 +379,6 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 			a{
 				//color: $color-1;
 			}
-		}
-	}
-	@media (min-width: 992px) {
-	}
-	@media (max-width:991px) {
-		li{
-			//width: 100%;
-			//display: block;
 		}
 	}
 }

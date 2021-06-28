@@ -2093,6 +2093,11 @@ $heightSlider: auto;
 		max-height: none;
     background-color: $color-1;
     min-height: 300px;
+		&:before{
+			@extend .clafclear;
+			background-image: linear-gradient(to bottom, rgba(black, 0.8), transparent);
+			height: 50%;
+		}
 		.text-content{
 			left: 50%;
 			transform: translateX(-50%);
@@ -2102,13 +2107,15 @@ $heightSlider: auto;
 		}
 	}
 	.kiaworld-logo-wrapper{
-		margin-left: 40px;	
-		margin-right: 40px;	
+		margin-left: 0;	
+		margin-right: 0;	
 		padding: 50px;
 		text-align: center;
 		position: relative;
 		z-index: 1;
+		background-color: $color-gray-1;
 		&:after{
+			display: none;
 			@extend .clafclear;
 			background-color: $color-gray-1;
 			left: 0;
@@ -2116,6 +2123,7 @@ $heightSlider: auto;
 			z-index: -1;
 		}
 		&:before{
+			display: none;
 			@extend .clafclear;
 			background-color: $color-1;
 			bottom: 0;
@@ -2127,8 +2135,6 @@ $heightSlider: auto;
 			margin-right: -40px;
 		}
 		@media (max-width: 991px){
-			margin-left: 20px;	
-			margin-right: 20px;
 			padding: 15px;
 		}
 	}
@@ -2185,6 +2191,7 @@ $heightSlider: auto;
 	}
 }
 .kiaworld-cars{
+	overflow: hidden;
 	@media (max-width: 991px){
 		.img-entry-header{
 			background-color: #eaebf0;
@@ -2192,11 +2199,14 @@ $heightSlider: auto;
 	}
 	.img-bg{
 		background-color: #eaebf0;
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 0;
+		padding-bottom: 0;
 		max-height: 1000px;
+		img{
+			width: 100%;
+		}
 		@media (min-width: 992px){
-			padding-top: 170px;
+			//padding-top: 170px;
 		}
 	}
 }
