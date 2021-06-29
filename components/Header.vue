@@ -149,7 +149,7 @@
                     <div class="item">
                       <div class="color-gray-4 title-content">Kia в Узбекистане</div>
                       <ul>
-                        <li><nuxt-link to="/about/">О нас</nuxt-link></li>
+                        <li><nuxt-link to="/about/brand">О нас</nuxt-link></li>
                         <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
                         <li><nuxt-link to="/about/dealer/">Как стать дилером</nuxt-link></li>
                         <li><nuxt-link to="/feedback">Обратная связь</nuxt-link></li>
@@ -273,7 +273,7 @@
               </div>
               <div class="wrapper">
                 <div class="menu-item-cap">Kia в Узбекистане</div>
-                <li><nuxt-link to="/about/">О нас</nuxt-link></li>
+                <li><nuxt-link to="/about/brand">О нас</nuxt-link></li>
                 <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
                 <li><nuxt-link to="/about/dealer/">Как стать дилером</nuxt-link></li>
                 <li><nuxt-link to="/feedback">Обратная связь</nuxt-link></li>

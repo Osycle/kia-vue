@@ -18,7 +18,7 @@
         </div>
         <div class="desc-content trans-center">
           <div class="btn-content">
-            <a href="https://www.youtube.com/watch?v=cCyFS9BrBnE" data-fancybox="">
+            <a href="https://youtu.be/gqrfx2GzOYE" data-fancybox="">
               <div class="btn-play">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
               </div>
@@ -121,7 +121,7 @@
         <div class="video-content relative text-center">
           <div class="bg-video-content-2 relative">
             <div class="trans-center text-center">
-              <a href="https://www.youtube.com/watch?v=l3b2SOMolhU" data-fancybox="">
+              <a href="https://youtu.be/c_aOOAa-Q2k" data-fancybox="">
                 <div class="btn-play relative m-auto mb-5"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg></div>
               </a>
               <div class="desc-content hidden-xs hidden-sm">
@@ -228,7 +228,7 @@
 
     <KiaworldOther :kiaworld-other-items="page_data.footer" />
 
-    
+
   </div>
 </template>
 
