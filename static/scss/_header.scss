@@ -727,7 +727,11 @@ body{
 	.min-menu-header{
 		position: absolute;
 		background-color: transparent;
+		&:not(.scrolled){
+			color: white;
+		}
 	}
+	
 	.min-menu-bar{
 		.icon-bar{
 			background-color: white;

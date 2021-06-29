@@ -5,15 +5,38 @@
         <h3>Подробнее о Kia</h3>
       </div>
       <div class="kiaworld-other-items m-v-30 owl-carousel boxes-3 m-v-30 owl-btn-2">
-        <figure v-for="(item, key) in kiaworldOtherItems" :key="key">
-          <nuxt-link :to="item.url">
+        <figure>
+          <nuxt-link to="/about">
             <div class="fig-wrapper">
               <div class="img-content">
-                <div v-if="item.name == 'Дизайн'" class="img" :style="'background-image: url(/img/rebrand/design/card-video-3.jpg);'"></div>
-                <div v-else class="img" :style="'background-image: url('+item.image+');'"></div>
+                <div class="img" :style="'background-image: url(/img/rebrand/design/kiaworld-other-1.jpg);'"></div>
               </div>
               <div class="desc-content">
-                <h3>{{item.name}}</h3>
+                <h3>О компании</h3>
+              </div>
+            </div>
+          </nuxt-link>
+        </figure>
+        <figure>
+          <nuxt-link to="/about/brand">
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <div class="img" :style="'background-image: url(/img/rebrand/design/kiaworld-other-2.jpg);'"></div>
+              </div>
+              <div class="desc-content">
+                <h3>О бренде</h3>
+              </div>
+            </div>
+          </nuxt-link>
+        </figure>
+        <figure>
+          <nuxt-link to="/about/technologies">
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <div class="img" :style="'background-image: url(/img/rebrand/design/kiaworld-other-3.jpg);'"></div>
+              </div>
+              <div class="desc-content">
+                <h3>Технологии</h3>
               </div>
             </div>
           </nuxt-link>
