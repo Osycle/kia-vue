@@ -22,9 +22,9 @@
               </div>
               <div class="menu p-h-15">
                 <ul class="menu-list justify-c-end">
-                  <!-- <li><nuxt-link to="/about/brand-kia/">Бренд Kia</nuxt-link></li> -->
                   <li><nuxt-link to="/service/booking">Запись на сервис</nuxt-link></li>
                   <li><nuxt-link to="/press/news/">Новости</nuxt-link></li>
+                  <li><nuxt-link to="/about/brand-kia/">Бренд Kia</nuxt-link></li>
                   <li><a href="javascript:;" :subdown-click="2">Kia в Узбекистане</a></li>
                   <li class="header-phone-btn">
                     <a :href="'tel:'+menu_data.phone">
@@ -236,6 +236,7 @@
     <div class="hide">
       <div id="min-menu">
         <ul>
+          <li><nuxt-link to="/about/brand-kia/">Бренд Kia</nuxt-link></li>
           <li><nuxt-link to="/models/">Модели</nuxt-link></li>
           <li>
             <a href="javascript:;">Выбор и покупка</a>

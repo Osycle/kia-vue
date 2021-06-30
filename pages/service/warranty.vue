@@ -27,7 +27,8 @@
               <div class="text-s2i" v-html="page_data.content[0].content[0].text"></div>
               <div class="img-first mv-15">
                 <div class="mb-6 flex-adaptive align-center" >
-                  <div class="img" v-html="page_data.content[0].content[1].left">
+                  <div class="img">
+                    <img src="/img/rebrand/warranty-5.svg" alt="">
                   </div> 
                   <div class="text-x3 mt-4 desktop:ml-10 fw-7" v-html="page_data.content[0].content[1].right"></div>
                 </div>
@@ -42,7 +43,9 @@
               <div class="text-s2i" v-html="page_data.content[1].content[0].text"></div>
               <div class="img-first mv-10">
                 <div class="mb-6 flex-adaptive align-center">
-                  <div class="img" v-html="page_data.content[1].content[1].left"></div>
+                  <div class="img">
+                    <img src="/img/rebrand/warranty-7.svg" alt="">
+                  </div>
                   <div class="text-x3 mt-4 desktop:ml-20 desktop:pl-10 fw-7" v-html="page_data.content[1].content[1].right"></div>
                 </div>
               </div>
