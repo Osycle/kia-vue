@@ -2243,22 +2243,37 @@ $heightSlider: auto;
   margin: 0 auto;
 }
 .kiaworld-plan{
-	background: black url("https://www.kia.ru/images/landing/about/brand/img-plan.jpg") 50% 100%/100% auto no-repeat;
-	padding: 0 0 150px;
-  background-position: 0 50%;
-  background-size: auto 80%;
-  background-color: black;
+	overflow: hidden;
 }
 .kiaworld-plan-body{
-	.img-content{
-		@media (min-width: 992px){
-			margin-bottom: -180px;
+	.desc-content{
+		img{
+			margin-bottom: -170px;
+			margin-left: -30px;
 		}
 	}
-	@media (min-width: 64em){
-		margin-left: 60%;
+	@media (max-width: 1439px){
+		flex-direction: column-reverse;
+		.desc-content{
+			position: relative;
+			z-index: 1;
+			img{
+				margin-bottom: 0;
+				z-index: -1;
+				margin-left: 0;
+				position: absolute;
+				top: -160px;
+				width: 360px;
+				left: -20px;
+			}
+		}
 	}
+	
+  
+
+  
 }
+
 
 .kiaworld-other{
 	.owl-stage-outer{

@@ -19,18 +19,20 @@
         <div class="container p-v-30 p-t-md-80" :key="key">
           <div class="row-15 flex-adaptive justify-c-between">
             <div class="col-md-4 p-h-15">
-              <div class="h1 text-x5 m-t-0">{{block.name}}</div>
+              <div class="h1 text-x5 m-t-0">Бренд Kia</div>
             </div>
-            <div class="col-md-offset-1 p-h-15 col-md-7" v-html="block.text"></div>
+            <div class="col-md-offset-1 p-h-15 col-md-7">
+              <p>У Kia долгая история производства автомобилей. Но если быть точнее, мы начали в 1944 году с производства велосипедов. С тех пор вот уже 75 лет мы приводим людей в движение. Мы с гордостью предоставляем решения, которые помогают людям перемещаться из одной точки в другую, объединяя людей друг с другом физически и эмоционально.</p>
+            </div>
           </div>
           <div class="video-content m-t-30 m-t-md-80 relative">
             <div class="bg-video-content-2">
-              <a :href="block.video" data-fancybox="">
+              <a href="https://youtu.be/mvelzwi20xg" data-fancybox="">
                 <div class="btn-play">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
                 </div>
               </a>
-              <video :src="block.videoPreview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+              <video src="/img/brand/bnr.m4v" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
             </div>
           </div>
         </div>
@@ -133,14 +135,20 @@
     
     <div class="kiaworld-cars">
       <template v-for="(block) in page_data.blocks" v-if="block.block == 'block5'">
-        <div class="img-entry-header relative">
+        <div class="img-entry-header relative mobile:pb-0">
           <div class="container text-content m-t-md-70">
             <div class="row-15 flex-adaptive justify-c-between">
               <div class="col-md-4 p-h-15">
-                <div class="h1 text-x5 m-t-0">{{block.name}}</div>
+                
               </div>
               <div class="col-md-offset-1 p-h-15 text-x1 col-md-7">
-                <p>{{block.text}}</p>
+                <div class="h1 text-x5 m-t-0">Автомобили Kia</div>
+                <p>Автомобили Kia выделяются своим фирменным стилем, эмоциональным и ярким дизайном, сохраняя главное преимущество — великолепное соотношение качества и функциональности.</p>
+                <div class="fw-6 mv-4 hover-underline">
+                  <nuxt-link to="/buy/cars/">Смотреть модели Kia в Узбекистане 
+                    <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 9.33203L5.5 5.33203L1.5 1.33203" stroke="#05141F" stroke-width="2"/></svg>
+                  </nuxt-link>
+                </div>
               </div>
             </div>
           </div>
@@ -151,23 +159,19 @@
         </div>
       </template>
     </div>
-    <div class="kiaworld-plan hide">
-      <template v-for="(block) in page_data.blocks" v-if="block.block == 'block6'">
-        <div class="g-padding">
-          <div class="g-container">
-            <div class="g-margin">
-              <div class="kiaworld-plan-body color-white">
-                <div class="img-content">
-                  <img :src="block.image">
-                </div>
-                <div class="h1 text-x5">{{block.name}}</div>
-                <div v-html="block.text"></div>
-                <br>
-              </div>
-            </div>
+    <div class="kiaworld-plan bg-color-gray-1">
+      <div class="container-r pv-4">
+        <div class="kiaworld-plan-body color-1 flex">
+          <div class="img-content fsh-0 mv-6 desktop1440:mt-25 desktop1440:mr-5 desktop1440:pt-10 align-end">
+            <img src="/img/rebrand/design/plan-1.png" alt="">
           </div>
+          <div class="desc-content mv-6">
+            <img src="/img/rebrand/design/plan-s.svg" alt="">
+            <div class="fw-7 text-x3 mb-6 lc-out">Долгосрочная <br>стратегия Kia</div>
+            <p>Plan S (S от англ. shift – переход) предусматривает переход от производства традиционных автомобилей с двигателями внутреннего сгорания к выпуску электромобилей и развитию новых систем мобильности для завоевания лидирующих позиций в автомобильной индустрии будущего.</p>
+          </div>              
         </div>
-      </template>
+      </div>
     </div>
     <div class="kiaworld-rating hide">
       <template v-for="(block) in page_data.blocks" v-if="block.block == 'block7'">

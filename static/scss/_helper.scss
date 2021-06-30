@@ -855,7 +855,9 @@ img[auto]{
   text-transform: uppercase;
   font-weight: 700;
 }
-
+.lc-out{
+	letter-spacing: -0.2px;
+}
 @for $i from 0 through 25{
 	.pt-#{$i}{
 		padding-top: $i*5px;
