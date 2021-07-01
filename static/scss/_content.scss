@@ -4823,8 +4823,16 @@ dt{
 		background-color: rgba($color-1, 0.5);
 		z-index: 1;
 	}
+	.btn-content{
+		margin-bottom: 60px;
+    margin-top: 90px;
+		@media (max-width: 991px){
+			margin-top: 60px;
+			margin-bottom: 10px;
+		}
+	}
 	.btn-play{
-		background-color: transparent;
+		//background-color: transparent;
 		border: 2px solid currentColor;
 	}
 	.img{
@@ -4843,7 +4851,7 @@ dt{
     height: 100%;
 	}
 	.text-content{
-		margin-top: calc(100vh - 340px);
+		//margin-top: calc(100vh - 340px);
 		@media (max-width: 991px){
 			
 		}

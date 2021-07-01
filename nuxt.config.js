@@ -56,7 +56,6 @@ module.exports = {
 
   ],
   facebook: {
-    /* module options */
     track: 'PageView',
     pixelId: '357795334408363',
     autoPageView: true,

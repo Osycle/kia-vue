@@ -13,13 +13,13 @@
         </div>
         <div class="bg-shadow"></div>
         <div class="video-content bg-video-content cover">
-          <div class="img" style="background-image: url('/img/rebrand/design/bnr.jpg');"></div>
-          <!-- <video src="/img/brand/bnr.m4v" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video> -->
+          <!-- <div class="img" style="background-image: url('/img/rebrand/design/bnr.jpg');"></div> -->
+          <video src="/img/rebrand/design/brand-bnr.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
         </div>
         <div class="desc-content trans-center">
           <div class="btn-content">
-            <a href="https://youtu.be/gqrfx2GzOYE" data-fancybox="">
-              <div class="btn-play">
+            <a href="https://youtu.be/ueR8PcA9S4c?list=TLGGxkWESppnHYMwMTA3MjAyMQ" data-fancybox="">
+              <div class="btn-play relative m-auto">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
               </div>
             </a>
@@ -112,7 +112,7 @@
       <div class="container-r p-v-80">
         <div class="row-15 flex-adaptive justify-c-between mb-8">
           <div class="col-md-5 p-h-15">
-            <div class="h1 text-x5">Философия дизайна</div>
+            <div class="h1 text-x5">Философия <br>  дизайна</div>
           </div>
           <div class="col-md-offset-1 p-h-15 col-md-6 text-item">
             <p>В основе дизайна лежит идея противопоставления, которую мы используем для формирования уникального стиля Kia. Философия единства противоположностей позволяет нам выделяться и символизирует наступление новой эры бренда. Kia адаптируется к меняющемуся миру вокруг нас. Мы вдохновлены изменениями, которые происходят вокруг нас, и приглашаем вас вместе с нами создавать будущее.</p>
@@ -121,7 +121,7 @@
         <div class="video-content relative text-center">
           <div class="bg-video-content-2 relative">
             <div class="trans-center text-center">
-              <a href="https://youtu.be/c_aOOAa-Q2k" data-fancybox="">
+              <a href="https://youtu.be/sxgVRkuN6K8?list=TLGGiemXsIhraNswMTA3MjAyMQ" data-fancybox="">
                 <div class="btn-play relative m-auto mb-5"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg></div>
               </a>
               <div class="desc-content hidden-xs hidden-sm">
@@ -146,7 +146,7 @@
           <div class="tab-pane fade in active">
             <div class="card-video-items boxes-4 owl-carousel owl-btn-2">
               <figure>
-                <a :href="'https://www.youtube.com/watch?v=YPkDx93tca8'" data-fancybox>
+                <a :href="'https://youtu.be/YuZhmtXRUFY?list=TLGGgHxbeRwKjEMwMTA3MjAyMQ'" data-fancybox>
                   <div class="fig-wrapper">
                     <div class="img-content">
                       <div class="img" :style="'background-image: url(/img/rebrand/design/card-video-1.jpg);'"></div>
@@ -161,7 +161,7 @@
                 </a>
               </figure>
               <figure>
-                <a :href="'https://www.youtube.com/watch?v=tgZOVPa_waw'" data-fancybox>
+                <a :href="'https://youtu.be/ZzbA_UZ8IC4?list=TLGGXvQeoMJcNoMwMTA3MjAyMQ'" data-fancybox>
                   <div class="fig-wrapper">
                     <div class="img-content">
                       <div class="img" :style="'background-image: url(/img/rebrand/design/card-video-2.jpg);'"></div>
@@ -170,13 +170,13 @@
                       </div>
                     </div>
                     <div class="desc-content m-t-10">
-                      <p><b>Создание нового логотипа Kia</b></p>
+                      <p><b>Kia Inspiration Lab</b></p>
                     </div>
                   </div>
                 </a>
               </figure>
               <figure>
-                <a :href="'https://www.youtube.com/watch?v=QbGgBgN-x7c'" data-fancybox>
+                <a :href="'https://youtu.be/PPEiahYL0Z4?list=TLGGUpPdkl7FosgwMTA3MjAyMQ'" data-fancybox>
                   <div class="fig-wrapper">
                     <div class="img-content">
                       <div class="img" :style="'background-image: url(/img/rebrand/design/card-video-3.jpg);'"></div>

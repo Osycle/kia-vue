@@ -28,7 +28,7 @@
               <div class="img-first mv-15">
                 <div class="mb-6 flex-adaptive align-center" >
                   <div class="img">
-                    <img src="/img/rebrand/warranty-5.svg" alt="">
+                    <img src="/img/rebrand/warranty-5.png" alt="">
                   </div> 
                   <div class="text-x3 mt-4 desktop:ml-10 fw-7" v-html="page_data.content[0].content[1].right"></div>
                 </div>
@@ -44,7 +44,7 @@
               <div class="img-first mv-10">
                 <div class="mb-6 flex-adaptive align-center">
                   <div class="img">
-                    <img src="/img/rebrand/warranty-7.svg" alt="">
+                    <img src="/img/rebrand/warranty-7.png" alt="">
                   </div>
                   <div class="text-x3 mt-4 desktop:ml-20 desktop:pl-10 fw-7" v-html="page_data.content[1].content[1].right"></div>
                 </div>

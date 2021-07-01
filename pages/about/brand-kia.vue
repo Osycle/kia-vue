@@ -28,7 +28,7 @@
         <div class="desc-content trans-center">
           <div class="btn-content">
             <a href="https://www.youtube.com/watch?v=mvelzwi20xg&t=10s" data-fancybox="">
-              <div class="btn-play">
+              <div class="btn-play relative m-auto">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
               </div>
             </a>
