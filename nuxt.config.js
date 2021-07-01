@@ -35,32 +35,41 @@ module.exports = {
     // Накст
     '@nuxtjs/axios',
     '@nuxt/http',
-
+    
     // Метрики
-    // ['@nuxtjs/google-analytics', { ua: 'UA-126548408-24' }],
-    // '@nuxtjs/gtm',
-    // ['@nuxtjs/yandex-metrika',
-    //   {
-    //     id: '80120311',
-    //     webvisor: true,
-    //     clickmap:true,
-    //     trackLinks:true,
-    //     accurateTrackBounce:true,
-    //     webvisor:true,
-    //     ecommerce:"dataLayer",
-    //     // useCDN:false,
-    //   }
-    // ],
+    'nuxt-facebook-pixel-module',
+
+    ['@nuxtjs/google-analytics', { ua: 'UA-126548408-24' }],
+    '@nuxtjs/gtm',
+    ['@nuxtjs/yandex-metrika',
+      {
+        id: '80120311',
+        webvisor: true,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        ecommerce:"dataLayer",
+        // useCDN:false,
+      }
+    ],
 
   ],
-  // gtm: {
-  //   id: 'GTM-K5HVG7K'
-  // },
-  // publicRuntimeConfig: {
-  //   gtm: {
-  //     id: process.env.GOOGLE_TAG_MANAGER_ID
-  //   }
-  // },
+  facebook: {
+    /* module options */
+    track: 'PageView',
+    pixelId: '357795334408363',
+    autoPageView: true,
+    disabled: false
+  },
+  gtm: {
+    id: 'GTM-K5HVG7K'
+  },
+  publicRuntimeConfig: {
+    gtm: {
+      id: process.env.GOOGLE_TAG_MANAGER_ID
+    }
+  },
   axios: {
     //baseURL: 'https://lada.uz/temp-api/',
     baseURL: 'https://lays.uz/tempphp/',
