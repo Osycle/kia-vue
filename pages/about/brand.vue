@@ -6,7 +6,6 @@
           <div class="container-p">
             <ol class="breadcrumb">
               <li><nuxt-link to="/">Главная</nuxt-link></li>
-              <li><nuxt-link to="/about">Бренд Kia</nuxt-link></li>
               <li><nuxt-link to="">Компания Kia</nuxt-link></li>
             </ol>
           </div>
@@ -16,7 +15,7 @@
         </div>
       </div>
       <template v-for="(block) in page_data.blocks" v-if="block.block == 'block1'">
-        <div class="container p-v-30 p-t-md-80" :key="key">
+        <div class="container p-v-30 p-t-md-80">
           <div class="row-15 flex-adaptive justify-c-between">
             <div class="col-md-4 p-h-15">
               <div class="h1 text-x5 m-t-0">Бренд Kia</div>
@@ -27,16 +26,91 @@
           </div>
           <div class="video-content m-t-30 m-t-md-80 relative">
             <div class="bg-video-content-2">
-              <a href="https://youtu.be/mvelzwi20xg" data-fancybox="">
-                <div class="btn-play">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+              <video src="/img/brand/brand-1.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+              <div class="desc-content trans-center text-center color-white">
+                <a href="https://youtu.be/DCRDW4WA4sQ?list=TLGGXd_JKPzkXdwwMjA3MjAyMQ" data-fancybox="">
+                  <div class="btn-play relative m-auto">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                  </div>
+                </a>
+                <div class="hidden-xs hidden-sm mt-6">
+                  <div class="text-x4 mb-2">Movemennt that inspires</div>
+                  <div class="text-x1">Новые ценности, цели и философия дизайна</div>
                 </div>
-              </a>
-              <video src="/img/brand/bnr.m4v" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+              </div>
             </div>
           </div>
         </div>
-        <div class="kiaworld-cnt p-b-20" :key="key">
+        <div class="short-news">
+          <div class="container-p pv-8">
+            <div class="entry-header m-v-30 text-center box-md-8 box-lg-5 m-auto">
+              <div class="h3-size">Представители компании про новый бренд Kia</div>
+            </div>
+            <div class="short-news-items boxes-4 owl-carousel owl-btn-2 mv-10 desktop:mv-20">
+              <figure>
+                <div class="fig-wrapper">
+                  <div class="img-content">
+                    <a href="https://youtu.be/6o9bFgmVLmM?list=TLGGiPHBQ3y1xCwwMjA3MjAyMQ" data-fancybox>
+                      <div class="btn-play">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                      </div>
+                      <div class="img" :style="'background-image: url(\'/img/brand/videolink-1.jpg\');'"></div>
+                    </a>
+                  </div>
+                  <div class="desc-content">
+                    <div class="text-s2i-b">Часть I: Полная трансформация</div>
+                  </div>
+                </div>
+              </figure>
+              <figure>
+                <div class="fig-wrapper">
+                  <div class="img-content">
+                    <a href="https://youtu.be/djrdAdyKYwQ?list=TLGG65zXND6IPGkwMjA3MjAyMQ" data-fancybox>
+                      <div class="btn-play">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                      </div>
+                      <div class="img" :style="'background-image: url(\'/img/brand/videolink-2.jpg\');'"></div>
+                    </a>
+                  </div>
+                  <div class="desc-content">
+                    <div class="text-s2i-b">Часть II: Новая цель бренда</div>
+                  </div>
+                </div>
+              </figure>
+              <figure>
+                <div class="fig-wrapper">
+                  <div class="img-content">
+                    <a href="https://youtu.be/KNlirWGAP5w?list=TLGG3fI1tEQsC_kwMjA3MjAyMQ" data-fancybox>
+                      <div class="btn-play">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                      </div>
+                      <div class="img" :style="'background-image: url(\'/img/brand/videolink-3.jpg\');'"></div>
+                    </a>
+                  </div>
+                  <div class="desc-content">
+                    <div class="text-s2i-b">Часть III: Новый облик бренда</div>
+                  </div>
+                </div>
+              </figure>
+              <figure>
+                <div class="fig-wrapper">
+                  <div class="img-content">
+                    <a href="https://youtu.be/9f76w8vQgb4?list=TLGGrf4xoWTcUtswMjA3MjAyMQ" data-fancybox>
+                      <div class="btn-play">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                      </div>
+                      <div class="img" :style="'background-image: url(\'/img/brand/videolink-4.jpg\');'"></div>
+                    </a>
+                  </div>
+                  <div class="desc-content">
+                    <div class="text-s2i-b">Часть IV: Дизайн для будущего</div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="kiaworld-cnt p-b-20">
           <div class="container-p">
             <div class="cnt-items boxes-3 boxes-xs-2 figure-m-v-20 m-v-30">
               <figure v-for="(content, key) in block.content" :key="key">

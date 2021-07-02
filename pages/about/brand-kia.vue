@@ -316,76 +316,7 @@
       </div>
     </div>
 
-    <div class="short-news">
-      <div class="container-p p-v-md-60 p-v-30">
-        <div class="entry-header m-v-30 text-center box-md-8 box-lg-5 m-auto">
-          <div class="h3-size">Представители компании про новый бренд Kia</div>
-        </div>
-        <div class="short-news-items boxes-4 owl-carousel owl-btn-2 mv-10 desktop:mv-20">
-          <figure>
-            <div class="fig-wrapper">
-              <div class="img-content">
-                <a href="https://www.youtube.com/watch?v=FVLMYjWl8KI" data-fancybox>
-                  <div class="btn-play">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                  </div>
-                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-1.jpg\');'"></div>
-                </a>
-              </div>
-              <div class="desc-content">
-                <div class="text-s2i-b">Часть I: Полная трансформация</div>
-              </div>
-            </div>
-          </figure>
-          <figure>
-            <div class="fig-wrapper">
-              <div class="img-content">
-                <a href="https://www.youtube.com/watch?v=FVLMYjWl8KI" data-fancybox>
-                  <div class="btn-play">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                  </div>
-                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-2.jpg\');'"></div>
-                </a>
-              </div>
-              <div class="desc-content">
-                <div class="text-s2i-b">Часть II: Новая цель бренда</div>
-              </div>
-            </div>
-          </figure>
-          <figure>
-            <div class="fig-wrapper">
-              <div class="img-content">
-                <a href="https://www.youtube.com/watch?v=FVLMYjWl8KI" data-fancybox>
-                  <div class="btn-play">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                  </div>
-                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-3.jpg\');'"></div>
-                </a>
-              </div>
-              <div class="desc-content">
-                <div class="text-s2i-b">Часть III: Новый облик бренда</div>
-              </div>
-            </div>
-          </figure>
-          <figure>
-            <div class="fig-wrapper">
-              <div class="img-content">
-                <a href="https://www.youtube.com/watch?v=FVLMYjWl8KI" data-fancybox>
-                  <div class="btn-play">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
-                  </div>
-                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-4.jpg\');'"></div>
-                </a>
-              </div>
-              <div class="desc-content">
-                <div class="text-s2i-b">Часть IV: Дизайн для будущего</div>
-              </div>
-            </div>
-          </figure>
-        </div>
-      </div>
-    </div>
-    
+
     <div class="block-9 color-white">
       <div class="wrapper relative">
         <div class="desc-content pv-20">
