@@ -66,6 +66,7 @@
                     <div class="item">
                       <div class="color-gray-4 title-content">Владельцам</div>
                       <ul>
+                        <li><nuxt-link to="/buy/order_credit">Kia Finance</nuxt-link></li>
                         <li><nuxt-link to="/service/">Все сервисы</nuxt-link></li>
                       </ul>
                     </div>
@@ -152,7 +153,7 @@
                         <li><nuxt-link to="/about/brand">О нас</nuxt-link></li>
                         <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
                         <li><nuxt-link to="/about/dealer/">Как стать дилером</nuxt-link></li>
-                        <li><nuxt-link to="/feedback">Обратная связь</nuxt-link></li>
+                        <li><nuxt-link to="/feedback">Заказать звонок дилера</nuxt-link></li>
                       </ul>
                     </div>
                     <div class="item">
@@ -255,6 +256,7 @@
               </div>
               <div class="wrapper">
                 <div class="menu-item-cap">Владельцам</div>
+                <li><nuxt-link to="/buy/order_credit">Kia Finance</nuxt-link></li>
                 <li><nuxt-link to="/service/">Все сервисы</nuxt-link></li>
               </div>
             </ul>
@@ -277,7 +279,7 @@
                 <li><nuxt-link to="/about/brand">О нас</nuxt-link></li>
                 <li><nuxt-link to="/dealers/">Дилеры</nuxt-link></li>
                 <li><nuxt-link to="/about/dealer/">Как стать дилером</nuxt-link></li>
-                <li><nuxt-link to="/feedback">Обратная связь</nuxt-link></li>
+                <li><nuxt-link to="/feedback">Заказать звонок дилера</nuxt-link></li>
               </div>
               <div class="wrapper">
                 <div class="menu-item-cap">Инновации</div>

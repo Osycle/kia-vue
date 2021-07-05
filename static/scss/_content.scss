@@ -5008,3 +5008,173 @@ dt{
 		}
 	}
 }
+
+
+.special{
+	.bnr-style-1{
+		min-height: 250px;
+		@media (min-width: 992px){
+			min-height: 560px;
+		}
+	}
+}
+.wa-advantages{
+	@media (min-width: 992px){
+		.cell{
+			border-left: 1px solid #cccccc;
+			.flex{
+				margin-left: 20px;
+			}
+			&:nth-child(1){
+				border-left: none;
+			}
+		}
+	}
+	@media (max-width: 991px){
+		.cell{
+			.desc-content{
+				padding-bottom: 40px;
+				border-bottom: 1px solid #ccc;
+			}
+			&:nth-last-child(1){
+				.desc-content{
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}
+.credits-partners-items{
+	margin-left: -15px;
+	margin-right: -15px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	@media (max-width: 991px){
+		justify-content: center; 
+	}
+	.cell{
+		width: 250px;
+		height: 150px;
+		padding-left: 15px;
+		padding-right: 15px;
+		@media (min-width: 992px){
+			width: 250px;
+			height: 150px;
+		}
+	}
+	.img-content{
+		height: 100%;
+		width: 100%;
+		
+		position: relative;
+		border: 1px solid $color-gray-3;
+		img{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			max-width: 80%;
+			max-height: 80%;
+			transform: translate(-50%,-50%);
+		}
+	}
+}
+.credit-inputs{
+	//max-width: 600px;
+	.input-ante{
+		input{
+			
+		}
+	}
+	.wrap{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.form-control{
+		width: 160px;
+		text-align: right;
+		font-size: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
+		height: 40px;
+	}
+}
+.irs--flat {
+	.irs-from, .irs-to, .irs-single{
+    font-size: 15px;
+    border-radius: 0;
+    padding: 3px 9px;
+		top: -2px;
+		background-color: $color-special-1;
+	}
+	.irs-min, .irs-max{
+		color: black;
+		background-color: transparent;
+		font-size: 15px;
+		font-weight: 600;
+	}
+	.irs-single{
+		background-color: transparent;
+		color: $color-special-1;
+		font-weight: 600;
+		&:before{
+			display: none;
+			border-top-color: $color-special-1;
+		}
+	}
+	.irs-bar--single{
+		border-radius: 30px 0 0 30px;
+		background-color: $color-special-1;
+	}
+	.irs-handle{
+		top: 25px;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: white;
+		//box-shadow: 0 0 20px black;
+		border: 1px solid $color-special-1;
+		&:active{
+			cursor: grab;
+		}
+		i{
+			display: none !important;
+		}
+	}
+	.irs-grid{
+		//height: 40px;
+	}
+	.irs-bar{
+		height: 40px;
+	}
+	.irs-line{
+		height: 40px;
+		border-radius: 30px;
+		border: 1px solid $color-special-1;
+		background-color: rgba($color-gray-1, 0.2);
+	}
+}
+.irs-content{
+	min-height: 65px;
+}
+
+table thead tr th{
+	background-color: black;
+}
+table td:nth-child(1), table th:nth-child(1),
+table td:nth-last-child(1), table th:nth-last-child(1){
+	border-radius: 0;
+}
+.credit-table-content{
+	tr{
+		&:last-child{
+			td{
+				white-space: nowrap;
+			}
+		}
+	}
+}
