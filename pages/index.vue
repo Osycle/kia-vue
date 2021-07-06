@@ -74,14 +74,14 @@
                 <div class="desc-content">
                   <div class="container-p">
                     <div class="align-center flex-adaptive justify-c-between">
-                      <div class="flexbasis-md-4"></div>
-                      <div class="text-center flexbasis-md-4">
+                      <div class="fb-md-4"></div>
+                      <div class="text-center fb-md-4">
                         <div class="text-x4 fw-6 mt-3 mb-2 ">
                           {{model.name}}
                         </div>
                         <p>от {{model.price | spaceBetweenNum}} сум</p>
                       </div>
-                      <div class="btn-content flexbasis-md-4 text-right-md mt-4">
+                      <div class="btn-content fb-md-4 text-right-md mt-4">
                         <span class="btn-def">
                           <nuxt-link :to="'/models/'+model.url+'/desc'" class="p-v-25">Подробнее о модели</nuxt-link>
                         </span>

@@ -403,12 +403,19 @@ $gradient-gray-2: linear-gradient(to bottom, #e8e8e8, white);
 	border: none;	
 	padding: 3px 15px; 
 }
-table { 
+html table { 
 	border-collapse: collapse;
 	width: 100%;
 	font-family: $font-family-2;
 	color: $color-gray-5;
-
+	td{
+		font-size: 14px;
+	}
+	@media (max-width: 991px){
+		td{
+			font-size: 11px;
+		}
+	}
 	a{
 		&:hover{
 			text-decoration: underline;
@@ -417,20 +424,19 @@ table {
 	thead{
 		tr{
 			th{
-				padding: 15px 30px;
+				padding: 15px 20px;
 				color: white;
 				font-weight: 600;
 				background-color: $color-1;
-				font-size: em(16);
 			}
 		}
 	}
 	td, th{
 		&:nth-child(1){
-			border-radius: 6px 0 0 6px;
+			border-radius: 0px 0 0 0px;
 		}
 		&:nth-last-child(1){
-			border-radius: 0 6px 6px 0;
+			border-radius: 0 0px 0px 0;
 		}
 	}
 	a{

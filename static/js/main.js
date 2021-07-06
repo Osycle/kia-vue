@@ -281,7 +281,7 @@ if ( $(".js-select").length )
 		});
 		// Отправка формы с помощью Ajax
 		$(document).off("submit.uniq", "[formaj]");
-		$(document).on("submit", "[formaj]", function(e){
+		$(document).on("submit.uniq", "[formaj]", function(e){
 			e.preventDefault();
 			var that = $(this);
 			console.log(this)

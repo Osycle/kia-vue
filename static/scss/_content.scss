@@ -5087,8 +5087,6 @@ dt{
 		}
 	}
 	.wrap{
-		margin-top: 10px;
-		margin-bottom: 10px;
 		display: flex;
 		width: 100%;
 		justify-content: space-between;
@@ -5104,12 +5102,13 @@ dt{
 	}
 }
 .irs--flat {
+	$color-irs: $color-1;
 	.irs-from, .irs-to, .irs-single{
     font-size: 15px;
     border-radius: 0;
     padding: 3px 9px;
 		top: -2px;
-		background-color: $color-special-1;
+		background-color: $color-irs;
 	}
 	.irs-min, .irs-max{
 		color: black;
@@ -5119,16 +5118,16 @@ dt{
 	}
 	.irs-single{
 		background-color: transparent;
-		color: $color-special-1;
+		color: $color-irs;
 		font-weight: 600;
 		&:before{
 			display: none;
-			border-top-color: $color-special-1;
+			border-top-color: $color-irs;
 		}
 	}
 	.irs-bar--single{
 		border-radius: 30px 0 0 30px;
-		background-color: $color-special-1;
+		background-color: $color-irs;
 	}
 	.irs-handle{
 		top: 25px;
@@ -5137,7 +5136,7 @@ dt{
 		border-radius: 50%;
 		background-color: white;
 		//box-shadow: 0 0 20px black;
-		border: 1px solid $color-special-1;
+		border: 1px solid $color-irs;
 		&:active{
 			cursor: grab;
 		}
@@ -5154,7 +5153,7 @@ dt{
 	.irs-line{
 		height: 40px;
 		border-radius: 30px;
-		border: 1px solid $color-special-1;
+		border: 1px solid $color-irs;
 		background-color: rgba($color-gray-1, 0.2);
 	}
 }
@@ -5170,6 +5169,10 @@ table td:nth-last-child(1), table th:nth-last-child(1){
 	border-radius: 0;
 }
 .credit-table-content{
+	display: none;
+	&.active{
+		display: block;
+	}
 	tr{
 		&:last-child{
 			td{

@@ -40,11 +40,11 @@
           <div class="about-desc-list text-item">
             <div class="item m-v-30 pv-4" v-for="(content, key) in page_data.blocks[1].content" :key="key">
               <div class="flex desktop:jc-between">
-                <div class="item-header flexbasis-md-3">
+                <div class="item-header fb-md-3">
                   <h4>{{content.name}}</h4>
                 </div>
-                <div class="item-desc flexbasis-md-8" v-html="content.content"></div>
-                <div class="item-media mt-6 desktop:mt-8 flexbasis-md-12" v-if="content.video">
+                <div class="item-desc fb-md-8" v-html="content.content"></div>
+                <div class="item-media mt-6 desktop:mt-8 fb-md-12" v-if="content.video">
                   <video :src="content.video" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline="" class="item-media-video"></video>
                 </div>
               </div>

@@ -49,10 +49,10 @@
         <div class="entry-content">
           <div class="desc-content mv-5 desktop:mt-18">
             <div class="flex-adaptive">
-              <div class="title-content flexbasis-md-6 mv-2 desktop:pr-13">
+              <div class="title-content fb-md-6 mv-2 desktop:pr-13">
                 <div class="text-x4">Источник вдохновения: значение нового логотипа</div>
               </div>
-              <div class="text-x1 text-content flexbasis-md-6 mv-2">
+              <div class="text-x1 text-content fb-md-6 mv-2">
                 <p>Новый логотип как воплощение <br>полной трансформации бренда</p>
               </div>
             </div>
@@ -214,7 +214,7 @@
             <div class="text-x4">Движение вперед, постоянные усилия и совершенствование — вот наш менталитет роста</div>
           </div>
           <div class="flex-adaptive row-15">
-            <div class="flexbasis-md-6 ph-3 mv-6">
+            <div class="fb-md-6 ph-3 mv-6">
               <div class="text-s2">
                 Движение является важной частью нашего менталитета в Kia. 
                 <br>

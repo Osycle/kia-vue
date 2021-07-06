@@ -312,6 +312,9 @@ html{
 .jc-start{ justify-content: flex-start; }
 .jc-end{ justify-content: flex-end; }
 
+.fd-columm{ flex-direction: column; }
+
+
 .justify-c-center{ justify-content: center; }
 .justify-c-between{ justify-content: space-between; }
 .justify-c-start{ justify-content: flex-start; }
@@ -319,14 +322,14 @@ html{
 
 
 @for $i from 0 through 12{
-	.flexbasis-xs-#{$i} {
+	.fb-xs-#{$i} {
 		flex-basis: ( ($i*100) /12)#{"%"};
 	}
 }
 
 @media (min-width:768px){
 	@for $i from 0 through 12{
-		.flexbasis-sm-#{$i} {
+		.fb-sm-#{$i} {
 			flex-basis: ( ($i*100) /12)#{"%"};
 		}
 	}
@@ -334,7 +337,7 @@ html{
 
 @media (min-width:992px){
 	@for $i from 0 through 12{
-		.flexbasis-md-#{$i} {
+		.fb-md-#{$i} {
 			flex-basis: ( ($i*100) /12)#{"%"};
 		}
 	}
@@ -343,7 +346,7 @@ html{
 
 @media (min-width:1200px){
 	@for $i from 0 through 12{
-		.flexbasis-lg-#{$i} {
+		.fb-lg-#{$i} {
 			flex-basis: ( ($i*100) /12)#{"%"};
 		}
 	}

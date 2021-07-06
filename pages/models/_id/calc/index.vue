@@ -350,7 +350,7 @@
               <div class="entry-content mv-8">
                 <div>
                   <div class="text-x3">Выберите первый взнос</div>
-                  <div class="text-s2i">По умолчанию выбраны условия с самым низким ежемесячным платежом. Вы можете изменить их на более подходящие.</div>
+                  <!-- <div class="text-s2i">По умолчанию выбраны условия с самым низким ежемесячным платежом. Вы можете изменить их на более подходящие.</div> -->
                 </div>
                 <div class="credit-inputs mv-10">
                   <form action="">
@@ -375,11 +375,15 @@
                             <div class="text-s3i-b">Срок кредита</div>
                           </div>
 
-                          <div class="hide irs-content mv-10">
-                            <div class="calc-range box-xs-10">
-                              <input type="text" id="cr_ante" name="" v-model="payment.ante">
+                          <div class="mv-10">
+                            <div class="irs-content">
+                              <div class="calc-range box-xs-10">
+                                <input type="text" id="cr_ante" name="" v-model="payment.ante">
+                              </div>
                             </div>
+                            <div class="text-s3i-b">Срок кредита</div>
                           </div>
+
 
 
                           <div class="mv-10">
@@ -392,19 +396,25 @@
                           </div>
 
                         </div>
-                        <div class="box-xs-10 mt-10">
-                          <div class="wrap">
+                        <div class="box-xs-10 mt-10 flex fd-columm">
+                          <div class="wrap mv-2">
                             <div class="title-content">Первоначальный взнос</div>
                             <div class="input-content">
                               <div class="form-control credit-ante-label hide" >{{payment.ante | spaceBetweenNum}}</div>
                               <input type="text" class="form-control credit-ante-input" id="antein" v-model="payment.ante" v-facade="'###########'">
                             </div>
                           </div>
-                          <div class="wrap">
+                          <div class="wrap mb-2 mt-0">
                             <div class="title-content font-size-1">Сумма кредита</div>
                             <div class="ph-2">
                               <div v-if="payment.credit_price < 0">0</div>
                               <div v-else>{{payment.credit_price | spaceBetweenNum}}</div>
+                            </div>
+                          </div>
+                          <div class="text-right mt-8">
+                            <div class="desktop:mr-3">
+                              <div class="title-content fw-6">Ежемесячный платёж</div>
+                              <div class="result-sum mv-3 fw-6 text-s1">{{payment.mpay | spaceBetweenNum}} сум/мес</div>
                             </div>
                           </div>
                         </div>
@@ -412,31 +422,36 @@
                     </div>
                     <hr>
 
-                    <div class="mt-10">
-                      <div class="title-content fw-6">Ежемесячный платёж</div>
-                      <div class="result-sum mv-3 fw-6 text-s1">{{payment.mpay | spaceBetweenNum}} сум/мес</div>
+                    <div class="flex-adaptive mt-10 jc-between">
+
+      
+                      
+                      <div class="btn-content">
+                        <span class="btn-def">
+                          <a href="javascript:;" @click="cr_counter">Расчитать</a>
+                        </span>
+                      </div>
                     </div>
-    
-                    
-                    <button type="button" @click="cr_counter">Расчитать</button>
 
                   </form>
-                  <div class="credit-table-content">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th>Месяцы</th>
-                          <th>Остаток долга</th>
-                          <th>Платеж</th>
-                          <th>Процентная часть</th>
-                          <th>Долговая часть</th>
-                          <th>Остаток долга на конец периода</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                  <div class="credit-table-content mt-5">
+                    <div class="table-content">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Мес.</th>
+                            <th>Остаток долга</th>
+                            <th>Платеж</th>
+                            <th>Процентная часть</th>
+                            <th>Долговая часть</th>
+                            <th>Остаток долга на конец периода</th>
+                          </tr>
+                        </thead>
+                        <tbody>
 
-                      </tbody>
-                    </table>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -627,10 +642,10 @@
 export default {
   head() {
     return {
-      title: "Kia K5 – конфигуратор седана, старт продаж в России",
+      title: "Конфигуратор",
       meta: [
         {
-          content: "Сконфигурируйте Kia K5. Возможность выбрать доступный двигатель, настроить внешний вид и подобрать аксессуары для вашего седана КИА К5."
+          content: "Конфигуратор."
         }
       ],
     }
@@ -661,7 +676,7 @@ export default {
   data(){
     return {
 
-      currentStepNum: 5,
+      currentStepNum: 2,
       currentEngine: {},
       currentGearbox: {},
       currentDrive: {},
@@ -738,7 +753,7 @@ export default {
         price: 259900000,
         credit_price: 0,
         ante: 0,
-        term: 12,
+        term: 48,
         rate: 0,
         rate_one: 0,
         mpay: 0,
@@ -762,119 +777,26 @@ export default {
 
 
 
-    
-    this.payment.ante = this.credit.ante_min
-    //this.payment.term = this.credit.term_min
-    this.payment.rate = this.credit.rate_min
 
-    
-
-    window.cr_ante = $("#cr_ante").ionRangeSlider({
-      min: 0,
-      max: v.credit.price,
-      from: 0,
-      to: 0,
-      //to_min: v.payment.ante_min,
-      from_max: v.credit.ante_max,
-      postfix: " сум",
-      step: 1,
-      //grid: true,
-      //grid_snap: true,
-      onChange: function (data) {
-        v.payment.ante = data.from
-        console.log(data);
-        cr_ante_percent.update({from: data.from_percent,});
-        v.calc();
-      },
-    }).data("ionRangeSlider");
-    
-    window.cr_ante_percent = $("#cr_ante_percent").ionRangeSlider({
-      min: 0,
-      max: 100,
-      from: 0,
-      to: 0,
-      from_max: Math.round(v.credit.ante_max/(v.credit.price/100)), 
-      postfix: " %",
-      step: 1,
-      onChange: function (data) {
-        var val = Math.round(cr_ante.result.max*(data.from/100))
-        v.payment.ante_percent = data.from;
-        v.payment.ante = val;
-        cr_ante.update({from: v.payment.ante,});
-        v.calc();
-      },
-
-    }).data("ionRangeSlider");
-
-
-    window.cr_term = $("#cr_term").ionRangeSlider({
-      //type: "double",
-      min: v.credit.term_min,
-      max: v.credit.term_max,
-      from: 0,
-      to: 0,
-      postfix: " мес",
-      step: 1,
-      grid: false,
-      onChange: function (data) {
-        v.payment.term = data.from;
-        v.calc();
-      }
-    }).data("ionRangeSlider");
-
-    window.cr_rate = $("#cr_rate").ionRangeSlider({
-      //type: "double",
-      min: v.credit.rate_min,
-      max: v.credit.rate_max,
-      from: 0,
-      to: 0,
-      postfix: " %",
-      step: 0.1,
-      grid: false,
-      onChange: function (data) {
-        v.payment.rate = data.from;
-        v.calc();
-      }
-    }).data("ionRangeSlider");
-    
-    v.updateRange = function(){
-      cr_ante.update({from: v.payment.ante,});
-      cr_ante.callOnChange()
-      cr_term.update({from: v.payment.term,});
-      cr_rate.update({from: v.payment.rate,});
-    }
-    
-    this.calc();
-    v.updateRange();
-    $(".credit-ante-input").on("change", function(){
-      v.updateRange();
-    })
 
   },
   methods: {
 
     calc(){
-
-      this.payment.credit_price = this.payment.price - this.payment.ante
-
-      this.payment.rate_one = this.payment.rate/100/12
-
-      //var price = this.payment.price // Цена
-      //var rate =  this.payment.rate // Процентная ставка
-
+      var result;
       var term = this.payment.term // Срок
       var credit_price = this.payment.credit_price; // Сумма кредита
       var rateone = this.payment.rate_one;
 
-
-
-      //this.updateRange();
+      this.payment.credit_price = this.payment.price - this.payment.ante
+      this.payment.rate_one = this.payment.rate/100/12
       
-      var result = credit_price*(rateone + ( rateone / (((1+rateone)**term) - 1) ) )
+      result = credit_price*(rateone + ( rateone / (((1+rateone)**term) - 1) ) )
       this.payment.mpay = Math.round(result);
     },
     cr_counter(){
       var v = this;
+      $(".credit-table-content").addClass("active");
       var body = $(".credit-table-content table tbody")
       body.find("tr").remove();
       console.log(body)
@@ -896,7 +818,7 @@ export default {
         summary_payment += payment;
         summary += f_dept;
 
-        if(f_end_dept< 0)
+        if(f_end_dept < 50)
           f_end_dept = 0
 
         tpl = tpl+`
@@ -989,7 +911,7 @@ export default {
       $('html, body').animate({ scrollTop: $(elId).offset().top-30}, 300);
     },
     async progressStepsBar(stepNum){
-      const that = this;
+      const v = this;
       console.log(stepNum);
       if(stepNum == "next")
         this.currentStepNum++;
@@ -1015,15 +937,104 @@ export default {
         this.currentComplectation = this.selectComplectations[0];
         this.currentExterior = this.currentComplectation.bodyColors[0];
         this.currentInterior = this.currentComplectation.interiorColors[0];
-        console.log(this.selectComplectations);
       }
       
       // step 5
       if(this.currentStepNum == 5){
         setTimeout(() => {
-          console.log('asdasd');
 
-        }, 1000)
+          this.credit.ante_percent = this.currentComplectation.ante_min*1;
+          this.credit.ante_min = this.credit.price*(this.credit.ante_percent/100);
+          this.credit.rate_min = this.currentComplectation.rate_min*1;
+          this.credit.ante_max = this.currentComplectation.price
+
+          this.payment.ante = this.credit.ante_min
+          this.payment.rate = this.credit.rate_min
+          //this.payment.term = this.credit.term_min
+
+          window.cr_ante = $("#cr_ante").ionRangeSlider({
+            min: 0,
+            max: v.credit.price,
+            from: 0,
+            to: 0,
+            to_min: 600000,
+            from_max: v.credit.ante_max,
+            postfix: " сум",
+            step: 1,
+            //grid: true,
+            //grid_snap: true,
+            onChange: function (data) {
+              v.payment.ante = data.from
+              console.log(data);
+              cr_ante_percent.update({from: data.from_percent,});
+              v.calc();
+            },
+          }).data("ionRangeSlider");
+          
+          window.cr_ante_percent = $("#cr_ante_percent").ionRangeSlider({
+            min: 0,
+            max: 100,
+            from: 0,
+            to: 0,
+            to_min: 30,
+            to_max: 30,
+            from_max: v.credit.ante_max,//Math.round(v.credit.ante_max/(v.credit.price/100))
+            postfix: " %",
+            step: 1,
+            onChange: function (data) {
+              var val = Math.round(cr_ante.result.max*(data.from/100))
+              v.payment.ante_percent = data.from;
+              v.payment.ante = val;
+              cr_ante.update({from: v.payment.ante,});
+              v.calc();
+            },
+
+          }).data("ionRangeSlider");
+
+
+          window.cr_term = $("#cr_term").ionRangeSlider({
+            //type: "double",
+            min: v.credit.term_min,
+            max: v.credit.term_max,
+            from: 0,
+            to: 0,
+            postfix: " мес",
+            step: 1,
+            grid: false,
+            onChange: function (data) {
+              v.payment.term = data.from;
+              v.calc();
+            }
+          }).data("ionRangeSlider");
+
+          window.cr_rate = $("#cr_rate").ionRangeSlider({
+            //type: "double",
+            min: v.credit.rate_min,
+            max: v.credit.rate_max,
+            from: 0,
+            to: 0,
+            postfix: " %",
+            step: 0.1,
+            grid: false,
+            onChange: function (data) {
+              v.payment.rate = data.from;
+              v.calc();
+            }
+          }).data("ionRangeSlider");
+          
+          v.updateRange = function(){
+            cr_ante.update({from: v.payment.ante,});
+            cr_ante.callOnChange()
+            cr_term.update({from: v.payment.term,});
+            cr_rate.update({from: v.payment.rate,});
+          }
+          
+          this.calc();
+          v.updateRange();
+          $(".credit-ante-input").on("change", function(){
+            v.updateRange();
+          })
+        }, 1)
       }
 
 

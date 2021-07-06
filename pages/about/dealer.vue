@@ -63,7 +63,7 @@
           <div class="text-x4 mb-6 desktop1440:mb-6">{{page_data.blocks[3].name}}</div>
           <div class="list-content">
             <div class="item" v-for="(item, key) in page_data.blocks[3].content" :key="key">
-              <div class="item-header flex flexbasis-md-3 text-s1-b">
+              <div class="item-header flex fb-md-3 text-s1-b">
                 <div class="num">{{item.number}}</div>
                 <div>
                   <b>{{item.name}}</b>
