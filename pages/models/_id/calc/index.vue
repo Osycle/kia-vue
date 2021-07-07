@@ -443,7 +443,7 @@
                     </div>
 
                   </form>
-                  <div class="credit-table-content mt-5">
+                  <div class="credit-table-content oflow-style mt-5">
                     <div class="table-content">
                       <table>
                         <thead>
@@ -521,6 +521,48 @@
                             <dd><big>{{payment.mpay | spaceBetweenNum}} сум/мес</big></dd>
                           </dl>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="credits-partners">
+                  <div class="pv-5">
+                    <div class="entry-header mb-5">
+                      <div class="text-x3 fw-7">Официальные банки-партнеры</div>
+                    </div>
+                    <div class="credits-partners-items figure-m-v-15">
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-5d3e58.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-9d15dd.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-2d2a92.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-84fca0.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-6f68b2.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-9c8ad3.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-f7ac5c.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-7343cf.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-3507be.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-880aa2.png"></div>
+                      </div>
+                      <div class="cell align-center jc-center">
+                        <div class="img-content"><img src="https://cdn.kia-motors.uz/uploads/gallery/big-08eb0a.png"></div>
                       </div>
                     </div>
                   </div>
