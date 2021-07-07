@@ -36,7 +36,7 @@
               <div class="text-s2i" v-html="page_data.content[0].content[2].text"></div>
             </div>
             <hr>
-            <div class="text-item mv-10">
+            <div class="text-item mv-10 hide">
               <div class="entry-header">
                 <div class="fw-6 text-x4 mb-4 desktop:mb-6">{{page_data.content[1].title}}</div>
               </div>

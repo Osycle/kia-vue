@@ -407,7 +407,7 @@ html table {
 	border-collapse: collapse;
 	width: 100%;
 	font-family: $font-family-2;
-	color: $color-gray-5;
+	color: $color-3;
 	td{
 		font-size: 14px;
 	}
@@ -446,13 +446,7 @@ html table {
 		tr{
 			td{
 				border-color: rgba($color-gray-1, 1);
-				padding: 15px 30px;
-				&:nth-child(1){
-					font-weight: 500;
-				}
-				&:nth-child(2){
-					color: $color-gray-4;
-				}
+				padding: 18px 30px;
 			}
 		}
 		tr:nth-child(odd){

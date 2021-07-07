@@ -16,6 +16,7 @@
               <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/properties/'">Характеристики</nuxt-link></li>
               <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/callback/'">Заявка дилеру</nuxt-link></li>
               <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/testdrive/'">Тест-драйв</nuxt-link></li>
+							<li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/calc/'">Расчёт кредита</nuxt-link></li>
             </ul>
             <div class="list-add">
               <a href=".list-add-sub" class="btn-options hidden-xs hidden-sm" data-toggle="dropdown">
@@ -28,6 +29,7 @@
                   <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/properties/'">Характеристики</nuxt-link></li>
                   <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/callback/'">Заявка дилеру</nuxt-link></li>
                   <li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/testdrive/'">Тест-драйв</nuxt-link></li>
+									<li><nuxt-link active-class="active" :to="'/models/'+$route.params.id+'/calc/'">Расчёт кредита</nuxt-link></li>
                 </ul>
               </div>
             </div>

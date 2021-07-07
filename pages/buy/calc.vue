@@ -4,14 +4,14 @@
       <div class="container-p">
         <ol class="breadcrumb">
           <li><nuxt-link to="/">Главная</nuxt-link></li>
-          <li><nuxt-link to="/configurator">Конфигуратор</nuxt-link></li>
+          <li><nuxt-link to="">Расчет кредита</nuxt-link></li>
         </ol>
       </div>
     </div>
     <div class="conf-header">
       <div class="container-p">
         <div class="entry-header">
-          <h2>Конфигуратор</h2>
+          <h2>Расчет кредита</h2>
         </div>
         <div class="conf-progress-bar">
           <ul class="list">
@@ -33,6 +33,10 @@
             </li>
             <li>
               <b class="color-1">05</b>
+              <p>Уловия кредита</p>
+            </li>
+            <li>
+              <b class="color-1">06</b>
               <p>Результаты</p>
             </li>
           </ul>
@@ -44,37 +48,35 @@
         <div class="conf-steps conf-step-1" :class="{'active': currentStep == 1}">
           <div class="conf-crs m-v-45">
             <div class="owl-carousel owl-btn-2">
-              <template v-for="(modelLine) in page.model_lines" v-if="!modelLine.noconfigurator">
-                <figure v-for="(model, key) in page.models" :key="key" v-if="model.min_price && model.model_line_id == modelLine.id" :model-line-id="modelLine.id">
-                  <a href="javascript:;">
-                    <div class="fig-wrapper">
-                      <div class="img-content">
-                        <img :src="'https://cdn.kia.ru/resize/150x73/'+model.image" :alt="modelLine.name">
-                      </div>
-                      <div class="desc-content">
-                        <h4>{{modelLine.name}}</h4>
-                        <p>от {{model.min_price | spaceBetweenNum}} сум</p>
-                      </div>
+              <figure v-for="(model, key) in models" :key="key" :model-line-id="model.name">
+                <a href="javascript:;">
+                  <div class="fig-wrapper">
+                    <div class="img-content">
+                      <img :src="model.image" :alt="model.name">
                     </div>
-                  </a>
-                </figure>
-              </template>
+                    <div class="desc-content">
+                      <h4>{{model.name}}</h4>
+                      <p>от {{model.price | spaceBetweenNum}} сум</p>
+                    </div>
+                  </div>
+                </a>
+              </figure>
             </div>
           </div>
           <div class="conf-crs-main">
             <div class="owl-carousel owl-btn-2">
-              <template v-for="(modelLine) in page.model_lines" v-if="!modelLine.noconfigurator">
-                <figure v-for="(model, key) in page.models" :key="key" v-if="model.model_line_id == modelLine.id && model.min_price" :model-line-id="modelLine.id">
-                  <div class="fig-wrapper">
-                    <div class="desc-content">
-                      <div class="text-x5 desktop:text-x4">{{modelLine.name}}</div>
-                    </div>
-                    <div class="img-content m-t-30">
-                      <img :src="'https://cdn.kia.ru/resize/750x366/'+model.image" :alt="modelLine.name">
-                    </div>
+              <figure v-for="(model, key) in models" :key="key" :model-line-id="model.name">
+                <div class="fig-wrapper">
+                  <div class="desc-content">
+                    <div class="text-x5 desktop:text-x4">{{model.name}}</div>
                   </div>
-                </figure>
-              </template>
+                  <div class="img-content m-t-30">
+                    <nuxt-link :to="'/models/'+model.url+'/calc'">
+                      <img :src="model.image" :alt="model.name">
+                    </nuxt-link>
+                  </div>
+                </div>
+              </figure>
             </div>
           </div>
         </div>
@@ -105,21 +107,21 @@
 export default {
   head() {
     return {
-      title: this.page.seo.title,
+      title: "Модельный ряд Kia – комплектации и цены на новые автомобили Kia ",
       meta: [
         {
-          content: this.page.seo.description
+          content: "Все модели автомобилей Kia в Узбекистане: субкомпактные и компактные, автомобили бизнес-класса и представительского класса, кроссоверы и внедорожники."
         }
       ],
     }
   },
   async asyncData(context){
     try{
-      const path = context.route.path
-      const page = await context.store.dispatch("models/fetchPageData", {
-        path: '/models'
-      })
-      return {page: page.content}
+      
+      var page_data = await context.store.dispatch("models/configuratorModels", {})
+      return {
+        models: page_data.models
+      }
     }catch(e){
       context.error(e);
     }
@@ -133,19 +135,6 @@ export default {
     }
   },
   mounted(){
-    $("[scrollf]").map((i, el)=>{
-      el = $(el)
-      $(window).on("scroll", (e)=>{
-        var docViewBottom = $(window).scrollTop() + $(window).height();
-        var elBottom = $(el).offset().top + $(el).height();
-          if(docViewBottom > elBottom){
-            el.addClass("is-scrollf")
-          }else{
-            el.removeClass("is-scrollf")
-          }
-      })
-    })
-
 
     var v = this;
 		window.owlCrs = $(".conf-crs .owl-carousel").owlCarousel({
@@ -187,10 +176,12 @@ export default {
 			navText : owlBtn,
 			margin: 0
     });
-    
+
+
     var owlCrsItems = owlCrs.find(".owl-item");
     var modelLineAttrName = "model-line-id"
     v.selectModelId = owlCrs.find(".owl-item.active figure").attr(modelLineAttrName);
+
     owlCrs.on('click', '.owl-item', (e)=>{
       var target = $(e.currentTarget);
       owlCrsItems.removeClass('is-selected')
@@ -206,23 +197,15 @@ export default {
       owlCrsItems.removeClass('is-selected');
       var modelId = target.find("["+modelLineAttrName+"]").attr(modelLineAttrName);
       owlCrs.find("["+modelLineAttrName+"='"+modelId+"']").closest(".owl-item").addClass('is-selected');
+      v.selectModelId = modelId;
     })
     owlCrsItems.eq(0).click();
-    console.log(owlCrsMain);
 
   },
   methods: {
     async confNextStep(){
-      console.log(this.selectModelId);
-      var modelCode;
-      for (let i = 0; i < this.page.model_lines.length; i++) {
-        const el = this.page.model_lines[i];
-        console.log(el, this.selectModelId)
-        if(el.id == this.selectModelId)
-          modelCode = el.code
-      }
-      this.$router.push({path: "/models/"+modelCode+"/configurator"});
-
+      var modelUrl = this.selectModelId.toLowerCase();
+      this.$router.push({path: "/models/"+modelUrl+"/calc"});
       this.currentStep++;
     },
     async confPrevStep(){

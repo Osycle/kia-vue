@@ -3785,6 +3785,7 @@ ymaps .map-cluster{
 	top: 0;
 	left: 0;
 	//height: calc(100vh - 60px);
+	font-size: 0.94em;
 	&.down{
 		
 	}
@@ -3900,9 +3901,15 @@ dt{
 		justify-content: space-between;
 		padding: 10px 0;
     border-top: 2px solid #000;
+		dt, dd{
+			flex-basis: 50%;
+		}
+		dd{
+			text-align: right;
+		}
 	}
 	& ~ &{
-		margin-top: 60px;
+		margin-top: 30px;
 	}
 }
 
@@ -5099,6 +5106,14 @@ dt{
 		padding-left: 10px;
 		padding-right: 10px;
 		height: 40px;
+	}
+}
+.payment-ante{
+	.calc-range{
+		display: none;
+		&.active{
+			display: block;
+		}
 	}
 }
 .irs--flat {
