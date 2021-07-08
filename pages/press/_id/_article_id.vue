@@ -18,7 +18,16 @@
 					</div>
 					<div class="entry-content box-lg-8 m-auto mv-6 text-item desktop:pb-4">
 						<div class="box-lg-7 m-auto">
-              <img :src="page_data.image" :alt="page_data.title">
+              <div v-if="page_data.images.length">
+                <div class="design-inter-items owl-carousel m-t-30">
+                  <figure v-for="(img, key) in page_data.images" :key="key">
+                    <div class="img-content">
+                      <img :src="img">
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <img v-else :src="page_data.image" :alt="page_data.title">
               <div v-html="page_data.content"></div>
 						</div>
 					</div>

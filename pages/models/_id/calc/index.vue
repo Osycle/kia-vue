@@ -587,7 +587,7 @@
                   </div>
                 </div>
               </div>
-              <div class="conf-feedback hide" id="conf-feedback">
+              <div class="hide conf-feedback" id="conf-feedback">
                 <div class="entry-content">
                   <div class="form-content pt-6 desktop:pt-20 pb-12 desktop:pb-20">
                     <div>
