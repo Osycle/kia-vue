@@ -29,6 +29,22 @@
         </div>
       </div>
     </div>
+    <div class="cookie-consent hide">
+      <div class="container-p">
+        <div class="flex-adaptive align-center">
+          <div>
+            <div class="text-s2-b">Использование файлов Cookie и анализ посещения сайта</div>
+            <div class="text-s3">
+              Сайт kia.ru использует файлы Cookie (куки-файлы), сервисы веб-аналитики и сервисы онлайн-маркетинга для обеспечения работы функционала сайта, идентификации пользователей, сбора статистики посещений сайта, показа персонализированной рекламы. Продолжая использовать сайт kia.ru Вы соглашаетесь на использование файлов Cookie и сбор данных о Вашем посещении сайта. Вы можете запретить сохранение файлов Cookie в настройках Вашего браузера. 
+              <a href="javascript:;"><b><u>Подробнее о файлах Cookie и анализе посещения сайта</u></b></a>
+            </div>
+          </div>
+          <div class="btn-def fsh-0 desktop:ml-4">
+            <a href="javascript:;">Согласен</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="page">
       <Header />
       <main class="main">
