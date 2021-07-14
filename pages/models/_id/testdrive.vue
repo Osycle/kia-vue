@@ -5,7 +5,7 @@
         <ol class="breadcrumb">
           <li><nuxt-link to="/">Главная</nuxt-link></li>
           <li><nuxt-link to="/models/">Модели</nuxt-link></li>
-          <li><nuxt-link :to="'/models/'+$route.params.id+'/desc'">{{page.model.name}}</nuxt-link></li>
+          <li><nuxt-link :to="'/models/'+$route.params.id+'/desc'">{{page_data.name}}</nuxt-link></li>
           <li><nuxt-link :to="'/models/'+$route.params.id+'/testdrive'">Тест-драйв</nuxt-link></li>
         </ol>
       </div>
@@ -20,13 +20,13 @@
         <div class="container-p">
           <div class="flex-wrapper">
             <div class="col-1 p-v-20">
-              <h3>{{page.model.name}}</h3>
+              <h3>{{page_data.name}}</h3>
               <div class="img-content text-center">
-                <img :src="'https://cdn.kia.ru/resize/300x200/'+page.model.image_side_view">
+                <img :src="page_data.car">
               </div>
               <div class="prive-content align-center justify-c-between m-v-20">
                 <span>Стоимость авто</span>
-                <big><b>от {{page.model.min_price | spaceBetweenNum}} сум</b></big>
+                <big><b>от {{page_data.minPrice | spaceBetweenNum}} сум</b></big>
               </div>
             </div>	
             <div class="col-2 p-v-20">
@@ -38,7 +38,7 @@
                 <form action="https://cdn.kia-motors.uz/feedback.php" method="POST" formaj>
                   <input type="text" :value="new Date().getFullYear()" name="anti-bot-a" class="hide">
                   <input type="text" value="testdrive" name="type" class="hide">
-                  <input type="text" :value="page.model.name" name="carName" class="hide">
+                  <input type="text" :value="page_data.name" name="carName" class="hide">
                   <div class="input-content m-v-30">
                     <input type="text" name="name" placeholder="Имя *"  class="form-control" required>
                   </div>
@@ -52,7 +52,9 @@
                     <label class="flex" role="button">
                       <input type="checkbox" name="iagree" class="hide" required>
                       <span class="checkbox-style-1"></span>
-                      <span class="p-l-20">{{page.agreement.text}}</span>
+                      <span class="p-l-20">
+                        Отправляя сообщение, я выражаю свое согласие и разрешаю ООО 'Roodell', а также, по их поручению, третьим лицам осуществлять обработку моих персональных данных (фамилия, имя, отчество, год, месяц, дата и место рождения; адрес, номер паспорта и сведения о дате выдачи паспорта и выдавшем его органе; образование, профессия, место работы и должность; домашний, рабочий и мобильный телефоны; адрес электронной почты и другие данные, требуемые для отправки сообщения), включая сбор, систематизацию, накопление, хранение, уточнение, использование, распространение (в том числе трансграничную передачу), обезличивание, уничтожение персональных данных), в целях связанных с возможностью предоставления информации о товарах и услугах, которые потенциально могут представлять интерес, а также в целях сбора и обработки статистической информации и проведения маркетинговых исследований. Согласие на обработку персональных данных в соответствии с указанными выше условиями я предоставляю на 10 (десять) лет. Я уведомлен и согласен с тем, что указанное согласие может быть мной отозвано посредством направления письменного заявления заказным почтовым отправлением с описью вложения, либо вручено лично под подпись.
+                      </span>
                     </label>
                   </div>
                   <span class="btn-def">
@@ -86,21 +88,27 @@
 export default {
   async asyncData(context){
     try{
-      const path = context.route.path
-      const page = await context.store.dispatch("models/fetchPageData", {
+      const page_data = await context.store.dispatch("other/fetchPath", {
         path: '/models/'+context.route.params.id+'/callback'
       })
-      return {page: page.content}
+      return {
+        page_data
+      }
     }catch(e){
       context.error(e);
     }
   },
   head() {
     return {
-      title: this.page.seo.title,
+      title: this.page_data.seo.meta_title,
       meta: [
         {
-          content: this.page.seo.description
+          name: "description",
+          content: this.page_data.seo.meta_descr
+        },
+        {
+          name: "keywords",
+          content: this.page_data.seo.meta_keywords
         }
       ],
     }

@@ -42,7 +42,7 @@
       </div>
 
 
-      <template v-for="(item) in menu_data.menus" v-if="item.subsections">
+      <template v-for="(item, key) in menu_data.menus" v-if="item.subsections">
         <div class="subdown" :subdown="item.id" :key="key">
           <div class="subdown-wrapper">
             <div class="bg-shadow" subdown-click></div>

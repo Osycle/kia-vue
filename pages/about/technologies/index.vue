@@ -80,7 +80,7 @@
       </div>
     </div>
 
-    <KiaworldOther :kiaworld-other-items="page_data.footer" />
+    <KiaworldOther :kiaworld-other-items="page_data.other_pages" />
 
   </div>
 </template>

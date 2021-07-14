@@ -183,7 +183,7 @@
                     v-for="(enteas, key) in block.content"
                     :class="{'active in': key == 0}"
                     :key="key">
-                    <div class="desc-content m-auto box-md-9 m-t-25">
+                    <div class="desc-content m-auto box-md-9 m-t-25 hide">
                       <p>{{enteas.name}}</p>
                     </div>
                     <ul class="card-list-engine">
@@ -411,9 +411,9 @@
                     {{option}}
                   </p>
                 </div>
-                <div class="link-content m-t-20" v-if="false">
+                <div class="link-content m-t-20">
                   <div class="align-center font-w-6">
-                    <nuxt-link :to="'/models/'+page.model.code+'/options'"><b>Комплектации и цены</b></nuxt-link>
+                    <nuxt-link class="hover-aunderline" :to="'/models/'+$route.params.id+'/options'"><b>Комплектации и цены</b></nuxt-link>
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M8.5 14l4-4-4-4" stroke="currentColor" stroke-width="2"></path></svg>
                   </div>
                 </div>
@@ -480,7 +480,12 @@ export default {
       title: this.page_data.seo ? this.page_data.seo.meta_title : 'Обзор Kia',
       meta: [
         {
+          name: "description",
           content: this.page_data.seo ? this.page_data.seo.meta_descr : 'Обзор Kia'
+        },
+        {
+          name: "keywords",
+          content: this.page_data.seo ? this.page_data.seo.meta_keywords : 'Обзор Kia'
         }
       ],
     }

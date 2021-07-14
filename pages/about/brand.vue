@@ -18,15 +18,13 @@
         <div class="container p-v-30 p-t-md-80">
           <div class="row-15 flex-adaptive justify-c-between">
             <div class="col-md-4 p-h-15">
-              <div class="h1 text-x5 m-t-0">Бренд Kia</div>
+              <div class="h1 text-x5 m-t-0">{{block.name}}</div>
             </div>
-            <div class="col-md-offset-1 p-h-15 col-md-7">
-              <p>У Kia долгая история производства автомобилей. Но если быть точнее, мы начали в 1944 году с производства велосипедов. С тех пор вот уже 75 лет мы приводим людей в движение. Мы с гордостью предоставляем решения, которые помогают людям перемещаться из одной точки в другую, объединяя людей друг с другом физически и эмоционально.</p>
-            </div>
+            <div class="col-md-offset-1 p-h-15 col-md-7" v-html="block.text"></div>
           </div>
           <div class="video-content m-t-30 m-t-md-80 relative">
             <div class="bg-video-content-2">
-              <video src="/img/brand/brand-1.mp4" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+              <video :src="block.videoPreview" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
               <div class="desc-content trans-center text-center color-white">
                 <a href="https://youtu.be/DCRDW4WA4sQ?list=TLGGXd_JKPzkXdwwMjA3MjAyMQ" data-fancybox="">
                   <div class="btn-play relative m-auto">
@@ -207,7 +205,7 @@
       </template>
     </div>
     
-    <div class="kiaworld-cars">
+    <div class="kiaworld-cars" v-if="false">
       <template v-for="(block) in page_data.blocks" v-if="block.block == 'block5'">
         <div class="img-entry-header relative mobile:pb-0">
           <div class="container text-content m-t-md-70">
@@ -247,7 +245,7 @@
         </div>
       </div>
     </div>
-    <div class="kiaworld-rating hide">
+    <div class="kiaworld-rating hide" v-if="false">
       <template v-for="(block) in page_data.blocks" v-if="block.block == 'block7'">
         <div class="g-padding">
           <div class="g-container">
@@ -270,7 +268,7 @@
       </template>
     </div>
 
-    <KiaworldOther :kiaworld-other-items="page_data.footer" />
+    <KiaworldOther :kiaworld-other-items="page_data.other_pages" />
     
   </div>
 </template>
@@ -297,7 +295,7 @@ export default {
   async asyncData(context){
     try{
       const page_data = await context.store.dispatch("other/fetchPath", {
-        path: "/about/brand"
+        path: context.route.path
       });
       return {
         page_data

@@ -101,6 +101,9 @@ $header-min-menu: 60px;
 		flex-wrap: nowrap;
 		justify-content: space-between;
 	}
+	@media(max-width: 1439px){
+		font-size: 11px;
+	}
 	.menu{
 		@media (min-width: 1170px){
 			width: 440px;

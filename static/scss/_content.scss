@@ -4720,19 +4720,6 @@ dt{
 	// brand blocks
 	.block-4{
 		overflow: hidden;
-		.img-fulled{
-			position: relative;
-			z-index: 1;
-			&:before{
-				@extend .clafclear;
-				z-index: -1;
-				background-color: white;
-				width: calc(100% + 100vw);
-				left: -50vw;
-				height: 50%;
-				bottom: 0;
-			}
-		}
 	}
 	.block-6{
 		.wrapper{
@@ -4874,6 +4861,19 @@ dt{
 
 
 .img-fulled{
+	&.half-white{
+		position: relative;
+		z-index: 1;
+		&:before{
+			@extend .clafclear;
+			z-index: -1;
+			background-color: white;
+			width: calc(100% + 100vw);
+			left: -50vw;
+			height: 50%;
+			bottom: 0;
+		}
+	}
 	&.absolute-xs{
 		@media (max-width:991px){
 			img{

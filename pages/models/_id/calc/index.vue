@@ -369,6 +369,25 @@
                   <div class="text-x3">Выберите первый взнос</div>
                   <div class="text-s2i">По умолчанию выбраны условия с самым низким ежемесячным платежом. Вы можете изменить их на более подходящие.</div>
                 </div>
+                <div class="credit-leasing pv-20 hide">
+                  <input type="text" name="" id="">
+                  <button @click="leasingCalc">Расчитать</button>
+                  <p>Цена автомобиля: <b>{{leasing.carPrice | spaceBetweenNum}}</b></p>
+                  <p>Скидка сум: <b>{{leasing.discount | spaceBetweenNum}}</b></p>
+                  <p>Скидка %: <b>{{leasing.discount_percent | spaceBetweenNum}}</b></p>
+                  <p>Процентная ставка  <b>{{leasing.rate | spaceBetweenNum}}</b></p>
+                  <p>Предоплата (мин) <b>{{leasing.ante_min | spaceBetweenNum}}</b></p>
+                  <p>Срок аренды, мес <b>{{leasing.term | spaceBetweenNum}}</b></p>
+                  <p>Разовая комиссия с учетом НДС <b>{{leasing.vat | spaceBetweenNum}}</b></p>
+                  <p>Предоплата   % <b>{{leasing.ante_max | spaceBetweenNum}}</b></p>
+                  <p>ГАИ оформление техпаспорта и номер (пошлины) <b>{{leasing.reg_tech_gai | spaceBetweenNum}}</b></p>
+                  <p>Оформление техпаспорта <b>{{leasing.reg_tech | spaceBetweenNum}}</b></p>
+                  <p>Отчисления в дор.фонд <b>{{leasing.road_fund | spaceBetweenNum}}</b></p>
+                  <p>Страхование (на срок  аренды) <b>{{leasing.insurance | spaceBetweenNum}}</b></p>
+                  <p>W <b>{{leasing.w | spaceBetweenNum}}</b></p>
+                  <p>M <b>{{leasing.m | spaceBetweenNum}}</b></p>
+                  <p>L <b>{{leasing.l | spaceBetweenNum}}</b></p>
+                </div>
                 <div class="credit-inputs mv-10">
                   <form action="">
                     <div class="wrapper-inputs mv-8 cleargix">
@@ -777,7 +796,23 @@ export default {
         ante_max: 100,
         ante_percent: 0,
       },
-
+      leasing: {
+        carPrice:  100000000.00, // Цена авто (кол-во)
+        discount: 0, // Скидка (кол-во)
+        discount_percent: 0, // Скидка (%)
+        rate: 29.9, // Процентная ставка (%)
+        ante_min: 30, // Предоплата мин. (%)
+        term: 36, // Срок аредны, мес (кол-во)
+        vat: 5, // Разовая комиссия с учетом НДС (%)
+        ante_max: 40, // Предоплата макс. (%)
+        reg_tech_gai:  535207.20, // ГАИ оформление техпаспорта и номер (пошлины) (кол-во)
+        reg_tech: 500000, // кол-во
+        road_fund: 3, // Отчисления в дор.фонд (%)
+        insurance: 1, // Страхование (на срок  аренды) (%)
+        w: 0, // Стоимость + дор.фонд и пошлины (с НДС)
+        m: 0, // Eжемесячный платеж
+        l: 0, // Первоначальный взнос
+      },
       payment:{
         price: 0,
         credit_price: 0,
@@ -810,7 +845,61 @@ export default {
 
   },
   methods: {
+    leasingCalc(){
 
+      var carPrice = this.leasing.carPrice
+      var discount = this.leasing.discount
+      var discount_percent = this.leasing.discount_percent
+      var rate = this.leasing.rate
+      var ante_min = this.leasing.ante_min
+      var term = this.leasing.term
+      var vat = this.leasing.vat
+      var ante_max = this.leasing.ante_max
+      var reg_tech_gai = this.leasing.reg_tech_gai
+      var reg_tech = this.leasing.reg_tech
+      var road_fund = this.leasing.road_fund
+      var insurance = this.leasing.insurance
+      var w = this.leasing.w
+      var m = this.leasing.m
+      var l = this.leasing.l
+      
+      
+      
+    //carPrice = carPrice*(ante_max/100)
+
+      w = 
+          (carPrice - discount - carPrice*(discount_percent/100)) 
+          + 
+          (carPrice - discount - carPrice*(discount_percent/100)) 
+          *
+          (road_fund/100)
+          *
+          1.15+reg_tech_gai*1.15;
+
+      m = 
+          w * (1 - ante_max/100) *
+          (
+            rate/(12*100) * ( (1+( rate/(12*100) ))**term )
+            /
+            (((1+(rate/(12*100)))**term) - 1)
+          )
+
+      l = 
+        carPrice * (vat/100) 
+        + 
+        w * (ante_max/100) 
+        + reg_tech +
+        w * ((insurance/100) * (term/12))
+
+
+      this.leasing.w = Math.round(w)
+      this.leasing.m = Math.round(m)
+      this.leasing.l = Math.round(l)
+      console.log(this.leasing.w, this.leasing.m)
+
+
+
+    },
     calc(){
       var result;
       var term = this.payment.term // Срок

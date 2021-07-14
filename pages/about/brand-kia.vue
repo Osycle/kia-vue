@@ -3,15 +3,15 @@
     
     <div class="model-header header-scroll scrolled-down down">
       <div class="container-r">
-        <div class="model-header-panel">
-          <div class="brand-menu">
-            <ul class="list-inline">
-              <li><a href="#block-1" scroll-link>Логотип</a></li>
-              <li><a href="#block-3" scroll-link>Философия</a></li>
-              <li><a href="#block-4" scroll-link>Манифест</a></li>
-              <li><a href="#block-5" scroll-link>Вдохновение</a></li>
-              <li><a href="#block-7" scroll-link>Ценности</a></li>
-              <li><a href="#block-8" scroll-link>Цель</a></li>
+        <div class="model-header-panel flex jc-center">
+          <div class="brand-menu text-uppercase text-center">
+            <ul class="list flex jc-center">
+              <li class="ph-5"><a href="#block-4" scroll-link>Манифест</a></li>
+              <li class="ph-5"><a href="#block-1" scroll-link>Логотип</a></li>
+              <li class="ph-5"><a href="#block-3" scroll-link>Философия</a></li>
+              <li class="ph-5"><a href="#block-5" scroll-link>Вдохновение</a></li>
+              <li class="ph-5"><a href="#block-7" scroll-link>Ценности</a></li>
+              <li class="ph-5"><a href="#block-8" scroll-link>Цель</a></li>
             </ul>
           </div>
         </div>
@@ -20,10 +20,9 @@
 
     <div class="brand-bnr color-white">
       <div class="brand-bnr-video">
-        <div class="bg-shadow"></div>
+        <!-- <div class="bg-shadow"></div> -->
         <div class="video-content bg-video-content cover">
-          <!-- <div class="img" style="background-image: url('/img/brand/bnr.jpg');"></div> -->
-          <video src="/img/brand/bnr.m4v" muted="muted" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
+          <video src="/img/brand/videos/bnr/1920х960.mp4" poster="/img/brand/videos/bnr/770x385.jpg" muted="muted" media="(max-width: 770px)" autoplay="autoplay" loop="loop" preload="" playsinline=""></video>
         </div>
         <div class="desc-content trans-center">
           <div class="btn-content">
@@ -40,7 +39,37 @@
         </div>
       </div>
     </div>
-  
+
+    <div class="block-4 bg-color-1 color-white" id="block-4">
+      <div class="wrapper">
+        <div class="container-r desktop:pv-13">
+          <div class="desc-content mv-10">
+            <div class="box-md-8 box-lg-6 entry-header">
+              <div class="color-gray-4 text-uppercase mb-2">Манифест</div>
+              <div class="text-x4">Любое творчество начинается <br> с движения</div>
+            </div>
+            <div class="text-s2 ctext-2 mv-4 desktop:mv-8">
+              <p>
+                Как дизайнеры, создающие для потребителей, местных сообществ и общества в целом устойчивые мобильные решения, 
+                <span class="color-2">наша цель в Kia заключается в создании инновационных продуктов, </span>
+                которые вдохновляют вас, когда вы находитесь в движении, и в предоставлении востребованных и удобных услуг, демонстрируя нашу веру в то, что самый ценный ресурс для каждого человека — это его время.
+              </p>
+              <p>
+                Мы рождены в центре вдохновения, страсти и энтузиазма. 
+                <span class="color-2">Наш настрой на рост и прогресс проявляется </span>
+                в каждом сотруднике Kia по всему миру. 
+                <span class="color-2">И мы стремимся реализовывать цель бренда каждый день.</span>
+                <br><br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="img-fulled">
+          <img src="/img/brand/4.jpg" alt="">
+          <div class="img" style="background-image: url('/img/brand/2.jpg');"></div>
+        </div>
+      </div>
+    </div>
     <div class="brand-logo bg-color-1 color-white" id="block-1">
       <div class="container pv-5 desktop:pv-13">
         <div class="img-content mv-12 text-center-md mobile:ph-6">
@@ -96,9 +125,9 @@
       </div>
     </div>
 
-    <div class="block-3 bg-color-1 color-white" id="block-3">
+    <div class="block-3 bg-color-1 color-white over-hidden pt-10 desktop:pt-15 mb-10 desktop:mb-15" id="block-3">
       <div class="wrapper">
-        <div class="container-r pv-10 desktop:pv-13">
+        <div class="container-r">
           <div class="desc-content">
             <div class="box-md-8 box-lg-6 entry-header">
               <div class="color-gray-4 text-uppercase mb-2">Философия</div>
@@ -112,39 +141,9 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="img-fulled">
-          <img src="/img/brand/3.jpg" alt="">
-          <div class="img" style="background-image: url('/img/brand/3.jpg');"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="block-4 bg-color-1 color-white" id="block-4">
-      <div class="wrapper">
-        <div class="container-r">
-          <div class="desc-content mv-10">
-            <div class="box-md-8 box-lg-6 entry-header">
-              <div class="color-gray-4 text-uppercase mb-2">Манифест</div>
-              <div class="text-x4">Любое творчество начинается с движения</div>
-            </div>
-            <div class="text-s2 ctext-2 mv-4 desktop:mv-8">
-              <p>
-                Как дизайнеры, создающие для потребителей, местных сообществ и общества в целом устойчивые мобильные решения, 
-                <span class="color-2">наша цель в Kia заключается в создании инновационных продуктов, </span>
-                которые вдохновляют вас, когда вы находитесь в движении, и в предоставлении востребованных и удобных услуг, демонстрируя нашу веру в то, что самый ценный ресурс для каждого человека — это его время.
-              </p>
-              <p>
-                Мы рождены в центре вдохновения, страсти и энтузиазма. 
-                <span class="color-2">Наш настрой на рост и прогресс проявляется </span>
-                в каждом сотруднике Kia по всему миру. 
-                <span class="color-2">И мы стремимся реализовывать цель бренда каждый день.</span>
-              </p>
-            </div>
-          </div>
-          <div class="img-fulled desktop:mt-20">
-            <img src="/img/brand/4.jpg" alt="">
-            <div class="img" style="background-image: url('/img/brand/4.jpg');"></div>
+          <div class="img-fulled half-white mt-3 desktop:mt-12">
+            <img src="/img/brand/3.jpg" alt="">
+            <div class="img" style="background-image: url('/img/brand/3.jpg');"></div>
           </div>
         </div>
       </div>
@@ -316,7 +315,75 @@
       </div>
     </div>
 
-
+    <div class="short-news">
+      <div class="container-p pv-8">
+        <div class="entry-header m-v-30 text-center box-md-12 box-lg-7 m-auto">
+          <div class="h3-size">Представители компании <br> про новый бренд Kia</div>
+        </div>
+        <div class="short-news-items boxes-4 owl-carousel owl-btn-2 mv-10 desktop:mv-20">
+          <figure>
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <a href="https://youtu.be/6o9bFgmVLmM?list=TLGGiPHBQ3y1xCwwMjA3MjAyMQ" data-fancybox>
+                  <div class="btn-play">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                  </div>
+                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-1.jpg\');'"></div>
+                </a>
+              </div>
+              <div class="desc-content">
+                <div class="text-s2i-b">Часть I: Полная трансформация</div>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <a href="https://youtu.be/djrdAdyKYwQ?list=TLGG65zXND6IPGkwMjA3MjAyMQ" data-fancybox>
+                  <div class="btn-play">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                  </div>
+                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-2.jpg\');'"></div>
+                </a>
+              </div>
+              <div class="desc-content">
+                <div class="text-s2i-b">Часть II: Новая цель бренда</div>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <a href="https://youtu.be/KNlirWGAP5w?list=TLGG3fI1tEQsC_kwMjA3MjAyMQ" data-fancybox>
+                  <div class="btn-play">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                  </div>
+                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-3.jpg\');'"></div>
+                </a>
+              </div>
+              <div class="desc-content">
+                <div class="text-s2i-b">Часть III: Новый облик бренда</div>
+              </div>
+            </div>
+          </figure>
+          <figure>
+            <div class="fig-wrapper">
+              <div class="img-content">
+                <a href="https://youtu.be/9f76w8vQgb4?list=TLGGrf4xoWTcUtswMjA3MjAyMQ" data-fancybox>
+                  <div class="btn-play">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class=""><path d="M16 10l-9 5.196V4.804L16 10z" fill="currentColor"></path></svg>
+                  </div>
+                  <div class="img" :style="'background-image: url(\'/img/brand/videolink-4.jpg\');'"></div>
+                </a>
+              </div>
+              <div class="desc-content">
+                <div class="text-s2i-b">Часть IV: Дизайн для будущего</div>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
     <div class="block-9 color-white">
       <div class="wrapper relative">
         <div class="desc-content pv-20">
@@ -334,6 +401,7 @@
       </div>
     </div>
 
+    <KiaworldOther :kiaworld-other-items="page_data.other_pages" />
 
   </div>
 </template>
